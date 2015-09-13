@@ -1,0 +1,439 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     13227,        430]
+NotebookOptionsPosition[     10602,        332]
+NotebookOutlinePosition[     10987,        349]
+CellTagsIndexPosition[     10944,        346]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Short Assignment 1: Textual Analysis", "Title",
+ CellChangeTimes->{{3.651163249584736*^9, 3.651163254056362*^9}, {
+  3.651163523375786*^9, 3.651163526158741*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["History 2816A / Digital Humanities 2130A", "Chapter",
+ CellChangeTimes->{{3.6511632289941177`*^9, 3.651163245097763*^9}}],
+
+Cell["\<\
+Handed out: 15 Sep 2015
+Due date: 01 Oct 2015
+Zero date: 13 Oct 2015\
+\>", "Subchapter",
+ CellChangeTimes->{{3.651163258088455*^9, 3.6511633041027813`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Worth 10% of your final grade", "Subchapter",
+ CellChangeTimes->{{3.651165418980345*^9, 3.651165425635522*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Your information", "Section",
+ CellChangeTimes->{{3.6511634475779753`*^9, 3.651163452881803*^9}}],
+
+Cell["Name:", "Text",
+ CellChangeTimes->{{3.651163456585217*^9, 3.651163457633196*^9}}],
+
+Cell["Email:", "Text",
+ CellChangeTimes->{{3.651163467720752*^9, 3.651163468968869*^9}}],
+
+Cell["Student number:", "Text",
+ CellChangeTimes->{{3.651163460537118*^9, 3.6511634629929047`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Choose a text to analyze", "Section",
+ CellChangeTimes->{{3.6511634748005457`*^9, 3.65116347628865*^9}, {
+  3.65116351468721*^9, 3.651163516279201*^9}}],
+
+Cell[TextData[{
+ "Choose an ASCII text that is available online and import it into ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ ". If you\[CloseCurlyQuote]d like, you can use ",
+ StyleBox["The Narrative of the Life of Frederick Douglass, An American Slave",
+  FontSlant->"Italic"],
+ " from ",
+ ButtonBox["Project Gutenberg",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["http://www.gutenberg.org"], None},
+  ButtonNote->"http://www.gutenberg.org"],
+ ". Or you can choose your own text from Project Gutenberg or elsewhere. The \
+text that you choose should be at least a couple of thousand words long, and \
+ideally longer. If you have any questions, email me."
+}], "Text",
+ CellChangeTimes->{{3.65116349140063*^9, 3.651163512199279*^9}, {
+  3.651163551189911*^9, 3.6511635606615543`*^9}, {3.651163590668619*^9, 
+  3.651163597148263*^9}, {3.651163754279532*^9, 3.651163881945941*^9}, {
+  3.651164011389619*^9, 3.651164013733354*^9}, {3.651164069549185*^9, 
+  3.6511640752274027`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Narrative of Frederick Douglass", "Subsection",
+ CellChangeTimes->{{3.6511638632668257`*^9, 3.6511638833139973`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"douglass", "=", 
+   RowBox[{
+   "Import", "[", "\"\<http://www.gutenberg.org/cache/epub/23/pg23.txt\>\"", 
+    "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.65116387624164*^9, 3.6511639140337152`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"douglassWords", "=", 
+   RowBox[{"TextWords", "[", "douglass", "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.6511639699428463`*^9, 3.651163995910075*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Length", "[", "douglassWords", "]"}]], "Input",
+ CellChangeTimes->{{3.651163984859726*^9, 3.651164002182596*^9}}],
+
+Cell[BoxData["43976"], "Output",
+ CellChangeTimes->{3.65116400252977*^9}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Word frequencies", "Section",
+ CellChangeTimes->{{3.6511635768610373`*^9, 3.651163577477025*^9}, {
+  3.65116403665273*^9, 3.651164038948512*^9}}],
+
+Cell["\<\
+Do a word frequency analysis of your text. What can you learn by studying the \
+terms that occur commonly?\
+\>", "Text",
+ CellChangeTimes->{{3.6511640839788733`*^9, 3.651164089482643*^9}, {
+  3.6511641545923862`*^9, 3.651164170095868*^9}}],
+
+Cell["\<\
+Use WolframAlpha to determine when some of those terms were first used.\
+\>", "Text",
+ CellChangeTimes->{{3.651164209126666*^9, 3.651164220677907*^9}, 
+   3.651164288467431*^9}],
+
+Cell["\<\
+Based on word frequencies alone, what kinds of hypotheses can you make about \
+your text? Try to explain your reasoning.\
+\>", "Text",
+ CellChangeTimes->{{3.651164251388753*^9, 3.651164285707658*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Word clouds", "Section",
+ CellChangeTimes->{{3.6511643493218813`*^9, 3.6511643531131268`*^9}}],
+
+Cell["\<\
+Generate word clouds for your text both with and without stopwords.\
+\>", "Text",
+ CellChangeTimes->{{3.651164355104864*^9, 3.6511643707444572`*^9}, {
+  3.651165465787504*^9, 3.6511654724258347`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Word search", "Section",
+ CellChangeTimes->{{3.651164385679694*^9, 3.651164387679743*^9}}],
+
+Cell[TextData[{
+ "Using the ",
+ StyleBox["searchWordList",
+  FontSlant->"Italic"],
+ " command that we defined in class, study the contexts in which some of the \
+commonly used terms appear in your text. Do your findings seem to confirm or \
+disconfirm the hypotheses you made based on word frequencies?"
+}], "Text",
+ CellChangeTimes->{{3.651164391639648*^9, 3.651164448229591*^9}, {
+  3.651164491028096*^9, 3.651164522922999*^9}}],
+
+Cell["\<\
+What new hypotheses are suggested by searching through the text?\
+\>", "Text",
+ CellChangeTimes->{{3.651164525570706*^9, 3.651164551801835*^9}}],
+
+Cell["\<\
+Be sure to make use of word stemming and synonyms as appropriate.\
+\>", "Text",
+ CellChangeTimes->{{3.651164559121543*^9, 3.651164589312572*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Parts of speech", "Section",
+ CellChangeTimes->{{3.651164606135798*^9, 3.651164609703794*^9}}],
+
+Cell["\<\
+Try searching through your text for frequently used pronouns, nouns, and/or \
+adjectives. What can you learn?\
+\>", "Text",
+ CellChangeTimes->{{3.651164611711701*^9, 3.651164662837863*^9}, {
+  3.651164917836712*^9, 3.651164937844165*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["N-grams", "Section",
+ CellChangeTimes->{{3.6511647049889307`*^9, 3.651164707396237*^9}}],
+
+Cell["\<\
+Analyze the bigrams and trigrams that occur frequently in your text. Which \
+frequent terms usually or always occur as part of an n-gram sequence?\
+\>", "Text",
+ CellChangeTimes->{{3.651164711347959*^9, 3.651164777745625*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Words for the past", "Section",
+ CellChangeTimes->{{3.651164841399273*^9, 3.651164843231269*^9}}],
+
+Cell["\<\
+Try studying the ways that the author of your text uses words for the past. \
+Does this help you to better understand his or her orientation to history or \
+memory?\
+\>", "Text",
+ CellChangeTimes->{{3.651164846223188*^9, 3.651164897285535*^9}, {
+  3.6511649404599943`*^9, 3.651165009065696*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Gendered pronouns and regular past-tense verbs", "Section",
+ CellChangeTimes->{{3.651165019585824*^9, 3.651165058432032*^9}}],
+
+Cell[TextData[{
+ "Does your author use a different set of regular past-tense verbs with ",
+ StyleBox["he",
+  FontSlant->"Italic"],
+ " and ",
+ StyleBox["she",
+  FontSlant->"Italic"],
+ "?"
+}], "Text",
+ CellChangeTimes->{{3.651165034736698*^9, 3.651165093886793*^9}}],
+
+Cell["Do you see other evidence of gendered language in your text?", "Text",
+ CellChangeTimes->{{3.65116510208631*^9, 3.651165111990192*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Concordance", "Section",
+ CellChangeTimes->{{3.651165145933514*^9, 3.651165147324863*^9}}],
+
+Cell["\<\
+Generate a concordance for your text and use it to study some keywords that \
+you haven\[CloseCurlyQuote]t yet analyzed. What new hypotheses can you make?\
+\>", "Text",
+ CellChangeTimes->{{3.6511651491726637`*^9, 3.651165208706759*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Quotation marks", "Section",
+ CellChangeTimes->{{3.651165244977579*^9, 3.651165246817631*^9}}],
+
+Cell["\<\
+Does your text include passages in quotation marks or other kinds of paired \
+puncuation marks (such as parentheses)? If so, extract these passages and see \
+if they provide any new information for your analysis.\
+\>", "Text",
+ CellChangeTimes->{{3.651165249337419*^9, 3.651165330398789*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Pattern matching", "Section",
+ CellChangeTimes->{{3.6511655255846853`*^9, 3.651165527504005*^9}}],
+
+Cell[TextData[{
+ "Use three different patterns to study the distribution of interesting terms \
+in your text. If you\[CloseCurlyQuote]d like, you can use the ",
+ StyleBox["patternMatchTool",
+  FontSlant->"Italic"],
+ " command that we defined in class to help come up with these patterns."
+}], "Text",
+ CellChangeTimes->{{3.651165572542395*^9, 3.651165623340802*^9}, {
+  3.651165656171672*^9, 3.6511657069779882`*^9}}],
+
+Cell["\<\
+Give an example of how pattern matching can be used to help support or \
+disconfirm a hypothesis about the text.\
+\>", "Text",
+ CellChangeTimes->{{3.65116573368003*^9, 3.651165756911991*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Reflect", "Section",
+ CellChangeTimes->{{3.651165761119735*^9, 3.651165763727984*^9}}],
+
+Cell["\<\
+Write a couple of paragraphs describing your experiences doing textual \
+analysis. What things did you find easy or hard to do? Did anything surprise \
+you? Did you come up with hypotheses that you couldn\[CloseCurlyQuote]t \
+figure out how to test? Were there kinds of evidence that you could not find \
+but would have liked to have? How might you use techniques like these in your \
+future work or studies? \
+\>", "Text",
+ CellChangeTimes->{{3.6511657661997957`*^9, 3.65116586498845*^9}, {
+  3.651165903837219*^9, 3.651165965073354*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Submit your assignment", "Section",
+ CellChangeTimes->{{3.65116334630989*^9, 3.651163358116725*^9}, {
+  3.6511644612770357`*^9, 3.6511644616611767`*^9}}],
+
+Cell["\<\
+When you are finished, submit this notebook to the OWL site for the course\
+\>", "Text",
+ CellChangeTimes->{{3.651163360260654*^9, 3.651163380900011*^9}}],
+
+Cell[TextData[ButtonBox["https://owl.uwo.ca/portal/site/194c7052-fad1-49ac-\
+8adb-15320726b3ee",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://owl.uwo.ca/portal/site/194c7052-fad1-49ac-8adb-15320726b3ee"],
+    None},
+ ButtonNote->
+  "https://owl.uwo.ca/portal/site/194c7052-fad1-49ac-8adb-15320726b3ee"]], \
+"Text",
+ CellChangeTimes->{{3.6511634029600067`*^9, 3.6511634105223923`*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{808, 911},
+WindowMargins->{{Automatic, 502}, {Automatic, 76}},
+Magnification:>1.25 Inherited,
+FrontEndVersion->"10.2 for Mac OS X x86 (32-bit, 64-bit Kernel) (July 6, \
+2015)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 168, 2, 183, "Title"],
+Cell[CellGroupData[{
+Cell[773, 28, 127, 1, 81, "Chapter"],
+Cell[903, 31, 166, 5, 164, "Subchapter"],
+Cell[CellGroupData[{
+Cell[1094, 40, 117, 1, 57, "Subchapter"],
+Cell[CellGroupData[{
+Cell[1236, 45, 103, 1, 80, "Section"],
+Cell[1342, 48, 87, 1, 37, "Text"],
+Cell[1432, 51, 88, 1, 37, "Text"],
+Cell[1523, 54, 99, 1, 37, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1659, 60, 158, 2, 80, "Section"],
+Cell[1820, 64, 996, 21, 132, "Text"],
+Cell[CellGroupData[{
+Cell[2841, 89, 123, 1, 54, "Subsection"],
+Cell[2967, 92, 238, 6, 57, "Input"],
+Cell[3208, 100, 191, 4, 36, "Input"],
+Cell[CellGroupData[{
+Cell[3424, 108, 137, 2, 36, "Input"],
+Cell[3564, 112, 73, 1, 35, "Output"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3698, 120, 151, 2, 80, "Section"],
+Cell[3852, 124, 249, 5, 61, "Text"],
+Cell[4104, 131, 187, 4, 37, "Text"],
+Cell[4294, 137, 210, 4, 61, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4541, 146, 100, 1, 80, "Section"],
+Cell[4644, 149, 210, 4, 37, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4891, 158, 96, 1, 80, "Section"],
+Cell[4990, 161, 430, 9, 85, "Text"],
+Cell[5423, 172, 154, 3, 37, "Text"],
+Cell[5580, 177, 155, 3, 37, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5772, 185, 100, 1, 80, "Section"],
+Cell[5875, 188, 248, 5, 61, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6160, 198, 94, 1, 80, "Section"],
+Cell[6257, 201, 236, 4, 61, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6530, 210, 103, 1, 80, "Section"],
+Cell[6636, 213, 305, 6, 61, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6978, 224, 131, 1, 80, "Section"],
+Cell[7112, 227, 264, 9, 37, "Text"],
+Cell[7379, 238, 141, 1, 37, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7557, 244, 96, 1, 80, "Section"],
+Cell[7656, 247, 246, 4, 61, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7939, 256, 100, 1, 80, "Section"],
+Cell[8042, 259, 302, 5, 85, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[8381, 269, 103, 1, 80, "Section"],
+Cell[8487, 272, 417, 8, 85, "Text"],
+Cell[8907, 282, 201, 4, 61, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[9145, 291, 92, 1, 80, "Section"],
+Cell[9240, 294, 549, 9, 132, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[9826, 308, 159, 2, 80, "Section"],
+Cell[9988, 312, 164, 3, 37, "Text"],
+Cell[10155, 317, 395, 9, 37, "Text"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
