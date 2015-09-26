@@ -1,0 +1,1701 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     59701,       1692]
+NotebookOptionsPosition[     51285,       1439]
+NotebookOutlinePosition[     53116,       1491]
+CellTagsIndexPosition[     53037,       1486]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ TogglerBox[2, {1->
+  OverlayBox[{
+   TagBox[GridBox[{
+      {
+       GraphicsBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBLECOU2VJahIzkCEFxAJADBL8//8/
+Qfzo0SP2GzduCF29elXs/Pnz0sgYn747d+5wA9VoArE/EB8B4uPoGJu+Fy9e
+MF+4cEENKB8AxBeB+AMQ/wXif+gYi1tBdvoB8QUg/ghV9x8XRtb7/PlzFqje
+t1D7cOrDpv/ixYvqUHuJ0ousHxpWAVA3E6UXWT80nC8S8i82/Q8ePOAgx26Y
+/uvXrwsD2UdJ8Tey/kuXLolD0wNJbofpB6YVSUr0n4ek5QHTT6n7KQ0/SuOP
+0vRDafqlRv6BxgPZ+Ret/HhHrBl4yi9QWHwiFB7Yyk+QO6B+CTxPYvmJjG/f
+vs17nozyG1f9cR6t7gBhAPeiQ4A=
+         "], {{0, 26}, {16, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{16, 26},
+        PlotRange->{{0, 16}, {0, 26}}], 
+       GraphicsBox[RasterBox[CompressedData["
+1:eJzt2d9OVFcUB2DSNmkfQRFEiRQ1gCK1vW4fwT6BJu1tE9uk8fUUERE9aECC
+qLGYEmKkErWxtont2mGdcDLVOpNgZijfJB9hzp+99j6zb9b5Hb3ww7nvP+rr
+6/vxs/hz7vzPX1+8eP7St5/El28u/fTdhY/jn/6w8GlfXzlYVdWhDgyEwXT4
+HQYbBho6qQMAAOxt/Q0HWxxo0TzX3xij7juGwpFwNAyHY2EkfB6OhxPhZBgL
+42EinAqnw2SYSl+Es+HL9FWb6uvP5hj1eJNZ41TWHM85nMw5Hc85juSch3MN
+R3JNdf/UfGbtPqf6WdW6/XsDAADsV7vd/7b2vqPV2/veuuc9k6Za1Mfr3vVt
+feto9e+eVb9KL2tmz81M+n25dadZ9bU2zYXbYSmshNXwoOF+uJfn7obFcKfa
+/twMN8L1MNtBTQAAYO+ZSVfTdLqSLreoj0/n9eXe0jeUHmQ+3AoL1XZ/UfqR
+5Wq77yg9yMPwS3gcfg0b4Ul4Gn4LW+F5eBl+D6/CH+F1+DP99Q71+dd5z6sc
+42WOuZU1nmbNjZzD45zTw5zjSs55KdewkGuazzXONp5Xu8+pflb185rpgd8d
+AABgv/kQ/W/J4krGVvrIkruVDO5RWAvr1U7fuxmeVTt9b/Ei1d+38prNaqdv
+Xc+xHuXY97LWYtbWr9Jryj4sGXPJmkvmXD7l/UrZsyWTLu9dyj4u72Ca2fVq
+nivvY8renuug5ps2/b2L2q0JAADwX3azT/kQuv18AAAA2Pv0rOxn3djz3X6f
+BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAADsHW/a1I2aAAAAAAAAsJ91OyOEburGnr/W
+prlwOyyFlbAaHjTcD/fy3N2wGO5U25+b4Ua4HmY7qAkAAAAAAAC9aCZdTdPp
+Srrcoj4+ndeXe0tuVjK4+XCr2s7iSsa2XG3nbiWDexTWwnrYCE/CZngWtsLz
+9CLV37fyms28ZyPHWMsxH2SN5ax5O+cwn3Oabayv3XXVa6vXN9MDvxN7W9mH
+JWMuWXPJnMunZNBlz5ZMumTTZR+XrLqZXa/muZJtl70910HNQx0YCIPp8DsM
+Ngw0dFIHAAAAAAAAel1/w8EWB1o0z/U3xqhzt6FwNAyHY2EkjIYT4WQYC+Nh
+IpwOk+FMmmpRH5/Mayfy3rEc60SOPZK1hrP2ULWT9zXX2O666rXVuv378P/S
+zJ6bmfT7cuuOsup/AFmW9vs=
+         "], {{0, 26}, {2000, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{2000, 26},
+        PlotRange->{{0, 2000}, {0, 26}}], 
+       GraphicsBox[RasterBox[CompressedData["
+1:eJy9lstOwkAUhhthQUJcuUBl5cr4GPoABvEJINGtCZoYng4Il4Z7gXAJYUHY
+QAi3GlYQPZ5/4pCm0pYC2uSDaXvmn5lzzpzpVfQl/HyiKMqrj3/CkffbWCwS
+f/TyzV387Snq4cYlc87gYbVaDbpB07SLRqMR6Pf7PiJSnOA+6h7kmBBz0+12
+Tx30v/bgk9GZOvPAa7oejUYeC306AIz1wWjM/WAw8B9ZX4L1TDHGcDj02ulX
+KpUNbt79jKHBV1b66Fcul3fCYgzEJNTr9fxmfaldKpWoUChQPp8X/8ViUWB8
+BhuLMRCPGvJqmz76QWOxWFCtVqNsNku5XE6AdqfToclkImxga7cGuT/M+uw/
+ms/ntF6vqdlsUjKZFKCNC/pynTZxyLbb7bNt/sHcMpkMzWYzoVev1wW4xuOx
+WAdsbGIAH6ncJ7BNH/6FRjqdJl3XSV7T6VSsA76CDWxt9oSKOmLOH/RBLKEP
+LVVVN/qJRGKjDxsnfSZoN3/4CPNfrVa/5n+IvtH/iDHu9/G/2T/G/JT5A41U
+KiXm3Wq1xBhcx5zy0zK+Mj+Xy6XIf5n7EuQ/9sYh+Wneqy73r+3+2rX2OPh+
+a31wqpHG5xbatvXtCDjW5wO1Z9UdzheXyPMRPrc6H49yvpvn/Y/fJ3/6ffUN
+AyH/6w==
+         "], {{0, 26}, {24, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{24, 26},
+        PlotRange->{{0, 24}, {0, 26}}]}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {Automatic, 
+         Scaled[0.6], Automatic}},
+     GridBoxSpacings->{"Columns" -> {{0}}, "Rows" -> {{0}}}],
+    "Grid"], 
+   PaneBox[
+    StyleBox[
+     RowBox[{
+     "Background", " ", "images", " ", "and", " ", "text", " ", "colors", " ",
+       "have", " ", "been", " ", "adjusted", " ", "for", " ", "editing", " ", 
+      
+      RowBox[{"purposes", "."}]}],
+     LineBreakWithin->False,
+     FontFamily->"Helvetica",
+     FontSize->12,
+     FontColor->GrayLevel[0.4]],
+    Alignment->Center,
+    ImageSize->Scaled[0.5],
+    ScrollPosition->{0., 0.}]},
+   Alignment->{Center, Center}], 2->""}, "1"]], "SlideShowNavigationBar", \
+"FirstSlide",
+ CellMargins->{{0, 0}, {0, 0}},
+ CellFrameLabelMargins->2,
+ CellSize->{Inherited, 30},
+ CellChangeTimes->{3.647361175465108*^9},
+ TextAlignment->Center,
+ CellTags->"SlideShowHeader"],
+
+Cell["\<\
+Digital Research Methods 05A:
+Associations\
+\>", "Title",
+ CellChangeTimes->{
+  3.559948400406288*^9, {3.647331852839075*^9, 3.647331861295168*^9}, {
+   3.647331922221755*^9, 3.647331924532915*^9}, {3.647332658962614*^9, 
+   3.64733266480881*^9}, {3.6473611327373047`*^9, 3.647361139759391*^9}, {
+   3.647448943135475*^9, 3.6474489472294493`*^9}, {3.647798451323348*^9, 
+   3.647798456545793*^9}}],
+
+Cell[TextData[{
+ "William J Turkel, ",
+ StyleBox["wturkel@uwo.ca",
+  FontSlant->"Italic",
+  FontColor->RGBColor[
+   0.396078431372549, 0.596078431372549, 0.796078431372549]],
+ "\nHistory 2816 / Digital Humanities 2130 / History 9877"
+}], "Subtitle",
+ CellChangeTimes->{{3.647331955723979*^9, 3.6473319708190517`*^9}, 
+   3.647332103720562*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Overview", "Section",
+ CellChangeTimes->{{3.647361153919208*^9, 3.6473611548467712`*^9}}],
+
+Cell[TextData[{
+ "In our work so far, we have made extensive use of ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ "\[CloseCurlyQuote]s string and list data structures. The ",
+ StyleBox["Association",
+  FontWeight->"Bold"],
+ " is a data structure that allows us to look up ",
+ StyleBox["values",
+  FontSlant->"Italic"],
+ " given a ",
+ StyleBox["key.",
+  FontSlant->"Italic"]
+}], "Text",
+ CellChangeTimes->{{3.647361157582405*^9, 3.647361159086673*^9}, {
+  3.652289332903792*^9, 3.6522894285785007`*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Setup", "Section",
+ CellChangeTimes->{{3.647716369451888*^9, 3.647716370003084*^9}, {
+  3.647798466178773*^9, 3.647798467721382*^9}}],
+
+Cell["We will begin by using Hamlet\[CloseCurlyQuote]s soliloquy", "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.647956984645157*^9, 3.647956988556302*^9}, {3.647957400101469*^9, 
+  3.6479574156208*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"toBe", "=", 
+   RowBox[{"ExampleData", "[", 
+    RowBox[{"{", 
+     RowBox[{"\"\<Text\>\"", ",", "\"\<ToBeOrNotToBe\>\""}], "}"}], "]"}]}], 
+  ";"}]], "Input",
+ CellChangeTimes->{{3.647956991006888*^9, 3.6479570047081957`*^9}, {
+  3.647957422669182*^9, 3.647957463274691*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Functions", "Subsubsection",
+ CellChangeTimes->{{3.647663090922222*^9, 3.647663091953466*^9}}],
+
+Cell["Here are some functions we defined in earlier classes.", "Text",
+ CellChangeTimes->{{3.647614116866262*^9, 3.64761412996941*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"viewData", "[", "x_", "]"}], ":=", "\[IndentingNewLine]", 
+  RowBox[{"Framed", "[", 
+   RowBox[{"Pane", "[", 
+    RowBox[{"x", ",", 
+     RowBox[{"{", 
+      RowBox[{"Automatic", ",", "200"}], "}"}], ",", 
+     RowBox[{"Scrollbars", "\[Rule]", "True"}]}], "]"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.511539182255096*^9, 3.51153920239167*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"searchWordList", "[", 
+   RowBox[{"wlist_", ",", "keyword_"}], "]"}], ":=", "\[IndentingNewLine]", 
+  RowBox[{"Style", "[", 
+   RowBox[{
+    RowBox[{"TableForm", "[", 
+     RowBox[{"Map", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"wlist", "\[LeftDoubleBracket]", 
+         RowBox[{
+          RowBox[{"Max", "[", 
+           RowBox[{"1", ",", 
+            RowBox[{"#", "-", "5"}]}], "]"}], ";;", 
+          RowBox[{"Min", "[", 
+           RowBox[{
+            RowBox[{"Length", "[", "wlist", "]"}], ",", 
+            RowBox[{"#", "+", "5"}]}], "]"}]}], "\[RightDoubleBracket]"}], 
+        "&"}], ",", 
+       RowBox[{"Flatten", "[", 
+        RowBox[{"Position", "[", 
+         RowBox[{"wlist", ",", "keyword"}], "]"}], "]"}]}], "]"}], "]"}], 
+    ",", "\"\<Small\>\""}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.647364136218231*^9, 3.647364161938678*^9}, {
+   3.647364222768314*^9, 3.647364297501746*^9}, {3.647364358371882*^9, 
+   3.647364363604228*^9}, {3.647366155621243*^9, 3.6473661613234053`*^9}, {
+   3.647366199843405*^9, 3.647366213809774*^9}, {3.647523197852652*^9, 
+   3.6475232404495573`*^9}, 3.647617431777544*^9}],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"stopwords", "=", 
+   RowBox[{"WordData", "[", 
+    RowBox[{"All", ",", "\"\<Stopwords\>\""}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"nonStopwordQ", "[", "w_", "]"}], ":=", "\[IndentingNewLine]", 
+  RowBox[{"Not", "[", 
+   RowBox[{"MemberQ", "[", 
+    RowBox[{"stopwords", ",", "w"}], "]"}], "]"}]}]}], "Input",
+ CellChangeTimes->{{3.639670580673246*^9, 3.639670586118531*^9}, {
+  3.63967080861541*^9, 3.639670819382111*^9}, {3.647614148033167*^9, 
+  3.6476141549808607`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"capitalizedQ", "[", "w_", "]"}], ":=", 
+  RowBox[{"UpperCaseQ", "[", 
+   RowBox[{"StringTake", "[", 
+    RowBox[{"w", ",", "1"}], "]"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.639674194783305*^9, 3.639674210052472*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"nounQ", "[", "str_", "]"}], ":=", "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"Cases", "[", 
+    RowBox[{
+     RowBox[{"WordData", "[", "str", "]"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"_", ",", "\"\<Noun\>\"", ",", "___"}], "}"}]}], "]"}], 
+   "\[NotEqual]", 
+   RowBox[{"{", "}"}]}]}]], "Input",
+ CellChangeTimes->{{3.6413224616254797`*^9, 3.641322470126894*^9}, {
+  3.6413225199659224`*^9, 3.6413225273978577`*^9}, {3.64132261181325*^9, 
+  3.641322617353672*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"adjectiveQ", "[", "str_", "]"}], ":=", "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"Cases", "[", 
+    RowBox[{
+     RowBox[{"WordData", "[", "str", "]"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"_", ",", "\"\<Adjective\>\"", ",", "___"}], "}"}]}], "]"}], 
+   "\[NotEqual]", 
+   RowBox[{"{", "}"}]}]}]], "Input",
+ CellChangeTimes->{{3.6413224616254797`*^9, 3.641322470126894*^9}, {
+  3.6413225199659224`*^9, 3.6413225273978577`*^9}, {3.64132261181325*^9, 
+  3.641322617353672*^9}, {3.641564201469569*^9, 3.641564208292976*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"collocationQ", "[", "bi_", "]"}], ":=", "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"adjectiveQ", "[", 
+      RowBox[{"bi", "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}], 
+      "]"}], "||", 
+     RowBox[{"nounQ", "[", 
+      RowBox[{"bi", "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}], 
+      "]"}]}], ")"}], "&&", 
+   RowBox[{"nounQ", "[", 
+    RowBox[{"bi", "\[LeftDoubleBracket]", "2", "\[RightDoubleBracket]"}], 
+    "]"}]}]}]], "Input",
+ CellChangeTimes->{{3.647746490472898*^9, 3.647746548307643*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Word frequencies with WordCounts", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.647956805739716*^9, 3.64795681426644*^9}, {3.647956925166787*^9, 
+  3.647956964045171*^9}}],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["WordCounts",
+  FontWeight->"Bold"],
+ " command takes a string or list of words and returns an ",
+ StyleBox["Association",
+  FontWeight->"Bold"],
+ " containing word frequencies"
+}], "Text",
+ CellChangeTimes->{{3.6479568276093597`*^9, 3.6479568308980007`*^9}, {
+  3.647956935773436*^9, 3.647956967029282*^9}, {3.647957480154738*^9, 
+  3.647957486322526*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"toBeWordFrequenciesAssociationMixedCase", "=", 
+   RowBox[{"WordCounts", "[", "toBe", "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.647957490102902*^9, 3.647957515657711*^9}}],
+
+Cell[TextData[{
+ "An Association begins with <| and ends with |>. In this case, each element \
+is a ",
+ StyleBox["Rule",
+  FontWeight->"Bold"],
+ " which pairs a ",
+ StyleBox["key",
+  FontSlant->"Italic"],
+ " (e.g., \[OpenCurlyDoubleQuote]the\[CloseCurlyDoubleQuote]) with a ",
+ StyleBox["value",
+  FontSlant->"Italic"],
+ " (e.g., 15). You can make the arrow symbol used in ",
+ StyleBox["Rule",
+  FontWeight->"Bold"],
+ " with \[EscapeKey]->\[EscapeKey]"
+}], "Text",
+ CellChangeTimes->{{3.647957536200562*^9, 3.6479575671516743`*^9}, {
+  3.647957597557641*^9, 3.647957616517174*^9}, {3.647959114952932*^9, 
+  3.6479591321445007`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Short", "[", "toBeWordFrequenciesAssociationMixedCase", 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.647957527414753*^9, 3.64795753109791*^9}}],
+
+Cell["We can look up a key in an association like this", "Text",
+ CellChangeTimes->{{3.647957587333712*^9, 3.647957594285851*^9}, {
+  3.647957628580748*^9, 3.6479576433168697`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"toBeWordFrequenciesAssociationMixedCase", "[", "\"\<the\>\"", 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.6479576459015007`*^9, 3.647957651348481*^9}}],
+
+Cell[TextData[{
+ "If we ask for something that isn\[CloseCurlyQuote]t there, it will respond \
+with ",
+ StyleBox["Missing",
+  FontWeight->"Bold"]
+}], "Text",
+ CellChangeTimes->{{3.647959524370285*^9, 3.647959537562014*^9}}],
+
+Cell[BoxData[
+ RowBox[{"toBeWordFrequenciesAssociationMixedCase", "[", "\"\<thee\>\"", 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.6479576459015007`*^9, 3.647957651348481*^9}, 
+   3.647959544801961*^9}],
+
+Cell[TextData[{
+ "If we want to ignore case, we can use the option ",
+ StyleBox["IgnoreCase \[Rule] True",
+  FontSlant->"Italic"],
+ " (note that the option is in the form of a ",
+ StyleBox["Rule",
+  FontWeight->"Bold"],
+ ")"
+}], "Text",
+ CellChangeTimes->{{3.647957689371251*^9, 3.6479576900033703`*^9}, {
+  3.647957736233675*^9, 3.647957778296391*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"toBeWordFrequenciesAssociationLowercase", "=", 
+   RowBox[{"WordCounts", "[", 
+    RowBox[{"toBe", ",", 
+     RowBox[{"IgnoreCase", "\[Rule]", "True"}]}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.647957490102902*^9, 3.647957515657711*^9}, {
+  3.647957705611082*^9, 3.647957719395306*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Short", "[", "toBeWordFrequenciesAssociationLowercase", 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.64795772329745*^9, 3.647957731482546*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Keys and values", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.64795780378469*^9, 3.647957805367222*^9}}],
+
+Cell[TextData[{
+ "We can retrieve all of the keys for an association with ",
+ StyleBox["Keys",
+  FontWeight->"Bold"]
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.647957883940708*^9, 3.647957895468093*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Keys", "[", "toBeWordFrequenciesAssociationLowercase", 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.64795789876149*^9, 3.647957904044614*^9}}],
+
+Cell["Number of word types (ignoring case)", "Text",
+ CellChangeTimes->{{3.647957922547105*^9, 3.647957946818202*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Length", "[", "toBeWordFrequenciesAssociationLowercase", 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.647957926736704*^9, 3.647957940290506*^9}}],
+
+Cell[TextData[{
+ "We can retrieve all of the values for an association with ",
+ StyleBox["Values",
+  FontWeight->"Bold"]
+}], "Text",
+ CellChangeTimes->{{3.647957952136168*^9, 3.647957968401441*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Values", "[", "toBeWordFrequenciesAssociationLowercase", 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.647957971942524*^9, 3.6479579770260773`*^9}}],
+
+Cell[TextData[{
+ "Number of word tokens (ignoring case). Note that we add the individual \
+frequencies together with ",
+ StyleBox["Total",
+  FontWeight->"Bold"]
+}], "Text",
+ CellChangeTimes->{{3.647957985800727*^9, 3.647958020431631*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Total", "[", 
+  RowBox[{"Values", "[", "toBeWordFrequenciesAssociationLowercase", "]"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.647958023093375*^9, 3.647958033793738*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Take, Select and KeySelect", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.647958978909994*^9, 3.647958980628886*^9}, {3.647959277763096*^9, 
+  3.647959278579069*^9}, {3.64795942138273*^9, 3.647959423390032*^9}, {
+  3.647959785714363*^9, 3.647959787024959*^9}}],
+
+Cell[TextData[{
+ "Select elements from an Association in order with ",
+ StyleBox["Take",
+  FontWeight->"Bold"],
+ ". Here are the 10 most common words (case sensitive)."
+}], "Text",
+ CellChangeTimes->{{3.647959282210231*^9, 3.647959344832862*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Take", "[", 
+  RowBox[{"toBeWordFrequenciesAssociationMixedCase", ",", "10"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.647959314733698*^9, 3.647959334553211*^9}}],
+
+Cell[TextData[{
+ "We can use the ",
+ StyleBox["Select",
+  FontWeight->"Bold"],
+ " command to retrieve pairs with values that match specified criteria"
+}], "Text",
+ CellChangeTimes->{{3.647959428005118*^9, 3.647959458020859*^9}, {
+  3.648098908337901*^9, 3.6480989099130497`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Select", "[", 
+  RowBox[{"toBeWordFrequenciesAssociationLowercase", ",", 
+   RowBox[{
+    RowBox[{"#", ">", "4"}], "&"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.647959459224163*^9, 3.647959485404216*^9}}],
+
+Cell[TextData[{
+ "We can use the ",
+ StyleBox["KeySelect",
+  FontWeight->"Bold"],
+ " command to retreive pairs with keys that match specified criteria"
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.6479589830848503`*^9, 3.64795900646878*^9}, {3.64795978972832*^9, 
+  3.647959809303583*^9}, {3.6480989136007442`*^9, 3.648098915248806*^9}}],
+
+Cell[BoxData[
+ RowBox[{"KeySelect", "[", 
+  RowBox[{"toBeWordFrequenciesAssociationLowercase", ",", 
+   RowBox[{
+    RowBox[{"MemberQ", "[", 
+     RowBox[{"stopwords", ",", "#"}], "]"}], "&"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.647959046859887*^9, 3.6479590482537518`*^9}, {
+  3.647959094234589*^9, 3.647959106992672*^9}, {3.647959144031193*^9, 
+  3.647959198070389*^9}, {3.647959811896677*^9, 3.647959843526442*^9}}],
+
+Cell[BoxData[
+ RowBox[{"KeySelect", "[", 
+  RowBox[{"toBeWordFrequenciesAssociationLowercase", ",", "nonStopwordQ"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.647959046859887*^9, 3.6479590482537518`*^9}, {
+  3.647959094234589*^9, 3.647959106992672*^9}, {3.647959144031193*^9, 
+  3.647959198070389*^9}, {3.647959811896677*^9, 3.647959820954321*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Word clouds", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.647958875641363*^9, 3.647958879833259*^9}}],
+
+Cell[TextData[{
+ "You can make a ",
+ StyleBox["WordCloud",
+  FontWeight->"Bold"],
+ " directly from an Association. Below we use ",
+ StyleBox["Row",
+  FontWeight->"Bold"],
+ " display a list of graphics side-by-side"
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.647958882152503*^9, 3.6479588944166603`*^9}, {3.6479599239420023`*^9, 
+  3.647959939115776*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Row", "[", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{
+    "WordCloud", "[", "toBeWordFrequenciesAssociationLowercase", "]"}], ",", 
+    RowBox[{"WordCloud", "[", 
+     RowBox[{"KeySelect", "[", 
+      RowBox[{
+      "toBeWordFrequenciesAssociationLowercase", ",", "nonStopwordQ"}], "]"}],
+      "]"}]}], "}"}], "]"}]], "Input",
+ CellChangeTimes->{{3.6479588955421352`*^9, 3.647958901881344*^9}, {
+  3.6479598526645813`*^9, 3.6479598938534718`*^9}}],
+
+Cell["\<\
+With and without stopwords. Note that removing stopwords is sometimes \
+problematic!\
+\>", "Text",
+ CellChangeTimes->{{3.647959967226678*^9, 3.64795997603456*^9}, {
+  3.647960021863924*^9, 3.647960032184474*^9}}],
+
+Cell[BoxData[
+ RowBox[{"StringTake", "[", 
+  RowBox[{"toBe", ",", "45"}], "]"}]], "Input",
+ CellChangeTimes->{{3.647959981044788*^9, 3.647960002321574*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["N-gram frequencies with WordCounts", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.647958775798416*^9, 3.647958781748494*^9}}],
+
+Cell[TextData[{
+ "We can also count n-grams with ",
+ StyleBox["WordCounts",
+  FontWeight->"Bold"],
+ ". Here are all of the bigrams (ignoring case)"
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.647958784875771*^9, 3.647958838562254*^9}}],
+
+Cell[BoxData[
+ RowBox[{"toBeBigramFrequenciesAssociationLowercase", "=", 
+  RowBox[{"WordCounts", "[", 
+   RowBox[{"toBe", ",", "2", ",", 
+    RowBox[{"IgnoreCase", "\[Rule]", "True"}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.647958840311674*^9, 3.6479588619548397`*^9}, {
+  3.647960407516026*^9, 3.647960415668683*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Associations and lists", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.647960085312603*^9, 3.64796008906244*^9}}],
+
+Cell[TextData[{
+ "You can make a list of rules from a list of pairs with the ",
+ StyleBox["Rule",
+  FontWeight->"Bold"],
+ " and ",
+ StyleBox["Apply",
+  FontWeight->"Bold"],
+ " commands"
+}], "Text",
+ CellChangeTimes->{{3.6479601767471123`*^9, 3.6479602159939137`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Rule", "@@@", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"a", ",", "12"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"b", ",", "3"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"c", ",", "7"}], "}"}]}], "}"}]}]], "Input",
+ CellChangeTimes->{{3.647960197130649*^9, 3.647960204209687*^9}}],
+
+Cell[TextData[{
+ "You can make an association from a list of rules with the ",
+ StyleBox["Association",
+  FontWeight->"Bold"],
+ " command"
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.647960114117441*^9, 3.647960128837021*^9}, {3.647960228824657*^9, 
+  3.647960229825487*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Association", "[", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"a", "\[Rule]", "12"}], ",", 
+    RowBox[{"b", "\[Rule]", "3"}], ",", 
+    RowBox[{"c", "\[Rule]", "7"}]}], "}"}], "]"}]], "Input",
+ CellChangeTimes->{{3.6479601345722733`*^9, 3.647960155076276*^9}, 
+   3.6479601925818644`*^9, 3.647960236525127*^9}],
+
+Cell[TextData[{
+ "You can make an association into a list of rules with the ",
+ StyleBox["Normal",
+  FontWeight->"Bold"],
+ " command"
+}], "Text",
+ CellChangeTimes->{{3.6479602462086363`*^9, 3.647960264264352*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Normal", "[", 
+  RowBox[{"\[LeftAssociation]", 
+   RowBox[{
+    RowBox[{"a", "\[Rule]", "12"}], ",", 
+    RowBox[{"b", "\[Rule]", "3"}], ",", 
+    RowBox[{"c", "\[Rule]", "7"}]}], "\[RightAssociation]"}], "]"}]], "Input",\
+
+ CellChangeTimes->{{3.647960269411775*^9, 3.6479602798961763`*^9}}],
+
+Cell[TextData[{
+ "You can make a list of rules into a list of pairs with the ",
+ StyleBox["ReplaceAll",
+  FontWeight->"Bold"],
+ " command (shorthand slash dot)"
+}], "Text",
+ CellChangeTimes->{{3.647960284487355*^9, 3.6479603016949*^9}, {
+  3.6479603555967083`*^9, 3.647960363204774*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"a", "\[Rule]", "12"}], ",", 
+    RowBox[{"b", "\[Rule]", "3"}], ",", 
+    RowBox[{"c", "\[Rule]", "7"}]}], "}"}], "/.", "\[VeryThinSpace]", 
+  RowBox[{"Rule", "\[Rule]", "List"}]}]], "Input",
+ NumberMarks->False]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Activity", "Section",
+ CellChangeTimes->{{3.647716402186221*^9, 3.647716405353856*^9}}],
+
+Cell["\<\
+Open a new notebook, copy the following code into it and evaluate it, then \
+answer the questions below.\
+\>", "Text",
+ CellChangeTimes->{{3.647960463520894*^9, 3.647960498799707*^9}, {
+  3.647960580300952*^9, 3.647960583772912*^9}, {3.647960646858526*^9, 
+  3.64796067435352*^9}, {3.648101260764089*^9, 3.648101290185648*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"pride", "=", 
+   RowBox[{"ExampleData", "[", 
+    RowBox[{"{", 
+     RowBox[{"\"\<Text\>\"", ",", "\"\<PrideAndPrejudice\>\""}], "}"}], 
+    "]"}]}], ";"}]], "Input"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"listMatchGraph", "[", 
+   RowBox[{"left_", ",", "right_", ",", "lbl_"}], "]"}], ":=", 
+  "\[IndentingNewLine]", 
+  RowBox[{"Module", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+     "idxl", ",", "idxr", ",", "leftidx", ",", "rightidx", ",", "lself", ",", 
+      "rself", ",", "lcoords", ",", "rcoords", ",", "gr"}], "}"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"idxl", "=", 
+      RowBox[{"ToString", "/@", 
+       RowBox[{"Range", "[", 
+        RowBox[{"Length", "[", "left", "]"}], "]"}]}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"idxr", "=", 
+      RowBox[{"ToString", "/@", 
+       RowBox[{"Range", "[", 
+        RowBox[{"Length", "[", "right", "]"}], "]"}]}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"leftidx", "=", 
+      RowBox[{"StringRiffle", "/@", 
+       RowBox[{"Thread", "[", 
+        RowBox[{"List", "[", 
+         RowBox[{"idxl", ",", "left"}], "]"}], "]"}]}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"rightidx", "=", 
+      RowBox[{"StringRiffle", "/@", 
+       RowBox[{"Thread", "[", 
+        RowBox[{"List", "[", 
+         RowBox[{"idxr", ",", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"StringJoin", "[", 
+             RowBox[{"#", ",", "\"\< \>\""}], "]"}], "&"}], "/@", "right"}]}],
+          "]"}], "]"}]}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"lself", "=", 
+      RowBox[{"Thread", "[", 
+       RowBox[{"Rule", "[", 
+        RowBox[{"leftidx", ",", "leftidx"}], "]"}], "]"}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"rself", "=", 
+      RowBox[{"Thread", "[", 
+       RowBox[{"Rule", "[", 
+        RowBox[{"rightidx", ",", "rightidx"}], "]"}], "]"}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"lcoords", "=", 
+      RowBox[{"Thread", "[", 
+       RowBox[{"Rule", "[", 
+        RowBox[{"leftidx", ",", 
+         RowBox[{"Map", "[", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{
+              RowBox[{"-", "8"}], ",", "#"}], "}"}], "&"}], ",", 
+           RowBox[{"-", 
+            RowBox[{"Range", "[", 
+             RowBox[{"Length", "[", "leftidx", "]"}], "]"}]}]}], "]"}]}], 
+        "]"}], "]"}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"rcoords", "=", "\[IndentingNewLine]", 
+      RowBox[{"Thread", "[", 
+       RowBox[{"Rule", "[", 
+        RowBox[{"rightidx", ",", 
+         RowBox[{"Map", "[", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{"8", ",", "#"}], "}"}], "&"}], ",", 
+           RowBox[{"-", 
+            RowBox[{"Range", "[", 
+             RowBox[{"Length", "[", "rightidx", "]"}], "]"}]}]}], "]"}]}], 
+        "]"}], "]"}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"gr", "=", 
+      RowBox[{"DeleteCases", "[", 
+       RowBox[{
+        RowBox[{"Thread", "[", 
+         RowBox[{"Rule", "[", 
+          RowBox[{"leftidx", ",", 
+           RowBox[{
+            RowBox[{
+             RowBox[{"rightidx", "\[LeftDoubleBracket]", 
+              RowBox[{"First", "@", 
+               RowBox[{"First", "@", 
+                RowBox[{"(", 
+                 RowBox[{
+                  RowBox[{"Position", "[", 
+                   RowBox[{"right", ",", "#"}], "]"}], "/.", 
+                  RowBox[{
+                   RowBox[{"{", "}"}], "\[Rule]", 
+                   RowBox[{"{", 
+                    RowBox[{"{", "0", "}"}], "}"}]}]}], ")"}]}]}], 
+              "\[RightDoubleBracket]"}], "&"}], "/@", "left"}]}], "]"}], 
+         "]"}], ",", 
+        RowBox[{"_", "\[Rule]", "List"}]}], "]"}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"Show", "[", 
+      RowBox[{
+       RowBox[{"GraphPlot", "[", 
+        RowBox[{
+         RowBox[{"Join", "[", 
+          RowBox[{"lself", ",", "rself", ",", "gr"}], "]"}], ",", 
+         RowBox[{"VertexLabeling", "\[Rule]", "True"}], ",", 
+         RowBox[{"VertexCoordinateRules", "\[Rule]", 
+          RowBox[{"Join", "[", 
+           RowBox[{"lcoords", ",", "rcoords"}], "]"}]}], ",", 
+         RowBox[{"SelfLoopStyle", "\[Rule]", "None"}], ",", 
+         RowBox[{"EdgeRenderingFunction", "\[Rule]", 
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{"Gray", ",", " ", 
+              RowBox[{"Arrow", "[", 
+               RowBox[{"#1", "+", 
+                RowBox[{"{", 
+                 RowBox[{
+                  RowBox[{"{", 
+                   RowBox[{"1.6", ",", "0"}], "}"}], ",", 
+                  RowBox[{"{", 
+                   RowBox[{
+                    RowBox[{"-", "1.6"}], ",", "0"}], "}"}]}], "}"}]}], 
+               "]"}]}], "}"}], " ", "&"}], " ", ")"}]}], ",", 
+         RowBox[{"VertexRenderingFunction", "\[Rule]", 
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{"Black", ",", 
+              RowBox[{"Text", "[", 
+               RowBox[{"#2", ",", "#1"}], "]"}]}], "}"}], "&"}], ")"}]}], ",", 
+         RowBox[{"ImageSize", "\[Rule]", "Large"}]}], "]"}], ",", 
+       RowBox[{"PlotLabel", "\[Rule]", "lbl"}], ",", 
+       RowBox[{"LabelStyle", "\[Rule]", 
+        RowBox[{"{", "12", "}"}]}]}], "]"}]}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.64309991541346*^9, 3.64310009939907*^9}, {
+   3.643100142077235*^9, 3.6431002055143948`*^9}, {3.643127733223009*^9, 
+   3.643127763198119*^9}, {3.643127823998535*^9, 3.64312785256171*^9}, {
+   3.6431279263923273`*^9, 3.643128021146266*^9}, {3.643128136352686*^9, 
+   3.643128181088374*^9}, {3.643128227797299*^9, 3.643128260771311*^9}, {
+   3.643128347361772*^9, 3.643128348039852*^9}, {3.643128510737406*^9, 
+   3.6431285326892023`*^9}, {3.6431285642321663`*^9, 3.643128594439196*^9}, {
+   3.643128747682082*^9, 3.64312889818782*^9}, {3.643128949851241*^9, 
+   3.643128984377877*^9}, {3.643129029120138*^9, 3.6431290651207533`*^9}, {
+   3.6431291366115093`*^9, 3.643129153765697*^9}, {3.64312926392857*^9, 
+   3.64312938152551*^9}, 3.6431294178184032`*^9, {3.6431294705755033`*^9, 
+   3.6431295761203327`*^9}, {3.6431296112663927`*^9, 3.643129651448443*^9}, {
+   3.643129690343719*^9, 3.643129756279415*^9}, {3.643129831259533*^9, 
+   3.643129837512844*^9}, {3.6431300425639553`*^9, 3.64313006250607*^9}, 
+   3.643130111721067*^9, {3.643130141815879*^9, 3.643130174009529*^9}, {
+   3.643130245484941*^9, 3.643130254684639*^9}, {3.643130390230878*^9, 
+   3.643130435829434*^9}, {3.6431304894192743`*^9, 3.643130492922221*^9}, {
+   3.6431305515317917`*^9, 3.6431306216945477`*^9}, {3.643130672235938*^9, 
+   3.643130672403803*^9}, 3.643130719459405*^9, {3.643130790815201*^9, 
+   3.6431308119913177`*^9}, {3.643131053000575*^9, 3.643131067333562*^9}, {
+   3.643131101876177*^9, 3.6431311818009567`*^9}, {3.6431312438187637`*^9, 
+   3.643131264526142*^9}, {3.643131685440634*^9, 3.6431316959027243`*^9}, {
+   3.643131741876852*^9, 3.643131804418528*^9}, {3.6431318353156557`*^9, 
+   3.6431319134809723`*^9}, {3.6431319770313597`*^9, 
+   3.6431319944025908`*^9}, {3.643132055205405*^9, 3.643132058248608*^9}, {
+   3.6431320914920597`*^9, 3.643132093559656*^9}, {3.643132131695932*^9, 
+   3.6431322776471233`*^9}, {3.6431323379949617`*^9, 3.643132405340372*^9}, {
+   3.64313245625986*^9, 3.6431324699701433`*^9}, {3.6431325084249353`*^9, 
+   3.6431325230565853`*^9}, {3.643132559567157*^9, 3.643132664693132*^9}, {
+   3.643132835169263*^9, 3.643132885674732*^9}, {3.643132997352024*^9, 
+   3.643133038013431*^9}, {3.64313308074298*^9, 3.643133141455838*^9}, {
+   3.6431333311635847`*^9, 3.6431333764094954`*^9}, {3.643133646777306*^9, 
+   3.6431336515273113`*^9}, {3.643133688441784*^9, 3.643133689053897*^9}}],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"prideBigramFrequenciesAssociationLowercase", "=", 
+   RowBox[{"WordCounts", "[", 
+    RowBox[{"pride", ",", "2", ",", 
+     RowBox[{"IgnoreCase", "\[Rule]", "True"}]}], "]"}]}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{"prideTrigramFrequenciesAssociationLowercase", "=", 
+   RowBox[{"WordCounts", "[", 
+    RowBox[{"pride", ",", "3", ",", 
+     RowBox[{"IgnoreCase", "\[Rule]", "True"}]}], "]"}]}], ";"}]}], "Input",
+ CellChangeTimes->{{3.647960756720936*^9, 3.647960791709572*^9}, {
+   3.647962394747629*^9, 3.647962397322608*^9}, 3.6481013630497217`*^9}],
+
+Cell[CellGroupData[{
+
+Cell["Questions", "Subsubsection",
+ CellChangeTimes->{{3.647716408857376*^9, 3.647716409673744*^9}}],
+
+Cell[TextData[{
+ "Use the following command to look at all bigrams of the form \
+\[OpenCurlyDoubleQuote]she __ed\[CloseCurlyDoubleQuote]. Study it to get a \
+sense of how female characters are portrayed in ",
+ StyleBox["Pride and Prejudice.",
+  FontSlant->"Italic"]
+}], "Text",
+ CellChangeTimes->{{3.648101324520833*^9, 3.6481013288880577`*^9}, {
+   3.6481013863586493`*^9, 3.6481014512835913`*^9}, 3.648101946082671*^9}],
+
+Cell[TextData[Cell[BoxData[
+ RowBox[{"KeySelect", "[", 
+  RowBox[{"prideBigramFrequenciesAssociationLowercase", ",", 
+   RowBox[{
+    RowBox[{
+     RowBox[{
+      RowBox[{"#", "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}], 
+      "\[Equal]", "\"\<she\>\""}], "&&", 
+     RowBox[{"StringMatchQ", "[", 
+      RowBox[{
+       RowBox[{"#", "\[LeftDoubleBracket]", "2", "\[RightDoubleBracket]"}], 
+       ",", 
+       RowBox[{"__", "~~", "\"\<ed\>\""}]}], "]"}]}], "&"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6479626720264473`*^9, 3.647962752413148*^9}, {
+  3.648099121834124*^9, 3.648099139120572*^9}, {3.648099176815782*^9, 
+  3.648099185431148*^9}, {3.6481000255364323`*^9, 3.64810004286377*^9}, {
+  3.648100076022547*^9, 3.6481002071216507`*^9}}]], "Program",
+ CellChangeTimes->{3.6481014890055647`*^9}],
+
+Cell["\<\
+Now look at all bigrams of the form \[OpenCurlyDoubleQuote]he __ed\
+\[CloseCurlyDoubleQuote]. Study it to get a sense of how male characters are \
+portrayed.\
+\>", "Text",
+ CellChangeTimes->{{3.648101500498363*^9, 3.648101565903287*^9}, 
+   3.648101947585134*^9}],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["listMatchGraph",
+  FontSlant->"Italic"],
+ " function (from Chapter 6 of the course textbook) takes two lists of terms \
+in order of descending frequency and shows the relative positions of terms \
+that appear in both lists. Using the following command, study the past tense \
+regular verbs that follow \[OpenCurlyDoubleQuote]she\[CloseCurlyDoubleQuote] \
+versus \[OpenCurlyDoubleQuote]he\[CloseCurlyDoubleQuote]. What do you observe?"
+}], "Text",
+ CellChangeTimes->{{3.648101570839045*^9, 3.648101617005406*^9}, {
+  3.648101776801227*^9, 3.648101837310381*^9}}],
+
+Cell[TextData[Cell[BoxData[
+ RowBox[{"listMatchGraph", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"Keys", "[", 
+     RowBox[{"KeySelect", "[", 
+      RowBox[{"prideBigramFrequenciesAssociationLowercase", ",", 
+       RowBox[{
+        RowBox[{
+         RowBox[{
+          RowBox[{"#", "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}],
+           "\[Equal]", "\"\<she\>\""}], "&&", 
+         RowBox[{"StringMatchQ", "[", 
+          RowBox[{
+           RowBox[{
+           "#", "\[LeftDoubleBracket]", "2", "\[RightDoubleBracket]"}], ",", 
+           RowBox[{"__", "~~", "\"\<ed\>\""}]}], "]"}]}], "&"}]}], "]"}], 
+     "]"}], "\[LeftDoubleBracket]", 
+    RowBox[{
+     RowBox[{"1", ";;", "40"}], ",", "2"}], "\[RightDoubleBracket]"}], ",", 
+   RowBox[{
+    RowBox[{"Keys", "[", 
+     RowBox[{"KeySelect", "[", 
+      RowBox[{"prideBigramFrequenciesAssociationLowercase", ",", 
+       RowBox[{
+        RowBox[{
+         RowBox[{
+          RowBox[{"#", "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}],
+           "\[Equal]", "\"\<he\>\""}], "&&", 
+         RowBox[{"StringMatchQ", "[", 
+          RowBox[{
+           RowBox[{
+           "#", "\[LeftDoubleBracket]", "2", "\[RightDoubleBracket]"}], ",", 
+           RowBox[{"__", "~~", "\"\<ed\>\""}]}], "]"}]}], "&"}]}], "]"}], 
+     "]"}], "\[LeftDoubleBracket]", 
+    RowBox[{
+     RowBox[{"1", ";;", "40"}], ",", "2"}], "\[RightDoubleBracket]"}], ",", 
+   "\"\<She __ed vs. He __ed in Pride and Prejudice\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.648100509097597*^9, 3.6481006022777147`*^9}, {
+  3.648100669211978*^9, 3.648100834874486*^9}, {3.648101636965315*^9, 
+  3.648101682372178*^9}}]], "Program",
+ CellChangeTimes->{3.648101937677018*^9}],
+
+Cell["\<\
+Which verbs appear in one list but not the other? Do these support your \
+conclusions or cause you to revise them?\
+\>", "Text",
+ CellChangeTimes->{{3.648102016391389*^9, 3.648102044373816*^9}, {
+  3.6481021490256577`*^9, 3.648102152865789*^9}}],
+
+Cell["\<\
+Could you make a case that the female characters seem to have richer interior \
+lives than the male ones? Provide evidence one way or the other.\
+\>", "Text",
+ CellChangeTimes->{{3.648102759275268*^9, 3.648102819409255*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Discussion", "Subsubsection",
+ CellChangeTimes->{{3.647716411921282*^9, 3.6477164128415117`*^9}}],
+
+Cell["\<\
+Longing, wishing and wanting; fearing and dreading; listening, asking and \
+answering; believing, supposing, assuring and considering; smiling, blushing \
+and complimenting; recollecting and remembering\
+\>", "Text",
+ CellChangeTimes->{{3.648101843589011*^9, 3.6481019180424023`*^9}, {
+  3.648102048253395*^9, 3.648102049629532*^9}, {3.6481020835000067`*^9, 
+  3.648102110443419*^9}, {3.648102141755539*^9, 3.648102143489959*^9}, {
+  3.648102537221094*^9, 3.648102541099456*^9}, {3.648102647648982*^9, 
+  3.648102649543597*^9}, {3.6481027432439632`*^9, 3.648102754555553*^9}}]
+}, Closed]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Regular past tense verbs following \[OpenCurlyQuote]she\
+\[CloseCurlyQuote] and \[OpenCurlyQuote]he\[CloseCurlyQuote]", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.648102860273171*^9, 3.648102873686963*^9}}],
+
+Cell[BoxData[
+ RowBox[{"listMatchGraph", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"Keys", "[", 
+     RowBox[{"KeySelect", "[", 
+      RowBox[{"prideBigramFrequenciesAssociationLowercase", ",", 
+       RowBox[{
+        RowBox[{
+         RowBox[{
+          RowBox[{"#", "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}],
+           "\[Equal]", "\"\<she\>\""}], "&&", 
+         RowBox[{"StringMatchQ", "[", 
+          RowBox[{
+           RowBox[{
+           "#", "\[LeftDoubleBracket]", "2", "\[RightDoubleBracket]"}], ",", 
+           RowBox[{"__", "~~", "\"\<ed\>\""}]}], "]"}]}], "&"}]}], "]"}], 
+     "]"}], "\[LeftDoubleBracket]", 
+    RowBox[{
+     RowBox[{"1", ";;", "40"}], ",", "2"}], "\[RightDoubleBracket]"}], ",", 
+   RowBox[{
+    RowBox[{"Keys", "[", 
+     RowBox[{"KeySelect", "[", 
+      RowBox[{"prideBigramFrequenciesAssociationLowercase", ",", 
+       RowBox[{
+        RowBox[{
+         RowBox[{
+          RowBox[{"#", "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}],
+           "\[Equal]", "\"\<he\>\""}], "&&", 
+         RowBox[{"StringMatchQ", "[", 
+          RowBox[{
+           RowBox[{
+           "#", "\[LeftDoubleBracket]", "2", "\[RightDoubleBracket]"}], ",", 
+           RowBox[{"__", "~~", "\"\<ed\>\""}]}], "]"}]}], "&"}]}], "]"}], 
+     "]"}], "\[LeftDoubleBracket]", 
+    RowBox[{
+     RowBox[{"1", ";;", "40"}], ",", "2"}], "\[RightDoubleBracket]"}], ",", 
+   "\"\<She __ed vs. He __ed in Pride and Prejudice\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.648100509097597*^9, 3.6481006022777147`*^9}, {
+  3.648100669211978*^9, 3.648100834874486*^9}, {3.648101636965315*^9, 
+  3.648101682372178*^9}}],
+
+Cell[BoxData[
+ RowBox[{"KeySelect", "[", 
+  RowBox[{"prideTrigramFrequenciesAssociationLowercase", ",", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"StringMatchQ", "[", 
+      RowBox[{
+       RowBox[{"#", "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}], 
+       ",", 
+       RowBox[{"__", "~~", "\"\<ed\>\""}]}], "]"}], "&&", 
+     RowBox[{
+      RowBox[{"#", "\[LeftDoubleBracket]", "2", "\[RightDoubleBracket]"}], 
+      "\[Equal]", "\"\<and\>\""}], "&&", 
+     RowBox[{"StringMatchQ", "[", 
+      RowBox[{
+       RowBox[{"#", "\[LeftDoubleBracket]", "3", "\[RightDoubleBracket]"}], 
+       ",", 
+       RowBox[{"__", "~~", "\"\<ed\>\""}]}], "]"}]}], "&"}]}], "]"}]], "Input",\
+
+ CellChangeTimes->{{3.648099213273395*^9, 3.6480992140058813`*^9}, {
+  3.648099281427267*^9, 3.648099399039296*^9}, {3.6480994291749*^9, 
+  3.6480994530780363`*^9}, {3.648099487523831*^9, 3.648099489523922*^9}, {
+  3.648099521890748*^9, 3.648099562433291*^9}, {3.648099717268548*^9, 
+  3.648099717531619*^9}, {3.648099886557754*^9, 3.648099898277046*^9}, {
+  3.648099949004075*^9, 3.648099951842743*^9}, {3.648102192314156*^9, 
+  3.648102231919964*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"prideSentencesLowercase", "=", 
+   RowBox[{"TextSentences", "[", 
+    RowBox[{"ToLowerCase", "[", "pride", "]"}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.648103248419888*^9, 3.64810327096194*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Flatten", "[", 
+  RowBox[{"StringCases", "[", 
+   RowBox[{"prideSentencesLowercase", ",", 
+    RowBox[{"___", "~~", "\"\<talked and laughed\>\"", "~~", "___"}]}], "]"}],
+   "]"}]], "Input",
+ CellChangeTimes->{{3.6481010882741747`*^9, 3.648101118784731*^9}, {
+  3.6481027127991457`*^9, 3.6481027247810173`*^9}, {3.6481029364057093`*^9, 
+  3.6481029632381353`*^9}, {3.648103078129602*^9, 3.648103123774053*^9}, {
+  3.648103265443048*^9, 3.64810329419189*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Using GroupBy", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.647961063283579*^9, 3.6479610677793007`*^9}, {3.647961115409731*^9, 
+  3.6479611175928297`*^9}, {3.651400456919166*^9, 3.651400457267725*^9}}],
+
+Cell["\<\
+This command finds all of the 4-grams matching the pattern \
+\[OpenCurlyDoubleQuote]the X of Y\[CloseCurlyDoubleQuote], and stores them in \
+an association where the key is X.\
+\>", "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.6514004649157963`*^9, 3.651400500257826*^9}, {3.651400748245967*^9, 
+  3.651400781212263*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"theXOfY", "=", 
+   RowBox[{"GroupBy", "[", 
+    RowBox[{
+     RowBox[{"Cases", "[", 
+      RowBox[{
+       RowBox[{"Partition", "[", 
+        RowBox[{
+         RowBox[{"TextWords", "[", 
+          RowBox[{"ToLowerCase", "[", "pride", "]"}], "]"}], ",", "4", ",", 
+         "1"}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"\"\<the\>\"", ",", "_", ",", "\"\<of\>\"", ",", "_"}], 
+        "}"}]}], "]"}], ",", 
+     RowBox[{
+      RowBox[{"#", "\[LeftDoubleBracket]", "2", "\[RightDoubleBracket]"}], 
+      "&"}]}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.6479610717374153`*^9, 3.647961105178419*^9}, {
+  3.647961184734572*^9, 3.647961250957891*^9}, {3.647961291611717*^9, 
+  3.647961311923016*^9}, {3.6479617586360397`*^9, 3.647961774762141*^9}, {
+  3.647961949284032*^9, 3.647961974226963*^9}, {3.6481010324208384`*^9, 
+  3.648101039451137*^9}, {3.651400729969883*^9, 3.651400737638506*^9}}],
+
+Cell["Now we can look up 4-grams using that key", "Text",
+ CellChangeTimes->{{3.651400800523044*^9, 3.6514008111784763`*^9}, {
+  3.651400890944195*^9, 3.65140090967752*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"theXOfY", "[", "\"\<point\>\"", "]"}], "//", "Sort"}], "//", 
+  "TableForm"}]], "Input",
+ CellChangeTimes->{{3.651400912985141*^9, 3.651400926557301*^9}, {
+  3.65140105794433*^9, 3.651401059024251*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"theXOfY", "[", "\"\<honour\>\"", "]"}], "//", "Sort"}], "//", 
+  "TableForm"}]], "Input",
+ CellChangeTimes->{{3.651400912985141*^9, 3.651400926557301*^9}, {
+  3.651400994523822*^9, 3.6514009951939173`*^9}, {3.651401064128265*^9, 
+  3.6514010667757063`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"theXOfY", "[", "\"\<habit\>\"", "]"}], "//", "Sort"}], "//", 
+  "TableForm"}]], "Input",
+ CellChangeTimes->{{3.651400912985141*^9, 3.651400926557301*^9}, {
+  3.651400994523822*^9, 3.6514010136490173`*^9}, {3.651401071495885*^9, 
+  3.651401072743432*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Indexing text blocks, part 1", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+   3.647963178470986*^9, 3.647963182501319*^9}, 3.6479640161030607`*^9, {
+   3.647964267679281*^9, 3.647964272805485*^9}, {3.6479643079804573`*^9, 
+   3.647964310708357*^9}}],
+
+Cell["\<\
+There is a related example in Chapter 6 of the course textbook.\
+\>", "Text",
+ CellChangeTimes->{{3.647964003783987*^9, 3.647964012814995*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"pride250WordBlocks", "=", 
+   RowBox[{"Partition", "[", 
+    RowBox[{
+     RowBox[{"TextWords", "[", "pride", "]"}], ",", "250", ",", "250", ",", 
+     "1", ",", 
+     RowBox[{"{", "}"}]}], "]"}]}], ";"}]], "Input"],
+
+Cell[BoxData[
+ RowBox[{"Length", "[", "pride250WordBlocks", "]"}]], "Input",
+ CellChangeTimes->{{3.647963441194809*^9, 3.647963445700445*^9}}],
+
+Cell["All the words in a text block, in order", "Text",
+ CellChangeTimes->{{3.6479643526676064`*^9, 3.647964359010516*^9}}],
+
+Cell[BoxData[
+ RowBox[{"pride250WordBlocks", "\[LeftDoubleBracket]", "1", 
+  "\[RightDoubleBracket]"}]], "Input",
+ CellChangeTimes->{3.647964367451118*^9}],
+
+Cell["All the capitalized words in the same text block", "Text",
+ CellChangeTimes->{{3.647964376249934*^9, 3.64796438688172*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Select", "[", 
+  RowBox[{
+   RowBox[{"Union", "[", 
+    RowBox[{
+    "pride250WordBlocks", "\[LeftDoubleBracket]", "1", 
+     "\[RightDoubleBracket]"}], "]"}], ",", "capitalizedQ"}], "]"}]], "Input",\
+
+ CellChangeTimes->{3.647964400866145*^9}],
+
+Cell["After removing stopwords", "Text",
+ CellChangeTimes->{{3.6479644073288927`*^9, 3.647964411152842*^9}}],
+
+Cell[BoxData[
+ RowBox[{"DeleteStopwords", "[", 
+  RowBox[{"Select", "[", 
+   RowBox[{
+    RowBox[{"Union", "[", 
+     RowBox[{
+     "pride250WordBlocks", "\[LeftDoubleBracket]", "1", 
+      "\[RightDoubleBracket]"}], "]"}], ",", "capitalizedQ"}], "]"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.647964400866145*^9, 3.647964429801107*^9}}],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["Range",
+  FontWeight->"Bold"],
+ " command gives us a list {1,2,3,...,488}"
+}], "Text",
+ CellChangeTimes->{{3.6479644485281467`*^9, 3.6479644906778727`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"textBlockToCapitalizedWordAssociation", "=", 
+   RowBox[{"Map", "[", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"#", "\[Rule]", 
+       RowBox[{"DeleteStopwords", "[", 
+        RowBox[{"Select", "[", 
+         RowBox[{
+          RowBox[{"Union", "[", 
+           RowBox[{
+           "pride250WordBlocks", "\[LeftDoubleBracket]", "#", 
+            "\[RightDoubleBracket]"}], "]"}], ",", "capitalizedQ"}], "]"}], 
+        "]"}]}], "&"}], ",", 
+     RowBox[{"Range", "[", 
+      RowBox[{"Length", "[", "pride250WordBlocks", "]"}], "]"}]}], "]"}]}], 
+  ";"}]], "Input",
+ CellChangeTimes->{{3.64796320470321*^9, 3.647963225389008*^9}, {
+  3.647963273466969*^9, 3.6479633108006773`*^9}, {3.6479633573120337`*^9, 
+  3.647963362150732*^9}, {3.647963453124474*^9, 3.6479635197770157`*^9}, {
+  3.64796446919106*^9, 3.6479644769781933`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"textBlockToCapitalizedWordAssociation", "\[LeftDoubleBracket]", 
+  RowBox[{"1", ";;", "5"}], "\[RightDoubleBracket]"}]], "Input",
+ CellChangeTimes->{{3.64796352748207*^9, 3.647963552464501*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Indexing text blocks, part 2", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+   3.647963178470986*^9, 3.647963182501319*^9}, 3.6479640161030607`*^9, {
+   3.647964267679281*^9, 3.647964304732626*^9}}],
+
+Cell[BoxData[
+ RowBox[{"GroupBy", "[", 
+  RowBox[{
+   RowBox[{"Map", "[", 
+    RowBox[{"Reverse", ",", 
+     RowBox[{"Flatten", "[", 
+      RowBox[{"Map", "[", 
+       RowBox[{"Thread", ",", 
+        RowBox[{
+        "textBlockToCapitalizedWordAssociation", "\[LeftDoubleBracket]", 
+         RowBox[{"1", ";;", "5"}], "\[RightDoubleBracket]"}]}], "]"}], 
+      "]"}]}], "]"}], ",", 
+   RowBox[{"First", "\[Rule]", "Last"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6479636021043262`*^9, 3.647963631300837*^9}, {
+  3.647963690811781*^9, 3.647963698602418*^9}, {3.647963773848879*^9, 
+  3.647963859845612*^9}, {3.64796389213251*^9, 3.647963923290443*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"capitalizedWordIndexAssociation", "=", 
+   RowBox[{"GroupBy", "[", 
+    RowBox[{
+     RowBox[{"Map", "[", 
+      RowBox[{"Reverse", ",", 
+       RowBox[{"Flatten", "[", 
+        RowBox[{"Map", "[", 
+         RowBox[{"Thread", ",", "textBlockToCapitalizedWordAssociation"}], 
+         "]"}], "]"}]}], "]"}], ",", 
+     RowBox[{"First", "\[Rule]", "Last"}]}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.6479636021043262`*^9, 3.647963631300837*^9}, {
+  3.647963947010475*^9, 3.647963969985812*^9}}],
+
+Cell[BoxData[
+ RowBox[{"capitalizedWordIndexAssociation", "\[LeftDoubleBracket]", 
+  RowBox[{"1", ";;", "5"}], "\[RightDoubleBracket]"}]], "Input",
+ CellChangeTimes->{{3.647963633655964*^9, 3.647963641268591*^9}}],
+
+Cell[BoxData[
+ RowBox[{"capitalizedWordIndexAssociation", "[", "\"\<England\>\"", 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.647964068834467*^9, 3.647964117003407*^9}, {
+  3.647964147155322*^9, 3.6479641613137617`*^9}, {3.6479641921374683`*^9, 
+  3.647964216703816*^9}}],
+
+Cell[BoxData[
+ RowBox[{"pride250WordBlocks", "\[LeftDoubleBracket]", "44", 
+  "\[RightDoubleBracket]"}]], "Input",
+ CellChangeTimes->{{3.647964224483879*^9, 3.647964231991241*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Upload your notebook", "Section",
+ CellChangeTimes->{{3.649950784924818*^9, 3.649950788859275*^9}}],
+
+Cell["\<\
+Don\[CloseCurlyQuote]t forget to upload a copy of your notebook for this \
+class to the OWL Site for the course\
+\>", "Text",
+ CellChangeTimes->{{3.649950792779258*^9, 3.649950818634288*^9}}]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1342, 1107},
+WindowMargins->{{10, Automatic}, {Automatic, 1}},
+TaggingRules->{"SlideShow" -> True},
+Magnification:>1.25 Inherited,
+FrontEndVersion->"10.2 for Mac OS X x86 (32-bit, 64-bit Kernel) (July 6, \
+2015)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "SlideShowHeader"->{
+  Cell[580, 22, 4299, 96, 75, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[5672, 145, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[6417, 174, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[11555, 322, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[14966, 429, 64, 1, 115, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[16772, 489, 64, 1, 115, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[19329, 562, 64, 1, 115, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[20871, 614, 64, 1, 115, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[21784, 644, 64, 1, 115, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[24442, 737, 64, 1, 115, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[38572, 1078, 64, 1, 115, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[42472, 1179, 64, 1, 115, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[45212, 1256, 64, 1, 115, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[48617, 1360, 64, 1, 115, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[50859, 1423, 64, 1, 115, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"SlideShowHeader", 51664, 1452}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 4299, 96, 75, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[4882, 120, 407, 9, 183, "Title"],
+Cell[5292, 131, 343, 9, 99, "Subtitle"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5672, 145, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[5761, 150, 95, 1, 80, "Section"],
+Cell[5859, 153, 509, 15, 61, "Text"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6417, 174, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[6506, 179, 139, 2, 80, "Section"],
+Cell[6648, 183, 238, 3, 37, "Text"],
+Cell[6889, 188, 311, 8, 36, "Input"],
+Cell[CellGroupData[{
+Cell[7225, 200, 100, 1, 43, "Subsubsection"],
+Cell[7328, 203, 135, 1, 37, "Text"],
+Cell[7466, 206, 381, 9, 57, "Input"],
+Cell[7850, 217, 1172, 28, 57, "Input"],
+Cell[9025, 247, 536, 13, 78, "Input"],
+Cell[9564, 262, 256, 6, 36, "Input"],
+Cell[9823, 270, 507, 13, 57, "Input"],
+Cell[10333, 285, 563, 13, 71, "Input"],
+Cell[10899, 300, 595, 15, 71, "Input"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[11555, 322, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[11644, 327, 216, 3, 100, "Section"],
+Cell[11863, 332, 392, 11, 46, "Text"],
+Cell[12258, 345, 212, 4, 45, "Input"],
+Cell[12473, 351, 632, 18, 61, "Text"],
+Cell[13108, 371, 164, 3, 45, "Input"],
+Cell[13275, 376, 181, 2, 46, "Text"],
+Cell[13459, 380, 173, 3, 56, "Input"],
+Cell[13635, 385, 223, 6, 57, "Text"],
+Cell[13861, 393, 200, 4, 56, "Input"],
+Cell[14064, 399, 353, 10, 57, "Text"],
+Cell[14420, 411, 330, 7, 56, "Input"],
+Cell[14753, 420, 164, 3, 56, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[14966, 429, 64, 1, 115, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[15055, 434, 150, 2, 125, "Section"],
+Cell[15208, 438, 245, 6, 57, "Text"],
+Cell[15456, 446, 163, 3, 56, "Input"],
+Cell[15622, 451, 118, 1, 57, "Text"],
+Cell[15743, 454, 166, 3, 56, "Input"],
+Cell[15912, 459, 198, 5, 57, "Text"],
+Cell[16113, 466, 168, 3, 56, "Input"],
+Cell[16284, 471, 238, 6, 57, "Text"],
+Cell[16525, 479, 198, 4, 56, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[16772, 489, 64, 1, 115, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[16861, 494, 305, 4, 125, "Section"],
+Cell[17169, 500, 246, 6, 57, "Text"],
+Cell[17418, 508, 188, 4, 56, "Input"],
+Cell[17609, 514, 279, 7, 57, "Text"],
+Cell[17891, 523, 230, 5, 56, "Input"],
+Cell[18124, 530, 377, 8, 57, "Text"],
+Cell[18504, 540, 424, 8, 56, "Input"],
+Cell[18931, 550, 349, 6, 56, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[19329, 562, 64, 1, 115, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[19418, 567, 147, 2, 125, "Section"],
+Cell[19568, 571, 396, 11, 57, "Text"],
+Cell[19967, 584, 471, 12, 88, "Input"],
+Cell[20441, 598, 222, 5, 57, "Text"],
+Cell[20666, 605, 156, 3, 56, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[20871, 614, 64, 1, 115, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[20960, 619, 170, 2, 125, "Section"],
+Cell[21133, 623, 276, 7, 57, "Text"],
+Cell[21412, 632, 323, 6, 56, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[21784, 644, 64, 1, 115, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[21873, 649, 157, 2, 125, "Section"],
+Cell[22033, 653, 267, 9, 57, "Text"],
+Cell[22303, 664, 331, 10, 53, "Input"],
+Cell[22637, 676, 316, 8, 57, "Text"],
+Cell[22956, 686, 333, 8, 53, "Input"],
+Cell[23292, 696, 213, 6, 57, "Text"],
+Cell[23508, 704, 315, 8, 53, "Input"],
+Cell[23826, 714, 287, 7, 57, "Text"],
+Cell[24116, 723, 277, 8, 53, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[24442, 737, 64, 1, 115, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[24531, 742, 93, 1, 125, "Section"],
+Cell[24627, 745, 337, 6, 57, "Text"],
+Cell[24967, 753, 201, 6, 56, "Input"],
+Cell[25171, 761, 7572, 168, 515, "Input"],
+Cell[32746, 931, 585, 12, 88, "Input"],
+Cell[CellGroupData[{
+Cell[33356, 947, 100, 1, 66, "Subsubsection"],
+Cell[33459, 950, 421, 8, 95, "Text"],
+Cell[33883, 960, 815, 17, 91, "Program"],
+Cell[34701, 979, 273, 6, 57, "Text"],
+Cell[34977, 987, 597, 11, 132, "Text"],
+Cell[35577, 1000, 1710, 41, 157, "Program"],
+Cell[37290, 1043, 255, 5, 57, "Text"],
+Cell[37548, 1050, 234, 4, 57, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[37819, 1059, 103, 1, 66, "Subsubsection"],
+Cell[37925, 1062, 586, 9, 147, "Text"]
+}, Closed]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[38572, 1078, 64, 1, 115, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[38661, 1083, 253, 3, 125, "Section"],
+Cell[38917, 1088, 1641, 40, 121, "Input"],
+Cell[40561, 1130, 1136, 25, 88, "Input"],
+Cell[41700, 1157, 239, 5, 56, "Input"],
+Cell[41942, 1164, 481, 9, 56, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[42472, 1179, 64, 1, 115, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[42561, 1184, 248, 3, 125, "Section"],
+Cell[42812, 1189, 367, 7, 57, "Text"],
+Cell[43182, 1198, 942, 22, 56, "Input"],
+Cell[44127, 1222, 173, 2, 57, "Text"],
+Cell[44303, 1226, 249, 6, 56, "Input"],
+Cell[44555, 1234, 304, 7, 53, "Input"],
+Cell[44862, 1243, 301, 7, 53, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[45212, 1256, 64, 1, 115, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[45301, 1261, 291, 4, 125, "Section"],
+Cell[45595, 1267, 153, 3, 57, "Text"],
+Cell[45751, 1272, 250, 7, 56, "Input"],
+Cell[46004, 1281, 142, 2, 56, "Input"],
+Cell[46149, 1285, 123, 1, 57, "Text"],
+Cell[46275, 1288, 155, 3, 56, "Input"],
+Cell[46433, 1293, 129, 1, 57, "Text"],
+Cell[46565, 1296, 267, 8, 56, "Input"],
+Cell[46835, 1306, 108, 1, 57, "Text"],
+Cell[46946, 1309, 339, 9, 56, "Input"],
+Cell[47288, 1320, 192, 6, 57, "Text"],
+Cell[47483, 1328, 864, 21, 88, "Input"],
+Cell[48350, 1351, 218, 3, 56, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[48617, 1360, 64, 1, 115, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[48706, 1365, 239, 3, 125, "Section"],
+Cell[48948, 1370, 653, 15, 56, "Input"],
+Cell[49604, 1387, 535, 13, 88, "Input"],
+Cell[50142, 1402, 213, 3, 56, "Input"],
+Cell[50358, 1407, 269, 5, 56, "Input"],
+Cell[50630, 1414, 180, 3, 56, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[50859, 1423, 64, 1, 115, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[50948, 1428, 105, 1, 125, "Section"],
+Cell[51056, 1431, 201, 4, 57, "Text"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
