@@ -1,0 +1,1360 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     49395,       1351]
+NotebookOptionsPosition[     42366,       1136]
+NotebookOutlinePosition[     44096,       1186]
+CellTagsIndexPosition[     44017,       1181]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ TogglerBox[2, {1->
+  OverlayBox[{
+   TagBox[GridBox[{
+      {
+       GraphicsBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBLECOU2VJahIzkCEFxAJADBL8//8/
+Qfzo0SP2GzduCF29elXs/Pnz0sgYn747d+5wA9VoArE/EB8B4uPoGJu+Fy9e
+MF+4cEENKB8AxBeB+AMQ/wXif+gYi1tBdvoB8QUg/ghV9x8XRtb7/PlzFqje
+t1D7cOrDpv/ixYvqUHuJ0ousHxpWAVA3E6UXWT80nC8S8i82/Q8ePOAgx26Y
+/uvXrwsD2UdJ8Tey/kuXLolD0wNJbofpB6YVSUr0n4ek5QHTT6n7KQ0/SuOP
+0vRDafqlRv6BxgPZ+Ret/HhHrBl4yi9QWHwiFB7Yyk+QO6B+CTxPYvmJjG/f
+vs17nozyG1f9cR6t7gBhAPeiQ4A=
+         "], {{0, 26}, {16, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{16, 26},
+        PlotRange->{{0, 16}, {0, 26}}], 
+       GraphicsBox[RasterBox[CompressedData["
+1:eJzt2d9OVFcUB2DSNmkfQRFEiRQ1gCK1vW4fwT6BJu1tE9uk8fUUERE9aECC
+qLGYEmKkErWxtont2mGdcDLVOpNgZijfJB9hzp+99j6zb9b5Hb3ww7nvP+rr
+6/vxs/hz7vzPX1+8eP7St5/El28u/fTdhY/jn/6w8GlfXzlYVdWhDgyEwXT4
+HQYbBho6qQMAAOxt/Q0HWxxo0TzX3xij7juGwpFwNAyHY2EkfB6OhxPhZBgL
+42EinAqnw2SYSl+Es+HL9FWb6uvP5hj1eJNZ41TWHM85nMw5Hc85juSch3MN
+R3JNdf/UfGbtPqf6WdW6/XsDAADsV7vd/7b2vqPV2/veuuc9k6Za1Mfr3vVt
+feto9e+eVb9KL2tmz81M+n25dadZ9bU2zYXbYSmshNXwoOF+uJfn7obFcKfa
+/twMN8L1MNtBTQAAYO+ZSVfTdLqSLreoj0/n9eXe0jeUHmQ+3AoL1XZ/UfqR
+5Wq77yg9yMPwS3gcfg0b4Ul4Gn4LW+F5eBl+D6/CH+F1+DP99Q71+dd5z6sc
+42WOuZU1nmbNjZzD45zTw5zjSs55KdewkGuazzXONp5Xu8+pflb185rpgd8d
+AABgv/kQ/W/J4krGVvrIkruVDO5RWAvr1U7fuxmeVTt9b/Ei1d+38prNaqdv
+Xc+xHuXY97LWYtbWr9Jryj4sGXPJmkvmXD7l/UrZsyWTLu9dyj4u72Ca2fVq
+nivvY8renuug5ps2/b2L2q0JAADwX3azT/kQuv18AAAA2Pv0rOxn3djz3X6f
+BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAADsHW/a1I2aAAAAAAAAsJ91OyOEburGnr/W
+prlwOyyFlbAaHjTcD/fy3N2wGO5U25+b4Ua4HmY7qAkAAAAAAAC9aCZdTdPp
+Srrcoj4+ndeXe0tuVjK4+XCr2s7iSsa2XG3nbiWDexTWwnrYCE/CZngWtsLz
+9CLV37fyms28ZyPHWMsxH2SN5ax5O+cwn3Oabayv3XXVa6vXN9MDvxN7W9mH
+JWMuWXPJnMunZNBlz5ZMumTTZR+XrLqZXa/muZJtl70910HNQx0YCIPp8DsM
+Ngw0dFIHAAAAAAAAel1/w8EWB1o0z/U3xqhzt6FwNAyHY2EkjIYT4WQYC+Nh
+IpwOk+FMmmpRH5/Mayfy3rEc60SOPZK1hrP2ULWT9zXX2O666rXVuv378P/S
+zJ6bmfT7cuuOsup/AFmW9vs=
+         "], {{0, 26}, {2000, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{2000, 26},
+        PlotRange->{{0, 2000}, {0, 26}}], 
+       GraphicsBox[RasterBox[CompressedData["
+1:eJy9lstOwkAUhhthQUJcuUBl5cr4GPoABvEJINGtCZoYng4Il4Z7gXAJYUHY
+QAi3GlYQPZ5/4pCm0pYC2uSDaXvmn5lzzpzpVfQl/HyiKMqrj3/CkffbWCwS
+f/TyzV387Snq4cYlc87gYbVaDbpB07SLRqMR6Pf7PiJSnOA+6h7kmBBz0+12
+Tx30v/bgk9GZOvPAa7oejUYeC306AIz1wWjM/WAw8B9ZX4L1TDHGcDj02ulX
+KpUNbt79jKHBV1b66Fcul3fCYgzEJNTr9fxmfaldKpWoUChQPp8X/8ViUWB8
+BhuLMRCPGvJqmz76QWOxWFCtVqNsNku5XE6AdqfToclkImxga7cGuT/M+uw/
+ms/ntF6vqdlsUjKZFKCNC/pynTZxyLbb7bNt/sHcMpkMzWYzoVev1wW4xuOx
+WAdsbGIAH6ncJ7BNH/6FRjqdJl3XSV7T6VSsA76CDWxt9oSKOmLOH/RBLKEP
+LVVVN/qJRGKjDxsnfSZoN3/4CPNfrVa/5n+IvtH/iDHu9/G/2T/G/JT5A41U
+KiXm3Wq1xBhcx5zy0zK+Mj+Xy6XIf5n7EuQ/9sYh+Wneqy73r+3+2rX2OPh+
+a31wqpHG5xbatvXtCDjW5wO1Z9UdzheXyPMRPrc6H49yvpvn/Y/fJ3/6ffUN
+AyH/6w==
+         "], {{0, 26}, {24, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{24, 26},
+        PlotRange->{{0, 24}, {0, 26}}]}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {Automatic, 
+         Scaled[0.6], Automatic}},
+     GridBoxSpacings->{"Columns" -> {{0}}, "Rows" -> {{0}}}],
+    "Grid"], 
+   PaneBox[
+    StyleBox[
+     RowBox[{
+     "Background", " ", "images", " ", "and", " ", "text", " ", "colors", " ",
+       "have", " ", "been", " ", "adjusted", " ", "for", " ", "editing", " ", 
+      
+      RowBox[{"purposes", "."}]}],
+     LineBreakWithin->False,
+     FontFamily->"Helvetica",
+     FontSize->12,
+     FontColor->GrayLevel[0.4]],
+    Alignment->Center,
+    ImageSize->Scaled[0.5],
+    ScrollPosition->{0., 0.}]},
+   Alignment->{Center, Center}], 2->""}, "1"]], "SlideShowNavigationBar", \
+"FirstSlide",
+ CellMargins->{{0, 0}, {0, 0}},
+ CellFrameLabelMargins->2,
+ CellSize->{Inherited, 30},
+ CellChangeTimes->{3.647361175465108*^9},
+ TextAlignment->Center,
+ CellTags->"SlideShowHeader"],
+
+Cell["\<\
+Digital Research Methods 06A:
+Timelines\
+\>", "Title",
+ CellChangeTimes->{
+  3.559948400406288*^9, {3.647331852839075*^9, 3.647331861295168*^9}, {
+   3.647331922221755*^9, 3.647331924532915*^9}, {3.647332658962614*^9, 
+   3.64733266480881*^9}, {3.6473611327373047`*^9, 3.647361139759391*^9}, {
+   3.647448943135475*^9, 3.6474489472294493`*^9}, {3.651754303579321*^9, 
+   3.6517543093290987`*^9}}],
+
+Cell[TextData[{
+ "William J Turkel, ",
+ StyleBox["wturkel@uwo.ca",
+  FontSlant->"Italic",
+  FontColor->RGBColor[
+   0.396078431372549, 0.596078431372549, 0.796078431372549]],
+ "\nHistory 2816 / Digital Humanities 2130 / History 9877"
+}], "Subtitle",
+ CellChangeTimes->{{3.647331955723979*^9, 3.6473319708190517`*^9}, 
+   3.647332103720562*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Overview", "Section",
+ CellChangeTimes->{{3.647361153919208*^9, 3.6473611548467712`*^9}}],
+
+Cell["\<\
+The timeline is a classic way to present information about dates in visual \
+form. We also explore chronologies, date histograms and time series graphs.\
+\>", "Text",
+ CellChangeTimes->{{3.647361157582405*^9, 3.647361159086673*^9}, {
+  3.652367889197579*^9, 3.652367916809051*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Setup", "Section",
+ CellChangeTimes->{{3.647716369451888*^9, 3.647716370003084*^9}, {
+  3.647798474690284*^9, 3.6477984752570744`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"viewData", "[", "x_", "]"}], ":=", "\[IndentingNewLine]", 
+  RowBox[{"Framed", "[", 
+   RowBox[{"Pane", "[", 
+    RowBox[{"x", ",", 
+     RowBox[{"{", 
+      RowBox[{"Automatic", ",", "200"}], "}"}], ",", 
+     RowBox[{"Scrollbars", "\[Rule]", "True"}]}], "]"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.511539182255096*^9, 3.51153920239167*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"lifespan", "[", "person_", "]"}], ":=", "\[IndentingNewLine]", 
+  RowBox[{"Labeled", "[", 
+   RowBox[{
+    RowBox[{"Interval", "[", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"PersonData", "[", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"Interpreter", "[", "\"\<ComputedPerson\>\"", "]"}], "[", 
+          "person", "]"}], ",", "\"\<BirthDate\>\""}], "]"}], ",", 
+       RowBox[{"PersonData", "[", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"Interpreter", "[", "\"\<ComputedPerson\>\"", "]"}], "[", 
+          "person", "]"}], ",", "\"\<DeathDate\>\""}], "]"}]}], "}"}], "]"}], 
+    ",", "person"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.641574066235119*^9, 3.641574079183919*^9}, {
+  3.641574145606174*^9, 3.641574176300558*^9}, {3.641574308800517*^9, 
+  3.641574319719139*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Historical periods", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+   3.651755374107778*^9, 3.65175537849809*^9}, 3.6517554962697687`*^9}],
+
+Cell[TextData[{
+ "Last class we saw that we can access the properties of millions of named \
+entities via ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ "\[CloseCurlyQuote]s connection with WolframAlpha.  These named entities \
+include more than 100 historical periods."
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.651755381049903*^9, 3.651755442759551*^9}}],
+
+Cell[BoxData[
+ RowBox[{"EntityValue", "[", 
+  RowBox[{"\"\<HistoricalPeriod\>\"", ",", "\"\<EntityCount\>\""}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.651755445375361*^9, 3.6517554552433643`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"viewData", "[", 
+  RowBox[{"HistoricalPeriodData", "[", "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.651755625755371*^9, 3.6517556279615793`*^9}, {
+  3.651758207446258*^9, 3.651758211445923*^9}}],
+
+Cell["Each historical period has the following properties.", "Text",
+ CellChangeTimes->{{3.651755467239393*^9, 3.6517554737584467`*^9}, {
+  3.651756952336548*^9, 3.651756953912486*^9}}],
+
+Cell[BoxData[
+ RowBox[{"EntityValue", "[", 
+  RowBox[{"\"\<HistoricalPeriod\>\"", ",", "\"\<Properties\>\""}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.641659869792757*^9, 3.641659914259391*^9}, {
+  3.641660644095935*^9, 3.641660648780884*^9}, {3.641751475687685*^9, 
+  3.6417514762290983`*^9}}],
+
+Cell[TextData[{
+ "We can request the properties of historical periods with the ",
+ StyleBox["EntityValue",
+  FontWeight->"Bold"],
+ " command."
+}], "Text",
+ CellChangeTimes->{{3.651755728269533*^9, 3.65175575370006*^9}, {
+  3.651755846169498*^9, 3.6517558472006598`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"EntityValue", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"Interpreter", "[", "\"\<HistoricalPeriod\>\"", "]"}], "[", 
+    "\"\<space age\>\"", "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+    "\"\<CountriesInvolved\>\"", ",", "\"\<StartDate\>\"", ",", 
+     "\"\<EndDate\>\""}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.651755759045554*^9, 3.65175582859333*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Timelines", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.651755877016548*^9, 3.651755878047443*^9}, {3.651756342983163*^9, 
+  3.6517563453903027`*^9}}],
+
+Cell[TextData[{
+ "Here we give ",
+ StyleBox["TimeLinePlot",
+  FontWeight->"Bold"],
+ " a list of historical period entities."
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+   3.651755883712179*^9, 3.65175593693344*^9}, {3.651756052106243*^9, 
+   3.6517560537130737`*^9}, 3.6523678814889603`*^9}],
+
+Cell[BoxData[
+ RowBox[{"coldWar", "=", 
+  RowBox[{
+   RowBox[{"Interpreter", "[", "\"\<HistoricalPeriod\>\"", "]"}], "[", 
+   "\"\<cold war\>\"", "]"}]}]], "Input",
+ CellChangeTimes->{{3.651756498249627*^9, 3.6517565003768063`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"spaceAge", "=", 
+  RowBox[{
+   RowBox[{"Interpreter", "[", "\"\<HistoricalPeriod\>\"", "]"}], "[", 
+   "\"\<space age\>\"", "]"}]}]], "Input",
+ CellChangeTimes->{{3.651756529544683*^9, 3.651756531585965*^9}}],
+
+Cell[BoxData[
+ RowBox[{"atomicAge", "=", 
+  RowBox[{
+   RowBox[{"Interpreter", "[", "\"\<HistoricalPeriod\>\"", "]"}], "[", 
+   "\"\<atomic age\>\"", "]"}]}]], "Input",
+ CellChangeTimes->{{3.651756538722424*^9, 3.6517565489613028`*^9}}],
+
+Cell["\<\
+A single color is used for each group of items. Here we want three colors, so \
+each entity is placed in a sublist.\
+\>", "Text",
+ CellChangeTimes->{{3.651756735416716*^9, 3.651756777270832*^9}}],
+
+Cell[BoxData[
+ RowBox[{"TimelinePlot", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", "coldWar", "}"}], ",", 
+     RowBox[{"{", "spaceAge", "}"}], ",", 
+     RowBox[{"{", "atomicAge", "}"}]}], "}"}], ",", 
+   RowBox[{"PlotStyle", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"Red", ",", "Blue", ",", "Orange"}], "}"}]}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6517559075145884`*^9, 3.651756023554389*^9}, {
+  3.651756096848974*^9, 3.651756161397243*^9}, {3.6517562040369797`*^9, 
+  3.651756302978593*^9}, {3.651756354975203*^9, 3.651756364229806*^9}, {
+  3.65175651287288*^9, 3.651756578583085*^9}, {3.651756655284124*^9, 
+  3.6517567107693453`*^9}, {3.651756865108076*^9, 3.651756870723322*^9}, {
+  3.6517569022922983`*^9, 3.6517569065995693`*^9}}],
+
+Cell["Try hovering over each label with your mouse.", "Text",
+ CellChangeTimes->{{3.651757002927333*^9, 3.651757010366577*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Historical events", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.651755498765616*^9, 3.651755502677487*^9}}],
+
+Cell[TextData[{
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " knows about far more historical events than historical periods"
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.65175702718262*^9, 3.651757039733615*^9}, {3.65175936036629*^9, 
+  3.6517593629248238`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"EntityValue", "[", 
+  RowBox[{"\"\<HistoricalEvent\>\"", ",", "\"\<EntityCount\>\""}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.6517570419764957`*^9, 3.651757051309998*^9}}],
+
+Cell[BoxData[
+ RowBox[{"EntityValue", "[", 
+  RowBox[{"\"\<HistoricalEvent\>\"", ",", "\"\<Properties\>\""}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.651757055162619*^9, 3.65175706658152*^9}}],
+
+Cell["\<\
+Suppose we wanted to find the events relating to the early 1970s. First we \
+download the entity, name and start date for each event in the form of an \
+association. This takes a while.\
+\>", "Text",
+ CellChangeTimes->{{3.651757116235545*^9, 3.65175717693676*^9}, {
+  3.651757335124186*^9, 3.6517573356432858`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"histevents", "=", 
+   RowBox[{"EntityValue", "[", 
+    RowBox[{
+     RowBox[{"EntityValue", "[", 
+      RowBox[{"\"\<HistoricalEvent\>\"", ",", "\"\<Entities\>\""}], "]"}], 
+     ",", 
+     RowBox[{"{", 
+      RowBox[{"\"\<Name\>\"", ",", "\"\<StartDate\>\""}], "}"}], ",", 
+     "\"\<EntityAssociation\>\""}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.641755046859334*^9, 3.6417551745854816`*^9}, {
+  3.6517594973373632`*^9, 3.651759498199438*^9}}],
+
+Cell[TextData[{
+ "Next we ",
+ StyleBox["Select",
+  FontWeight->"Bold"],
+ " those events whose starting date is between 1970 and 1971"
+}], "Text",
+ CellChangeTimes->{{3.651757213680064*^9, 3.6517572256631527`*^9}, {
+   3.65175735460251*^9, 3.651757372450098*^9}, 3.6517574590797863`*^9}],
+
+Cell[BoxData[
+ RowBox[{"viewData", "[", 
+  RowBox[{"Keys", "[", 
+   RowBox[{"Select", "[", 
+    RowBox[{"histevents", ",", 
+     RowBox[{
+      RowBox[{"1970", "\[LessEqual]", 
+       RowBox[{
+        RowBox[{"DateList", "[", 
+         RowBox[{"#", "\[LeftDoubleBracket]", "2", "\[RightDoubleBracket]"}], 
+         "]"}], "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}], 
+       "\[LessEqual]", "1971"}], "&"}]}], "]"}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.65175723717719*^9, 3.651757305485091*^9}, 
+   3.6517573438513527`*^9, 3.651757462855201*^9, {3.651758225837451*^9, 
+   3.651758230077169*^9}, {3.6517582773075123`*^9, 3.651758282419322*^9}}],
+
+Cell["\<\
+Events can be plotted on a timeline, too. Here are some relating to the Space \
+Race, color coded by country.\
+\>", "Text",
+ CellChangeTimes->{{3.6517570833879337`*^9, 3.6517570898838377`*^9}, {
+  3.65175755918743*^9, 3.6517575919783697`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"TimelinePlot", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       TemplateBox[{"\"Apollo 13 launches\"",RowBox[{"Entity", "[", 
+           RowBox[{"\"HistoricalEvent\"", ",", "\"Apollo13IsLaunched\""}], 
+           "]"}],"\"Entity[\\\"HistoricalEvent\\\", \
+\\\"Apollo13IsLaunched\\\"]\"","\"historical event\""},
+        "Entity"], ",", 
+       TemplateBox[{
+        "\"An oxygen tank aboard Apollo 13 explodes\"",
+         RowBox[{"Entity", "[", 
+           
+           RowBox[{"\"HistoricalEvent\"", ",", 
+             "\"OxygenTankAboardApollo13Exploades\""}], "]"}],
+         "\"Entity[\\\"HistoricalEvent\\\", \
+\\\"OxygenTankAboardApollo13Exploades\\\"]\"","\"historical event\""},
+        "Entity"], ",", 
+       TemplateBox[{"\"Apollo 13 returns to Earth\"",RowBox[{"Entity", "[", 
+           RowBox[{"\"HistoricalEvent\"", ",", "\"Apollo13ReturnsToEarth\""}],
+            "]"}],"\"Entity[\\\"HistoricalEvent\\\", \
+\\\"Apollo13ReturnsToEarth\\\"]\"","\"historical event\""},
+        "Entity"], ",", 
+       TemplateBox[{"\"Apollo 14 launches\"",RowBox[{"Entity", "[", 
+           RowBox[{"\"HistoricalEvent\"", ",", "\"Apollo14Launched\""}], 
+           "]"}],"\"Entity[\\\"HistoricalEvent\\\", \\\"Apollo14Launched\\\"]\
+\"","\"historical event\""},
+        "Entity"], ",", 
+       TemplateBox[{"\"Apollo 14 returns to earth\"",RowBox[{"Entity", "[", 
+           RowBox[{"\"HistoricalEvent\"", ",", "\"Apollo14ReturnsEarth\""}], 
+           "]"}],"\"Entity[\\\"HistoricalEvent\\\", \
+\\\"Apollo14ReturnsEarth\\\"]\"","\"historical event\""},
+        "Entity"], ",", 
+       TemplateBox[{"\"Mariner 9 launches\"",RowBox[{"Entity", "[", 
+           
+           RowBox[{"\"HistoricalEvent\"", ",", 
+             "\"USMariner91stSatelliteOorbitMarsLaunched\""}], "]"}],
+         "\"Entity[\\\"HistoricalEvent\\\", \
+\\\"USMariner91stSatelliteOorbitMarsLaunched\\\"]\"","\"historical event\""},
+        "Entity"], ",", 
+       TemplateBox[{
+        "\"Mariner 9 makes first orbit of another planet\"",
+         RowBox[{"Entity", "[", 
+           RowBox[{"\"HistoricalEvent\"", ",", "\"Mariner9OrbitsMars1971\""}],
+            "]"}],"\"Entity[\\\"HistoricalEvent\\\", \
+\\\"Mariner9OrbitsMars1971\\\"]\"","\"historical event\""},
+        "Entity"]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       TemplateBox[{"\"Luna 16 rocket launched\"",RowBox[{"Entity", "[", 
+           
+           RowBox[{"\"HistoricalEvent\"", ",", 
+             "\"LunaSixteenRocketLaunched\""}], "]"}],
+         "\"Entity[\\\"HistoricalEvent\\\", \
+\\\"LunaSixteenRocketLaunched\\\"]\"","\"historical event\""},
+        "Entity"], ",", 
+       TemplateBox[{"\"crew of Soyuz 11 is killed\"",RowBox[{"Entity", "[", 
+           RowBox[{"\"HistoricalEvent\"", ",", "\"Soyuz11CrewKilled1971\""}], 
+           "]"}],"\"Entity[\\\"HistoricalEvent\\\", \\\"Soyuz11CrewKilled1971\
+\\\"]\"","\"historical event\""},
+        "Entity"], ",", 
+       TemplateBox[{"\"Salyut 1 is launched\"",RowBox[{"Entity", "[", 
+           RowBox[{"\"HistoricalEvent\"", ",", "\"Salyut1IsLaunched\""}], 
+           "]"}],"\"Entity[\\\"HistoricalEvent\\\", \
+\\\"Salyut1IsLaunched\\\"]\"","\"historical event\""},
+        "Entity"], ",", 
+       TemplateBox[{"\"Mars 2 launch\"",RowBox[{"Entity", "[", 
+           RowBox[{"\"HistoricalEvent\"", ",", "\"Mars2Launch\""}], "]"}],
+         "\"Entity[\\\"HistoricalEvent\\\", \\\"Mars2Launch\\\"]\"",
+         "\"historical event\""},
+        "Entity"], ",", 
+       TemplateBox[{"\"Soviet Mars 2 orbiter crashes\"",RowBox[{"Entity", "[", 
+           RowBox[{"\"HistoricalEvent\"", ",", "\"SovietMars2Crashes\""}], 
+           "]"}],"\"Entity[\\\"HistoricalEvent\\\", \
+\\\"SovietMars2Crashes\\\"]\"","\"historical event\""},
+        "Entity"], ",", 
+       TemplateBox[{
+        "\"Soviet Union lands an unmanned vehicle on the moon\"",
+         RowBox[{"Entity", "[", 
+           
+           RowBox[{"\"HistoricalEvent\"", ",", 
+             "\"SovietUnionLandsUnmannedVehicleOnMoon\""}], "]"}],
+         "\"Entity[\\\"HistoricalEvent\\\", \
+\\\"SovietUnionLandsUnmannedVehicleOnMoon\\\"]\"","\"historical event\""},
+        "Entity"], ",", 
+       TemplateBox[{"\"Venera 7 launched\"",RowBox[{"Entity", "[", 
+           RowBox[{"\"HistoricalEvent\"", ",", "\"Venera7Launched1970\""}], 
+           "]"}],"\"Entity[\\\"HistoricalEvent\\\", \\\"Venera7Launched1970\\\
+\"]\"","\"historical event\""},
+        "Entity"]}], "}"}], ",", 
+     RowBox[{"{", 
+      TemplateBox[{
+       "\"first Chinese satellite is launched\"",RowBox[{"Entity", "[", 
+          
+          RowBox[{"\"HistoricalEvent\"", ",", 
+            "\"TheFistChineseSatelliteIsLaunched\""}], "]"}],
+        "\"Entity[\\\"HistoricalEvent\\\", \
+\\\"TheFistChineseSatelliteIsLaunched\\\"]\"","\"historical event\""},
+       "Entity"], "}"}]}], "}"}], ",", 
+   RowBox[{"PlotStyle", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"Blue", ",", " ", "Red", ",", "Orange"}], "}"}]}]}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.6517559075145884`*^9, 3.651756023554389*^9}, {
+  3.651756096848974*^9, 3.651756161397243*^9}, {3.6517562040369797`*^9, 
+  3.651756302978593*^9}, {3.651756354975203*^9, 3.651756364229806*^9}, {
+  3.65175651287288*^9, 3.651756578583085*^9}, {3.651756655284124*^9, 
+  3.6517567107693453`*^9}, {3.651756865108076*^9, 3.651756870723322*^9}, {
+  3.6517569022922983`*^9, 3.6517569065995693`*^9}, {3.651757612967019*^9, 
+  3.6517577392003107`*^9}, {3.651757776453684*^9, 3.651757776807007*^9}, {
+  3.651757812555444*^9, 3.651757891371154*^9}, {3.651757949072254*^9, 
+  3.65175798002351*^9}, {3.651758328916829*^9, 3.651758329210188*^9}, {
+  3.651758379408836*^9, 3.651758379730534*^9}, {3.65175841855453*^9, 
+  3.6517584188072767`*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Lifespans", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.651758480981328*^9, 3.651758482371646*^9}}],
+
+Cell["\<\
+Timelines provide a quick way to visualize the context of someone\
+\[CloseCurlyQuote]s life. Here we use a function defined in Chapter 4 of the \
+course text to visualize the lifespans of Jane Austen and some of her fellow \
+writers.\
+\>", "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.6517584864835377`*^9, 3.6517585546411543`*^9}, {3.651758632310882*^9, 
+  3.6517586452698812`*^9}, {3.6517587205959263`*^9, 3.6517587236031523`*^9}, {
+  3.651758789321697*^9, 3.651758816064098*^9}, {3.651759167939673*^9, 
+  3.651759169891705*^9}}],
+
+Cell[BoxData[
+ RowBox[{"TimelinePlot", "[", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"lifespan", "[", "\"\<Jane Austen\>\"", "]"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"lifespan", "[", "\"\<Sir Walter Scott\>\"", "]"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"lifespan", "[", "\"\<Charles Dickens\>\"", "]"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"lifespan", "[", "\"\<Charlotte Bronte\>\"", "]"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"lifespan", "[", "\"\<Elizabeth Gaskell\>\"", "]"}], "}"}]}], 
+   "}"}], "]"}]], "Input",
+ CellChangeTimes->{{3.65175865238428*^9, 3.651758655437639*^9}, 
+   3.6517587311827183`*^9, {3.651758820959955*^9, 3.651758822264105*^9}, {
+   3.65175886573516*^9, 3.651758932011908*^9}, {3.651758973724667*^9, 
+   3.6517590089250383`*^9}, {3.651759064720759*^9, 3.6517591310931253`*^9}, {
+   3.651759197694137*^9, 3.651759204466818*^9}, 3.651759245058241*^9}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Searching historical event descriptions", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.651759857466963*^9, 3.651759879593196*^9}, {3.6517633257690563`*^9, 
+  3.651763327447538*^9}}],
+
+Cell[TextData[{
+ "You can also use ",
+ StyleBox["Select",
+  FontWeight->"Bold"],
+ " to retrieve events based on their descriptions"
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.651759888280842*^9, 3.651759897160634*^9}, {3.651759941807403*^9, 
+  3.651759946254718*^9}}],
+
+Cell[BoxData[
+ RowBox[{"viewData", "[", 
+  RowBox[{"Keys", "[", 
+   RowBox[{"Select", "[", 
+    RowBox[{"histevents", ",", 
+     RowBox[{
+      RowBox[{"StringContainsQ", "[", 
+       RowBox[{
+        RowBox[{"#", "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}], 
+        ",", 
+        RowBox[{"\"\<declares war \>\"", "|", "\"\<surrenders \>\""}]}], 
+       "]"}], "&"}]}], "]"}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.6517594016803913`*^9, 3.651759405163093*^9}, {
+  3.651759610856892*^9, 3.6517596837049026`*^9}, {3.651759742767351*^9, 
+  3.651759785908979*^9}, {3.651759922952587*^9, 3.651759929031605*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Chronology", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.6517610144874077`*^9, 3.651761015742484*^9}}],
+
+Cell["\<\
+An alternative way to represent historical events is with a chronology, an \
+ordered list of dates. This example shows some events in the summer of 1967.\
+\>", "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+   3.651762903544242*^9, 3.651762964637424*^9}, 3.651763015971159*^9}],
+
+Cell[BoxData[
+ RowBox[{"With", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"startdate", "=", 
+      RowBox[{"{", 
+       RowBox[{"1967", ",", "5", ",", "1"}], "}"}]}], ",", 
+     RowBox[{"enddate", "=", 
+      RowBox[{"{", 
+       RowBox[{"1967", ",", "8", ",", "31"}], "}"}]}]}], "}"}], ",", 
+   RowBox[{"TableForm", "[", 
+    RowBox[{"Sort", "[", 
+     RowBox[{
+      RowBox[{"Values", "[", 
+       RowBox[{"Select", "[", 
+        RowBox[{"histevents", ",", 
+         RowBox[{
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{
+             RowBox[{"Order", "[", 
+              RowBox[{
+               RowBox[{"DateList", "[", "startdate", "]"}], ",", 
+               RowBox[{"DateList", "[", 
+                RowBox[{
+                "#", "\[LeftDoubleBracket]", "2", "\[RightDoubleBracket]"}], 
+                "]"}]}], "]"}], "\[Equal]", "1"}], "&&", 
+            RowBox[{
+             RowBox[{"Order", "[", 
+              RowBox[{
+               RowBox[{"DateList", "[", "enddate", "]"}], ",", 
+               RowBox[{"DateList", "[", 
+                RowBox[{
+                "#", "\[LeftDoubleBracket]", "2", "\[RightDoubleBracket]"}], 
+                "]"}]}], "]"}], "\[Equal]", 
+             RowBox[{"-", "1"}]}]}], ")"}], "&"}]}], "]"}], "]"}], ",", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"#1", "\[LeftDoubleBracket]", "2", "\[RightDoubleBracket]"}], 
+        "<", 
+        RowBox[{
+        "#2", "\[LeftDoubleBracket]", "2", "\[RightDoubleBracket]"}]}], 
+       "&"}]}], "]"}], "]"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.651761093292345*^9, 3.651761152018014*^9}, {
+   3.651761189576877*^9, 3.6517612133351603`*^9}, {3.6517613061920147`*^9, 
+   3.651761332019405*^9}, 3.651761400576445*^9, {3.65176146862287*^9, 
+   3.6517615104607153`*^9}, {3.6517615407478647`*^9, 3.651761570253634*^9}, {
+   3.6517618671358023`*^9, 3.65176195718743*^9}, {3.651761990627071*^9, 
+   3.65176200471418*^9}, {3.6517624640027103`*^9, 3.651762479687789*^9}, {
+   3.651762551567227*^9, 3.651762591743965*^9}, {3.651762651761297*^9, 
+   3.65176269213558*^9}, {3.651762740046926*^9, 3.651762764437125*^9}, {
+   3.651762822811667*^9, 3.6517628672436857`*^9}, {3.651763012485343*^9, 
+   3.651763014211411*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Activity", "Section",
+ CellChangeTimes->{{3.647716402186221*^9, 3.647716405353856*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Questions", "Subsubsection",
+ CellChangeTimes->{{3.647716408857376*^9, 3.647716409673744*^9}}],
+
+Cell[TextData[{
+ "Make a copy of the ",
+ StyleBox["Select",
+  FontWeight->"Bold"],
+ " command that we used to pull out events from the ",
+ StyleBox["histevents",
+  FontSlant->"Italic"],
+ " association and modify it to search for events of the 1940s.  Choose some \
+events that are thematically related and make a timeline. Consult the ",
+ StyleBox["TimelinePlot",
+  FontWeight->"Bold"],
+ " documentation to see how to modify the way that your timeline appears."
+}], "Text",
+ CellChangeTimes->{{3.6517580307477427`*^9, 3.651758135015688*^9}}],
+
+Cell["\<\
+Try searching through the list of historical events for a particular keyword \
+or set of keywords and building a timeline of the results. Do you think that \
+the events that WolframAlpha knows about provide a good coverage of the \
+subject or period?\
+\>", "Text",
+ CellChangeTimes->{{3.65175990452075*^9, 3.6517599178398237`*^9}, {
+  3.6517599558470707`*^9, 3.65176002133179*^9}}],
+
+Cell["\<\
+Try evaluating the following command. What might you conclude about the kinds \
+of historical events that are well represented in WolframAlpha? How might you \
+adjust your research strategies accordingly?\
+\>", "Text",
+ CellChangeTimes->{{3.651760079750064*^9, 3.6517601129523983`*^9}, 
+   3.651760144015959*^9, 3.651760185974325*^9, {3.6517602391245947`*^9, 
+   3.651760250747321*^9}, 3.651760317960804*^9, {3.65176038005518*^9, 
+   3.6517604254447947`*^9}, 3.65176092010588*^9, {3.651763097584097*^9, 
+   3.6517630989201927`*^9}}],
+
+Cell["MannedSpaceMissionData[]", "Program",
+ CellChangeTimes->{{3.651760115146016*^9, 3.651760118433074*^9}, 
+   3.6517601791698923`*^9, {3.6517603021941013`*^9, 3.651760314553557*^9}}],
+
+Cell["\<\
+How does the usefulness of a timeline visualization vary with the amount of \
+information you put in it?\
+\>", "Text",
+ CellChangeTimes->{{3.651760943497862*^9, 3.651760961328487*^9}, {
+  3.651761043781188*^9, 3.651761054916912*^9}}],
+
+Cell["\<\
+Try evaluating the following command. Skim through the entry and then compare \
+the results with the 1967 chronology shown above. Which events (if any) would \
+you add to the ones that WolframAlpha already knows about?\
+\>", "Text",
+ CellChangeTimes->{{3.65176309141696*^9, 3.651763118095402*^9}, {
+  3.651763222460079*^9, 3.651763297872707*^9}, {3.651765372952187*^9, 
+  3.6517653751268597`*^9}}],
+
+Cell["viewData[WikipediaData[\"summer of love\"]]", "Program",
+ CellChangeTimes->{{3.6517630396218367`*^9, 3.651763072377439*^9}, 
+   3.651763139953279*^9}]
+}, Open  ]],
+
+Cell["Discussion", "Subsubsection",
+ CellChangeTimes->{{3.647716411921282*^9, 3.6477164128415117`*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Date histograms", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.651765482084775*^9, 3.6517654840592937`*^9}}],
+
+Cell["\<\
+Sometimes we want to get an idea of the distribution of a large number of \
+dates. We might ask, for example, whether the historical event entities in \
+WolframAlpha are uniformly distributed or concentrated in some periods.\
+\>", "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.651765490490765*^9, 3.6517654968103933`*^9}, {3.651766456915614*^9, 
+  3.651766502800784*^9}}],
+
+Cell[TextData[{
+ "We can get dates for historical events by requesting the ",
+ StyleBox["Values",
+  FontWeight->"Bold"],
+ " of our ",
+ StyleBox["histevent",
+  FontSlant->"Italic"],
+ " association, then taking the second column. Here are the first twenty \
+dates."
+}], "Text",
+ CellChangeTimes->{{3.651765541480809*^9, 3.651765580263867*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Values", "[", "histevents", "]"}], "\[LeftDoubleBracket]", 
+  RowBox[{
+   RowBox[{"1", ";;", "40"}], ",", "2"}], "\[RightDoubleBracket]"}]], "Input",\
+
+ CellChangeTimes->{{3.651765510027478*^9, 3.651765531522238*^9}, 
+   3.651765810192493*^9}],
+
+Cell[TextData[{
+ "We can visualize the distribution of start dates for all historical events \
+with the ",
+ StyleBox["DateHistogram",
+  FontWeight->"Bold"],
+ " command. The \[OpenCurlyDoubleQuote]Century\[CloseCurlyDoubleQuote] \
+parameter sets the size of each bin. Note that almost all of the events have \
+dates after 1700 BCE, but there must be a few with much earlier dates."
+}], "Text",
+ CellChangeTimes->{{3.651765588943427*^9, 3.651765612518894*^9}, {
+  3.651765923436352*^9, 3.6517659350843287`*^9}, {3.6517661009345207`*^9, 
+  3.6517661365015793`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"DateHistogram", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"Values", "[", "histevents", "]"}], "\[LeftDoubleBracket]", 
+    RowBox[{"All", ",", "2"}], "\[RightDoubleBracket]"}], ",", 
+   "\"\<Century\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.651765622287114*^9, 3.651765644967637*^9}, {
+   3.6517657439797173`*^9, 3.6517657628421583`*^9}, 3.651765800553563*^9, {
+   3.651765836191663*^9, 3.651765844935321*^9}, {3.651765901790793*^9, 
+   3.651765905325481*^9}, {3.6517659390933113`*^9, 3.651765987682562*^9}, 
+   3.65176609340761*^9}],
+
+Cell["\<\
+If we show dates between 1700 BCE and the present, we see that the majority \
+of events date from the period after 1000 CE.\
+\>", "Text",
+ CellChangeTimes->{{3.651766149565002*^9, 3.651766217906699*^9}}],
+
+Cell[BoxData[
+ RowBox[{"DateHistogram", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"Values", "[", "histevents", "]"}], "\[LeftDoubleBracket]", 
+    RowBox[{"All", ",", "2"}], "\[RightDoubleBracket]"}], ",", 
+   "\"\<Century\>\"", ",", 
+   RowBox[{"PlotRange", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"DateList", "[", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"-", "1700"}], ",", "1", ",", "1"}], "}"}], "]"}], ",", 
+      "Today"}], "}"}]}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.651765622287114*^9, 3.651765644967637*^9}, {
+   3.6517657439797173`*^9, 3.6517657628421583`*^9}, 3.651765800553563*^9, {
+   3.651765836191663*^9, 3.651765844935321*^9}, {3.651765901790793*^9, 
+   3.651765905325481*^9}, {3.6517659390933113`*^9, 3.651765999090321*^9}, {
+   3.651766037633711*^9, 3.6517660761837673`*^9}, {3.651766145678001*^9, 
+   3.651766145957402*^9}, {3.651766187844613*^9, 3.651766192613138*^9}}],
+
+Cell["\<\
+Zooming in we see that the majority of those events are from the 20th century.\
+\>", "Text",
+ CellChangeTimes->{{3.651766221354289*^9, 3.6517662712809753`*^9}, {
+  3.65176652128965*^9, 3.651766521696197*^9}}],
+
+Cell[BoxData[
+ RowBox[{"DateHistogram", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"Values", "[", "histevents", "]"}], "\[LeftDoubleBracket]", 
+    RowBox[{"All", ",", "2"}], "\[RightDoubleBracket]"}], ",", 
+   "\"\<Century\>\"", ",", 
+   RowBox[{"PlotRange", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"DateList", "[", 
+       RowBox[{"{", 
+        RowBox[{"1000", ",", "1", ",", "1"}], "}"}], "]"}], ",", "Today"}], 
+     "}"}]}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.651765622287114*^9, 3.651765644967637*^9}, {
+   3.6517657439797173`*^9, 3.6517657628421583`*^9}, 3.651765800553563*^9, {
+   3.651765836191663*^9, 3.651765844935321*^9}, {3.651765901790793*^9, 
+   3.651765905325481*^9}, {3.6517659390933113`*^9, 3.651765999090321*^9}, {
+   3.651766037633711*^9, 3.6517660761837673`*^9}, {3.651766145678001*^9, 
+   3.651766145957402*^9}, {3.651766187844613*^9, 3.651766192613138*^9}, {
+   3.651766246978588*^9, 3.651766247489801*^9}}],
+
+Cell["\<\
+We can change the resolution to see 20th Century dates by decade. Why are \
+there relatively more events for the 1910s and 1940s?\
+\>", "Text",
+ CellChangeTimes->{{3.651766284024778*^9, 3.651766298047946*^9}, {
+  3.6517663778057127`*^9, 3.651766412323761*^9}}],
+
+Cell[BoxData[
+ RowBox[{"DateHistogram", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"Values", "[", "histevents", "]"}], "\[LeftDoubleBracket]", 
+    RowBox[{"All", ",", "2"}], "\[RightDoubleBracket]"}], ",", 
+   "\"\<Decade\>\"", ",", 
+   RowBox[{"PlotRange", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"DateList", "[", 
+       RowBox[{"{", 
+        RowBox[{"1900", ",", "1", ",", "1"}], "}"}], "]"}], ",", 
+      RowBox[{"DateList", "[", 
+       RowBox[{"{", 
+        RowBox[{"1999", ",", "12", ",", "31"}], "}"}], "]"}]}], "}"}]}]}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.651765622287114*^9, 3.651765644967637*^9}, {
+   3.6517657439797173`*^9, 3.6517657628421583`*^9}, 3.651765800553563*^9, {
+   3.651765836191663*^9, 3.651765844935321*^9}, {3.651765901790793*^9, 
+   3.651765905325481*^9}, {3.6517659390933113`*^9, 3.651765999090321*^9}, {
+   3.651766037633711*^9, 3.6517660761837673`*^9}, {3.651766145678001*^9, 
+   3.651766145957402*^9}, {3.651766187844613*^9, 3.651766192613138*^9}, {
+   3.651766246978588*^9, 3.651766247489801*^9}, {3.651766311384262*^9, 
+   3.6517663313509197`*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Plotting time series data", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.651766429476994*^9, 3.651766445866905*^9}}],
+
+Cell["\<\
+Sometimes we have repeated measurements of the same phenomemon over time, \
+where each measurement consists of a date and a value. Rather than use a \
+timeline to visualize these kinds of data sets (called time series), a graph \
+is more appropriate.\
+\>", "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+   3.6517665530805807`*^9, 3.651766629892449*^9}, {3.65176667804333*^9, 
+   3.651766681026856*^9}, 3.651766823686427*^9}],
+
+Cell[TextData[{
+ "We can request historical population data with the ",
+ StyleBox["CountryData",
+  FontWeight->"Bold"],
+ " command"
+}], "Text",
+ CellChangeTimes->{{3.6517668259575253`*^9, 3.6517668326292257`*^9}, {
+  3.651766876515665*^9, 3.651766881883769*^9}}],
+
+Cell[BoxData[
+ RowBox[{"canadianPopulationSeries", "=", 
+  RowBox[{"CountryData", "[", 
+   RowBox[{"\"\<Canada\>\"", ",", 
+    RowBox[{"{", 
+     RowBox[{"\"\<Population\>\"", ",", 
+      RowBox[{"{", 
+       RowBox[{"1865", ",", "1965"}], "}"}]}], "}"}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.6517668378405952`*^9, 3.651766864268224*^9}, {
+  3.651766899580235*^9, 3.651766911106558*^9}}],
+
+Cell[TextData[{
+ "Then use ",
+ StyleBox["DateListPlot",
+  FontWeight->"Bold"],
+ " to visualize it"
+}], "Text",
+ CellChangeTimes->{{3.651766889547955*^9, 3.651766894896446*^9}}],
+
+Cell[BoxData[
+ RowBox[{"DateListPlot", "[", "canadianPopulationSeries", "]"}]], "Input",
+ CellChangeTimes->{{3.651766914993991*^9, 3.651766918675399*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Wikipedia popularity data", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.651767159650811*^9, 3.651767164361936*^9}}],
+
+Cell["\<\
+We\[CloseCurlyQuote]ve already seen that we can retrieve a nicely formatted \
+time series plot of Wikipedia search stats. Here are the results for Nikita \
+Krushchev.\
+\>", "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.651767170090678*^9, 3.651767215928195*^9}}],
+
+Cell[BoxData[
+ RowBox[{"WolframAlpha", "[", 
+  RowBox[{"\"\<nikita krushchev\>\"", ",", 
+   RowBox[{
+   "IncludePods", "\[Rule]", "\"\<PopularityPod:WikipediaStatsData\>\""}], 
+   ",", 
+   RowBox[{"AppearanceElements", "\[Rule]", 
+    RowBox[{"{", "\"\<Pods\>\"", "}"}]}], ",", 
+   RowBox[{"TimeConstraint", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"30", ",", "Automatic", ",", "Automatic", ",", "Automatic"}], 
+     "}"}]}]}], "]"}]], "Input"],
+
+Cell["\<\
+We can also retrieve the time series data which was used to create the figure.\
+\>", "Text",
+ CellChangeTimes->{{3.651767222656282*^9, 3.651767234879559*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"krushchevWikipedia", "=", 
+   RowBox[{"WolframAlpha", "[", 
+    RowBox[{"\"\<nikita krushchev\>\"", ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"\"\<PopularityPod:WikipediaStatsData\>\"", ",", "1"}], "}"}],
+        ",", "\"\<TimeSeriesData\>\""}], "}"}]}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.6517670918773727`*^9, 3.651767120980139*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Short", "[", "krushchevWikipedia", "]"}]], "Input",
+ CellChangeTimes->{{3.651767125999053*^9, 3.6517671295321293`*^9}}],
+
+Cell["While we are at it, let\[CloseCurlyQuote]s grab data for Stalin, too.", \
+"Text",
+ CellChangeTimes->{{3.651767246183539*^9, 3.651767256862829*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"stalinWikipedia", "=", 
+   RowBox[{"WolframAlpha", "[", 
+    RowBox[{"\"\<joseph stalin\>\"", ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"\"\<PopularityPod:WikipediaStatsData\>\"", ",", "1"}], "}"}],
+        ",", "\"\<TimeSeriesData\>\""}], "}"}]}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.6517670918773727`*^9, 3.651767120980139*^9}, {
+  3.651767285974781*^9, 3.651767295965711*^9}}],
+
+Cell["\<\
+Now we can plot both series in the same figure. Note that the two series \
+appear to be correlated. This is, of course, something that we could test \
+statistically.\
+\>", "Text",
+ CellChangeTimes->{{3.6517673087894163`*^9, 3.6517673195886393`*^9}, {
+  3.6517673836261683`*^9, 3.6517674117454557`*^9}, {3.651767483423856*^9, 
+  3.651767493286664*^9}, {3.651767528926773*^9, 3.651767529269438*^9}}],
+
+Cell[BoxData[
+ RowBox[{"DateListPlot", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"krushchevWikipedia", ",", "stalinWikipedia"}], "}"}], ",", 
+   RowBox[{"PlotLegends", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"\"\<Krushchev\>\"", ",", "\"\<Stalin\>\""}], "}"}]}]}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.651767323723311*^9, 3.651767373179031*^9}}],
+
+Cell["\<\
+Having access to the time series data also allows us to easily find maxima \
+and minima. Here are the five days that the Stalin page on Wikipedia received \
+the highest  number of hits\
+\>", "Text",
+ CellChangeTimes->{{3.6517675459091387`*^9, 3.651767556404505*^9}, {
+  3.651767683800715*^9, 3.6517677024233637`*^9}, {3.6517677358140907`*^9, 
+  3.651767739246181*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"MaximalBy", "[", 
+   RowBox[{"stalinWikipedia", ",", "Last", ",", "5"}], "]"}], "//", 
+  "Column"}]], "Input",
+ CellChangeTimes->{{3.6517676152648077`*^9, 3.651767667360858*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Upload your notebook", "Section",
+ CellChangeTimes->{{3.649950784924818*^9, 3.649950788859275*^9}}],
+
+Cell["\<\
+Don\[CloseCurlyQuote]t forget to upload a copy of your notebook for this \
+class to the OWL Site for the course\
+\>", "Text",
+ CellChangeTimes->{{3.649950792779258*^9, 3.649950818634288*^9}}]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1422, 1107},
+WindowMargins->{{129, Automatic}, {Automatic, 73}},
+TaggingRules->{"SlideShow" -> True},
+Magnification:>1.25 Inherited,
+FrontEndVersion->"10.2 for Mac OS X x86 (32-bit, 64-bit Kernel) (July 6, \
+2015)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "SlideShowHeader"->{
+  Cell[580, 22, 4299, 96, 75, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[5671, 145, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[6198, 164, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[7710, 211, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[10011, 280, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[12494, 352, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[21311, 558, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[23108, 604, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[24413, 644, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[27263, 719, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[30223, 799, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[36393, 957, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[38157, 1012, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[41940, 1120, 64, 1, 115, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"SlideShowHeader", 42747, 1149}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 4299, 96, 75, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[4882, 120, 406, 9, 183, "Title"],
+Cell[5291, 131, 343, 9, 99, "Subtitle"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5671, 145, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[5760, 150, 95, 1, 80, "Section"],
+Cell[5858, 153, 291, 5, 37, "Text"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6198, 164, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[6287, 169, 141, 2, 80, "Section"],
+Cell[6431, 173, 381, 9, 57, "Input"],
+Cell[6815, 184, 846, 21, 78, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7710, 211, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[7799, 216, 178, 2, 80, "Section"],
+Cell[7980, 220, 405, 9, 61, "Text"],
+Cell[8388, 231, 199, 4, 36, "Input"],
+Cell[8590, 237, 220, 4, 35, "Input"],
+Cell[8813, 243, 185, 2, 37, "Text"],
+Cell[9001, 247, 296, 6, 45, "Input"],
+Cell[9300, 255, 270, 7, 46, "Text"],
+Cell[9573, 264, 389, 10, 45, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[10011, 280, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[10100, 285, 196, 3, 100, "Section"],
+Cell[10299, 290, 329, 8, 46, "Text"],
+Cell[10631, 300, 232, 5, 45, "Input"],
+Cell[10866, 307, 232, 5, 45, "Input"],
+Cell[11101, 314, 236, 5, 45, "Input"],
+Cell[11340, 321, 205, 4, 46, "Text"],
+Cell[11548, 327, 767, 16, 45, "Input"],
+Cell[12318, 345, 127, 1, 46, "Text"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[12494, 352, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[12583, 357, 153, 2, 100, "Section"],
+Cell[12739, 361, 309, 7, 46, "Text"],
+Cell[13051, 370, 198, 4, 45, "Input"],
+Cell[13252, 376, 194, 4, 45, "Input"],
+Cell[13449, 382, 325, 6, 76, "Text"],
+Cell[13777, 390, 490, 12, 45, "Input"],
+Cell[14270, 404, 286, 7, 46, "Text"],
+Cell[14559, 413, 664, 14, 45, "Input"],
+Cell[15226, 429, 253, 5, 46, "Text"],
+Cell[15482, 436, 5780, 116, 352, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[21311, 558, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[21400, 563, 145, 2, 100, "Section"],
+Cell[21548, 567, 577, 10, 76, "Text"],
+Cell[22128, 579, 931, 19, 71, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[23108, 604, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[23197, 609, 226, 3, 100, "Section"],
+Cell[23426, 614, 309, 8, 46, "Text"],
+Cell[23738, 624, 626, 14, 46, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[24413, 644, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[24502, 649, 148, 2, 100, "Section"],
+Cell[24653, 653, 317, 5, 46, "Text"],
+Cell[24973, 660, 2241, 53, 150, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[27263, 719, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[27352, 724, 93, 1, 100, "Section"],
+Cell[CellGroupData[{
+Cell[27470, 729, 100, 1, 53, "Subsubsection"],
+Cell[27573, 732, 541, 13, 76, "Text"],
+Cell[28117, 747, 391, 7, 76, "Text"],
+Cell[28511, 756, 542, 9, 76, "Text"],
+Cell[29056, 767, 185, 2, 71, "Program"],
+Cell[29244, 771, 243, 5, 46, "Text"],
+Cell[29490, 778, 407, 7, 76, "Text"],
+Cell[29900, 787, 156, 2, 71, "Program"]
+}, Open  ]],
+Cell[30071, 792, 103, 1, 53, "Subsubsection"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[30223, 799, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[30312, 804, 153, 2, 100, "Section"],
+Cell[30468, 808, 416, 7, 76, "Text"],
+Cell[30887, 817, 341, 10, 46, "Text"],
+Cell[31231, 829, 278, 7, 43, "Input"],
+Cell[31512, 838, 562, 11, 76, "Text"],
+Cell[32077, 851, 561, 11, 45, "Input"],
+Cell[32641, 864, 213, 4, 46, "Text"],
+Cell[32857, 870, 928, 20, 45, "Input"],
+Cell[33788, 892, 218, 4, 46, "Text"],
+Cell[34009, 898, 952, 20, 45, "Input"],
+Cell[34964, 920, 270, 5, 46, "Text"],
+Cell[35237, 927, 1107, 24, 45, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[36393, 957, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[36482, 962, 161, 2, 100, "Section"],
+Cell[36646, 966, 465, 8, 76, "Text"],
+Cell[37114, 976, 262, 7, 46, "Text"],
+Cell[37379, 985, 393, 9, 45, "Input"],
+Cell[37775, 996, 176, 6, 46, "Text"],
+Cell[37954, 1004, 154, 2, 45, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[38157, 1012, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[38246, 1017, 161, 2, 100, "Section"],
+Cell[38410, 1021, 307, 6, 46, "Text"],
+Cell[38720, 1029, 446, 11, 71, "Input"],
+Cell[39169, 1042, 168, 3, 57, "Text"],
+Cell[39340, 1047, 418, 10, 56, "Input"],
+Cell[39761, 1059, 143, 2, 56, "Input"],
+Cell[39907, 1063, 153, 2, 57, "Text"],
+Cell[40063, 1067, 461, 11, 56, "Input"],
+Cell[40527, 1080, 407, 7, 57, "Text"],
+Cell[40937, 1089, 357, 9, 56, "Input"],
+Cell[41297, 1100, 378, 7, 95, "Text"],
+Cell[41678, 1109, 213, 5, 56, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[41940, 1120, 64, 1, 115, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[42029, 1125, 105, 1, 125, "Section"],
+Cell[42137, 1128, 201, 4, 57, "Text"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
