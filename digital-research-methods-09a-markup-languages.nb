@@ -1,0 +1,1467 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     51411,       1458]
+NotebookOptionsPosition[     43744,       1219]
+NotebookOutlinePosition[     45206,       1263]
+CellTagsIndexPosition[     45127,       1258]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ TogglerBox[2, {1->
+  OverlayBox[{
+   TagBox[GridBox[{
+      {
+       GraphicsBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBLECOU2VJahIzkCEFxAJADBL8//8/
+Qfzo0SP2GzduCF29elXs/Pnz0sgYn747d+5wA9VoArE/EB8B4uPoGJu+Fy9e
+MF+4cEENKB8AxBeB+AMQ/wXif+gYi1tBdvoB8QUg/ghV9x8XRtb7/PlzFqje
+t1D7cOrDpv/ixYvqUHuJ0ousHxpWAVA3E6UXWT80nC8S8i82/Q8ePOAgx26Y
+/uvXrwsD2UdJ8Tey/kuXLolD0wNJbofpB6YVSUr0n4ek5QHTT6n7KQ0/SuOP
+0vRDafqlRv6BxgPZ+Ret/HhHrBl4yi9QWHwiFB7Yyk+QO6B+CTxPYvmJjG/f
+vs17nozyG1f9cR6t7gBhAPeiQ4A=
+         "], {{0, 26}, {16, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{16, 26},
+        PlotRange->{{0, 16}, {0, 26}}], 
+       GraphicsBox[RasterBox[CompressedData["
+1:eJzt2d9OVFcUB2DSNmkfQRFEiRQ1gCK1vW4fwT6BJu1tE9uk8fUUERE9aECC
+qLGYEmKkErWxtont2mGdcDLVOpNgZijfJB9hzp+99j6zb9b5Hb3ww7nvP+rr
+6/vxs/hz7vzPX1+8eP7St5/El28u/fTdhY/jn/6w8GlfXzlYVdWhDgyEwXT4
+HQYbBho6qQMAAOxt/Q0HWxxo0TzX3xij7juGwpFwNAyHY2EkfB6OhxPhZBgL
+42EinAqnw2SYSl+Es+HL9FWb6uvP5hj1eJNZ41TWHM85nMw5Hc85juSch3MN
+R3JNdf/UfGbtPqf6WdW6/XsDAADsV7vd/7b2vqPV2/veuuc9k6Za1Mfr3vVt
+feto9e+eVb9KL2tmz81M+n25dadZ9bU2zYXbYSmshNXwoOF+uJfn7obFcKfa
+/twMN8L1MNtBTQAAYO+ZSVfTdLqSLreoj0/n9eXe0jeUHmQ+3AoL1XZ/UfqR
+5Wq77yg9yMPwS3gcfg0b4Ul4Gn4LW+F5eBl+D6/CH+F1+DP99Q71+dd5z6sc
+42WOuZU1nmbNjZzD45zTw5zjSs55KdewkGuazzXONp5Xu8+pflb185rpgd8d
+AABgv/kQ/W/J4krGVvrIkruVDO5RWAvr1U7fuxmeVTt9b/Ei1d+38prNaqdv
+Xc+xHuXY97LWYtbWr9Jryj4sGXPJmkvmXD7l/UrZsyWTLu9dyj4u72Ca2fVq
+nivvY8renuug5ps2/b2L2q0JAADwX3azT/kQuv18AAAA2Pv0rOxn3djz3X6f
+BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAADsHW/a1I2aAAAAAAAAsJ91OyOEburGnr/W
+prlwOyyFlbAaHjTcD/fy3N2wGO5U25+b4Ua4HmY7qAkAAAAAAAC9aCZdTdPp
+Srrcoj4+ndeXe0tuVjK4+XCr2s7iSsa2XG3nbiWDexTWwnrYCE/CZngWtsLz
+9CLV37fyms28ZyPHWMsxH2SN5ax5O+cwn3Oabayv3XXVa6vXN9MDvxN7W9mH
+JWMuWXPJnMunZNBlz5ZMumTTZR+XrLqZXa/muZJtl70910HNQx0YCIPp8DsM
+Ngw0dFIHAAAAAAAAel1/w8EWB1o0z/U3xqhzt6FwNAyHY2EkjIYT4WQYC+Nh
+IpwOk+FMmmpRH5/Mayfy3rEc60SOPZK1hrP2ULWT9zXX2O666rXVuv378P/S
+zJ6bmfT7cuuOsup/AFmW9vs=
+         "], {{0, 26}, {2000, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{2000, 26},
+        PlotRange->{{0, 2000}, {0, 26}}], 
+       GraphicsBox[RasterBox[CompressedData["
+1:eJy9lstOwkAUhhthQUJcuUBl5cr4GPoABvEJINGtCZoYng4Il4Z7gXAJYUHY
+QAi3GlYQPZ5/4pCm0pYC2uSDaXvmn5lzzpzpVfQl/HyiKMqrj3/CkffbWCwS
+f/TyzV387Snq4cYlc87gYbVaDbpB07SLRqMR6Pf7PiJSnOA+6h7kmBBz0+12
+Tx30v/bgk9GZOvPAa7oejUYeC306AIz1wWjM/WAw8B9ZX4L1TDHGcDj02ulX
+KpUNbt79jKHBV1b66Fcul3fCYgzEJNTr9fxmfaldKpWoUChQPp8X/8ViUWB8
+BhuLMRCPGvJqmz76QWOxWFCtVqNsNku5XE6AdqfToclkImxga7cGuT/M+uw/
+ms/ntF6vqdlsUjKZFKCNC/pynTZxyLbb7bNt/sHcMpkMzWYzoVev1wW4xuOx
+WAdsbGIAH6ncJ7BNH/6FRjqdJl3XSV7T6VSsA76CDWxt9oSKOmLOH/RBLKEP
+LVVVN/qJRGKjDxsnfSZoN3/4CPNfrVa/5n+IvtH/iDHu9/G/2T/G/JT5A41U
+KiXm3Wq1xBhcx5zy0zK+Mj+Xy6XIf5n7EuQ/9sYh+Wneqy73r+3+2rX2OPh+
+a31wqpHG5xbatvXtCDjW5wO1Z9UdzheXyPMRPrc6H49yvpvn/Y/fJ3/6ffUN
+AyH/6w==
+         "], {{0, 26}, {24, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{24, 26},
+        PlotRange->{{0, 24}, {0, 26}}]}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {Automatic, 
+         Scaled[0.6], Automatic}},
+     GridBoxSpacings->{"Columns" -> {{0}}, "Rows" -> {{0}}}],
+    "Grid"], 
+   PaneBox[
+    StyleBox[
+     RowBox[{
+     "Background", " ", "images", " ", "and", " ", "text", " ", "colors", " ",
+       "have", " ", "been", " ", "adjusted", " ", "for", " ", "editing", " ", 
+      
+      RowBox[{"purposes", "."}]}],
+     LineBreakWithin->False,
+     FontFamily->"Helvetica",
+     FontSize->12,
+     FontColor->GrayLevel[0.4]],
+    Alignment->Center,
+    ImageSize->Scaled[0.5],
+    ScrollPosition->{0., 0.}]},
+   Alignment->{Center, Center}], 2->""}, "1"]], "SlideShowNavigationBar", \
+"FirstSlide",
+ CellMargins->{{0, 0}, {0, 0}},
+ CellFrameLabelMargins->2,
+ CellSize->{Inherited, 30},
+ CellChangeTimes->{3.647361175465108*^9},
+ TextAlignment->Center,
+ CellTags->"SlideShowHeader"],
+
+Cell["\<\
+Digital Research Methods 09A:
+Markup Languages\
+\>", "Title",
+ CellChangeTimes->{
+  3.559948400406288*^9, {3.647331852839075*^9, 3.647331861295168*^9}, {
+   3.647331922221755*^9, 3.647331924532915*^9}, {3.647332658962614*^9, 
+   3.64733266480881*^9}, {3.6473611327373047`*^9, 3.647361139759391*^9}, {
+   3.647448943135475*^9, 3.6474489472294493`*^9}, {3.6541586257875633`*^9, 
+   3.654158631217699*^9}}],
+
+Cell[TextData[{
+ "William J Turkel, ",
+ StyleBox["wturkel@uwo.ca",
+  FontSlant->"Italic",
+  FontColor->RGBColor[
+   0.396078431372549, 0.596078431372549, 0.796078431372549]],
+ "\nHistory 2816 / Digital Humanities 2130 / History 9877"
+}], "Subtitle",
+ CellChangeTimes->{{3.647331955723979*^9, 3.6473319708190517`*^9}, 
+   3.647332103720562*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Overview", "Section",
+ CellChangeTimes->{{3.647361153919208*^9, 3.6473611548467712`*^9}}],
+
+Cell[TextData[{
+ "When information is presented online, the content provider needs some way \
+of indicating how different elements are supposed to look, how they are \
+related to one another, and, at least to some extent, what they mean. All of \
+this ",
+ StyleBox["metadata",
+  FontSlant->"Italic"],
+ " can be provided in the form of ",
+ StyleBox["tags",
+  FontSlant->"Italic"],
+ " which are added to a text file. The process of adding such information is \
+called \[OpenCurlyQuote]marking up\[CloseCurlyQuote] a file, hence \
+\[OpenCurlyQuote]markup languages\[CloseCurlyQuote]."
+}], "Text",
+ CellChangeTimes->{{3.647361157582405*^9, 3.647361159086673*^9}, 
+   3.6541593295570793`*^9}],
+
+Cell["\<\
+HTML, the HyperText Markup Language, is widely used on the web, so we will \
+begin with it. Then we will turn to a more general markup language called XML.\
+\>", "Text",
+ CellChangeTimes->{{3.654159408261732*^9, 3.6541594609390717`*^9}, {
+  3.654166062522862*^9, 3.654166076833004*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Setup", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.654163269552444*^9, 3.654163270207502*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"viewData", "[", "x_", "]"}], ":=", "\[IndentingNewLine]", 
+  RowBox[{"Framed", "[", 
+   RowBox[{"Pane", "[", 
+    RowBox[{"x", ",", 
+     RowBox[{"{", 
+      RowBox[{"Automatic", ",", "200"}], "}"}], ",", 
+     RowBox[{"Scrollbars", "\[Rule]", "True"}]}], "]"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.511539182255096*^9, 3.51153920239167*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["HTML: HyperText Markup Language", "Section",
+ CellChangeTimes->{{3.647716369451888*^9, 3.647716370003084*^9}, {
+  3.647798474690284*^9, 3.6477984752570744`*^9}, {3.654159350320114*^9, 
+  3.654159373718552*^9}}],
+
+Cell[TextData[{
+ "In the Hypertext Markup Language (HTML) you can indicate that some text is \
+to be emphasized with the ",
+ StyleBox["em",
+  FontSlant->"Italic"],
+ " tag. Emphasized text is usually rendered with italic font."
+}], "Text",
+ CellChangeTimes->{{3.6458894610786552`*^9, 3.645889509380952*^9}}],
+
+Cell[BoxData[
+ RowBox[{"EmbeddedHTML", "[", 
+  "\"\<This <em>italicized</em> word is in italics\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.645725373664715*^9, 3.645725411216551*^9}, {
+  3.645725457031631*^9, 3.645725494909481*^9}, {3.645980683153906*^9, 
+  3.645980688120593*^9}}],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["EmbeddedHTML",
+  FontWeight->"Bold"],
+ " command takes an HTML string and creates a button. When you click on the \
+button above in your ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " notebook, it opens the string in your default web browser. There you \
+should see the text with the word \[OpenCurlyQuote]italicized\
+\[CloseCurlyQuote] in italics."
+}], "Text",
+ CellChangeTimes->{{3.645889513620696*^9, 3.6458895816581717`*^9}, {
+   3.6458896198257923`*^9, 3.645889620721019*^9}, 3.6458897560056953`*^9, {
+   3.64598065323499*^9, 3.645980697560033*^9}}],
+
+Cell[TextData[{
+ "Tags that are used to indicate a span of material have a beginning tag \
+(like ",
+ StyleBox["<em>",
+  FontSlant->"Italic"],
+ ") and an ending tag (like ",
+ StyleBox["</em>",
+  FontSlant->"Italic"],
+ "). The paragraph tag works in a similar fashion to the emphasis tag."
+}], "Text",
+ CellChangeTimes->{{3.645889773611134*^9, 3.645889966124249*^9}, {
+  3.645890022618145*^9, 3.6458900689203053`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"EmbeddedHTML", "[", 
+  "\"\<<p>This the <em>first</em> paragraph.</p><p>This the <em>second</em> \
+paragraph.</p>\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.645725373664715*^9, 3.645725411216551*^9}, {
+  3.645725457031631*^9, 3.645725494909481*^9}, {3.645889973036777*^9, 
+  3.6458900028110323`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Nesting", "Subsubsection",
+ CellChangeTimes->{{3.654162785449944*^9, 3.6541627860811853`*^9}}],
+
+Cell[TextData[{
+ "Note that tags have to be ",
+ StyleBox["properly nested",
+  FontSlant->"Italic"],
+ ". That means that the following is OK"
+}], "Text",
+ CellChangeTimes->{{3.64589057410183*^9, 3.645890605772875*^9}, {
+  3.645973276370764*^9, 3.645973276466948*^9}, {3.645980734199953*^9, 
+  3.6459807355426283`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"<", "outer", ">", "<", "inner", ">"}], "..."}], "<", 
+  RowBox[{"/", "inner"}], ">", "<", 
+  RowBox[{"/", "outer"}], ">"}]], "DisplayFormula",
+ CellChangeTimes->{{3.6458906097829*^9, 3.645890633971863*^9}}],
+
+Cell["But that this is not OK", "Text",
+ CellChangeTimes->{{3.6458906365877*^9, 3.6458906487872267`*^9}, {
+  3.645980739030323*^9, 3.645980739830593*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"<", "outer", ">", "<", "inner", ">"}], "..."}], "<", 
+  RowBox[{"/", "outer"}], ">", "<", 
+  RowBox[{"/", "inner"}], ">"}]], "DisplayFormula",
+ CellChangeTimes->{{3.6458906097829*^9, 3.64589065893281*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Single location tags", "Subsubsection",
+ CellChangeTimes->{{3.65416279392885*^9, 3.6541627974325438`*^9}}],
+
+Cell[TextData[{
+ "Some tags are used in a single location. The line break tag is an example. \
+Note that the syntax for these kind of tags looks like ",
+ StyleBox["<br/>",
+  FontSlant->"Italic"],
+ ". Compare this example with the previous one."
+}], "Text",
+ CellChangeTimes->{{3.645890041961445*^9, 3.645890109135055*^9}, {
+  3.64589014763844*^9, 3.645890168236987*^9}}],
+
+Cell[BoxData[
+ RowBox[{"EmbeddedHTML", "[", 
+  "\"\<<p>This the <br/><em>first</em> paragraph.</p><p>This the \
+<br/><em>second</em> paragraph.</p>\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.645725373664715*^9, 3.645725411216551*^9}, {
+  3.645725457031631*^9, 3.645725494909481*^9}, {3.645889973036777*^9, 
+  3.6458900028110323`*^9}, {3.645890122535345*^9, 3.645890135790104*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Special characters", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+   3.654162390801433*^9, 3.65416239527153*^9}, 3.654162822231695*^9}],
+
+Cell[TextData[{
+ "A string that begins with an ampersand and ends with a semicolon represents \
+a special character in HTML. Suppose, for example, that you want to put a \
+left angle bracket on your page. Since that character is used in every tag, \
+you need to have some way of telling the web browser that you are ",
+ StyleBox["mentioning",
+  FontSlant->"Italic"],
+ " the character rather than ",
+ StyleBox["using",
+  FontSlant->"Italic"],
+ " it to define a tag. In HTML, you can represent a left angle bracket with \
+",
+ StyleBox["&lt;",
+  FontSlant->"Italic"],
+ " (the \[OpenCurlyQuote]lt\[CloseCurlyQuote] stands for \
+\[OpenCurlyQuote]less than\[CloseCurlyQuote]). Likewise, if you need to \
+mention an ampersand you can do so with ",
+ StyleBox["&amp; ",
+  FontSlant->"Italic"],
+ "as shown in the example below. The ",
+ StyleBox["strong",
+  FontSlant->"Italic"],
+ " tag is usually rendered as boldface."
+}], "Text",
+ CellChangeTimes->{{3.645973460492125*^9, 3.645973516386112*^9}, {
+  3.645973550625763*^9, 3.645973680388454*^9}, {3.6459738577107553`*^9, 
+  3.645973903268157*^9}, {3.64598077405519*^9, 3.645980790469102*^9}}],
+
+Cell[BoxData[
+ RowBox[{"EmbeddedHTML", "[", 
+  "\"\<It is <strong>true</strong> that 4&lt;8 &amp; 4&gt;2.\>\"", 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.645973711715814*^9, 3.645973836039153*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Character codes", "Subsubsection",
+ CellChangeTimes->{{3.654162815023937*^9, 3.65416281900797*^9}}],
+
+Cell[TextData[{
+ "Sometimes special characters are represented with HTML ",
+ StyleBox["character codes",
+  FontSlant->"Italic"],
+ ". These begin with an ampersand and end with a semicolon. In the middle \
+they have a number sign (#) followed by an integer. Below we will see an \
+example that uses the code ",
+ StyleBox["&#8216;",
+  FontSlant->"Italic"],
+ " to stand for a left single quotation mark and ",
+ StyleBox["&#8217;",
+  FontSlant->"Italic"],
+ " to stand for a right single quotation mark. It also uses the code ",
+ StyleBox["&#8211;",
+  FontSlant->"Italic"],
+ " to represent what is called an ",
+ StyleBox["en dash",
+  FontSlant->"Italic"],
+ ", a dash that is the width of the lowercase letter ",
+ StyleBox["n",
+  FontSlant->"Italic"],
+ ". It is wider than a hyphen and narrower than an ",
+ StyleBox["em dash,",
+  FontSlant->"Italic"],
+ " which is the width of an uppercase ",
+ StyleBox["M",
+  FontSlant->"Italic"],
+ ".) You can use the ",
+ StyleBox["FromCharacterCode",
+  FontWeight->"Bold"],
+ " command to discover what symbol is being represented."
+}], "Text",
+ CellChangeTimes->{{3.6464981641602793`*^9, 3.6464982731652107`*^9}, {
+  3.646498317389587*^9, 3.6464983842250547`*^9}, {3.6464984147346487`*^9, 
+  3.64649843081529*^9}}],
+
+Cell[BoxData[
+ RowBox[{"FromCharacterCode", "[", 
+  RowBox[{"{", 
+   RowBox[{"8216", ",", "8217", ",", "8211"}], "}"}], "]"}]], "Input",
+ CellChangeTimes->{{3.646498123395268*^9, 3.646498129873186*^9}, {
+  3.646498443726337*^9, 3.646498451254447*^9}}],
+
+Cell[TextData[{
+ "You can also convert a string containing an HTML character code into an \
+integer with ",
+ StyleBox["StringDelete",
+  FontWeight->"Bold"],
+ " and ",
+ StyleBox["ToExpression",
+  FontWeight->"Bold"],
+ ", then use that to look up the character code."
+}], "Text",
+ CellChangeTimes->{{3.6464985465216084`*^9, 3.6464986191600313`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"ToExpression", "[", 
+  RowBox[{"StringDelete", "[", 
+   RowBox[{"\"\<&#8216;\>\"", ",", 
+    RowBox[{"Except", "[", "DigitCharacter", "]"}]}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.646498473896641*^9, 3.646498528586224*^9}}],
+
+Cell[BoxData[
+ RowBox[{"FromCharacterCode", "@", 
+  RowBox[{"ToExpression", "[", 
+   RowBox[{"StringDelete", "[", 
+    RowBox[{"\"\<&#8216;\>\"", ",", 
+     RowBox[{"Except", "[", "DigitCharacter", "]"}]}], "]"}], 
+   "]"}]}]], "Input",
+ CellChangeTimes->{{3.646498473896641*^9, 3.646498505637135*^9}, {
+  3.646498536918882*^9, 3.64649854002676*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["HTML pages and anchors", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.654162679590764*^9, 3.654162684428938*^9}}],
+
+Cell["\<\
+The example strings that we have been looking at are HTML fragments. A \
+minimal HTML page needs to include a number of other tags that indicate what \
+kind of document it is, where the HTML begins and ends, a head section that \
+includes the title and other metadata, and a body section that includes the \
+visible body of the page. Here is a more complete HTML page.\
+\>", "Text",
+ CellChangeTimes->{{3.6458908870263453`*^9, 3.645890990039036*^9}, {
+  3.6459733066737003`*^9, 3.6459733072497797`*^9}, {3.654163945720223*^9, 
+  3.654163947630782*^9}}],
+
+Cell[BoxData[
+ RowBox[{"EmbeddedHTML", "[", 
+  "\"\<<!DOCTYPE html>\n<html>\n  <head>\n    <title>This is a title</title>\n\
+  </head>\n  <body>\n    <!-- this is a comment -->\n    <p>Hello world!</p>\n\
+  </body>\n</html>\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.6458910014974813`*^9, 3.645891017062695*^9}, {
+  3.654163969069807*^9, 3.654163990086535*^9}, {3.654164059571158*^9, 
+  3.654164064250558*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Comments", "Subsubsection",
+ CellChangeTimes->{{3.654163951086215*^9, 3.654163951902534*^9}}],
+
+Cell["\<\
+Note that the material inside the comment tags is visible in the code, but \
+not when the page is displayed in the browser.\
+\>", "Text",
+ CellChangeTimes->{{3.654163954294176*^9, 3.6541639599742126`*^9}, {
+  3.6541640095098057`*^9, 3.654164055906764*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Anchors", "Subsubsection",
+ CellChangeTimes->{{3.6541627311239777`*^9, 3.654162731891231*^9}}],
+
+Cell[TextData[{
+ "One of the most useful HTML tags is the anchor tag, which is used to create \
+a hyperlink. Suppose that we want to create a link to the URL ",
+ StyleBox["http://www.darwinproject.ac.uk",
+  FontSlant->"Italic"],
+ " and we want to label the link \[OpenCurlyDoubleQuote]Darwin Correspondence \
+Project\[CloseCurlyDoubleQuote]. Then the HTML for the hyperlink looks like \
+this"
+}], "Text",
+ CellChangeTimes->{{3.645890829381888*^9, 3.6458908403399973`*^9}, {
+  3.645890880884245*^9, 3.6458908824106693`*^9}, {3.64589110737154*^9, 
+  3.645891124290038*^9}, {3.645891172248144*^9, 3.645891173296185*^9}, {
+  3.6458912309499407`*^9, 3.645891292523892*^9}, {3.645891340088027*^9, 
+  3.645891387648481*^9}, {3.645974314392694*^9, 3.6459743302768993`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"<", 
+   RowBox[{"a", " ", "href"}]}], "=", 
+  RowBox[{"\"\<http://www.darwinproject.ac.uk\>\"", ">", 
+   RowBox[{"Darwin", " ", "Correspondence", " ", "Project"}], "<", 
+   RowBox[{"/", "a"}], ">"}]}]], "DisplayFormula",
+ CellChangeTimes->{{3.64589139803483*^9, 3.645891426462954*^9}, {
+  3.645974335295624*^9, 3.645974342724325*^9}}],
+
+Cell[TextData[{
+ "The part inside the tag that looks like ",
+ StyleBox["href=\[OpenCurlyDoubleQuote]URL\[CloseCurlyDoubleQuote]",
+  FontSlant->"Italic"],
+ " is called an ",
+ StyleBox["attribute",
+  FontSlant->"Italic"],
+ ". Attributes are typically pairs of names and values, and are used to \
+provide more information."
+}], "Text",
+ CellChangeTimes->{{3.645891621824458*^9, 3.6458917345558434`*^9}}],
+
+Cell[TextData[{
+ "Since we are putting our HTML inside a string to test it with the ",
+ StyleBox["EmbeddedHTML",
+  FontWeight->"Bold"],
+ " command, we have to ",
+ StyleBox["escape",
+  FontSlant->"Italic"],
+ " the interior quotation marks by putting backslashes in front of them. This \
+is another example of ",
+ StyleBox["mentioning",
+  FontSlant->"Italic"],
+ " something rather than ",
+ StyleBox["using",
+  FontSlant->"Italic"],
+ " it. We don\[CloseCurlyQuote]t want ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " to interpret the inside pair of quotation marks as beginning and ending a \
+string."
+}], "Text",
+ CellChangeTimes->{{3.6458914332544622`*^9, 3.645891477276923*^9}, {
+  3.645891584810645*^9, 3.645891592464912*^9}, {3.6459733911986313`*^9, 
+  3.645973405062295*^9}, {3.645974363171509*^9, 3.6459743640836477`*^9}, {
+  3.645980949856462*^9, 3.645981022356653*^9}}],
+
+Cell[BoxData[
+ RowBox[{"EmbeddedHTML", "[", 
+  "\"\<<a href=\\\"http://www.darwinproject.ac.uk\\\">Darwin Correspondence \
+Project</a>\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.645891142666451*^9, 3.64589124328438*^9}, 
+   3.645891276796472*^9, {3.645891360626626*^9, 3.645891370169146*^9}, {
+   3.645974350472187*^9, 3.645974357659863*^9}}],
+
+Cell[TextData[{
+ "When you visit a web page with a browser you see the rendered page rather \
+than the HTML (and other web technologies) that lay behind it. But most \
+browsers also allow you to view the page source, so you can see how the web \
+developer(s) accomplished a particular effect. Studying the page source also \
+allows you to write programs that extract information from web pages, a \
+process known as ",
+ StyleBox["scraping",
+  FontSlant->"Italic"],
+ ". We will explore some examples in the next lesson."
+}], "Text",
+ CellChangeTimes->{{3.64589034343117*^9, 3.645890528647599*^9}, {
+   3.645890701898099*^9, 3.645890813773497*^9}, {3.645973424759055*^9, 
+   3.645973425541654*^9}, 3.645979991089271*^9, {3.645981049092886*^9, 
+   3.645981050747622*^9}, {3.654162770642066*^9, 3.654162774177795*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Adding a hyperlink directly to your notebook", "Subsubsection",
+ CellChangeTimes->{{3.654163569276391*^9, 3.654163578092186*^9}}],
+
+Cell["\<\
+If you want to format some text as a hyperlink in your notebook, paste it \
+into a separate cell (formatted as Style \[Rule] Text)\
+\>", "Text",
+ CellChangeTimes->{{3.65416358057987*^9, 3.6541636222346897`*^9}}],
+
+Cell["http://history.uwo.ca", "Text",
+ CellChangeTimes->{{3.654163627786201*^9, 3.6541636337622747`*^9}}],
+
+Cell["\<\
+Then select the text and choose Insert \[Rule] Hyperlink and paste the target \
+URL into the box under \[OpenCurlyDoubleQuote]Other notebook or URL\
+\[CloseCurlyDoubleQuote]\
+\>", "Text",
+ CellChangeTimes->{{3.654163637825786*^9, 3.654163700623806*^9}}],
+
+Cell[TextData[ButtonBox["http://history.uwo.ca",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["http://history.uwo.ca"], None},
+ ButtonNote->"http://history.uwo.ca"]], "Text",
+ CellChangeTimes->{{3.654163627786201*^9, 3.6541636337622747`*^9}, {
+  3.654163709767905*^9, 3.6541637097697973`*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Manually archiving a web page in the Wayback Machine", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.654162880031472*^9, 3.654162889597333*^9}}],
+
+Cell[TextData[{
+ "The Internet Archive\[CloseCurlyQuote]s ",
+ StyleBox["Wayback Machine",
+  FontSlant->"Italic"],
+ " allows you to explore the way that particular web pages looked in the past \
+(at least approximately; the details are a bit more complicated). The \
+Internet Archive automatically archives web sites at regular intervals, but \
+if you have a URL that you want added to the ",
+ StyleBox["Wayback Machine",
+  FontSlant->"Italic"],
+ " at at particular time, you can go to the following page and paste the URL \
+that you want to archive in the box under \[OpenCurlyDoubleQuote]Save Page \
+Now.\[CloseCurlyDoubleQuote]"
+}], "Text",
+ CellChangeTimes->{{3.654163112953032*^9, 3.654163159899411*^9}}],
+
+Cell["https://archive.org/web/", "Program",
+ CellChangeTimes->{{3.645978735427964*^9, 3.6459787363455553`*^9}, {
+  3.649251694054845*^9, 3.649251710319685*^9}}],
+
+Cell["On July 15, 2015, I saved a copy of this page", "Text",
+ CellChangeTimes->{{3.645978755698104*^9, 3.645978774836941*^9}, {
+  3.645978864922471*^9, 3.645978867241681*^9}}],
+
+Cell["http://www.darwinproject.ac.uk", "Program",
+ CellChangeTimes->{{3.645978802157789*^9, 3.645978804607688*^9}, {
+  3.649251694055073*^9, 3.6492517172874002`*^9}}],
+
+Cell["The archived page is at", "Text",
+ CellChangeTimes->{{3.6459788104680433`*^9, 3.6459788185073233`*^9}, {
+  3.645978873393092*^9, 3.645978875161365*^9}}],
+
+Cell["\<\
+https://web.archive.org/web/20150715195311/http://www.darwinproject.ac.uk\
+\>", "Program",
+ CellChangeTimes->{{3.64597882921592*^9, 3.645978829217157*^9}, 
+   3.645978905051532*^9, {3.6492516940552893`*^9, 3.649251730934918*^9}}],
+
+Cell["\<\
+By using the archived page for our example (rather than the live page) we can \
+be sure that the example will continue to work as long as we want it to. Note \
+that other pages that are linked from an archived page will not be \
+automatically archived.\
+\>", "Text",
+ CellChangeTimes->{{3.645979703179871*^9, 3.6459797475860977`*^9}, {
+  3.649251207937829*^9, 3.649251251679516*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Viewing HTML page source", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.654164095226959*^9, 3.654164099025004*^9}}],
+
+Cell["\<\
+We can compare a web page with the source that was used to create it. Open \
+the following link in a browser\
+\>", "Text",
+ CellChangeTimes->{{3.654166919179051*^9, 3.654166943866084*^9}}],
+
+Cell[TextData[ButtonBox["https://web.archive.org/web/20150715195311/http://\
+www.darwinproject.ac.uk",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://web.archive.org/web/20150715195311/http://www.darwinproject.\
+ac.uk"], None},
+ ButtonNote->
+  "https://web.archive.org/web/20150715195311/http://www.darwinproject.ac.uk"]\
+], "Text",
+ CellChangeTimes->{{3.654166956502718*^9, 3.654166962930377*^9}}],
+
+Cell[TextData[{
+ "We have seen that we can use the ",
+ StyleBox["Import",
+  FontWeight->"Bold"],
+ " command to request the title, hyperlinks and plaintext from a web page. We \
+can also request the HTML source."
+}], "Text",
+ CellChangeTimes->{{3.6458917569722023`*^9, 3.645891768922327*^9}, {
+   3.645891810162025*^9, 3.6458918579753838`*^9}, {3.645891903910967*^9, 
+   3.6458920150336123`*^9}, {3.645892046016464*^9, 3.6458921686522007`*^9}, {
+   3.64589221033928*^9, 3.6458922353698673`*^9}, 3.645974477720295*^9, {
+   3.645980025241431*^9, 3.6459800798623867`*^9}, 3.654166331658016*^9}],
+
+Cell[BoxData[
+ RowBox[{"Import", "[", 
+  RowBox[{
+  "\"\<https://web.archive.org/web/20150715195311/http://www.darwinproject.ac.\
+uk\>\"", ",", "\"\<Elements\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.6445942877590227`*^9, 3.644594310728959*^9}, 
+   3.645974386206222*^9, 3.645979857905024*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"darwinCorrespondenceProjectNews", "=", 
+   RowBox[{"Import", "[", 
+    RowBox[{
+    "\"\<https://web.archive.org/web/20150715195311/http://www.darwinproject.\
+ac.uk\>\"", ",", "\"\<Source\>\""}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.645975046833542*^9, 3.645975114384987*^9}, 
+   3.6459798706640787`*^9}],
+
+Cell[TextData[{
+ "Here is the source for the ",
+ StyleBox["Darwin Correspondence Project",
+  FontSlant->"Italic"],
+ " homepage as it appeared on July 15, 2015. Notice that some of the tags are \
+already familiar: ",
+ StyleBox["!DOCTYPE",
+  FontSlant->"Italic"],
+ ", ",
+ StyleBox["html",
+  FontSlant->"Italic"],
+ ", ",
+ StyleBox["head",
+  FontSlant->"Italic"],
+ ", ",
+ StyleBox["title",
+  FontSlant->"Italic"],
+ ", ",
+ StyleBox["body",
+  FontSlant->"Italic"],
+ ", ",
+ StyleBox["a",
+  FontSlant->"Italic"],
+ " and ",
+ StyleBox["em",
+  FontSlant->"Italic"],
+ "."
+}], "Text",
+ CellChangeTimes->{{3.6458917569722023`*^9, 3.645891768922327*^9}, {
+   3.645891810162025*^9, 3.6458918579753838`*^9}, {3.645891903910967*^9, 
+   3.6458920150336123`*^9}, {3.645892046016464*^9, 3.6458921686522007`*^9}, {
+   3.64589221033928*^9, 3.6458922353698673`*^9}, 3.645974477720295*^9, {
+   3.645980025241431*^9, 3.6459800798623867`*^9}, {3.654166331658016*^9, 
+   3.654166366719488*^9}}],
+
+Cell[BoxData[
+ RowBox[{"viewData", "@", "darwinCorrespondenceProjectNews"}]], "Input",
+ CellChangeTimes->{{3.6445942877590227`*^9, 3.644594310728959*^9}, {
+   3.64589194020508*^9, 3.645891950076045*^9}, 3.6459743953185062`*^9, {
+   3.645975111795598*^9, 3.645975118978529*^9}}],
+
+Cell[TextData[{
+ "This particular page also uses the web scripting language JavaScript, \
+Cascading Style Sheets (CSS) for formatting, some layout tags like ",
+ StyleBox["div",
+  FontSlant->"Italic"],
+ " and ",
+ StyleBox["span",
+  FontSlant->"Italic"],
+ ", and many other elements. It also has links to RSS and Atom feeds."
+}], "Text",
+ CellChangeTimes->{{3.6458917569722023`*^9, 3.645891768922327*^9}, {
+   3.645891810162025*^9, 3.6458918579753838`*^9}, {3.645891903910967*^9, 
+   3.6458920150336123`*^9}, {3.645892046016464*^9, 3.6458921686522007`*^9}, {
+   3.64589221033928*^9, 3.6458922353698673`*^9}, 3.645974477720295*^9, {
+   3.645980025241431*^9, 3.6459800798623867`*^9}, {3.654166331658016*^9, 
+   3.654166366719488*^9}, {3.654166468771443*^9, 3.6541664753468122`*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Activity", "Section",
+ CellChangeTimes->{{3.647716402186221*^9, 3.647716405353856*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Setup", "Subsection",
+ CellChangeTimes->{{3.6541634875754147`*^9, 3.65416348817522*^9}}],
+
+Cell["\<\
+In your web browser, open up the online HTML tutorial at the link below. On \
+the left-hand-side of the browser screen you will see lessons on various \
+aspects of HTML. Use it as a reference for this activity. If you\
+\[CloseCurlyQuote]d like to go through the whole tutorial later, it takes a \
+couple of hours but is very valuable for developing your skills writing and \
+understanding markup languages.\
+\>", "Text",
+ CellChangeTimes->{{3.654159498770425*^9, 3.654159519201044*^9}, {
+  3.654159607352208*^9, 3.654159624573978*^9}, {3.654159674772297*^9, 
+  3.6541596846671667`*^9}, {3.6541597171459837`*^9, 3.65415983299763*^9}}],
+
+Cell[TextData[ButtonBox["http://www.w3schools.com/html/default.asp",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["http://www.w3schools.com/html/default.asp"], None},
+ ButtonNote->"http://www.w3schools.com/html/default.asp"]], "Text",
+ CellChangeTimes->{{3.654159582035099*^9, 3.654159587923444*^9}}],
+
+Cell["Create a new notebook and answer the following questions.", "Text",
+ CellChangeTimes->{{3.654163498294837*^9, 3.654163513422413*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Questions", "Subsection",
+ CellChangeTimes->{{3.6541634918951283`*^9, 3.654163494912355*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Wayback Machine", "Subsubsection",
+ CellChangeTimes->{{3.654165028775453*^9, 3.654165034422717*^9}}],
+
+Cell["\<\
+Try manually archiving a webpage in the Internet Archive Wayback Machine. \
+Include hyperlinks to both the original URL and the URL of the archived page \
+in your notebook.\
+\>", "Text",
+ CellChangeTimes->{{3.654163436185759*^9, 3.654163436609481*^9}, 
+   3.6541634786478024`*^9, {3.6541635158621607`*^9, 3.6541635458374033`*^9}, {
+   3.654163742295557*^9, 3.654163776756916*^9}}],
+
+Cell[TextData[{
+ "Import the HTML page source from your archived page into your notebook, \
+then use ",
+ StyleBox["viewData",
+  FontSlant->"Italic"],
+ " to look at the source. At the end of the page you will find an HTML \
+comment containing a message. What is that message? Did it appear in the code \
+of the original page?"
+}], "Text",
+ CellChangeTimes->{{3.654163819227737*^9, 3.654163912615959*^9}, {
+  3.654164121329772*^9, 3.654164135247839*^9}}],
+
+Cell["\<\
+Does your page use Cascading Style Sheets (CSS)? Does it use JavaScript? Does \
+it have a link to an RSS feed or Atom feed (or both)?\
+\>", "Text",
+ CellChangeTimes->{{3.654166398733882*^9, 3.654166455995515*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Quotations", "Subsubsection",
+ CellChangeTimes->{{3.65416504604597*^9, 3.654165056701561*^9}}],
+
+Cell[TextData[{
+ "The following code retrieves the first few lines of Poe\[CloseCurlyQuote]s \
+poem ",
+ StyleBox["The Raven",
+  FontSlant->"Italic"],
+ ". Using the ",
+ StyleBox["EmbeddedHTML",
+  FontWeight->"Bold"],
+ " command try formatting it with both the HTML ",
+ StyleBox["q",
+  FontSlant->"Italic"],
+ " and ",
+ StyleBox["blockquote",
+  FontSlant->"Italic"],
+ " tags. If you are not sure how to format quotations, read the \
+\[OpenCurlyDoubleQuote]HTML Quotation and Citation Elements\
+\[CloseCurlyDoubleQuote] section of the W3Schools tutorial."
+}], "Text",
+ CellChangeTimes->{{3.654164683003975*^9, 3.654164683819035*^9}, {
+  3.6541647444017963`*^9, 3.654164851485512*^9}}],
+
+Cell["ExampleData[{\"Text\", \"TheRaven\"}, \"Lines\"][[1 ;; 4]]", "Program",
+ CellChangeTimes->{{3.654164686286934*^9, 3.654164742116008*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Images", "Subsubsection",
+ CellChangeTimes->{{3.654165053197823*^9, 3.6541650540539703`*^9}}],
+
+Cell[TextData[{
+ "The following URL contains an image of the logo for the University of \
+Western Ontario. Try importing it directly into your notebook with the ",
+ StyleBox["Import",
+  FontWeight->"Bold"],
+ " command."
+}], "Text",
+ CellChangeTimes->{{3.654164169758574*^9, 3.654164176326069*^9}, {
+  3.654164217317546*^9, 3.654164271634651*^9}}],
+
+Cell["\<\
+https://www.uwo.ca/web_standards/img/logos-faculties-stacked/ttl-western-logo-\
+trans.gif\
+\>", "Program",
+ CellChangeTimes->{3.654164283366816*^9}],
+
+Cell[TextData[{
+ "Now use the ",
+ StyleBox["EmbeddedHTML",
+  FontWeight->"Bold"],
+ " command and the HTML ",
+ StyleBox["img",
+  FontSlant->"Italic"],
+ " tag to create a button in your notebook. When you press the button, the \
+Western logo should be displayed on a web page in your browser. If you are \
+not sure how to use the ",
+ StyleBox["img",
+  FontSlant->"Italic"],
+ " tag, read the \[OpenCurlyDoubleQuote]HTML Images\[CloseCurlyDoubleQuote] \
+section of the W3Schools tutorial. Try adjusting the width and height of the \
+image to squash it vertically or horizontally."
+}], "Text",
+ CellChangeTimes->{{3.654164315697509*^9, 3.654164336400291*^9}, {
+  3.6541643885833397`*^9, 3.654164513321967*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Tables", "Subsubsection",
+ CellChangeTimes->{{3.654165110940337*^9, 3.654165111627962*^9}}],
+
+Cell[TextData[{
+ "In ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ ", you can get a table of the first five elements and their abbreviations \
+with the following command"
+}], "Text",
+ CellChangeTimes->{{3.654165762156651*^9, 3.6541657896593523`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"TableForm", "[", 
+  RowBox[{"Table", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"ElementData", "[", 
+       RowBox[{"z", ",", "\"\<Name\>\""}], "]"}], ",", 
+      RowBox[{"ElementData", "[", 
+       RowBox[{"z", ",", "\"\<Abbreviation\>\""}], "]"}]}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"z", ",", "1", ",", "5"}], "}"}]}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.654165834946451*^9, 3.654165859841564*^9}}],
+
+Cell[TextData[{
+ "Try using the ",
+ StyleBox["EmbeddedHTML",
+  FontWeight->"Bold"],
+ " command and the HTML table tags to lay out the same information so it can \
+be seen in your web browser. You don\[CloseCurlyQuote]t have to use the ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " command, just use the information from the table above. If you are not \
+sure how to use table formatting, read the \[OpenCurlyDoubleQuote]HTML Tables\
+\[CloseCurlyDoubleQuote] section of the W3Schools tutorial."
+}], "Text",
+ CellChangeTimes->{{3.654165878832419*^9, 3.6541660126193953`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Programming?", "Subsubsection",
+ CellChangeTimes->{{3.6541651473389053`*^9, 3.654165148474539*^9}, 
+   3.654165264493972*^9}],
+
+Cell[TextData[{
+ "Given your experience of programming in ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " (and perhaps other languages), does using a markup language seem like \
+programming to you? Why or why not?"
+}], "Text",
+ CellChangeTimes->{{3.6541651508820877`*^9, 3.654165162634132*^9}, {
+  3.6541651951208763`*^9, 3.6541652549105787`*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Markup languages: XML", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.654166525274431*^9, 3.654166530352902*^9}}],
+
+Cell[TextData[{
+ "Unlike HTML, which uses a limited set of predefined tags to indicate how \
+data should be rendered or displayed, the Extensible Markup Language (XML) \
+uses tags to ",
+ StyleBox["describe",
+  FontSlant->"Italic"],
+ " data. There are many standards for representing various kinds of metadata \
+with XML, but users are also free to define their own tags. This flexibility, \
+and the fact that XML is both human- and machine-readible, makes it a very \
+powerful way to represent textual and numeric information."
+}], "Text",
+ CellChangeTimes->{{3.645982954519794*^9, 3.6459830517883053`*^9}, {
+  3.645983082595269*^9, 3.645983089523077*^9}, {3.6459831260369062`*^9, 
+  3.645983210094821*^9}, {3.646498717556802*^9, 3.646498802209251*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["OCLC Classify web service", "Subsubsection",
+ CellChangeTimes->{{3.654166650229005*^9, 3.654166654524186*^9}, {
+  3.6541668246548843`*^9, 3.654166825054203*^9}}],
+
+Cell["\<\
+So that we have a short piece of XML to look at, I am going to request \
+information about a biography of Darwin written by Adrian J. Desmond and \
+James R. Moore. To do this, I am using a web service created by the Online \
+Computer Library Center (OCLC) called Classify. If you send the book ISBN in \
+a URL to OCLC Classify, the system will respond with a file of bibliographic \
+information marked up with XML.\
+\>", "Text",
+ CellChangeTimes->{{3.646499220264966*^9, 3.6464992642958727`*^9}, {
+   3.646500204868194*^9, 3.646500398189623*^9}, {3.646504441503633*^9, 
+   3.6465044447510138`*^9}, 3.654166681604051*^9}],
+
+Cell[BoxData[
+ RowBox[{"Import", "[", 
+  RowBox[{
+  "\"\<http://classify.oclc.org/classify2/Classify?isbn=0393311503&summary=\
+true\>\"", ",", "\"\<Elements\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.6464989380678*^9, 3.646498939204504*^9}, {
+   3.646500056951043*^9, 3.646500061513832*^9}, 3.646500119043436*^9}],
+
+Cell[TextData[{
+ "In order to see the raw XML, I am converting it to a string before passing \
+it off to ",
+ StyleBox["viewData",
+  FontSlant->"Italic"],
+ "."
+}], "Text",
+ CellChangeTimes->{{3.646499220264966*^9, 3.6464992642958727`*^9}, {
+  3.646500204868194*^9, 3.646500398189623*^9}, {3.646504441503633*^9, 
+  3.6465044447510138`*^9}, {3.654166681604051*^9, 3.654166683442932*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"biographyXMLstring", "=", 
+   RowBox[{"StringRiffle", "[", 
+    RowBox[{
+     RowBox[{"Flatten", "[", 
+      RowBox[{"Import", "[", 
+       RowBox[{
+       "\"\<http://classify.oclc.org/classify2/Classify?isbn=0393311503&\
+summary=true\>\"", ",", "\"\<Data\>\""}], "]"}], "]"}], ",", "\"\<\\n\>\""}], 
+    "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.646501237627932*^9, 3.646501250021154*^9}}],
+
+Cell[BoxData[
+ RowBox[{"viewData", "@", "biographyXMLstring"}]], "Input",
+ CellChangeTimes->{{3.6464989380678*^9, 3.646498950683838*^9}, {
+  3.6464989842186623`*^9, 3.646499002857421*^9}, {3.646500065548368*^9, 
+  3.6465001227074213`*^9}, {3.646500180757526*^9, 3.6465001881880836`*^9}, {
+  3.646501246864779*^9, 3.64650125830296*^9}}],
+
+Cell[TextData[{
+ "Note that the file begins with a tag that indicates that the file is marked \
+up with XML, ",
+ StyleBox["?xml",
+  FontSlant->"Italic"],
+ "."
+}], "Text",
+ CellChangeTimes->{{3.6465004068757477`*^9, 3.646500550255843*^9}, {
+   3.646500607124113*^9, 3.646500825494028*^9}, {3.646500986215063*^9, 
+   3.646501023613852*^9}, {3.646501057381605*^9, 3.6465010899559183`*^9}, {
+   3.64650115219423*^9, 3.646501220743013*^9}, 3.646754034087826*^9, {
+   3.654166737130343*^9, 3.654166754681562*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Bibliographic metadata", "Subsubsection",
+ CellChangeTimes->{{3.6541667883838797`*^9, 3.654166791471299*^9}}],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["work",
+  FontSlant->"Italic"],
+ " tag contains information about the book, mostly stored in attributes like ",
+ StyleBox["author",
+  FontSlant->"Italic"],
+ ", ",
+ StyleBox["editions",
+  FontSlant->"Italic"],
+ ", ",
+ StyleBox["format",
+  FontSlant->"Italic"],
+ " and ",
+ StyleBox["title",
+  FontSlant->"Italic"],
+ ". "
+}], "Text",
+ CellChangeTimes->{{3.6465004068757477`*^9, 3.646500550255843*^9}, {
+   3.646500607124113*^9, 3.646500825494028*^9}, {3.646500986215063*^9, 
+   3.646501023613852*^9}, {3.646501057381605*^9, 3.6465010899559183`*^9}, {
+   3.64650115219423*^9, 3.646501220743013*^9}, 3.646754034087826*^9, {
+   3.654166737130343*^9, 3.654166759841291*^9}}],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["author",
+  FontSlant->"Italic"],
+ " and ",
+ StyleBox["authors ",
+  FontSlant->"Italic"],
+ "tags contain information about the authors, some of it redundant. "
+}], "Text",
+ CellChangeTimes->{{3.6465004068757477`*^9, 3.646500550255843*^9}, {
+   3.646500607124113*^9, 3.646500825494028*^9}, {3.646500986215063*^9, 
+   3.646501023613852*^9}, {3.646501057381605*^9, 3.6465010899559183`*^9}, {
+   3.64650115219423*^9, 3.646501220743013*^9}, 3.646754034087826*^9, {
+   3.654166737130343*^9, 3.654166764521249*^9}}],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["lc",
+  FontSlant->"Italic"],
+ " and ",
+ StyleBox["viaf",
+  FontSlant->"Italic"],
+ " attributes of the ",
+ StyleBox["author",
+  FontSlant->"Italic"],
+ " tag hold Library of Congress and OCLC identifiers, respectively. We will \
+make use of these later. "
+}], "Text",
+ CellChangeTimes->{{3.6465004068757477`*^9, 3.646500550255843*^9}, {
+   3.646500607124113*^9, 3.646500825494028*^9}, {3.646500986215063*^9, 
+   3.646501023613852*^9}, {3.646501057381605*^9, 3.6465010899559183`*^9}, {
+   3.64650115219423*^9, 3.646501220743013*^9}, 3.646754034087826*^9, {
+   3.654166737130343*^9, 3.654166769353128*^9}}],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["ddc",
+  FontSlant->"Italic"],
+ " tag contains Dewey Decimal call numbers (576.82092). You would use these \
+to look for a copy of the book in most North American public libraries. "
+}], "Text",
+ CellChangeTimes->{{3.6465004068757477`*^9, 3.646500550255843*^9}, {
+   3.646500607124113*^9, 3.646500825494028*^9}, {3.646500986215063*^9, 
+   3.646501023613852*^9}, {3.646501057381605*^9, 3.6465010899559183`*^9}, {
+   3.64650115219423*^9, 3.646501220743013*^9}, 3.646754034087826*^9, {
+   3.654166737130343*^9, 3.654166775032791*^9}}],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["lcc",
+  FontSlant->"Italic"],
+ " tag contains Library of Congress call numbers (QH31.D2) which indicate \
+where the book would be filed in most North American academic libraries."
+}], "Text",
+ CellChangeTimes->{{3.6465004068757477`*^9, 3.646500550255843*^9}, {
+   3.646500607124113*^9, 3.646500825494028*^9}, {3.646500986215063*^9, 
+   3.646501023613852*^9}, {3.646501057381605*^9, 3.6465010899559183`*^9}, {
+   3.64650115219423*^9, 3.646501220743013*^9}, 3.646754034087826*^9, {
+   3.654166737130343*^9, 3.654166775032791*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Upload your notebook", "Section",
+ CellChangeTimes->{{3.649950784924818*^9, 3.649950788859275*^9}}],
+
+Cell["\<\
+Don\[CloseCurlyQuote]t forget to upload a copy of your notebook for this \
+class to the OWL Site for the course\
+\>", "Text",
+ CellChangeTimes->{{3.649950792779258*^9, 3.649950818634288*^9}}]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1398, 1106},
+WindowMargins->{{439, Automatic}, {Automatic, 83}},
+TaggingRules->{"SlideShow" -> True},
+Magnification:>1.25 Inherited,
+FrontEndVersion->"10.2 for Mac OS X x86 (32-bit, 64-bit Kernel) (July 6, \
+2015)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "SlideShowHeader"->{
+  Cell[580, 22, 4299, 96, 75, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[5678, 145, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[6900, 181, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[7563, 205, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[11892, 332, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[16146, 457, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[22626, 625, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[24973, 685, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[29159, 804, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[36260, 1014, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[43318, 1203, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"SlideShowHeader", 44125, 1232}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 4299, 96, 75, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[4882, 120, 413, 9, 183, "Title"],
+Cell[5298, 131, 343, 9, 99, "Subtitle"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5678, 145, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[5767, 150, 95, 1, 80, "Section"],
+Cell[5865, 153, 687, 15, 85, "Text"],
+Cell[6555, 170, 296, 5, 37, "Text"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6900, 181, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[6989, 186, 141, 2, 80, "Section"],
+Cell[7133, 190, 381, 9, 57, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7563, 205, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[7652, 210, 216, 3, 80, "Section"],
+Cell[7871, 215, 306, 7, 61, "Text"],
+Cell[8180, 224, 282, 5, 35, "Input"],
+Cell[8465, 231, 598, 14, 61, "Text"],
+Cell[9066, 247, 416, 11, 61, "Text"],
+Cell[9485, 260, 326, 6, 45, "Input"],
+Cell[CellGroupData[{
+Cell[9836, 270, 100, 1, 53, "Subsubsection"],
+Cell[9939, 273, 317, 8, 46, "Text"],
+Cell[10259, 283, 253, 6, 36, "DisplayFormula"],
+Cell[10515, 291, 154, 2, 46, "Text"],
+Cell[10672, 295, 252, 6, 36, "DisplayFormula"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[10961, 306, 112, 1, 53, "Subsubsection"],
+Cell[11076, 309, 370, 8, 76, "Text"],
+Cell[11449, 319, 382, 6, 45, "Input"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[11892, 332, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[11981, 337, 176, 2, 100, "Section"],
+Cell[12160, 341, 1132, 26, 136, "Text"],
+Cell[13295, 369, 197, 4, 45, "Input"],
+Cell[CellGroupData[{
+Cell[13517, 377, 105, 1, 53, "Subsubsection"],
+Cell[13625, 380, 1244, 34, 165, "Text"],
+Cell[14872, 416, 251, 5, 43, "Input"],
+Cell[15126, 423, 347, 10, 76, "Text"],
+Cell[15476, 435, 256, 5, 45, "Input"],
+Cell[15735, 442, 350, 8, 45, "Input"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[16146, 457, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[16235, 462, 158, 2, 100, "Section"],
+Cell[16396, 466, 562, 9, 106, "Text"],
+Cell[16961, 477, 412, 7, 281, "Input"],
+Cell[CellGroupData[{
+Cell[17398, 488, 99, 1, 53, "Subsubsection"],
+Cell[17500, 491, 266, 5, 46, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[17803, 501, 100, 1, 53, "Subsubsection"],
+Cell[17906, 504, 765, 13, 76, "Text"],
+Cell[18674, 519, 369, 8, 36, "DisplayFormula"],
+Cell[19046, 529, 400, 10, 76, "Text"],
+Cell[19449, 541, 884, 23, 106, "Text"],
+Cell[20336, 566, 344, 6, 45, "Input"],
+Cell[20683, 574, 814, 14, 106, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[21534, 593, 135, 1, 53, "Subsubsection"],
+Cell[21672, 596, 221, 4, 46, "Text"],
+Cell[21896, 602, 105, 1, 46, "Text"],
+Cell[22004, 605, 263, 5, 46, "Text"],
+Cell[22270, 612, 295, 6, 46, "Text"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[22626, 625, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[22715, 630, 188, 2, 100, "Section"],
+Cell[22906, 634, 708, 14, 106, "Text"],
+Cell[23617, 650, 160, 2, 71, "Program"],
+Cell[23780, 654, 176, 2, 46, "Text"],
+Cell[23959, 658, 166, 2, 71, "Program"],
+Cell[24128, 662, 158, 2, 46, "Text"],
+Cell[24289, 666, 239, 4, 71, "Program"],
+Cell[24531, 672, 393, 7, 76, "Text"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[24973, 685, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[25062, 690, 160, 2, 100, "Section"],
+Cell[25225, 694, 198, 4, 46, "Text"],
+Cell[25426, 700, 407, 9, 46, "Text"],
+Cell[25836, 711, 590, 11, 46, "Text"],
+Cell[26429, 724, 298, 6, 45, "Input"],
+Cell[26730, 732, 350, 8, 45, "Input"],
+Cell[27083, 742, 966, 33, 76, "Text"],
+Cell[28052, 777, 277, 4, 45, "Input"],
+Cell[28332, 783, 778, 15, 76, "Text"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[29159, 804, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[29248, 809, 93, 1, 100, "Section"],
+Cell[CellGroupData[{
+Cell[29366, 814, 94, 1, 67, "Subsection"],
+Cell[29463, 817, 643, 10, 106, "Text"],
+Cell[30109, 829, 302, 5, 46, "Text"],
+Cell[30414, 836, 139, 1, 46, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[30590, 842, 99, 1, 67, "Subsection"],
+Cell[CellGroupData[{
+Cell[30714, 847, 106, 1, 53, "Subsubsection"],
+Cell[30823, 850, 390, 7, 76, "Text"],
+Cell[31216, 859, 452, 10, 76, "Text"],
+Cell[31671, 871, 223, 4, 46, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[31931, 880, 100, 1, 53, "Subsubsection"],
+Cell[32034, 883, 680, 19, 76, "Text"],
+Cell[32717, 904, 143, 1, 71, "Program"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[32897, 910, 99, 1, 53, "Subsubsection"],
+Cell[32999, 913, 346, 8, 46, "Text"],
+Cell[33348, 923, 158, 4, 71, "Program"],
+Cell[33509, 929, 705, 17, 106, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[34251, 951, 97, 1, 53, "Subsubsection"],
+Cell[34351, 954, 257, 7, 46, "Text"],
+Cell[34611, 963, 466, 12, 43, "Input"],
+Cell[35080, 977, 582, 12, 106, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[35699, 994, 131, 2, 53, "Subsubsection"],
+Cell[35833, 998, 354, 8, 76, "Text"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[36260, 1014, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[36349, 1019, 157, 2, 100, "Section"],
+Cell[36509, 1023, 753, 13, 106, "Text"],
+Cell[CellGroupData[{
+Cell[37287, 1040, 167, 2, 53, "Subsubsection"],
+Cell[37457, 1044, 630, 10, 106, "Text"],
+Cell[38090, 1056, 317, 6, 45, "Input"],
+Cell[38410, 1064, 384, 9, 46, "Text"],
+Cell[38797, 1075, 432, 11, 71, "Input"],
+Cell[39232, 1088, 335, 5, 45, "Input"],
+Cell[39570, 1095, 507, 11, 46, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[40114, 1111, 115, 1, 53, "Subsubsection"],
+Cell[40232, 1114, 702, 22, 46, "Text"],
+Cell[40937, 1138, 543, 13, 46, "Text"],
+Cell[41483, 1153, 638, 17, 46, "Text"],
+Cell[42124, 1172, 566, 11, 46, "Text"],
+Cell[42693, 1185, 564, 11, 46, "Text"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[43318, 1203, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[43407, 1208, 105, 1, 100, "Section"],
+Cell[43515, 1211, 201, 4, 46, "Text"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)

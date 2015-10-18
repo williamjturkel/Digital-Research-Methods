@@ -1,0 +1,2067 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     71337,       2058]
+NotebookOptionsPosition[     60464,       1739]
+NotebookOutlinePosition[     62286,       1791]
+CellTagsIndexPosition[     62207,       1786]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ TogglerBox[2, {1->
+  OverlayBox[{
+   TagBox[GridBox[{
+      {
+       GraphicsBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBLECOU2VJahIzkCEFxAJADBL8//8/
+Qfzo0SP2GzduCF29elXs/Pnz0sgYn747d+5wA9VoArE/EB8B4uPoGJu+Fy9e
+MF+4cEENKB8AxBeB+AMQ/wXif+gYi1tBdvoB8QUg/ghV9x8XRtb7/PlzFqje
+t1D7cOrDpv/ixYvqUHuJ0ousHxpWAVA3E6UXWT80nC8S8i82/Q8ePOAgx26Y
+/uvXrwsD2UdJ8Tey/kuXLolD0wNJbofpB6YVSUr0n4ek5QHTT6n7KQ0/SuOP
+0vRDafqlRv6BxgPZ+Ret/HhHrBl4yi9QWHwiFB7Yyk+QO6B+CTxPYvmJjG/f
+vs17nozyG1f9cR6t7gBhAPeiQ4A=
+         "], {{0, 26}, {16, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{16, 26},
+        PlotRange->{{0, 16}, {0, 26}}], 
+       GraphicsBox[RasterBox[CompressedData["
+1:eJzt2d9OVFcUB2DSNmkfQRFEiRQ1gCK1vW4fwT6BJu1tE9uk8fUUERE9aECC
+qLGYEmKkErWxtont2mGdcDLVOpNgZijfJB9hzp+99j6zb9b5Hb3ww7nvP+rr
+6/vxs/hz7vzPX1+8eP7St5/El28u/fTdhY/jn/6w8GlfXzlYVdWhDgyEwXT4
+HQYbBho6qQMAAOxt/Q0HWxxo0TzX3xij7juGwpFwNAyHY2EkfB6OhxPhZBgL
+42EinAqnw2SYSl+Es+HL9FWb6uvP5hj1eJNZ41TWHM85nMw5Hc85juSch3MN
+R3JNdf/UfGbtPqf6WdW6/XsDAADsV7vd/7b2vqPV2/veuuc9k6Za1Mfr3vVt
+feto9e+eVb9KL2tmz81M+n25dadZ9bU2zYXbYSmshNXwoOF+uJfn7obFcKfa
+/twMN8L1MNtBTQAAYO+ZSVfTdLqSLreoj0/n9eXe0jeUHmQ+3AoL1XZ/UfqR
+5Wq77yg9yMPwS3gcfg0b4Ul4Gn4LW+F5eBl+D6/CH+F1+DP99Q71+dd5z6sc
+42WOuZU1nmbNjZzD45zTw5zjSs55KdewkGuazzXONp5Xu8+pflb185rpgd8d
+AABgv/kQ/W/J4krGVvrIkruVDO5RWAvr1U7fuxmeVTt9b/Ei1d+38prNaqdv
+Xc+xHuXY97LWYtbWr9Jryj4sGXPJmkvmXD7l/UrZsyWTLu9dyj4u72Ca2fVq
+nivvY8renuug5ps2/b2L2q0JAADwX3azT/kQuv18AAAA2Pv0rOxn3djz3X6f
+BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAADsHW/a1I2aAAAAAAAAsJ91OyOEburGnr/W
+prlwOyyFlbAaHjTcD/fy3N2wGO5U25+b4Ua4HmY7qAkAAAAAAAC9aCZdTdPp
+Srrcoj4+ndeXe0tuVjK4+XCr2s7iSsa2XG3nbiWDexTWwnrYCE/CZngWtsLz
+9CLV37fyms28ZyPHWMsxH2SN5ax5O+cwn3Oabayv3XXVa6vXN9MDvxN7W9mH
+JWMuWXPJnMunZNBlz5ZMumTTZR+XrLqZXa/muZJtl70910HNQx0YCIPp8DsM
+Ngw0dFIHAAAAAAAAel1/w8EWB1o0z/U3xqhzt6FwNAyHY2EkjIYT4WQYC+Nh
+IpwOk+FMmmpRH5/Mayfy3rEc60SOPZK1hrP2ULWT9zXX2O666rXVuv378P/S
+zJ6bmfT7cuuOsup/AFmW9vs=
+         "], {{0, 26}, {2000, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{2000, 26},
+        PlotRange->{{0, 2000}, {0, 26}}], 
+       GraphicsBox[RasterBox[CompressedData["
+1:eJy9lstOwkAUhhthQUJcuUBl5cr4GPoABvEJINGtCZoYng4Il4Z7gXAJYUHY
+QAi3GlYQPZ5/4pCm0pYC2uSDaXvmn5lzzpzpVfQl/HyiKMqrj3/CkffbWCwS
+f/TyzV387Snq4cYlc87gYbVaDbpB07SLRqMR6Pf7PiJSnOA+6h7kmBBz0+12
+Tx30v/bgk9GZOvPAa7oejUYeC306AIz1wWjM/WAw8B9ZX4L1TDHGcDj02ulX
+KpUNbt79jKHBV1b66Fcul3fCYgzEJNTr9fxmfaldKpWoUChQPp8X/8ViUWB8
+BhuLMRCPGvJqmz76QWOxWFCtVqNsNku5XE6AdqfToclkImxga7cGuT/M+uw/
+ms/ntF6vqdlsUjKZFKCNC/pynTZxyLbb7bNt/sHcMpkMzWYzoVev1wW4xuOx
+WAdsbGIAH6ncJ7BNH/6FRjqdJl3XSV7T6VSsA76CDWxt9oSKOmLOH/RBLKEP
+LVVVN/qJRGKjDxsnfSZoN3/4CPNfrVa/5n+IvtH/iDHu9/G/2T/G/JT5A41U
+KiXm3Wq1xBhcx5zy0zK+Mj+Xy6XIf5n7EuQ/9sYh+Wneqy73r+3+2rX2OPh+
+a31wqpHG5xbatvXtCDjW5wO1Z9UdzheXyPMRPrc6H49yvpvn/Y/fJ3/6ffUN
+AyH/6w==
+         "], {{0, 26}, {24, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{24, 26},
+        PlotRange->{{0, 24}, {0, 26}}]}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {Automatic, 
+         Scaled[0.6], Automatic}},
+     GridBoxSpacings->{"Columns" -> {{0}}, "Rows" -> {{0}}}],
+    "Grid"], 
+   PaneBox[
+    StyleBox[
+     RowBox[{
+     "Background", " ", "images", " ", "and", " ", "text", " ", "colors", " ",
+       "have", " ", "been", " ", "adjusted", " ", "for", " ", "editing", " ", 
+      
+      RowBox[{"purposes", "."}]}],
+     LineBreakWithin->False,
+     FontFamily->"Helvetica",
+     FontSize->12,
+     FontColor->GrayLevel[0.4]],
+    Alignment->Center,
+    ImageSize->Scaled[0.5],
+    ScrollPosition->{0., 0.}]},
+   Alignment->{Center, Center}], 2->""}, "1"]], "SlideShowNavigationBar", \
+"FirstSlide",
+ CellMargins->{{0, 0}, {0, 0}},
+ CellFrameLabelMargins->2,
+ CellSize->{Inherited, 30},
+ CellChangeTimes->{3.647361175465108*^9},
+ TextAlignment->Center,
+ CellTags->"SlideShowHeader"],
+
+Cell["\<\
+Digital Research Methods 08A:
+Document Vectors\
+\>", "Title",
+ CellChangeTimes->{
+  3.559948400406288*^9, {3.647331852839075*^9, 3.647331861295168*^9}, {
+   3.647331922221755*^9, 3.647331924532915*^9}, {3.647332658962614*^9, 
+   3.64733266480881*^9}, {3.6473611327373047`*^9, 3.647361139759391*^9}, {
+   3.647448943135475*^9, 3.6474489472294493`*^9}, {3.653035514662826*^9, 
+   3.65303552230066*^9}}],
+
+Cell[TextData[{
+ "William J Turkel, ",
+ StyleBox["wturkel@uwo.ca",
+  FontSlant->"Italic",
+  FontColor->RGBColor[
+   0.396078431372549, 0.596078431372549, 0.796078431372549]],
+ "\nHistory 2816 / Digital Humanities 2130 / History 9877"
+}], "Subtitle",
+ CellChangeTimes->{{3.647331955723979*^9, 3.6473319708190517`*^9}, 
+   3.647332103720562*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Overview", "Section",
+ CellChangeTimes->{{3.647361153919208*^9, 3.6473611548467712`*^9}}],
+
+Cell["\<\
+Many powerful information retrieval and text mining tools are based on the \
+idea that aspects of a text can be represented in the form of vectors.\
+\>", "Text",
+ CellChangeTimes->{{3.6530371930191298`*^9, 3.6530372193455677`*^9}, {
+  3.653037289088135*^9, 3.653037352613102*^9}}],
+
+Cell[TextData[{
+ "Speaking somewhat loosely, a ",
+ StyleBox["vector",
+  FontSlant->"Italic"],
+ " is a mathematical quantity that has more than one component. To describe \
+the distance along a ruler, you only need one measurement (say 2.5 \
+centimeters from one end). To describe a position on a sheet of graph paper, \
+however, you need two measurements (say three squares down and seven squares \
+to the right of the upper left-hand corner). In ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ ", we can write the resulting vector using ",
+ StyleBox["List",
+  FontWeight->"Bold"],
+ " notation"
+}], "Text",
+ CellChangeTimes->{{3.647361157582405*^9, 3.647361159086673*^9}, {
+  3.6530363784929533`*^9, 3.6530365439746017`*^9}, {3.653036616398018*^9, 
+  3.653036648491637*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"3", ",", "7"}], "}"}]], "Input",
+ CellChangeTimes->{{3.653036650307026*^9, 3.653036652315374*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Setup", "Section",
+ CellChangeTimes->{{3.647716369451888*^9, 3.647716370003084*^9}, {
+  3.647798474690284*^9, 3.6477984752570744`*^9}}],
+
+Cell[TextData[{
+ "These functions were introduced in the slide set ",
+ StyleBox["4B: Collocations",
+  FontSlant->"Italic"]
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.6530359437856693`*^9, 3.653035980870925*^9}}],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["txtblks",
+  FontSlant->"Italic"],
+ " argument is assigned to a list of text blocks. These may be paragraphs, \
+pages, blocks of fixed length (e.g., 250 words) or even whole documents. The ",
+ StyleBox["ngram",
+  FontSlant->"Italic"],
+ " argument is assigned to a list of words."
+}], "Text",
+ CellChangeTimes->{{3.653036015110578*^9, 3.653036139258276*^9}, {
+  3.653036174970052*^9, 3.653036191576782*^9}, {3.653036242487473*^9, 
+  3.653036246887125*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"getOccurrences", "[", 
+   RowBox[{"txtblks_", ",", "ngram_"}], "]"}], ":=", "\[IndentingNewLine]", 
+  RowBox[{"Map", "[", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"Length", "[", 
+      RowBox[{"SequenceCases", "[", 
+       RowBox[{"#", ",", "ngram"}], "]"}], "]"}], "&"}], ",", "txtblks"}], 
+   "]"}]}]], "Input",
+ CellChangeTimes->{{3.647748516710093*^9, 3.647748582265139*^9}}],
+
+Cell[TextData[{
+ "Assign a nested list to the ",
+ StyleBox["ngramlist",
+  FontSlant->"Italic"],
+ " argument."
+}], "Text",
+ CellChangeTimes->{{3.653036204648402*^9, 3.653036250031117*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"plotCooccurrences", "[", 
+   RowBox[{"txtblks_", ",", "ngramlist_"}], "]"}], ":=", 
+  "\[IndentingNewLine]", 
+  RowBox[{"MatrixPlot", "[", 
+   RowBox[{
+    RowBox[{"Map", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"getOccurrences", "[", 
+        RowBox[{"txtblks", ",", "#"}], "]"}], "&"}], ",", "ngramlist"}], 
+     "]"}], ",", 
+    RowBox[{"ImageSize", "\[Rule]", "Full"}], ",", 
+    RowBox[{"AspectRatio", "\[Rule]", 
+     RowBox[{"1", "/", "8"}]}], ",", 
+    RowBox[{"FrameTicks", "\[Rule]", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"Map", "[", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"#", ",", 
+            RowBox[{"StringRiffle", "@", 
+             RowBox[{
+             "ngramlist", "\[LeftDoubleBracket]", "#", 
+              "\[RightDoubleBracket]"}]}]}], "}"}], "&"}], ",", 
+         RowBox[{"Range", "[", 
+          RowBox[{"Length", "[", "ngramlist", "]"}], "]"}]}], "]"}], ",", 
+       "Automatic"}], "}"}]}], ",", 
+    RowBox[{"ImagePadding", "\[Rule]", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"110", ",", "10"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"20", ",", "5"}], "}"}]}], "}"}]}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.6477489707297087`*^9, 3.647748993641851*^9}, {
+   3.647749052439962*^9, 3.64774908806187*^9}, {3.647750447438566*^9, 
+   3.6477505139701357`*^9}, {3.647750576001113*^9, 3.647750667572423*^9}, {
+   3.647784048682667*^9, 3.647784141526886*^9}, {3.647784180421927*^9, 
+   3.647784290296781*^9}, {3.6477843341609573`*^9, 3.647784351935066*^9}, 
+   3.64778472712313*^9, {3.647784802255986*^9, 3.6477848059739437`*^9}, {
+   3.647784994328109*^9, 3.647784997167368*^9}, {3.647785035958646*^9, 
+   3.647785042845336*^9}, {3.647785448487372*^9, 3.647785468238415*^9}, {
+   3.6477864050755663`*^9, 3.647786409082419*^9}, {3.6477864544657993`*^9, 
+   3.647786455720682*^9}, {3.647786491280575*^9, 3.647786492927422*^9}, {
+   3.647786526503208*^9, 3.6477865273342*^9}, {3.64778656026995*^9, 
+   3.647786561564884*^9}, {3.647786609923525*^9, 3.6477866381454697`*^9}, 
+   3.6477866701302156`*^9, {3.647787590216681*^9, 3.6477876197978697`*^9}, {
+   3.647787687956114*^9, 3.647787700452544*^9}}],
+
+Cell["\<\
+This function is explained in Chapter 5 of the course textbook\
+\>", "Text",
+ CellChangeTimes->{{3.653038001024428*^9, 3.6530380095112753`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"lineSearch", "[", 
+   RowBox[{"linelist_", ",", "str_"}], "]"}], ":=", "\[IndentingNewLine]", 
+  RowBox[{"TabView", "[", 
+   RowBox[{"Select", "[", 
+    RowBox[{
+     RowBox[{"Thread", "[", 
+      RowBox[{"Rule", "[", 
+       RowBox[{
+        RowBox[{"Range", "[", 
+         RowBox[{"Length", "[", "linelist", "]"}], "]"}], ",", "linelist"}], 
+       "]"}], "]"}], ",", 
+     RowBox[{
+      RowBox[{"StringContainsQ", "[", 
+       RowBox[{
+        RowBox[{"#", "\[LeftDoubleBracket]", "2", "\[RightDoubleBracket]"}], 
+        ",", "str"}], "]"}], "&"}]}], "]"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.6428724393820267`*^9, 3.642872514518104*^9}, {
+  3.64287286338131*^9, 3.642872863776352*^9}, {3.642872911207341*^9, 
+  3.6428729164707336`*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Working with pages", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.6530374469236813`*^9, 3.653037477001051*^9}, {3.653037650844243*^9, 
+  3.65303765267526*^9}}],
+
+Cell[TextData[{
+ "In ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " we can request that a sample text be returned to us in a form that \
+maintains pagination."
+}], "Text",
+ CellChangeTimes->{{3.653037655403122*^9, 3.653037685482169*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"aliceLines", "=", 
+   RowBox[{"ExampleData", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"\"\<Text\>\"", ",", "\"\<AliceInWonderland\>\""}], "}"}], ",", 
+     "\"\<Lines\>\""}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.653037571374207*^9, 3.65303760425377*^9}, {
+  3.653037635948794*^9, 3.653037636315941*^9}}],
+
+Cell["The chapter title appears on its own line.", "Text",
+ CellChangeTimes->{{3.653037690689917*^9, 3.653037712513138*^9}}],
+
+Cell[BoxData[
+ RowBox[{"aliceLines", "\[LeftDoubleBracket]", "1", 
+  "\[RightDoubleBracket]"}]], "Input",
+ CellChangeTimes->{{3.653037697873205*^9, 3.653037700401702*^9}}],
+
+Cell["\<\
+The space between title and text is a null string (empty string).\
+\>", "Text",
+ CellChangeTimes->{{3.653037724784656*^9, 3.653037733744706*^9}, 
+   3.6530378035822153`*^9}],
+
+Cell[BoxData[
+ RowBox[{"aliceLines", "\[LeftDoubleBracket]", "2", 
+  "\[RightDoubleBracket]"}]], "Input",
+ CellChangeTimes->{{3.653037715418757*^9, 3.653037718609128*^9}}],
+
+Cell[BoxData[
+ RowBox[{"StringLength", "[", 
+  RowBox[{
+  "aliceLines", "\[LeftDoubleBracket]", "2", "\[RightDoubleBracket]"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.653037737627174*^9, 3.6530377489361477`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"FullForm", "[", 
+  RowBox[{
+  "aliceLines", "\[LeftDoubleBracket]", "2", "\[RightDoubleBracket]"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.653037767898664*^9, 3.653037775591218*^9}}],
+
+Cell["The third line contains the first page of the text.", "Text",
+ CellChangeTimes->{{3.653037784902813*^9, 3.653037804494204*^9}}],
+
+Cell[BoxData[
+ RowBox[{"aliceLines", "\[LeftDoubleBracket]", "3", 
+  "\[RightDoubleBracket]"}]], "Input",
+ CellChangeTimes->{{3.6530378058313227`*^9, 3.653037809078155*^9}}],
+
+Cell["The fourth line is again a null string.", "Text",
+ CellChangeTimes->{{3.653037815429596*^9, 3.653037832613299*^9}}],
+
+Cell[BoxData[
+ RowBox[{"aliceLines", "\[LeftDoubleBracket]", "4", 
+  "\[RightDoubleBracket]"}]], "Input",
+ CellChangeTimes->{{3.6530378214629*^9, 3.653037824133675*^9}}],
+
+Cell["The fifth line contains the second page of the text.", "Text",
+ CellChangeTimes->{{3.653037835013151*^9, 3.653037841437065*^9}}],
+
+Cell[BoxData[
+ RowBox[{"aliceLines", "\[LeftDoubleBracket]", "5", 
+  "\[RightDoubleBracket]"}]], "Input",
+ CellChangeTimes->{{3.653037847228282*^9, 3.653037853444673*^9}}],
+
+Cell["And so on.", "Text",
+ CellChangeTimes->{{3.6530378438207684`*^9, 3.653037844964867*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Searching pages", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, 
+   3.653037479011607*^9, {3.653037980249318*^9, 3.6530379822883177`*^9}}],
+
+Cell[TextData[{
+ "We can use the ",
+ StyleBox["lineSearch",
+  FontSlant->"Italic"],
+ " function to find all of the pages where a particular term appears. We use ",
+ StyleBox["Alternatives",
+  FontWeight->"Bold"],
+ " to specify more than one search string."
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.653038019119878*^9, 3.6530380281988697`*^9}, {3.653038137339406*^9, 
+  3.6530381942656727`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"lineSearch", "[", 
+  RowBox[{"aliceLines", ",", 
+   RowBox[{"\"\<dormouse\>\"", "|", "\"\<Dormouse\>\""}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.653038049966961*^9, 3.653038120132017*^9}}],
+
+Cell[TextData[{
+ "Note that the tabs in the ",
+ StyleBox["TabView",
+  FontWeight->"Bold"],
+ " display show us the line number"
+}], "Text",
+ CellChangeTimes->{{3.6530381791539373`*^9, 3.653038203905246*^9}}],
+
+Cell[BoxData[
+ RowBox[{"aliceLines", "\[LeftDoubleBracket]", "365", 
+  "\[RightDoubleBracket]"}]], "Input",
+ CellChangeTimes->{{3.65303820752269*^9, 3.653038212065037*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Review: Representing the distribution of a term with a vector\
+\>", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.653038371205661*^9, 3.653038387275289*^9}, {3.653039630668948*^9, 
+  3.653039632243474*^9}}],
+
+Cell["\<\
+We have already seen (in slide set 4B) that it is possible to use a vector to \
+represent the distribution of a particular term or n-gram. \
+\>", "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+   3.653038391458981*^9, 3.6530385502302933`*^9}, 3.6530388717885*^9, {
+   3.6531170434365664`*^9, 3.653117050482573*^9}}],
+
+Cell[TextData[{
+ "We begin by creating a list of lowercased word lists, where each \
+corresponds to one of the lines in ",
+ StyleBox["aliceLines",
+  FontSlant->"Italic"],
+ ". Note that the lines that consist of null strings (like the second line) \
+end up as empty lists in this representation."
+}], "Text",
+ CellChangeTimes->{{3.65303888510003*^9, 3.653038905434799*^9}, {
+  3.653038961233858*^9, 3.6530389953840322`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"aliceLineWordLists", "=", 
+   RowBox[{"Map", "[", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"TextWords", "[", 
+       RowBox[{"ToLowerCase", "[", "#", "]"}], "]"}], "&"}], ",", 
+     "aliceLines"}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.653038768647451*^9, 3.653038817542515*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Short", "[", 
+  RowBox[{"aliceLineWordLists", ",", "7"}], "]"}]], "Input",
+ CellChangeTimes->{{3.653038838172682*^9, 3.65303884558084*^9}, {
+  3.653039050766325*^9, 3.653039060134893*^9}}],
+
+Cell[TextData[{
+ "Now we can use the ",
+ StyleBox["getOccurrences",
+  FontSlant->"Italic"],
+ " function to go through each line of ",
+ StyleBox["aliceLineWordLists",
+  FontSlant->"Italic"],
+ " and count the number of times that the term ",
+ StyleBox["alice",
+  FontSlant->"Italic"],
+ " appears. (This function is expecting an n-gram for its second argument, so \
+we have to create a 1-gram by putting our search word in curly braces.)"
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+   3.653038391458981*^9, 3.6530385502302933`*^9}, 3.6530388717885*^9, {
+   3.653038916355298*^9, 3.653038917098431*^9}, {3.653038973552659*^9, 
+   3.653038985632442*^9}}],
+
+Cell[BoxData[
+ RowBox[{"getOccurrences", "[", 
+  RowBox[{"aliceLineWordLists", ",", 
+   RowBox[{"{", "\"\<alice\>\"", "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6530384733214073`*^9, 3.6530384939678507`*^9}, {
+  3.653038606903007*^9, 3.653038632268463*^9}, {3.65303882583049*^9, 
+  3.653038831309408*^9}}],
+
+Cell["\<\
+The result is a long vector, where each element corresponds to the number of \
+times that \[OpenCurlyDoubleQuote]alice\[CloseCurlyDoubleQuote] appears in \
+that line. The search term doesn\[CloseCurlyQuote]t occur in the first or \
+second lines, but does occur twice in the third line.\
+\>", "Text",
+ CellChangeTimes->{{3.65303900397549*^9, 3.653039045422469*^9}, {
+  3.65303907820508*^9, 3.6530390946447983`*^9}}],
+
+Cell[TextData[{
+ "As we have seen, we can visualize this distribution with ",
+ StyleBox["MatrixPlot",
+  FontWeight->"Bold"],
+ ". Not surprisingly, Alice appears more-or-less throughout the book ",
+ StyleBox["Alice in Wonderland",
+  FontSlant->"Italic"],
+ "."
+}], "Text",
+ CellChangeTimes->{{3.653039114548053*^9, 3.653039129299653*^9}, {
+  3.653039177210894*^9, 3.653039197305451*^9}}],
+
+Cell[BoxData[
+ RowBox[{"MatrixPlot", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"getOccurrences", "[", 
+     RowBox[{"aliceLineWordLists", ",", 
+      RowBox[{"{", "\"\<alice\>\"", "}"}]}], "]"}], "}"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Full"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6530391529896917`*^9, 3.6530391683703957`*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Review: Comparing distributions", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.6530392693928432`*^9, 3.653039272375104*^9}, {3.653039636915319*^9, 
+  3.6530396382832727`*^9}}],
+
+Cell["\<\
+We have also seen that it is possible to compare distributions of terms by \
+visualizing their vectors together\
+\>", "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.653039282736195*^9, 3.653039292182438*^9}, {3.6530393302221603`*^9, 
+  3.653039348612639*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Column", "[", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"plotCooccurrences", "[", 
+     RowBox[{"aliceLineWordLists", ",", 
+      RowBox[{"{", 
+       RowBox[{"{", "\"\<alice\>\"", "}"}], "}"}]}], "]"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"plotCooccurrences", "[", 
+     RowBox[{"aliceLineWordLists", ",", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"\"\<white\>\"", ",", "\"\<rabbit\>\""}], "}"}], ",", 
+        RowBox[{"{", "\"\<dormouse\>\"", "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"\"\<march\>\"", ",", "\"\<hare\>\""}], "}"}], ",", 
+        RowBox[{"{", "\"\<hatter\>\"", "}"}]}], "}"}]}], "]"}]}], "}"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.647783921365094*^9, 3.647783988699861*^9}, {
+   3.647784061587838*^9, 3.647784066313754*^9}, {3.64778437087158*^9, 
+   3.6477845007294617`*^9}, {3.647784543409196*^9, 3.64778454555933*^9}, {
+   3.6477846512280493`*^9, 3.647784688290694*^9}, {3.653039374780904*^9, 
+   3.6530394203064537`*^9}, {3.653039450523343*^9, 3.653039461673367*^9}, {
+   3.65303950313595*^9, 3.653039510359825*^9}, 3.6530395521038837`*^9}],
+
+Cell["\<\
+Looking at this chart, we can see that the Dormouse, March Hare and (Mad) \
+Hatter tend to appear together, whereas the White Rabbit usually appears \
+elsewhere in the book.\
+\>", "Text",
+ CellChangeTimes->{{3.653039701633211*^9, 3.653039774870924*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Review: Cosine distance", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.653039650011655*^9, 3.6530396550587597`*^9}}],
+
+Cell[TextData[{
+ "Finally, we learned that there is a mathematical operation called the ",
+ StyleBox["cosine distance",
+  FontSlant->"Italic"],
+ " that tells us how similar or different two vectors are, on a scale of 0 \
+(identical) to 1 (completely different). Used with distribution vectors, this \
+measurement lets us quantify the degree to which two terms cooccur in a \
+text."
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.653039670947852*^9, 3.6530396983694277`*^9}, {3.6530397780228*^9, 
+  3.653039828901287*^9}, {3.653117111856675*^9, 3.653117116672544*^9}}],
+
+Cell["These three characters are usually mentioned together", "Text",
+ CellChangeTimes->{{3.6530399120984573`*^9, 3.6530399209542828`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"N", "[", 
+  RowBox[{"CosineDistance", "[", 
+   RowBox[{
+    RowBox[{"getOccurrences", "[", 
+     RowBox[{"aliceLineWordLists", ",", 
+      RowBox[{"{", "\"\<dormouse\>\"", "}"}]}], "]"}], ",", 
+    RowBox[{"getOccurrences", "[", 
+     RowBox[{"aliceLineWordLists", ",", 
+      RowBox[{"{", 
+       RowBox[{"\"\<march\>\"", ",", "\"\<hare\>\""}], "}"}]}], "]"}]}], 
+   "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.647751745579569*^9, 3.647751800602219*^9}, {
+  3.6477519928601007`*^9, 3.647751993884453*^9}, {3.647788550597053*^9, 
+  3.6477885913952827`*^9}, {3.653039844149591*^9, 3.653039866492193*^9}}],
+
+Cell[BoxData[
+ RowBox[{"N", "[", 
+  RowBox[{"CosineDistance", "[", 
+   RowBox[{
+    RowBox[{"getOccurrences", "[", 
+     RowBox[{"aliceLineWordLists", ",", 
+      RowBox[{"{", "\"\<dormouse\>\"", "}"}]}], "]"}], ",", 
+    RowBox[{"getOccurrences", "[", 
+     RowBox[{"aliceLineWordLists", ",", 
+      RowBox[{"{", "\"\<hatter\>\"", "}"}]}], "]"}]}], "]"}], "]"}]], "Input",\
+
+ CellChangeTimes->{{3.647751745579569*^9, 3.647751800602219*^9}, {
+  3.6477519928601007`*^9, 3.647751993884453*^9}, {3.647788550597053*^9, 
+  3.6477885913952827`*^9}, {3.653039844149591*^9, 3.65303987990775*^9}}],
+
+Cell[BoxData[
+ RowBox[{"N", "[", 
+  RowBox[{"CosineDistance", "[", 
+   RowBox[{
+    RowBox[{"getOccurrences", "[", 
+     RowBox[{"aliceLineWordLists", ",", 
+      RowBox[{"{", 
+       RowBox[{"\"\<march\>\"", ",", "\"\<hare\>\""}], "}"}]}], "]"}], ",", 
+    RowBox[{"getOccurrences", "[", 
+     RowBox[{"aliceLineWordLists", ",", 
+      RowBox[{"{", "\"\<hatter\>\"", "}"}]}], "]"}]}], "]"}], "]"}]], "Input",\
+
+ CellChangeTimes->{{3.647751745579569*^9, 3.647751800602219*^9}, {
+  3.6477519928601007`*^9, 3.647751993884453*^9}, {3.647788550597053*^9, 
+  3.6477885913952827`*^9}, {3.653039844149591*^9, 3.653039894651301*^9}}],
+
+Cell["These two characters are never mentioned together", "Text",
+ CellChangeTimes->{{3.653039923690057*^9, 3.653039932178028*^9}}],
+
+Cell[BoxData[
+ RowBox[{"N", "[", 
+  RowBox[{"CosineDistance", "[", 
+   RowBox[{
+    RowBox[{"getOccurrences", "[", 
+     RowBox[{"aliceLineWordLists", ",", 
+      RowBox[{"{", "\"\<dormouse\>\"", "}"}]}], "]"}], ",", 
+    RowBox[{"getOccurrences", "[", 
+     RowBox[{"aliceLineWordLists", ",", 
+      RowBox[{"{", 
+       RowBox[{"\"\<white\>\"", ",", "\"\<rabbit\>\""}], "}"}]}], "]"}]}], 
+   "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.647751745579569*^9, 3.647751800602219*^9}, {
+  3.6477519928601007`*^9, 3.647751993884453*^9}, {3.647788550597053*^9, 
+  3.6477885913952827`*^9}, {3.653039844149591*^9, 3.653039866492193*^9}, {
+  3.653039942610527*^9, 3.653039945681656*^9}}],
+
+Cell["\<\
+We can use cosine distance to measure the coocccurence of any two terms, not \
+just named entities. Here we observe that the caterpillar is often mentioned \
+in conjunction with a hookah.\
+\>", "Text",
+ CellChangeTimes->{{3.653040091964552*^9, 3.65304013088349*^9}, {
+  3.653040461402199*^9, 3.653040464816455*^9}}],
+
+Cell[BoxData[
+ RowBox[{"N", "[", 
+  RowBox[{"CosineDistance", "[", 
+   RowBox[{
+    RowBox[{"getOccurrences", "[", 
+     RowBox[{"aliceLineWordLists", ",", 
+      RowBox[{"{", "\"\<caterpillar\>\"", "}"}]}], "]"}], ",", 
+    RowBox[{"getOccurrences", "[", 
+     RowBox[{"aliceLineWordLists", ",", 
+      RowBox[{"{", "\"\<hookah\>\"", "}"}]}], "]"}]}], "]"}], "]"}]], "Input",\
+
+ CellChangeTimes->{{3.647751745579569*^9, 3.647751800602219*^9}, {
+  3.6477519928601007`*^9, 3.647751993884453*^9}, {3.647788550597053*^9, 
+  3.6477885913952827`*^9}, {3.653039844149591*^9, 3.653039866492193*^9}, {
+  3.653039942610527*^9, 3.653039945681656*^9}, {3.653040077246229*^9, 
+  3.653040084037149*^9}}],
+
+Cell[BoxData[
+ RowBox[{"plotCooccurrences", "[", 
+  RowBox[{"aliceLineWordLists", ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", "\"\<caterpillar\>\"", "}"}], ",", 
+     RowBox[{"{", "\"\<hookah\>\"", "}"}]}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.65304016361103*^9, 3.6530401713221283`*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["The document vector model", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+   3.653040510016675*^9, 3.653040513070846*^9}, {3.6531186929349537`*^9, 
+   3.653118696742763*^9}, {3.653118930487574*^9, 3.653118931390304*^9}, 
+   3.653119524569868*^9}],
+
+Cell[TextData[{
+ "We can use a ",
+ StyleBox["different",
+  FontSlant->"Italic"],
+ " vector representation to study the similarity or difference of two texts. \
+These texts could be whole documents, pieces of documents like chapters, \
+sections or pages, or even sentences or short passages. Here we will study \
+the similarity of pages of ",
+ StyleBox["Alice in Wonderland",
+  FontSlant->"Italic"],
+ " to one another."
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.653040533230139*^9, 3.6530405799441433`*^9}, {3.653117721042348*^9, 
+  3.653117736538056*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Most frequent terms", "Subsection",
+ CellChangeTimes->{{3.653118435336213*^9, 3.65311843830435*^9}}],
+
+Cell["\<\
+We start with the most freqent words in the book (not including stopwords). \
+Here is every word that appears more than five times, sorted in order of \
+descending frequency.\
+\>", "Text",
+ CellChangeTimes->{{3.653117398215509*^9, 3.653117401950087*^9}, {
+  3.6531177084188557`*^9, 3.6531177478575373`*^9}, {3.653118116620571*^9, 
+  3.65311813213148*^9}, {3.6531181732746897`*^9, 3.653118177977845*^9}, {
+  3.6531182633827*^9, 3.6531182673665447`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"aliceFrequentTerms", "=", 
+  RowBox[{
+   RowBox[{"Select", "[", 
+    RowBox[{
+     RowBox[{"Sort", "[", 
+      RowBox[{
+       RowBox[{"Tally", "[", 
+        RowBox[{"DeleteStopwords", "[", 
+         RowBox[{"Flatten", "[", 
+          RowBox[{"ToLowerCase", "[", 
+           RowBox[{"TextWords", "[", "aliceLines", "]"}], "]"}], "]"}], "]"}],
+         "]"}], ",", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"#1", "\[LeftDoubleBracket]", "2", "\[RightDoubleBracket]"}],
+          ">", 
+         RowBox[{
+         "#2", "\[LeftDoubleBracket]", "2", "\[RightDoubleBracket]"}]}], 
+        "&"}]}], "]"}], ",", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"#", "\[LeftDoubleBracket]", "2", "\[RightDoubleBracket]"}], 
+       ">", "5"}], "&"}]}], "]"}], "\[LeftDoubleBracket]", 
+   RowBox[{"All", ",", "1"}], "\[RightDoubleBracket]"}]}]], "Input",
+ CellChangeTimes->{{3.65311778682251*^9, 3.653117908123805*^9}, {
+   3.653117944763323*^9, 3.653118041774969*^9}, {3.653118089374113*^9, 
+   3.653118091845159*^9}, 3.6531182499122753`*^9}],
+
+Cell["There are 142 such words", "Text",
+ CellChangeTimes->{{3.653118225568059*^9, 3.653118256998849*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Length", "[", "aliceFrequentTerms", "]"}]], "Input",
+ CellChangeTimes->{{3.653118228926928*^9, 3.653118232144656*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["A vector representation", "Subsection",
+ CellChangeTimes->{{3.653118469902981*^9, 3.653118475086967*^9}}],
+
+Cell[TextData[{
+ "Now suppose we use these words, in this order, to specify a vector with 142 \
+elements. Then we can represent any given page in ",
+ StyleBox["Alice",
+  FontSlant->"Italic"],
+ " by putting a one in the column if that word appears on the page, and a \
+zero otherwise. Suppose a page has the words \[OpenCurlyDoubleQuote]alice\
+\[CloseCurlyDoubleQuote], \[OpenCurlyDoubleQuote]rabbit\
+\[CloseCurlyDoubleQuote] and \[OpenCurlyDoubleQuote]sitting\
+\[CloseCurlyDoubleQuote] but no other high frequency terms. Then its document \
+vector representation will look like this"
+}], "Text",
+ CellChangeTimes->{{3.653118204632749*^9, 3.6531182198643293`*^9}, {
+  3.6531182723822412`*^9, 3.653118350283615*^9}, {3.6531195596552477`*^9, 
+  3.653119601789793*^9}, {3.6531199061873198`*^9, 3.6531199567848673`*^9}}],
+
+Cell[BoxData[GridBox[{
+   {"\"\<alice\>\"", "\"\<said\>\"", "\"\<little\>\"", "\"\<like\>\"", 
+    "\"\<rabbit\>\"", "\"\<queen\>\"", "\"\<...\>\"", "\"\<hear\>\"", 
+    "\"\<close\>\"", "\"\<sitting\>\""},
+   {"1", "0", "0", "0", "1", "0", " ", "0", "0", "1"}
+  },
+  GridBoxDividers->{
+   "Columns" -> {{True}}, "ColumnsIndexed" -> {}, "Rows" -> {{True}}, 
+    "RowsIndexed" -> {}}]], "Input",
+ CellChangeTimes->{{3.653119851950844*^9, 3.6531198990429564`*^9}, {
+  3.6531199685043163`*^9, 3.653119991463442*^9}}],
+
+Cell["All of columns that are not shown will contain zeros.", "Text",
+ CellChangeTimes->{{3.653119996903173*^9, 3.6531200206304693`*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Example of document vector representation", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+   3.653118702254643*^9, 3.6531187136622972`*^9}, {3.653118935646062*^9, 
+   3.65311893659822*^9}, 3.653120046446948*^9}],
+
+Cell[TextData[{
+ "Here are the words that appear on the first page of ",
+ StyleBox["Alice",
+  FontSlant->"Italic"],
+ ", in order"
+}], "Text",
+ CellChangeTimes->{{3.653118401233461*^9, 3.65311841143321*^9}, {
+  3.6531187296064367`*^9, 3.653118730605706*^9}}],
+
+Cell[BoxData[
+ RowBox[{"aliceLineWordLists", "\[LeftDoubleBracket]", "3", 
+  "\[RightDoubleBracket]"}]], "Input",
+ CellChangeTimes->{{3.6531183819886837`*^9, 3.653118394131051*^9}}],
+
+Cell["\<\
+Here is the bag of words on the first page, stopwords deleted\
+\>", "Text",
+ CellChangeTimes->{{3.653118415776849*^9, 3.653118416473068*^9}, {
+  3.653118501261942*^9, 3.653118528245034*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Union", "[", 
+  RowBox[{"DeleteStopwords", "[", 
+   RowBox[{
+   "aliceLineWordLists", "\[LeftDoubleBracket]", "3", 
+    "\[RightDoubleBracket]"}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.6531183819886837`*^9, 3.653118394131051*^9}, {
+  3.653118515422336*^9, 3.653118538676569*^9}}],
+
+Cell["Now we start with a blank vector that has 142 zeros.", "Text",
+ CellChangeTimes->{{3.653120093075614*^9, 3.653120109691217*^9}}],
+
+Cell[BoxData[
+ RowBox[{"ConstantArray", "[", 
+  RowBox[{"0", ",", "142"}], "]"}]], "Input",
+ CellChangeTimes->{{3.6531201123959007`*^9, 3.653120120066966*^9}}],
+
+Cell[TextData[{
+ "Next we look up the ",
+ StyleBox["Position",
+  FontWeight->"Bold"],
+ " of each word in this list in our 142-word vector"
+}], "Text",
+ CellChangeTimes->{{3.653118543612351*^9, 3.653118576155233*^9}, {
+  3.653120098595525*^9, 3.653120099531598*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Position", "[", 
+  RowBox[{"aliceFrequentTerms", ",", "\"\<alice\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.6531185785265007`*^9, 3.653118591978794*^9}}],
+
+Cell["\<\
+Since \[OpenCurlyDoubleQuote]alice\[CloseCurlyDoubleQuote] occurs on this \
+page, we flip the first position of our vector from a zero to a one.\
+\>", "Text",
+ CellChangeTimes->{{3.653120127227105*^9, 3.6531201565135307`*^9}, {
+  3.653120256285803*^9, 3.6531202567259207`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"ReplacePart", "[", 
+  RowBox[{
+   RowBox[{"ConstantArray", "[", 
+    RowBox[{"0", ",", "142"}], "]"}], ",", 
+   RowBox[{"1", "\[Rule]", "1"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6531201123959007`*^9, 3.653120120066966*^9}, {
+  3.6531201711539917`*^9, 3.65312019412825*^9}}],
+
+Cell[TextData[{
+ "Then we look up the next term from our page. We can disregard any that don\
+\[CloseCurlyQuote]t appear in ",
+ StyleBox["aliceFrequentTerms",
+  FontSlant->"Italic"]
+}], "Text",
+ CellChangeTimes->{{3.653120200544159*^9, 3.653120230670813*^9}, {
+  3.6531202646453667`*^9, 3.653120276477129*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Position", "[", 
+  RowBox[{"aliceFrequentTerms", ",", "\"\<bank\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.6531185957285833`*^9, 3.653118611090143*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Position", "[", 
+  RowBox[{"aliceFrequentTerms", ",", "\"\<beginning\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.6531185957285833`*^9, 3.6531186210896587`*^9}}],
+
+Cell["\<\
+Since the word \[OpenCurlyDoubleQuote]sitting\[CloseCurlyDoubleQuote] occurs \
+on this page, we flip the 142nd position of our vector from a zero to a one.\
+\>", "Text",
+ CellChangeTimes->{{3.653118642168684*^9, 3.653118642504788*^9}, {
+  3.6531202857086687`*^9, 3.653120330515193*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Position", "[", 
+  RowBox[{"aliceFrequentTerms", ",", "\"\<sitting\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.6531185957285833`*^9, 3.653118667528131*^9}}],
+
+Cell[BoxData[
+ RowBox[{"ReplacePart", "[", 
+  RowBox[{
+   RowBox[{"ReplacePart", "[", 
+    RowBox[{
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"0", ",", "142"}], "]"}], ",", 
+     RowBox[{"1", "\[Rule]", "1"}]}], "]"}], ",", 
+   RowBox[{"142", "\[Rule]", "1"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6531201123959007`*^9, 3.653120120066966*^9}, {
+  3.6531201711539917`*^9, 3.65312019412825*^9}, {3.6531203405315657`*^9, 
+  3.653120347754695*^9}}],
+
+Cell["And so on.", "Text",
+ CellChangeTimes->{{3.65311867139161*^9, 3.653118679807527*^9}, {
+   3.653118744701008*^9, 3.653118752204968*^9}, 3.653120083915945*^9}],
+
+Cell["\<\
+This would obviously be pretty tedious and error-prone to try to do by hand!\
+\>", "Text",
+ CellChangeTimes->{{3.653120395105245*^9, 3.6531204130007563`*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "The ",
+ StyleBox["getFreqVector",
+  FontSlant->"Italic"],
+ " command"
+}], "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.653118818306333*^9, 3.65311882338625*^9}}],
+
+Cell["This function comes from Chapter 5 of the course textbook.", "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.6531205649554977`*^9, 3.653120576114183*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"getFreqVector", "[", 
+   RowBox[{"textstr_", ",", "freq_"}], "]"}], ":=", "\[IndentingNewLine]", 
+  RowBox[{"ReplacePart", "[", 
+   RowBox[{
+    RowBox[{"ConstantArray", "[", 
+     RowBox[{"0", ",", 
+      RowBox[{"{", 
+       RowBox[{"Length", "[", "freq", "]"}], "}"}]}], "]"}], ",", 
+    RowBox[{"Map", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"First", "@", 
+          RowBox[{"First", "@", 
+           RowBox[{"Position", "[", 
+            RowBox[{"freq", ",", "#"}], "]"}]}]}], "\[Rule]", "1"}], ")"}], 
+       "&"}], ",", 
+      RowBox[{"Intersection", "[", 
+       RowBox[{
+        RowBox[{"DeleteStopwords", "@", 
+         RowBox[{"ToLowerCase", "@", 
+          RowBox[{"TextWords", "[", "textstr", "]"}]}]}], ",", "freq"}], 
+       "]"}]}], "]"}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.6428683304516993`*^9, 3.6428683526866817`*^9}, 
+   3.64286838924129*^9}],
+
+Cell[TextData[{
+ "It allows us to generate a document vector representation, given a page and \
+a list of frequent terms. Here is the vector for the first page of ",
+ StyleBox["Alice",
+  FontSlant->"Italic"],
+ " (the one we were computing by hand in the previous slide)."
+}], "Text",
+ CellChangeTimes->{{3.65312058148987*^9, 3.6531206417199097`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"aliceLines", "\[LeftDoubleBracket]", "3", 
+  "\[RightDoubleBracket]"}]], "Input",
+ CellChangeTimes->{{3.653120717493121*^9, 3.6531207273408737`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"getFreqVector", "[", 
+  RowBox[{
+   RowBox[{
+   "aliceLines", "\[LeftDoubleBracket]", "3", "\[RightDoubleBracket]"}], ",", 
+   "aliceFrequentTerms"}], "]"}]], "Input",
+ CellChangeTimes->{{3.6531204318824463`*^9, 3.653120468135075*^9}, {
+  3.653120519773683*^9, 3.653120546851612*^9}}],
+
+Cell["Here is the second page of the book", "Text",
+ CellChangeTimes->{{3.653120676279017*^9, 3.653120681590433*^9}}],
+
+Cell[BoxData[
+ RowBox[{"aliceLines", "\[LeftDoubleBracket]", "5", 
+  "\[RightDoubleBracket]"}]], "Input",
+ CellChangeTimes->{3.6531206891188297`*^9}],
+
+Cell["And here is the vector for the second page", "Text",
+ CellChangeTimes->{{3.653120693773704*^9, 3.653120699181716*^9}}],
+
+Cell[BoxData[
+ RowBox[{"getFreqVector", "[", 
+  RowBox[{
+   RowBox[{
+   "aliceLines", "\[LeftDoubleBracket]", "5", "\[RightDoubleBracket]"}], ",", 
+   "aliceFrequentTerms"}], "]"}]], "Input",
+ CellChangeTimes->{{3.6531204318824463`*^9, 3.653120468135075*^9}, {
+   3.653120519773683*^9, 3.653120546851612*^9}, 3.6531207059103327`*^9}],
+
+Cell["\<\
+We can compare the two vectors by eye, and see that they \
+don\[CloseCurlyQuote]t overlap.\
+\>", "Text",
+ CellChangeTimes->{{3.653120753996232*^9, 3.65312076855519*^9}, {
+  3.653120799706731*^9, 3.653120833736816*^9}}],
+
+Cell[BoxData[
+ RowBox[{"ArrayPlot", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"getFreqVector", "[", 
+      RowBox[{
+       RowBox[{
+       "aliceLines", "\[LeftDoubleBracket]", "3", "\[RightDoubleBracket]"}], 
+       ",", "aliceFrequentTerms"}], "]"}], ",", 
+     RowBox[{"getFreqVector", "[", 
+      RowBox[{
+       RowBox[{
+       "aliceLines", "\[LeftDoubleBracket]", "5", "\[RightDoubleBracket]"}], 
+       ",", "aliceFrequentTerms"}], "]"}]}], "}"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Full"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.65312084368944*^9, 3.65312088509512*^9}}],
+
+Cell["But, of course, we don't need to compare them by eye.", "Text",
+ CellChangeTimes->{{3.653120753996232*^9, 3.65312076855519*^9}, {
+  3.653120799706731*^9, 3.65312082169007*^9}, {3.6531209017109737`*^9, 
+  3.653120904702016*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["The vector product", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.653120991380327*^9, 3.653121000858708*^9}}],
+
+Cell[TextData[{
+ "To determine how similar or different two vectors are, we can use a \
+mathematical operation called the ",
+ StyleBox["vector product",
+  FontSlant->"Italic"],
+ ". In ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " you use the Dot command to multiply two vectors."
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.6531213332399473`*^9, 3.653121391260528*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Dot", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"0", ",", "0"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0", ",", "1"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.649250347005537*^9, 3.649250364294126*^9}}],
+
+Cell["This can also be written as", "Text",
+ CellChangeTimes->{{3.6492503698779163`*^9, 3.6492503735818663`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"{", 
+   RowBox[{"0", ",", "1"}], "}"}], ".", 
+  RowBox[{"{", 
+   RowBox[{"0", ",", "0"}], "}"}]}]], "Input",
+ CellChangeTimes->{{3.649250376749682*^9, 3.6492503818294973`*^9}}],
+
+Cell[TextData[{
+ "Given two vectors ",
+ StyleBox["{a,b,c}",
+  FontSlant->"Italic"],
+ " and ",
+ StyleBox["{d,e,f}",
+  FontSlant->"Italic"],
+ " the vector product is defined as"
+}], "Text",
+ CellChangeTimes->{{3.64925046050762*^9, 3.6492504889858713`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"{", 
+   RowBox[{"a", ",", "b", ",", "c"}], "}"}], ".", 
+  RowBox[{"{", 
+   RowBox[{"d", ",", "e", ",", "f"}], "}"}]}]], "Input",
+ CellChangeTimes->{{3.649250499598311*^9, 3.6492505061132917`*^9}}],
+
+Cell[TextData[{
+ "Note that if either ",
+ StyleBox["a",
+  FontSlant->"Italic"],
+ " or ",
+ StyleBox["d",
+  FontSlant->"Italic"],
+ " is 0, then their product ",
+ StyleBox["ad",
+  FontSlant->"Italic"],
+ " will also be zero. If both are 1, then their product will be 1."
+}], "Text",
+ CellChangeTimes->{{3.649250510931354*^9, 3.649250552968552*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"{", 
+   RowBox[{"0", ",", "b", ",", "c"}], "}"}], ".", 
+  RowBox[{"{", 
+   RowBox[{"0", ",", "e", ",", "f"}], "}"}]}]], "Input",
+ CellChangeTimes->{{3.6492505559488287`*^9, 3.649250565383315*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"{", 
+   RowBox[{"0", ",", "b", ",", "c"}], "}"}], ".", 
+  RowBox[{"{", 
+   RowBox[{"1", ",", "e", ",", "f"}], "}"}]}]], "Input",
+ CellChangeTimes->{{3.6492505559488287`*^9, 3.649250575391829*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"{", 
+   RowBox[{"1", ",", "b", ",", "c"}], "}"}], ".", 
+  RowBox[{"{", 
+   RowBox[{"1", ",", "e", ",", "f"}], "}"}]}]], "Input",
+ CellChangeTimes->{{3.6492505559488287`*^9, 3.649250584311475*^9}}],
+
+Cell[TextData[{
+ "The same logic goes for ",
+ StyleBox["b",
+  FontSlant->"Italic"],
+ " and ",
+ StyleBox["e",
+  FontSlant->"Italic"],
+ ", and for ",
+ StyleBox["c",
+  FontSlant->"Italic"],
+ " and ",
+ StyleBox["f",
+  FontSlant->"Italic"],
+ ". So for each column where both vectors have a 1, one will be added to the \
+vector product. Study the following examples."
+}], "Text",
+ CellChangeTimes->{{3.6492505887504396`*^9, 3.649250699626656*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"{", 
+   RowBox[{"0", ",", "0", ",", "0"}], "}"}], ".", 
+  RowBox[{"{", 
+   RowBox[{"0", ",", "1", ",", "1"}], "}"}]}]], "Input",
+ CellChangeTimes->{{3.649250720480953*^9, 3.64925073005752*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"{", 
+   RowBox[{"1", ",", "0", ",", "0"}], "}"}], ".", 
+  RowBox[{"{", 
+   RowBox[{"0", ",", "1", ",", "1"}], "}"}]}]], "Input",
+ CellChangeTimes->{{3.6492507333362637`*^9, 3.649250744177055*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"{", 
+   RowBox[{"1", ",", "0", ",", "0"}], "}"}], ".", 
+  RowBox[{"{", 
+   RowBox[{"1", ",", "1", ",", "1"}], "}"}]}]], "Input",
+ CellChangeTimes->{{3.6492507463449507`*^9, 3.64925075298473*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"{", 
+   RowBox[{"1", ",", "1", ",", "0"}], "}"}], ".", 
+  RowBox[{"{", 
+   RowBox[{"1", ",", "1", ",", "1"}], "}"}]}]], "Input",
+ CellChangeTimes->{{3.6492507463449507`*^9, 3.649250762657255*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"{", 
+   RowBox[{"1", ",", "1", ",", "1"}], "}"}], ".", 
+  RowBox[{"{", 
+   RowBox[{"1", ",", "1", ",", "1"}], "}"}]}]], "Input",
+ CellChangeTimes->{{3.6492507463449507`*^9, 3.64925076934509*^9}}],
+
+Cell[TextData[{
+ "To test how many of the most frequent words two pages have in common, we \
+simply multiply their vectors. The first two pages of ",
+ StyleBox["Alice",
+  FontSlant->"Italic"],
+ " have no high frequency words in common, so they are maximally distinct by \
+this measure."
+}], "Text",
+ CellChangeTimes->{{3.653121449706821*^9, 3.6531215292795553`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Dot", "[", 
+  RowBox[{
+   RowBox[{"getFreqVector", "[", 
+    RowBox[{
+     RowBox[{
+     "aliceLines", "\[LeftDoubleBracket]", "3", "\[RightDoubleBracket]"}], 
+     ",", "aliceFrequentTerms"}], "]"}], ",", 
+   RowBox[{"getFreqVector", "[", 
+    RowBox[{
+     RowBox[{
+     "aliceLines", "\[LeftDoubleBracket]", "5", "\[RightDoubleBracket]"}], 
+     ",", "aliceFrequentTerms"}], "]"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.653121473021697*^9, 3.653121494352689*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Show me more like this", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+   3.653120935174762*^9, 3.653120942092812*^9}, 3.653121549784102*^9}],
+
+Cell["\<\
+Once we have computed the vector representation for each page (or some other \
+smaller or larger unit) we can compare that vector with others to accomplish \
+a variety of goals. We can find other pages that are similar to one we are \
+interested in, for example.\
+\>", "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.6531215839012423`*^9, 3.653121638691572*^9}}],
+
+Cell[TextData[{
+ "We start by computing the vector for each line of ",
+ StyleBox["aliceLines",
+  FontSlant->"Italic"]
+}], "Text",
+ CellChangeTimes->{{3.653121644875062*^9, 3.653121667946623*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"aliceFrequencyVectors", "=", 
+   RowBox[{"Map", "[", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"getFreqVector", "[", 
+       RowBox[{"#", ",", "aliceFrequentTerms"}], "]"}], "&"}], ",", 
+     "aliceLines"}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.653121676100469*^9, 3.653121716857603*^9}}],
+
+Cell[TextData[{
+ "This is a list of vectors. We can look up the vector for the first page \
+(line 3 of ",
+ StyleBox["aliceLines",
+  FontSlant->"Italic"],
+ ") like this"
+}], "Text",
+ CellChangeTimes->{{3.6531217230481663`*^9, 3.653121755775231*^9}}],
+
+Cell[BoxData[
+ RowBox[{"aliceFrequencyVectors", "\[LeftDoubleBracket]", "3", 
+  "\[RightDoubleBracket]"}]], "Input",
+ CellChangeTimes->{{3.653121757626326*^9, 3.653121761351142*^9}}],
+
+Cell["\<\
+Now suppose, for whatever reason, we find this page to be interesting\
+\>", "Text",
+ CellChangeTimes->{{3.653121773118327*^9, 3.6531218152690773`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"aliceLines", "\[LeftDoubleBracket]", "201", 
+  "\[RightDoubleBracket]"}]], "Input",
+ CellChangeTimes->{{3.653121817093936*^9, 3.653121848171897*^9}}],
+
+Cell["\<\
+The vector product gives us a way of measuring how similar this page is to \
+another page. We see, for example that the page we are interested in has no \
+frequent terms in common with line 3 (the first page of text) or line 5 (the \
+second page of text).\
+\>", "Text",
+ CellChangeTimes->{{3.642873402779702*^9, 3.642873491584244*^9}, {
+  3.642873589692871*^9, 3.642873590732637*^9}, {3.642943782483891*^9, 
+  3.642943807537332*^9}, {3.653121946496168*^9, 3.653121955191967*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Dot", "[", 
+  RowBox[{
+   RowBox[{
+   "aliceFrequencyVectors", "\[LeftDoubleBracket]", "201", 
+    "\[RightDoubleBracket]"}], ",", 
+   RowBox[{
+   "aliceFrequencyVectors", "\[LeftDoubleBracket]", "3", 
+    "\[RightDoubleBracket]"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6531219010530367`*^9, 3.6531219360965776`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Dot", "[", 
+  RowBox[{
+   RowBox[{
+   "aliceFrequencyVectors", "\[LeftDoubleBracket]", "201", 
+    "\[RightDoubleBracket]"}], ",", 
+   RowBox[{
+   "aliceFrequencyVectors", "\[LeftDoubleBracket]", "5", 
+    "\[RightDoubleBracket]"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6531219010530367`*^9, 3.653121940016368*^9}}],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["findSimilarLines",
+  FontSlant->"Italic"],
+ " function from the text allows us to search for pages that do share \
+frequent terms with one we are interested in."
+}], "Text",
+ CellChangeTimes->{{3.6531219938870287`*^9, 3.653122025357456*^9}, {
+  3.6531222366302223`*^9, 3.653122237093721*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"findSimilarLines", "[", 
+   RowBox[{"freqvs_", ",", " ", "line_", ",", "n_"}], "]"}], ":=", 
+  "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"Rest", "[", 
+    RowBox[{"MaximalBy", "[", 
+     RowBox[{
+      RowBox[{"Thread", "[", 
+       RowBox[{"Rule", "[", 
+        RowBox[{
+         RowBox[{"Range", "[", 
+          RowBox[{"Length", "[", "freqvs", "]"}], "]"}], ",", " ", "freqvs"}],
+         "]"}], "]"}], ",", 
+      RowBox[{
+       RowBox[{
+        RowBox[{
+        "freqvs", "\[LeftDoubleBracket]", "line", "\[RightDoubleBracket]"}], 
+        ".", 
+        RowBox[{"#", "\[LeftDoubleBracket]", "2", "\[RightDoubleBracket]"}]}],
+        "&"}], ",", 
+      RowBox[{"n", "+", "1"}]}], "]"}], "]"}], "\[LeftDoubleBracket]", 
+   RowBox[{"All", ",", "1"}], "\[RightDoubleBracket]"}]}]], "Input",
+ CellChangeTimes->{{3.642944520681155*^9, 3.6429445969894753`*^9}, {
+  3.64294477655131*^9, 3.64294477689508*^9}}],
+
+Cell[TextData[{
+ "Here are the two pages in ",
+ StyleBox["Alice",
+  FontSlant->"Italic"],
+ " that are most similar to the one we chose"
+}], "Text",
+ CellChangeTimes->{{3.653122049708276*^9, 3.653122088755157*^9}, {
+  3.653122194839158*^9, 3.6531221953433027`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"findSimilarLines", "[", 
+  RowBox[{"aliceFrequencyVectors", ",", "201", ",", "2"}], "]"}]], "Input",
+ CellChangeTimes->{{3.653122028775564*^9, 3.653122045028812*^9}, 
+   3.653122198431374*^9}],
+
+Cell["The passage where she decides to drink from the bottle", "Text",
+ CellChangeTimes->{{3.653122095492758*^9, 3.6531221020106287`*^9}, {
+  3.653122144361849*^9, 3.653122148656917*^9}}],
+
+Cell[BoxData[
+ RowBox[{"aliceLines", "\[LeftDoubleBracket]", "199", 
+  "\[RightDoubleBracket]"}]], "Input",
+ CellChangeTimes->{{3.653122060352723*^9, 3.653122072851797*^9}}],
+
+Cell["And the passage where she finds the bottle", "Text",
+ CellChangeTimes->{{3.653122095492758*^9, 3.6531221020106287`*^9}, {
+  3.653122202046802*^9, 3.6531222026469316`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"aliceLines", "\[LeftDoubleBracket]", "23", 
+  "\[RightDoubleBracket]"}]], "Input",
+ CellChangeTimes->{{3.653122060352723*^9, 3.653122072851797*^9}, {
+  3.653122117658743*^9, 3.6531221178020678`*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Activity", "Section",
+ CellChangeTimes->{{3.647716402186221*^9, 3.647716405353856*^9}, {
+   3.6531209698851433`*^9, 3.6531209710599318`*^9}, 3.653122527667828*^9}],
+
+Cell["\<\
+Open a new notebook, copy and paste the contents of this slide to it, and \
+work through each of the following steps.\
+\>", "Text",
+ CellChangeTimes->{{3.653122547106181*^9, 3.653122575665339*^9}, {
+  3.653122638430698*^9, 3.6531226477026367`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Lines", "Subsubsection",
+ CellChangeTimes->{{3.653122625151309*^9, 3.653122625663518*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"ravenLines", "=", 
+   RowBox[{"ExampleData", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"\"\<Text\>\"", ",", "\"\<TheRaven\>\""}], "}"}], ",", 
+     "\"\<Lines\>\""}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.653122278103655*^9, 3.653122283516906*^9}, {
+  3.6531224414390993`*^9, 3.6531224503268557`*^9}, {3.6531224884533663`*^9, 
+  3.653122505012168*^9}, {3.653122583145993*^9, 3.65312259039268*^9}}],
+
+Cell["What are the 6th and 18th lines? ", "Text",
+ CellChangeTimes->{{3.6531226531820803`*^9, 3.653122685805299*^9}}],
+
+Cell["What lines contain the word \[OpenCurlyDoubleQuote]dreaming\
+\[CloseCurlyDoubleQuote]?", "Text",
+ CellChangeTimes->{{3.653122738787768*^9, 3.653122746947085*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Word lists", "Subsubsection",
+ CellChangeTimes->{{3.653122796129713*^9, 3.653122797289236*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"ravenLineWordLists", "=", 
+   RowBox[{"Map", "[", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"TextWords", "[", 
+       RowBox[{"ToLowerCase", "[", "#", "]"}], "]"}], "&"}], ",", 
+     "ravenLines"}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.653038768647451*^9, 3.653038817542515*^9}, {
+  3.653122799497106*^9, 3.6531228060890903`*^9}}],
+
+Cell[TextData[{
+ "Use the ",
+ StyleBox["plotCooccurrences",
+  FontSlant->"Italic"],
+ " function to compare the distribution of \[OpenCurlyDoubleQuote]lenore\
+\[CloseCurlyDoubleQuote] and \[OpenCurlyDoubleQuote]raven\
+\[CloseCurlyDoubleQuote]. Do the distributions of the two terms overlap?"
+}], "Text",
+ CellChangeTimes->{{3.653122925124908*^9, 3.653122946331862*^9}, {
+   3.653122995266622*^9, 3.653123012201528*^9}, 3.653123060816169*^9}],
+
+Cell[TextData[{
+ "Use ",
+ StyleBox["CosineDistance",
+  FontWeight->"Bold"],
+ " and ",
+ StyleBox["getOccurrences",
+  FontSlant->"Italic"],
+ " to compute the distance between the distribution vectors for \
+\[OpenCurlyDoubleQuote]lenore\[CloseCurlyDoubleQuote] and \
+\[OpenCurlyDoubleQuote]raven\[CloseCurlyDoubleQuote]"
+}], "Text",
+ CellChangeTimes->{{3.653123036024934*^9, 3.653123112061747*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Most frequent terms", "Subsubsection",
+ CellChangeTimes->{{3.653123140109247*^9, 3.653123143228745*^9}}],
+
+Cell["Here are the terms that appear five or more times", "Text",
+ CellChangeTimes->{{3.6531234768082523`*^9, 3.6531234846721277`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"ravenFrequentTerms", "=", 
+  RowBox[{
+   RowBox[{"Select", "[", 
+    RowBox[{
+     RowBox[{"Sort", "[", 
+      RowBox[{
+       RowBox[{"Tally", "[", 
+        RowBox[{"DeleteStopwords", "[", 
+         RowBox[{"Flatten", "[", 
+          RowBox[{"ToLowerCase", "[", 
+           RowBox[{"TextWords", "[", "ravenLines", "]"}], "]"}], "]"}], "]"}],
+         "]"}], ",", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"#1", "\[LeftDoubleBracket]", "2", "\[RightDoubleBracket]"}],
+          ">", 
+         RowBox[{
+         "#2", "\[LeftDoubleBracket]", "2", "\[RightDoubleBracket]"}]}], 
+        "&"}]}], "]"}], ",", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"#", "\[LeftDoubleBracket]", "2", "\[RightDoubleBracket]"}], 
+       ">", "4"}], "&"}]}], "]"}], "\[LeftDoubleBracket]", 
+   RowBox[{"All", ",", "1"}], "\[RightDoubleBracket]"}]}]], "Input",
+ CellChangeTimes->{{3.65311778682251*^9, 3.653117908123805*^9}, {
+   3.653117944763323*^9, 3.653118041774969*^9}, {3.653118089374113*^9, 
+   3.653118091845159*^9}, 3.6531182499122753`*^9, {3.65312314717347*^9, 
+   3.6531231535172167`*^9}, {3.65312332163833*^9, 3.653123332485887*^9}, {
+   3.653123386659853*^9, 3.653123421450618*^9}}],
+
+Cell[BoxData[
+ RowBox[{"ravenLines", "\[LeftDoubleBracket]", "5", 
+  "\[RightDoubleBracket]"}]], "Input",
+ CellChangeTimes->{{3.653123253612522*^9, 3.6531232580405073`*^9}, {
+  3.653123358420775*^9, 3.653123377236237*^9}, {3.653123438881744*^9, 
+  3.653123449961375*^9}}],
+
+Cell[BoxData[
+ RowBox[{"getFreqVector", "[", 
+  RowBox[{
+   RowBox[{
+   "ravenLines", "\[LeftDoubleBracket]", "5", "\[RightDoubleBracket]"}], ",", 
+   "ravenFrequentTerms"}], "]"}]], "Input",
+ CellChangeTimes->{{3.65312326358002*^9, 3.653123301271731*^9}, {
+  3.653123366404439*^9, 3.6531233940034637`*^9}, {3.6531234300342417`*^9, 
+  3.653123454001292*^9}, {3.653123503111474*^9, 3.653123521126923*^9}}],
+
+Cell["\<\
+Which of the most frequent terms appear in line 5? Which appear in line 11?\
+\>", "Text",
+ CellChangeTimes->{{3.65312346152068*^9, 3.653123527806652*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["All vectors", "Subsubsection",
+ CellChangeTimes->{{3.653123567349601*^9, 3.653123569021014*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"ravenFrequencyVectors", "=", 
+   RowBox[{"Map", "[", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"getFreqVector", "[", 
+       RowBox[{"#", ",", "ravenFrequentTerms"}], "]"}], "&"}], ",", 
+     "ravenLines"}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.653121676100469*^9, 3.653121716857603*^9}, {
+  3.653123574093773*^9, 3.653123581268608*^9}}],
+
+Cell["Here is line 5", "Text",
+ CellChangeTimes->{{3.653123806020781*^9, 3.653123809460004*^9}}],
+
+Cell[BoxData[
+ RowBox[{"ravenLines", "\[LeftDoubleBracket]", "5", 
+  "\[RightDoubleBracket]"}]], "Input",
+ CellChangeTimes->{{3.6531237893278837`*^9, 3.6531237952049103`*^9}}],
+
+Cell["And here are the four lines that are most similar to line 5", "Text",
+ CellChangeTimes->{{3.653123649561932*^9, 3.653123650722142*^9}, {
+  3.65312369961694*^9, 3.65312370812004*^9}, {3.6531238136927843`*^9, 
+  3.6531238181799583`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"findSimilarLines", "[", 
+  RowBox[{"ravenFrequencyVectors", ",", "5", ",", "4"}], "]"}]], "Input",
+ CellChangeTimes->{{3.65312366571308*^9, 3.653123686632896*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Column", "[", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{
+    "ravenLines", "\[LeftDoubleBracket]", "25", "\[RightDoubleBracket]"}], 
+    ",", 
+    RowBox[{
+    "ravenLines", "\[LeftDoubleBracket]", "4", "\[RightDoubleBracket]"}], ",", 
+    RowBox[{
+    "ravenLines", "\[LeftDoubleBracket]", "18", "\[RightDoubleBracket]"}], 
+    ",", 
+    RowBox[{
+    "ravenLines", "\[LeftDoubleBracket]", "19", "\[RightDoubleBracket]"}]}], 
+   "}"}], "]"}]], "Input",
+ CellChangeTimes->{{3.6531237124578257`*^9, 3.653123763302609*^9}}],
+
+Cell[TextData[{
+ "Now look at the following plot (which you haven\[CloseCurlyQuote]t seen \
+before). The rows of this plot correspond to the lines of ",
+ StyleBox["ravenLines",
+  FontSlant->"Italic"],
+ ". The first row is for \
+ravenLines\[LeftDoubleBracket]1\[RightDoubleBracket], the second row for \
+ravenLines\[LeftDoubleBracket]2\[RightDoubleBracket], and so on. The columns \
+correspond to ravenFrequentTerms. The first column is for \
+\[OpenCurlyDoubleQuote]door\[CloseCurlyDoubleQuote], the second column is for \
+\[OpenCurlyDoubleQuote]chamber\[CloseCurlyDoubleQuote], and so on."
+}], "Text",
+ CellChangeTimes->{{3.6531236379469223`*^9, 3.6531236388186007`*^9}, {
+  3.653123836451807*^9, 3.6531239493112497`*^9}, {3.653123983287323*^9, 
+  3.6531239863099213`*^9}}],
+
+Cell[TextData[{
+ "What does the ",
+ StyleBox["findSimilarLines",
+  FontSlant->"Italic"],
+ " function do, in terms of this visualization?"
+}], "Text",
+ CellChangeTimes->{{3.653123989097212*^9, 3.653124013324885*^9}}],
+
+Cell[BoxData[
+ RowBox[{"ArrayPlot", "[", "ravenFrequencyVectors", "]"}]], "Input",
+ CellChangeTimes->{{3.653123589792171*^9, 3.653123595885048*^9}}]
+}, Open  ]],
+
+Cell["Discussion", "Subsection",
+ CellChangeTimes->{{3.6531240205328093`*^9, 3.653124021652528*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Upload your notebook", "Section",
+ CellChangeTimes->{{3.649950784924818*^9, 3.649950788859275*^9}}],
+
+Cell["\<\
+Don\[CloseCurlyQuote]t forget to upload a copy of your notebook for this \
+class to the OWL Site for the course\
+\>", "Text",
+ CellChangeTimes->{{3.649950792779258*^9, 3.649950818634288*^9}}]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1240, 1185},
+WindowMargins->{{Automatic, 168}, {Automatic, 25}},
+TaggingRules->{"SlideShow" -> True},
+Magnification:>1.25 Inherited,
+FrontEndVersion->"10.2 for Mac OS X x86 (32-bit, 64-bit Kernel) (July 6, \
+2015)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "SlideShowHeader"->{
+  Cell[580, 22, 4299, 96, 75, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[5675, 145, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[7124, 189, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[11962, 325, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[15022, 419, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[16379, 464, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[20265, 573, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[22342, 629, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[27392, 759, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[31966, 879, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[36630, 1013, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[40793, 1137, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[46097, 1323, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[51859, 1490, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[60038, 1723, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"SlideShowHeader", 60845, 1752}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 4299, 96, 75, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[4882, 120, 410, 9, 183, "Title"],
+Cell[5295, 131, 343, 9, 99, "Subtitle"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5675, 145, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[5764, 150, 95, 1, 80, "Section"],
+Cell[5862, 153, 290, 5, 61, "Text"],
+Cell[6155, 160, 779, 18, 109, "Text"],
+Cell[6937, 180, 138, 3, 35, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7124, 189, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[7213, 194, 141, 2, 80, "Section"],
+Cell[7357, 198, 253, 6, 37, "Text"],
+Cell[7613, 206, 490, 12, 61, "Text"],
+Cell[8106, 220, 412, 11, 57, "Input"],
+Cell[8521, 233, 187, 6, 37, "Text"],
+Cell[8711, 241, 2259, 51, 99, "Input"],
+Cell[10973, 294, 154, 3, 37, "Text"],
+Cell[11130, 299, 783, 20, 57, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[11962, 325, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[12051, 330, 204, 3, 100, "Section"],
+Cell[12258, 335, 245, 7, 46, "Text"],
+Cell[12506, 344, 360, 9, 45, "Input"],
+Cell[12869, 355, 124, 1, 37, "Text"],
+Cell[12996, 358, 171, 3, 43, "Input"],
+Cell[13170, 363, 183, 4, 46, "Text"],
+Cell[13356, 369, 171, 3, 43, "Input"],
+Cell[13530, 374, 215, 5, 45, "Input"],
+Cell[13748, 381, 209, 5, 43, "Input"],
+Cell[13960, 388, 133, 1, 46, "Text"],
+Cell[14096, 391, 173, 3, 43, "Input"],
+Cell[14272, 396, 121, 1, 46, "Text"],
+Cell[14396, 399, 169, 3, 43, "Input"],
+Cell[14568, 404, 134, 1, 46, "Text"],
+Cell[14705, 407, 171, 3, 43, "Input"],
+Cell[14879, 412, 94, 1, 46, "Text"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[15022, 419, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[15111, 424, 176, 2, 100, "Section"],
+Cell[15290, 428, 438, 11, 76, "Text"],
+Cell[15731, 441, 215, 4, 46, "Input"],
+Cell[15949, 447, 206, 6, 46, "Text"],
+Cell[16158, 455, 172, 3, 43, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[16379, 464, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[16468, 469, 254, 5, 100, "Section"],
+Cell[16725, 476, 355, 6, 46, "Text"],
+Cell[17083, 484, 423, 9, 76, "Text"],
+Cell[17509, 495, 325, 9, 45, "Input"],
+Cell[17837, 506, 212, 4, 43, "Input"],
+Cell[18052, 512, 687, 16, 106, "Text"],
+Cell[18742, 530, 310, 6, 45, "Input"],
+Cell[19055, 538, 424, 7, 76, "Text"],
+Cell[19482, 547, 385, 10, 76, "Text"],
+Cell[19870, 559, 346, 8, 45, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[20265, 573, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[20354, 578, 220, 3, 100, "Section"],
+Cell[20577, 583, 303, 6, 46, "Text"],
+Cell[20883, 591, 1144, 25, 71, "Input"],
+Cell[22030, 618, 263, 5, 76, "Text"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[22342, 629, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[22431, 634, 161, 2, 100, "Section"],
+Cell[22595, 638, 605, 11, 106, "Text"],
+Cell[23203, 651, 139, 1, 46, "Text"],
+Cell[23345, 654, 629, 14, 71, "Input"],
+Cell[23977, 670, 588, 13, 71, "Input"],
+Cell[24568, 685, 625, 14, 71, "Input"],
+Cell[25196, 701, 131, 1, 46, "Text"],
+Cell[25330, 704, 680, 15, 71, "Input"],
+Cell[26013, 721, 325, 6, 76, "Text"],
+Cell[26341, 729, 690, 15, 71, "Input"],
+Cell[27034, 746, 309, 7, 45, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[27392, 759, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[27481, 764, 286, 4, 100, "Section"],
+Cell[27770, 770, 598, 14, 106, "Text"],
+Cell[CellGroupData[{
+Cell[28393, 788, 106, 1, 67, "Subsection"],
+Cell[28502, 791, 462, 8, 76, "Text"],
+Cell[28967, 801, 1062, 27, 97, "Input"],
+Cell[30032, 830, 106, 1, 46, "Text"],
+Cell[30141, 833, 142, 2, 45, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[30320, 840, 111, 1, 67, "Subsection"],
+Cell[30434, 843, 815, 14, 106, "Text"],
+Cell[31252, 859, 513, 10, 85, "Input"],
+Cell[31768, 871, 137, 1, 46, "Text"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[31966, 879, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[32055, 884, 251, 3, 100, "Section"],
+Cell[32309, 889, 257, 7, 46, "Text"],
+Cell[32569, 898, 181, 3, 43, "Input"],
+Cell[32753, 903, 200, 4, 46, "Text"],
+Cell[32956, 909, 311, 7, 45, "Input"],
+Cell[33270, 918, 134, 1, 46, "Text"],
+Cell[33407, 921, 159, 3, 45, "Input"],
+Cell[33569, 926, 265, 7, 46, "Text"],
+Cell[33837, 935, 181, 3, 45, "Input"],
+Cell[34021, 940, 287, 5, 46, "Text"],
+Cell[34311, 947, 303, 7, 45, "Input"],
+Cell[34617, 956, 310, 7, 46, "Text"],
+Cell[34930, 965, 180, 3, 45, "Input"],
+Cell[35113, 970, 187, 3, 45, "Input"],
+Cell[35303, 975, 296, 5, 46, "Text"],
+Cell[35602, 982, 183, 3, 45, "Input"],
+Cell[35788, 987, 456, 11, 45, "Input"],
+Cell[36247, 1000, 163, 2, 46, "Text"],
+Cell[36413, 1004, 168, 3, 46, "Text"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[36630, 1013, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[36719, 1018, 218, 7, 100, "Section"],
+Cell[36940, 1027, 193, 2, 46, "Text"],
+Cell[37136, 1031, 956, 27, 123, "Input"],
+Cell[38095, 1060, 350, 7, 76, "Text"],
+Cell[38448, 1069, 173, 3, 43, "Input"],
+Cell[38624, 1074, 308, 7, 45, "Input"],
+Cell[38935, 1083, 117, 1, 46, "Text"],
+Cell[39055, 1086, 149, 3, 43, "Input"],
+Cell[39207, 1091, 124, 1, 46, "Text"],
+Cell[39334, 1094, 333, 7, 45, "Input"],
+Cell[39670, 1103, 228, 5, 46, "Text"],
+Cell[39901, 1110, 607, 16, 71, "Input"],
+Cell[40511, 1128, 233, 3, 46, "Text"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[40793, 1137, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[40882, 1142, 154, 2, 100, "Section"],
+Cell[41039, 1146, 419, 11, 76, "Text"],
+Cell[41461, 1159, 243, 7, 43, "Input"],
+Cell[41707, 1168, 113, 1, 46, "Text"],
+Cell[41823, 1171, 211, 6, 43, "Input"],
+Cell[42037, 1179, 254, 9, 46, "Text"],
+Cell[42294, 1190, 231, 6, 43, "Input"],
+Cell[42528, 1198, 344, 12, 46, "Text"],
+Cell[42875, 1212, 231, 6, 43, "Input"],
+Cell[43109, 1220, 231, 6, 43, "Input"],
+Cell[43343, 1228, 231, 6, 43, "Input"],
+Cell[43577, 1236, 441, 16, 76, "Text"],
+Cell[44021, 1254, 228, 6, 43, "Input"],
+Cell[44252, 1262, 231, 6, 43, "Input"],
+Cell[44486, 1270, 230, 6, 43, "Input"],
+Cell[44719, 1278, 231, 6, 43, "Input"],
+Cell[44953, 1286, 230, 6, 43, "Input"],
+Cell[45186, 1294, 366, 8, 76, "Text"],
+Cell[45555, 1304, 493, 13, 45, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[46097, 1323, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[46186, 1328, 181, 2, 100, "Section"],
+Cell[46370, 1332, 405, 7, 76, "Text"],
+Cell[46778, 1341, 195, 5, 46, "Text"],
+Cell[46976, 1348, 334, 9, 45, "Input"],
+Cell[47313, 1359, 248, 7, 46, "Text"],
+Cell[47564, 1368, 182, 3, 45, "Input"],
+Cell[47749, 1373, 161, 3, 46, "Text"],
+Cell[47913, 1378, 173, 3, 43, "Input"],
+Cell[48089, 1383, 489, 8, 76, "Text"],
+Cell[48581, 1393, 345, 9, 45, "Input"],
+Cell[48929, 1404, 343, 9, 45, "Input"],
+Cell[49275, 1415, 328, 8, 46, "Text"],
+Cell[49606, 1425, 946, 25, 71, "Input"],
+Cell[50555, 1452, 264, 7, 46, "Text"],
+Cell[50822, 1461, 216, 4, 45, "Input"],
+Cell[51041, 1467, 187, 2, 46, "Text"],
+Cell[51231, 1471, 173, 3, 43, "Input"],
+Cell[51407, 1476, 177, 2, 46, "Text"],
+Cell[51587, 1480, 223, 4, 43, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[51859, 1490, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[51948, 1495, 169, 2, 100, "Section"],
+Cell[52120, 1499, 258, 5, 46, "Text"],
+Cell[CellGroupData[{
+Cell[52403, 1508, 96, 1, 53, "Subsubsection"],
+Cell[52502, 1511, 452, 10, 45, "Input"],
+Cell[52957, 1523, 117, 1, 46, "Text"],
+Cell[53077, 1526, 168, 2, 46, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[53282, 1533, 101, 1, 53, "Subsubsection"],
+Cell[53386, 1536, 376, 10, 45, "Input"],
+Cell[53765, 1548, 440, 9, 46, "Text"],
+Cell[54208, 1559, 395, 11, 46, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[54640, 1575, 110, 1, 53, "Subsubsection"],
+Cell[54753, 1578, 135, 1, 46, "Text"],
+Cell[54891, 1581, 1208, 29, 97, "Input"],
+Cell[56102, 1612, 271, 5, 43, "Input"],
+Cell[56376, 1619, 404, 8, 45, "Input"],
+Cell[56783, 1629, 164, 3, 46, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[56984, 1637, 102, 1, 53, "Subsubsection"],
+Cell[57089, 1640, 383, 10, 45, "Input"],
+Cell[57475, 1652, 96, 1, 46, "Text"],
+Cell[57574, 1655, 175, 3, 43, "Input"],
+Cell[57752, 1660, 241, 3, 46, "Text"],
+Cell[57996, 1665, 187, 3, 45, "Input"],
+Cell[58186, 1670, 543, 15, 43, "Input"],
+Cell[58732, 1687, 773, 14, 106, "Text"],
+Cell[59508, 1703, 215, 6, 46, "Text"],
+Cell[59726, 1711, 148, 2, 45, "Input"]
+}, Open  ]],
+Cell[59889, 1716, 100, 1, 67, "Subsection"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[60038, 1723, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[60127, 1728, 105, 1, 100, "Section"],
+Cell[60235, 1731, 201, 4, 46, "Text"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
