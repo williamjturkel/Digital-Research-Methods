@@ -1,0 +1,750 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     25076,        741]
+NotebookOptionsPosition[     20272,        590]
+NotebookOutlinePosition[     21640,        632]
+CellTagsIndexPosition[     21562,        627]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ TogglerBox[2, {1->
+  OverlayBox[{
+   TagBox[GridBox[{
+      {
+       GraphicsBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBLECOU2VJahIzkCEFxAJADBL8//8/
+Qfzo0SP2GzduCF29elXs/Pnz0sgYn747d+5wA9VoArE/EB8B4uPoGJu+Fy9e
+MF+4cEENKB8AxBeB+AMQ/wXif+gYi1tBdvoB8QUg/ghV9x8XRtb7/PlzFqje
+t1D7cOrDpv/ixYvqUHuJ0ousHxpWAVA3E6UXWT80nC8S8i82/Q8ePOAgx26Y
+/uvXrwsD2UdJ8Tey/kuXLolD0wNJbofpB6YVSUr0n4ek5QHTT6n7KQ0/SuOP
+0vRDafqlRv6BxgPZ+Ret/HhHrBl4yi9QWHwiFB7Yyk+QO6B+CTxPYvmJjG/f
+vs17nozyG1f9cR6t7gBhAPeiQ4A=
+         "], {{0, 26}, {16, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{16, 26},
+        PlotRange->{{0, 16}, {0, 26}}], 
+       GraphicsBox[RasterBox[CompressedData["
+1:eJzt2d9OVFcUB2DSNmkfQRFEiRQ1gCK1vW4fwT6BJu1tE9uk8fUUERE9aECC
+qLGYEmKkErWxtont2mGdcDLVOpNgZijfJB9hzp+99j6zb9b5Hb3ww7nvP+rr
+6/vxs/hz7vzPX1+8eP7St5/El28u/fTdhY/jn/6w8GlfXzlYVdWhDgyEwXT4
+HQYbBho6qQMAAOxt/Q0HWxxo0TzX3xij7juGwpFwNAyHY2EkfB6OhxPhZBgL
+42EinAqnw2SYSl+Es+HL9FWb6uvP5hj1eJNZ41TWHM85nMw5Hc85juSch3MN
+R3JNdf/UfGbtPqf6WdW6/XsDAADsV7vd/7b2vqPV2/veuuc9k6Za1Mfr3vVt
+feto9e+eVb9KL2tmz81M+n25dadZ9bU2zYXbYSmshNXwoOF+uJfn7obFcKfa
+/twMN8L1MNtBTQAAYO+ZSVfTdLqSLreoj0/n9eXe0jeUHmQ+3AoL1XZ/UfqR
+5Wq77yg9yMPwS3gcfg0b4Ul4Gn4LW+F5eBl+D6/CH+F1+DP99Q71+dd5z6sc
+42WOuZU1nmbNjZzD45zTw5zjSs55KdewkGuazzXONp5Xu8+pflb185rpgd8d
+AABgv/kQ/W/J4krGVvrIkruVDO5RWAvr1U7fuxmeVTt9b/Ei1d+38prNaqdv
+Xc+xHuXY97LWYtbWr9Jryj4sGXPJmkvmXD7l/UrZsyWTLu9dyj4u72Ca2fVq
+nivvY8renuug5ps2/b2L2q0JAADwX3azT/kQuv18AAAA2Pv0rOxn3djz3X6f
+BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAADsHW/a1I2aAAAAAAAAsJ91OyOEburGnr/W
+prlwOyyFlbAaHjTcD/fy3N2wGO5U25+b4Ua4HmY7qAkAAAAAAAC9aCZdTdPp
+Srrcoj4+ndeXe0tuVjK4+XCr2s7iSsa2XG3nbiWDexTWwnrYCE/CZngWtsLz
+9CLV37fyms28ZyPHWMsxH2SN5ax5O+cwn3Oabayv3XXVa6vXN9MDvxN7W9mH
+JWMuWXPJnMunZNBlz5ZMumTTZR+XrLqZXa/muZJtl70910HNQx0YCIPp8DsM
+Ngw0dFIHAAAAAAAAel1/w8EWB1o0z/U3xqhzt6FwNAyHY2EkjIYT4WQYC+Nh
+IpwOk+FMmmpRH5/Mayfy3rEc60SOPZK1hrP2ULWT9zXX2O666rXVuv378P/S
+zJ6bmfT7cuuOsup/AFmW9vs=
+         "], {{0, 26}, {2000, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{2000, 26},
+        PlotRange->{{0, 2000}, {0, 26}}], 
+       GraphicsBox[RasterBox[CompressedData["
+1:eJy9lstOwkAUhhthQUJcuUBl5cr4GPoABvEJINGtCZoYng4Il4Z7gXAJYUHY
+QAi3GlYQPZ5/4pCm0pYC2uSDaXvmn5lzzpzpVfQl/HyiKMqrj3/CkffbWCwS
+f/TyzV387Snq4cYlc87gYbVaDbpB07SLRqMR6Pf7PiJSnOA+6h7kmBBz0+12
+Tx30v/bgk9GZOvPAa7oejUYeC306AIz1wWjM/WAw8B9ZX4L1TDHGcDj02ulX
+KpUNbt79jKHBV1b66Fcul3fCYgzEJNTr9fxmfaldKpWoUChQPp8X/8ViUWB8
+BhuLMRCPGvJqmz76QWOxWFCtVqNsNku5XE6AdqfToclkImxga7cGuT/M+uw/
+ms/ntF6vqdlsUjKZFKCNC/pynTZxyLbb7bNt/sHcMpkMzWYzoVev1wW4xuOx
+WAdsbGIAH6ncJ7BNH/6FRjqdJl3XSV7T6VSsA76CDWxt9oSKOmLOH/RBLKEP
+LVVVN/qJRGKjDxsnfSZoN3/4CPNfrVa/5n+IvtH/iDHu9/G/2T/G/JT5A41U
+KiXm3Wq1xBhcx5zy0zK+Mj+Xy6XIf5n7EuQ/9sYh+Wneqy73r+3+2rX2OPh+
+a31wqpHG5xbatvXtCDjW5wO1Z9UdzheXyPMRPrc6H49yvpvn/Y/fJ3/6ffUN
+AyH/6w==
+         "], {{0, 26}, {24, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{24, 26},
+        PlotRange->{{0, 24}, {0, 26}}]}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {Automatic, 
+         Scaled[0.6], Automatic}},
+     GridBoxSpacings->{"Columns" -> {{0}}, "Rows" -> {{0}}}],
+    "Grid"], 
+   PaneBox[
+    StyleBox[
+     RowBox[{
+     "Background", " ", "images", " ", "and", " ", "text", " ", "colors", " ",
+       "have", " ", "been", " ", "adjusted", " ", "for", " ", "editing", " ", 
+      
+      RowBox[{"purposes", "."}]}],
+     LineBreakWithin->False,
+     FontFamily->"Helvetica",
+     FontSize->12,
+     FontColor->GrayLevel[0.4]],
+    Alignment->Center,
+    ImageSize->Scaled[0.5],
+    ScrollPosition->{0., 0.}]},
+   Alignment->{Center, Center}], 2->""}, "1"]], "SlideShowNavigationBar", \
+"FirstSlide",
+ CellMargins->{{0, 0}, {0, 0}},
+ CellFrameLabelMargins->2,
+ CellSize->{Inherited, 30},
+ CellChangeTimes->{3.647361175465108*^9},
+ TextAlignment->Center,
+ CellTags->"SlideShowHeader"],
+
+Cell["\<\
+Digital Research Methods 12A:
+Application Program Interfaces (APIs)\
+\>", "Title",
+ CellChangeTimes->{
+  3.559948400406288*^9, {3.647331852839075*^9, 3.647331861295168*^9}, {
+   3.647331922221755*^9, 3.647331924532915*^9}, {3.647332658962614*^9, 
+   3.64733266480881*^9}, {3.6473611327373047`*^9, 3.647361139759391*^9}, {
+   3.647448943135475*^9, 3.6474489472294493`*^9}, {3.6572890605377913`*^9, 
+   3.657289088988771*^9}}],
+
+Cell[TextData[{
+ "William J Turkel, ",
+ StyleBox["wturkel@uwo.ca",
+  FontSlant->"Italic",
+  FontColor->RGBColor[
+   0.396078431372549, 0.596078431372549, 0.796078431372549]],
+ "\nHistory 2816 / Digital Humanities 2130 / History 9877"
+}], "Subtitle",
+ CellChangeTimes->{{3.647331955723979*^9, 3.6473319708190517`*^9}, 
+   3.647332103720562*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Overview", "Section",
+ CellChangeTimes->{{3.647361153919208*^9, 3.6473611548467712`*^9}}],
+
+Cell[TextData[{
+ "Our usual experience of the web is mediated through a web browser, but, as \
+we\[CloseCurlyQuote]ve seen, we can also use ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " to import online resources directly. An API (application program \
+interface) or web service is an online program that is designed to interact \
+with other programs. In this lesson, we explore ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ "\[CloseCurlyQuote]s connection to the Open Library API."
+}], "Text",
+ CellChangeTimes->{{3.647361157582405*^9, 3.647361159086673*^9}, {
+  3.657289095086087*^9, 3.657289166395808*^9}, {3.657289203345071*^9, 
+  3.6572892428029537`*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Charles Lyell (1797-1875)", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.6572894133521137`*^9, 3.657289414966826*^9}, {3.6572895630784893`*^9, 
+  3.657289569148965*^9}}],
+
+Cell["\<\
+For our example, we are going to retrieve information from the Open Library \
+API about the geologist Charles Lyell\
+\>", "Text",
+ CellChangeTimes->{{3.657289529314231*^9, 3.657289559822118*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"PersonData", "[", 
+   RowBox[{
+    TemplateBox[{"\"Charles Lyell\"",RowBox[{"Entity", "[", 
+        RowBox[{"\"Person\"", ",", "\"CharlesLyell::68zmm\""}], "]"}],
+      "\"Entity[\\\"Person\\\", \\\"CharlesLyell::68zmm\\\"]\"","\"person\""},
+     
+     "Entity"], ",", 
+    RowBox[{"{", 
+     RowBox[{
+     "\"\<Image\>\"", ",", "\"\<BirthDate\>\"", ",", "\"\<DeathDate\>\""}], 
+     "}"}]}], "]"}], "//", "TableForm"}]], "Input",
+ CellChangeTimes->{{3.6572894585072317`*^9, 3.657289524611586*^9}},
+ NumberMarks->False],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"TextSentences", "[", 
+   RowBox[{"WikipediaData", "[", "\"\<Charles Lyell\>\"", "]"}], "]"}], 
+  "\[LeftDoubleBracket]", 
+  RowBox[{"1", ";;", "8"}], "\[RightDoubleBracket]"}]], "Input",
+ CellChangeTimes->{{3.657289339272758*^9, 3.6572893823947563`*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Connecting to a web service (API)", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.65728958717223*^9, 3.6572895946740513`*^9}}],
+
+Cell[TextData[{
+ "We use the ",
+ StyleBox["ServiceConnect",
+  FontWeight->"Bold"],
+ " command to connect to an API. ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " returns a ",
+ StyleBox["ServiceObject",
+  FontWeight->"Bold"]
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.6572895972257433`*^9, 3.657289639120656*^9}}],
+
+Cell[BoxData[
+ RowBox[{"openLibrary", "=", 
+  RowBox[{"ServiceConnect", "[", "\"\<OpenLibrary\>\"", "]"}]}]], "Input",
+ CellChangeTimes->{{3.646759997942033*^9, 3.646760007676362*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Searching for works by Charles Lyell", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.6572896522674723`*^9, 3.657289658234737*^9}}],
+
+Cell[TextData[{
+ "Next we ask for up to 20 works authored by Lyell. Note that ",
+ StyleBox["openLibrary",
+  FontSlant->"Italic"],
+ " in this context refers to our ",
+ StyleBox["ServiceObject",
+  FontWeight->"Bold"]
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.657289660994473*^9, 3.657289717587823*^9}}],
+
+Cell[BoxData[
+ RowBox[{"lyellResults", "=", 
+  RowBox[{"openLibrary", "[", 
+   RowBox[{"\"\<BookSearch\>\"", ",", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"\"\<Author\>\"", "\[Rule]", "\"\<Charles Lyell\>\""}], ",", 
+      RowBox[{"\"\<MaxItems\>\"", "\[Rule]", "20"}]}], "}"}]}], 
+   "]"}]}]], "Input",
+ CellChangeTimes->{{3.646760032191082*^9, 3.646760087278082*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Datasets", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.657289724323123*^9, 3.657289725954753*^9}}],
+
+Cell[TextData[{
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " returns results in the form of a dataset. This is a hierarchical data \
+structure that can contain numbers, strings, lists, associations and other \
+elements."
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.657289792323992*^9, 3.657289802817878*^9}, {3.657292127189501*^9, 
+  3.657292161447806*^9}}],
+
+Cell["Take a row from a dataset", "Text",
+ CellChangeTimes->{{3.657292179262311*^9, 3.657292182325199*^9}}],
+
+Cell[BoxData[
+ RowBox[{"lyellResults", "[", "2", "]"}]], "Input",
+ CellChangeTimes->{{3.646760163668606*^9, 3.646760166946803*^9}, 
+   3.6467608366972713`*^9, {3.657292408527883*^9, 3.657292409950636*^9}}],
+
+Cell["Take a row and column", "Text",
+ CellChangeTimes->{{3.6572921981240788`*^9, 3.6572922018431253`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"lyellResults", "[", 
+  RowBox[{"2", ",", "3"}], "]"}]], "Input",
+ CellChangeTimes->{{3.646760163668606*^9, 3.646760166946803*^9}, 
+   3.6467608366972713`*^9, {3.6572922098750553`*^9, 3.657292211034068*^9}, {
+   3.65729241363055*^9, 3.657292415494177*^9}}],
+
+Cell[TextData[{
+ "Since this column contains a list, we can use ",
+ StyleBox["Part",
+  FontWeight->"Bold"],
+ " to request elements from it"
+}], "Text",
+ CellChangeTimes->{{3.657292236119069*^9, 3.657292247869897*^9}}],
+
+Cell[BoxData[
+ RowBox[{"lyellResults", "[", 
+  RowBox[{"2", ",", "6"}], "]"}]], "Input",
+ CellChangeTimes->{{3.646760163668606*^9, 3.646760166946803*^9}, 
+   3.6467608366972713`*^9, {3.6572922098750553`*^9, 3.657292228775881*^9}, {
+   3.657292417846118*^9, 3.657292420373747*^9}}],
+
+Cell[BoxData[
+ RowBox[{"lyellResults", "[", 
+  RowBox[{"2", ",", "6", ",", "1"}], "]"}]], "Input",
+ CellChangeTimes->{{3.646760163668606*^9, 3.646760166946803*^9}, 
+   3.6467608366972713`*^9, {3.6572922098750553`*^9, 3.657292258156515*^9}, {
+   3.657292423013629*^9, 3.657292425165235*^9}}],
+
+Cell[BoxData[
+ RowBox[{"lyellResults", "[", 
+  RowBox[{"2", ",", "6", ",", "2"}], "]"}]], "Input",
+ CellChangeTimes->{{3.646760163668606*^9, 3.646760166946803*^9}, 
+   3.6467608366972713`*^9, {3.6572922098750553`*^9, 3.657292266627708*^9}, {
+   3.657292428645054*^9, 3.65729243104463*^9}}],
+
+Cell["Take a column from the whole dataset", "Text",
+ CellChangeTimes->{{3.65729229740871*^9, 3.657292303271203*^9}}],
+
+Cell[BoxData[
+ RowBox[{"lyellResults", "[", 
+  RowBox[{"All", ",", "\"\<EditionCount\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.6572923127459383`*^9, 3.6572923536041727`*^9}, {
+  3.6572924340926247`*^9, 3.6572924370361547`*^9}}],
+
+Cell["\<\
+Apply a function to a column. Here we total the number of different editions \
+for all twenty works\
+\>", "Text",
+ CellChangeTimes->{{3.65729235977934*^9, 3.6572923784975643`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"lyellResults", "[", 
+  RowBox[{"Total", ",", "\"\<EditionCount\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.6572923127459383`*^9, 3.6572923536041727`*^9}, {
+  3.657292385698081*^9, 3.657292398775671*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Getting information about an edition", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.657292473666201*^9, 3.657292477520083*^9}}],
+
+Cell["\<\
+Let\[CloseCurlyQuote]s get more information about the second work from our \
+list\
+\>", "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.6572924809839697`*^9, 3.6572924899829903`*^9}, {3.65729256196786*^9, 
+  3.6572925635117702`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"lyellResults", "[", "2", "]"}]], "Input",
+ CellChangeTimes->{{3.646760163668606*^9, 3.646760166946803*^9}, 
+   3.6467608366972713`*^9, {3.657292408527883*^9, 3.657292409950636*^9}}],
+
+Cell["Get Open Library ID. This book comes in 19 editions", "Text",
+ CellChangeTimes->{{3.646760261814393*^9, 3.646760268231085*^9}, {
+  3.657292550713871*^9, 3.657292556424415*^9}}],
+
+Cell[BoxData[
+ RowBox[{"lyellResults", "[", 
+  RowBox[{"2", ",", "\"\<EditionKey\>\""}], "]"}]], "Input",
+ CellChangeTimes->{3.646760864903685*^9}],
+
+Cell["Get information about the first edition listed", "Text",
+ CellChangeTimes->{{3.646760274301138*^9, 3.646760278182732*^9}, {
+  3.657292568455276*^9, 3.657292572719005*^9}}],
+
+Cell[BoxData[
+ RowBox[{"openLibrary", "[", 
+  RowBox[{"\"\<BookInformation\>\"", ",", 
+   RowBox[{"{", 
+    RowBox[{"\"\<BibKeys\>\"", "\[Rule]", 
+     RowBox[{
+      RowBox[{"lyellResults", "[", 
+       RowBox[{"2", ",", "\"\<EditionKey\>\""}], "]"}], 
+      "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}]}], "}"}]}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.6467602196692743`*^9, 3.646760248407784*^9}, {
+   3.6467602888524027`*^9, 3.6467603156453457`*^9}, 3.6467608717674723`*^9}],
+
+Cell["Get a summary of the book", "Text",
+ CellChangeTimes->{{3.657293176468347*^9, 3.657293179884172*^9}}],
+
+Cell[BoxData[
+ RowBox[{"openLibrary", "[", 
+  RowBox[{"\"\<BookSummary\>\"", ",", 
+   RowBox[{"{", 
+    RowBox[{"\"\<BibKeys\>\"", "\[Rule]", 
+     RowBox[{
+      RowBox[{"lyellResults", "[", 
+       RowBox[{"2", ",", "\"\<EditionKey\>\""}], "]"}], 
+      "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}]}], "}"}]}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.6467602196692743`*^9, 3.646760248407784*^9}, {
+   3.6467602888524027`*^9, 3.6467603156453457`*^9}, 3.6467608717674723`*^9, {
+   3.6572931625827723`*^9, 3.657293164093849*^9}}],
+
+Cell["Book cover", "Text",
+ CellChangeTimes->{{3.657293212601583*^9, 3.657293213840784*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Import", "[", 
+  StyleBox["\"\<https://covers.openlibrary.org/b/id/5714192-S.jpg\>\"",
+   FontColor->GrayLevel[0.4]], 
+  StyleBox["]",
+   FontColor->GrayLevel[0.4]]}]], "Input",
+ CellChangeTimes->{{3.6572931932308273`*^9, 3.657293199978282*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Retrieving full text", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.6572926083076363`*^9, 3.657292612682927*^9}}],
+
+Cell[TextData[{
+ "If full text is available online, we can get that, too. Here we get the \
+full text of Lyell\[CloseCurlyQuote]s ",
+ StyleBox["Manual of Elementary Geology ",
+  FontSlant->"Italic"],
+ "using the Open Library ID"
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.657292623674837*^9, 3.657292662174262*^9}, {3.65729269951478*^9, 
+  3.657292743678385*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"lyellManual", "=", 
+   RowBox[{"openLibrary", "[", 
+    RowBox[{"\"\<BookText\>\"", ",", 
+     RowBox[{"{", 
+      RowBox[{"\"\<BibKeys\>\"", "\[Rule]", 
+       RowBox[{"{", 
+        RowBox[{"\"\<OLID\>\"", ",", "\"\<OL25467158M\>\""}], "}"}]}], 
+      "}"}]}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.646760332057314*^9, 3.646760336068592*^9}, {
+  3.646760885054788*^9, 3.646760949540515*^9}}],
+
+Cell["Now we can analyze the text like any other.", "Text",
+ CellChangeTimes->{{3.64676096155687*^9, 3.646760970235602*^9}}],
+
+Cell[BoxData[
+ RowBox[{"TextWords", "[", 
+  RowBox[{"StringTake", "[", 
+   RowBox[{
+    RowBox[{"lyellManual", "[", "1", "]"}], ",", "2500"}], "]"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.646760975231889*^9, 3.646761018011099*^9}, {
+  3.6572927809639482`*^9, 3.657292802832693*^9}}],
+
+Cell[BoxData[
+ RowBox[{"WordCloud", "[", 
+  RowBox[{"DeleteStopwords", "[", 
+   RowBox[{"ToLowerCase", "[", 
+    RowBox[{"TextWords", "[", 
+     RowBox[{"lyellManual", "[", "1", "]"}], "]"}], "]"}], "]"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.657292814985633*^9, 3.657292851140026*^9}}],
+
+Cell["Does this work have anything to do with figs?", "Text",
+ CellChangeTimes->{{3.657292879949108*^9, 3.657292886520587*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Find books about Charles Lyell", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.657292863882222*^9, 3.6572928677780733`*^9}}],
+
+Cell["Here we do a subject search rather than an author search", "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.657293043754315*^9, 3.657293051296616*^9}}],
+
+Cell[BoxData[
+ RowBox[{"openLibrary", "[", 
+  RowBox[{"\"\<BookSearch\>\"", ",", 
+   RowBox[{"{", 
+    RowBox[{"\"\<Subject\>\"", "\[Rule]", "\"\<charles lyell\>\""}], "}"}]}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.646761060540861*^9, 3.6467610830716143`*^9}}],
+
+Cell[TextData[{
+ "Learn more about ",
+ StyleBox["The Ice Finders",
+  FontSlant->"Italic"]
+}], "Text",
+ CellChangeTimes->{{3.646761416899424*^9, 3.64676142305119*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"openLibrary", "[", 
+    RowBox[{"\"\<BookSearch\>\"", ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"\"\<Author\>\"", "\[Rule]", "\"\<bolles\>\""}], ",", 
+       RowBox[{"\"\<Title\>\"", "\[Rule]", "\"\<ice finders\>\""}]}], "}"}]}],
+     "]"}], "[", "1", "]"}], "[", "\"\<EditionKey\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.64676119810833*^9, 3.6467612113870287`*^9}, {
+  3.646761259410396*^9, 3.646761276240567*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"openLibrary", "[", 
+   RowBox[{"\"\<BookInformation\>\"", ",", 
+    RowBox[{"{", 
+     RowBox[{"\"\<BibKeys\>\"", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\"\<OLID\>\"", ",", "\"\<OL23243795M\>\""}], "}"}]}], "}"}]}],
+    "]"}], "[", "\"\<Subjects\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.646761284865086*^9, 3.6467613611416607`*^9}, {
+  3.646761391404396*^9, 3.6467613974049597`*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Upload your notebook", "Section",
+ CellChangeTimes->{{3.649950784924818*^9, 3.649950788859275*^9}}],
+
+Cell["\<\
+Don\[CloseCurlyQuote]t forget to upload a copy of your notebook for this \
+class to the OWL Site for the course\
+\>", "Text",
+ CellChangeTimes->{{3.649950792779258*^9, 3.649950818634288*^9}}]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1422, 1107},
+WindowMargins->{{Automatic, 326}, {Automatic, 61}},
+TaggingRules->{"SlideShow" -> True},
+Magnification:>1.25 Inherited,
+FrontEndVersion->"10.2 for Mac OS X x86 (32-bit, 64-bit Kernel) (July 6, \
+2015)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "SlideShowHeader"->{
+  Cell[580, 22, 4299, 96, 75, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[5699, 145, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[6611, 173, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[8020, 217, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[8881, 249, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[9917, 284, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[13186, 376, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[16013, 456, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[17997, 517, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[19846, 574, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"SlideShowHeader", 20653, 603}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 4299, 96, 75, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[4882, 120, 434, 9, 183, "Title"],
+Cell[5319, 131, 343, 9, 99, "Subtitle"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5699, 145, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[5788, 150, 95, 1, 80, "Section"],
+Cell[5886, 153, 676, 14, 85, "Text"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6611, 173, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[6700, 178, 214, 3, 80, "Section"],
+Cell[6917, 183, 205, 4, 37, "Text"],
+Cell[7125, 189, 554, 14, 51, "Input"],
+Cell[7682, 205, 289, 6, 36, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[8020, 217, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[8109, 222, 170, 2, 80, "Section"],
+Cell[8282, 226, 363, 12, 37, "Text"],
+Cell[8648, 240, 184, 3, 36, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[8881, 249, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[8970, 254, 174, 2, 100, "Section"],
+Cell[9147, 258, 343, 9, 46, "Text"],
+Cell[9493, 269, 375, 9, 45, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[9917, 284, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[10006, 289, 144, 2, 100, "Section"],
+Cell[10153, 293, 405, 9, 46, "Text"],
+Cell[10561, 304, 107, 1, 46, "Text"],
+Cell[10671, 307, 205, 3, 45, "Input"],
+Cell[10879, 312, 107, 1, 46, "Text"],
+Cell[10989, 315, 279, 5, 45, "Input"],
+Cell[11271, 322, 217, 6, 46, "Text"],
+Cell[11491, 330, 280, 5, 45, "Input"],
+Cell[11774, 337, 290, 5, 45, "Input"],
+Cell[12067, 344, 289, 5, 45, "Input"],
+Cell[12359, 351, 117, 1, 46, "Text"],
+Cell[12479, 354, 232, 4, 45, "Input"],
+Cell[12714, 360, 190, 4, 46, "Text"],
+Cell[12907, 366, 230, 4, 45, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[13186, 376, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[13275, 381, 172, 2, 100, "Section"],
+Cell[13450, 385, 276, 6, 46, "Text"],
+Cell[13729, 393, 205, 3, 45, "Input"],
+Cell[13937, 398, 182, 2, 46, "Text"],
+Cell[14122, 402, 147, 3, 45, "Input"],
+Cell[14272, 407, 177, 2, 46, "Text"],
+Cell[14452, 411, 492, 11, 45, "Input"],
+Cell[14947, 424, 107, 1, 46, "Text"],
+Cell[15057, 427, 540, 12, 45, "Input"],
+Cell[15600, 441, 92, 1, 46, "Text"],
+Cell[15695, 444, 269, 6, 45, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[16013, 456, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[16102, 461, 158, 2, 100, "Section"],
+Cell[16263, 465, 405, 9, 46, "Text"],
+Cell[16671, 476, 437, 11, 45, "Input"],
+Cell[17111, 489, 124, 1, 46, "Text"],
+Cell[17238, 492, 286, 7, 45, "Input"],
+Cell[17527, 501, 291, 7, 45, "Input"],
+Cell[17821, 510, 127, 1, 46, "Text"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[17997, 517, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[18086, 522, 168, 2, 100, "Section"],
+Cell[18257, 526, 189, 2, 46, "Text"],
+Cell[18449, 530, 264, 6, 45, "Input"],
+Cell[18716, 538, 166, 5, 46, "Text"],
+Cell[18885, 545, 478, 11, 45, "Input"],
+Cell[19366, 558, 431, 10, 45, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[19846, 574, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[19935, 579, 105, 1, 100, "Section"],
+Cell[20043, 582, 201, 4, 46, "Text"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
