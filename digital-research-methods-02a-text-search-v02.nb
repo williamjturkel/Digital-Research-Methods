@@ -1,0 +1,1206 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     40796,       1198]
+NotebookOptionsPosition[     33676,        976]
+NotebookOutlinePosition[     35227,       1022]
+CellTagsIndexPosition[     35149,       1017]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ TogglerBox[2, {1->
+  OverlayBox[{
+   TagBox[GridBox[{
+      {
+       GraphicsBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBAkBOaF5xZnpeaopnXklqemqRRRIz
+UFAKiEGSLED8//9/gvjRo0fsN27cELp69arY+fPnpZExPn137tzhBqrRBGJ/
+ID4CxMfRMTZ9L168YL5w4YIaUD4AiC8C8Qcg/gvE/9AxFreC7PQD4gtA/BGq
+7j8ujKz3+fPnLFC9b6H24dSHTf/FixfVofYSpRdZPzSsAqBuJkovsn5oOF8k
+5F9s+h88eMBBjt0w/devXxcGso+S4m9k/ZcuXRKHpgeS3A7TD0wrkpToPw9J
+ywOmn1L3Uxp+lMYfpemH0vRLjfwDjQey8y9a+fGOWDPwlF+gsPhEKDywlZ8g
+d0D9EniexPITGd++fZv3PBnlN6764zxa3QHCAIDESDs=
+         "], {{0, 26}, {16, 
+         0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{16, 26},
+        PlotRange->{{0, 16}, {0, 26}}], 
+       GraphicsBox[RasterBox[CompressedData["
+1:eJzt2V1vVFUUBuBGTfTSSygthYYKNHyVinrrpbcYfwBEJN5gUkyMfw9KKaVw
+KCkQKCW1RNIQKg1gEE3QtdN10pMRZCaBzNQ+kzxt5nzstfeZfbPOu/vkD8e/
+e6+vr+/sR/Hn+ImfvpyYOPHz1x/Hl2/OnP3+9JlT33515sdTp09NfHHy/TjY
+H6592Nf3QfyvqmpHBwbCYNr5GoMNAw2d1AEAADa3/obtLba1aJ7rb4xR9x1D
+YVfYHYbDnjASPgn7wv4wGg6Eg+FQOByOhLEwnj4Nx8Jn6fM21dcfyzHq8cay
+xuGseTDnMJpz2pdzHMk5D+caduWa6v6p+czafU71s6p1+/cGAADYqt52/9va
+++6tXt331j3v0TTeoj5e966v6lv3Vv/uWfWr9LJm9tzMpN+UW3eaVV9s00yY
+CzfC7bAQFhvuhjt57maYD9er9c+VcDlcCtMd1AQAADafqXQhTabz6VyL+vhk
+Xl/uLX1D6UFmw9VwrVrvL0o/cqta7ztKD3Iv/BLuh1/DSngYHoXfwlp4Ep6F
+38Pz8Ed4Ef5Mf71Gff5F3vM8x3iWY65ljUdZcyXncD/ndC/neDvnfCPXcC3X
+NJtrnG48r3afU/2s6uc11QO/OwAAwFbzLvrfksWVjK30kSV3KxncUlgOD6qN
+vnc1PK42+t7iaaq/r+U1q9VG3/ogx1rKse9krfmsrV+l15R9WDLmkjWXzLl8
+yvuVsmdLJl3eu5R9XN7BNLPrhTxX3seUvT3TQc2Xbfr7LWq3JgAAwH95m33K
+u9Dt5wMAAMDmp2dlK+vGnu/2+yQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYPN42aZu
+1AQAAAAAAICtrNsZIXRTN/b8xTbNhLlwI9wOC2Gx4W64k+duhvlwvVr/XAmX
+w6Uw3UFNAAAAAAAA6EVT6UKaTOfTuRb18cm8vtxbcrOSwc2Gq9V6FlcytlvV
+eu5WMrilsBwehJXwMKyGx2EtPElPU/19La9ZzXtWcozlHHMxa9zKmnM5h9mc
+03Rjfe2uq15bvb6pHvid2NzKPiwZc8maS+ZcPiWDLnu2ZNIlmy77uGTVzex6
+Ic+VbLvs7ZkOau7owEAYTDtfY7BhoKGTOgAAAAAAANDr+hu2t9jWonmuvzFG
+nbsNhd1hOOwJI2Fv2B9Gw4FwMBwKR8JYOJrGW9THx/LaQ3nvgRxrf449krWG
+s/ZQtZH3NdfY7rrqtdW6/fvw/9LMnpuZ9Jty646y6n8AhCP7tg==
+         "], {{0, 26}, {
+         2000, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{2000, 26},
+        PlotRange->{{0, 2000}, {0, 26}}], 
+       GraphicsBox[RasterBox[CompressedData["
+1:eJy9lktLQkEUxyVdCBIELaxctYq+QduWbcKMPoCSRRsDC6JPp+Lj4vuq+EBc
+iBtFfIYrpU7nPzQiN++9vmrgp/dx5j8z55w5c099z56HPYvF8mLnH4/37TIY
+9L7fHvDNXeDl6THgv78KvPof/cELn5UfnjBHjI3J5/OudVBV9bhUKjmbzaad
+iCxmcB9lAxKMmzmv1+v7JvpfG/DJjJkic8NrOut0OlYdfdoCjPXBqMx1q9Vy
+7FhfgvX0MUa73bYZ6edyuTnrvPsZQ4Wv9PTRL5vNroTOGIiJu9FoOLT6UjuT
+yVAqlaJkMin+0+m0YPEZbHTGQDwKyKtl+ugHjdFoRIVCgeLxOCUSCQGua7Ua
+9Xo9YQNbozXI/aHVZ//RcDik2WxG5XKZwuGwANdo0JfrNIhDvFqtHi7zD+YW
+i8VoMBgIvWKxKEDrdrtiHbAxiAF8pHAf5zJ9+Bca0WiUxuMxydbv98U64CvY
+wNZgTyioI9r8QR/EEvrQUhRlrh8Kheb6sDHTZ1xG84ePMP/pdPpr/tvoL/of
+Mcb9Jv7X+mcxP2X+QCMSiYh5VyoVMQbXMbP81I2vzM/JZCLyX+a+BPmPvbFN
+fmr36pr713B/rVp7THy/tD6Y1cjF5zrahvVtB5jW5y21B/kVzpc1kecjfK53
+Pu7kfNfO+x+/T/70++ob7NUEtQ==
+         "], {{0, 26}, {24, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{24, 26},
+        PlotRange->{{0, 24}, {0, 26}}]}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {Automatic, 
+         Scaled[0.6], Automatic}},
+     GridBoxSpacings->{"Columns" -> {{0}}, "Rows" -> {{0}}}],
+    "Grid"], 
+   PaneBox[
+    StyleBox[
+     RowBox[{
+     "Background", " ", "images", " ", "and", " ", "text", " ", "colors", " ",
+       "have", " ", "been", " ", "adjusted", " ", "for", " ", "editing", " ", 
+      
+      RowBox[{"purposes", "."}]}],
+     LineBreakWithin->False,
+     FontFamily->"Helvetica",
+     FontSize->12,
+     FontColor->GrayLevel[0.4]],
+    Alignment->Center,
+    ImageSize->Scaled[0.5],
+    ScrollPosition->{0., 0.}]},
+   Alignment->{Center, Center}], 2->""}, "1"]], "SlideShowNavigationBar", \
+"FirstSlide",
+ CellMargins->{{0, 0}, {0, 0}},
+ CellFrameLabelMargins->2,
+ CellSize->{Inherited, 30},
+ CellChangeTimes->{3.647361175465108*^9},
+ TextAlignment->Center,
+ CellTags->"SlideShowHeader"],
+
+Cell["\<\
+Digital Research Methods 02A:
+Text Search\
+\>", "Title",
+ CellChangeTimes->{
+  3.559948400406288*^9, {3.647331852839075*^9, 3.647331861295168*^9}, {
+   3.647331922221755*^9, 3.647331924532915*^9}, {3.647332658962614*^9, 
+   3.64733266480881*^9}, {3.6473611327373047`*^9, 3.647361139759391*^9}}],
+
+Cell[TextData[{
+ "William J Turkel, ",
+ StyleBox["wturkel@uwo.ca",
+  FontSlant->"Italic",
+  FontColor->RGBColor[
+   0.396078431372549, 0.596078431372549, 0.796078431372549]],
+ "\nHistory 2816 / Digital Humanities 2130 / History 9877"
+}], "Subtitle",
+ CellChangeTimes->{{3.647331955723979*^9, 3.6473319708190517`*^9}, 
+   3.647332103720562*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Overview", "Section",
+ CellChangeTimes->{{3.647361153919208*^9, 3.6473611548467712`*^9}}],
+
+Cell["\<\
+By studying word frequencies, we can get an idea of the importance of various \
+terms in our texts, whether they are common or uncommon. Once we have \
+identified some terms of interest, we need methods that allow us to search \
+our text(s) to discover how those terms are used.\
+\>", "Text",
+ CellChangeTimes->{{3.647361157582405*^9, 3.647361159086673*^9}, {
+  3.651162313899843*^9, 3.651162393535581*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Setup", "Section",
+ CellChangeTimes->{{3.6473429438950644`*^9, 3.647342944950231*^9}, {
+  3.647353742456744*^9, 3.647353748014737*^9}, {3.681296708530692*^9, 
+  3.6812967094017897`*^9}, {3.681309314622101*^9, 3.681309315709384*^9}}],
+
+Cell[TextData[{
+ "Last class we loaded a ",
+ StyleBox["ResourceObject",
+  FontWeight->"Bold"],
+ " containing the \[OpenCurlyQuote]State of the Union\[CloseCurlyQuote] \
+addresses of US Presidents, and used word frequency analysis to study two \
+speeches that President George W. Bush made in February and September of \
+2001, respectively. Here are the commands we used to retrieve each text, \
+count the words in each, and determine the most frequent non-stopwords."
+}], "Text",
+ CellChangeTimes->{{3.681309318568116*^9, 3.6813094081140213`*^9}, {
+  3.681309616939502*^9, 3.681309679472041*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"stateOfTheUnion", "=", 
+   RowBox[{"First", "[", 
+    RowBox[{"ResourceSearch", "[", "\"\<state of the union\>\"", "]"}], 
+    "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.681297090280313*^9, 3.681297131059122*^9}, {
+   3.6812971814746637`*^9, 3.681297186593259*^9}, 3.681309432858151*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"gwbFeb2001String", "=", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"Get", "[", "stateOfTheUnion", "]"}], "\[LeftDoubleBracket]", 
+     "214", "\[RightDoubleBracket]"}], "[", "\"\<Text\>\"", "]"}]}], 
+  ";"}]], "Input",
+ CellChangeTimes->{{3.681299917990981*^9, 3.681299949497962*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"gwbFeb2001FrequencyAssociation", "=", 
+   RowBox[{"WordCounts", "[", 
+    RowBox[{"gwbFeb2001String", ",", 
+     RowBox[{"IgnoreCase", "\[Rule]", "True"}]}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.681300458899687*^9, 3.6813005073589*^9}, {
+  3.681300608496553*^9, 3.681300638767531*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"gwbFeb2001FrequentTerms", "=", 
+   RowBox[{"DeleteStopwords", "[", 
+    RowBox[{"Keys", "[", 
+     RowBox[{"gwbFeb2001FrequencyAssociation", "\[LeftDoubleBracket]", 
+      RowBox[{"1", ";;", "100"}], "\[RightDoubleBracket]"}], "]"}], "]"}]}], 
+  ";"}]], "Input",
+ CellChangeTimes->{{3.681301897381116*^9, 3.6813019240097437`*^9}, 
+   3.6813129977925386`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"gwbSep2001String", "=", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"Get", "[", "stateOfTheUnion", "]"}], "\[LeftDoubleBracket]", 
+     "215", "\[RightDoubleBracket]"}], "[", "\"\<Text\>\"", "]"}]}], 
+  ";"}]], "Input",
+ CellChangeTimes->{{3.681299917990981*^9, 3.681299949497962*^9}, {
+  3.681300050567047*^9, 3.681300053918043*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"gwbSep2001FrequencyAssociation", "=", 
+   RowBox[{"WordCounts", "[", 
+    RowBox[{"gwbSep2001String", ",", 
+     RowBox[{"IgnoreCase", "\[Rule]", "True"}]}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.681300458899687*^9, 3.6813005073589*^9}, {
+  3.681300608496553*^9, 3.681300638767531*^9}, {3.6813028935065947`*^9, 
+  3.6813028988419247`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"gwbSep2001FrequentTerms", "=", 
+   RowBox[{"DeleteStopwords", "[", 
+    RowBox[{"Keys", "[", 
+     RowBox[{"gwbSep2001FrequencyAssociation", "\[LeftDoubleBracket]", 
+      RowBox[{"1", ";;", "100"}], "\[RightDoubleBracket]"}], "]"}], "]"}]}], 
+  ";"}]], "Input",
+ CellChangeTimes->{{3.681301897381116*^9, 3.6813019240097437`*^9}, {
+   3.6813027705832443`*^9, 3.681302776222514*^9}, 3.68131299900049*^9}],
+
+Cell["\<\
+We are also going to create two new lists. These contain all of the word \
+types that are used in a particular speech, not including stopwords\
+\>", "Text",
+ CellChangeTimes->{{3.681312940410584*^9, 3.681312971505123*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"gwbFeb2001Terms", "=", 
+   RowBox[{"DeleteStopwords", "[", 
+    RowBox[{"Keys", "[", "gwbFeb2001FrequencyAssociation", "]"}], "]"}]}], 
+  ";"}]], "Input",
+ CellChangeTimes->{{3.681301897381116*^9, 3.6813019240097437`*^9}, {
+  3.6813129831138678`*^9, 3.681312992048684*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"gwbSep2001Terms", "=", 
+   RowBox[{"DeleteStopwords", "[", 
+    RowBox[{"Keys", "[", "gwbSep2001FrequencyAssociation", "]"}], "]"}]}], 
+  ";"}]], "Input",
+ CellChangeTimes->{{3.681301897381116*^9, 3.6813019240097437`*^9}, {
+  3.6813027705832443`*^9, 3.681302776222514*^9}, {3.68131299900049*^9, 
+  3.6813130178805656`*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Word clouds", "Section",
+ CellChangeTimes->{{3.6473429438950644`*^9, 3.647342944950231*^9}, {
+  3.647353742456744*^9, 3.647353748014737*^9}, {3.681296708530692*^9, 
+  3.6812967094017897`*^9}, {3.681309732030527*^9, 3.6813097336696157`*^9}}],
+
+Cell[TextData[{
+ "In ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ ", we can use the ",
+ StyleBox["WordCloud",
+  FontWeight->"Bold"],
+ " command to create a display which scales each word in a text according to \
+its frequency. Here we begin with the string containing the text of the \
+speech, ",
+ StyleBox["DeleteStopwords",
+  FontWeight->"Bold"],
+ ", and then create the word cloud."
+}], "Text",
+ CellChangeTimes->{{3.681309744519806*^9, 3.681309746903287*^9}, {
+  3.681309789699951*^9, 3.6813097914035788`*^9}, {3.681309867217222*^9, 
+  3.681309891591721*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["February 2001", "Subsection",
+ CellChangeTimes->{{3.681309755781232*^9, 3.6813097589565763`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"WordCloud", "[", 
+  RowBox[{"DeleteStopwords", "[", "gwbFeb2001String", "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.6813097671914663`*^9, 3.68130977852757*^9}, {
+  3.6813098243106422`*^9, 3.681309860585894*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["September 2001", "Subsection",
+ CellChangeTimes->{{3.681309762980336*^9, 3.681309764916553*^9}}],
+
+Cell[BoxData[
+ RowBox[{"WordCloud", "[", 
+  RowBox[{"DeleteStopwords", "[", "gwbSep2001String", "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.6813097671914663`*^9, 3.68130977852757*^9}, {
+  3.6813098243106422`*^9, 3.681309860585894*^9}, {3.6813099022884703`*^9, 
+  3.68130990272788*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Searching through a list of sentences", "Section",
+ CellChangeTimes->{{3.6473429438950644`*^9, 3.647342944950231*^9}, {
+   3.647353742456744*^9, 3.647353748014737*^9}, {3.681296708530692*^9, 
+   3.6812967094017897`*^9}, 3.6813099638159723`*^9, {3.6813100590888147`*^9, 
+   3.681310059977021*^9}}],
+
+Cell["\<\
+When we look at a word cloud, we can see the relative importance of a \
+particular term, but we don\[CloseCurlyQuote]t have any sense of the context \
+in which it is used. Suppose, for example, we want to know how the word \
+\[OpenCurlyQuote]security\[CloseCurlyQuote] was used in \
+Bush\[CloseCurlyQuote]s February speech.\
+\>", "Text",
+ CellChangeTimes->{{3.6813100133956413`*^9, 3.6813100845760517`*^9}}],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["TextSentences",
+  FontWeight->"Bold"],
+ " command breaks a string into a list of sentences."
+}], "Text",
+ CellChangeTimes->{{3.647368290167099*^9, 3.6473683196306763`*^9}, {
+   3.647368391300282*^9, 3.647368409155017*^9}, 3.6813101198313637`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"gwbFeb2001Sentences", "=", 
+   RowBox[{"TextSentences", "[", "gwbFeb2001String", "]"}]}], ";"}]], "Input",\
+
+ CellChangeTimes->{{3.647368346466028*^9, 3.6473683543018103`*^9}, {
+  3.6473684163555737`*^9, 3.647368428643168*^9}, {3.6813101299987183`*^9, 
+  3.681310144468133*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Head", "[", "gwbFeb2001Sentences", "]"}]], "Input",
+ CellChangeTimes->{{3.681310148300297*^9, 3.6813101544470043`*^9}}],
+
+Cell["Here is the first sentence of the speech", "Text",
+ CellChangeTimes->{{3.681310169549242*^9, 3.6813101751002197`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"First", "[", "gwbFeb2001Sentences", "]"}]], "Input",
+ CellChangeTimes->{{3.681310156476007*^9, 3.681310161326543*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["StringContainsQ", "Subsection",
+ CellChangeTimes->{{3.681310271305133*^9, 3.6813102758246803`*^9}}],
+
+Cell[TextData[{
+ "To test whether one string contains another, we can use the ",
+ StyleBox["StringContainsQ",
+  FontWeight->"Bold"],
+ " command."
+}], "Text",
+ CellChangeTimes->{{3.681310278632328*^9, 3.681310291416181*^9}}],
+
+Cell["Here is the first sentence", "Text",
+ CellChangeTimes->{{3.68131032097465*^9, 3.681310323478992*^9}}],
+
+Cell[BoxData[
+ RowBox[{"gwbFeb2001Sentences", "\[LeftDoubleBracket]", "1", 
+  "\[RightDoubleBracket]"}]], "Input",
+ CellChangeTimes->{{3.6813103086989937`*^9, 3.6813103137517357`*^9}}],
+
+Cell["Does the first sentence contain the word \
+\[OpenCurlyDoubleQuote]privilege\[CloseCurlyDoubleQuote]?", "Text",
+ CellChangeTimes->{{3.681310326919177*^9, 3.681310341718205*^9}}],
+
+Cell[BoxData[
+ RowBox[{"StringContainsQ", "[", 
+  RowBox[{
+   RowBox[{
+   "gwbFeb2001Sentences", "\[LeftDoubleBracket]", "1", 
+    "\[RightDoubleBracket]"}], ",", "\"\<privilege\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.6813103086989937`*^9, 3.6813103137517357`*^9}, {
+  3.6813103483751917`*^9, 3.681310356662345*^9}}],
+
+Cell["Does the first sentence contain the word \
+\[OpenCurlyDoubleQuote]security\[CloseCurlyDoubleQuote]?", "Text",
+ CellChangeTimes->{{3.681310326919177*^9, 3.681310366229034*^9}}],
+
+Cell[BoxData[
+ RowBox[{"StringContainsQ", "[", 
+  RowBox[{
+   RowBox[{
+   "gwbFeb2001Sentences", "\[LeftDoubleBracket]", "1", 
+    "\[RightDoubleBracket]"}], ",", "\"\<security\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.6813103086989937`*^9, 3.6813103137517357`*^9}, {
+  3.6813103483751917`*^9, 3.681310374597541*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Select, with an anonymous function", "Subsection",
+ CellChangeTimes->{{3.681310420243505*^9, 3.68131042098709*^9}, {
+  3.681310674656983*^9, 3.681310678713122*^9}}],
+
+Cell[TextData[{
+ "What we really want is a list of all of the sentences in the February \
+speech which contain the word \[OpenCurlyDoubleQuote]security\
+\[CloseCurlyDoubleQuote]. To get this list, we use the ",
+ StyleBox["Select",
+  FontWeight->"Bold"],
+ " command. We have to tell ",
+ StyleBox["Select",
+  FontWeight->"Bold"],
+ " what we are looking for, and to do this, we are going to use an ",
+ StyleBox["anonymous function",
+  FontSlant->"Italic"],
+ " based on ",
+ StyleBox["StringContainsQ",
+  FontWeight->"Bold"],
+ ". We will learn more about anonymous functions throughout the course."
+}], "Text",
+ CellChangeTimes->{{3.681310427138554*^9, 3.681310572180994*^9}}],
+
+Cell["The anonymous function looks like this", "Text",
+ CellChangeTimes->{{3.681310574660883*^9, 3.681310581021027*^9}}],
+
+Cell["StringContainsQ[#, \"security\"] &", "Program",
+ CellChangeTimes->{{3.681310584152482*^9, 3.6813105942850924`*^9}, 
+   3.681310688594948*^9}],
+
+Cell[TextData[{
+ "Here is how we ",
+ StyleBox["apply",
+  FontSlant->"Italic"],
+ " the function to an argument"
+}], "Text",
+ CellChangeTimes->{{3.681310610852173*^9, 3.681310620843377*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(", 
+   RowBox[{
+    RowBox[{"StringContainsQ", "[", 
+     RowBox[{"#", ",", "\"\<security\>\""}], "]"}], "&"}], ")"}], "[", 
+  "\"\<this is a test\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.681310584152482*^9, 3.6813105942850924`*^9}, {
+  3.681310630780232*^9, 3.681310638683319*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(", 
+   RowBox[{
+    RowBox[{"StringContainsQ", "[", 
+     RowBox[{"#", ",", "\"\<security\>\""}], "]"}], "&"}], ")"}], "[", 
+  "\"\<this sentence contains the word security\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.681310584152482*^9, 3.6813105942850924`*^9}, {
+  3.681310630780232*^9, 3.681310655498811*^9}}],
+
+Cell[TextData[{
+ "Here is how we use our anonymous function to ",
+ StyleBox["Select",
+  FontWeight->"Bold"],
+ " all of the sentences that contain the word \[OpenCurlyDoubleQuote]security\
+\[CloseCurlyDoubleQuote]"
+}], "Text",
+ CellChangeTimes->{{3.681310718528034*^9, 3.681310756766232*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Select", "[", 
+  RowBox[{"gwbFeb2001Sentences", ",", 
+   RowBox[{
+    RowBox[{"StringContainsQ", "[", 
+     RowBox[{"#", ",", "\"\<security\>\""}], "]"}], "&"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.68131075987912*^9, 3.681310778798395*^9}}],
+
+Cell["\<\
+Why didn\[CloseCurlyQuote]t we find anything? Because every instance of the \
+word \[OpenCurlyDoubleQuote]security\[CloseCurlyDoubleQuote] is capitalized \
+in the speech. Let\[CloseCurlyQuote]s search for the capitalized version...\
+\>", "Text",
+ CellChangeTimes->{{3.681310851586812*^9, 3.681310904056551*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Select", "[", 
+  RowBox[{"gwbFeb2001Sentences", ",", 
+   RowBox[{
+    RowBox[{"StringContainsQ", "[", 
+     RowBox[{"#", ",", "\"\<Security\>\""}], "]"}], "&"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.68131075987912*^9, 3.681310778798395*^9}, 
+   3.681310912449473*^9}],
+
+Cell["\<\
+Try modifying the command so it shows us all the sentences that include the \
+word \[OpenCurlyDoubleQuote]social\[CloseCurlyDoubleQuote] or \
+\[OpenCurlyDoubleQuote]Social\[CloseCurlyDoubleQuote]\
+\>", "Text",
+ CellChangeTimes->{{3.68131073006289*^9, 3.681310742998694*^9}, {
+  3.681310859377903*^9, 3.68131086204219*^9}, {3.681310930303162*^9, 
+  3.6813109323993607`*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Finding alternatives", "Section",
+ CellChangeTimes->{{3.64736488683327*^9, 3.647364889336732*^9}}],
+
+Cell[TextData[{
+ "Some words appear both as singular and plural terms (like \
+\[OpenCurlyQuote]America\[CloseCurlyQuote] and \[OpenCurlyQuote]Americas\
+\[CloseCurlyQuote]). The ",
+ StyleBox["Alternatives",
+  FontWeight->"Bold"],
+ " command (usually written as a vertical bar) allows us to match more than \
+one item with a single search."
+}], "Text",
+ CellChangeTimes->{{3.647364923607913*^9, 3.6473649576543503`*^9}, {
+  3.647365236548932*^9, 3.6473653106338587`*^9}, {3.681311003805312*^9, 
+  3.68131100814047*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Select", "[", 
+  RowBox[{"gwbFeb2001Sentences", ",", 
+   RowBox[{
+    RowBox[{"StringContainsQ", "[", 
+     RowBox[{"#", ",", 
+      RowBox[{"\"\<America\>\"", "|", "\"\<Americas\>\""}]}], "]"}], "&"}]}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.68131075987912*^9, 3.681310778798395*^9}, 
+   3.681310912449473*^9, {3.681311024549021*^9, 3.681311030308381*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Word stems", "Section",
+ CellChangeTimes->{{3.647365328617539*^9, 3.6473653298491364`*^9}}],
+
+Cell[TextData[{
+ "Sometimes we want to search for a set of related words. The ",
+ StyleBox["WordStem",
+  FontWeight->"Bold"],
+ " command removes plurals, inflections, and so on."
+}], "Text",
+ CellChangeTimes->{{3.647365633614789*^9, 3.647365683452602*^9}, {
+  3.647365798865829*^9, 3.6473658250474043`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"WordStem", "[", "\"\<government\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.6473653720568647`*^9, 3.647365384407198*^9}}],
+
+Cell[TextData[{
+ "Now that we have found the word stem, we can use the ",
+ StyleBox["DictionaryLookup",
+  FontWeight->"Bold"],
+ " command to find all English words that contain \[OpenCurlyQuote]govern\
+\[CloseCurlyQuote]. The argument that we are giving to the ",
+ StyleBox["DictionaryLookup",
+  FontWeight->"Bold"],
+ " command here is called a string pattern. We will learn more about these in \
+a few weeks. This pattern says \[OpenCurlyDoubleQuote]match any string that \
+contains \[OpenCurlyQuote]govern\[CloseCurlyQuote] with zero or more \
+characters preceding it, and zero or more characters following it.\
+\[CloseCurlyDoubleQuote]"
+}], "Text",
+ CellChangeTimes->{{3.647365841230544*^9, 3.647365951859029*^9}, 
+   3.681311566256592*^9}],
+
+Cell[BoxData[
+ RowBox[{"DictionaryLookup", "[", 
+  RowBox[{"___", "~~", "\"\<govern\>\"", "~~", "___"}], "]"}]], "Input",
+ CellChangeTimes->{3.647365517387375*^9},
+ NumberMarks->False],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["Intersection",
+  FontWeight->"Bold"],
+ " command can be used to find all of the elements that two lists have in \
+common. Here we use it to find all of the words in Bush\[CloseCurlyQuote]s \
+February speech that have the word stem \[OpenCurlyQuote]govern\
+\[CloseCurlyQuote]."
+}], "Text",
+ CellChangeTimes->{{3.647365955858398*^9, 3.647366003440547*^9}, {
+  3.681311140160307*^9, 3.6813111490390472`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Intersection", "[", 
+  RowBox[{"gwbFeb2001Terms", ",", 
+   RowBox[{"DictionaryLookup", "[", 
+    RowBox[{"___", "~~", "\"\<govern\>\"", "~~", "___"}], "]"}]}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.647365530764162*^9, 3.6473656138279057`*^9}, {
+  3.681311188793344*^9, 3.681311192910466*^9}, {3.681313175471089*^9, 
+  3.6813131820748653`*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Searching for related words", "Section",
+ CellChangeTimes->{{3.647366068911064*^9, 3.647366072926499*^9}}],
+
+Cell[TextData[{
+ "Now we can use ",
+ StyleBox["Alternatives",
+  FontWeight->"Bold"],
+ " to search for all of these words at once."
+}], "Text",
+ CellChangeTimes->{{3.6473660068806257`*^9, 3.64736602236826*^9}, {
+  3.681311240788251*^9, 3.681311243123448*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Select", "[", 
+  RowBox[{"gwbFeb2001Sentences", ",", 
+   RowBox[{
+    RowBox[{"StringContainsQ", "[", 
+     RowBox[{"#", ",", 
+      RowBox[{
+      "\"\<governing\>\"", "|", "\"\<government\>\"", "|", 
+       "\"\<governments\>\""}]}], "]"}], "&"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.68131075987912*^9, 3.681310778798395*^9}, 
+   3.681310912449473*^9, {3.681311024549021*^9, 3.681311030308381*^9}, 
+   3.6813112787658*^9}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["TextCases", "Section",
+ CellChangeTimes->{{3.647370075431761*^9, 3.64737007900736*^9}}],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["TextCases",
+  FontWeight->"Bold"],
+ " command is listed as \[OpenCurlyDoubleQuote]Experimental\
+\[CloseCurlyDoubleQuote] in the latest version of ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ ". That means that it might change or be removed in future versions of the \
+language. Nevertheless, it lets us do some pretty cool things."
+}], "Text",
+ CellChangeTimes->{{3.647366838018856*^9, 3.647366841371211*^9}, {
+  3.647370081775029*^9, 3.647370103238562*^9}, {3.647370136780767*^9, 
+  3.647370158772538*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Countries", "Subsection",
+ CellChangeTimes->{{3.681312105081929*^9, 3.68131210611425*^9}}],
+
+Cell[TextData[{
+ "Which countries are mentioned in September 2001 speech? We use ",
+ StyleBox["Union",
+  FontWeight->"Bold"],
+ " to remove duplicates"
+}], "Text",
+ CellChangeTimes->{{3.647370165747786*^9, 3.647370173740068*^9}, {
+   3.681311838716947*^9, 3.6813118411806173`*^9}, {3.681311882475284*^9, 
+   3.681311885482445*^9}, {3.681311959920354*^9, 3.681311966335594*^9}, {
+   3.68131204713314*^9, 3.681312048436552*^9}, 3.6813121025951138`*^9}],
+
+Cell[BoxData[
+ RowBox[{"Union", "[", 
+  RowBox[{"TextCases", "[", 
+   RowBox[{"gwbSep2001String", ",", "\"\<Country\>\""}], "]"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.6473668341772547`*^9, 3.647366856626781*^9}, {
+  3.647366904474066*^9, 3.647366905369062*^9}, {3.647370120717556*^9, 
+  3.6473701243101463`*^9}, {3.681311867691938*^9, 3.681311875604665*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Parts of speech", "Subsection",
+ CellChangeTimes->{{3.681312109321834*^9, 3.681312113562024*^9}}],
+
+Cell[TextData[{
+ "We can also use ",
+ StyleBox["TextCases",
+  FontWeight->"Bold"],
+ " to retrieve parts of speech like adjectives and nouns. Here are the \
+adjectives for the February speech"
+}], "Text",
+ CellChangeTimes->{{3.6813121294577723`*^9, 3.681312164024138*^9}, {
+  3.681312281708*^9, 3.681312291315156*^9}, {3.68131324966383*^9, 
+  3.681313251470639*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Union", "[", 
+  RowBox[{"TextCases", "[", 
+   RowBox[{"gwbFeb2001String", ",", "\"\<Adjective\>\""}], "]"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.6473668341772547`*^9, 3.647366856626781*^9}, {
+  3.647366904474066*^9, 3.647366905369062*^9}, {3.647366983374715*^9, 
+  3.647366984519926*^9}, {3.647369798010161*^9, 3.647369801993379*^9}, {
+  3.64736983515256*^9, 3.647369839583625*^9}, {3.647369873175582*^9, 
+  3.647369933637156*^9}, {3.681312170939774*^9, 3.681312174056464*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Activity", "Section",
+ CellChangeTimes->{{3.6473657279871407`*^9, 3.647365729058796*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Questions", "Subsubsection",
+ CellChangeTimes->{{3.647366407811051*^9, 3.6473664086745453`*^9}}],
+
+Cell[TextData[{
+ "Use the ",
+ StyleBox["Select",
+  FontWeight->"Bold"],
+ " command to study the contexts in which some of the common terms from the \
+September speech occur."
+}], "Text",
+ CellChangeTimes->{{3.681311602694092*^9, 3.681311626268743*^9}}],
+
+Cell["\<\
+Compare the use of some of the terms that appear frequently in both the \
+February and September speeches:\
+\>", "Text",
+ CellChangeTimes->{{3.647366578580963*^9, 3.647366634058486*^9}, {
+   3.6473667162713223`*^9, 3.647366731343217*^9}, {3.647366954967637*^9, 
+   3.647366957951264*^9}, {3.681311375974926*^9, 3.681311387189886*^9}, 
+   3.681311635204014*^9, {3.681311715024934*^9, 3.6813117284007874`*^9}, {
+   3.68131313114839*^9, 3.681313136338943*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Intersection", "[", 
+  RowBox[{"gwbSep2001FrequentTerms", ",", "gwbFeb2001FrequentTerms"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.68130305684496*^9, 3.6813030656625433`*^9}}],
+
+Cell["\<\
+What can you learn about a text by studying the contexts in which a given \
+word is used? How does this new information change the way we understand word \
+frequencies or word clouds?\
+\>", "Text",
+ CellChangeTimes->{{3.64736673418262*^9, 3.64736675634226*^9}, {
+  3.6813116408917933`*^9, 3.681311659635491*^9}}],
+
+Cell["\<\
+How would you search these speeches for words that are related to the idea of \
+\[OpenCurlyQuote]government\[CloseCurlyQuote] but don\[CloseCurlyQuote]t \
+necessarily contain the word stem \[OpenCurlyQuote]govern\[CloseCurlyQuote]?\
+\>", "Text",
+ CellChangeTimes->{{3.647369702252943*^9, 3.647369760202915*^9}, {
+  3.681311689874798*^9, 3.681311691938287*^9}}],
+
+Cell["\<\
+What kinds of research tasks can we accomplish through searching? Give some \
+examples.\
+\>", "Text",
+ CellChangeTimes->{{3.681312574040615*^9, 3.6813125978071938`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Discussion", "Subsubsection",
+ CellChangeTimes->{{3.647366411690116*^9, 3.647366412762404*^9}}],
+
+Cell["\<\
+Searching for influences; the characteristic turn of phrase; authorship; \
+rhetoric; synonymy\
+\>", "Text",
+ CellChangeTimes->{{3.6473675269465218`*^9, 3.647367578441044*^9}, {
+  3.647369713188036*^9, 3.64736971494807*^9}, {3.6473703209276648`*^9, 
+  3.647370323254838*^9}}]
+}, Closed]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Searching for synonyms", "Section",
+ CellChangeTimes->{{3.647369240213667*^9, 3.647369246869363*^9}}],
+
+Cell[TextData[{
+ "Earlier we used ",
+ StyleBox["WordStem",
+  FontWeight->"Bold"],
+ " to find words related to \[OpenCurlyQuote]government\[CloseCurlyQuote]. We \
+can also use the ",
+ StyleBox["WordData",
+  FontWeight->"Bold"],
+ " command to find synonyms."
+}], "Text",
+ CellChangeTimes->{{3.6473692810771303`*^9, 3.647369311810947*^9}}],
+
+Cell[BoxData[
+ RowBox[{"WordData", "[", 
+  RowBox[{
+  "\"\<government\>\"", ",", "\"\<Synonyms\>\"", ",", "\"\<List\>\""}], 
+  "]"}]], "Input"],
+
+Cell["Here are the corresponding word stems.", "Text",
+ CellChangeTimes->{{3.64736934536178*^9, 3.6473693542733192`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"WordStem", "[", 
+  RowBox[{"WordData", "[", 
+   RowBox[{
+   "\"\<government\>\"", ",", "\"\<Synonyms\>\"", ",", "\"\<List\>\""}], 
+   "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.6473693603137827`*^9, 3.6473693647135983`*^9}}],
+
+Cell["\<\
+How many of these stems also appear in Bush\[CloseCurlyQuote]s February \
+speech?\
+\>", "Text",
+ CellChangeTimes->{{3.647369380832024*^9, 3.647369407247581*^9}, {
+  3.681312626614746*^9, 3.68131263314214*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Intersection", "[", 
+  RowBox[{
+   RowBox[{"WordStem", "[", "gwbFeb2001Terms", "]"}], ",", 
+   RowBox[{"WordStem", "[", 
+    RowBox[{"WordData", "[", 
+     RowBox[{
+     "\"\<government\>\"", ",", "\"\<Synonyms\>\"", ",", "\"\<List\>\""}], 
+     "]"}], "]"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.647368885829294*^9, 3.647368960200037*^9}, {
+   3.647369012093602*^9, 3.647369094514635*^9}, 3.681312669296525*^9, {
+   3.6813130910544567`*^9, 3.681313096634242*^9}}],
+
+Cell[TextData[{
+ "As before, we can use ",
+ StyleBox["DictionaryLookup",
+  FontWeight->"Bold"],
+ " to find all the words that contain each of these stems. In order to \
+process the whole list at once, we are going to use a very powerful command \
+called ",
+ StyleBox["Map",
+  FontWeight->"Bold"],
+ ". Its use is explained in more detail in the documentation. The ",
+ StyleBox["Flatten",
+  FontWeight->"Bold"],
+ " command converts a nested list (a list that contains other lists) into a \
+flat one."
+}], "Text",
+ CellChangeTimes->{{3.6473694442063417`*^9, 3.647369520475453*^9}, {
+  3.6473695879845552`*^9, 3.647369597960701*^9}, {3.681312767521577*^9, 
+  3.6813127948560143`*^9}, {3.6813133593077087`*^9, 3.681313359418377*^9}}],
+
+Cell[BoxData[
+ RowBox[{"governmentSynonymStemWords", "=", 
+  RowBox[{"Flatten", "[", 
+   RowBox[{"Map", "[", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"DictionaryLookup", "[", 
+       RowBox[{"___", "~~", "#", "~~", "___"}], "]"}], "&"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+      "\"\<administr\>\"", ",", "\"\<author\>\"", ",", "\"\<govern\>\"", ",", 
+       "\"\<polit\>\""}], "}"}]}], "]"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.647369544157613*^9, 3.647369551777974*^9}, {
+  3.647369611151932*^9, 3.647369619865769*^9}}],
+
+Cell["\<\
+Now we can check to see how many words in this wider list of \
+\[OpenCurlyQuote]government\[CloseCurlyQuote]-related words appear in Bush\
+\[CloseCurlyQuote]s February speech.\
+\>", "Text",
+ CellChangeTimes->{{3.647369628143792*^9, 3.6473696549827843`*^9}, 
+   3.6813128157784557`*^9}],
+
+Cell[BoxData[
+ RowBox[{"Intersection", "[", 
+  RowBox[{"gwbFeb2001Terms", ",", "governmentSynonymStemWords"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.647369658874291*^9, 3.647369668759118*^9}, 
+   3.6813128396900043`*^9, 3.681313113870566*^9}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Upload your notebook", "Section",
+ CellChangeTimes->{{3.649950784924818*^9, 3.649950788859275*^9}}],
+
+Cell["\<\
+Don\[CloseCurlyQuote]t forget to upload a copy of your notebook for this \
+class to the OWL Site for the course\
+\>", "Text",
+ CellChangeTimes->{{3.649950792779258*^9, 3.649950818634288*^9}}]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1422, 1107},
+WindowMargins->{{Automatic, 395}, {Automatic, 124}},
+TaggingRules->{"SlideShow" -> True},
+Magnification:>1.25 Inherited,
+FrontEndVersion->"11.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (July 28, \
+2016)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "SlideShowHeader"->{
+  Cell[580, 22, 4383, 98, 75, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[5653, 145, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[6306, 166, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[10761, 289, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[12528, 346, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[19687, 550, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[20837, 586, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[23282, 656, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[24249, 690, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[27004, 771, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[29611, 850, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[33250, 960, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"SlideShowHeader", 34059, 989}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 4383, 98, 75, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[4966, 122, 304, 7, 183, "Title"],
+Cell[5273, 131, 343, 9, 99, "Subtitle"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5653, 145, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[5742, 150, 95, 1, 80, "Section"],
+Cell[5840, 153, 417, 7, 61, "Text"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6306, 166, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[6395, 171, 238, 3, 80, "Section"],
+Cell[6636, 176, 596, 11, 85, "Text"],
+Cell[7235, 189, 327, 7, 39, "Input"],
+Cell[7565, 198, 315, 8, 39, "Input"],
+Cell[7883, 208, 331, 7, 39, "Input"],
+Cell[8217, 217, 393, 9, 39, "Input"],
+Cell[8613, 228, 364, 9, 39, "Input"],
+Cell[8980, 239, 384, 8, 39, "Input"],
+Cell[9367, 249, 438, 9, 39, "Input"],
+Cell[9808, 260, 232, 4, 37, "Text"],
+Cell[10043, 266, 308, 7, 39, "Input"],
+Cell[10354, 275, 358, 8, 48, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[10761, 289, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[10850, 294, 246, 3, 100, "Section"],
+Cell[11099, 299, 571, 16, 76, "Text"],
+Cell[CellGroupData[{
+Cell[11695, 319, 103, 1, 54, "Subsection"],
+Cell[11801, 322, 237, 4, 48, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[12075, 331, 102, 1, 67, "Subsection"],
+Cell[12180, 334, 287, 5, 48, "Input"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[12528, 346, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[12617, 351, 302, 4, 100, "Section"],
+Cell[12922, 357, 417, 7, 76, "Text"],
+Cell[13342, 366, 282, 7, 46, "Text"],
+Cell[13627, 375, 313, 7, 48, "Input"],
+Cell[13943, 384, 143, 2, 48, "Input"],
+Cell[14089, 388, 124, 1, 46, "Text"],
+Cell[14216, 391, 142, 2, 48, "Input"],
+Cell[CellGroupData[{
+Cell[14383, 397, 105, 1, 67, "Subsection"],
+Cell[14491, 400, 223, 6, 46, "Text"],
+Cell[14717, 408, 107, 1, 46, "Text"],
+Cell[14827, 411, 184, 3, 48, "Input"],
+Cell[15014, 416, 182, 2, 46, "Text"],
+Cell[15199, 420, 323, 7, 48, "Input"],
+Cell[15525, 429, 181, 2, 46, "Text"],
+Cell[15709, 433, 322, 7, 48, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[16068, 445, 170, 2, 67, "Subsection"],
+Cell[16241, 449, 671, 17, 106, "Text"],
+Cell[16915, 468, 120, 1, 46, "Text"],
+Cell[17038, 471, 147, 2, 76, "Program"],
+Cell[17188, 475, 188, 6, 46, "Text"],
+Cell[17379, 483, 322, 8, 48, "Input"],
+Cell[17704, 493, 348, 8, 48, "Input"],
+Cell[18055, 503, 291, 7, 46, "Text"],
+Cell[18349, 512, 269, 6, 48, "Input"],
+Cell[18621, 520, 321, 5, 46, "Text"],
+Cell[18945, 527, 295, 7, 48, "Input"],
+Cell[19243, 536, 383, 7, 46, "Text"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[19687, 550, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[19776, 555, 104, 1, 100, "Section"],
+Cell[19883, 558, 517, 11, 76, "Text"],
+Cell[20403, 571, 385, 9, 50, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[20837, 586, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[20926, 591, 97, 1, 100, "Section"],
+Cell[21026, 594, 307, 7, 46, "Text"],
+Cell[21336, 603, 146, 2, 48, "Input"],
+Cell[21485, 607, 743, 15, 106, "Text"],
+Cell[22231, 624, 184, 4, 48, "Input"],
+Cell[22418, 630, 441, 10, 76, "Text"],
+Cell[22862, 642, 371, 8, 48, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[23282, 656, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[23371, 661, 112, 1, 100, "Section"],
+Cell[23486, 664, 258, 7, 46, "Text"],
+Cell[23747, 673, 453, 11, 50, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[24249, 690, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[24338, 695, 93, 1, 100, "Section"],
+Cell[24434, 698, 551, 13, 76, "Text"],
+Cell[CellGroupData[{
+Cell[25010, 715, 96, 1, 67, "Subsection"],
+Cell[25109, 718, 449, 9, 46, "Text"],
+Cell[25561, 729, 364, 7, 48, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[25962, 741, 103, 1, 67, "Subsection"],
+Cell[26068, 744, 365, 9, 46, "Text"],
+Cell[26436, 755, 507, 9, 48, "Input"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[27004, 771, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[27093, 776, 95, 1, 100, "Section"],
+Cell[CellGroupData[{
+Cell[27213, 781, 102, 1, 53, "Subsubsection"],
+Cell[27318, 784, 252, 7, 46, "Text"],
+Cell[27573, 793, 467, 8, 46, "Text"],
+Cell[28043, 803, 202, 4, 48, "Input"],
+Cell[28248, 809, 322, 6, 76, "Text"],
+Cell[28573, 817, 370, 6, 46, "Text"],
+Cell[28946, 825, 179, 4, 46, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[29162, 834, 101, 1, 53, "Subsubsection"],
+Cell[29266, 837, 284, 6, 46, "Text"]
+}, Closed]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[29611, 850, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[29700, 855, 107, 1, 100, "Section"],
+Cell[29810, 858, 336, 10, 46, "Text"],
+Cell[30149, 870, 143, 4, 48, "Input"],
+Cell[30295, 876, 121, 1, 46, "Text"],
+Cell[30419, 879, 251, 6, 48, "Input"],
+Cell[30673, 887, 219, 5, 46, "Text"],
+Cell[30895, 894, 492, 11, 48, "Input"],
+Cell[31390, 907, 728, 17, 106, "Text"],
+Cell[32121, 926, 533, 13, 48, "Input"],
+Cell[32657, 941, 295, 6, 46, "Text"],
+Cell[32955, 949, 246, 5, 48, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[33250, 960, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[33339, 965, 105, 1, 100, "Section"],
+Cell[33447, 968, 201, 4, 46, "Text"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
