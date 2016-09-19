@@ -1,0 +1,526 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     17495,        518]
+NotebookOptionsPosition[     14574,        409]
+NotebookOutlinePosition[     14961,        426]
+CellTagsIndexPosition[     14918,        423]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Short Assignment 2: Named Entities", "Title",
+ CellChangeTimes->{{3.651163249584736*^9, 3.651163254056362*^9}, {
+  3.651163523375786*^9, 3.651163526158741*^9}, {3.652459471683689*^9, 
+  3.652459476634469*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["History 2816A / Digital Humanities 2130A", "Chapter",
+ CellChangeTimes->{{3.6511632289941177`*^9, 3.651163245097763*^9}}],
+
+Cell["\<\
+Handed out: 04 Oct 2016
+Due date: 20 Oct 2016
+Zero date: 01 Nov 2016\
+\>", "Subchapter",
+ CellChangeTimes->{{3.651163258088455*^9, 3.6511633041027813`*^9}, {
+  3.652459540065187*^9, 3.65245955820754*^9}, {3.68329485780669*^9, 
+  3.68329488047605*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Worth 10% of your final grade", "Subchapter",
+ CellChangeTimes->{{3.651165418980345*^9, 3.651165425635522*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Your information", "Section",
+ CellChangeTimes->{{3.6511634475779753`*^9, 3.651163452881803*^9}}],
+
+Cell["Name:", "Text",
+ CellChangeTimes->{{3.651163456585217*^9, 3.651163457633196*^9}}],
+
+Cell["Email:", "Text",
+ CellChangeTimes->{{3.651163467720752*^9, 3.651163468968869*^9}}],
+
+Cell["Student number:", "Text",
+ CellChangeTimes->{{3.651163460537118*^9, 3.6511634629929047`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Choose a text to analyze", "Section",
+ CellChangeTimes->{{3.6511634748005457`*^9, 3.65116347628865*^9}, {
+  3.65116351468721*^9, 3.651163516279201*^9}}],
+
+Cell[TextData[{
+ "Choose an ASCII text that is available online and import it into ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ ". If you\[CloseCurlyQuote]d like, you can use one of the sample texts \
+listed below. Or you can choose your own text from Project Gutenberg or \
+elsewhere. The text that you choose should be between ten and one hundred \
+thousand words long. If you have any questions, email me."
+}], "Text",
+ CellChangeTimes->{{3.65116349140063*^9, 3.651163512199279*^9}, {
+  3.651163551189911*^9, 3.6511635606615543`*^9}, {3.651163590668619*^9, 
+  3.651163597148263*^9}, {3.651163754279532*^9, 3.651163881945941*^9}, {
+  3.651164011389619*^9, 3.651164013733354*^9}, {3.651164069549185*^9, 
+  3.6511640752274027`*^9}, {3.681058971812989*^9, 3.681058982964364*^9}, {
+  3.681059527706416*^9, 3.681059553439786*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Sample texts (or choose your own)", "Subsection",
+ CellChangeTimes->{{3.681058989523835*^9, 3.681058994491959*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Narrative of Frederick Douglass", "Subsubsection",
+ CellChangeTimes->{{3.6511638632668257`*^9, 3.6511638833139973`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"douglass", "=", 
+   RowBox[{
+   "Import", "[", "\"\<http://www.gutenberg.org/cache/epub/23/pg23.txt\>\"", 
+    "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.65116387624164*^9, 3.6511639140337152`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"douglassWords", "=", 
+   RowBox[{"TextWords", "[", "douglass", "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.6511639699428463`*^9, 3.651163995910075*^9}}],
+
+Cell["\<\
+Note that this work has a Project Gutenberg header and footer which you may \
+want to remove\
+\>", "Text",
+ CellChangeTimes->{{3.6810590640339108`*^9, 3.681059084192445*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Short", "[", 
+  RowBox[{"douglassWords", ",", "10"}], "]"}]], "Input",
+ CellChangeTimes->{{3.681059038514597*^9, 3.681059046433984*^9}}],
+
+Cell[BoxData[
+ TagBox[
+  RowBox[{"{", 
+   RowBox[{"\<\"The\"\>", ",", "\<\"Project\"\>", ",", "\<\"Gutenberg\"\>", 
+    ",", "\<\"EBook\"\>", ",", "\<\"of\"\>", ",", "\<\"The\"\>", 
+    ",", "\<\"Narrative\"\>", ",", "\<\"of\"\>", ",", "\<\"the\"\>", 
+    ",", "\<\"Life\"\>", ",", "\<\"of\"\>", ",", "\<\"Frederick\"\>", 
+    ",", "\<\"Douglass\"\>", ",", "\<\"by\"\>", ",", "\<\"Frederick\"\>", 
+    ",", "\<\"Douglass\"\>", ",", "\<\"This\"\>", ",", "\<\"eBook\"\>", 
+    ",", "\<\"is\"\>", ",", "\<\"for\"\>", ",", "\<\"the\"\>", 
+    ",", "\<\"use\"\>", ",", "\<\"of\"\>", ",", "\<\"anyone\"\>", ",", 
+    RowBox[{"\[LeftSkeleton]", "43928", "\[RightSkeleton]"}], 
+    ",", "\<\"Gutenberg\"\>", ",", "\<\"Literary\"\>", ",", "\<\"Archive\"\>",
+     ",", "\<\"Foundation\"\>", ",", "\<\"how\"\>", ",", "\<\"to\"\>", 
+    ",", "\<\"help\"\>", ",", "\<\"produce\"\>", ",", "\<\"our\"\>", 
+    ",", "\<\"new\"\>", ",", "\<\"eBooks\"\>", ",", "\<\"and\"\>", 
+    ",", "\<\"how\"\>", ",", "\<\"to\"\>", ",", "\<\"subscribe\"\>", 
+    ",", "\<\"to\"\>", ",", "\<\"our\"\>", ",", "\<\"email\"\>", 
+    ",", "\<\"newsletter\"\>", ",", "\<\"to\"\>", ",", "\<\"hear\"\>", 
+    ",", "\<\"about\"\>", ",", "\<\"new\"\>", ",", "\<\"eBooks\"\>"}], "}"}],
+  Short[#, 10]& ]], "Output",
+ CellChangeTimes->{3.681059047192608*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Length", "[", "douglassWords", "]"}]], "Input",
+ CellChangeTimes->{{3.651163984859726*^9, 3.651164002182596*^9}}],
+
+Cell[BoxData["43976"], "Output",
+ CellChangeTimes->{3.65116400252977*^9}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["The Sign of the Four", "Subsubsection",
+ CellChangeTimes->{{3.681059282594079*^9, 3.681059284633243*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"conanDoyleWords", "=", 
+   RowBox[{"TextWords", "[", 
+    RowBox[{"EntityValue", "[", 
+     RowBox[{
+      RowBox[{"Entity", "[", 
+       RowBox[{"\"\<Book\>\"", ",", "\"\<TheSignOfTheFour1890\>\""}], "]"}], 
+      ",", "\"\<Plaintext\>\""}], "]"}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.6810592919713373`*^9, 3.681059294537129*^9}, {
+  3.681059341688129*^9, 3.681059367590541*^9}, {3.681059406414198*^9, 
+  3.681059411805952*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Short", "[", 
+  RowBox[{"conanDoyleWords", ",", "10"}], "]"}]], "Input",
+ CellChangeTimes->{{3.6810593831766653`*^9, 3.681059390861558*^9}}],
+
+Cell[BoxData[
+ TagBox[
+  RowBox[{"{", 
+   RowBox[{"\<\"The\"\>", ",", "\<\"Sign\"\>", ",", "\<\"of\"\>", 
+    ",", "\<\"the\"\>", ",", "\<\"Four\"\>", ",", "\<\"By\"\>", 
+    ",", "\<\"Sir\"\>", ",", "\<\"Arthur\"\>", ",", "\<\"Conan\"\>", 
+    ",", "\<\"Doyle\"\>", ",", "\<\"Contents\"\>", ",", "\<\"Chapter\"\>", 
+    ",", "\<\"I\"\>", ",", "\<\"The\"\>", ",", "\<\"Science\"\>", 
+    ",", "\<\"of\"\>", ",", "\<\"Deduction\"\>", ",", "\<\"Sherlock\"\>", 
+    ",", "\<\"Holmes\"\>", ",", "\<\"took\"\>", ",", "\<\"his\"\>", 
+    ",", "\<\"bottle\"\>", ",", "\<\"from\"\>", ",", "\<\"the\"\>", 
+    ",", "\<\"corner\"\>", ",", 
+    RowBox[{"\[LeftSkeleton]", "43077", "\[RightSkeleton]"}], 
+    ",", "\<\"what\"\>", ",", "\<\"remains\"\>", ",", "\<\"for\"\>", 
+    ",", "\<\"you\"\>", ",", "\<\"For\"\>", ",", "\<\"me\"\>", 
+    ",", "\<\"said\"\>", ",", "\<\"Sherlock\"\>", ",", "\<\"Holmes\"\>", 
+    ",", "\<\"there\"\>", ",", "\<\"still\"\>", ",", "\<\"remains\"\>", 
+    ",", "\<\"the\"\>", ",", "\<\"cocaine-bottle\"\>", ",", "\<\"And\"\>", 
+    ",", "\<\"he\"\>", ",", "\<\"stretched\"\>", ",", "\<\"his\"\>", 
+    ",", "\<\"long\"\>", ",", "\<\"white\"\>", ",", "\<\"hand\"\>", 
+    ",", "\<\"up\"\>", ",", "\<\"for\"\>", ",", "\<\"it\"\>"}], "}"}],
+  Short[#, 10]& ]], "Output",
+ CellChangeTimes->{{3.681059391204628*^9, 3.6810594144504757`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Length", "[", "conanDoyleWords", "]"}]], "Input",
+ CellChangeTimes->{{3.681059421395158*^9, 3.681059424749063*^9}}],
+
+Cell[BoxData["43126"], "Output",
+ CellChangeTimes->{3.681059425000854*^9}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Mixed case n-grams", "Section",
+ CellChangeTimes->{{3.6524598082623787`*^9, 3.6524598115664463`*^9}}],
+
+Cell["\<\
+Extract the mixed case words, bigrams, trigrams and 4-grams from your text. \
+You want to be able to determine the frequencies with which capitalized words \
+and phrases occur.\
+\>", "Text",
+ CellChangeTimes->{{3.6524598310775747`*^9, 3.6524598684844427`*^9}, {
+  3.652460929926115*^9, 3.6524609307583*^9}, {3.652461088658321*^9, 
+  3.652461102400255*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Capitalized phrases", "Section",
+ CellChangeTimes->{{3.652459650420815*^9, 3.652459653860038*^9}, {
+  3.6524597739286823`*^9, 3.6524597744796677`*^9}, {3.652459814694106*^9, 
+  3.652459817598184*^9}}],
+
+Cell["\<\
+Analyze the capitalized phrases (1-, 2-, 3- and 4-gram) that you find in your \
+text. Which ones refer to people, places, institutions, or other named \
+entities?\
+\>", "Text",
+ CellChangeTimes->{{3.652459673618113*^9, 3.652459687202841*^9}, {
+  3.652459886387538*^9, 3.6524599681526623`*^9}, {3.652460914440227*^9, 
+  3.652460915158889*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Named entities", "Section",
+ CellChangeTimes->{{3.652461698571415*^9, 3.652461700210949*^9}}],
+
+Cell[TextData[{
+ "Try to match a few dozen of the most frequent capitalized n-grams from your \
+text to ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " entities. Which need to be disambiguated? Which are not known to ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ "?"
+}], "Text",
+ CellChangeTimes->{{3.652459935457767*^9, 3.652459938113792*^9}, {
+  3.65245997068852*^9, 3.65246000655938*^9}, {3.6524600583576*^9, 
+  3.652460068861246*^9}, {3.652461707938533*^9, 3.652461709978627*^9}}],
+
+Cell["\<\
+What kinds of computable data can you retrieve for each different kind of \
+named entity?\
+\>", "Text",
+ CellChangeTimes->{{3.652461715594212*^9, 3.652461740169421*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Regular endings", "Section",
+ CellChangeTimes->{{3.652460108827474*^9, 3.652460110427655*^9}}],
+
+Cell[TextData[{
+ "In class we learned how to find words that end with ",
+ StyleBox["-ed",
+  FontSlant->"Italic"],
+ " and with the possessive apostrophe s. Choose a regular ending that makes \
+sense for your text (it could be one of those, or something else, like ",
+ StyleBox["-ing",
+  FontSlant->"Italic"],
+ ") and see if you can draw any conclusions from studying its use."
+}], "Text",
+ CellChangeTimes->{{3.6524601129473963`*^9, 3.652460215239963*^9}, {
+  3.6524602552304153`*^9, 3.6524603037487297`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Sets of terms", "Section",
+ CellChangeTimes->{{3.652460333075444*^9, 3.652460334579713*^9}}],
+
+Cell["\<\
+In class we saw many examples of searching for patterns in the use of small \
+sets of related terms (e.g., gendered pronouns, modal verbs, familial \
+relationship words, temporal expressions). Define a set of terms of interest \
+for your text and see if you can find any interesting patterns.\
+\>", "Text",
+ CellChangeTimes->{{3.6524603380191603`*^9, 3.652460400617117*^9}, {
+  3.652460433745551*^9, 3.652460468183351*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Collocations", "Section",
+ CellChangeTimes->{{3.652460478998087*^9, 3.652460480182227*^9}}],
+
+Cell["\<\
+Can you find any interesting NN or Adj N collocations that are not named \
+entities? For example, \[OpenCurlyDoubleQuote]Charles Darwin\
+\[CloseCurlyDoubleQuote] (NN) is a named entity; \
+\[OpenCurlyDoubleQuote]natural selection\[CloseCurlyDoubleQuote] (Adj N) is \
+an interesting collocation that is not a named entity.\
+\>", "Text",
+ CellChangeTimes->{{3.652460486949978*^9, 3.652460500269631*^9}, {
+  3.652461464844768*^9, 3.652461514425592*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Co-occurrence", "Section",
+ CellChangeTimes->{{3.652460518212597*^9, 3.652460520092754*^9}, 
+   3.683295054631113*^9}],
+
+Cell["\<\
+Try plotting the co-occurrence of some of the named entities in your text. \
+Does this method of visualization suggest hypotheses or research questions \
+you can follow up on?\
+\>", "Text",
+ CellChangeTimes->{{3.652460522252605*^9, 3.6524605655713863`*^9}, {
+   3.652460618505247*^9, 3.652460645000456*^9}, 3.68329503883991*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Who\[CloseCurlyQuote]s Who", "Section",
+ CellChangeTimes->{{3.6524611641745777`*^9, 3.6524611674618177`*^9}}],
+
+Cell["\<\
+Build a Who\[CloseCurlyQuote]s Who display for some of the persons mentioned \
+in your text. Were all of these people familiar to you before? Did you learn \
+anything about them that sheds new light on your text?\
+\>", "Text",
+ CellChangeTimes->{{3.652461171365658*^9, 3.652461265011182*^9}, {
+  3.65246157015934*^9, 3.6524616319254627`*^9}}],
+
+Cell["\<\
+If it makes sense to do so, you can try creating a similar display for a \
+different kind of named entity, but you do not have to.\
+\>", "Text",
+ CellChangeTimes->{{3.652461171365658*^9, 3.652461265011182*^9}, {
+  3.652461563025195*^9, 3.652461566511475*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Mapping", "Section",
+ CellChangeTimes->{{3.652460599634556*^9, 3.652460600233972*^9}, {
+  3.652461277490377*^9, 3.6524612790736017`*^9}}],
+
+Cell["\<\
+Try mapping some of the geographical entities mentioned in your text. Does \
+this method of visualization suggest hypotheses or research questions you can \
+follow up on?\
+\>", "Text",
+ CellChangeTimes->{{3.652461281785572*^9, 3.652461318483033*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Reflect", "Section",
+ CellChangeTimes->{{3.651165761119735*^9, 3.651165763727984*^9}}],
+
+Cell["\<\
+Write a couple of paragraphs describing your experiences doing analysis using \
+named entities. What things did you find easy or hard to do? Did anything \
+surprise you? Did you come up with hypotheses that you couldn\
+\[CloseCurlyQuote]t figure out how to test? Were there kinds of evidence that \
+you could not find but would have liked to have? How might you use techniques \
+like these in your future work or studies? \
+\>", "Text",
+ CellChangeTimes->{{3.6511657661997957`*^9, 3.65116586498845*^9}, {
+  3.651165903837219*^9, 3.651165965073354*^9}, {3.652461330896809*^9, 
+  3.652461338807889*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Submit your assignment", "Section",
+ CellChangeTimes->{{3.65116334630989*^9, 3.651163358116725*^9}, {
+  3.6511644612770357`*^9, 3.6511644616611767`*^9}}],
+
+Cell["\<\
+When you are finished, submit this notebook to the OWL site for the course\
+\>", "Text",
+ CellChangeTimes->{{3.651163360260654*^9, 3.651163380900011*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{808, 911},
+WindowMargins->{{Automatic, 792}, {Automatic, 156}},
+Magnification:>1.25 Inherited,
+FrontEndVersion->"11.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (July 28, \
+2016)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 215, 3, 183, "Title"],
+Cell[CellGroupData[{
+Cell[820, 29, 127, 1, 136, "Chapter"],
+Cell[950, 32, 261, 7, 164, "Subchapter"],
+Cell[CellGroupData[{
+Cell[1236, 43, 117, 1, 58, "Subchapter"],
+Cell[CellGroupData[{
+Cell[1378, 48, 103, 1, 80, "Section"],
+Cell[1484, 51, 87, 1, 37, "Text"],
+Cell[1574, 54, 88, 1, 37, "Text"],
+Cell[1665, 57, 99, 1, 37, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1801, 63, 158, 2, 80, "Section"],
+Cell[1962, 67, 835, 14, 132, "Text"],
+Cell[CellGroupData[{
+Cell[2822, 85, 121, 1, 54, "Subsection"],
+Cell[CellGroupData[{
+Cell[2968, 90, 126, 1, 43, "Subsubsection"],
+Cell[3097, 93, 238, 6, 66, "Input"],
+Cell[3338, 101, 191, 4, 39, "Input"],
+Cell[3532, 107, 184, 4, 61, "Text"],
+Cell[CellGroupData[{
+Cell[3741, 115, 160, 3, 39, "Input"],
+Cell[3904, 120, 1316, 21, 170, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5257, 146, 137, 2, 39, "Input"],
+Cell[5397, 150, 73, 1, 39, "Output"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5519, 157, 111, 1, 43, "Subsubsection"],
+Cell[5633, 160, 476, 11, 92, "Input"],
+Cell[CellGroupData[{
+Cell[6134, 175, 164, 3, 39, "Input"],
+Cell[6301, 180, 1357, 22, 170, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7695, 207, 139, 2, 39, "Input"],
+Cell[7837, 211, 74, 1, 39, "Output"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7984, 220, 107, 1, 80, "Section"],
+Cell[8094, 223, 366, 7, 85, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[8497, 235, 206, 3, 80, "Section"],
+Cell[8706, 240, 352, 7, 61, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[9095, 252, 99, 1, 80, "Section"],
+Cell[9197, 255, 498, 12, 85, "Text"],
+Cell[9698, 269, 179, 4, 61, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[9914, 278, 100, 1, 80, "Section"],
+Cell[10017, 281, 508, 11, 109, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[10562, 297, 98, 1, 80, "Section"],
+Cell[10663, 300, 433, 7, 109, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[11133, 312, 97, 1, 80, "Section"],
+Cell[11233, 315, 459, 8, 85, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[11729, 328, 124, 2, 80, "Section"],
+Cell[11856, 332, 338, 6, 85, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[12231, 343, 115, 1, 80, "Section"],
+Cell[12349, 346, 352, 6, 85, "Text"],
+Cell[12704, 354, 269, 5, 61, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[13010, 364, 143, 2, 80, "Section"],
+Cell[13156, 368, 260, 5, 85, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[13453, 378, 92, 1, 80, "Section"],
+Cell[13548, 381, 611, 10, 132, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[14196, 396, 159, 2, 80, "Section"],
+Cell[14358, 400, 164, 3, 37, "Text"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
