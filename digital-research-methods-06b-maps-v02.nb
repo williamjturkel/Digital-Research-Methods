@@ -1,0 +1,1915 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     69843,       1907]
+NotebookOptionsPosition[     61994,       1663]
+NotebookOutlinePosition[     63639,       1711]
+CellTagsIndexPosition[     63560,       1706]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ TogglerBox[2, {1->
+  OverlayBox[{
+   TagBox[GridBox[{
+      {
+       GraphicsBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBAkBOaF5xZnpeaopnXklqemqRRRIz
+UFAKiEGSLED8//9/gvjRo0fsN27cELp69arY+fPnpZExPn137tzhBqrRBGJ/
+ID4CxMfRMTZ9L168YL5w4YIaUD4AiC8C8Qcg/gvE/9AxFreC7PQD4gtA/BGq
+7j8ujKz3+fPnLFC9b6H24dSHTf/FixfVofYSpRdZPzSsAqBuJkovsn5oOF8k
+5F9s+h88eMBBjt0w/devXxcGso+S4m9k/ZcuXRKHpgeS3A7TD0wrkpToPw9J
+ywOmn1L3Uxp+lMYfpemH0vRLjfwDjQey8y9a+fGOWDPwlF+gsPhEKDywlZ8g
+d0D9EniexPITGd++fZv3PBnlN6764zxa3QHCAIDESDs=
+         "], {{0, 26}, {16, 
+         0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{16, 26},
+        PlotRange->{{0, 16}, {0, 26}}], 
+       GraphicsBox[RasterBox[CompressedData["
+1:eJzt2V1vVFUUBuBGTfTSSygthYYKNHyVinrrpbcYfwBEJN5gUkyMfw9KKaVw
+KCkQKCW1RNIQKg1gEE3QtdN10pMRZCaBzNQ+kzxt5nzstfeZfbPOu/vkD8e/
+e6+vr+/sR/Hn+ImfvpyYOPHz1x/Hl2/OnP3+9JlT33515sdTp09NfHHy/TjY
+H6592Nf3QfyvqmpHBwbCYNr5GoMNAw2d1AEAADa3/obtLba1aJ7rb4xR9x1D
+YVfYHYbDnjASPgn7wv4wGg6Eg+FQOByOhLEwnj4Nx8Jn6fM21dcfyzHq8cay
+xuGseTDnMJpz2pdzHMk5D+caduWa6v6p+czafU71s6p1+/cGAADYqt52/9va
+++6tXt331j3v0TTeoj5e966v6lv3Vv/uWfWr9LJm9tzMpN+UW3eaVV9s00yY
+CzfC7bAQFhvuhjt57maYD9er9c+VcDlcCtMd1AQAADafqXQhTabz6VyL+vhk
+Xl/uLX1D6UFmw9VwrVrvL0o/cqta7ztKD3Iv/BLuh1/DSngYHoXfwlp4Ep6F
+38Pz8Ed4Ef5Mf71Gff5F3vM8x3iWY65ljUdZcyXncD/ndC/neDvnfCPXcC3X
+NJtrnG48r3afU/2s6uc11QO/OwAAwFbzLvrfksWVjK30kSV3KxncUlgOD6qN
+vnc1PK42+t7iaaq/r+U1q9VG3/ogx1rKse9krfmsrV+l15R9WDLmkjWXzLl8
+yvuVsmdLJl3eu5R9XN7BNLPrhTxX3seUvT3TQc2Xbfr7LWq3JgAAwH95m33K
+u9Dt5wMAAMDmp2dlK+vGnu/2+yQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYPN42aZu
+1AQAAAAAAICtrNsZIXRTN/b8xTbNhLlwI9wOC2Gx4W64k+duhvlwvVr/XAmX
+w6Uw3UFNAAAAAAAA6EVT6UKaTOfTuRb18cm8vtxbcrOSwc2Gq9V6FlcytlvV
+eu5WMrilsBwehJXwMKyGx2EtPElPU/19La9ZzXtWcozlHHMxa9zKmnM5h9mc
+03Rjfe2uq15bvb6pHvid2NzKPiwZc8maS+ZcPiWDLnu2ZNIlmy77uGTVzex6
+Ic+VbLvs7ZkOau7owEAYTDtfY7BhoKGTOgAAAAAAANDr+hu2t9jWonmuvzFG
+nbsNhd1hOOwJI2Fv2B9Gw4FwMBwKR8JYOJrGW9THx/LaQ3nvgRxrf449krWG
+s/ZQtZH3NdfY7rrqtdW6/fvw/9LMnpuZ9Jty646y6n8AhCP7tg==
+         "], {{0, 26}, {
+         2000, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{2000, 26},
+        PlotRange->{{0, 2000}, {0, 26}}], 
+       GraphicsBox[RasterBox[CompressedData["
+1:eJy9lktLQkEUxyVdCBIELaxctYq+QduWbcKMPoCSRRsDC6JPp+Lj4vuq+EBc
+iBtFfIYrpU7nPzQiN++9vmrgp/dx5j8z55w5c099z56HPYvF8mLnH4/37TIY
+9L7fHvDNXeDl6THgv78KvPof/cELn5UfnjBHjI3J5/OudVBV9bhUKjmbzaad
+iCxmcB9lAxKMmzmv1+v7JvpfG/DJjJkic8NrOut0OlYdfdoCjPXBqMx1q9Vy
+7FhfgvX0MUa73bYZ6edyuTnrvPsZQ4Wv9PTRL5vNroTOGIiJu9FoOLT6UjuT
+yVAqlaJkMin+0+m0YPEZbHTGQDwKyKtl+ugHjdFoRIVCgeLxOCUSCQGua7Ua
+9Xo9YQNbozXI/aHVZ//RcDik2WxG5XKZwuGwANdo0JfrNIhDvFqtHi7zD+YW
+i8VoMBgIvWKxKEDrdrtiHbAxiAF8pHAf5zJ9+Bca0WiUxuMxydbv98U64CvY
+wNZgTyioI9r8QR/EEvrQUhRlrh8Kheb6sDHTZ1xG84ePMP/pdPpr/tvoL/of
+Mcb9Jv7X+mcxP2X+QCMSiYh5VyoVMQbXMbP81I2vzM/JZCLyX+a+BPmPvbFN
+fmr36pr713B/rVp7THy/tD6Y1cjF5zrahvVtB5jW5y21B/kVzpc1kecjfK53
+Pu7kfNfO+x+/T/70++ob7NUEtQ==
+         "], {{0, 26}, {24, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{24, 26},
+        PlotRange->{{0, 24}, {0, 26}}]}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {Automatic, 
+         Scaled[0.6], Automatic}},
+     GridBoxSpacings->{"Columns" -> {{0}}, "Rows" -> {{0}}}],
+    "Grid"], 
+   PaneBox[
+    StyleBox[
+     RowBox[{
+     "Background", " ", "images", " ", "and", " ", "text", " ", "colors", " ",
+       "have", " ", "been", " ", "adjusted", " ", "for", " ", "editing", " ", 
+      
+      RowBox[{"purposes", "."}]}],
+     LineBreakWithin->False,
+     FontFamily->"Helvetica",
+     FontSize->12,
+     FontColor->GrayLevel[0.4]],
+    Alignment->Center,
+    ImageSize->Scaled[0.5],
+    ScrollPosition->{0., 0.}]},
+   Alignment->{Center, Center}], 2->""}, "1"]], "SlideShowNavigationBar", \
+"FirstSlide",
+ CellMargins->{{0, 0}, {0, 0}},
+ CellFrameLabelMargins->2,
+ CellSize->{Inherited, 30},
+ CellChangeTimes->{3.647361175465108*^9},
+ TextAlignment->Center,
+ CellTags->"SlideShowHeader"],
+
+Cell["\<\
+Digital Research Methods 06B:
+Maps\
+\>", "Title",
+ CellChangeTimes->{
+  3.559948400406288*^9, {3.647331852839075*^9, 3.647331861295168*^9}, {
+   3.647331922221755*^9, 3.647331924532915*^9}, {3.647332658962614*^9, 
+   3.64733266480881*^9}, {3.6473611327373047`*^9, 3.647361139759391*^9}, {
+   3.647448943135475*^9, 3.6474489472294493`*^9}, {3.6523678435971603`*^9, 
+   3.6523678478352737`*^9}}],
+
+Cell[TextData[{
+ "William J Turkel, ",
+ StyleBox["wturkel@uwo.ca",
+  FontSlant->"Italic",
+  FontColor->RGBColor[
+   0.396078431372549, 0.596078431372549, 0.796078431372549]],
+ "\nHistory 2816 / Digital Humanities 2130 / History 9877"
+}], "Subtitle",
+ CellChangeTimes->{{3.647331955723979*^9, 3.6473319708190517`*^9}, 
+   3.647332103720562*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Overview", "Section",
+ CellChangeTimes->{{3.647361153919208*^9, 3.6473611548467712`*^9}}],
+
+Cell[TextData[{
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " includes an extensive set of commands for creating maps and doing \
+computation with geospatial entities."
+}], "Text",
+ CellChangeTimes->{{3.647361157582405*^9, 3.647361159086673*^9}, {
+  3.652369828293847*^9, 3.6523698907143307`*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Setup", "Section",
+ CellChangeTimes->{{3.647716369451888*^9, 3.647716370003084*^9}, {
+  3.647798474690284*^9, 3.6477984752570744`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"viewData", "[", "x_", "]"}], ":=", "\[IndentingNewLine]", 
+  RowBox[{"Framed", "[", 
+   RowBox[{"Pane", "[", 
+    RowBox[{"x", ",", 
+     RowBox[{"{", 
+      RowBox[{"Automatic", ",", "200"}], "}"}], ",", 
+     RowBox[{"Scrollbars", "\[Rule]", "True"}]}], "]"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.511539182255096*^9, 3.51153920239167*^9}}],
+
+Cell[TextData[{
+ "Our example for this class will be Charles Darwin\[CloseCurlyQuote]s voyage \
+on the ",
+ StyleBox["Beagle",
+  FontSlant->"Italic"],
+ " (1831-1836)"
+}], "Text",
+ CellChangeTimes->{{3.683817183451569*^9, 3.683817207027348*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"TextSentences", "[", 
+   RowBox[{"WikipediaData", "[", "\"\<The Voyage of the Beagle\>\"", "]"}], 
+   "]"}], "\[LeftDoubleBracket]", 
+  RowBox[{"7", ";;", "10"}], "\[RightDoubleBracket]"}]], "Input",
+ CellChangeTimes->{{3.683817043587307*^9, 3.683817109375063*^9}, {
+  3.6838171546453037`*^9, 3.6838171755961857`*^9}}],
+
+Cell[TextData[{
+ "This very brief itinerary for Darwin\[CloseCurlyQuote]s voyage on the ",
+ StyleBox["Beagle",
+  FontSlant->"Italic"],
+ " is adapted from much more detailed online sources."
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.6523742322855167`*^9, 3.65237425577113*^9}, {3.652374536922089*^9, 
+  3.6523745435764103`*^9}, {3.652375174418907*^9, 3.652375175545422*^9}, {
+  3.683817219882415*^9, 3.683817228906103*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"beagleVeryBriefItinerary", "=", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"1831", ",", "12", ",", "28"}], "}"}], ",", 
+       TemplateBox[{"\"Plymouth\"",RowBox[{"Entity", "[", 
+           RowBox[{"\"City\"", ",", 
+             RowBox[{"{", 
+               
+               RowBox[{
+                "\"Plymouth\"", ",", "\"Plymouth\"", ",", 
+                 "\"UnitedKingdom\""}], "}"}]}], "]"}],
+         "\"Entity[\\\"City\\\", {\\\"Plymouth\\\", \\\"Plymouth\\\", \
+\\\"UnitedKingdom\\\"}]\"","\"city\""},
+        "Entity"]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"1832", ",", "1", ",", "4"}], "}"}], ",", 
+       TemplateBox[{"\"Madeira Island\"",RowBox[{"Entity", "[", 
+           RowBox[{"\"Island\"", ",", "\"MadeiraIsland\""}], "]"}],
+         "\"Entity[\\\"Island\\\", \\\"MadeiraIsland\\\"]\"","\"island\""},
+        "Entity"]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"1832", ",", "4", ",", "4"}], "}"}], ",", 
+       TemplateBox[{"\"Rio de Janeiro\"",RowBox[{"Entity", "[", 
+           RowBox[{"\"City\"", ",", 
+             RowBox[{"{", 
+               
+               RowBox[{
+                "\"RioDeJaneiro\"", ",", "\"RioDeJaneiro\"", ",", 
+                 "\"Brazil\""}], "}"}]}], "]"}],
+         "\"Entity[\\\"City\\\", {\\\"RioDeJaneiro\\\", \\\"RioDeJaneiro\\\", \
+\\\"Brazil\\\"}]\"","\"city\""},
+        "Entity"]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"1832", ",", "11", ",", "2"}], "}"}], ",", 
+       TemplateBox[{"\"Buenos Aires\"",RowBox[{"Entity", "[", 
+           RowBox[{"\"City\"", ",", 
+             RowBox[{"{", 
+               
+               RowBox[{
+                "\"BuenosAires\"", ",", "\"BuenosAires\"", ",", 
+                 "\"Argentina\""}], "}"}]}], "]"}],
+         "\"Entity[\\\"City\\\", {\\\"BuenosAires\\\", \\\"BuenosAires\\\", \
+\\\"Argentina\\\"}]\"","\"city\""},
+        "Entity"]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"1833", ",", "2", ",", "26"}], "}"}], ",", 
+       TemplateBox[{"\"Falkland Islands\"",RowBox[{"Entity", "[", 
+           RowBox[{"\"Country\"", ",", "\"FalklandIslands\""}], "]"}],
+         "\"Entity[\\\"Country\\\", \\\"FalklandIslands\\\"]\"","\"country\""},
+        "Entity"]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"1834", ",", "7", ",", "23"}], "}"}], ",", 
+       TemplateBox[{"\"Valparaiso\"",RowBox[{"Entity", "[", 
+           RowBox[{"\"City\"", ",", 
+             RowBox[{"{", 
+               
+               RowBox[{
+                "\"Valparaiso\"", ",", "\"Valparaiso\"", ",", "\"Chile\""}], 
+               "}"}]}], "]"}],
+         "\"Entity[\\\"City\\\", {\\\"Valparaiso\\\", \\\"Valparaiso\\\", \
+\\\"Chile\\\"}]\"","\"city\""},
+        "Entity"]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"1834", ",", "12", ",", "13"}], "}"}], ",", 
+       TemplateBox[{"\"Fitzroy Island\"",RowBox[{"Entity", "[", 
+           RowBox[{"\"Island\"", ",", "\"FitzroyIslandChile\""}], "]"}],
+         "\"Entity[\\\"Island\\\", \\\"FitzroyIslandChile\\\"]\"",
+         "\"island\""},
+        "Entity"]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"1835", ",", "7", ",", "19"}], "}"}], ",", 
+       TemplateBox[{"\"Lima\"",RowBox[{"Entity", "[", 
+           RowBox[{"\"City\"", ",", 
+             RowBox[{"{", 
+               RowBox[{"\"Lima\"", ",", "\"Lima\"", ",", "\"Peru\""}], 
+               "}"}]}], "]"}],
+         "\"Entity[\\\"City\\\", {\\\"Lima\\\", \\\"Lima\\\", \
+\\\"Peru\\\"}]\"","\"city\""},
+        "Entity"]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"1835", ",", "11", ",", "15"}], "}"}], ",", 
+       TemplateBox[{"\"Tahiti Island\"",RowBox[{"Entity", "[", 
+           RowBox[{"\"Island\"", ",", "\"TahitiIsland\""}], "]"}],
+         "\"Entity[\\\"Island\\\", \\\"TahitiIsland\\\"]\"","\"island\""},
+        "Entity"]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"1836", ",", "1", ",", "12"}], "}"}], ",", 
+       TemplateBox[{"\"Sydney\"",RowBox[{"Entity", "[", 
+           RowBox[{"\"City\"", ",", 
+             RowBox[{"{", 
+               
+               RowBox[{
+                "\"Sydney\"", ",", "\"NewSouthWales\"", ",", 
+                 "\"Australia\""}], "}"}]}], "]"}],
+         "\"Entity[\\\"City\\\", {\\\"Sydney\\\", \\\"NewSouthWales\\\", \
+\\\"Australia\\\"}]\"","\"city\""},
+        "Entity"]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"1836", ",", "4", ",", "1"}], "}"}], ",", 
+       TemplateBox[{"\"Cocos Keeling Islands\"",RowBox[{"Entity", "[", 
+           RowBox[{"\"Country\"", ",", "\"CocosKeelingIslands\""}], "]"}],
+         "\"Entity[\\\"Country\\\", \\\"CocosKeelingIslands\\\"]\"",
+         "\"country\""},
+        "Entity"]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"1836", ",", "6", ",", "1"}], "}"}], ",", 
+       TemplateBox[{"\"Cape Town\"",RowBox[{"Entity", "[", 
+           RowBox[{"\"City\"", ",", 
+             RowBox[{"{", 
+               
+               RowBox[{
+                "\"CapeTown\"", ",", "\"WesternCape\"", ",", 
+                 "\"SouthAfrica\""}], "}"}]}], "]"}],
+         "\"Entity[\\\"City\\\", {\\\"CapeTown\\\", \\\"WesternCape\\\", \
+\\\"SouthAfrica\\\"}]\"","\"city\""},
+        "Entity"]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"1836", ",", "7", ",", "8"}], "}"}], ",", 
+       TemplateBox[{
+        "\"Saint Helena, Ascension and Tristan da Cunha\"",
+         RowBox[{"Entity", "[", 
+           RowBox[{"\"Country\"", ",", "\"SaintHelena\""}], "]"}],
+         "\"Entity[\\\"Country\\\", \\\"SaintHelena\\\"]\"","\"country\""},
+        "Entity"]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"1836", ",", "10", ",", "2"}], "}"}], ",", 
+       TemplateBox[{"\"Falmouth\"",RowBox[{"Entity", "[", 
+           RowBox[{"\"City\"", ",", 
+             RowBox[{"{", 
+               
+               RowBox[{
+                "\"Falmouth\"", ",", "\"Cornwall\"", ",", 
+                 "\"UnitedKingdom\""}], "}"}]}], "]"}],
+         "\"Entity[\\\"City\\\", {\\\"Falmouth\\\", \\\"Cornwall\\\", \
+\\\"UnitedKingdom\\\"}]\"","\"city\""},
+        "Entity"]}], "}"}]}], "}"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.652374259355029*^9, 3.652374271938596*^9}, {
+  3.652374357675756*^9, 3.6523745185900784`*^9}}],
+
+Cell["\<\
+Here are two functions that will let us visualize the voyage.\
+\>", "Text",
+ CellChangeTimes->{{3.683817236466284*^9, 3.683817244785287*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"mapImageLeg", "[", 
+   RowBox[{"itin_", ",", "n_"}], "]"}], ":=", "\[IndentingNewLine]", 
+  RowBox[{"With", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"dist", "=", 
+      RowBox[{"GeoDistance", "[", 
+       RowBox[{
+        RowBox[{"itin", "\[LeftDoubleBracket]", 
+         RowBox[{"n", ",", "2"}], "\[RightDoubleBracket]"}], ",", 
+        RowBox[{"itin", "\[LeftDoubleBracket]", 
+         RowBox[{
+          RowBox[{"n", "+", "1"}], ",", "2"}], "\[RightDoubleBracket]"}]}], 
+       "]"}]}], "}"}], ",", "\[IndentingNewLine]", 
+    RowBox[{"Column", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"GeoGraphics", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"GeoStyling", "[", "\"\<OutlineMap\>\"", "]"}], ",", 
+            "Red", ",", "Thick", ",", 
+            RowBox[{"GeoPath", "[", 
+             RowBox[{"{", 
+              RowBox[{
+               RowBox[{"itin", "\[LeftDoubleBracket]", 
+                RowBox[{"n", ",", "2"}], "\[RightDoubleBracket]"}], ",", 
+               RowBox[{"itin", "\[LeftDoubleBracket]", 
+                RowBox[{
+                 RowBox[{"n", "+", "1"}], ",", "2"}], 
+                "\[RightDoubleBracket]"}]}], "}"}], "]"}]}], "}"}], ",", 
+          RowBox[{"GeoRange", "\[Rule]", "All"}], ",", 
+          RowBox[{"ImageSize", "\[Rule]", 
+           RowBox[{"{", 
+            RowBox[{"300", ",", "Automatic"}], "}"}]}]}], "]"}], ",", 
+        RowBox[{"GeoListPlot", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"itin", "\[LeftDoubleBracket]", 
+             RowBox[{"n", ",", "2"}], "\[RightDoubleBracket]"}], ",", 
+            RowBox[{"itin", "\[LeftDoubleBracket]", 
+             RowBox[{
+              RowBox[{"n", "+", "1"}], ",", "2"}], 
+             "\[RightDoubleBracket]"}]}], "}"}], ",", 
+          RowBox[{"GeoRange", "\[Rule]", "dist"}], ",", 
+          RowBox[{"GeoScaleBar", "\[Rule]", 
+           RowBox[{"Placed", "[", 
+            RowBox[{
+             TemplateBox[{RowBox[{"{", 
+                 RowBox[{"0", ",", "400"}], "}"}]},
+              "QuantityUnit",
+              DisplayFunction->(TooltipBox[
+                StyleBox[
+                 RowBox[{#, "\[InvisibleSpace]", 
+                   StyleBox[
+                    RowBox[{" ", "\"km\""}], 
+                    "QuantityUnitTraditionalLabel"]}], ShowStringCharacters -> 
+                 False], "Unit: kilometers"]& ),
+              InterpretationFunction->(RowBox[{"Quantity", "[", 
+                 RowBox[{#, ",", "\"Kilometers\""}], "]"}]& )], ",", 
+             RowBox[{"{", 
+              RowBox[{"Right", ",", "Bottom"}], "}"}]}], "]"}]}], ",", 
+          RowBox[{"GeoLabels", "\[Rule]", "True"}], ",", 
+          RowBox[{"Joined", "\[Rule]", "True"}], ",", 
+          RowBox[{"ImageSize", "\[Rule]", 
+           RowBox[{"{", 
+            RowBox[{"300", ",", "Automatic"}], "}"}]}]}], "]"}]}], "}"}], ",",
+       "Center", ",", 
+      RowBox[{"Scaled", "[", "0.01", "]"}]}], "]"}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.64198901617367*^9, 3.641989018415073*^9}, {
+   3.6419907824087887`*^9, 3.6419908497322397`*^9}, {3.641990885981723*^9, 
+   3.641990916104101*^9}, {3.641991575844019*^9, 3.641991628238084*^9}, {
+   3.641991666100848*^9, 3.641991675764373*^9}, {3.641992346238092*^9, 
+   3.641992374740531*^9}, {3.641992460833041*^9, 3.641992508897901*^9}, {
+   3.641992576652958*^9, 3.6419925915754013`*^9}, {3.641992634392415*^9, 
+   3.641992669585688*^9}, {3.641992706960919*^9, 3.641992723506249*^9}, {
+   3.641993124418294*^9, 3.6419931361075697`*^9}, {3.6419931881753483`*^9, 
+   3.641993206478603*^9}, {3.64199328416759*^9, 3.641993315106683*^9}, 
+   3.6419933649626627`*^9, {3.641993409338997*^9, 3.641993421732101*^9}, {
+   3.6419934638463087`*^9, 3.641993566001878*^9}, {3.641993643395237*^9, 
+   3.641993647800376*^9}, {3.641993801499645*^9, 3.641993815440237*^9}, {
+   3.6419938657762833`*^9, 3.641994094222293*^9}, {3.6419941617092123`*^9, 
+   3.641994175635386*^9}, {3.641994233074007*^9, 3.6419942360498123`*^9}, {
+   3.641994279032922*^9, 3.641994322872499*^9}, {3.641994712561795*^9, 
+   3.641994730905137*^9}, 3.641994816877459*^9, 3.641995529012259*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"itineraryBrowser", "[", "itin_", "]"}], ":=", 
+  RowBox[{"Manipulate", "[", 
+   RowBox[{
+    RowBox[{"Column", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"Row", "[", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"DateObject", "[", 
+            RowBox[{"itin", "\[LeftDoubleBracket]", 
+             RowBox[{"n", ",", "1"}], "\[RightDoubleBracket]"}], "]"}], ",", 
+           RowBox[{"Invisible", "[", "\"\<m\>\"", "]"}], ",", 
+           RowBox[{"DateObject", "[", 
+            RowBox[{"itin", "\[LeftDoubleBracket]", 
+             RowBox[{
+              RowBox[{"n", "+", "1"}], ",", "1"}], "\[RightDoubleBracket]"}], 
+            "]"}]}], "}"}], "]"}], ",", 
+        RowBox[{"mapImageLeg", "[", 
+         RowBox[{"itin", ",", "n"}], "]"}]}], "}"}], ",", "Center"}], "]"}], 
+    ",", 
+    RowBox[{"{", 
+     RowBox[{"n", ",", "1", ",", 
+      RowBox[{
+       RowBox[{"Length", "[", "itin", "]"}], "-", "1"}], ",", "1"}], "}"}]}], 
+   "]"}]}]], "Input",
+ CellChangeTimes->{{3.641996119599948*^9, 3.641996151196436*^9}, {
+   3.6419966559872723`*^9, 3.641996740008606*^9}, {3.641996999255484*^9, 
+   3.641997012245916*^9}, {3.6419973975932837`*^9, 3.6419974272472353`*^9}, {
+   3.641997568086725*^9, 3.641997573266128*^9}, {3.641997615858385*^9, 
+   3.641997620629315*^9}, {3.641997717288238*^9, 3.641997718932993*^9}, {
+   3.6419977544974194`*^9, 3.641997788664735*^9}, {3.641997829835393*^9, 
+   3.64199783558071*^9}, {3.641997914823409*^9, 3.6419979328291683`*^9}, 
+   3.642000153335842*^9, {3.6420003778788652`*^9, 3.642000450180928*^9}, {
+   3.642000494330915*^9, 3.6420005075234013`*^9}, {3.642347072732623*^9, 
+   3.6423470751729927`*^9}, {3.642347253913637*^9, 3.642347259729402*^9}, {
+   3.642347428018724*^9, 3.642347468591387*^9}, {3.6423475930497026`*^9, 
+   3.642347639336026*^9}, {3.64234771667085*^9, 3.6423477270447683`*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Mapping countries, cities and other geospatial entities", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.6523699402738533`*^9, 3.652369944848639*^9}, {3.652370659920992*^9, 
+  3.652370661272155*^9}, {3.652370729045969*^9, 3.6523707348214407`*^9}}],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["GeoGraphics",
+  FontWeight->"Bold"],
+ " command allows us to visualize countries in their geographical context. If \
+we wrap an entity in the ",
+ StyleBox["Polygon",
+  FontWeight->"Bold"],
+ " command it is shaded."
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.652369980472329*^9, 3.652370007926599*^9}, {3.6523740109096317`*^9, 
+  3.652374043674972*^9}, {3.652455755900317*^9, 3.652455760770638*^9}}],
+
+Cell[BoxData[
+ RowBox[{"GeoGraphics", "[", 
+  RowBox[{"Polygon", "[", 
+   TemplateBox[{"\"United Kingdom\"",RowBox[{"Entity", "[", 
+       RowBox[{"\"Country\"", ",", "\"UnitedKingdom\""}], "]"}],
+     "\"Entity[\\\"Country\\\", \\\"UnitedKingdom\\\"]\"","\"country\""},
+    "Entity"], "]"}], "]"}]], "Input",
+ CellID->82108289],
+
+Cell[TextData[{
+ "We can change the scale of the background map by changing the value of \
+the",
+ StyleBox[" GeoRangePadding",
+  FontSlant->"Italic"],
+ " attribute. Here we set the ",
+ StyleBox["GeoBackground",
+  FontSlant->"Italic"],
+ " attribute to display a relief map, and use ",
+ StyleBox["EdgeForm",
+  FontSlant->"Italic"],
+ " to draw a black border around the country."
+}], "Text",
+ CellChangeTimes->{{3.652370012214438*^9, 3.652370062325061*^9}, {
+  3.652370281454657*^9, 3.652370311564767*^9}, {3.652370452552751*^9, 
+  3.652370455799769*^9}, {3.652370626890141*^9, 3.65237063808904*^9}, {
+  3.6523740624983263`*^9, 3.652374065754197*^9}}],
+
+Cell[BoxData[
+ RowBox[{"GeoGraphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"EdgeForm", "[", "Black", "]"}], ",", 
+     RowBox[{"GeoStyling", "[", "\"\<StreetMap\>\"", "]"}], ",", 
+     RowBox[{"Polygon", "[", 
+      NamespaceBox["LinguisticAssistant",
+       DynamicModuleBox[{WolframAlphaClient`Private`query$$ = "Germany", 
+        WolframAlphaClient`Private`boxes$$ = TemplateBox[{"\"Germany\"", 
+          RowBox[{"Entity", "[", 
+            RowBox[{"\"Country\"", ",", "\"Germany\""}], "]"}], 
+          "\"Entity[\\\"Country\\\", \\\"Germany\\\"]\"", "\"country\""}, 
+         "Entity"], WolframAlphaClient`Private`allassumptions$$ = {}, 
+        WolframAlphaClient`Private`assumptions$$ = {}, 
+        WolframAlphaClient`Private`open$$ = {1, 2}}, 
+        DynamicBox[ToBoxes[
+          AlphaIntegration`LinguisticAssistantBoxes["", 1, 
+           Dynamic[WolframAlphaClient`Private`query$$], 
+           Dynamic[WolframAlphaClient`Private`boxes$$], 
+           Dynamic[WolframAlphaClient`Private`allassumptions$$], 
+           Dynamic[WolframAlphaClient`Private`assumptions$$], 
+           Dynamic[WolframAlphaClient`Private`open$$]], StandardForm],
+         ImageSizeCache->{181., {11., 22.}},
+         TrackedSymbols:>{
+          WolframAlphaClient`Private`query$$, 
+           WolframAlphaClient`Private`boxes$$, 
+           WolframAlphaClient`Private`allassumptions$$, 
+           WolframAlphaClient`Private`assumptions$$, 
+           WolframAlphaClient`Private`open$$}],
+        DynamicModuleValues:>{},
+        UndoTrackedVariables:>{WolframAlphaClient`Private`open$$}],
+       BaseStyle->{"Deploy"},
+       DeleteWithContents->True,
+       Editable->False,
+       SelectWithContents->True], "]"}]}], "}"}], ",", 
+   RowBox[{"GeoRangePadding", "\[Rule]", 
+    TemplateBox[{"500"},
+     "QuantityUnit",
+     DisplayFunction->(TooltipBox[
+       StyleBox[
+        RowBox[{#, "\[InvisibleSpace]", 
+          StyleBox[
+           RowBox[{" ", "\"km\""}], "QuantityUnitTraditionalInput"]}], 
+        ShowStringCharacters -> False], "Unit: kilometers"]& ),
+     InterpretationFunction->(RowBox[{"Quantity", "[", 
+        RowBox[{#, ",", "\"Kilometers\""}], "]"}]& )]}], ",", 
+   RowBox[{"GeoBackground", "->", "\"\<ReliefMap\>\""}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6523705819481773`*^9, 3.652370601555566*^9}}],
+
+Cell["We can also map cities, states, etc.", "Text",
+ CellChangeTimes->{{3.652370665623925*^9, 3.6523706671118603`*^9}, {
+  3.652370715446128*^9, 3.6523707451009827`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"GeoGraphics", "[", 
+  TemplateBox[{"\"Paris\"",RowBox[{"Entity", "[", 
+      RowBox[{"\"City\"", ",", 
+        RowBox[{"{", 
+          RowBox[{"\"Paris\"", ",", "\"IleDeFrance\"", ",", "\"France\""}], 
+          "}"}]}], "]"}],
+    "\"Entity[\\\"City\\\", {\\\"Paris\\\", \\\"IleDeFrance\\\", \\\"France\\\
+\"}]\"","\"city\""},
+   "Entity"], "]"}]], "Input",
+ CellChangeTimes->{{3.652370703887804*^9, 3.652370706031551*^9}},
+ CellID->1823727675],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["FaceForm",
+  FontWeight->"Bold"],
+ " command shades in a polygon."
+}], "Text",
+ CellChangeTimes->{{3.6523737863649883`*^9, 3.652373789900436*^9}, {
+  3.652373831219458*^9, 3.6523738383387613`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"GeoGraphics", "[", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"EdgeForm", "[", "Blue", "]"}], ",", 
+    RowBox[{"FaceForm", "[", "Orange", "]"}], ",", 
+    RowBox[{"Polygon", "[", 
+     TemplateBox[{"\"California, United States\"",RowBox[{"Entity", "[", 
+         RowBox[{"\"AdministrativeDivision\"", ",", 
+           RowBox[{"{", 
+             RowBox[{"\"California\"", ",", "\"UnitedStates\""}], "}"}]}], 
+         "]"}],"\"Entity[\\\"AdministrativeDivision\\\", {\\\"California\\\", \
+\\\"UnitedStates\\\"}]\"","\"administrative division\""},
+      "Entity"], "]"}]}], "}"}], "]"}]], "Input",
+ CellChangeTimes->{{3.652370747796096*^9, 3.652370791596311*^9}, {
+  3.652373743096169*^9, 3.65237382436343*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["World maps, paths and projections", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.652373992733708*^9, 3.652373996036737*^9}, {3.6523746120635223`*^9, 
+  3.652374612733809*^9}}],
+
+Cell[TextData[{
+ "We can plot a map of the world with ",
+ StyleBox["GeoGraphics",
+  FontWeight->"Bold"],
+ ", using the ",
+ StyleBox["GeoProjection",
+  FontSlant->"Italic"],
+ " attribute to choose a projection"
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.652374622630548*^9, 3.652374657153837*^9}}],
+
+Cell[BoxData[
+ RowBox[{"GeoGraphics", "[", 
+  RowBox[{
+   RowBox[{"GeoRange", "\[Rule]", "\"\<World\>\""}], ",", 
+   RowBox[{"GeoProjection", "\[Rule]", "\"\<Robinson\>\""}]}], "]"}]], "Input",\
+
+ CellID->1387433762],
+
+Cell[BoxData[
+ RowBox[{"GeoGraphics", "[", 
+  RowBox[{
+   RowBox[{"GeoRange", "\[Rule]", "\"\<World\>\""}], ",", 
+   RowBox[{"GeoProjection", "\[Rule]", "\"\<Orthographic\>\""}]}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.6523746746365623`*^9, 3.652374690665525*^9}, {
+  3.6523748894290237`*^9, 3.6523749189478483`*^9}},
+ CellID->463040148],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["GeoPath",
+  FontWeight->"Bold"],
+ " command shows us the shortest path (geodesic) between two points."
+}], "Text",
+ CellChangeTimes->{{3.652374702923133*^9, 3.6523747046744556`*^9}, {
+  3.65237473856203*^9, 3.652374748944858*^9}, {3.6523749496743917`*^9, 
+  3.652374956945354*^9}}],
+
+Cell[BoxData[
+ RowBox[{"GeoGraphics", "[", 
+  RowBox[{
+   RowBox[{"GeoPath", "[", 
+    RowBox[{"{", 
+     RowBox[{
+      TemplateBox[{"\"New Delhi\"",RowBox[{"Entity", "[", 
+          RowBox[{"\"City\"", ",", 
+            RowBox[{"{", 
+              RowBox[{"\"NewDelhi\"", ",", "\"Delhi\"", ",", "\"India\""}], 
+              "}"}]}], "]"}],
+        "\"Entity[\\\"City\\\", {\\\"NewDelhi\\\", \\\"Delhi\\\", \\\"India\\\
+\"}]\"","\"city\""},
+       "Entity"], ",", 
+      TemplateBox[{"\"New York City\"",RowBox[{"Entity", "[", 
+          RowBox[{"\"City\"", ",", 
+            RowBox[{"{", 
+              
+              RowBox[{"\"NewYork\"", ",", "\"NewYork\"", ",", 
+                "\"UnitedStates\""}], "}"}]}], "]"}],
+        "\"Entity[\\\"City\\\", {\\\"NewYork\\\", \\\"NewYork\\\", \
+\\\"UnitedStates\\\"}]\"","\"city\""},
+       "Entity"]}], "}"}], "]"}], ",", 
+   RowBox[{"GeoRange", "\[Rule]", "\"\<World\>\""}], ",", 
+   RowBox[{"GeoProjection", "\[Rule]", "\"\<Mercator\>\""}], ",", 
+   RowBox[{"Frame", "\[Rule]", "True"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.652374785812889*^9, 3.65237486994317*^9}},
+ CellID->1879742018],
+
+Cell[TextData[{
+ "We can place a graticule with the ",
+ StyleBox["GeoGridLines",
+  FontWeight->"Bold"],
+ " command"
+}], "Text",
+ CellChangeTimes->{{3.652374994160499*^9, 3.65237501534311*^9}}],
+
+Cell[BoxData[
+ RowBox[{"GeoGraphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"EdgeForm", "[", "Black", "]"}], ",", 
+     RowBox[{"Polygon", "[", 
+      RowBox[{"Entity", "[", 
+       RowBox[{"\"\<Country\>\"", ",", "\"\<Canada\>\""}], "]"}], "]"}]}], 
+    "}"}], ",", 
+   RowBox[{"GeoProjection", "\[Rule]", "\"\<Albers\>\""}], ",", 
+   RowBox[{"GeoGridLines", "\[Rule]", 
+    RowBox[{"Quantity", "[", 
+     RowBox[{"10", ",", "\"\<AngularDegrees\>\""}], "]"}]}]}], "]"}]], "Input",\
+
+ CellChangeTimes->{{3.6523750601586*^9, 3.652375062589636*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Annotating maps with pushpins", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.6523708094124126`*^9, 3.652370813722541*^9}, {3.6523709639337273`*^9, 
+  3.652370968380704*^9}}],
+
+Cell[TextData[{
+ "We can place a number of markers on a map with ",
+ StyleBox["GeoMarker",
+  FontWeight->"Bold"],
+ ". Here are the 20 largest cities in the US."
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.652371183117865*^9, 3.6523711919485207`*^9}, {3.65237145402827*^9, 
+  3.652371461986487*^9}, {3.652372777051464*^9, 3.652372803816893*^9}}],
+
+Cell[BoxData[
+ RowBox[{"largest20", "=", 
+  RowBox[{
+   RowBox[{"CityData", "[", 
+    RowBox[{"{", 
+     RowBox[{"Large", ",", "\"\<UnitedStates\>\""}], "}"}], "]"}], 
+   "\[LeftDoubleBracket]", 
+   RowBox[{"1", ";;", "20"}], "\[RightDoubleBracket]"}]}]], "Input",
+ CellChangeTimes->{{3.651650257559128*^9, 3.6516502648219852`*^9}, {
+  3.65165033560353*^9, 3.651650435135689*^9}},
+ CellID->734364217],
+
+Cell[BoxData[
+ RowBox[{"GeoGraphics", "[", 
+  RowBox[{
+   RowBox[{"GeoMarker", "[", "largest20", "]"}], ",", 
+   RowBox[{"GeoRangePadding", "\[Rule]", 
+    TemplateBox[{"500"},
+     "QuantityUnit",
+     DisplayFunction->(TooltipBox[
+       StyleBox[
+        RowBox[{#, "\[InvisibleSpace]", 
+          StyleBox[
+           RowBox[{" ", "\"km\""}], "QuantityUnitTraditionalInput"]}], 
+        ShowStringCharacters -> False], "Unit: kilometers"]& ),
+     InterpretationFunction->(RowBox[{"Quantity", "[", 
+        RowBox[{#, ",", "\"Kilometers\""}], "]"}]& )]}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.652371087532505*^9, 3.652371097368063*^9}, {
+  3.652371159542622*^9, 3.652371159933577*^9}, {3.652373860443651*^9, 
+  3.65237396414994*^9}}],
+
+Cell["Airports around Los Angeles", "Text",
+ CellChangeTimes->{{3.65237849923773*^9, 3.652378535331688*^9}}],
+
+Cell[BoxData[
+ RowBox[{"GeoGraphics", "[", 
+  RowBox[{"GeoMarker", "[", 
+   RowBox[{
+    RowBox[{"GeoNearest", "[", 
+     RowBox[{"\"\<Airport\>\"", ",", 
+      TemplateBox[{"\"Los Angeles\"",RowBox[{"Entity", "[", 
+          RowBox[{"\"City\"", ",", 
+            RowBox[{"{", 
+              
+              RowBox[{"\"LosAngeles\"", ",", "\"California\"", ",", 
+                "\"UnitedStates\""}], "}"}]}], "]"}],
+        "\"Entity[\\\"City\\\", {\\\"LosAngeles\\\", \\\"California\\\", \
+\\\"UnitedStates\\\"}]\"","\"city\""},
+       "Entity"], ",", 
+      RowBox[{"{", 
+       RowBox[{"All", ",", 
+        RowBox[{"Quantity", "[", 
+         RowBox[{"20", ",", "\"\<Mile\>\""}], "]"}]}], "}"}]}], "]"}], ",", 
+    TemplateBox[{"\"airport\"",RowBox[{"Entity", "[", 
+        RowBox[{"\"Icon\"", ",", "\"Airport\""}], "]"}],
+      "\"Entity[\\\"Icon\\\", \\\"Airport\\\"]\"","\"icon\""},
+     "Entity"]}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.652378517326111*^9, 3.6523785477725773`*^9}},
+ CellID->205699215]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Heat maps", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.652372873528057*^9, 3.6523728744622507`*^9}}],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["GeoRegionValuePlot",
+  FontWeight->"Bold"],
+ " command allows us to create a heat map. Here are the populations of the \
+administrative divisions of India."
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.652372881102714*^9, 3.652372891101584*^9}, {3.6523730065782022`*^9, 
+  3.652373008385284*^9}, {3.652373041864863*^9, 3.652373061623315*^9}}],
+
+Cell[BoxData[
+ RowBox[{"GeoRegionValuePlot", "[", 
+  RowBox[{
+   RowBox[{"EntityList", "@", 
+    RowBox[{"Entity", "[", 
+     RowBox[{"\"\<AdministrativeDivision\>\"", ",", 
+      RowBox[{"{", 
+       RowBox[{
+        TemplateBox[{"\"parent region\"",RowBox[{"EntityProperty", "[", 
+            RowBox[{"\"AdministrativeDivision\"", ",", "\"ParentRegion\""}], 
+            "]"}],"\"EntityProperty[\\\"AdministrativeDivision\\\", \
+\\\"ParentRegion\\\"]\""},
+         "EntityProperty"], "\[Rule]", 
+        TemplateBox[{"\"India\"",RowBox[{"Entity", "[", 
+            RowBox[{"\"Country\"", ",", "\"India\""}], "]"}],
+          "\"Entity[\\\"Country\\\", \\\"India\\\"]\"","\"country\""},
+         "Entity"]}], "}"}]}], "]"}]}], "\[Rule]", "\"\<Population\>\""}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.652372979539439*^9, 3.652372984242694*^9}, {
+  3.68381738023801*^9, 3.683817438242782*^9}},
+ CellID->1284136258],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["GeoNearest",
+  FontWeight->"Bold"],
+ " command finds entities that are near a specified one. Here are the 50 zip \
+codes that are nearest to Philadelphia, PA."
+}], "Text",
+ CellChangeTimes->{{3.652373136381144*^9, 3.6523731676833477`*^9}, 
+   3.652373260361766*^9, {3.652373293342795*^9, 3.6523733141659718`*^9}, {
+   3.6523734282977657`*^9, 3.652373430721711*^9}}],
+
+Cell[BoxData[
+ RowBox[{"phillyZips", "=", 
+  RowBox[{"GeoNearest", "[", 
+   RowBox[{"\"\<ZIPCode\>\"", ",", 
+    TemplateBox[{"\"Philadelphia\"",RowBox[{"Entity", "[", 
+        RowBox[{"\"City\"", ",", 
+          RowBox[{"{", 
+            
+            RowBox[{"\"Philadelphia\"", ",", "\"Pennsylvania\"", ",", 
+              "\"UnitedStates\""}], "}"}]}], "]"}],
+      "\"Entity[\\\"City\\\", {\\\"Philadelphia\\\", \\\"Pennsylvania\\\", \\\
+\"UnitedStates\\\"}]\"","\"city\""},
+     "Entity"], ",", "50"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.6523732556250877`*^9, 3.6523732872639017`*^9}, {
+  3.65237341187617*^9, 3.6523734231151533`*^9}, {3.6523734825527678`*^9, 
+  3.652373487087839*^9}},
+ CellID->1233631169],
+
+Cell["\<\
+Here is a heat map of per capita income for the zip codes around Philadelphia.\
+\>", "Text",
+ CellChangeTimes->{{3.6523734384099607`*^9, 3.652373444345088*^9}, {
+  3.6523734747448807`*^9, 3.652373478583846*^9}, {3.652373541374281*^9, 
+  3.652373544341464*^9}, {3.652374175208888*^9, 3.652374186717676*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"phillyZipsPerCapita", "=", 
+   RowBox[{"ZIPCodeData", "[", 
+    RowBox[{"phillyZips", ",", "\"\<PerCapitaIncome\>\""}], "]"}]}], 
+  ";"}]], "Input",
+ CellChangeTimes->{{3.65237349086165*^9, 3.652373538021769*^9}}],
+
+Cell[BoxData[
+ RowBox[{"GeoRegionValuePlot", "[", 
+  RowBox[{"MapThread", "[", 
+   RowBox[{"Rule", ",", 
+    RowBox[{"{", 
+     RowBox[{"phillyZips", ",", "phillyZipsPerCapita"}], "}"}]}], "]"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.6523735556684427`*^9, 3.652373577321382*^9}, {
+  3.652373671657432*^9, 3.652373673561555*^9}}],
+
+Cell[TextData[{
+ "N.B. the ",
+ StyleBox["MapThread",
+  FontWeight->"Bold"],
+ " command has nothing to do with geographical maps. It allows us to build a \
+list of ",
+ StyleBox["Rules",
+  FontWeight->"Bold"],
+ " from a pair of lists."
+}], "Text",
+ CellChangeTimes->{{3.652374108145081*^9, 3.6523741409433002`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"MapThread", "[", 
+  RowBox[{"Rule", ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"a", ",", "b", ",", "c"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"1", ",", "2", ",", "3"}], "}"}]}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.652374146601796*^9, 3.6523741594787292`*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Mapping a voyage, part 1", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.652375124860818*^9, 3.652375131386958*^9}}],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["mapImageLeg",
+  FontSlant->"Italic"],
+ " function plots one leg of Darwin\[CloseCurlyQuote]s voyage, showing both \
+world and detail maps, along with a scale bar."
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.6523785801077757`*^9, 3.652378683598477*^9}, {3.683817523280155*^9, 
+  3.683817530102922*^9}}],
+
+Cell[BoxData[
+ RowBox[{"beagleVeryBriefItinerary", "\[LeftDoubleBracket]", 
+  RowBox[{"1", ";;", "2"}], "\[RightDoubleBracket]"}]], "Input",
+ CellChangeTimes->{{3.652378663535808*^9, 3.65237866678318*^9}}],
+
+Cell[BoxData[
+ RowBox[{"mapImageLeg", "[", 
+  RowBox[{"beagleVeryBriefItinerary", ",", "1"}], "]"}]], "Input",
+ CellChangeTimes->{{3.6419916957886553`*^9, 3.641991705551169*^9}, 
+   3.6419920579296503`*^9, 3.641992382812047*^9, {3.641992422700673*^9, 
+   3.64199242657812*^9}, 3.641993347878365*^9, {3.6419935795132523`*^9, 
+   3.6419936148399057`*^9}, {3.641993688863307*^9, 3.64199375197775*^9}, 
+   3.64199380595512*^9, {3.641994444419022*^9, 3.641994458697647*^9}, {
+   3.6419945951257772`*^9, 3.641994618356248*^9}, 3.641994677985903*^9, {
+   3.641994763249275*^9, 3.641994763565785*^9}, {3.6419948059678993`*^9, 
+   3.641994849996675*^9}, {3.641994996335384*^9, 3.64199501123025*^9}, {
+   3.641995249749818*^9, 3.6419952975788317`*^9}, {3.6419953461629887`*^9, 
+   3.641995371736086*^9}, {3.641995535891633*^9, 3.641995666239069*^9}, {
+   3.641995718820981*^9, 3.641995779122751*^9}, 3.64199607363689*^9, {
+   3.652378634457081*^9, 3.6523786369442167`*^9}}],
+
+Cell[TextData[{
+ "Since we are dealing with computable data, we can make calculations with \
+it. ",
+ StyleBox["GeoDistance",
+  FontWeight->"Bold"],
+ " gives us the shortest distance between two points. Here is the first leg \
+of our very brief itinerary."
+}], "Text",
+ CellChangeTimes->{{3.652378755547654*^9, 3.6523788008183203`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"GeoDistance", "[", 
+  RowBox[{
+   RowBox[{"beagleVeryBriefItinerary", "\[LeftDoubleBracket]", 
+    RowBox[{"1", ",", "2"}], "\[RightDoubleBracket]"}], ",", 
+   RowBox[{"beagleVeryBriefItinerary", "\[LeftDoubleBracket]", 
+    RowBox[{"2", ",", "2"}], "\[RightDoubleBracket]"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.652378704797118*^9, 3.652378746524395*^9}}],
+
+Cell["Here are the number of days that portion of the voyage took.", "Text",
+ CellChangeTimes->{{3.65237884104917*^9, 3.652378866687832*^9}}],
+
+Cell[BoxData[
+ RowBox[{"DayCount", "[", 
+  RowBox[{
+   RowBox[{"beagleVeryBriefItinerary", "\[LeftDoubleBracket]", 
+    RowBox[{"1", ",", "1"}], "\[RightDoubleBracket]"}], ",", 
+   RowBox[{"beagleVeryBriefItinerary", "\[LeftDoubleBracket]", 
+    RowBox[{"2", ",", "1"}], "\[RightDoubleBracket]"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6523788126656017`*^9, 3.652378836376774*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Mapping a voyage, part II", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.652375148186274*^9, 3.652375151714244*^9}}],
+
+Cell["\<\
+It helps to precompute all of the maps we are going to need before we try to \
+interact with them. This takes a while.\
+\>", "Text",
+ CellChangeTimes->{{3.652378947261273*^9, 3.652378968876165*^9}, {
+   3.652379006419507*^9, 3.652379009890685*^9}, 3.683817501392852*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Map", "[", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"mapImageLeg", "[", 
+      RowBox[{"beagleVeryBriefItinerary", ",", "#"}], "]"}], "&"}], ",", " ", 
+    
+    RowBox[{"Range", "[", "13", "]"}]}], "]"}], ";"}]], "Input",
+ CellChangeTimes->{{3.64234639392208*^9, 3.642346419212763*^9}, {
+  3.652378996772088*^9, 3.6523789991472816`*^9}}],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["itineraryBrowser",
+  FontSlant->"Italic"],
+ " function allows us to step through each leg of the voyage. We can also \
+animate the trip."
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.6523788988001003`*^9, 3.652378912422059*^9}, {3.652379024019136*^9, 
+  3.65237904670539*^9}, {3.652379124959144*^9, 3.65237912895848*^9}}],
+
+Cell[BoxData[
+ RowBox[{"itineraryBrowser", "[", "beagleVeryBriefItinerary", "]"}]], "Input",\
+
+ CellChangeTimes->{{3.652379053747286*^9, 3.652379061161715*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Activity", "Section",
+ CellChangeTimes->{{3.647716402186221*^9, 3.647716405353856*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Bermuda Triangle", "Subsection",
+ CellChangeTimes->{{3.652380182440998*^9, 3.652380185704464*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Endpoints", "Subsubsection",
+ CellChangeTimes->{{3.652380188480153*^9, 3.652380196016199*^9}}],
+
+Cell[TextData[{
+ "Find the three locations that Vincent Gaddis gave for the endpoints of the \
+Bermuda Triangle in his 1964 ",
+ StyleBox["Argosy",
+  FontSlant->"Italic"],
+ " article"
+}], "Text",
+ CellChangeTimes->{{3.652379614757531*^9, 3.652379652667572*^9}, {
+   3.65237999342328*^9, 3.6523800080549192`*^9}, 3.652380372361574*^9}],
+
+Cell[BoxData[
+ RowBox[{"viewData", "[", 
+  RowBox[{"WikipediaData", "[", "\"\<bermuda triangle\>\"", "]"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.652379543794405*^9, 3.6523795525353107`*^9}, {
+  3.6523797042906*^9, 3.6523797161134663`*^9}, {3.683817570882148*^9, 
+  3.6838175708829403`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Coordinates", "Subsubsection",
+ CellChangeTimes->{{3.65238025254993*^9, 3.652380255805891*^9}, {
+  3.65238041309718*^9, 3.652380414592342*^9}}],
+
+Cell[TextData[{
+ "Determine the longitude and latitude of each of the three endpoints. For \
+cities that have missing location data, you can use the ",
+ StyleBox["CityData",
+  FontWeight->"Bold"],
+ " command as follows (although Montreal is not in the Bermuda Triangle by \
+anyone\[CloseCurlyQuote]s definition)"
+}], "Text",
+ CellChangeTimes->{{3.652380361866556*^9, 3.6523804405432863`*^9}, {
+  3.6523805802511053`*^9, 3.652380631568524*^9}, {3.6523809469169693`*^9, 
+  3.652380952508932*^9}}],
+
+Cell[BoxData[
+ RowBox[{"CityData", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+    "\"\<Montreal\>\"", ",", " ", "\"\<Quebec\>\"", ",", " ", 
+     "\"\<Canada\>\""}], "}"}], ",", " ", "\"\<Longitude\>\""}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.652379859571703*^9, 3.652379914007121*^9}, {
+  3.652380606954022*^9, 3.652380638889976*^9}, {3.6838175818165827`*^9, 
+  3.683817581817268*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["The Triangle", "Subsubsection",
+ CellChangeTimes->{{3.65238025254993*^9, 3.652380255805891*^9}}],
+
+Cell[TextData[{
+ "Plot the Bermuda Triangle with a command like the following, replacing the \
+coordinates given here with the correct ones. ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " should respond correctly if you give the ",
+ StyleBox["Polygon",
+  FontWeight->"Bold"],
+ " command a country entity instead of a list containing longitude and \
+latitude."
+}], "Text",
+ CellChangeTimes->{{3.652380677839582*^9, 3.652380717885355*^9}, {
+  3.652380750117177*^9, 3.652380754315971*^9}, {3.6523823158525057`*^9, 
+  3.6523823172035923`*^9}, {3.652455993242518*^9, 3.652455995164279*^9}}],
+
+Cell[BoxData[
+ RowBox[{"GeoGraphics", "[", 
+  RowBox[{
+   RowBox[{"Polygon", "[", 
+    RowBox[{"{", 
+     RowBox[{
+      TemplateBox[{"\"Senegal\"",RowBox[{"Entity", "[", 
+          RowBox[{"\"Country\"", ",", "\"Senegal\""}], "]"}],
+        "\"Entity[\\\"Country\\\", \\\"Senegal\\\"]\"","\"country\""},
+       "Entity"], ",", 
+      NamespaceBox["LinguisticAssistant",
+       DynamicModuleBox[{Typeset`query$$ = "Rejkavik", Typeset`boxes$$ = 
+        TemplateBox[{"\"Reykjavik\"", 
+          RowBox[{"Entity", "[", 
+            RowBox[{"\"City\"", ",", 
+              RowBox[{"{", 
+                
+                RowBox[{
+                 "\"Reykjavik\"", ",", "\"Hofudhborgarsvaedhi\"", ",", 
+                  "\"Iceland\""}], "}"}]}], "]"}], 
+          "\"Entity[\\\"City\\\", {\\\"Reykjavik\\\", \\\"Hofudhborgarsvaedhi\
+\\\", \\\"Iceland\\\"}]\"", "\"city\""}, "Entity"], 
+        Typeset`allassumptions$$ = {}, Typeset`assumptions$$ = {}, 
+        Typeset`open$$ = {1, 2}, Typeset`querystate$$ = {
+        "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+         1.749803`6.69453415028005, "Messages" -> {}}}, 
+        DynamicBox[ToBoxes[
+          AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+           Dynamic[Typeset`query$$], 
+           Dynamic[Typeset`boxes$$], 
+           Dynamic[Typeset`allassumptions$$], 
+           Dynamic[Typeset`assumptions$$], 
+           Dynamic[Typeset`open$$], 
+           Dynamic[Typeset`querystate$$]], StandardForm],
+         ImageSizeCache->{157., {11., 22.}},
+         TrackedSymbols:>{
+          Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+           Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+        DynamicModuleValues:>{},
+        UndoTrackedVariables:>{Typeset`open$$}],
+       BaseStyle->{"Deploy"},
+       DeleteWithContents->True,
+       Editable->False,
+       SelectWithContents->True], ",", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"-", "50"}], ",", "25"}], "}"}]}], "}"}], "]"}], ",", 
+   RowBox[{"GeoRange", "\[Rule]", "\"\<World\>\""}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.652379754247525*^9, 3.652379835029983*^9}, {
+  3.652379940538756*^9, 3.652379968176614*^9}, {3.652380339740443*^9, 
+  3.652380347964047*^9}, {3.6523807577246857`*^9, 3.652380809882723*^9}, {
+  3.652380841723061*^9, 3.652380881456242*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Shipwrecks", "Subsubsection",
+ CellChangeTimes->{{3.652380987307901*^9, 3.6523809894435587`*^9}}],
+
+Cell[TextData[{
+ "Import some data about shipwrecks in the Atlantic Ocean from ",
+ StyleBox["Wikipedia",
+  FontSlant->"Italic"],
+ " using the following command. Note that the last entry in the \
+\[OpenCurlyQuote]Coordinates\[CloseCurlyQuote] column is Latitude and \
+Longitude in a form you can use directly in ",
+ StyleBox["GeoMarker",
+  FontWeight->"Bold"],
+ " or ",
+ StyleBox["Polygon",
+  FontWeight->"Bold"]
+}], "Text",
+ CellChangeTimes->{{3.652382038086204*^9, 3.652382115442807*^9}, {
+  3.6524560327689457`*^9, 3.652456059471427*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Style", "[", 
+  RowBox[{
+   RowBox[{"TableForm", "[", 
+    RowBox[{
+     RowBox[{"Import", "[", 
+      RowBox[{
+      "\"\<https://en.wikipedia.org/wiki/List_of_shipwrecks_in_the_Atlantic_\
+Ocean\>\"", ",", " ", "\"\<Data\>\""}], "]"}], "[", 
+     RowBox[{"[", 
+      RowBox[{"1", ",", " ", "1", ",", " ", "5"}], "]"}], "]"}], "]"}], ",", 
+   " ", "\"\<Small\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.652381454396009*^9, 3.6523815165767097`*^9}, {
+   3.6523815483593884`*^9, 3.6523816604192333`*^9}, {3.6523816921951437`*^9, 
+   3.6523816932743063`*^9}, {3.65238173261768*^9, 3.652381747992978*^9}, {
+   3.6523818351411247`*^9, 3.652381853228456*^9}, {3.652381939401492*^9, 
+   3.652382008822824*^9}, 3.6523820647847652`*^9, {3.683817599479868*^9, 
+   3.683817599480564*^9}}],
+
+Cell[TextData[{
+ "Plot the location of the ",
+ StyleBox["SS British Consul",
+  FontSlant->"Italic"],
+ " shipwreck"
+}], "Text",
+ CellChangeTimes->{{3.652382258718233*^9, 3.652382288053093*^9}}],
+
+Cell[BoxData[
+ RowBox[{"GeoGraphics", "[", 
+  RowBox[{
+   RowBox[{"GeoMarker", "[", 
+    RowBox[{"{", 
+     RowBox[{"11.967", ",", " ", 
+      RowBox[{"-", "62.633"}]}], "}"}], "]"}], ",", " ", 
+   RowBox[{"GeoRange", " ", "->", " ", 
+    RowBox[{"Quantity", "[", 
+     RowBox[{"200", ",", " ", "\"\<Miles\>\""}], "]"}]}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6523821377383966`*^9, 3.652382175697454*^9}, {
+   3.652382216088106*^9, 3.6523822442542686`*^9}, 3.65238230489149*^9, {
+   3.683817606904921*^9, 3.683817606905616*^9}}],
+
+Cell["\<\
+Does it lie within the Bermuda Triangle? Plot a map to find out\
+\>", "Text",
+ CellChangeTimes->{{3.652382331059003*^9, 3.652382338850883*^9}, {
+  3.652382530979887*^9, 3.6523825425234003`*^9}, {3.6523827092942133`*^9, 
+  3.652382718317216*^9}, {3.65238328110678*^9, 3.652383283801155*^9}, {
+  3.6524560888861217`*^9, 3.652456094909885*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Testing membership within regions", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.652382587898717*^9, 3.652382600673465*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["By mapping", "Subsection",
+ CellChangeTimes->{{3.652382801098124*^9, 3.652382805603311*^9}}],
+
+Cell[TextData[{
+ "If we plot a map, we can see that the ",
+ StyleBox["SS British Consul",
+  FontSlant->"Italic"],
+ " shipwreck lies outside the Bermuda Triangle."
+}], "Text",
+ CellChangeTimes->{{3.6523827365491953`*^9, 3.652382770211317*^9}}],
+
+Cell[BoxData[
+ RowBox[{"GeoGraphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"GeoMarker", "[", 
+      RowBox[{"{", 
+       RowBox[{"11.967", ",", 
+        RowBox[{"-", "62.633"}]}], "}"}], "]"}], ",", 
+     RowBox[{"Polygon", "[", 
+      RowBox[{"{", 
+       RowBox[{
+        TemplateBox[{"\"Miami\"",RowBox[{"Entity", "[", 
+            RowBox[{"\"City\"", ",", 
+              RowBox[{"{", 
+                
+                RowBox[{
+                 "\"Miami\"", ",", "\"Florida\"", ",", "\"UnitedStates\""}], 
+                "}"}]}], "]"}],
+          "\"Entity[\\\"City\\\", {\\\"Miami\\\", \\\"Florida\\\", \
+\\\"UnitedStates\\\"}]\"","\"city\""},
+         "Entity"], ",", 
+        TemplateBox[{"\"Bermuda\"",RowBox[{"Entity", "[", 
+            RowBox[{"\"Country\"", ",", "\"Bermuda\""}], "]"}],
+          "\"Entity[\\\"Country\\\", \\\"Bermuda\\\"]\"","\"country\""},
+         "Entity"], ",", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"-", "66.13"}], ",", "18.44"}], "}"}]}], "}"}], "]"}]}], 
+    "}"}], ",", 
+   RowBox[{"GeoRange", "\[Rule]", 
+    RowBox[{"Quantity", "[", 
+     RowBox[{"1000", ",", "\"\<Miles\>\""}], "]"}]}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.652379754247525*^9, 3.652379835029983*^9}, {
+  3.652379940538756*^9, 3.652379968176614*^9}, {3.652380339740443*^9, 
+  3.652380347964047*^9}, {3.6523807577246857`*^9, 3.652380809882723*^9}, {
+  3.652380841723061*^9, 3.652380881456242*^9}, {3.652382384834969*^9, 
+  3.652382415264127*^9}, {3.652382472103861*^9, 3.652382513516829*^9}, {
+  3.6523825580874853`*^9, 3.65238256684367*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["GeoWithinQ", "Subsection",
+ CellChangeTimes->{{3.652382793162307*^9, 3.652382795810388*^9}}],
+
+Cell[TextData[{
+ "We can also answer the question using the ",
+ StyleBox["GeoWithinQ ",
+  FontWeight->"Bold"],
+ "command. First we have to explicitly determine the Longitude and Latitude \
+of each of our three endpoints. We will use the city of Hamilton for the \
+endpoint located in Bermuda."
+}], "Text",
+ CellChangeTimes->{{3.652382853512837*^9, 3.652382896350806*^9}, {
+  3.6523830596736307`*^9, 3.652383069728698*^9}, {3.65245611975039*^9, 
+  3.652456124628846*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Map", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"CityData", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+       "\"\<SanJuan\>\"", ",", " ", "\"\<SanJuan\>\"", ",", " ", 
+        "\"\<PuertoRico\>\""}], "}"}], ",", " ", "#"}], "]"}], "&"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\"\<Longitude\>\"", ",", "\"\<Latitude\>\""}], "}"}]}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.652382448073285*^9, 3.6523824615593224`*^9}, {
+  3.6523828994637547`*^9, 3.6523829187581778`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Map", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"CityData", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+       "\"\<Miami\>\"", ",", " ", "\"\<Florida\>\"", ",", " ", 
+        "\"\<UnitedStates\>\""}], "}"}], ",", " ", "#"}], "]"}], "&"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\"\<Longitude\>\"", ",", "\"\<Latitude\>\""}], "}"}]}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.652382448073285*^9, 3.6523824615593224`*^9}, {
+  3.6523828994637547`*^9, 3.652382977671541*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Map", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"CityData", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+       "\"\<Hamilton\>\"", ",", " ", "\"\<Hamilton\>\"", ",", " ", 
+        "\"\<Bermuda\>\""}], "}"}], ",", " ", "#"}], "]"}], "&"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\"\<Longitude\>\"", ",", "\"\<Latitude\>\""}], "}"}]}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.652382448073285*^9, 3.6523824615593224`*^9}, {
+  3.6523828994637547`*^9, 3.652382977671541*^9}, {3.6523830994110403`*^9, 
+  3.652383114258793*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"bermudaTriangle", "=", 
+   RowBox[{"Polygon", "[", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"-", "66.13"}], ",", "18.44"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"-", "80.21"}], ",", "25.78"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"-", "64.79"}], ",", "32.30"}], "}"}]}], "}"}], "]"}]}], 
+  ";"}]], "Input",
+ CellChangeTimes->{{3.652382661351664*^9, 3.652382682879449*^9}, {
+  3.652383130655403*^9, 3.652383193444186*^9}}],
+
+Cell["\<\
+Now we can test the location of the shipwreck with respect to the Bermuda \
+Triangle.\
+\>", "Text",
+ CellChangeTimes->{{3.6523832509467793`*^9, 3.6523832650177402`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"GeoWithinQ", "[", 
+  RowBox[{"bermudaTriangle", ",", 
+   RowBox[{"{", 
+    RowBox[{"11.967", ",", 
+     RowBox[{"-", "62.633"}]}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.652382372370254*^9, 3.652382375002245*^9}, {
+  3.652382612761773*^9, 3.6523826299649143`*^9}, {3.65238267992819*^9, 
+  3.652382690987422*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["GeoNearest", "Subsection",
+ CellChangeTimes->{{3.6524566242266083`*^9, 3.6524566260338783`*^9}}],
+
+Cell[TextData[{
+ "One way to discover entities that ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " knows about is to use the ",
+ StyleBox["GeoNearest",
+  FontWeight->"Bold"],
+ " command. These can then be mapped, or tested with ",
+ StyleBox["GeoWithinQ",
+  FontWeight->"Bold"]
+}], "Text",
+ CellChangeTimes->{{3.652456631210264*^9, 3.652456656296843*^9}, 
+   3.652457070569715*^9}],
+
+Cell[BoxData[
+ RowBox[{"GeoNearest", "[", 
+  RowBox[{"\"\<Shipwreck\>\"", ",", 
+   TemplateBox[{"\"Bermuda\"",RowBox[{"Entity", "[", 
+       RowBox[{"\"Country\"", ",", "\"Bermuda\""}], "]"}],
+     "\"Entity[\\\"Country\\\", \\\"Bermuda\\\"]\"","\"country\""},
+    "Entity"], ",", "5"}], "]"}]], "Input",
+ CellChangeTimes->{{3.65245653711586*^9, 3.6524565813243027`*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["GeoEntities", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.65245625791332*^9, 3.652456261751609*^9}}],
+
+Cell[TextData[{
+ "You can get a list of geographic entities in a region with the ",
+ StyleBox["GeoEntites",
+  FontWeight->"Bold"],
+ " command"
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.6524562645514*^9, 3.6524562668073893`*^9}, {3.652456357148691*^9, 
+  3.652456367475614*^9}, {3.652456509559802*^9, 3.6524565164139957`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"GeoEntities", "[", 
+  RowBox[{
+   TemplateBox[{"\"Alberta, Canada\"",RowBox[{"Entity", "[", 
+       RowBox[{"\"AdministrativeDivision\"", ",", 
+         RowBox[{"{", 
+           RowBox[{"\"Alberta\"", ",", "\"Canada\""}], "}"}]}], "]"}],
+     "\"Entity[\\\"AdministrativeDivision\\\", {\\\"Alberta\\\", \\\"Canada\\\
+\"}]\"","\"administrative division\""},
+    "Entity"], ",", "\"\<HistoricalSite\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.6524562903674593`*^9, 3.6524563357234983`*^9}}],
+
+Cell[TextData[{
+ "Again, ",
+ StyleBox["GeoNearest",
+  FontWeight->"Bold"],
+ " can be used to find nearby entities that aren\[CloseCurlyQuote]t \
+necessarily within a region"
+}], "Text",
+ CellChangeTimes->{{3.652456713919241*^9, 3.652456718582417*^9}, {
+  3.6524568077160177`*^9, 3.6524568333860617`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"GeoNearest", "[", 
+  RowBox[{"\"\<Dam\>\"", ",", 
+   NamespaceBox["LinguisticAssistant",
+    DynamicModuleBox[{Typeset`query$$ = "Denver", Typeset`boxes$$ = 
+     TemplateBox[{"\"Denver\"", 
+       RowBox[{"Entity", "[", 
+         RowBox[{"\"City\"", ",", 
+           RowBox[{"{", 
+             
+             RowBox[{"\"Denver\"", ",", "\"Colorado\"", ",", 
+               "\"UnitedStates\""}], "}"}]}], "]"}], 
+       "\"Entity[\\\"City\\\", {\\\"Denver\\\", \\\"Colorado\\\", \
+\\\"UnitedStates\\\"}]\"", "\"city\""}, "Entity"], 
+     Typeset`allassumptions$$ = {{
+      "type" -> "Clash", "word" -> "Denver", "template" -> 
+       "Assuming \"${word}\" is ${desc1}. Use as ${desc2} instead", "count" -> 
+       "4", "Values" -> {{
+         "name" -> "City", "desc" -> "a city", "input" -> 
+          "*C.Denver-_*City-"}, {
+         "name" -> "NFLTeam", "desc" -> "an NFL team", "input" -> 
+          "*C.Denver-_*NFLTeam-"}, {
+         "name" -> "NBATeam", "desc" -> "an NBA team", "input" -> 
+          "*C.Denver-_*NBATeam-"}, {
+         "name" -> "GivenName", "desc" -> "a given name", "input" -> 
+          "*C.Denver-_*GivenName-"}}}, {
+      "type" -> "SubCategory", "word" -> "Denver", "template" -> 
+       "Assuming ${desc1}. Use ${desc2} instead", "count" -> "5", 
+       "Values" -> {{
+         "name" -> "{Denver, Colorado, UnitedStates}", "desc" -> 
+          "Denver (Colorado, USA)", "input" -> 
+          "*DPClash.CityE.Denver-_**Denver.Colorado.UnitedStates--"}, {
+         "name" -> "{Denver, Pennsylvania, UnitedStates}", "desc" -> 
+          "Denver (Pennsylvania, USA)", "input" -> 
+          "*DPClash.CityE.Denver-_**Denver.Pennsylvania.UnitedStates--"}, {
+         "name" -> "{Denver, Iowa, UnitedStates}", "desc" -> 
+          "Denver (Iowa, USA)", "input" -> 
+          "*DPClash.CityE.Denver-_**Denver.Iowa.UnitedStates--"}, {
+         "name" -> "{Denver, Indiana, UnitedStates}", "desc" -> 
+          "Denver (Indiana, USA)", "input" -> 
+          "*DPClash.CityE.Denver-_**Denver.Indiana.UnitedStates--"}, {
+         "name" -> "{Denver, Missouri, UnitedStates}", "desc" -> 
+          "Denver (Missouri, USA)", "input" -> 
+          "*DPClash.CityE.Denver-_**Denver.Missouri.UnitedStates--"}}}}, 
+     Typeset`assumptions$$ = {}, Typeset`open$$ = {1, 2}, 
+     Typeset`querystate$$ = {
+     "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+      0.817902`6.36424626366006, "Messages" -> {}}}, 
+     DynamicBox[ToBoxes[
+       AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+        Dynamic[Typeset`query$$], 
+        Dynamic[Typeset`boxes$$], 
+        Dynamic[Typeset`allassumptions$$], 
+        Dynamic[Typeset`assumptions$$], 
+        Dynamic[Typeset`open$$], 
+        Dynamic[Typeset`querystate$$]], StandardForm],
+      ImageSizeCache->{169., {11., 22.}},
+      TrackedSymbols:>{
+       Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+        Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+     DynamicModuleValues:>{},
+     UndoTrackedVariables:>{Typeset`open$$}],
+    BaseStyle->{"Deploy"},
+    DeleteWithContents->True,
+    Editable->False,
+    SelectWithContents->True], ",", "5"}], "]"}]], "Input",
+ CellChangeTimes->{{3.652456720819364*^9, 3.652456744317539*^9}, {
+  3.652456784549233*^9, 3.6524567944271727`*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Upload your notebook", "Section",
+ CellChangeTimes->{{3.649950784924818*^9, 3.649950788859275*^9}}],
+
+Cell["\<\
+Don\[CloseCurlyQuote]t forget to upload a copy of your notebook for this \
+class to the OWL Site for the course\
+\>", "Text",
+ CellChangeTimes->{{3.649950792779258*^9, 3.649950818634288*^9}}]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1422, 1107},
+WindowMargins->{{485, Automatic}, {Automatic, 43}},
+TaggingRules->{"SlideShow" -> True},
+Magnification:>1.25 Inherited,
+FrontEndVersion->"11.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (July 28, \
+2016)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "SlideShowHeader"->{
+  Cell[580, 22, 4383, 98, 75, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[5752, 147, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[6291, 168, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[21095, 529, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[26953, 678, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[30448, 786, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[33470, 870, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[37776, 993, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[40887, 1069, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[42405, 1117, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[50294, 1335, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[56757, 1533, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[61568, 1647, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"SlideShowHeader", 62376, 1676}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 4383, 98, 75, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[4966, 122, 403, 9, 183, "Title"],
+Cell[5372, 133, 343, 9, 99, "Subtitle"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5752, 147, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[5841, 152, 95, 1, 80, "Section"],
+Cell[5939, 155, 303, 7, 37, "Text"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6291, 168, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[6380, 173, 141, 2, 80, "Section"],
+Cell[6524, 177, 381, 9, 66, "Input"],
+Cell[6908, 188, 243, 7, 37, "Text"],
+Cell[7154, 197, 353, 7, 39, "Input"],
+Cell[7510, 206, 465, 9, 37, "Text"],
+Cell[7978, 217, 6734, 168, 207, "Input"],
+Cell[14715, 387, 151, 3, 37, "Text"],
+Cell[14869, 392, 4256, 89, 170, "Input"],
+Cell[19128, 483, 1918, 40, 115, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[21095, 529, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[21184, 534, 290, 3, 100, "Section"],
+Cell[21477, 539, 476, 12, 46, "Text"],
+Cell[21956, 553, 328, 7, 63, "Input",
+ CellID->82108289],
+Cell[22287, 562, 648, 16, 76, "Text"],
+Cell[22938, 580, 2349, 49, 111, "Input"],
+Cell[25290, 631, 171, 2, 46, "Text"],
+Cell[25464, 635, 469, 11, 63, "Input",
+ CellID->1823727675],
+Cell[25936, 648, 233, 7, 46, "Text"],
+Cell[26172, 657, 732, 15, 63, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[26953, 678, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[27042, 683, 220, 3, 100, "Section"],
+Cell[27265, 688, 338, 10, 46, "Text"],
+Cell[27606, 700, 216, 6, 48, "Input",
+ CellID->1387433762],
+Cell[27825, 708, 341, 8, 48, "Input",
+ CellID->463040148],
+Cell[28169, 718, 317, 8, 46, "Text"],
+Cell[28489, 728, 1143, 27, 63, "Input",
+ CellID->1879742018],
+Cell[29635, 757, 192, 6, 46, "Text"],
+Cell[29830, 765, 569, 15, 82, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[30448, 786, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[30537, 791, 218, 3, 100, "Section"],
+Cell[30758, 796, 385, 8, 46, "Text"],
+Cell[31146, 806, 400, 10, 48, "Input",
+ CellID->734364217],
+Cell[31549, 818, 741, 17, 48, "Input"],
+Cell[32293, 837, 108, 1, 46, "Text"],
+Cell[32404, 840, 1017, 24, 63, "Input",
+ CellID->205699215]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[33470, 870, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[33559, 875, 147, 2, 100, "Section"],
+Cell[33709, 879, 418, 9, 46, "Text"],
+Cell[34130, 890, 917, 20, 63, "Input",
+ CellID->1284136258],
+Cell[35050, 912, 401, 9, 46, "Text"],
+Cell[35454, 923, 718, 16, 63, "Input",
+ CellID->1233631169],
+Cell[36175, 941, 316, 5, 46, "Text"],
+Cell[36494, 948, 248, 6, 48, "Input"],
+Cell[36745, 956, 332, 8, 48, "Input"],
+Cell[37080, 966, 313, 10, 46, "Text"],
+Cell[37396, 978, 331, 9, 48, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[37776, 993, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[37865, 998, 160, 2, 100, "Section"],
+Cell[38028, 1002, 379, 9, 46, "Text"],
+Cell[38410, 1013, 205, 3, 48, "Input"],
+Cell[38618, 1018, 963, 14, 48, "Input"],
+Cell[39584, 1034, 335, 8, 76, "Text"],
+Cell[39922, 1044, 385, 7, 48, "Input"],
+Cell[40310, 1053, 141, 1, 46, "Text"],
+Cell[40454, 1056, 384, 7, 48, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[40887, 1069, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[40976, 1074, 161, 2, 100, "Section"],
+Cell[41140, 1078, 280, 5, 46, "Text"],
+Cell[41423, 1085, 370, 10, 48, "Input"],
+Cell[41796, 1097, 397, 9, 46, "Text"],
+Cell[42196, 1108, 160, 3, 48, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[42405, 1117, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[42494, 1122, 93, 1, 100, "Section"],
+Cell[CellGroupData[{
+Cell[42612, 1127, 104, 1, 67, "Subsection"],
+Cell[CellGroupData[{
+Cell[42741, 1132, 100, 1, 53, "Subsubsection"],
+Cell[42844, 1135, 333, 8, 46, "Text"],
+Cell[43180, 1145, 295, 6, 48, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[43512, 1156, 149, 2, 53, "Subsubsection"],
+Cell[43664, 1160, 494, 10, 76, "Text"],
+Cell[44161, 1172, 395, 10, 48, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[44593, 1187, 102, 1, 53, "Subsubsection"],
+Cell[44698, 1190, 593, 13, 76, "Text"],
+Cell[45294, 1205, 2353, 51, 66, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[47684, 1261, 103, 1, 53, "Subsubsection"],
+Cell[47790, 1264, 540, 14, 76, "Text"],
+Cell[48333, 1280, 804, 17, 82, "Input"],
+Cell[49140, 1299, 192, 6, 46, "Text"],
+Cell[49335, 1307, 532, 12, 48, "Input"],
+Cell[49870, 1321, 351, 6, 46, "Text"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[50294, 1335, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[50383, 1340, 169, 2, 100, "Section"],
+Cell[CellGroupData[{
+Cell[50577, 1346, 98, 1, 67, "Subsection"],
+Cell[50678, 1349, 242, 6, 46, "Text"],
+Cell[50923, 1357, 1596, 38, 108, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[52556, 1400, 98, 1, 67, "Subsection"],
+Cell[52657, 1403, 470, 10, 76, "Text"],
+Cell[53130, 1415, 507, 14, 48, "Input"],
+Cell[53640, 1431, 505, 14, 48, "Input"],
+Cell[54148, 1447, 555, 15, 48, "Input"],
+Cell[54706, 1464, 556, 17, 48, "Input"],
+Cell[55265, 1483, 179, 4, 46, "Text"],
+Cell[55447, 1489, 345, 8, 48, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[55829, 1502, 102, 1, 67, "Subsection"],
+Cell[55934, 1505, 388, 12, 46, "Text"],
+Cell[56325, 1519, 371, 7, 63, "Input"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[56757, 1533, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[56846, 1538, 146, 2, 100, "Section"],
+Cell[56995, 1542, 368, 8, 46, "Text"],
+Cell[57366, 1552, 515, 10, 63, "Input"],
+Cell[57884, 1564, 304, 8, 46, "Text"],
+Cell[58191, 1574, 3328, 67, 66, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[61568, 1647, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[61657, 1652, 105, 1, 100, "Section"],
+Cell[61765, 1655, 201, 4, 46, "Text"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
