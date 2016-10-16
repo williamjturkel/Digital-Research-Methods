@@ -1,0 +1,1568 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     56369,       1560]
+NotebookOptionsPosition[     48355,       1320]
+NotebookOutlinePosition[     50087,       1370]
+CellTagsIndexPosition[     50008,       1365]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ TogglerBox[2, {1->
+  OverlayBox[{
+   TagBox[GridBox[{
+      {
+       GraphicsBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBAkBOaF5xZnpeaopnXklqemqRRRIz
+UFAKiEGSLED8//9/gvjRo0fsN27cELp69arY+fPnpZExPn137tzhBqrRBGJ/
+ID4CxMfRMTZ9L168YL5w4YIaUD4AiC8C8Qcg/gvE/9AxFreC7PQD4gtA/BGq
+7j8ujKz3+fPnLFC9b6H24dSHTf/FixfVofYSpRdZPzSsAqBuJkovsn5oOF8k
+5F9s+h88eMBBjt0w/devXxcGso+S4m9k/ZcuXRKHpgeS3A7TD0wrkpToPw9J
+ywOmn1L3Uxp+lMYfpemH0vRLjfwDjQey8y9a+fGOWDPwlF+gsPhEKDywlZ8g
+d0D9EniexPITGd++fZv3PBnlN6764zxa3QHCAIDESDs=
+         "], {{0, 26}, {16, 
+         0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{16, 26},
+        PlotRange->{{0, 16}, {0, 26}}], 
+       GraphicsBox[RasterBox[CompressedData["
+1:eJzt2V1vVFUUBuBGTfTSSygthYYKNHyVinrrpbcYfwBEJN5gUkyMfw9KKaVw
+KCkQKCW1RNIQKg1gEE3QtdN10pMRZCaBzNQ+kzxt5nzstfeZfbPOu/vkD8e/
+e6+vr+/sR/Hn+ImfvpyYOPHz1x/Hl2/OnP3+9JlT33515sdTp09NfHHy/TjY
+H6592Nf3QfyvqmpHBwbCYNr5GoMNAw2d1AEAADa3/obtLba1aJ7rb4xR9x1D
+YVfYHYbDnjASPgn7wv4wGg6Eg+FQOByOhLEwnj4Nx8Jn6fM21dcfyzHq8cay
+xuGseTDnMJpz2pdzHMk5D+caduWa6v6p+czafU71s6p1+/cGAADYqt52/9va
+++6tXt331j3v0TTeoj5e966v6lv3Vv/uWfWr9LJm9tzMpN+UW3eaVV9s00yY
+CzfC7bAQFhvuhjt57maYD9er9c+VcDlcCtMd1AQAADafqXQhTabz6VyL+vhk
+Xl/uLX1D6UFmw9VwrVrvL0o/cqta7ztKD3Iv/BLuh1/DSngYHoXfwlp4Ep6F
+38Pz8Ed4Ef5Mf71Gff5F3vM8x3iWY65ljUdZcyXncD/ndC/neDvnfCPXcC3X
+NJtrnG48r3afU/2s6uc11QO/OwAAwFbzLvrfksWVjK30kSV3KxncUlgOD6qN
+vnc1PK42+t7iaaq/r+U1q9VG3/ogx1rKse9krfmsrV+l15R9WDLmkjWXzLl8
+yvuVsmdLJl3eu5R9XN7BNLPrhTxX3seUvT3TQc2Xbfr7LWq3JgAAwH95m33K
+u9Dt5wMAAMDmp2dlK+vGnu/2+yQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYPN42aZu
+1AQAAAAAAICtrNsZIXRTN/b8xTbNhLlwI9wOC2Gx4W64k+duhvlwvVr/XAmX
+w6Uw3UFNAAAAAAAA6EVT6UKaTOfTuRb18cm8vtxbcrOSwc2Gq9V6FlcytlvV
+eu5WMrilsBwehJXwMKyGx2EtPElPU/19La9ZzXtWcozlHHMxa9zKmnM5h9mc
+03Rjfe2uq15bvb6pHvid2NzKPiwZc8maS+ZcPiWDLnu2ZNIlmy77uGTVzex6
+Ic+VbLvs7ZkOau7owEAYTDtfY7BhoKGTOgAAAAAAANDr+hu2t9jWonmuvzFG
+nbsNhd1hOOwJI2Fv2B9Gw4FwMBwKR8JYOJrGW9THx/LaQ3nvgRxrf449krWG
+s/ZQtZH3NdfY7rrqtdW6/fvw/9LMnpuZ9Jty646y6n8AhCP7tg==
+         "], {{0, 26}, {
+         2000, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{2000, 26},
+        PlotRange->{{0, 2000}, {0, 26}}], 
+       GraphicsBox[RasterBox[CompressedData["
+1:eJy9lktLQkEUxyVdCBIELaxctYq+QduWbcKMPoCSRRsDC6JPp+Lj4vuq+EBc
+iBtFfIYrpU7nPzQiN++9vmrgp/dx5j8z55w5c099z56HPYvF8mLnH4/37TIY
+9L7fHvDNXeDl6THgv78KvPof/cELn5UfnjBHjI3J5/OudVBV9bhUKjmbzaad
+iCxmcB9lAxKMmzmv1+v7JvpfG/DJjJkic8NrOut0OlYdfdoCjPXBqMx1q9Vy
+7FhfgvX0MUa73bYZ6edyuTnrvPsZQ4Wv9PTRL5vNroTOGIiJu9FoOLT6UjuT
+yVAqlaJkMin+0+m0YPEZbHTGQDwKyKtl+ugHjdFoRIVCgeLxOCUSCQGua7Ua
+9Xo9YQNbozXI/aHVZ//RcDik2WxG5XKZwuGwANdo0JfrNIhDvFqtHi7zD+YW
+i8VoMBgIvWKxKEDrdrtiHbAxiAF8pHAf5zJ9+Bca0WiUxuMxydbv98U64CvY
+wNZgTyioI9r8QR/EEvrQUhRlrh8Kheb6sDHTZ1xG84ePMP/pdPpr/tvoL/of
+Mcb9Jv7X+mcxP2X+QCMSiYh5VyoVMQbXMbP81I2vzM/JZCLyX+a+BPmPvbFN
+fmr36pr713B/rVp7THy/tD6Y1cjF5zrahvVtB5jW5y21B/kVzpc1kecjfK53
+Pu7kfNfO+x+/T/70++ob7NUEtQ==
+         "], {{0, 26}, {24, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{24, 26},
+        PlotRange->{{0, 24}, {0, 26}}]}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {Automatic, 
+         Scaled[0.6], Automatic}},
+     GridBoxSpacings->{"Columns" -> {{0}}, "Rows" -> {{0}}}],
+    "Grid"], 
+   PaneBox[
+    StyleBox[
+     RowBox[{
+     "Background", " ", "images", " ", "and", " ", "text", " ", "colors", " ",
+       "have", " ", "been", " ", "adjusted", " ", "for", " ", "editing", " ", 
+      
+      RowBox[{"purposes", "."}]}],
+     LineBreakWithin->False,
+     FontFamily->"Helvetica",
+     FontSize->12,
+     FontColor->GrayLevel[0.4]],
+    Alignment->Center,
+    ImageSize->Scaled[0.5],
+    ScrollPosition->{0., 0.}]},
+   Alignment->{Center, Center}], 2->""}, "1"]], "SlideShowNavigationBar", \
+"FirstSlide",
+ CellMargins->{{0, 0}, {0, 0}},
+ CellFrameLabelMargins->2,
+ CellSize->{Inherited, 30},
+ CellChangeTimes->{3.647361175465108*^9},
+ TextAlignment->Center,
+ CellTags->"SlideShowHeader"],
+
+Cell["\<\
+Digital Research Methods 07B:
+Corpus Search\
+\>", "Title",
+ CellChangeTimes->{
+  3.559948400406288*^9, {3.647331852839075*^9, 3.647331861295168*^9}, {
+   3.647331922221755*^9, 3.647331924532915*^9}, {3.647332658962614*^9, 
+   3.64733266480881*^9}, {3.6473611327373047`*^9, 3.647361139759391*^9}, {
+   3.647448943135475*^9, 3.6474489472294493`*^9}, {3.652890752970626*^9, 
+   3.652890757545439*^9}}],
+
+Cell[TextData[{
+ "William J Turkel, ",
+ StyleBox["wturkel@uwo.ca",
+  FontSlant->"Italic",
+  FontColor->RGBColor[
+   0.396078431372549, 0.596078431372549, 0.796078431372549]],
+ "\nHistory 2816 / Digital Humanities 2130 / History 9877"
+}], "Subtitle",
+ CellChangeTimes->{{3.647331955723979*^9, 3.6473319708190517`*^9}, 
+   3.647332103720562*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Overview", "Section",
+ CellChangeTimes->{{3.647361153919208*^9, 3.6473611548467712`*^9}}],
+
+Cell[TextData[{
+ "Now that we have learned various computational methods for analyzing a \
+single text, we turn to applying those methods to a large batch of texts. A \
+collection of texts is known as a ",
+ StyleBox["corpus",
+  FontSlant->"Italic"],
+ ". Here we focus on indexing and searching a corpus."
+}], "Text",
+ CellChangeTimes->{{3.647361157582405*^9, 3.647361159086673*^9}, {
+  3.6528908355753527`*^9, 3.6528909387459173`*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Setup", "Section",
+ CellChangeTimes->{{3.647716369451888*^9, 3.647716370003084*^9}, {
+  3.647798474690284*^9, 3.6477984752570744`*^9}}],
+
+Cell["We have used these many times before", "Text",
+ CellChangeTimes->{{3.6529706366711187`*^9, 3.6529706413182993`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"viewData", "[", "x_", "]"}], ":=", "\[IndentingNewLine]", 
+  RowBox[{"Framed", "[", 
+   RowBox[{"Pane", "[", 
+    RowBox[{"x", ",", 
+     RowBox[{"{", 
+      RowBox[{"Automatic", ",", "200"}], "}"}], ",", 
+     RowBox[{"Scrollbars", "\[Rule]", "True"}]}], "]"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.511539182255096*^9, 3.51153920239167*^9}}],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"stopwords", "=", 
+   RowBox[{"WordData", "[", 
+    RowBox[{"All", ",", "\"\<Stopwords\>\""}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"nonStopwordQ", "[", "w_", "]"}], ":=", "\[IndentingNewLine]", 
+  RowBox[{"Not", "[", 
+   RowBox[{"MemberQ", "[", 
+    RowBox[{"stopwords", ",", "w"}], "]"}], "]"}]}]}], "Input",
+ CellChangeTimes->{{3.639670580673246*^9, 3.639670586118531*^9}, {
+  3.63967080861541*^9, 3.639670819382111*^9}, {3.647614148033167*^9, 
+  3.6476141549808607`*^9}}],
+
+Cell["\<\
+These functions allow us to download a text file from the Internet Archive if \
+we have its identifier\
+\>", "Text",
+ CellChangeTimes->{{3.652899496665616*^9, 3.652899506448597*^9}, {
+  3.652900193640684*^9, 3.652900208535488*^9}, {3.652901103951921*^9, 
+  3.652901107711092*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"internetArchiveIDToURL", "[", "id_", "]"}], ":=", 
+  "\[IndentingNewLine]", 
+  RowBox[{
+  "\"\<https://archive.org/download/\>\"", "~~", "id", "~~", "\"\</\>\"", "~~", 
+   RowBox[{
+    RowBox[{"Flatten", "[", 
+     RowBox[{"StringCases", "[", 
+      RowBox[{
+       RowBox[{"Import", "[", 
+        RowBox[{
+         RowBox[{
+         "\"\<https://archive.org/download/\>\"", "~~", "id", "~~", 
+          "\"\</\>\""}], ",", "\"\<Hyperlinks\>\""}], "]"}], ",", 
+       RowBox[{
+        RowBox[{"\"\</download/\>\"", "~~", "id", "~~", "\"\</\>\"", "~~", 
+         RowBox[{"f", ":", 
+          RowBox[{"{", 
+           RowBox[{"__", "~~", "\"\<.txt\>\""}], "}"}]}]}], "\[Rule]", 
+        "f"}]}], "]"}], "]"}], "\[LeftDoubleBracket]", "1", 
+    "\[RightDoubleBracket]"}]}]}]], "Input",
+ CellChangeTimes->{{3.652898080597025*^9, 3.652898130658784*^9}, {
+  3.652898570107688*^9, 3.652898572490798*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"internetArchiveIDDownload", "[", "id_", "]"}], ":=", 
+  "\[IndentingNewLine]", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"Pause", "[", "2", "]"}], ";", 
+    RowBox[{"URLSave", "[", 
+     RowBox[{
+      RowBox[{"internetArchiveIDToURL", "[", "id", "]"}], ",", 
+      RowBox[{"FileNameJoin", "[", 
+       RowBox[{"{", 
+        RowBox[{"localDownloadFilePath", ",", 
+         RowBox[{
+          RowBox[{"ToString", "[", "id", "]"}], "~~", "\"\<.txt\>\""}]}], 
+        "}"}], "]"}]}], "]"}]}], "}"}]}]], "Input",
+ CellChangeTimes->{{3.652812596723868*^9, 3.652812641657048*^9}, {
+   3.652812749752721*^9, 3.652812757192513*^9}, {3.652896222345756*^9, 
+   3.652896224928454*^9}, 3.6528974074127293`*^9, {3.652898277854329*^9, 
+   3.6528982803251457`*^9}, {3.652898594226543*^9, 3.652898607335566*^9}, {
+   3.652900007208839*^9, 3.652900009060063*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Corpus: Some detective novels", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.6528912224484377`*^9, 3.6528912318231697`*^9}, {3.652894652827334*^9, 
+  3.652894655337706*^9}, {3.652896920896419*^9, 3.652896921950879*^9}, {
+  3.652900319148108*^9, 3.652900338018691*^9}}],
+
+Cell["\<\
+For our sample corpus, we are going to batch download six detective novels by \
+R. Austin Freeman\
+\>", "Text",
+ CellChangeTimes->{{3.6528912345270033`*^9, 3.65289127936537*^9}, {
+  3.652900331052511*^9, 3.652900334834982*^9}}],
+
+Cell[BoxData[
+ RowBox[{"WikipediaSearch", "[", "\"\<r. austin freeman\>\"", "]"}]], "Input",\
+
+ CellChangeTimes->{{3.652891137739032*^9, 3.652891202584354*^9}}],
+
+Cell[BoxData[
+ RowBox[{"freemanIDs", "=", 
+  RowBox[{"Rest", "[", 
+   RowBox[{"StringTrim", "[", 
+    RowBox[{
+     RowBox[{"StringSplit", "[", 
+      RowBox[{"URLFetch", "@", 
+       RowBox[{"URLBuild", "[", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{
+          "\"\<http://archive.org/\>\"", ",", "\"\<advancedsearch.php\>\""}], 
+          "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{
+           "\"\<q\>\"", "\[Rule]", " ", 
+            "\"\<creator:\\\"Freeman, R. Austin (Richard Austin), 1862-1943\\\
+\" AND collection:Gutenberg\>\""}], ",", 
+           RowBox[{"\"\<fl[]\>\"", "\[Rule]", "\"\<identifier\>\""}], ",", 
+           RowBox[{"\"\<rows\>\"", "\[Rule]", "50"}], ",", 
+           RowBox[{"\"\<page\>\"", "\[Rule]", "1"}], ",", 
+           RowBox[{"\"\<output\>\"", "\[Rule]", "\"\<csv\>\""}]}], "}"}]}], 
+        "]"}]}], "]"}], ",", "\"\<\\\"\>\""}], "]"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.64511905737632*^9, 3.645119100463616*^9}, {
+   3.645121872456016*^9, 3.645121898573406*^9}, {3.652900408721231*^9, 
+   3.652900444767776*^9}, 3.652900557886491*^9}],
+
+Cell["\<\
+Now I am going to create a special directory to hold the files I want to \
+download.\
+\>", "Text",
+ CellChangeTimes->{{3.652892666955104*^9, 3.652892689261303*^9}, 
+   3.652900278133938*^9}],
+
+Cell[BoxData[
+ RowBox[{"Clear", "[", "localDownloadFilePath", "]"}]], "Input",
+ CellChangeTimes->{{3.652901086137063*^9, 3.652901091437723*^9}}],
+
+Cell[TextData[StyleBox["Make sure to change the following so that it is a \
+valid file path on your own computer",
+ FontSlant->"Italic"]], "Text",
+ CellChangeTimes->{{3.6528996132446327`*^9, 3.652899662803152*^9}},
+ Background->RGBColor[1, 0.85, 0.85]],
+
+Cell[BoxData[
+ RowBox[{"localDownloadFilePath", "=", 
+  "\"\</Users/wjt/Downloads/freeman\>\""}]], "Input",
+ CellChangeTimes->{{3.65289958930519*^9, 3.6528996279964657`*^9}, {
+  3.6529010319866867`*^9, 3.65290103275397*^9}}],
+
+Cell[BoxData[
+ RowBox[{"If", "[", 
+  RowBox[{
+   RowBox[{"Not", "[", 
+    RowBox[{"DirectoryQ", "[", "localDownloadFilePath", "]"}], "]"}], ",", 
+   RowBox[{"CreateDirectory", "[", "localDownloadFilePath", "]"}]}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.645119735915062*^9, 3.645119790154065*^9}, {
+  3.652892699098353*^9, 3.652892704849229*^9}, {3.6529002467679663`*^9, 
+  3.652900292852487*^9}, {3.6529005933946533`*^9, 3.652900594873671*^9}, {
+  3.652901036809847*^9, 3.652901040009478*^9}}],
+
+Cell["I am going to set this directory to be my default", "Text",
+ CellChangeTimes->{{3.6528930434925547`*^9, 3.652893069543335*^9}, {
+  3.6529007101104183`*^9, 3.652900719732915*^9}, {3.652901252074649*^9, 
+  3.652901255545529*^9}}],
+
+Cell[BoxData[
+ RowBox[{"SetDirectory", "[", "localDownloadFilePath", "]"}]], "Input",
+ CellChangeTimes->{{3.652893055269574*^9, 3.652893060574758*^9}, {
+   3.6529007224692583`*^9, 3.6529007290448103`*^9}, 3.6529010564330187`*^9}],
+
+Cell["Here is the URL for the text file of the first novel", "Text",
+ CellChangeTimes->{{3.652900617049313*^9, 3.652900667766954*^9}}],
+
+Cell[BoxData[
+ RowBox[{"internetArchiveIDToURL", "[", 
+  RowBox[{
+  "freemanIDs", "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.65290065020765*^9, 3.6529006586473713`*^9}}],
+
+Cell["\<\
+Now we can download the files - this takes a little while because it pauses \
+for a few seconds between each download\
+\>", "Text",
+ CellChangeTimes->{
+  3.652891648532894*^9, {3.652891694590934*^9, 3.6528917021257963`*^9}, 
+   3.652891750444971*^9, {3.685632385402698*^9, 3.685632409365839*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Map", "[", 
+  RowBox[{"internetArchiveIDDownload", ",", "freemanIDs"}], "]"}]], "Input",
+ CellChangeTimes->{{3.652891707727968*^9, 3.652891723301901*^9}, {
+  3.652892641388796*^9, 3.6528926421235123`*^9}, {3.652900699846921*^9, 
+  3.652900701443972*^9}}],
+
+Cell[BoxData[
+ RowBox[{"FileNames", "[", "]"}]], "Input",
+ CellChangeTimes->{{3.652900733346575*^9, 3.6529007353734007`*^9}}],
+
+Cell["\<\
+If you need to look at a particular text, you can use a command like the \
+following\
+\>", "Text",
+ CellChangeTimes->{{3.652977669296762*^9, 3.6529776920884542`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"viewData", "[", 
+  RowBox[{"Import", "[", "\"\<theuttermostfart12028gut.txt\>\"", "]"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.652977693817893*^9, 3.652977718880797*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Put and Get", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.652892260705926*^9, 3.652892264313327*^9}, {3.652892869837007*^9, 
+  3.652892870331037*^9}, {3.65289480661346*^9, 3.652894819147666*^9}}],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["Put",
+  FontWeight->"Bold"],
+ " and ",
+ StyleBox["Get",
+  FontWeight->"Bold"],
+ " commands allow us to store a ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " expression in a file and retrieve it. If something takes a long time to \
+compute and it is not going to change frequently (or at all), it is usually a \
+good idea to save a copy of it this way."
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.652894826491461*^9, 3.6528949580546293`*^9}, {3.652895544738645*^9, 
+  3.652895548793079*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Directory", "[", "]"}]], "Input",
+ CellChangeTimes->{{3.6528949669589157`*^9, 3.652894970151087*^9}}],
+
+Cell[BoxData[
+ RowBox[{"FileNames", "[", "]"}]], "Input",
+ CellChangeTimes->{{3.6528949753859*^9, 3.652894980597831*^9}, {
+  3.6528955694083633`*^9, 3.652895594039513*^9}}],
+
+Cell[TextData[{
+ "The \[OpenCurlyDoubleQuote].m\[CloseCurlyDoubleQuote] extension stands for \
+a ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " file"
+}], "Text",
+ CellChangeTimes->{{3.652895634301773*^9, 3.652895646925333*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Put", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"1", ",", "2", ",", "3"}], "}"}], ",", "\"\<ONETWOTHREE.m\>\""}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.652894986304908*^9, 3.652895002437901*^9}, {
+   3.6528954949800367`*^9, 3.652895512979314*^9}, 3.652895558304988*^9}],
+
+Cell[BoxData[
+ RowBox[{"FileNames", "[", "]"}]], "Input",
+ CellChangeTimes->{{3.6528950077204447`*^9, 3.652895013620615*^9}, 
+   3.6528955628886833`*^9, 3.6528956001750917`*^9}],
+
+Cell[BoxData[
+ RowBox[{"Get", "[", "\"\<ONETWOTHREE.m\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.652895017624854*^9, 3.652895034092684*^9}, 
+   3.652895607175126*^9}],
+
+Cell["We don\[CloseCurlyQuote]t need to save this file, so we will delete \
+it.", "Text",
+ CellChangeTimes->{{3.652895043555332*^9, 3.652895062387802*^9}}],
+
+Cell[BoxData[
+ RowBox[{"DeleteFile", "[", "\"\<ONETWOTHREE.m\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.6528951308750687`*^9, 3.652895138755471*^9}, 
+   3.652895611102951*^9}],
+
+Cell[BoxData[
+ RowBox[{"FileNames", "[", "\"\<*\>\"", "]"}]], "Input",
+ CellChangeTimes->{3.6528955728483152`*^9}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["An association of texts", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.652895186103984*^9, 3.652895189494267*^9}}],
+
+Cell[TextData[{
+ "If our corpus is small enough, we can load all of the texts that we want to \
+analyze into memory. We will store them in an association where the ",
+ StyleBox["key",
+  FontSlant->"Italic"],
+ " is the file name of the text, and the ",
+ StyleBox["value",
+  FontSlant->"Italic"],
+ " is the lowercased list of words in the order they appear in the text."
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.652895193334201*^9, 3.6528953078339453`*^9}}],
+
+Cell["\<\
+Here is what one entry in the association is going to look like\
+\>", "Text",
+ CellChangeTimes->{{3.652895312153577*^9, 3.652895314801525*^9}, {
+  3.652895348313559*^9, 3.652895357776004*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Short", "[", 
+  RowBox[{
+   RowBox[{"\"\<johnthorndykesca13882gut.txt\>\"", "\[Rule]", 
+    RowBox[{"ToLowerCase", "[", 
+     RowBox[{"TextWords", "[", 
+      RowBox[{"Import", "[", "\"\<johnthorndykesca13882gut.txt\>\"", "]"}], 
+      "]"}], "]"}]}], ",", "10"}], "]"}]], "Input",
+ CellChangeTimes->{{3.652895369026121*^9, 3.652895411806182*^9}, {
+  3.652970424534562*^9, 3.652970431109313*^9}}],
+
+Cell[TextData[{
+ "Since it takes a while to create this association, we will store a copy of \
+it. The first time the code below is run, the association file doesn\
+\[CloseCurlyQuote]t exist so it is created from scratch. If we rerun the \
+code, however, the ",
+ StyleBox["Get",
+  FontWeight->"Bold"],
+ " command will be used to retrieve the association. If we want or need to \
+recreate the association, we simply delete the local files from our drive."
+}], "Text",
+ CellChangeTimes->{{3.652895661253388*^9, 3.652895774736845*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"If", "[", 
+   RowBox[{
+    RowBox[{"FileExistsQ", "[", "\"\<freemanTexts.assoc.m\>\"", "]"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"freemanTexts", "=", 
+     RowBox[{"Get", "[", "\"\<freemanTexts.assoc.m\>\"", "]"}]}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"freemanTexts", "=", 
+      RowBox[{"Association", "[", 
+       RowBox[{"Map", "[", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"#", "\[Rule]", 
+           RowBox[{"ToLowerCase", "@", 
+            RowBox[{"TextWords", "@", 
+             RowBox[{"Import", "@", "#"}]}]}]}], "&"}], ",", 
+         RowBox[{"FileNames", "[", "\"\<*.txt\>\"", "]"}]}], "]"}], "]"}]}], 
+     ";", "\[IndentingNewLine]", 
+     RowBox[{"Put", "[", 
+      RowBox[{"freemanTexts", ",", "\"\<freemanTexts.assoc.m\>\""}], 
+      "]"}]}]}], "]"}], ";"}]], "Input",
+ CellChangeTimes->{{3.6454395458273087`*^9, 3.6454396537151957`*^9}, {
+  3.6457151137729073`*^9, 3.645715183331461*^9}, {3.645715241975335*^9, 
+  3.6457152738329487`*^9}, {3.6528957891772013`*^9, 3.652895856119014*^9}}],
+
+Cell[BoxData[
+ RowBox[{"FileNames", "[", "]"}]], "Input",
+ CellChangeTimes->{{3.6528958466478243`*^9, 3.652895848494894*^9}}],
+
+Cell["Number of texts", "Text",
+ CellChangeTimes->{{3.652895879885477*^9, 3.652895881732819*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Length", "[", "freemanTexts", "]"}]], "Input",
+ CellChangeTimes->{{3.6528958844701557`*^9, 3.6528958890534363`*^9}}],
+
+Cell["Number of words in each text", "Text",
+ CellChangeTimes->{{3.652895891356921*^9, 3.652895895188271*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Map", "[", 
+  RowBox[{"Length", ",", 
+   RowBox[{"Values", "[", "freemanTexts", "]"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6528958990859423`*^9, 3.652895910148769*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Indexing words", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.6529705305794163`*^9, 3.652970534097356*^9}}],
+
+Cell["\<\
+The next function takes the association of texts that we just created, and \
+the name of a file, and it creates an index for that file.\
+\>", "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.6529705482097607`*^9, 3.6529705506088943`*^9}, {3.652970651431678*^9, 
+  3.652970691036968*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"indexWords", "[", 
+   RowBox[{"fileassoc_", ",", "filename_"}], "]"}], ":=", 
+  "\[IndentingNewLine]", 
+  RowBox[{"ReplaceAll", "[", 
+   RowBox[{
+    RowBox[{"GroupBy", "[", 
+     RowBox[{
+      RowBox[{"Select", "[", 
+       RowBox[{
+        RowBox[{"Thread", "[", 
+         RowBox[{"List", "[", 
+          RowBox[{
+           RowBox[{"fileassoc", "[", "filename", "]"}], ",", 
+           RowBox[{"Range", "@", 
+            RowBox[{"Length", "[", 
+             RowBox[{"fileassoc", "[", "filename", "]"}], "]"}]}]}], "]"}], 
+         "]"}], ",", 
+        RowBox[{
+         RowBox[{"nonStopwordQ", "[", 
+          RowBox[{"#", "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}],
+           "]"}], "&"}]}], "]"}], ",", 
+      RowBox[{"First", "\[Rule]", "Last"}]}], "]"}], ",", 
+    RowBox[{"x_List", "\[Rule]", 
+     RowBox[{"(", 
+      RowBox[{"filename", "\[Rule]", "x"}], ")"}]}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.645440348129765*^9, 3.645440358049274*^9}, {
+  3.645440411639266*^9, 3.645440417670896*^9}, {3.6454404688568172`*^9, 
+  3.645440535995023*^9}}],
+
+Cell["\<\
+We can try running it once so that we can see what kind of output it produces\
+\
+\>", "Text",
+ CellChangeTimes->{{3.652970723020648*^9, 3.652970737243628*^9}}],
+
+Cell[BoxData[
+ RowBox[{"viewData", "[", 
+  RowBox[{"indexWords", "[", 
+   RowBox[{"freemanTexts", ",", "\"\<johnthorndykesca13882gut.txt\>\""}], 
+   "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.652970749370727*^9, 3.65297078142052*^9}}],
+
+Cell[TextData[{
+ "If we scroll down a bit in the listing, we see that the word \
+\[OpenCurlyDoubleQuote]professor\[CloseCurlyDoubleQuote] appears at word \
+position 128. Since our association ",
+ StyleBox["freemanTexts",
+  FontSlant->"Italic"],
+ " contains word lists, we can see the context for this instance of the word \
+with the following command."
+}], "Text",
+ CellChangeTimes->{{3.6529708591449337`*^9, 3.6529709509657927`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+  "freemanTexts", "\[LeftDoubleBracket]", 
+   "\"\<johnthorndykesca13882gut.txt\>\"", "\[RightDoubleBracket]"}], 
+  "\[LeftDoubleBracket]", 
+  RowBox[{
+   RowBox[{"128", "-", "6"}], ";;", 
+   RowBox[{"128", "+", "6"}]}], "\[RightDoubleBracket]"}]], "Input",
+ CellChangeTimes->{{3.652970952916888*^9, 3.6529710492510853`*^9}}],
+
+Cell["The next instance is at word position 456", "Text",
+ CellChangeTimes->{{3.652971057018743*^9, 3.65297106923438*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+  "freemanTexts", "\[LeftDoubleBracket]", 
+   "\"\<johnthorndykesca13882gut.txt\>\"", "\[RightDoubleBracket]"}], 
+  "\[LeftDoubleBracket]", 
+  RowBox[{
+   RowBox[{"456", "-", "6"}], ";;", 
+   RowBox[{"456", "+", "6"}]}], "\[RightDoubleBracket]"}]], "Input",
+ CellChangeTimes->{{3.652970952916888*^9, 3.6529710492510853`*^9}, {
+  3.652971080163011*^9, 3.652971083010034*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Merging indexes", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.6529711301463747`*^9, 3.652971133024641*^9}}],
+
+Cell[TextData[{
+ "Now we are going to create indexes for each of the novels, and then ",
+ StyleBox["Merge",
+  FontWeight->"Bold"],
+ " them into one large one. Once again we test to see if the merged index \
+already exists before creating it. Once we create it, we ",
+ StyleBox["Put",
+  FontWeight->"Bold"],
+ " it in a file, so we can ",
+ StyleBox["Get",
+  FontWeight->"Bold"],
+ " it later rather than rebuild it."
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+   3.652973284495618*^9, 3.6529733422607403`*^9}, 3.6529734054844418`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"If", "[", 
+   RowBox[{
+    RowBox[{"FileExistsQ", "[", "\"\<freemanIndex.assoc.m\>\"", "]"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"freemanIndex", "=", 
+     RowBox[{"Get", "[", "\"\<freemanIndex.assoc.m\>\"", "]"}]}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"freemanIndex", "=", 
+      RowBox[{"Merge", "[", 
+       RowBox[{
+        RowBox[{"Map", "[", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"indexWords", "[", 
+            RowBox[{"freemanTexts", ",", 
+             RowBox[{"FileNameJoin", "[", 
+              RowBox[{"{", 
+               RowBox[{"#", "<>", "\"\<.txt\>\""}], "}"}], "]"}]}], "]"}], 
+           "&"}], ",", "freemanIDs"}], "]"}], ",", "Identity"}], "]"}]}], ";",
+      "\[IndentingNewLine]", 
+     RowBox[{"Put", "[", 
+      RowBox[{"freemanIndex", ",", "\"\<freemanIndex.assoc.m\>\""}], 
+      "]"}]}]}], "]"}], ";"}]], "Input",
+ CellChangeTimes->{{3.652973373269121*^9, 3.652973426219881*^9}, {
+  3.652973531169406*^9, 3.652973550344983*^9}}],
+
+Cell["Now we can look up a word in the index like this", "Text",
+ CellChangeTimes->{{3.65297357460012*^9, 3.652973582575356*^9}}],
+
+Cell[BoxData[
+ RowBox[{"freemanIndex", "[", "\"\<ahkhenaten\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.652973605948739*^9, 3.652973657933909*^9}}],
+
+Cell[TextData[{
+ "As before, we can use ",
+ StyleBox["Span",
+  FontWeight->"Bold"],
+ " with our association of word lists to see the word in context"
+}], "Text",
+ CellChangeTimes->{{3.6529736846125507`*^9, 3.652973712875733*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+  "freemanTexts", "\[LeftDoubleBracket]", 
+   "\"\<theeyeofosiris24201gut.txt\>\"", "\[RightDoubleBracket]"}], 
+  "\[LeftDoubleBracket]", 
+  RowBox[{
+   RowBox[{"28075", "-", "6"}], ";;", 
+   RowBox[{"28075", "+", "6"}]}], "\[RightDoubleBracket]"}]], "Input",
+ CellChangeTimes->{{3.652970952916888*^9, 3.6529710492510853`*^9}, {
+  3.652971080163011*^9, 3.652971083010034*^9}, {3.652973743684847*^9, 
+  3.652973753426387*^9}}],
+
+Cell["\<\
+The information in the combined index will be much more useful, however, if \
+we can see the use of each word in context\
+\>", "Text",
+ CellChangeTimes->{{3.652973780521405*^9, 3.652973803920786*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Search terms in context", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.65297138313048*^9, 3.652971386041567*^9}}],
+
+Cell["\<\
+The following functions provide us with a way of seeing corpus search terms \
+in context\
+\>", "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.652973830752624*^9, 3.65297384367133*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"searchTermContext", "[", 
+   RowBox[{"textassoc_", ",", "wordpos_", ",", "filename_"}], "]"}], ":=", 
+  "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"textassoc", "[", "filename", "]"}], "\[LeftDoubleBracket]", 
+   RowBox[{
+    RowBox[{"wordpos", "-", "3"}], ";;", 
+    RowBox[{"wordpos", "+", "3"}]}], "\[RightDoubleBracket]"}]}]], "Input",
+ CellChangeTimes->{{3.6457191110191298`*^9, 3.645719206322517*^9}, {
+  3.645719276909635*^9, 3.6457192838370953`*^9}, {3.645719842935236*^9, 
+  3.645719846332252*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"displaySearch", "[", 
+   RowBox[{"textassoc_", ",", "indexassoc_", ",", "term_"}], "]"}], ":=", 
+  "\[IndentingNewLine]", 
+  RowBox[{"Module", "[", 
+   RowBox[{
+    RowBox[{"{", "results", "}"}], ",", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"results", "=", "\[IndentingNewLine]", 
+      RowBox[{"Flatten", "[", 
+       RowBox[{
+        RowBox[{
+         RowBox[{
+          RowBox[{"Thread", "[", 
+           RowBox[{"List", "[", 
+            RowBox[{
+             RowBox[{"Values", "@", 
+              RowBox[{
+               RowBox[{"indexassoc", "[", "term", "]"}], 
+               "\[LeftDoubleBracket]", "#", "\[RightDoubleBracket]"}]}], ",", 
+             
+             RowBox[{"Keys", "@", 
+              RowBox[{
+               RowBox[{"indexassoc", "[", "term", "]"}], 
+               "\[LeftDoubleBracket]", "#", "\[RightDoubleBracket]"}]}]}], 
+            "]"}], "]"}], "&"}], "/@", 
+         RowBox[{"Range", "[", 
+          RowBox[{"Length", "[", 
+           RowBox[{"Keys", "@", 
+            RowBox[{"indexassoc", "[", "term", "]"}]}], "]"}], "]"}]}], ",", 
+        "1"}], "]"}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"Framed", "[", 
+      RowBox[{"Pane", "[", 
+       RowBox[{
+        RowBox[{"Style", "[", 
+         RowBox[{
+          RowBox[{"TableForm", "[", 
+           RowBox[{
+            RowBox[{
+             RowBox[{"Append", "[", 
+              RowBox[{
+               RowBox[{"searchTermContext", "[", 
+                RowBox[{"textassoc", ",", 
+                 RowBox[{
+                 "#", "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}], 
+                 ",", 
+                 RowBox[{
+                 "#", "\[LeftDoubleBracket]", "2", 
+                  "\[RightDoubleBracket]"}]}], "]"}], ",", 
+               RowBox[{"Style", "[", 
+                RowBox[{
+                 RowBox[{"{", 
+                  RowBox[{
+                   RowBox[{
+                   "#", "\[LeftDoubleBracket]", "2", 
+                    "\[RightDoubleBracket]"}], ",", 
+                   RowBox[{
+                   "#", "\[LeftDoubleBracket]", "1", 
+                    "\[RightDoubleBracket]"}]}], "}"}], ",", 
+                 RowBox[{"Darker", "@", "Green"}]}], "]"}]}], "]"}], "&"}], "/@",
+             "results"}], "]"}], ",", "Small"}], "]"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"Full", ",", "200"}], "}"}], ",", 
+        RowBox[{"Scrollbars", "\[Rule]", "True"}]}], "]"}], "]"}]}]}], 
+   "\[IndentingNewLine]", "]"}]}]], "Input",
+ CellChangeTimes->{{3.645720354655745*^9, 3.645720593118178*^9}, {
+  3.645720632461602*^9, 3.645720747368436*^9}, {3.64572082191881*^9, 
+  3.6457209073068247`*^9}, {3.645721176417759*^9, 3.64572133625972*^9}, {
+  3.645721371243526*^9, 3.6457214149626207`*^9}, {3.645721447339086*^9, 
+  3.645721574110282*^9}, {3.645721624826241*^9, 3.645721673455269*^9}, {
+  3.645721835298449*^9, 3.64572183877735*^9}, {3.64572190256328*^9, 
+  3.645721925286469*^9}, {3.6457219566993227`*^9, 3.645721957605073*^9}, {
+  3.645722050042877*^9, 3.645722092196302*^9}, {3.6457221704390087`*^9, 
+  3.6457222472279987`*^9}, {3.6529739016705837`*^9, 3.652973914605391*^9}}],
+
+Cell["\<\
+Now we can see how a term is used in multiple texts at the same time. On the \
+righthand side of each row, the name of the file and the word position for \
+the search term are shown in green text in curly braces.\
+\>", "Text",
+ CellChangeTimes->{{3.6529739284930143`*^9, 3.6529739641010942`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"displaySearch", "[", 
+  RowBox[{"freemanTexts", ",", "freemanIndex", ",", "\"\<ahkhenaten\>\""}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.652973967474942*^9, 3.652973984130577*^9}}],
+
+Cell["Study this example. What do you think is going on?", "Text",
+ CellChangeTimes->{{3.652974019465272*^9, 3.652974023441196*^9}, {
+  3.652974102840127*^9, 3.652974104118425*^9}, {3.6529741352373943`*^9, 
+  3.652974143805251*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["An association containing word frequencies", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+   3.65297138313048*^9, 3.652971386041567*^9}, {3.6529726992918253`*^9, 
+   3.652972707690872*^9}, 3.65297531591089*^9, {3.65297693142593*^9, 
+   3.652976931624341*^9}}],
+
+Cell[TextData[{
+ "We can also create an association containing word frequencies for each \
+text. Once again we ",
+ StyleBox["Put",
+  FontWeight->"Bold"],
+ " a copy on our drive so we can ",
+ StyleBox["Get",
+  FontWeight->"Bold"],
+ " it later."
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.652975526142796*^9, 3.652975569901535*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"If", "[", 
+   RowBox[{
+    RowBox[{
+    "FileExistsQ", "[", "\"\<freemanWordFrequencies.assoc.m\>\"", "]"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"freemanWordFrequencies", "=", 
+     RowBox[{"Get", "[", "\"\<freemanWordFrequencies.assoc.m\>\"", "]"}]}], 
+    ",", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"freemanWordFrequencies", "=", 
+      RowBox[{"Association", "[", 
+       RowBox[{"MapThread", "[", 
+        RowBox[{"Rule", ",", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"Keys", "[", "freemanTexts", "]"}], ",", 
+           RowBox[{"Map", "[", 
+            RowBox[{
+             RowBox[{
+              RowBox[{"Sort", "[", 
+               RowBox[{
+                RowBox[{"Tally", "[", 
+                 RowBox[{"DeleteStopwords", "[", 
+                  RowBox[{
+                  "freemanTexts", "\[LeftDoubleBracket]", "#", 
+                   "\[RightDoubleBracket]"}], "]"}], "]"}], ",", 
+                RowBox[{
+                 RowBox[{
+                  RowBox[{
+                  "#1", "\[LeftDoubleBracket]", "2", 
+                   "\[RightDoubleBracket]"}], ">", 
+                  RowBox[{
+                  "#2", "\[LeftDoubleBracket]", "2", 
+                   "\[RightDoubleBracket]"}]}], "&"}]}], "]"}], "&"}], ",", 
+             RowBox[{"Keys", "[", "freemanTexts", "]"}]}], "]"}]}], "}"}]}], 
+        "]"}], "]"}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"Put", "[", 
+      RowBox[{
+      "freemanWordFrequencies", ",", 
+       "\"\<freemanWordFrequencies.assoc.m\>\""}], "]"}]}]}], "]"}], 
+  ";"}]], "Input",
+ CellChangeTimes->{{3.6529742783880663`*^9, 3.652974400069559*^9}, {
+  3.652974684172217*^9, 3.652974700674573*^9}, {3.6529754345630198`*^9, 
+  3.652975522535383*^9}}],
+
+Cell["Look up frequency of a single term in one text", "Text",
+ CellChangeTimes->{{3.652974820846384*^9, 3.652974842133737*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Cases", "[", 
+  RowBox[{
+   RowBox[{
+   "freemanWordFrequencies", "\[LeftDoubleBracket]", 
+    "\"\<theeyeofosiris24201gut.txt\>\"", "\[RightDoubleBracket]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\"\<thorndyke\>\"", ",", "_"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6529747376567907`*^9, 3.652974809270924*^9}}],
+
+Cell["\<\
+Function to look up frequency of a single term across all texts\
+\>", "Text",
+ CellChangeTimes->{{3.652974845189489*^9, 3.6529748522533617`*^9}, {
+  3.652974940299337*^9, 3.652974941802431*^9}, {3.652975586972868*^9, 
+  3.652975619283886*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"corpusWordFrequencies", "[", 
+   RowBox[{"freqassoc_", ",", "keyword_"}], "]"}], ":=", 
+  "\[IndentingNewLine]", 
+  RowBox[{"TableForm", "[", 
+   RowBox[{"Map", "[", 
+    RowBox[{"Flatten", ",", 
+     RowBox[{"MapThread", "[", 
+      RowBox[{"List", ",", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"Keys", "[", "freqassoc", "]"}], ",", 
+         RowBox[{"Map", "[", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"Cases", "[", 
+             RowBox[{
+              RowBox[{
+              "freqassoc", "\[LeftDoubleBracket]", "#", 
+               "\[RightDoubleBracket]"}], ",", 
+              RowBox[{
+               RowBox[{"{", 
+                RowBox[{"keyword", ",", "n_"}], "}"}], "\[Rule]", "n"}]}], 
+             "]"}], "&"}], ",", 
+           RowBox[{"Keys", "[", "freqassoc", "]"}]}], "]"}]}], "}"}]}], 
+      "]"}]}], "]"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.6529747376567907`*^9, 3.652974809270924*^9}, {
+  3.65297488493327*^9, 3.6529749055325413`*^9}, {3.652974960786686*^9, 
+  3.652975030815662*^9}, {3.65297506245541*^9, 3.6529752910716543`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"corpusWordFrequencies", "[", 
+  RowBox[{"freemanWordFrequencies", ",", "\"\<thorndyke\>\""}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.65297503586383*^9, 3.6529750441668043`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"corpusWordFrequencies", "[", 
+  RowBox[{"freemanWordFrequencies", ",", "\"\<body\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.65297503586383*^9, 3.6529750441668043`*^9}, {
+  3.652975775735536*^9, 3.652975776567524*^9}, {3.6529758635729237`*^9, 
+  3.652975863948194*^9}, {3.6529759769442587`*^9, 3.652975977392066*^9}}],
+
+Cell["Here are the twenty most frequent terms from each text", "Text",
+ CellChangeTimes->{{3.652975804750311*^9, 3.652975811981463*^9}, {
+  3.6529758438764267`*^9, 3.652975844772346*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Keys", "[", "freemanWordFrequencies", "]"}]], "Input",
+ CellChangeTimes->{{3.652975879978574*^9, 3.652975890715743*^9}}],
+
+Cell[BoxData[
+ RowBox[{"MapThread", "[", 
+  RowBox[{"Rule", ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"Keys", "[", "freemanWordFrequencies", "]"}], ",", 
+     RowBox[{"Map", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{
+         RowBox[{
+         "freemanWordFrequencies", "\[LeftDoubleBracket]", "#", 
+          "\[RightDoubleBracket]"}], "\[LeftDoubleBracket]", 
+         RowBox[{"1", ";;", "20"}], "\[RightDoubleBracket]"}], "&"}], ",", 
+       RowBox[{"Keys", "[", "freemanWordFrequencies", "]"}]}], "]"}]}], 
+    "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6529758370693007`*^9, 3.652975841452557*^9}, {
+  3.652975902627442*^9, 3.652975946169257*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Activity", "Section",
+ CellChangeTimes->{{3.647716402186221*^9, 3.647716405353856*^9}}],
+
+Cell[TextData[{
+ "When you have a corpus, you can look for patterns both within and between \
+texts. For this activity, you are going to choose one of the following topics \
+and use the ",
+ StyleBox["displaySearch",
+  FontSlant->"Italic"],
+ " and ",
+ StyleBox["corpusWordFrequencies",
+  FontSlant->"Italic"],
+ " functions (plus any other commands you\[CloseCurlyQuote]d like) to try to \
+answer some of the questions"
+}], "Text",
+ CellChangeTimes->{{3.6529769776723623`*^9, 3.652977029429344*^9}, {
+  3.652977154729712*^9, 3.6529772531101427`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Orientalism: How are Middle Eastern, South Asian and/or Eastern Asian peoples \
+and cultures depicted in these books? Are there cases where Western society \
+is presented as superior by contrast? Are Eastern cultures romanticized?\
+\>", "Subitem",
+ CellChangeTimes->{{3.6528921954923153`*^9, 3.652892203931478*^9}, {
+   3.652972448113228*^9, 3.6529724504964733`*^9}, {3.652977035725075*^9, 
+   3.652977039988937*^9}, {3.65297707484478*^9, 3.6529771478861227`*^9}, {
+   3.652977309124954*^9, 3.652977370154324*^9}, 3.652977868843658*^9, {
+   3.652977901488778*^9, 3.652977908760758*^9}}],
+
+Cell["\<\
+Medico-legal investigation: What kind of evidence can you find for the state \
+of the forensic sciences when these books were written? What are some of the \
+different kinds of specialist knowledge Dr. Thorndyke applies?\
+\>", "Subitem",
+ CellChangeTimes->{{3.6528921954923153`*^9, 3.652892203931478*^9}, {
+   3.652972448113228*^9, 3.6529724504964733`*^9}, {3.652977035725075*^9, 
+   3.652977039988937*^9}, {3.65297707484478*^9, 3.6529771488891163`*^9}, {
+   3.652977264141569*^9, 3.65297729559662*^9}, {3.65297751724679*^9, 
+   3.6529775893229637`*^9}, 3.6529778717778597`*^9}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["FindList", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+   3.6528921618787403`*^9, 3.65289216662888*^9}, {3.652892876676662*^9, 
+   3.652892884450509*^9}, {3.652893005782806*^9, 3.65289300661404*^9}, 
+   3.6528933272104797`*^9}],
+
+Cell[BoxData[
+ RowBox[{"FileNames", "[", "\"\<*.txt\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.652893111136544*^9, 3.6528931181380873`*^9}}],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["FindList",
+  FontWeight->"Bold"],
+ " command returns lines in a file that contain one or more words. Note that \
+lines do not correspond to sentences in the text, and that we don\
+\[CloseCurlyQuote]t get any information about where in the file the line is \
+to be found."
+}], "Text",
+ CellChangeTimes->{{3.652893294339484*^9, 3.652893397663836*^9}}],
+
+Cell[BoxData[
+ RowBox[{"viewData", "[", 
+  RowBox[{"FindList", "[", 
+   RowBox[{"\"\<theeyeofosiris24201gut.txt\>\"", ",", "\"\<Egypt\>\"", ",", 
+    RowBox[{"IgnoreCase", "\[Rule]", "True"}]}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.652892968728093*^9, 3.652892972600342*^9}, {
+   3.6528930931637793`*^9, 3.65289309570691*^9}, {3.652893128653124*^9, 
+   3.6528932446454268`*^9}, 3.65289327862121*^9, 3.652971426642468*^9, {
+   3.685632764610464*^9, 3.685632768345469*^9}}],
+
+Cell["\<\
+We can use this command to find other words that tend to co-occur with our \
+search term, however. Note that these are words that are in the same file \
+line, not the same sentence.\
+\>", "Text",
+ CellChangeTimes->{{3.652893427223078*^9, 3.652893442070166*^9}, 
+   3.652894638434133*^9, {3.653035674937656*^9, 3.653035700239355*^9}}],
+
+Cell[BoxData[
+ RowBox[{"WordCloud", "[", 
+  RowBox[{"DeleteStopwords", "[", 
+   RowBox[{"Flatten", "[", 
+    RowBox[{"TextWords", "[", 
+     RowBox[{"FindList", "[", 
+      RowBox[{"\"\<theeyeofosiris24201gut.txt\>\"", ",", "\"\<Egypt\>\"", ",", 
+       RowBox[{"IgnoreCase", "\[Rule]", "True"}]}], "]"}], "]"}], "]"}], 
+   "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.652892968728093*^9, 3.652892972600342*^9}, {
+   3.6528930931637793`*^9, 3.65289309570691*^9}, {3.652893128653124*^9, 
+   3.6528932446454268`*^9}, 3.65289327862121*^9, {3.6528934545506*^9, 
+   3.6528935567068443`*^9}, 3.6529714376101007`*^9}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Text Search (experimental)", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+   3.6528928783315983`*^9, 3.65289287870125*^9}, 3.6528940443056192`*^9, 
+   3.652894201434976*^9}],
+
+Cell[TextData[{
+ "As of version 10.2, ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " supports a set of text indexing and search commands which are still listed \
+as \[OpenCurlyDoubleQuote]Experimental\[CloseCurlyDoubleQuote]. This means \
+that details of their use will probably change before they are added to the \
+language."
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.6528940462880287`*^9, 3.652894053575618*^9}, {3.6528941902673197`*^9, 
+  3.652894247040649*^9}, {3.652894627428026*^9, 3.652894628354747*^9}}],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["TextSearchReport",
+  FontWeight->"Bold"],
+ " command returns a ",
+ StyleBox["dataset",
+  FontSlant->"Italic"],
+ " (we will learn more about these in the future) showing which files contain \
+a particular term"
+}], "Text",
+ CellChangeTimes->{{3.6528942536401978`*^9, 3.652894259408122*^9}, {
+  3.652894296246746*^9, 3.652894322797883*^9}, {3.652894576828601*^9, 
+  3.652894586084248*^9}}],
+
+Cell[BoxData[
+ RowBox[{"TextSearchReport", "[", 
+  RowBox[{"localDownloadFilePath", ",", "\"\<oriental\>\""}], "]"}]], "Input",\
+
+ CellChangeTimes->{{3.652894063346903*^9, 3.652894155268095*^9}, {
+   3.652894262272344*^9, 3.652894289503236*^9}, 3.685632874928207*^9}],
+
+Cell[TextData[{
+ "If we want to see how the word is used in a particular file, we can use ",
+ StyleBox["FindList",
+  FontWeight->"Bold"]
+}], "Text",
+ CellChangeTimes->{{3.6528944976880617`*^9, 3.652894499151165*^9}, {
+  3.652894555213483*^9, 3.652894561693124*^9}, {3.652894592051776*^9, 
+  3.652894606067617*^9}}],
+
+Cell[BoxData[
+ RowBox[{"FindList", "[", 
+  RowBox[{
+  "\"\<theuttermostfart12028gut.txt\>\"", ",", "\"\<oriental\>\"", ",", 
+   RowBox[{"IgnoreCase", "\[Rule]", "True"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.652892968728093*^9, 3.652892972600342*^9}, {
+   3.6528930931637793`*^9, 3.65289309570691*^9}, {3.652893128653124*^9, 
+   3.6528932446454268`*^9}, 3.65289327862121*^9, {3.652894503808226*^9, 
+   3.652894509959099*^9}, {3.652971474577445*^9, 3.652971479207189*^9}, {
+   3.652971524543015*^9, 3.652971525606668*^9}}],
+
+Cell[BoxData[
+ RowBox[{"FindList", "[", 
+  RowBox[{
+  "\"\<themysteryof31ne12187gut.txt\>\"", ",", "\"\<oriental\>\"", ",", 
+   RowBox[{"IgnoreCase", "\[Rule]", "True"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.652892968728093*^9, 3.652892972600342*^9}, {
+   3.6528930931637793`*^9, 3.65289309570691*^9}, {3.652893128653124*^9, 
+   3.6528932446454268`*^9}, 3.65289327862121*^9, {3.652894503808226*^9, 
+   3.652894532878242*^9}, {3.652971546606155*^9, 3.652971547030017*^9}}],
+
+Cell[BoxData[
+ RowBox[{"FindList", "[", 
+  RowBox[{
+  "\"\<johnthorndykesca13882gut.txt\>\"", ",", "\"\<oriental\>\"", ",", 
+   RowBox[{"IgnoreCase", "\[Rule]", "True"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.652892968728093*^9, 3.652892972600342*^9}, {
+   3.6528930931637793`*^9, 3.65289309570691*^9}, {3.652893128653124*^9, 
+   3.6528932446454268`*^9}, 3.65289327862121*^9, {3.652894503808226*^9, 
+   3.652894532878242*^9}, {3.652971546606155*^9, 3.652971547030017*^9}, {
+   3.65297317774645*^9, 3.652973180528427*^9}}],
+
+Cell[BoxData[
+ RowBox[{"FindList", "[", 
+  RowBox[{
+  "\"\<theeyeofosiris24201gut.txt\>\"", ",", "\"\<oriental\>\"", ",", 
+   RowBox[{"IgnoreCase", "\[Rule]", "True"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.652892968728093*^9, 3.652892972600342*^9}, {
+   3.6528930931637793`*^9, 3.65289309570691*^9}, {3.652893128653124*^9, 
+   3.6528932446454268`*^9}, 3.65289327862121*^9, {3.652894503808226*^9, 
+   3.652894532878242*^9}, {3.652971546606155*^9, 3.652971547030017*^9}, {
+   3.65297317774645*^9, 3.6529732054886503`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"FindList", "[", 
+  RowBox[{"\"\<thevanishingman10476gut.txt\>\"", ",", "\"\<oriental\>\"", ",", 
+   RowBox[{"IgnoreCase", "\[Rule]", "True"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.652892968728093*^9, 3.652892972600342*^9}, {
+   3.6528930931637793`*^9, 3.65289309570691*^9}, {3.652893128653124*^9, 
+   3.6528932446454268`*^9}, 3.65289327862121*^9, {3.652894503808226*^9, 
+   3.652894548797656*^9}, {3.652971569965311*^9, 3.652971570341447*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Upload your notebook", "Section",
+ CellChangeTimes->{{3.649950784924818*^9, 3.649950788859275*^9}}],
+
+Cell["\<\
+Don\[CloseCurlyQuote]t forget to upload a copy of your notebook for this \
+class to the OWL Site for the course\
+\>", "Text",
+ CellChangeTimes->{{3.649950792779258*^9, 3.649950818634288*^9}}]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1361, 1100},
+WindowMargins->{{257, Automatic}, {Automatic, 73}},
+TaggingRules->{"SlideShow" -> True},
+Magnification:>1.25 Inherited,
+FrontEndVersion->"11.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (July 28, \
+2016)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "SlideShowHeader"->{
+  Cell[580, 22, 4383, 98, 75, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[5757, 147, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[6428, 170, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[9866, 267, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[15111, 408, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[17721, 490, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[21457, 593, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[24940, 695, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[28041, 787, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[33044, 915, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[39075, 1081, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[41081, 1133, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[43464, 1195, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[47929, 1304, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"SlideShowHeader", 48737, 1333}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 4383, 98, 75, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[4966, 122, 408, 9, 183, "Title"],
+Cell[5377, 133, 343, 9, 99, "Subtitle"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5757, 147, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[5846, 152, 95, 1, 80, "Section"],
+Cell[5944, 155, 435, 9, 61, "Text"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6428, 170, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[6517, 175, 141, 2, 80, "Section"],
+Cell[6661, 179, 122, 1, 37, "Text"],
+Cell[6786, 182, 381, 9, 66, "Input"],
+Cell[7170, 193, 536, 13, 92, "Input"],
+Cell[7709, 208, 290, 6, 37, "Text"],
+Cell[8002, 216, 932, 23, 118, "Input"],
+Cell[8937, 241, 880, 20, 92, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[9866, 267, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[9955, 272, 313, 4, 100, "Section"],
+Cell[10271, 278, 237, 5, 37, "Text"],
+Cell[10511, 285, 160, 3, 48, "Input"],
+Cell[10674, 290, 1126, 26, 212, "Input"],
+Cell[11803, 318, 200, 5, 46, "Text"],
+Cell[12006, 325, 144, 2, 48, "Input"],
+Cell[12153, 329, 252, 4, 71, "Text"],
+Cell[12408, 335, 224, 4, 48, "Input"],
+Cell[12635, 341, 497, 10, 48, "Input"],
+Cell[13135, 353, 233, 3, 46, "Text"],
+Cell[13371, 358, 229, 3, 48, "Input"],
+Cell[13603, 363, 134, 1, 46, "Text"],
+Cell[13740, 366, 224, 5, 48, "Input"],
+Cell[13967, 373, 306, 6, 46, "Text"],
+Cell[14276, 381, 278, 5, 48, "Input"],
+Cell[14557, 388, 125, 2, 48, "Input"],
+Cell[14685, 392, 176, 4, 46, "Text"],
+Cell[14864, 398, 198, 4, 48, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[15111, 408, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[15200, 413, 241, 3, 100, "Section"],
+Cell[15444, 418, 577, 16, 76, "Text"],
+Cell[16024, 436, 125, 2, 48, "Input"],
+Cell[16152, 440, 172, 3, 48, "Input"],
+Cell[16327, 445, 235, 7, 46, "Text"],
+Cell[16565, 454, 301, 7, 48, "Input"],
+Cell[16869, 463, 177, 3, 48, "Input"],
+Cell[17049, 468, 168, 3, 48, "Input"],
+Cell[17220, 473, 155, 2, 46, "Text"],
+Cell[17378, 477, 177, 3, 48, "Input"],
+Cell[17558, 482, 114, 2, 48, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[17721, 490, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[17810, 495, 159, 2, 100, "Section"],
+Cell[17972, 499, 499, 11, 76, "Text"],
+Cell[18474, 512, 202, 4, 46, "Text"],
+Cell[18679, 518, 420, 9, 48, "Input"],
+Cell[19102, 529, 532, 10, 106, "Text"],
+Cell[19637, 541, 1087, 26, 147, "Input"],
+Cell[20727, 569, 125, 2, 48, "Input"],
+Cell[20855, 573, 97, 1, 46, "Text"],
+Cell[20955, 576, 140, 2, 48, "Input"],
+Cell[21098, 580, 110, 1, 46, "Text"],
+Cell[21211, 583, 197, 4, 48, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[21457, 593, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[21546, 598, 152, 2, 100, "Section"],
+Cell[21701, 602, 329, 6, 46, "Text"],
+Cell[22033, 610, 1109, 29, 115, "Input"],
+Cell[23145, 641, 169, 4, 46, "Text"],
+Cell[23317, 647, 237, 5, 48, "Input"],
+Cell[23557, 654, 434, 9, 76, "Text"],
+Cell[23994, 665, 360, 9, 48, "Input"],
+Cell[24357, 676, 122, 1, 46, "Text"],
+Cell[24482, 679, 409, 10, 48, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[24940, 695, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[25029, 700, 153, 2, 100, "Section"],
+Cell[25185, 704, 569, 14, 76, "Text"],
+Cell[25757, 720, 1044, 27, 147, "Input"],
+Cell[26804, 749, 129, 1, 46, "Text"],
+Cell[26936, 752, 148, 2, 48, "Input"],
+Cell[27087, 756, 229, 6, 46, "Text"],
+Cell[27319, 764, 460, 11, 48, "Input"],
+Cell[27782, 777, 210, 4, 46, "Text"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[28041, 787, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[28130, 792, 158, 2, 100, "Section"],
+Cell[28291, 796, 228, 5, 46, "Text"],
+Cell[28522, 803, 544, 12, 82, "Input"],
+Cell[29069, 817, 3172, 74, 310, "Input"],
+Cell[32244, 893, 306, 5, 76, "Text"],
+Cell[32553, 900, 207, 4, 48, "Input"],
+Cell[32763, 906, 232, 3, 46, "Text"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[33044, 915, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[33133, 920, 300, 4, 100, "Section"],
+Cell[33436, 926, 372, 11, 46, "Text"],
+Cell[33811, 939, 1781, 45, 245, "Input"],
+Cell[35595, 986, 128, 1, 46, "Text"],
+Cell[35726, 989, 345, 8, 48, "Input"],
+Cell[36074, 999, 253, 5, 46, "Text"],
+Cell[36330, 1006, 1127, 29, 82, "Input"],
+Cell[37460, 1037, 204, 4, 48, "Input"],
+Cell[37667, 1043, 344, 5, 48, "Input"],
+Cell[38014, 1050, 187, 2, 46, "Text"],
+Cell[38204, 1054, 144, 2, 48, "Input"],
+Cell[38351, 1058, 675, 17, 48, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[39075, 1081, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[39164, 1086, 93, 1, 100, "Section"],
+Cell[39260, 1089, 548, 13, 76, "Text"],
+Cell[CellGroupData[{
+Cell[39833, 1106, 596, 9, 65, "Subitem"],
+Cell[40432, 1117, 588, 9, 65, "Subitem"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[41081, 1133, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[41170, 1138, 269, 4, 100, "Section"],
+Cell[41442, 1144, 142, 2, 48, "Input"],
+Cell[41587, 1148, 385, 9, 76, "Text"],
+Cell[41975, 1159, 480, 8, 48, "Input"],
+Cell[42458, 1169, 343, 6, 76, "Text"],
+Cell[42804, 1177, 611, 12, 48, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[43464, 1195, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[43553, 1200, 214, 3, 100, "Section"],
+Cell[43770, 1205, 563, 11, 76, "Text"],
+Cell[44336, 1218, 423, 12, 46, "Text"],
+Cell[44762, 1232, 267, 5, 48, "Input"],
+Cell[45032, 1239, 314, 7, 46, "Text"],
+Cell[45349, 1248, 525, 9, 48, "Input"],
+Cell[45877, 1259, 475, 8, 48, "Input"],
+Cell[46355, 1269, 524, 9, 48, "Input"],
+Cell[46882, 1280, 524, 9, 48, "Input"],
+Cell[47409, 1291, 471, 7, 48, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[47929, 1304, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[48018, 1309, 105, 1, 100, "Section"],
+Cell[48126, 1312, 201, 4, 46, "Text"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
