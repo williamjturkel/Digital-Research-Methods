@@ -1,0 +1,329 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     11639,        321]
+NotebookOptionsPosition[      9931,        257]
+NotebookOutlinePosition[     10318,        274]
+CellTagsIndexPosition[     10275,        271]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Final Research Project", "Title",
+ CellChangeTimes->{{3.651163249584736*^9, 3.651163254056362*^9}, {
+  3.651163523375786*^9, 3.651163526158741*^9}, {3.655648992671927*^9, 
+  3.655648995174983*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["History 2816A / Digital Humanities 2130A", "Chapter",
+ CellChangeTimes->{{3.6511632289941177`*^9, 3.651163245097763*^9}}],
+
+Cell["\<\
+Handed out: 08 Nov 2016
+Due date: 06 Dec 2016\
+\>", "Subchapter",
+ CellChangeTimes->{{3.651163258088455*^9, 3.6511633041027813`*^9}, {
+  3.655649007071311*^9, 3.655649022685974*^9}, {3.6556490583491*^9, 
+  3.655649058748383*^9}, {3.685635801921589*^9, 3.685635811191464*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Worth 40% of your final grade", "Subchapter",
+ CellChangeTimes->{{3.651165418980345*^9, 3.651165425635522*^9}, 
+   3.655649062116246*^9}],
+
+Cell[CellGroupData[{
+
+Cell["Description", "Section",
+ CellChangeTimes->{{3.6511634475779753`*^9, 3.651163452881803*^9}, {
+  3.655649107395413*^9, 3.6556491088907003`*^9}}],
+
+Cell["\<\
+In this assignment, you are going to use a number of the techniques that you \
+learned in this class to explore a collection of digital sources. Although \
+your sources can relate to whatever subject you\[CloseCurlyQuote]d like, they \
+should be thematically chosen. That is to say that they should be about a \
+particular subject or topic, or related in some substantial way. Your sources \
+have to be digital and the majority of them (but not all) have to be textual. \
+You also have to assemble a large enough collection of sources that it makes \
+sense to analyze them using computational techniques because you wouldn\
+\[CloseCurlyQuote]t have time to read and study them using traditional \
+methods.\
+\>", "Text",
+ CellChangeTimes->{{3.655649324242855*^9, 3.655649406206623*^9}, {
+  3.655649440942132*^9, 3.655649522907804*^9}, {3.655649562209938*^9, 
+  3.655649646343481*^9}, {3.6556511864066687`*^9, 3.655651187190755*^9}}],
+
+Cell[TextData[{
+ "You don\[CloseCurlyQuote]t have to apply ",
+ StyleBox["every",
+  FontSlant->"Italic"],
+ " method we learned in class, but you should be able to apply a wide variety \
+of them. Ideally, you should also be able to modify methods slightly as \
+needed. Don\[CloseCurlyQuote]t just copy the techniques directly from the \
+slides or the textbook; try to figure out how to adapt them to answer \
+questions that you actually have about your own sources."
+}], "Text",
+ CellChangeTimes->{{3.6556504561615143`*^9, 3.655650504943461*^9}, {
+  3.6556505674447603`*^9, 3.6556506373636713`*^9}, {3.655650675176702*^9, 
+  3.655650693728648*^9}, {3.655652449617144*^9, 3.655652450727857*^9}}],
+
+Cell["\<\
+In your final project you do not need to propose and support a thesis \
+(although you can do so if you want), and you do not need to come to any firm \
+conclusions. I would like you to propose and test hypotheses about your \
+sources, and use the analyses that you perform to suggest new research \
+questions that might be tested with further research.\
+\>", "Text",
+ CellChangeTimes->{{3.655651190333716*^9, 3.65565127945897*^9}, {
+  3.655651330992639*^9, 3.655651352064156*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Rubric", "Section",
+ CellChangeTimes->{{3.6511634475779753`*^9, 3.651163452881803*^9}, {
+  3.655649107395413*^9, 3.655649132057863*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Sources (25%)", "Subsubsection",
+ CellChangeTimes->{{3.6556491919438963`*^9, 3.65564919801554*^9}, {
+  3.655649775298683*^9, 3.65564978905767*^9}, {3.6556500458799257`*^9, 
+  3.6556500459764767`*^9}, {3.65565061431487*^9, 3.655650615378804*^9}}],
+
+Cell["\<\
+Is your collection of sources appropriate? Coherent? Mostly textual? Too \
+large to analyze by hand? Does it showcase your ability to perform \
+computational analyses? Do you use appropriate techniques to gather and clean \
+your data before use?\
+\>", "Text",
+ CellChangeTimes->{{3.6556494098712873`*^9, 3.655649415628334*^9}, {
+  3.6556495507140617`*^9, 3.655649557410417*^9}, {3.6556496528064117`*^9, 
+  3.6556497018210506`*^9}, {3.655650007770924*^9, 3.655650014993628*^9}, {
+  3.655650093934135*^9, 3.655650122645628*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Analysis (40%)", "Subsubsection",
+ CellChangeTimes->{{3.6556499470596027`*^9, 3.655649958283106*^9}, {
+   3.655650059247612*^9, 3.6556500594399443`*^9}, 3.65565061189106*^9}],
+
+Cell["\<\
+Do you use your sources and analytical methods to think historically? That \
+is, do you find evidence of change over time or of the importance of context, \
+contingency and complexity? (If you are unsure of this requirement, make sure \
+to review the \[OpenCurlyQuote]Thinking Historically\[CloseCurlyQuote] slide \
+in slide set 01A).\
+\>", "Text",
+ CellChangeTimes->{{3.6556513696793203`*^9, 3.655651480315749*^9}, {
+  3.655651516962001*^9, 3.655651517850422*^9}}],
+
+Cell["\<\
+Do you use analytical methods to suggest and test hypotheses? Do your \
+analyses lead to further questions and ideas? Do you choose appropriate \
+methods for the situation at hand? Are you flexible enough to adapt those \
+methods as needed? Can you apply a variety of methods?\
+\>", "Text",
+ CellChangeTimes->{{3.655651485586885*^9, 3.655651504450328*^9}, {
+  3.655651534961067*^9, 3.655651609335293*^9}, {3.655651642790133*^9, 
+  3.655651660396824*^9}, {3.684855753032442*^9, 3.6848557534475594`*^9}, {
+  3.6848558337262793`*^9, 3.6848558406540833`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Presentation (25%)", "Subsubsection",
+ CellChangeTimes->{{3.65564922289507*^9, 3.655649224110792*^9}, {
+  3.655649780185624*^9, 3.655649793849786*^9}, {3.655650049271635*^9, 
+  3.655650049464356*^9}, {3.655650618218729*^9, 3.655650618571372*^9}}],
+
+Cell[TextData[{
+ "Is your notebook neat and easy to interact with? Do you use cell formatting \
+to distinguish between headings, hypotheses, etc.? Do you provide comments \
+for code or graphics? Do you make use of functions like ",
+ StyleBox["viewData",
+  FontSlant->"Italic"],
+ " to present sources that are too large to fit comfortably into the \
+notebook? Have you included other interactive visualizations or interfaces? \
+Do you query WolframAlpha when appropriate?"
+}], "Text",
+ CellChangeTimes->{{3.655649796969163*^9, 3.655649922757156*^9}, {
+  3.6556506994080687`*^9, 3.655650713048212*^9}, {3.6556525673411007`*^9, 
+  3.655652569419692*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Ambition (10%)", "Subsubsection",
+ CellChangeTimes->{{3.6556499470596027`*^9, 3.655649958283106*^9}, {
+  3.655650059247612*^9, 3.6556500735106583`*^9}}],
+
+Cell["\<\
+Did you do the safe and easy thing, or did you take some chances? The best \
+research projects are ones that both add to our knowledge and cause the \
+researcher to grow and develop.\
+\>", "Text",
+ CellChangeTimes->{{3.6556501598212757`*^9, 3.655650162868051*^9}, {
+   3.655650248290004*^9, 3.655650318429941*^9}, 3.6556503594047832`*^9, {
+   3.655650395461505*^9, 3.655650417986553*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Grading", "Subsection",
+ CellChangeTimes->{{3.665679787537622*^9, 3.665679794553658*^9}}],
+
+Cell["\<\
+Your work will be graded out of 100. In general, it is a good idea to think \
+of your grade in terms of gaining marks rather than losing them. Here is a \
+general guide to what the scores mean:\
+\>", "Text",
+ CellChangeTimes->{{3.6656797970896606`*^9, 3.665679867511661*^9}, 
+   3.6848559109469223`*^9}],
+
+Cell[TextData[{
+ StyleBox["60-70",
+  FontWeight->"Bold"],
+ "\tYou met all of the requirements for the assignment"
+}], "Text",
+ CellChangeTimes->{{3.6656798774186497`*^9, 3.665679885410326*^9}, {
+  3.665679972541939*^9, 3.66567997398038*^9}, {3.684855917169875*^9, 
+  3.684855921185606*^9}, {3.684855972703883*^9, 3.6848559757997723`*^9}}],
+
+Cell[TextData[{
+ StyleBox["70-80",
+  FontWeight->"Bold"],
+ "\tYou exceeded the requirements in at least one category (e.g., sources, \
+analysis or presentation)"
+}], "Text",
+ CellChangeTimes->{{3.6656798774186497`*^9, 3.665679891811764*^9}, {
+  3.66567992325388*^9, 3.665679941253358*^9}, {3.665679977060363*^9, 
+  3.665679977628303*^9}, {3.684855924041627*^9, 3.684855980679557*^9}, {
+  3.6848560155360193`*^9, 3.684856015782254*^9}}],
+
+Cell[TextData[{
+ StyleBox["80-90",
+  FontWeight->"Bold"],
+ "\tYou exceeded requirements in most or all categories"
+}], "Text",
+ CellChangeTimes->{{3.6656798774186497`*^9, 3.665679897571596*^9}, {
+  3.665679981140114*^9, 3.665679981476101*^9}, {3.684855954008685*^9, 
+  3.6848559839596167`*^9}}],
+
+Cell[TextData[{
+ StyleBox["90-100",
+  FontWeight->"Bold"],
+ "\t  I couldn't think of anything to change about your assignment that would \
+make it better"
+}], "Text",
+ CellChangeTimes->{{3.6656798774186497`*^9, 3.665679900014718*^9}, {
+  3.6656799843160553`*^9, 3.665679985508061*^9}, {3.684855959448276*^9, 
+  3.684855990799273*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Make sure to include your information in your notebook!", "Section",
+ CellChangeTimes->{{3.6511634475779753`*^9, 3.651163452881803*^9}, {
+  3.655649115522172*^9, 3.6556491258102016`*^9}}],
+
+Cell["Name:", "Text",
+ CellChangeTimes->{{3.651163456585217*^9, 3.651163457633196*^9}}],
+
+Cell["Email:", "Text",
+ CellChangeTimes->{{3.651163467720752*^9, 3.651163468968869*^9}}],
+
+Cell["Student number:", "Text",
+ CellChangeTimes->{{3.651163460537118*^9, 3.6511634629929047`*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{925, 1024},
+WindowMargins->{{Automatic, 260}, {Automatic, 14}},
+Magnification:>1.25 Inherited,
+FrontEndVersion->"11.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (July 28, \
+2016)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 203, 3, 114, "Title"],
+Cell[CellGroupData[{
+Cell[808, 29, 127, 1, 81, "Chapter"],
+Cell[938, 32, 285, 6, 121, "Subchapter"],
+Cell[CellGroupData[{
+Cell[1248, 42, 143, 2, 58, "Subchapter"],
+Cell[CellGroupData[{
+Cell[1416, 48, 149, 2, 80, "Section"],
+Cell[1568, 52, 941, 14, 180, "Text"],
+Cell[2512, 68, 692, 12, 109, "Text"],
+Cell[3207, 82, 490, 8, 109, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3734, 95, 142, 2, 80, "Section"],
+Cell[CellGroupData[{
+Cell[3901, 101, 251, 3, 43, "Subsubsection"],
+Cell[4155, 106, 536, 9, 85, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4728, 120, 180, 2, 43, "Subsubsection"],
+Cell[4911, 124, 475, 8, 85, "Text"],
+Cell[5389, 134, 565, 9, 85, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5991, 148, 252, 3, 43, "Subsubsection"],
+Cell[6246, 153, 651, 12, 132, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6934, 170, 158, 2, 53, "Subsubsection"],
+Cell[7095, 174, 398, 7, 106, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7530, 186, 95, 1, 67, "Subsection"],
+Cell[7628, 189, 313, 6, 106, "Text"],
+Cell[7944, 197, 338, 7, 46, "Text"],
+Cell[8285, 206, 435, 9, 76, "Text"],
+Cell[8723, 217, 294, 7, 46, "Text"],
+Cell[9020, 226, 334, 8, 76, "Text"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[9403, 240, 193, 2, 156, "Section"],
+Cell[9599, 244, 87, 1, 46, "Text"],
+Cell[9689, 247, 88, 1, 46, "Text"],
+Cell[9780, 250, 99, 1, 46, "Text"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
