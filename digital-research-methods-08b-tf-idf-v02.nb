@@ -1,0 +1,1920 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     67145,       1912]
+NotebookOptionsPosition[     57615,       1625]
+NotebookOutlinePosition[     59257,       1673]
+CellTagsIndexPosition[     59178,       1668]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ TogglerBox[2, {1->
+  OverlayBox[{
+   TagBox[GridBox[{
+      {
+       GraphicsBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBAkBOaF5xZnpeaopnXklqemqRRRIz
+UFAKiEGSLED8//9/gvjRo0fsN27cELp69arY+fPnpZExPn137tzhBqrRBGJ/
+ID4CxMfRMTZ9L168YL5w4YIaUD4AiC8C8Qcg/gvE/9AxFreC7PQD4gtA/BGq
+7j8ujKz3+fPnLFC9b6H24dSHTf/FixfVofYSpRdZPzSsAqBuJkovsn5oOF8k
+5F9s+h88eMBBjt0w/devXxcGso+S4m9k/ZcuXRKHpgeS3A7TD0wrkpToPw9J
+ywOmn1L3Uxp+lMYfpemH0vRLjfwDjQey8y9a+fGOWDPwlF+gsPhEKDywlZ8g
+d0D9EniexPITGd++fZv3PBnlN6764zxa3QHCAIDESDs=
+         "], {{0, 26}, {16, 
+         0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{16, 26},
+        PlotRange->{{0, 16}, {0, 26}}], 
+       GraphicsBox[RasterBox[CompressedData["
+1:eJzt2V1vVFUUBuBGTfTSSygthYYKNHyVinrrpbcYfwBEJN5gUkyMfw9KKaVw
+KCkQKCW1RNIQKg1gEE3QtdN10pMRZCaBzNQ+kzxt5nzstfeZfbPOu/vkD8e/
+e6+vr+/sR/Hn+ImfvpyYOPHz1x/Hl2/OnP3+9JlT33515sdTp09NfHHy/TjY
+H6592Nf3QfyvqmpHBwbCYNr5GoMNAw2d1AEAADa3/obtLba1aJ7rb4xR9x1D
+YVfYHYbDnjASPgn7wv4wGg6Eg+FQOByOhLEwnj4Nx8Jn6fM21dcfyzHq8cay
+xuGseTDnMJpz2pdzHMk5D+caduWa6v6p+czafU71s6p1+/cGAADYqt52/9va
+++6tXt331j3v0TTeoj5e966v6lv3Vv/uWfWr9LJm9tzMpN+UW3eaVV9s00yY
+CzfC7bAQFhvuhjt57maYD9er9c+VcDlcCtMd1AQAADafqXQhTabz6VyL+vhk
+Xl/uLX1D6UFmw9VwrVrvL0o/cqta7ztKD3Iv/BLuh1/DSngYHoXfwlp4Ep6F
+38Pz8Ed4Ef5Mf71Gff5F3vM8x3iWY65ljUdZcyXncD/ndC/neDvnfCPXcC3X
+NJtrnG48r3afU/2s6uc11QO/OwAAwFbzLvrfksWVjK30kSV3KxncUlgOD6qN
+vnc1PK42+t7iaaq/r+U1q9VG3/ogx1rKse9krfmsrV+l15R9WDLmkjWXzLl8
+yvuVsmdLJl3eu5R9XN7BNLPrhTxX3seUvT3TQc2Xbfr7LWq3JgAAwH95m33K
+u9Dt5wMAAMDmp2dlK+vGnu/2+yQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYPN42aZu
+1AQAAAAAAICtrNsZIXRTN/b8xTbNhLlwI9wOC2Gx4W64k+duhvlwvVr/XAmX
+w6Uw3UFNAAAAAAAA6EVT6UKaTOfTuRb18cm8vtxbcrOSwc2Gq9V6FlcytlvV
+eu5WMrilsBwehJXwMKyGx2EtPElPU/19La9ZzXtWcozlHHMxa9zKmnM5h9mc
+03Rjfe2uq15bvb6pHvid2NzKPiwZc8maS+ZcPiWDLnu2ZNIlmy77uGTVzex6
+Ic+VbLvs7ZkOau7owEAYTDtfY7BhoKGTOgAAAAAAANDr+hu2t9jWonmuvzFG
+nbsNhd1hOOwJI2Fv2B9Gw4FwMBwKR8JYOJrGW9THx/LaQ3nvgRxrf449krWG
+s/ZQtZH3NdfY7rrqtdW6/fvw/9LMnpuZ9Jty646y6n8AhCP7tg==
+         "], {{0, 26}, {
+         2000, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{2000, 26},
+        PlotRange->{{0, 2000}, {0, 26}}], 
+       GraphicsBox[RasterBox[CompressedData["
+1:eJy9lktLQkEUxyVdCBIELaxctYq+QduWbcKMPoCSRRsDC6JPp+Lj4vuq+EBc
+iBtFfIYrpU7nPzQiN++9vmrgp/dx5j8z55w5c099z56HPYvF8mLnH4/37TIY
+9L7fHvDNXeDl6THgv78KvPof/cELn5UfnjBHjI3J5/OudVBV9bhUKjmbzaad
+iCxmcB9lAxKMmzmv1+v7JvpfG/DJjJkic8NrOut0OlYdfdoCjPXBqMx1q9Vy
+7FhfgvX0MUa73bYZ6edyuTnrvPsZQ4Wv9PTRL5vNroTOGIiJu9FoOLT6UjuT
+yVAqlaJkMin+0+m0YPEZbHTGQDwKyKtl+ugHjdFoRIVCgeLxOCUSCQGua7Ua
+9Xo9YQNbozXI/aHVZ//RcDik2WxG5XKZwuGwANdo0JfrNIhDvFqtHi7zD+YW
+i8VoMBgIvWKxKEDrdrtiHbAxiAF8pHAf5zJ9+Bca0WiUxuMxydbv98U64CvY
+wNZgTyioI9r8QR/EEvrQUhRlrh8Kheb6sDHTZ1xG84ePMP/pdPpr/tvoL/of
+Mcb9Jv7X+mcxP2X+QCMSiYh5VyoVMQbXMbP81I2vzM/JZCLyX+a+BPmPvbFN
+fmr36pr713B/rVp7THy/tD6Y1cjF5zrahvVtB5jW5y21B/kVzpc1kecjfK53
+Pu7kfNfO+x+/T/70++ob7NUEtQ==
+         "], {{0, 26}, {24, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{24, 26},
+        PlotRange->{{0, 24}, {0, 26}}]}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {Automatic, 
+         Scaled[0.6], Automatic}},
+     GridBoxSpacings->{"Columns" -> {{0}}, "Rows" -> {{0}}}],
+    "Grid"], 
+   PaneBox[
+    StyleBox[
+     RowBox[{
+     "Background", " ", "images", " ", "and", " ", "text", " ", "colors", " ",
+       "have", " ", "been", " ", "adjusted", " ", "for", " ", "editing", " ", 
+      
+      RowBox[{"purposes", "."}]}],
+     LineBreakWithin->False,
+     FontFamily->"Helvetica",
+     FontSize->12,
+     FontColor->GrayLevel[0.4]],
+    Alignment->Center,
+    ImageSize->Scaled[0.5],
+    ScrollPosition->{0., 0.}]},
+   Alignment->{Center, Center}], 2->""}, "1"]], "SlideShowNavigationBar", \
+"FirstSlide",
+ CellMargins->{{0, 0}, {0, 0}},
+ CellFrameLabelMargins->2,
+ CellSize->{Inherited, 30},
+ CellChangeTimes->{3.647361175465108*^9},
+ TextAlignment->Center,
+ CellTags->"SlideShowHeader"],
+
+Cell["\<\
+Digital Research Methods 08B:
+TF-IDF\
+\>", "Title",
+ CellChangeTimes->{
+  3.559948400406288*^9, {3.647331852839075*^9, 3.647331861295168*^9}, {
+   3.647331922221755*^9, 3.647331924532915*^9}, {3.647332658962614*^9, 
+   3.64733266480881*^9}, {3.6473611327373047`*^9, 3.647361139759391*^9}, {
+   3.647448943135475*^9, 3.6474489472294493`*^9}, {3.6534090279288893`*^9, 
+   3.6534090327509336`*^9}}],
+
+Cell[TextData[{
+ "William J Turkel, ",
+ StyleBox["wturkel@uwo.ca",
+  FontSlant->"Italic",
+  FontColor->RGBColor[
+   0.396078431372549, 0.596078431372549, 0.796078431372549]],
+ "\nHistory 2816 / Digital Humanities 2130 / History 9877"
+}], "Subtitle",
+ CellChangeTimes->{{3.647331955723979*^9, 3.6473319708190517`*^9}, 
+   3.647332103720562*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Overview", "Section",
+ CellChangeTimes->{{3.647361153919208*^9, 3.6473611548467712`*^9}}],
+
+Cell[TextData[{
+ "In order to figure out what a text is about, we need some way of measuring \
+the importance of a given word in the text. In this lesson we will learn how \
+to implement one widely used technique from information retrieval, ",
+ StyleBox["TF-IDF",
+  FontSlant->"Italic"],
+ " (term frequency-inverse document frequency)."
+}], "Text",
+ CellChangeTimes->{{3.647361157582405*^9, 3.647361159086673*^9}, {
+  3.6534091252966967`*^9, 3.653409172914212*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Setup", "Section",
+ CellChangeTimes->{{3.647716369451888*^9, 3.647716370003084*^9}, {
+  3.647798474690284*^9, 3.6477984752570744`*^9}}],
+
+Cell[TextData[{
+ "For our example we will be using Darwin\[CloseCurlyQuote]s ",
+ StyleBox["Origin of Species",
+  FontSlant->"Italic"]
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.653409281135337*^9, 3.65340929063798*^9}}],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"origin", "=", 
+   RowBox[{"ExampleData", "[", 
+    RowBox[{"{", 
+     RowBox[{"\"\<Text\>\"", ",", "\"\<OriginOfSpecies\>\""}], "}"}], "]"}]}],
+   ";"}], "\n", 
+ RowBox[{
+  RowBox[{"originWholeList", "=", 
+   RowBox[{"Map", "[", 
+    RowBox[{"ToLowerCase", ",", 
+     RowBox[{"StringSplit", "[", 
+      RowBox[{"origin", ",", 
+       RowBox[{
+        RowBox[{"Except", "[", "WordCharacter", "]"}], ".."}]}], "]"}]}], 
+    "]"}]}], ";"}]}], "Input",
+ CellChangeTimes->{{3.6385212450916758`*^9, 3.638521286457374*^9}, 
+   3.643394393804018*^9, 3.6534093564944763`*^9}],
+
+Cell[BoxData[
+ RowBox[{"Short", "[", 
+  RowBox[{"originWholeList", ",", "4"}], "]"}]], "Input",
+ CellChangeTimes->{{3.653409358907902*^9, 3.653409366907209*^9}}],
+
+Cell["We will also be using a list of stopwords", "Text",
+ CellChangeTimes->{{3.6534094667118483`*^9, 3.6534094750632687`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"stopwords", "=", 
+   RowBox[{"WordData", "[", 
+    RowBox[{"All", ",", "\"\<Stopwords\>\""}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.639670580673246*^9, 3.639670586118531*^9}, {
+  3.63967080861541*^9, 3.639670819382111*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["TF-IDF: Measuring the importance of a word", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.653409182321638*^9, 3.6534091890814962`*^9}}],
+
+Cell[TextData[{
+ "In order to figure out what a text is about, we need some way of measuring \
+the importance of a given word in the text. We will use a measure called ",
+ StyleBox["TF-IDF",
+  FontSlant->"Italic"],
+ ", which stands for \[OpenCurlyQuote]term frequency-inverse document \
+frequency\[CloseCurlyQuote]. There are a lot of different ways to calculate \
+TF-IDF, but they all capture the basic intuition that there are three \
+categories of word."
+}], "Text",
+ CellChangeTimes->{{3.640103887803824*^9, 3.64010394696187*^9}, {
+  3.640451893952711*^9, 3.640451900927368*^9}, {3.640707210258869*^9, 
+  3.6407072641048317`*^9}, {3.6429485842148857`*^9, 3.642948611292387*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+A word that occurs on (practically) every page doesn\[CloseCurlyQuote]t tell \
+you anything special about a particular page. It is a stopword.\
+\>", "ItemNumbered",
+ CellChangeTimes->{{3.640103960263874*^9, 3.6401039914536257`*^9}, {
+  3.640707083169034*^9, 3.640707124758102*^9}}],
+
+Cell["\<\
+A word that occurs only once or is sprinkled a few times through the whole \
+document or corpus of documents probably can be safely ignored.\
+\>", "ItemNumbered",
+ CellChangeTimes->{{3.640103960263874*^9, 3.640104034929956*^9}, {
+  3.64010418491179*^9, 3.640104185593779*^9}, {3.640104517229784*^9, 
+  3.640104578482395*^9}}],
+
+Cell["\<\
+A word that occurs a number of times on one page but is relatively rare in \
+the document or overall corpus plays an important role in figuring out what \
+that page is about. \
+\>", "ItemNumbered",
+ CellChangeTimes->{{3.640103960263874*^9, 3.640104106115612*^9}, {
+  3.640104205591097*^9, 3.6401042097517347`*^9}, {3.640707193100892*^9, 
+  3.640707199155991*^9}}]
+}, Open  ]],
+
+Cell["\<\
+We will simply introduce one method of calculating TF-IDF here and note that \
+there are many varieties.\
+\>", "Text",
+ CellChangeTimes->{{3.640104109325653*^9, 3.640104141770215*^9}, {
+   3.6401042140466013`*^9, 3.640104230966936*^9}, {3.640104266070969*^9, 
+   3.640104268301176*^9}, {3.640104323794619*^9, 3.640104335067133*^9}, {
+   3.640104365297893*^9, 3.6401044095604763`*^9}, {3.640104604640318*^9, 
+   3.640104663031204*^9}, {3.640705630902692*^9, 3.6407056416608953`*^9}, {
+   3.640707222403349*^9, 3.64070723726759*^9}, {3.6407072747764053`*^9, 
+   3.6407072840882063`*^9}, 3.640707316367612*^9, {3.653409223304964*^9, 
+   3.653409230584038*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Document frequencies for the whole book", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.653409395362803*^9, 3.653409407369604*^9}}],
+
+Cell[TextData[{
+ "To compute document frequencies for the whole book, we use ",
+ StyleBox["Tally",
+  FontWeight->"Bold"],
+ " and ",
+ StyleBox["Sort",
+  FontWeight->"Bold"],
+ ", as we have done many times in the past."
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.653409413449314*^9, 3.653409435760827*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"docFreq", "=", 
+   RowBox[{"Sort", "[", 
+    RowBox[{
+     RowBox[{"Tally", "[", "originWholeList", "]"}], ",", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"#1", "\[LeftDoubleBracket]", "2", "\[RightDoubleBracket]"}], 
+       ">", 
+       RowBox[{"#2", "\[LeftDoubleBracket]", "2", "\[RightDoubleBracket]"}]}],
+       "&"}]}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.640104951143414*^9, 3.640104952765362*^9}, {
+   3.6405343376897306`*^9, 3.6405343466308823`*^9}, 3.643394133613207*^9}],
+
+Cell[BoxData[
+ RowBox[{"Short", "[", 
+  RowBox[{"docFreq", ",", "6"}], "]"}]], "Input",
+ CellChangeTimes->{{3.640104974141613*^9, 3.640104981188102*^9}}],
+
+Cell["\<\
+If we look at the fifty most common words in Origin that are not stopwords, \
+we can get a pretty good idea of what the whole book is about\
+\>", "Text",
+ CellChangeTimes->{{3.653409505470414*^9, 3.6534095424770393`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Take", "[", 
+  RowBox[{
+   RowBox[{"Select", "[", 
+    RowBox[{
+     RowBox[{"Take", "[", 
+      RowBox[{"docFreq", ",", "200"}], "]"}], ",", 
+     RowBox[{
+      RowBox[{"Not", "[", 
+       RowBox[{"MemberQ", "[", 
+        RowBox[{"stopwords", ",", 
+         RowBox[{"First", "[", "#", "]"}]}], "]"}], "]"}], "&"}]}], "]"}], 
+   ",", "50"}], "]"}]], "Input",
+ CellChangeTimes->{{3.640106005467373*^9, 3.640106007452688*^9}}],
+
+Cell[TextData[{
+ "Suppose, however, we want to know what a ",
+ StyleBox["portion",
+  FontSlant->"Italic"],
+ " of the book is about..."
+}], "Text",
+ CellChangeTimes->{{3.65340956277245*^9, 3.653409576163643*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "Term frequencies for Chapter 9 of ",
+ StyleBox["Origin of Species",
+  FontSlant->"Italic"]
+}], "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.6534096839132347`*^9, 3.6534096926154823`*^9}}],
+
+Cell[TextData[{
+ "To be concrete, let\[CloseCurlyQuote]s say that we are interested in trying \
+to figure out what Chapter 9 of ",
+ StyleBox["Origin",
+  FontSlant->"Italic"],
+ " is about. We can use pattern matching to pull out Chapter 9 as a string."
+}], "Text",
+ CellChangeTimes->{{3.640106272054185*^9, 3.64010635722011*^9}, {
+   3.640106394203553*^9, 3.6401064401689157`*^9}, {3.6405353566793947`*^9, 
+   3.6405353616221533`*^9}, {3.6429488798123817`*^9, 3.642948890090549*^9}, 
+   3.653409765821409*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"ch9", "=", 
+   RowBox[{
+    RowBox[{"StringCases", "[", 
+     RowBox[{"origin", ",", 
+      RowBox[{
+       RowBox[{"\"\<CHAPTER 9. \>\"", "~~", 
+        RowBox[{"Shortest", "[", "x__", "]"}], "~~", "\"\<CHAPTER\>\""}], 
+       "\[Rule]", "x"}]}], "]"}], "\[LeftDoubleBracket]", "1", 
+    "\[RightDoubleBracket]"}]}], ";"}]], "Input",
+ CellChangeTimes->{3.643394135503231*^9}],
+
+Cell["\<\
+Next we split the Chapter 9 string into separate words and convert each to \
+lowercase using the same method we just used for the whole book.\
+\>", "Text",
+ CellChangeTimes->{{3.640106446934812*^9, 3.640106511238591*^9}, 
+   3.640535371597501*^9, {3.640535405548098*^9, 3.640535451426903*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"ch9List", "=", 
+   RowBox[{"Map", "[", 
+    RowBox[{"ToLowerCase", ",", 
+     RowBox[{"StringSplit", "[", 
+      RowBox[{"ch9", ",", 
+       RowBox[{
+        RowBox[{"Except", "[", "WordCharacter", "]"}], ".."}]}], "]"}]}], 
+    "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.640107073598773*^9, 3.640107105048902*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Short", "[", 
+  RowBox[{"ch9List", ",", "6"}], "]"}]], "Input",
+ CellChangeTimes->{{3.6401071103325853`*^9, 3.640107117834128*^9}}],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["Union",
+  FontWeight->"Bold"],
+ " command allows us to create a bag of words. These are all of the distinct \
+word types that appear in Chapter 9 of ",
+ StyleBox["Origin",
+  FontSlant->"Italic"],
+ ". There are 1640 of them."
+}], "Text",
+ CellChangeTimes->{{3.640106446934812*^9, 3.640106511238591*^9}, 
+   3.640535371597501*^9, {3.640535405548098*^9, 3.640535412557057*^9}, {
+   3.640535476129714*^9, 3.640535501440978*^9}, {3.640707612140024*^9, 
+   3.6407076208357153`*^9}, 3.640888338969771*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"ch9Terms", "=", 
+   RowBox[{"Union", "[", "ch9List", "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.640106522641197*^9, 3.6401065345048018`*^9}, {
+  3.640107095520974*^9, 3.640107126137352*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Length", "[", "ch9Terms", "]"}]], "Input",
+ CellChangeTimes->{{3.6407075959487877`*^9, 3.640707604181665*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Short", "[", 
+  RowBox[{"ch9Terms", ",", "6"}], "]"}]], "Input",
+ CellChangeTimes->{{3.640106536399025*^9, 3.6401065448939867`*^9}}],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["term frequencies",
+  FontSlant->"Italic"],
+ " are simply the frequencies of all of the words that appear in Chapter 9. \
+Again, we are using the method we just developed. We don\[CloseCurlyQuote]t \
+have to worry about removing stopwords, because their TF-IDF score will be \
+relatively low."
+}], "Text",
+ CellChangeTimes->{{3.640107154278492*^9, 3.640107185014264*^9}, {
+  3.640535522319696*^9, 3.640535591565729*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"ch9TermFreq", "=", 
+   RowBox[{"Sort", "[", 
+    RowBox[{
+     RowBox[{"Tally", "[", "ch9List", "]"}], ",", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"#1", "\[LeftDoubleBracket]", "2", "\[RightDoubleBracket]"}], 
+       ">", 
+       RowBox[{"#2", "\[LeftDoubleBracket]", "2", "\[RightDoubleBracket]"}]}],
+       "&"}]}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.6401072010425*^9, 3.640107201044076*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Short", "[", 
+  RowBox[{"ch9TermFreq", ",", "6"}], "]"}]], "Input",
+ CellChangeTimes->{{3.640107204450974*^9, 3.640107216565859*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "Document frequencies for Chapter 9 of ",
+ StyleBox["Origin of Species",
+  FontSlant->"Italic"]
+}], "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.6534098645618067`*^9, 3.6534098659955883`*^9}}],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["docFreq",
+  FontSlant->"Italic"],
+ " list that we generated earlier contains document frequencies for the whole \
+text of ",
+ StyleBox["Origin",
+  FontSlant->"Italic"],
+ ". Here, we only want document frequencies for the terms that appear in \
+Chapter 9. First we need a way of determining whether something appears in a \
+list or not. The ",
+ StyleBox["MemberQ",
+  FontWeight->"Bold"],
+ " command does that."
+}], "Text",
+ CellChangeTimes->{{3.640536100475225*^9, 3.640536287748234*^9}, 
+   3.6405364714539022`*^9}],
+
+Cell[BoxData[
+ RowBox[{"MemberQ", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"a", ",", "b", ",", "c"}], "}"}], ",", "b"}], "]"}]], "Input",
+ CellChangeTimes->{{3.640536292479375*^9, 3.640536303020502*^9}}],
+
+Cell[BoxData[
+ RowBox[{"MemberQ", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"a", ",", "b", ",", "c"}], "}"}], ",", "e"}], "]"}]], "Input",
+ CellChangeTimes->{{3.640536292479375*^9, 3.6405363096845217`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"MemberQ", "[", 
+  RowBox[{"ch9Terms", ",", "\"\<physical\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.640536548068367*^9, 3.6405365618028393`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"MemberQ", "[", 
+  RowBox[{"ch9Terms", ",", "\"\<physician\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.640536565178694*^9, 3.640536575282917*^9}}],
+
+Cell[TextData[{
+ "Now we need to go through the ",
+ StyleBox["docFreq",
+  FontSlant->"Italic"],
+ " list and pull out document frequencies for the terms that appear in \
+Chapter 9. We will use the ",
+ StyleBox["Select",
+  FontWeight->"Bold"],
+ " command to do this. ",
+ StyleBox["Select",
+  FontWeight->"Bold"],
+ " takes a list and a function describing the elements that are to be \
+selected. Since each element in the ",
+ StyleBox["docFreq",
+  FontSlant->"Italic"],
+ " list is itself a list with two items (the word type and its frequency)..."
+}], "Text",
+ CellChangeTimes->{{3.640536612311702*^9, 3.640536639103256*^9}, {
+  3.64053667787815*^9, 3.640536739667653*^9}, {3.640536777426262*^9, 
+  3.640536808721065*^9}, {3.642949121315476*^9, 3.6429491300419197`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Short", "[", "docFreq", "]"}]], "Input",
+ CellChangeTimes->{{3.640536445266532*^9, 3.640536477418131*^9}}],
+
+Cell[TextData[{
+ "... we use a pure function based on ",
+ StyleBox["MemberQ",
+  FontWeight->"Bold"],
+ " to do the matching based on the word type. The list ",
+ StyleBox["ch9DocFreq",
+  FontSlant->"Italic"],
+ " is a subset of the ",
+ StyleBox["docFreq",
+  FontSlant->"Italic"],
+ " list containing document frequencies for only those terms that appear in \
+Chapter 9 of ",
+ StyleBox["Origin",
+  FontSlant->"Italic"],
+ "."
+}], "Text",
+ CellChangeTimes->{{3.640536831640306*^9, 3.640536900853467*^9}, {
+  3.640536936924665*^9, 3.640536998586123*^9}, {3.640537054393198*^9, 
+  3.640537055671399*^9}, {3.6534104543407516`*^9, 3.653410460971764*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"ch9DocFreq", "=", 
+   RowBox[{"Select", "[", 
+    RowBox[{"docFreq", ",", 
+     RowBox[{
+      RowBox[{"MemberQ", "[", 
+       RowBox[{"ch9Terms", ",", 
+        RowBox[{"#", "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}]}],
+        "]"}], "&"}]}], "]"}]}], ";"}]], "Input"],
+
+Cell[BoxData[
+ RowBox[{"Short", "[", 
+  RowBox[{"ch9DocFreq", ",", "6"}], "]"}]], "Input",
+ CellChangeTimes->{{3.640107331726304*^9, 3.640107338257596*^9}}],
+
+Cell[TextData[{
+ "Looking at ",
+ StyleBox["ch9TermFreq",
+  FontSlant->"Italic"],
+ " and ",
+ StyleBox["ch9DocFreq",
+  FontSlant->"Italic"],
+ " we can see, for example, that the word \[OpenCurlyQuote]the\
+\[CloseCurlyQuote] appears 695 times in Chapter 9 of ",
+ StyleBox["Origin",
+  FontSlant->"Italic"],
+ ", and 10141 times in the book as a whole."
+}], "Text",
+ CellChangeTimes->{{3.642949162440556*^9, 3.642949242613964*^9}}],
+
+Cell[BoxData[
+ RowBox[{"TableForm", "[", 
+  RowBox[{
+   RowBox[{"Transpose", "[", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"ch9TermFreq", "\[LeftDoubleBracket]", 
+       RowBox[{"1", ";;", "15"}], "\[RightDoubleBracket]"}], ",", 
+      RowBox[{"ch9DocFreq", "\[LeftDoubleBracket]", 
+       RowBox[{"1", ";;", "15"}], "\[RightDoubleBracket]"}]}], "}"}], "]"}], 
+   ",", 
+   RowBox[{"TableHeadings", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"None", ",", 
+      RowBox[{"{", 
+       RowBox[{
+       "\"\<Ch9 Term Frequencies\>\"", ",", 
+        "\"\<Ch9 Document Frequencies\>\""}], "}"}]}], "}"}]}]}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.6534105285308723`*^9, 3.653410529882135*^9}, {
+  3.65341057335947*^9, 3.653410582064466*^9}, {3.653410637590119*^9, 
+  3.653410678275876*^9}, {3.653410709851595*^9, 3.653410727626938*^9}, {
+  3.653410779997594*^9, 3.65341082211099*^9}}],
+
+Cell["\<\
+Notice also that the relative frequencies can change places. For example, \
+\[OpenCurlyQuote]have\[CloseCurlyQuote] occurs more frequently than \
+\[OpenCurlyQuote]that\[CloseCurlyQuote] in Chapter 9, but less frequently in \
+the book as a whole.\
+\>", "Text",
+ CellChangeTimes->{{3.653410830086296*^9, 3.653410881012718*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Calculating TF-IDF", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.653410968523493*^9, 3.653410972489457*^9}}],
+
+Cell["\<\
+Now we have term frequencies for every term that appears in Chapter 9, and we \
+have document frequencies for every term that appears in Chapter 9. So we \
+have enough information to compute the TF-IDF for every term that appears in \
+Chapter 9. Here is one way to calculate it.\
+\>", "Text",
+ CellChangeTimes->{{3.640707760175107*^9, 3.640707838036353*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"tfidf", "[", 
+   RowBox[{"termfreq_", ",", "docfreq_", ",", "numdocs_"}], "]"}], ":=", 
+  "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"Log", "[", 
+    RowBox[{"termfreq", "+", "1.0"}], "]"}], " ", 
+   RowBox[{"Log", "[", 
+    RowBox[{"numdocs", "/", "docfreq"}], "]"}]}]}]], "Input"],
+
+Cell["\<\
+Let\[CloseCurlyQuote]s try to calculate the TF-IDF for one term that appears \
+in Chapter 9, \[OpenCurlyQuote]tapir\[CloseCurlyQuote].\
+\>", "Text",
+ CellChangeTimes->{{3.640707972455134*^9, 3.640708017524967*^9}}],
+
+Cell[BoxData[
+ RowBox[{"MemberQ", "[", 
+  RowBox[{"ch9Terms", ",", "\"\<tapir\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.640708030291469*^9, 3.640708039412837*^9}}],
+
+Cell[TextData[{
+ "We can retrieve its term frequency and document frequency. The fact that \
+they are the same number tells us that \[OpenCurlyQuote]tapir\
+\[CloseCurlyQuote] occurs three times in ",
+ StyleBox["Origin",
+  FontSlant->"Italic"],
+ ", and all three instances are in Chapter 9."
+}], "Text",
+ CellChangeTimes->{{3.64070807652325*^9, 3.640708093874153*^9}, {
+  3.640708128392828*^9, 3.640708158375874*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Cases", "[", 
+  RowBox[{"ch9TermFreq", ",", 
+   RowBox[{"{", 
+    RowBox[{"\"\<tapir\>\"", ",", "_"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.640708054714601*^9, 3.640708071723776*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Cases", "[", 
+  RowBox[{"ch9DocFreq", ",", 
+   RowBox[{"{", 
+    RowBox[{"\"\<tapir\>\"", ",", "_"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6407080972898903`*^9, 3.640708114442034*^9}}],
+
+Cell[TextData[{
+ "We are comparing Chapter 9 to the other chapters in ",
+ StyleBox["Origin",
+  FontSlant->"Italic"],
+ ". Since there are 15 of them, we set the number of documents to 15. The \
+TF-IDF score for \[OpenCurlyDoubleQuote]tapir\[CloseCurlyDoubleQuote] is "
+}], "Text",
+ CellChangeTimes->{{3.640708169023239*^9, 3.640708235300955*^9}}],
+
+Cell[BoxData[
+ RowBox[{"tfidf", "[", 
+  RowBox[{"3", ",", "3", ",", "15"}], "]"}]], "Input",
+ CellChangeTimes->{{3.64070824177691*^9, 3.640708247621209*^9}}],
+
+Cell["Let\[CloseCurlyQuote]s compare that score to the score for a stopword", \
+"Text",
+ CellChangeTimes->{{3.6407082630438147`*^9, 3.640708277931406*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Cases", "[", 
+  RowBox[{"ch9TermFreq", ",", 
+   RowBox[{"{", 
+    RowBox[{"\"\<the\>\"", ",", "_"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.640708291143229*^9, 3.640708291451707*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Cases", "[", 
+  RowBox[{"ch9DocFreq", ",", 
+   RowBox[{"{", 
+    RowBox[{"\"\<the\>\"", ",", "_"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6407080972898903`*^9, 3.640708114442034*^9}, {
+  3.6407083011200542`*^9, 3.6407083013152657`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"tfidf", "[", 
+  RowBox[{"695", ",", "10141", ",", "15"}], "]"}]], "Input",
+ CellChangeTimes->{{3.64070824177691*^9, 3.640708247621209*^9}, {
+  3.6407083152996273`*^9, 3.6407083200105953`*^9}}],
+
+Cell[TextData[{
+ "Very much lower! Let\[CloseCurlyQuote]s compare the score for \
+\[OpenCurlyQuote]tapir\[CloseCurlyQuote] with the score for a word that \
+occurs frequently throughout ",
+ StyleBox["Origin",
+  FontSlant->"Italic"],
+ ", \[OpenCurlyQuote]selection\[CloseCurlyQuote]."
+}], "Text",
+ CellChangeTimes->{{3.640708326769433*^9, 3.640708375127891*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Cases", "[", 
+  RowBox[{"ch9TermFreq", ",", 
+   RowBox[{"{", 
+    RowBox[{"\"\<selection\>\"", ",", "_"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.640708291143229*^9, 3.640708291451707*^9}, {
+  3.6407083880377407`*^9, 3.640708389832077*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Cases", "[", 
+  RowBox[{"ch9DocFreq", ",", 
+   RowBox[{"{", 
+    RowBox[{"\"\<selection\>\"", ",", "_"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6407080972898903`*^9, 3.640708114442034*^9}, {
+  3.6407083011200542`*^9, 3.6407083013152657`*^9}, {3.640708391780789*^9, 
+  3.640708393071898*^9}}],
+
+Cell[BoxData[
+ RowBox[{"tfidf", "[", 
+  RowBox[{"4", ",", "383", ",", "15"}], "]"}]], "Input",
+ CellChangeTimes->{{3.64070824177691*^9, 3.640708247621209*^9}, {
+  3.6407083152996273`*^9, 3.6407083200105953`*^9}, {3.640708401827133*^9, 
+  3.6407084048635187`*^9}}],
+
+Cell[TextData[{
+ "If we were comparing ",
+ StyleBox["Origin",
+  FontSlant->"Italic"],
+ " with another text (maybe one that was not about evolution), then the \
+TF-IDF score for \[OpenCurlyQuote]selection\[CloseCurlyQuote] would be \
+relatively high. But when we compare one part of ",
+ StyleBox["Origin",
+  FontSlant->"Italic"],
+ " with another part, the TF-IDF score for \[OpenCurlyQuote]selection\
+\[CloseCurlyQuote] may be relatively low in some cases, and high in others, \
+depending on which part of the text we are focusing on."
+}], "Text",
+ CellChangeTimes->{{3.6407084098703737`*^9, 3.640708552697311*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["The importance of using logarithms", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.653411324854021*^9, 3.653411328972505*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["A review of log scales", "Subsection",
+ CellChangeTimes->{{3.6534114937186193`*^9, 3.653411496478705*^9}}],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["Log",
+  FontWeight->"Bold"],
+ " function plays an important role in determining the TF-IDF. As we can see \
+if we look at ",
+ StyleBox["docFreq",
+  FontSlant->"Italic"],
+ " above, some terms occur much more frequently than others. In our TF-IDF \
+calculation we need to prevent these more frequent terms from dominating the \
+less frequent ones. So we use the ",
+ StyleBox["Log",
+  FontWeight->"Bold"],
+ " command to take the natural logarithms of the two parts of our equation \
+(the TF and the IDF). First, a quick review of what logarithms do."
+}], "Text",
+ CellChangeTimes->{{3.640708572512288*^9, 3.640708610577944*^9}, {
+  3.6411339554880037`*^9, 3.641133965079959*^9}, {3.653411366492057*^9, 
+  3.653411373874929*^9}}],
+
+Cell["\<\
+A logarithm makes it easier to compare numbers that differ greatly in scale. \
+Suppose, for example, you have a list of values like the following\
+\>", "Text",
+ CellChangeTimes->{{3.641133516592708*^9, 3.641133549143021*^9}, {
+  3.641133630476633*^9, 3.641133681626114*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "3.", ",", "870.", ",", "75.", ",", "88430.", ",", "18.", ",", "12007.", 
+   ",", "239021.", ",", "7689.", ",", "51982.", ",", "11.", ",", "785324.", 
+   ",", "360400."}], "}"}]], "DisplayFormula",
+ CellChangeTimes->{{3.6411336845066757`*^9, 3.641133759704159*^9}, {
+  3.6411338758675117`*^9, 3.641133877367001*^9}, {3.641134129538393*^9, 
+  3.641134144153844*^9}}],
+
+Cell[TextData[StyleBox["If you plot those on a linear scale, the handful of \
+very large values dominate your view. Most of the other values appear so \
+close to zero that it is hard to discriminate among them in a meaningful way.",
+ FontSlant->"Plain"]], "Text",
+ CellChangeTimes->{{3.641133784214058*^9, 3.641133791678158*^9}, {
+  3.641133846908699*^9, 3.6411338601075573`*^9}, {3.641133893139132*^9, 
+  3.641133937664638*^9}},
+ FontSlant->"Italic"],
+
+Cell[BoxData[
+ RowBox[{"ListPlot", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+    "3.", ",", "870.", ",", "75.", ",", "88430.", ",", "18.", ",", "12007.", 
+     ",", "239021.", ",", "7689.", ",", "51982.", ",", "11.", ",", "785324.", 
+     ",", "360400."}], "}"}], ",", 
+   RowBox[{"Filling", "\[Rule]", "Axis"}], ",", 
+   RowBox[{"PlotRange", "\[Rule]", "Full"}], ",", 
+   RowBox[{"AxesLabel", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"None", ",", "\"\<Raw Value\>\""}], "}"}]}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.641133793725905*^9, 3.641133829965734*^9}, 
+   3.6411338869957027`*^9, 3.641134150061911*^9, {3.64113442347185*^9, 
+   3.6411344377673693`*^9}}],
+
+Cell[TextData[{
+ "If we take the ",
+ StyleBox["Log",
+  FontWeight->"Bold"],
+ " of each of our values we get the following list."
+}], "Text",
+ CellChangeTimes->{{3.64113399698559*^9, 3.6411340157180223`*^9}, {
+  3.641134103739435*^9, 3.641134108794606*^9}, {3.642949834073748*^9, 
+  3.642949849600173*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Log", "[", 
+  RowBox[{"{", 
+   RowBox[{
+   "3.", ",", "870.", ",", "75.", ",", "88430.", ",", "18.", ",", "12007.", 
+    ",", "239021.", ",", "7689.", ",", "51982.", ",", "11.", ",", "785324.", 
+    ",", "360400."}], "}"}], "]"}]], "Input",
+ CellChangeTimes->{{3.642949824581417*^9, 3.642949827409314*^9}}],
+
+Cell["\<\
+If we plot this list, we get the following figure. The largest value is still \
+the 11th one, the second largest is still the 12th, and so on. The smallest \
+value (the 1st) corresponds to the smallest value in our original list. We \
+can now use the same graph to compare small values as easily as large ones.\
+\>", "Text",
+ CellChangeTimes->{{3.641134180736438*^9, 3.6411342072149754`*^9}, {
+  3.641134319683346*^9, 3.6411343679531317`*^9}, {3.641134533002832*^9, 
+  3.6411345428987827`*^9}, {3.6429498955913887`*^9, 3.642949898958468*^9}}],
+
+Cell[BoxData[
+ RowBox[{"ListPlot", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+    "1.09861", ",", "6.76849", ",", "4.31749", ",", "11.39", ",", "2.89037", 
+     ",", "9.39325", ",", "12.3843", ",", "8.94755", ",", "10.8587", ",", 
+     "2.3979", ",", "13.5739", ",", "12.795"}], "}"}], ",", 
+   RowBox[{"Filling", "\[Rule]", "Axis"}], ",", 
+   RowBox[{"PlotRange", "\[Rule]", "Full"}], ",", 
+   RowBox[{"AxesLabel", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"None", ",", "\"\<Logs\>\""}], "}"}]}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.641133793725905*^9, 3.641133829965734*^9}, 
+   3.6411338869957027`*^9, 3.641134150061911*^9, {3.6411342196032877`*^9, 
+   3.641134296375345*^9}, 3.64113441608943*^9, {3.641134448078784*^9, 
+   3.6411344606466627`*^9}, 3.641134779211341*^9}],
+
+Cell[TextData[{
+ "Drawing the figure like this, with a linear scale on the x axis, hides the \
+fact that the difference between the two smallest numbers (3 and 11) is \
+nowhere near as large as the difference between the two largest (360,400 and \
+785,324). It is more useful to draw the figure with a logarithmic scale on \
+the x axis. That is what the ",
+ StyleBox["ListLogPlot",
+  FontWeight->"Bold"],
+ " command does. Note that we give it our original data as input. Compare \
+this figure to the previous two."
+}], "Text",
+ CellChangeTimes->{{3.64113448330939*^9, 3.641134700333125*^9}, {
+  3.6411347399402037`*^9, 3.641134754283196*^9}, {3.64113493541227*^9, 
+  3.641134936668373*^9}, {3.6429499132313232`*^9, 3.642949915365855*^9}}],
+
+Cell[BoxData[
+ RowBox[{"ListLogPlot", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+    "3.", ",", "870.", ",", "75.", ",", "88430.", ",", "18.", ",", "12007.", 
+     ",", "239021.", ",", "7689.", ",", "51982.", ",", "11.", ",", "785324.", 
+     ",", "360400."}], "}"}], ",", 
+   RowBox[{"Filling", "\[Rule]", "Axis"}], ",", 
+   RowBox[{"PlotRange", "\[Rule]", "Full"}], ",", 
+   RowBox[{"AxesLabel", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"None", ",", "\"\<Value\>\""}], "}"}]}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.641133793725905*^9, 3.641133829965734*^9}, 
+   3.6411338869957027`*^9, 3.641134150061911*^9, {3.6411342196032877`*^9, 
+   3.641134296375345*^9}, 3.64113441608943*^9, {3.641134448078784*^9, 
+   3.6411344606466627`*^9}, {3.641134705798472*^9, 3.641134730404694*^9}, {
+   3.641134792193054*^9, 3.641134792666666*^9}}],
+
+Cell[TextData[{
+ "When we look at this figure, we can see that the first element is a bit \
+larger than 2 (it is 3) and the 10th element is a bit larger than 10 (it is \
+11). We can also see that the largest element is a bit less than 1 million ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"(", 
+    SuperscriptBox["10", "6"], ")"}], TraditionalForm]]],
+ " and the second largest is a bit less than half a million. Using a graph \
+with a log scale, we can make rapid comparisons between values that a vastly \
+different in scale: the 10th element is about a hundred times smaller than \
+the 2nd one, a thousand times smaller than the 8th one and ten thousand times \
+smaller than the 4th one."
+}], "Text",
+ CellChangeTimes->{{3.641134804969576*^9, 3.641135091966754*^9}, {
+  3.641135173835668*^9, 3.641135203906681*^9}, {3.641135249672847*^9, 
+  3.641135291175418*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["TF-IDF without logs", "Subsection",
+ CellChangeTimes->{{3.653411485847583*^9, 3.653411488390912*^9}}],
+
+Cell["\<\
+So what would the TF-IDF measures look like without logarithms? This is the \
+revised formula\
+\>", "Text",
+ CellChangeTimes->{{3.640709895407584*^9, 3.6407099377508574`*^9}, {
+  3.640709979053337*^9, 3.640710006971642*^9}, {3.641133970975275*^9, 
+  3.64113397561547*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(", 
+   RowBox[{"termfreq", "+", "1.0"}], ")"}], 
+  RowBox[{"(", " ", 
+   RowBox[{"numdocs", "/", "docfreq"}], ")"}]}]], "DisplayFormula",
+ CellChangeTimes->{{3.640709956953561*^9, 3.6407099706002417`*^9}}],
+
+Cell["Here are the measures for 'tapir', \[OpenCurlyQuote]the\
+\[CloseCurlyQuote] and \[OpenCurlyQuote]selection\[CloseCurlyQuote]", "Text",
+ CellChangeTimes->{{3.640709895407584*^9, 3.6407099377508574`*^9}, {
+  3.640709979053337*^9, 3.640709980180393*^9}, {3.640710011643333*^9, 
+  3.640710019779134*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(", 
+   RowBox[{"3", "+", "1.0"}], ")"}], 
+  RowBox[{"(", " ", 
+   RowBox[{"15", "/", "3"}], ")"}]}]], "Input",
+ CellChangeTimes->{{3.640710029513608*^9, 3.640710041157695*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(", 
+   RowBox[{"695", "+", "1.0"}], ")"}], 
+  RowBox[{"(", " ", 
+   RowBox[{"15", "/", "10141"}], ")"}]}]], "Input",
+ CellChangeTimes->{{3.640710053886209*^9, 3.640710081737487*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(", 
+   RowBox[{"4", "+", "1.0"}], ")"}], 
+  RowBox[{"(", " ", 
+   RowBox[{"15", "/", "383"}], ")"}]}]], "Input",
+ CellChangeTimes->{{3.640710093660264*^9, 3.640710101353477*^9}}],
+
+Cell[TextData[{
+ "Now a very frequent term (like the stopword \[OpenCurlyQuote]the\
+\[CloseCurlyQuote]) has a higher TF-IDF measure than a highly relevant, but \
+less frequent term (like the word \
+\[OpenCurlyQuote]selection\[CloseCurlyQuote]). This is not the result we \
+want, hence the use of ",
+ StyleBox["Log",
+  FontWeight->"Bold"],
+ " in our formula. (We used the natural logarithm (base \[ExponentialE]) in \
+our code, but the base doesn\[CloseCurlyQuote]t matter.)"
+}], "Text",
+ CellChangeTimes->{{3.640710130118959*^9, 3.640710222987413*^9}, {
+   3.6408884571497307`*^9, 3.64088848305917*^9}, 3.6429499832768373`*^9, {
+   3.642950078760841*^9, 3.642950108839045*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Computing TF-IDF scores for every word in Chapter 9", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.6534115405906467`*^9, 3.653411557460473*^9}}],
+
+Cell["\<\
+This function computes the TF-IDF score for every word in a chapter.\
+\>", "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+   3.6534117450308723`*^9, 3.653411783156451*^9}, 3.685635364161031*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"computeTFIDF", "[", 
+   RowBox[{"termlist_", ",", "tflist_", ",", "dflist_"}], "]"}], ":=", 
+  "\[IndentingNewLine]", 
+  RowBox[{"Module", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"outlist", ",", "tf", ",", "df"}], "}"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"outlist", "=", 
+      RowBox[{"{", "}"}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"Do", "[", "\[IndentingNewLine]", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"tf", "=", 
+         RowBox[{
+          RowBox[{"Cases", "[", 
+           RowBox[{"tflist", ",", 
+            RowBox[{
+             RowBox[{"{", 
+              RowBox[{"t", ",", "x_"}], "}"}], "\[Rule]", "x"}]}], "]"}], 
+          "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}]}], ";", 
+        "\[IndentingNewLine]", 
+        RowBox[{"df", "=", 
+         RowBox[{
+          RowBox[{"Cases", "[", 
+           RowBox[{"dflist", ",", 
+            RowBox[{
+             RowBox[{"{", 
+              RowBox[{"t", ",", "x_"}], "}"}], "\[Rule]", "x"}]}], "]"}], 
+          "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}]}], ";", 
+        "\[IndentingNewLine]", 
+        RowBox[{"outlist", "=", 
+         RowBox[{"Append", "[", 
+          RowBox[{"outlist", ",", 
+           RowBox[{"{", 
+            RowBox[{"t", ",", "tf", ",", "df", ",", 
+             RowBox[{"tfidf", "[", 
+              RowBox[{"tf", ",", "df", ",", "15.0"}], "]"}]}], "}"}]}], 
+          "]"}]}]}], ",", "\[IndentingNewLine]", 
+       RowBox[{"{", 
+        RowBox[{"t", ",", "termlist"}], "}"}]}], "]"}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"Return", "[", "outlist", "]"}]}]}], "]"}]}]], "Input"],
+
+Cell["We do the computation and save the results.", "Text",
+ CellChangeTimes->{
+  3.640107195987481*^9, {3.640107445899001*^9, 3.640107465173037*^9}, {
+   3.640710834894183*^9, 3.640710841188737*^9}, {3.640888574985746*^9, 
+   3.640888576968317*^9}, {3.6534117966201*^9, 3.653411800842989*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"ch9TFIDF", "=", 
+   RowBox[{"Sort", "[", 
+    RowBox[{
+     RowBox[{"computeTFIDF", "[", 
+      RowBox[{"ch9Terms", ",", "ch9TermFreq", ",", "ch9DocFreq"}], "]"}], ",", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"#1", "\[LeftDoubleBracket]", "4", "\[RightDoubleBracket]"}], 
+       ">", 
+       RowBox[{"#2", "\[LeftDoubleBracket]", "4", "\[RightDoubleBracket]"}]}],
+       "&"}]}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.5470315943677197`*^9, 3.5470316620577793`*^9}, {
+  3.547032323827345*^9, 3.547032337529541*^9}, {3.547032911696452*^9, 
+  3.547032922240966*^9}}],
+
+Cell[TextData[{
+ "The output of the ",
+ StyleBox["computeTFIDF",
+  FontSlant->"Italic"],
+ " function includes a lot of information. For each term there is a list \
+consisting of the term, its TF, DF, and TF-IDF. Here are the first ten \
+entries in the TF-IDF list. We have used the ",
+ StyleBox["Grid",
+  FontWeight->"Bold"],
+ " command to lay everything out in a table, and the ",
+ StyleBox["Prepend",
+  FontWeight->"Bold"],
+ " command to add headers for each column. The ",
+ StyleBox["Alignment\[Rule]Right",
+  FontSlant->"Italic"],
+ " option tells ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " we want the columns to be right justified."
+}], "Text",
+ CellChangeTimes->{{3.6405417315656147`*^9, 3.640541781884459*^9}, {
+  3.6405418206752253`*^9, 3.6405418549457417`*^9}, {3.6405420526590147`*^9, 
+  3.640542074553789*^9}, {3.640542129167292*^9, 3.640542130623193*^9}, {
+  3.640542568232589*^9, 3.640542661436349*^9}, {3.640710868323909*^9, 
+  3.640710875059792*^9}, {3.640888588008998*^9, 3.640888592319961*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Grid", "[", 
+  RowBox[{
+   RowBox[{"Prepend", "[", 
+    RowBox[{
+     RowBox[{"ch9TFIDF", "\[LeftDoubleBracket]", 
+      RowBox[{"1", ";;", "10"}], "\[RightDoubleBracket]"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+      "\"\<Term\>\"", ",", "\"\<TF\>\"", ",", "\"\<DF\>\"", ",", 
+       "\"\<TF-IDF\>\""}], "}"}]}], "]"}], ",", 
+   RowBox[{"Alignment", "\[Rule]", "Right"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6405417415224*^9, 3.6405417501182337`*^9}, {
+   3.640541792504819*^9, 3.640541817438347*^9}, {3.6405418612257843`*^9, 
+   3.6405420117390223`*^9}, {3.640542042119516*^9, 3.640542066802891*^9}, 
+   3.640542135616065*^9}],
+
+Cell["\<\
+The fifty terms in Chapter 9 with the highest TF-IDF score are listed below. \
+Take a moment to study them.\
+\>", "Text",
+ CellChangeTimes->{{3.6401074958029623`*^9, 3.6401075580568447`*^9}, {
+  3.64054210994388*^9, 3.640542124855929*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Take", "[", 
+   RowBox[{"ch9TFIDF", ",", "50"}], "]"}], "\[LeftDoubleBracket]", 
+  RowBox[{"All", ",", "1"}], "\[RightDoubleBracket]"}]], "Input"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "So what is Chapter 9 of ",
+ StyleBox["Origin",
+  FontSlant->"Italic"],
+ " about?"
+}], "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.6534118679939203`*^9, 3.653411873913034*^9}}],
+
+Cell["\<\
+Look again at the high TF-IDF terms from Chapter 9: \
+\[OpenCurlyQuote]teleostean\[CloseCurlyQuote], \[OpenCurlyQuote]pebbles\
+\[CloseCurlyQuote], \[OpenCurlyQuote]decay\[CloseCurlyQuote], \
+\[OpenCurlyQuote]conchologists\[CloseCurlyQuote], \[OpenCurlyQuote]wear\
+\[CloseCurlyQuote], \[OpenCurlyQuote]tear\[CloseCurlyQuote], \
+\[OpenCurlyQuote]mineralogical\[CloseCurlyQuote], \[OpenCurlyQuote]levels\
+\[CloseCurlyQuote], \[OpenCurlyQuote]grinding\[CloseCurlyQuote], \
+\[OpenCurlyQuote]gravel\[CloseCurlyQuote], \[OpenCurlyQuote]sand\
+\[CloseCurlyQuote], \[OpenCurlyQuote]sedimentary\[CloseCurlyQuote], \
+\[OpenCurlyQuote]wears\[CloseCurlyQuote], \[OpenCurlyQuote]wearing\
+\[CloseCurlyQuote], \[OpenCurlyQuote]watermark\[CloseCurlyQuote], \
+\[OpenCurlyQuote]tidal\[CloseCurlyQuote] ... The general sense is of geology, \
+water, erosion, and fossils. When we look at Darwin\[CloseCurlyQuote]s own \
+summary for the chapter, we can see that this impression is accurate.\
+\>", "Text",
+ CellChangeTimes->{{3.6401086210506487`*^9, 3.6401088672105227`*^9}, {
+  3.640711259653597*^9, 3.6407113312990294`*^9}, {3.642955653671198*^9, 
+  3.642955698740341*^9}}],
+
+Cell[BoxData[
+ RowBox[{"StringTake", "[", 
+  RowBox[{"ch9", ",", "538"}], "]"}]], "Input",
+ CellChangeTimes->{{3.640108882804389*^9, 3.640108920120413*^9}}],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["term frequency-inverse document frequency",
+  FontSlant->"Italic"],
+ " (TF-IDF) measure gives us one way of determining whether a particular term \
+plays an important role in a page, chapter or other part of a text. In our \
+example we used terms with high TF-IDF to figure out what Chapter 9 of ",
+ StyleBox["Origin of Species",
+  FontSlant->"Italic"],
+ " is about. When used with a group of documents (a ",
+ StyleBox["corpus",
+  FontSlant->"Italic"],
+ "), TF-IDF can help to automatically determine what each document is about \
+and whether or not it is ",
+ StyleBox["relevant",
+  FontSlant->"Italic"],
+ " to a particular search query."
+}], "Text",
+ CellChangeTimes->{{3.640711530355771*^9, 3.640711534651072*^9}, {
+   3.640888779450098*^9, 3.640888805983494*^9}, {3.6408888524388533`*^9, 
+   3.640888852665229*^9}, {3.640888885068879*^9, 3.640888959410616*^9}, {
+   3.640888999113661*^9, 3.640889221964572*^9}, {3.640889266576339*^9, 
+   3.6408893627163267`*^9}, 3.642955744578618*^9}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Activity", "Section",
+ CellChangeTimes->{{3.647716402186221*^9, 3.647716405353856*^9}}],
+
+Cell[TextData[{
+ "For this activity we will be using ",
+ StyleBox["Pride and Prejudice",
+  FontSlant->"Italic"],
+ ". Work through the following steps one-at-a-time, making sure to study the \
+output at each stage."
+}], "Text",
+ CellChangeTimes->{{3.653412216301128*^9, 3.653412260851088*^9}, {
+  3.653412830143814*^9, 3.653412831790124*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"viewData", "[", "x_", "]"}], ":=", "\[IndentingNewLine]", 
+  RowBox[{"Framed", "[", 
+   RowBox[{"Pane", "[", 
+    RowBox[{"x", ",", 
+     RowBox[{"{", 
+      RowBox[{"Automatic", ",", "200"}], "}"}], ",", 
+     RowBox[{"Scrollbars", "\[Rule]", "True"}]}], "]"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.511539182255096*^9, 3.51153920239167*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Original text", "Subsubsection",
+ CellChangeTimes->{{3.653412267578433*^9, 3.653412271634568*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"pride", "=", 
+   RowBox[{"ExampleData", "[", 
+    RowBox[{"{", 
+     RowBox[{"\"\<Text\>\"", ",", "\"\<PrideAndPrejudice\>\""}], "}"}], 
+    "]"}]}], ";"}]], "Input"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Document frequencies", "Subsubsection",
+ CellChangeTimes->{{3.6534130107516327`*^9, 3.653413015031165*^9}}],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"prideWholeList", "=", 
+   RowBox[{"Map", "[", 
+    RowBox[{"ToLowerCase", ",", 
+     RowBox[{"StringSplit", "[", 
+      RowBox[{"pride", ",", 
+       RowBox[{
+        RowBox[{"Except", "[", "WordCharacter", "]"}], ".."}]}], "]"}]}], 
+    "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"prideDocFreq", "=", 
+   RowBox[{"Sort", "[", 
+    RowBox[{
+     RowBox[{"Tally", "[", 
+      RowBox[{"Sort", "[", "prideWholeList", "]"}], "]"}], ",", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"#1", "\[LeftDoubleBracket]", "2", "\[RightDoubleBracket]"}], 
+       ">", 
+       RowBox[{"#2", "\[LeftDoubleBracket]", "2", "\[RightDoubleBracket]"}]}],
+       "&"}]}], "]"}]}], ";"}]}], "Input",
+ CellChangeTimes->{{3.6534130190494633`*^9, 3.653413053094026*^9}, {
+  3.653413089421489*^9, 3.653413097068716*^9}}],
+
+Cell[BoxData[
+ RowBox[{"viewData", "[", "prideDocFreq", "]"}]], "Input",
+ CellChangeTimes->{{3.653413099015904*^9, 3.65341310385989*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Chapter 51", "Subsubsection",
+ CellChangeTimes->{{3.653412279193985*^9, 3.6534122831222*^9}, {
+  3.653412492883109*^9, 3.653412494738261*^9}, {3.6534126388211*^9, 
+  3.653412639381044*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"prideCh51", "=", 
+   RowBox[{
+    RowBox[{"StringCases", "[", 
+     RowBox[{"pride", ",", 
+      RowBox[{
+       RowBox[{"\"\<Chapter 51\>\"", "~~", 
+        RowBox[{"Shortest", "[", "x__", "]"}], "~~", "\"\<Chapter\>\""}], 
+       "\[Rule]", "x"}]}], "]"}], "\[LeftDoubleBracket]", "1", 
+    "\[RightDoubleBracket]"}]}], ";"}]], "Input",
+ CellChangeTimes->{
+  3.643394135503231*^9, {3.653412522185347*^9, 3.6534126349169807`*^9}, {
+   3.6534127643694277`*^9, 3.653412766344652*^9}}],
+
+Cell[BoxData[
+ RowBox[{"viewData", "[", "prideCh51", "]"}]], "Input",
+ CellChangeTimes->{{3.65341264203684*^9, 3.653412646357757*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Chapter 51 word list", "Subsubsection",
+ CellChangeTimes->{{3.653412712386826*^9, 3.653412717450204*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"prideCh51List", "=", 
+   RowBox[{"Map", "[", 
+    RowBox[{"ToLowerCase", ",", 
+     RowBox[{"StringSplit", "[", 
+      RowBox[{"prideCh51", ",", 
+       RowBox[{
+        RowBox[{"Except", "[", "WordCharacter", "]"}], ".."}]}], "]"}]}], 
+    "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.653412725810658*^9, 3.653412736287312*^9}}],
+
+Cell[BoxData[
+ RowBox[{"viewData", "[", "prideCh51List", "]"}]], "Input",
+ CellChangeTimes->{{3.6534127391892138`*^9, 3.653412744490287*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Chapter 51 terms (bag of words)", "Subsubsection",
+ CellChangeTimes->{{3.6534127807763166`*^9, 3.653412787823723*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"prideCh51Terms", "=", 
+   RowBox[{"Union", "[", "prideCh51List", "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.6534127961359873`*^9, 3.653412806138536*^9}}],
+
+Cell[BoxData[
+ RowBox[{"viewData", "[", "prideCh51Terms", "]"}]], "Input",
+ CellChangeTimes->{{3.653412810379006*^9, 3.653412816655492*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Term frequencies for Chapter 51", "Subsubsection",
+ CellChangeTimes->{{3.653412661268664*^9, 3.6534126764117603`*^9}, 
+   3.6534128530386267`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"prideCh51TermFreq", "=", 
+   RowBox[{"Sort", "[", 
+    RowBox[{
+     RowBox[{"Tally", "[", "prideCh51List", "]"}], ",", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"#1", "\[LeftDoubleBracket]", "2", "\[RightDoubleBracket]"}], 
+       ">", 
+       RowBox[{"#2", "\[LeftDoubleBracket]", "2", "\[RightDoubleBracket]"}]}],
+       "&"}]}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.6534128608699207`*^9, 3.653412873044188*^9}}],
+
+Cell[BoxData[
+ RowBox[{"viewData", "[", "prideCh51TermFreq", "]"}]], "Input",
+ CellChangeTimes->{{3.65341287450147*^9, 3.6534128798532476`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Document frequencies for Chapter 51", "Subsubsection",
+ CellChangeTimes->{{3.653412894316114*^9, 3.653412899627616*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"prideCh51DocFreq", "=", 
+   RowBox[{"Select", "[", 
+    RowBox[{"prideDocFreq", ",", 
+     RowBox[{
+      RowBox[{"MemberQ", "[", 
+       RowBox[{"prideCh51Terms", ",", 
+        RowBox[{"#", "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}]}],
+        "]"}], "&"}]}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{
+  3.653412720531887*^9, 3.653412791289391*^9, 3.653412857103009*^9, {
+   3.653412902419207*^9, 3.653412902883503*^9}, {3.653412994209588*^9, 
+   3.6534129965065393`*^9}, {3.653413125092052*^9, 3.653413127339155*^9}, {
+   3.653413537797172*^9, 3.653413539884458*^9}}],
+
+Cell[BoxData[
+ RowBox[{"viewData", "[", "prideCh51DocFreq", "]"}]], "Input",
+ CellChangeTimes->{{3.65341313352726*^9, 3.6534131409714613`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["TF-IDF scores for Chapter 51", "Subsubsection",
+ CellChangeTimes->{{3.653413171305746*^9, 3.65341318201702*^9}}],
+
+Cell[TextData[{
+ "There are 61 chapters in ",
+ StyleBox["Pride and Prejudice",
+  FontSlant->"Italic"]
+}], "Text",
+ CellChangeTimes->{{3.65341332922031*^9, 3.653413329723982*^9}, {
+  3.653413387490505*^9, 3.6534133944652023`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"prideComputeTFIDF", "[", 
+   RowBox[{"termlist_", ",", "tflist_", ",", "dflist_"}], "]"}], ":=", 
+  "\[IndentingNewLine]", 
+  RowBox[{"Module", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"outlist", ",", "tf", ",", "df"}], "}"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"outlist", "=", 
+      RowBox[{"{", "}"}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"Do", "[", "\[IndentingNewLine]", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"tf", "=", 
+         RowBox[{
+          RowBox[{"Cases", "[", 
+           RowBox[{"tflist", ",", 
+            RowBox[{
+             RowBox[{"{", 
+              RowBox[{"t", ",", "x_"}], "}"}], "\[Rule]", "x"}]}], "]"}], 
+          "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}]}], ";", 
+        "\[IndentingNewLine]", 
+        RowBox[{"df", "=", 
+         RowBox[{
+          RowBox[{"Cases", "[", 
+           RowBox[{"dflist", ",", 
+            RowBox[{
+             RowBox[{"{", 
+              RowBox[{"t", ",", "x_"}], "}"}], "\[Rule]", "x"}]}], "]"}], 
+          "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}]}], ";", 
+        "\[IndentingNewLine]", 
+        RowBox[{"outlist", "=", 
+         RowBox[{"Append", "[", 
+          RowBox[{"outlist", ",", 
+           RowBox[{"{", 
+            RowBox[{"t", ",", "tf", ",", "df", ",", 
+             RowBox[{"tfidf", "[", 
+              RowBox[{"tf", ",", "df", ",", "61.0"}], "]"}]}], "}"}]}], 
+          "]"}]}]}], ",", "\[IndentingNewLine]", 
+       RowBox[{"{", 
+        RowBox[{"t", ",", "termlist"}], "}"}]}], "]"}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"Return", "[", "outlist", "]"}]}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.653413312661359*^9, 3.653413313716707*^9}, {
+  3.653413402242275*^9, 3.6534134022975473`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Short", "[", "prideCh51DocFreq", "]"}]], "Input",
+ CellChangeTimes->{{3.6534134467355433`*^9, 3.653413472838607*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"prideCh51TFIDF", "=", 
+   RowBox[{"Sort", "[", 
+    RowBox[{
+     RowBox[{"prideComputeTFIDF", "[", 
+      RowBox[{
+      "prideCh51Terms", ",", "prideCh51TermFreq", ",", "prideCh51DocFreq"}], 
+      "]"}], ",", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"#1", "\[LeftDoubleBracket]", "4", "\[RightDoubleBracket]"}], 
+       ">", 
+       RowBox[{"#2", "\[LeftDoubleBracket]", "4", "\[RightDoubleBracket]"}]}],
+       "&"}]}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.5470315943677197`*^9, 3.5470316620577793`*^9}, {
+  3.547032323827345*^9, 3.547032337529541*^9}, {3.547032911696452*^9, 
+  3.547032922240966*^9}, {3.653413192537431*^9, 3.653413214008031*^9}, {
+  3.6534133221084957`*^9, 3.653413322900331*^9}, {3.653413485113233*^9, 
+  3.653413486345984*^9}}],
+
+Cell[BoxData[
+ RowBox[{"viewData", "[", "prideCh51TFIDF", "]"}]], "Input",
+ CellChangeTimes->{{3.653413707856676*^9, 3.6534137182865963`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Top TF-IDF terms in Chapter 51", "Subsubsection",
+ CellChangeTimes->{{3.653413567851469*^9, 3.653413574810964*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Take", "[", 
+   RowBox[{"prideCh51TFIDF", ",", "100"}], "]"}], "\[LeftDoubleBracket]", 
+  RowBox[{"All", ",", "1"}], "\[RightDoubleBracket]"}]], "Input",
+ CellChangeTimes->{{3.54703167844559*^9, 3.547031687524719*^9}, {
+  3.547032743886032*^9, 3.547032745451435*^9}, {3.5470329252399693`*^9, 
+  3.547032943747559*^9}, {3.547033171785005*^9, 3.547033174892974*^9}, {
+  3.653413593035232*^9, 3.6534135949195833`*^9}, {3.6534136660650587`*^9, 
+  3.653413666287518*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Questions", "Subsection",
+ CellChangeTimes->{{3.6534137558925667`*^9, 3.653413760700034*^9}}],
+
+Cell["\<\
+Now skim through the text of Chapter 51 and try to get a sense of what it is \
+about. Then look at the one hundred terms with the highest TF-IDF score. Do \
+you think they do a good job of suggesting what the chapter is about? Why or \
+why not?\
+\>", "Text",
+ CellChangeTimes->{{3.653413762979555*^9, 3.653413764707856*^9}, {
+  3.65341390711252*^9, 3.6534139286936607`*^9}, {3.6534139709887543`*^9, 
+  3.653413972140258*^9}, {3.653414263506185*^9, 3.653414374629723*^9}, {
+  3.653414429340116*^9, 3.6534144346433897`*^9}}],
+
+Cell["\<\
+If you were going to come up with a list of keywords for Chapter 51 by hand, \
+which would you add? Which would you remove?\
+\>", "Text",
+ CellChangeTimes->{{3.65341438342099*^9, 3.6534144022526627`*^9}, {
+  3.653414472051249*^9, 3.653414474129919*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Upload your notebook", "Section",
+ CellChangeTimes->{{3.649950784924818*^9, 3.649950788859275*^9}}],
+
+Cell["\<\
+Don\[CloseCurlyQuote]t forget to upload a copy of your notebook for this \
+class to the OWL Site for the course\
+\>", "Text",
+ CellChangeTimes->{{3.649950792779258*^9, 3.649950818634288*^9}}]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1422, 1107},
+WindowMargins->{{Automatic, 363}, {Automatic, 8}},
+TaggingRules->{"SlideShow" -> True},
+Magnification:>1.25 Inherited,
+FrontEndVersion->"11.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (July 28, \
+2016)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "SlideShowHeader"->{
+  Cell[580, 22, 4383, 98, 75, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[5754, 147, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[6455, 170, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[8168, 226, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[10883, 293, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[13134, 367, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[17398, 495, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[22795, 662, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[28268, 818, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[38065, 1066, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[43352, 1211, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[46073, 1278, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[57189, 1609, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"SlideShowHeader", 57996, 1638}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 4383, 98, 75, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[4966, 122, 405, 9, 183, "Title"],
+Cell[5374, 133, 343, 9, 99, "Subtitle"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5754, 147, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[5843, 152, 95, 1, 80, "Section"],
+Cell[5941, 155, 465, 9, 61, "Text"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6455, 170, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[6544, 175, 141, 2, 80, "Section"],
+Cell[6688, 179, 261, 6, 37, "Text"],
+Cell[6952, 187, 602, 17, 66, "Input"],
+Cell[7557, 206, 161, 3, 39, "Input"],
+Cell[7721, 211, 127, 1, 37, "Text"],
+Cell[7851, 214, 268, 6, 39, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[8168, 226, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[8257, 231, 180, 2, 80, "Section"],
+Cell[8440, 235, 682, 12, 85, "Text"],
+Cell[CellGroupData[{
+Cell[9147, 251, 291, 5, 45, "ItemNumbered"],
+Cell[9441, 258, 335, 6, 45, "ItemNumbered"],
+Cell[9779, 266, 373, 7, 73, "ItemNumbered"]
+}, Open  ]],
+Cell[10167, 276, 667, 11, 46, "Text"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[10883, 293, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[10972, 298, 175, 2, 100, "Section"],
+Cell[11150, 302, 346, 10, 46, "Text"],
+Cell[11499, 314, 530, 13, 48, "Input"],
+Cell[12032, 329, 153, 3, 48, "Input"],
+Cell[12188, 334, 231, 4, 46, "Text"],
+Cell[12422, 340, 449, 13, 48, "Input"],
+Cell[12874, 355, 211, 6, 46, "Text"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[13134, 367, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[13223, 372, 244, 6, 100, "Section"],
+Cell[13470, 380, 508, 10, 46, "Text"],
+Cell[13981, 392, 411, 11, 48, "Input"],
+Cell[14395, 405, 303, 5, 46, "Text"],
+Cell[14701, 412, 355, 10, 48, "Input"],
+Cell[15059, 424, 155, 3, 48, "Input"],
+Cell[15217, 429, 534, 13, 46, "Text"],
+Cell[15754, 444, 230, 5, 48, "Input"],
+Cell[15987, 451, 134, 2, 48, "Input"],
+Cell[16124, 455, 156, 3, 48, "Input"],
+Cell[16283, 460, 455, 10, 76, "Text"],
+Cell[16741, 472, 448, 12, 48, "Input"],
+Cell[17192, 486, 157, 3, 48, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[17398, 495, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[17487, 500, 248, 6, 100, "Section"],
+Cell[17738, 508, 551, 16, 76, "Text"],
+Cell[18292, 526, 208, 5, 48, "Input"],
+Cell[18503, 533, 210, 5, 48, "Input"],
+Cell[18716, 540, 173, 3, 48, "Input"],
+Cell[18892, 545, 172, 3, 48, "Input"],
+Cell[19067, 550, 767, 19, 106, "Text"],
+Cell[19837, 571, 130, 2, 48, "Input"],
+Cell[19970, 575, 643, 18, 76, "Text"],
+Cell[20616, 595, 316, 9, 48, "Input"],
+Cell[20935, 606, 156, 3, 48, "Input"],
+Cell[21094, 611, 425, 13, 76, "Text"],
+Cell[21522, 626, 886, 22, 82, "Input"],
+Cell[22411, 650, 335, 6, 76, "Text"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[22795, 662, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[22884, 667, 154, 2, 100, "Section"],
+Cell[23041, 671, 368, 6, 76, "Text"],
+Cell[23412, 679, 320, 9, 82, "Input"],
+Cell[23735, 690, 224, 4, 46, "Text"],
+Cell[23962, 696, 168, 3, 48, "Input"],
+Cell[24133, 701, 416, 9, 76, "Text"],
+Cell[24552, 712, 218, 5, 48, "Input"],
+Cell[24773, 719, 219, 5, 48, "Input"],
+Cell[24995, 726, 345, 7, 46, "Text"],
+Cell[25343, 735, 157, 3, 48, "Input"],
+Cell[25503, 740, 155, 2, 46, "Text"],
+Cell[25661, 744, 216, 5, 48, "Input"],
+Cell[25880, 751, 270, 6, 48, "Input"],
+Cell[26153, 759, 216, 4, 48, "Input"],
+Cell[26372, 765, 360, 8, 46, "Text"],
+Cell[26735, 775, 273, 6, 48, "Input"],
+Cell[27011, 783, 325, 7, 48, "Input"],
+Cell[27339, 792, 263, 5, 48, "Input"],
+Cell[27605, 799, 614, 13, 106, "Text"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[28268, 818, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[28357, 823, 170, 2, 100, "Section"],
+Cell[CellGroupData[{
+Cell[28552, 829, 112, 1, 67, "Subsection"],
+Cell[28667, 832, 761, 18, 106, "Text"],
+Cell[29431, 852, 284, 5, 46, "Text"],
+Cell[29718, 859, 407, 8, 41, "DisplayFormula"],
+Cell[30128, 869, 451, 7, 76, "Text"],
+Cell[30582, 878, 672, 15, 82, "Input"],
+Cell[31257, 895, 305, 8, 46, "Text"],
+Cell[31565, 905, 330, 7, 48, "Input"],
+Cell[31898, 914, 552, 8, 76, "Text"],
+Cell[32453, 924, 784, 16, 82, "Input"],
+Cell[33240, 942, 738, 13, 106, "Text"],
+Cell[33981, 957, 841, 17, 82, "Input"],
+Cell[34825, 976, 864, 16, 143, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[35726, 997, 107, 1, 67, "Subsection"],
+Cell[35836, 1000, 282, 6, 46, "Text"],
+Cell[36121, 1008, 241, 6, 41, "DisplayFormula"],
+Cell[36365, 1016, 306, 4, 46, "Text"],
+Cell[36674, 1022, 212, 6, 48, "Input"],
+Cell[36889, 1030, 218, 6, 48, "Input"],
+Cell[37110, 1038, 214, 6, 48, "Input"],
+Cell[37327, 1046, 677, 13, 76, "Text"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[38065, 1066, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[38154, 1071, 189, 2, 100, "Section"],
+Cell[38346, 1075, 234, 4, 46, "Text"],
+Cell[38583, 1081, 1682, 45, 310, "Input"],
+Cell[40268, 1128, 294, 4, 46, "Text"],
+Cell[40565, 1134, 613, 15, 48, "Input"],
+Cell[41181, 1151, 1023, 24, 106, "Text"],
+Cell[42207, 1177, 660, 15, 48, "Input"],
+Cell[42870, 1194, 249, 5, 46, "Text"],
+Cell[43122, 1201, 181, 4, 48, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[43352, 1211, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[43441, 1216, 233, 7, 100, "Section"],
+Cell[43677, 1225, 1161, 18, 106, "Text"],
+Cell[44841, 1245, 156, 3, 48, "Input"],
+Cell[45000, 1250, 1024, 22, 106, "Text"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[46073, 1278, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[46162, 1283, 93, 1, 100, "Section"],
+Cell[46258, 1286, 341, 8, 46, "Text"],
+Cell[46602, 1296, 381, 9, 82, "Input"],
+Cell[CellGroupData[{
+Cell[47008, 1309, 104, 1, 53, "Subsubsection"],
+Cell[47115, 1312, 201, 6, 48, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[47353, 1323, 113, 1, 53, "Subsubsection"],
+Cell[47469, 1326, 845, 23, 82, "Input"],
+Cell[48317, 1351, 137, 2, 48, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[48491, 1358, 195, 3, 53, "Subsubsection"],
+Cell[48689, 1363, 518, 13, 48, "Input"],
+Cell[49210, 1378, 134, 2, 48, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[49381, 1385, 111, 1, 53, "Subsubsection"],
+Cell[49495, 1388, 367, 10, 48, "Input"],
+Cell[49865, 1400, 141, 2, 48, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[50043, 1407, 124, 1, 53, "Subsubsection"],
+Cell[50170, 1410, 193, 4, 48, "Input"],
+Cell[50366, 1416, 140, 2, 48, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[50543, 1423, 152, 2, 53, "Subsubsection"],
+Cell[50698, 1427, 464, 12, 48, "Input"],
+Cell[51165, 1441, 144, 2, 48, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[51346, 1448, 126, 1, 53, "Subsubsection"],
+Cell[51475, 1451, 620, 14, 48, "Input"],
+Cell[52098, 1467, 143, 2, 48, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[52278, 1474, 118, 1, 53, "Subsubsection"],
+Cell[52399, 1477, 229, 6, 46, "Text"],
+Cell[52631, 1485, 1804, 47, 310, "Input"],
+Cell[54438, 1534, 141, 2, 48, "Input"],
+Cell[54582, 1538, 802, 19, 48, "Input"],
+Cell[55387, 1559, 142, 2, 48, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[55566, 1566, 121, 1, 53, "Subsubsection"],
+Cell[55690, 1569, 501, 9, 48, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[56228, 1583, 99, 1, 67, "Subsection"],
+Cell[56330, 1586, 532, 9, 76, "Text"],
+Cell[56865, 1597, 263, 5, 46, "Text"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[57189, 1609, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[57278, 1614, 105, 1, 100, "Section"],
+Cell[57386, 1617, 201, 4, 46, "Text"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
