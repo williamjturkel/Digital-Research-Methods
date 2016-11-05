@@ -1,0 +1,1192 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     40459,       1184]
+NotebookOptionsPosition[     34787,       1008]
+NotebookOutlinePosition[     36336,       1054]
+CellTagsIndexPosition[     36257,       1049]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ TogglerBox[2, {1->
+  OverlayBox[{
+   TagBox[GridBox[{
+      {
+       GraphicsBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBAkBOaF5xZnpeaopnXklqemqRRRIz
+UFAKiEGSLED8//9/gvjRo0fsN27cELp69arY+fPnpZExPn137tzhBqrRBGJ/
+ID4CxMfRMTZ9L168YL5w4YIaUD4AiC8C8Qcg/gvE/9AxFreC7PQD4gtA/BGq
+7j8ujKz3+fPnLFC9b6H24dSHTf/FixfVofYSpRdZPzSsAqBuJkovsn5oOF8k
+5F9s+h88eMBBjt0w/devXxcGso+S4m9k/ZcuXRKHpgeS3A7TD0wrkpToPw9J
+ywOmn1L3Uxp+lMYfpemH0vRLjfwDjQey8y9a+fGOWDPwlF+gsPhEKDywlZ8g
+d0D9EniexPITGd++fZv3PBnlN6764zxa3QHCAIDESDs=
+         "], {{0, 26}, {16, 
+         0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{16, 26},
+        PlotRange->{{0, 16}, {0, 26}}], 
+       GraphicsBox[RasterBox[CompressedData["
+1:eJzt2V1vVFUUBuBGTfTSSygthYYKNHyVinrrpbcYfwBEJN5gUkyMfw9KKaVw
+KCkQKCW1RNIQKg1gEE3QtdN10pMRZCaBzNQ+kzxt5nzstfeZfbPOu/vkD8e/
+e6+vr+/sR/Hn+ImfvpyYOPHz1x/Hl2/OnP3+9JlT33515sdTp09NfHHy/TjY
+H6592Nf3QfyvqmpHBwbCYNr5GoMNAw2d1AEAADa3/obtLba1aJ7rb4xR9x1D
+YVfYHYbDnjASPgn7wv4wGg6Eg+FQOByOhLEwnj4Nx8Jn6fM21dcfyzHq8cay
+xuGseTDnMJpz2pdzHMk5D+caduWa6v6p+czafU71s6p1+/cGAADYqt52/9va
+++6tXt331j3v0TTeoj5e966v6lv3Vv/uWfWr9LJm9tzMpN+UW3eaVV9s00yY
+CzfC7bAQFhvuhjt57maYD9er9c+VcDlcCtMd1AQAADafqXQhTabz6VyL+vhk
+Xl/uLX1D6UFmw9VwrVrvL0o/cqta7ztKD3Iv/BLuh1/DSngYHoXfwlp4Ep6F
+38Pz8Ed4Ef5Mf71Gff5F3vM8x3iWY65ljUdZcyXncD/ndC/neDvnfCPXcC3X
+NJtrnG48r3afU/2s6uc11QO/OwAAwFbzLvrfksWVjK30kSV3KxncUlgOD6qN
+vnc1PK42+t7iaaq/r+U1q9VG3/ogx1rKse9krfmsrV+l15R9WDLmkjWXzLl8
+yvuVsmdLJl3eu5R9XN7BNLPrhTxX3seUvT3TQc2Xbfr7LWq3JgAAwH95m33K
+u9Dt5wMAAMDmp2dlK+vGnu/2+yQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYPN42aZu
+1AQAAAAAAICtrNsZIXRTN/b8xTbNhLlwI9wOC2Gx4W64k+duhvlwvVr/XAmX
+w6Uw3UFNAAAAAAAA6EVT6UKaTOfTuRb18cm8vtxbcrOSwc2Gq9V6FlcytlvV
+eu5WMrilsBwehJXwMKyGx2EtPElPU/19La9ZzXtWcozlHHMxa9zKmnM5h9mc
+03Rjfe2uq15bvb6pHvid2NzKPiwZc8maS+ZcPiWDLnu2ZNIlmy77uGTVzex6
+Ic+VbLvs7ZkOau7owEAYTDtfY7BhoKGTOgAAAAAAANDr+hu2t9jWonmuvzFG
+nbsNhd1hOOwJI2Fv2B9Gw4FwMBwKR8JYOJrGW9THx/LaQ3nvgRxrf449krWG
+s/ZQtZH3NdfY7rrqtdW6/fvw/9LMnpuZ9Jty646y6n8AhCP7tg==
+         "], {{0, 26}, {
+         2000, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{2000, 26},
+        PlotRange->{{0, 2000}, {0, 26}}], 
+       GraphicsBox[RasterBox[CompressedData["
+1:eJy9lktLQkEUxyVdCBIELaxctYq+QduWbcKMPoCSRRsDC6JPp+Lj4vuq+EBc
+iBtFfIYrpU7nPzQiN++9vmrgp/dx5j8z55w5c099z56HPYvF8mLnH4/37TIY
+9L7fHvDNXeDl6THgv78KvPof/cELn5UfnjBHjI3J5/OudVBV9bhUKjmbzaad
+iCxmcB9lAxKMmzmv1+v7JvpfG/DJjJkic8NrOut0OlYdfdoCjPXBqMx1q9Vy
+7FhfgvX0MUa73bYZ6edyuTnrvPsZQ4Wv9PTRL5vNroTOGIiJu9FoOLT6UjuT
+yVAqlaJkMin+0+m0YPEZbHTGQDwKyKtl+ugHjdFoRIVCgeLxOCUSCQGua7Ua
+9Xo9YQNbozXI/aHVZ//RcDik2WxG5XKZwuGwANdo0JfrNIhDvFqtHi7zD+YW
+i8VoMBgIvWKxKEDrdrtiHbAxiAF8pHAf5zJ9+Bca0WiUxuMxydbv98U64CvY
+wNZgTyioI9r8QR/EEvrQUhRlrh8Kheb6sDHTZ1xG84ePMP/pdPpr/tvoL/of
+Mcb9Jv7X+mcxP2X+QCMSiYh5VyoVMQbXMbP81I2vzM/JZCLyX+a+BPmPvbFN
+fmr36pr713B/rVp7THy/tD6Y1cjF5zrahvVtB5jW5y21B/kVzpc1kecjfK53
+Pu7kfNfO+x+/T/70++ob7NUEtQ==
+         "], {{0, 26}, {24, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{24, 26},
+        PlotRange->{{0, 24}, {0, 26}}]}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {Automatic, 
+         Scaled[0.6], Automatic}},
+     GridBoxSpacings->{"Columns" -> {{0}}, "Rows" -> {{0}}}],
+    "Grid"], 
+   PaneBox[
+    StyleBox[
+     RowBox[{
+     "Background", " ", "images", " ", "and", " ", "text", " ", "colors", " ",
+       "have", " ", "been", " ", "adjusted", " ", "for", " ", "editing", " ", 
+      
+      RowBox[{"purposes", "."}]}],
+     LineBreakWithin->False,
+     FontFamily->"Helvetica",
+     FontSize->12,
+     FontColor->GrayLevel[0.4]],
+    Alignment->Center,
+    ImageSize->Scaled[0.5],
+    ScrollPosition->{0., 0.}]},
+   Alignment->{Center, Center}], 2->""}, "1"]], "SlideShowNavigationBar", \
+"FirstSlide",
+ CellMargins->{{0, 0}, {0, 0}},
+ CellFrameLabelMargins->2,
+ CellSize->{Inherited, 30},
+ CellChangeTimes->{3.647361175465108*^9},
+ TextAlignment->Center,
+ CellTags->"SlideShowHeader"],
+
+Cell["\<\
+Digital Research Methods 11A:
+Identifying and Classifying Images\
+\>", "Title",
+ CellChangeTimes->{
+  3.559948400406288*^9, {3.647331852839075*^9, 3.647331861295168*^9}, {
+   3.647331922221755*^9, 3.647331924532915*^9}, {3.647332658962614*^9, 
+   3.64733266480881*^9}, {3.6473611327373047`*^9, 3.647361139759391*^9}, {
+   3.647448943135475*^9, 3.6474489472294493`*^9}, {3.6565996386613693`*^9, 
+   3.656599647067431*^9}}],
+
+Cell[TextData[{
+ "William J Turkel, ",
+ StyleBox["wturkel@uwo.ca",
+  FontSlant->"Italic",
+  FontColor->RGBColor[
+   0.396078431372549, 0.596078431372549, 0.796078431372549]],
+ "\nHistory 2816 / Digital Humanities 2130 / History 9877"
+}], "Subtitle",
+ CellChangeTimes->{{3.647331955723979*^9, 3.6473319708190517`*^9}, 
+   3.647332103720562*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Overview", "Section",
+ CellChangeTimes->{{3.647361153919208*^9, 3.6473611548467712`*^9}}],
+
+Cell["\<\
+Here we explore techniques of computer vision (detecting faces in an image) \
+and machine learning (training a computer to distinguish between drawings and \
+photographs). We also experiment with a \[OpenCurlyQuote]deep learning\
+\[CloseCurlyQuote] system that automatically identifies images.\
+\>", "Text",
+ CellChangeTimes->{{3.647361157582405*^9, 3.647361159086673*^9}, {
+  3.656600312444775*^9, 3.6566004453504467`*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Setup", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.656600115451612*^9, 3.6566001161063557`*^9}}],
+
+Cell[TextData[StyleBox["Make sure to change the following so that it is a \
+valid file path on your own computer",
+ FontSlant->"Italic"]], "Text",
+ CellChangeTimes->{{3.6528996132446327`*^9, 3.652899662803152*^9}},
+ Background->RGBColor[1, 0.85, 0.85]],
+
+Cell[BoxData[
+ RowBox[{"localDownloadFilePath", "=", 
+  "\"\</Users/wjt/Downloads/\>\""}]], "Input",
+ CellChangeTimes->{{3.65289958930519*^9, 3.6528996279964657`*^9}}],
+
+Cell[TextData[{
+ "We are going to be working with some images extracted from Darwin\
+\[CloseCurlyQuote]s ",
+ StyleBox["Expression of the Emotions",
+  FontSlant->"Italic"]
+}], "Text",
+ CellChangeTimes->{{3.656601268417205*^9, 3.656601286823977*^9}}],
+
+Cell[BoxData[
+ RowBox[{"URLSave", "[", 
+  RowBox[{
+  "\"\<https://github.com/williamjturkel/Digital-Research-Methods/blob/master/\
+darwin-expression/darwin-expression-image-jpegs.zip?raw=true\>\"", ",", 
+   RowBox[{"FileNameJoin", "[", 
+    RowBox[{"{", 
+     RowBox[{
+     "localDownloadFilePath", ",", 
+      "\"\<darwin-expression-image-jpegs.zip\>\""}], "}"}], "]"}]}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.656601339998098*^9, 3.656601440237217*^9}, 
+   3.6566015127769127`*^9, {3.6566015636068172`*^9, 3.656601613724288*^9}}],
+
+Cell["\<\
+Make sure that the zipped file has downloaded to your machine\
+\>", "Text",
+ CellChangeTimes->{{3.6566016436514883`*^9, 3.656601656330419*^9}}],
+
+Cell[BoxData[
+ RowBox[{"FileNames", "[", 
+  RowBox[{"\"\<*.zip\>\"", ",", "localDownloadFilePath"}], "]"}]], "Input",
+ CellChangeTimes->{{3.656601454418354*^9, 3.6566014865126553`*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Detecting faces", "Section",
+ CellChangeTimes->{{3.647716369451888*^9, 3.647716370003084*^9}, {
+  3.647798474690284*^9, 3.6477984752570744`*^9}, {3.656600066452816*^9, 
+  3.656600068324144*^9}}],
+
+Cell[TextData[{
+ "A collection of scanned page images from Darwin\[CloseCurlyQuote]s ",
+ StyleBox["Expression of the Emotions",
+  FontSlant->"Italic"],
+ " is on the Internet Archive at the following location"
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.656514330665957*^9, 3.656514377728553*^9}}],
+
+Cell[TextData[ButtonBox["https://archive.org/download/\
+expressionemoti01darwgoog",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://archive.org/download/expressionemoti01darwgoog"], None},
+ ButtonNote->
+  "https://archive.org/download/expressionemoti01darwgoog"]], "Text",
+ CellChangeTimes->{{3.6565149451340714`*^9, 3.656514959210992*^9}}],
+
+Cell["Here is a single page for us to experiment with", "Text",
+ CellChangeTimes->{{3.656514379952529*^9, 3.656514388512184*^9}, {
+   3.65659989285924*^9, 3.656599894938435*^9}, 3.656602344451186*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"emotionsPage216GrayscaleImage", "=", 
+   RowBox[{"ColorConvert", "[", 
+    RowBox[{
+     RowBox[{"ImageTrim", "[", 
+      RowBox[{
+       RowBox[{
+       "Import", "[", 
+        "\"\<https://github.com/williamjturkel/Digital-Research-Methods/blob/\
+master/darwin-expression/expressionemoti01darwgoog_0216.tif?raw=true\>\"", 
+        "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"175", ",", "170"}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"790", ",", "1240"}], "}"}]}], "}"}]}], "]"}], ",", 
+     "\"\<Grayscale\>\""}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.643652399478188*^9, 3.643652405356043*^9}, {
+  3.656600081988462*^9, 3.65660013059515*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Show", "[", 
+  RowBox[{"emotionsPage216GrayscaleImage", ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Medium"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.656600135048834*^9, 3.656600153529066*^9}}],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["FindFaces",
+  FontWeight->"Bold"],
+ " command detects the faces in an image and returns a list of them"
+}], "Text",
+ CellChangeTimes->{{3.656600176888689*^9, 3.6566002120789623`*^9}}],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"emotionsPage216Faces", "=", 
+   RowBox[{"FindFaces", "[", "emotionsPage216GrayscaleImage", "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"Map", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"ImageResize", "[", 
+     RowBox[{
+      RowBox[{"ImageTrim", "[", 
+       RowBox[{"emotionsPage216GrayscaleImage", ",", "#"}], "]"}], ",", 
+      "100"}], "]"}], "&"}], ",", "emotionsPage216Faces"}], "]"}]}], "Input",
+ CellChangeTimes->{{3.643652465995508*^9, 3.643652494826947*^9}, {
+  3.64365252582423*^9, 3.643652543800802*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Showing detected faces in context", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.656680587619238*^9, 3.6566805922020493`*^9}}],
+
+Cell[TextData[{
+ "Since the ",
+ StyleBox["FindFaces",
+  FontWeight->"Bold"],
+ " command returns pixel coordinates, you can use ",
+ StyleBox["HighlightImage",
+  FontWeight->"Bold"],
+ " to display those rectangles in context"
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.6566810628015547`*^9, 3.656681083623959*^9}, {3.6566817253380404`*^9, 
+  3.656681733776222*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"multipleFaces", "=", 
+   RowBox[{
+   "Import", "[", 
+    "\"\<https://web.archive.org/web/20151116164409/http://www.billboard.com/\
+files/media/deltron3030-press-2013-650-430.jpg\>\"", "]"}]}], ";"}]], "Input",\
+
+ CellChangeTimes->{{3.656680595316874*^9, 3.65668064985604*^9}, 
+   3.656680699694593*^9, 3.656680798451847*^9, {3.656680948797983*^9, 
+   3.656680980279484*^9}, {3.656681021783183*^9, 3.656681058949*^9}}],
+
+Cell[BoxData[
+ RowBox[{"HighlightImage", "[", 
+  RowBox[{"multipleFaces", ",", 
+   RowBox[{"Rectangle", "@@@", 
+    RowBox[{"FindFaces", "[", "multipleFaces", "]"}]}], ",", 
+   RowBox[{"Method", "\[Rule]", "\"\<Boundary\>\""}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6566806669064627`*^9, 3.656680711222039*^9}, {
+  3.656680954781068*^9, 3.656680962372676*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Image classification, Part 1: Functions", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.6566021724177437`*^9, 3.656602183679378*^9}}],
+
+Cell[TextData[{
+ "Use ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ "\[CloseCurlyQuote]s powerful new machine learning features to automatically \
+classify extracted images into photographs and drawings (further subdivision \
+is easy on large datasets)."
+}], "Text",
+ CellChangeTimes->{3.643652601262424*^9}],
+
+Cell["Here are some functions we will need", "Text",
+ CellChangeTimes->{{3.6566022109749403`*^9, 3.6566022196618023`*^9}, 
+   3.68736895346227*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"standarizePage", "[", "pg_", "]"}], ":=", 
+  RowBox[{"ColorNegate", "[", 
+   RowBox[{"MorphologicalBinarize", "[", 
+    RowBox[{
+     RowBox[{"ColorConvert", "[", 
+      RowBox[{"pg", ",", "\"\<Grayscale\>\""}], "]"}], ",", 
+     RowBox[{"Method", "\[Rule]", "\"\<MinimumError\>\""}]}], "]"}], 
+   "]"}]}]], "Input"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"identifyImageBoundingBoxes", "[", "spg_", "]"}], ":=", 
+  "\[IndentingNewLine]", 
+  RowBox[{"ComponentMeasurements", "[", 
+   RowBox[{
+    RowBox[{"DeleteSmallComponents", "[", "spg", "]"}], ",", 
+    "\[IndentingNewLine]", "\"\<BoundingBox\>\""}], "]"}]}]], "Input"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"getExtractedImageList", "[", "pg_", "]"}], ":=", 
+  "\[IndentingNewLine]", 
+  RowBox[{"Module", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"bblist", "=", 
+      RowBox[{"identifyImageBoundingBoxes", "[", 
+       RowBox[{"standarizePage", "[", "pg", "]"}], "]"}]}], "}"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"Return", "[", 
+     RowBox[{"Map", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"ImageTrim", "[", 
+         RowBox[{"pg", ",", "#"}], "]"}], "&"}], ",", 
+       RowBox[{"bblist", "\[LeftDoubleBracket]", 
+        RowBox[{"All", ",", "2"}], "\[RightDoubleBracket]"}]}], "]"}], 
+     "]"}]}], "]"}]}]], "Input"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"highlightExtractedImages", "[", "pg_", "]"}], ":=", 
+  "\[IndentingNewLine]", 
+  RowBox[{"Module", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"bblist", "=", 
+      RowBox[{"identifyImageBoundingBoxes", "[", 
+       RowBox[{"standarizePage", "[", "pg", "]"}], "]"}]}], "}"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"Show", "[", 
+     RowBox[{"pg", ",", 
+      RowBox[{"Graphics", "[", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"EdgeForm", "[", 
+          RowBox[{"{", "Orange", "}"}], "]"}], ",", 
+         RowBox[{"Opacity", "[", "0", "]"}], ",", 
+         RowBox[{"Rectangle", "@@@", " ", 
+          RowBox[{"bblist", "\[LeftDoubleBracket]", 
+           RowBox[{"All", ",", "2"}], "\[RightDoubleBracket]"}]}]}], "}"}], 
+       "]"}], ",", 
+      RowBox[{"ImageSize", "\[Rule]", "Small"}]}], "]"}]}], "]"}]}]], "Input"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"demoImageExtraction", "[", "pgimglist_", "]"}], ":=", 
+  "\[IndentingNewLine]", 
+  RowBox[{"Module", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"returnlist", "=", 
+      RowBox[{"{", "}"}]}], "}"}], ",", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"Do", "[", 
+      RowBox[{
+       RowBox[{"returnlist", "=", 
+        RowBox[{"Append", "[", 
+         RowBox[{"returnlist", ",", 
+          RowBox[{"{", 
+           RowBox[{"i", ",", 
+            RowBox[{"highlightExtractedImages", "[", "i", "]"}], ",", 
+            RowBox[{"Last", "[", 
+             RowBox[{"getExtractedImageList", "[", "i", "]"}], "]"}]}], 
+           "}"}]}], "]"}]}], ",", "\[IndentingNewLine]", 
+       RowBox[{"{", 
+        RowBox[{"i", ",", "pgimglist"}], "}"}]}], "]"}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"Return", "[", "returnlist", "]"}]}]}], "]"}]}]], "Input"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Image classification, Part 2: Image set", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.656602292725032*^9, 3.6566023099147997`*^9}}],
+
+Cell[TextData[{
+ "Here is the complete set of images from Darwin\[CloseCurlyQuote]s ",
+ StyleBox["Expression of the Emotions",
+  FontSlant->"Italic"],
+ ". It consists of a mixture of photographs and drawings"
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.656602312754653*^9, 3.6566023263862133`*^9}, {3.656602426031706*^9, 
+  3.656602443110012*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"emotionsPageImageList", "=", 
+   RowBox[{"Cases", "[", 
+    RowBox[{
+     RowBox[{"Import", "[", 
+      RowBox[{
+       RowBox[{"FileNameJoin", "[", 
+        RowBox[{"{", 
+         RowBox[{
+         "localDownloadFilePath", ",", 
+          "\"\<darwin-expression-image-jpegs.zip\>\""}], "}"}], "]"}], ",", 
+       "\"\<*.jpg\>\""}], "]"}], ",", 
+     RowBox[{"Except", "[", "$Failed", "]"}]}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.656601883203104*^9, 3.656601956671671*^9}, {
+  3.656602023862287*^9, 3.656602096794672*^9}, {3.656602368578473*^9, 
+  3.6566023815682783`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"ImageCollage", "[", "emotionsPageImageList", "]"}]], "Input",
+ CellChangeTimes->{{3.6566023965952787`*^9, 3.6566024061681137`*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Image classification, Part 3: Training set", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.656602454479499*^9, 3.656602461101432*^9}}],
+
+Cell["\<\
+We are going to use a subset of the images to train our machine learner, \
+telling it which ones are photographs and which are drawings\
+\>", "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.656602503325598*^9, 3.656602529763039*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"emotionsSortTrainingSet", "=", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{
+     "emotionsPageImageList", "\[LeftDoubleBracket]", "1", 
+      "\[RightDoubleBracket]"}], ",", 
+     RowBox[{
+     "emotionsPageImageList", "\[LeftDoubleBracket]", "5", 
+      "\[RightDoubleBracket]"}], ",", 
+     RowBox[{
+     "emotionsPageImageList", "\[LeftDoubleBracket]", "9", 
+      "\[RightDoubleBracket]"}], ",", 
+     RowBox[{
+     "emotionsPageImageList", "\[LeftDoubleBracket]", "14", 
+      "\[RightDoubleBracket]"}], ",", 
+     RowBox[{
+     "emotionsPageImageList", "\[LeftDoubleBracket]", "18", 
+      "\[RightDoubleBracket]"}], ",", 
+     RowBox[{
+     "emotionsPageImageList", "\[LeftDoubleBracket]", "19", 
+      "\[RightDoubleBracket]"}], ",", 
+     RowBox[{
+     "emotionsPageImageList", "\[LeftDoubleBracket]", "20", 
+      "\[RightDoubleBracket]"}], ",", 
+     RowBox[{
+     "emotionsPageImageList", "\[LeftDoubleBracket]", "27", 
+      "\[RightDoubleBracket]"}], ",", 
+     RowBox[{
+     "emotionsPageImageList", "\[LeftDoubleBracket]", "25", 
+      "\[RightDoubleBracket]"}], ",", 
+     RowBox[{
+     "emotionsPageImageList", "\[LeftDoubleBracket]", "28", 
+      "\[RightDoubleBracket]"}], ",", 
+     RowBox[{
+     "emotionsPageImageList", "\[LeftDoubleBracket]", "32", 
+      "\[RightDoubleBracket]"}], ",", 
+     RowBox[{
+     "emotionsPageImageList", "\[LeftDoubleBracket]", "34", 
+      "\[RightDoubleBracket]"}]}], "}"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.643652788656732*^9, 3.643652816797656*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Map", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"Show", "[", 
+     RowBox[{"#", ",", 
+      RowBox[{"ImageSize", "\[Rule]", "Tiny"}]}], "]"}], "&"}], ",", 
+   "emotionsSortTrainingSet"}], "]"}]], "Input",
+ CellChangeTimes->{{3.643652824253696*^9, 3.6436528283487883`*^9}}],
+
+Cell[TextData[{
+ "Here is the training step. ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ "\[CloseCurlyQuote]s ",
+ StyleBox["Classify",
+  FontWeight->"Bold"],
+ " \[OpenCurlyQuote]super-function\[CloseCurlyQuote] chooses an appropriate \
+machine learning method and features, but can be tuned as necessary."
+}], "Text",
+ CellChangeTimes->{{3.656602555050478*^9, 3.656602607640139*^9}}],
+
+Cell[BoxData[
+ RowBox[{"emotionsImageSortingClassifier", "=", 
+  RowBox[{"Classify", "[", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{
+      RowBox[{
+      "emotionsPageImageList", "\[LeftDoubleBracket]", "1", 
+       "\[RightDoubleBracket]"}], "\[Rule]", "\"\<Drawing\>\""}], ",", 
+     RowBox[{
+      RowBox[{
+      "emotionsPageImageList", "\[LeftDoubleBracket]", "5", 
+       "\[RightDoubleBracket]"}], "\[Rule]", "\"\<Drawing\>\""}], ",", 
+     RowBox[{
+      RowBox[{
+      "emotionsPageImageList", "\[LeftDoubleBracket]", "9", 
+       "\[RightDoubleBracket]"}], "\[Rule]", "\"\<Drawing\>\""}], ",", 
+     RowBox[{
+      RowBox[{
+      "emotionsPageImageList", "\[LeftDoubleBracket]", "14", 
+       "\[RightDoubleBracket]"}], "\[Rule]", "\"\<Drawing\>\""}], ",", 
+     RowBox[{
+      RowBox[{
+      "emotionsPageImageList", "\[LeftDoubleBracket]", "18", 
+       "\[RightDoubleBracket]"}], "\[Rule]", "\"\<Drawing\>\""}], ",", 
+     RowBox[{
+      RowBox[{
+      "emotionsPageImageList", "\[LeftDoubleBracket]", "19", 
+       "\[RightDoubleBracket]"}], "\[Rule]", "\"\<Photo\>\""}], ",", 
+     RowBox[{
+      RowBox[{
+      "emotionsPageImageList", "\[LeftDoubleBracket]", "20", 
+       "\[RightDoubleBracket]"}], "\[Rule]", "\"\<Photo\>\""}], ",", 
+     RowBox[{
+      RowBox[{
+      "emotionsPageImageList", "\[LeftDoubleBracket]", "25", 
+       "\[RightDoubleBracket]"}], "\[Rule]", "\"\<Photo\>\""}], ",", 
+     RowBox[{
+      RowBox[{
+      "emotionsPageImageList", "\[LeftDoubleBracket]", "27", 
+       "\[RightDoubleBracket]"}], "\[Rule]", "\"\<Photo\>\""}], ",", 
+     RowBox[{
+      RowBox[{
+      "emotionsPageImageList", "\[LeftDoubleBracket]", "28", 
+       "\[RightDoubleBracket]"}], "\[Rule]", "\"\<Photo\>\""}], ",", 
+     RowBox[{
+      RowBox[{
+      "emotionsPageImageList", "\[LeftDoubleBracket]", "32", 
+       "\[RightDoubleBracket]"}], "\[Rule]", "\"\<Drawing\>\""}], ",", 
+     RowBox[{
+      RowBox[{
+      "emotionsPageImageList", "\[LeftDoubleBracket]", "34", 
+       "\[RightDoubleBracket]"}], "\[Rule]", "\"\<Photo\>\""}]}], "}"}], 
+   "]"}]}]], "Input",
+ CellChangeTimes->{{3.643652836501615*^9, 3.643652867357986*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Image classification, Part 4: Testing", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.656602620681364*^9, 3.656602629359317*^9}}],
+
+Cell["\<\
+Now we test our image classifier on the images that we did not use to train \
+it.\
+\>", "Text",
+ CellChangeTimes->{{3.6566790067168922`*^9, 3.656679023995845*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"emotionsSortTestingSet", "=", 
+   RowBox[{"Complement", "[", 
+    RowBox[{"emotionsPageImageList", ",", "emotionsSortTrainingSet"}], 
+    "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.643652874132003*^9, 3.643652885850803*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"emotionsDemoImageSorting", "[", "eximglist_", "]"}], ":=", 
+  "\[IndentingNewLine]", 
+  RowBox[{"Module", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"returnlist", "=", 
+      RowBox[{"{", "}"}]}], "}"}], ",", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"Do", "[", 
+      RowBox[{
+       RowBox[{"returnlist", "=", 
+        RowBox[{"Append", "[", 
+         RowBox[{"returnlist", ",", 
+          RowBox[{"{", 
+           RowBox[{"i", ",", 
+            RowBox[{"emotionsImageSortingClassifier", "[", "i", "]"}]}], 
+           "}"}]}], "]"}]}], ",", "\[IndentingNewLine]", 
+       RowBox[{"{", 
+        RowBox[{"i", ",", "eximglist"}], "}"}]}], "]"}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"Return", "[", "returnlist", "]"}]}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.64365289509136*^9, 3.643652919210771*^9}}],
+
+Cell[BoxData[
+ RowBox[{"TableForm", "[", 
+  RowBox[{
+   RowBox[{"Partition", "[", 
+    RowBox[{
+     RowBox[{"emotionsDemoImageSorting", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"ImageResize", "[", 
+         RowBox[{"#", ",", "90"}], "]"}], "&"}], "/@", 
+       "emotionsSortTestingSet"}], "]"}], ",", "5", ",", "5", ",", "1", ",", 
+     RowBox[{"{", "}"}]}], "]"}], ",", 
+   RowBox[{"TableSpacing", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"5", ",", "2"}], "}"}]}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6436529258045263`*^9, 3.6436529317695303`*^9}, {
+   3.643652979352697*^9, 3.643653026806016*^9}, {3.643653109098918*^9, 
+   3.643653142497962*^9}, {3.643653205433387*^9, 3.643653233215887*^9}, 
+   3.643653268086918*^9}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Automatically identifying images", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.65667908896164*^9, 3.656679094593256*^9}}],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["ImageIdentify",
+  FontWeight->"Bold"],
+ " command submits the image to a system that has been trained on millions of \
+labelled images"
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.656679138632361*^9, 3.656679150319235*^9}, {3.6566792511795263`*^9, 
+  3.6566793042974854`*^9}}],
+
+Cell[TextData[ButtonBox["https://www.imageidentify.com",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.imageidentify.com"], None},
+ ButtonNote->"https://www.imageidentify.com"]], "Text",
+ CellChangeTimes->{{3.656679351018762*^9, 3.656679357297799*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"Show", "[", 
+    RowBox[{
+     RowBox[{
+     "emotionsSortTestingSet", "\[LeftDoubleBracket]", "1", 
+      "\[RightDoubleBracket]"}], ",", 
+     RowBox[{"ImageSize", "\[Rule]", "Tiny"}]}], "]"}], ",", 
+   RowBox[{"ImageIdentify", "[", 
+    RowBox[{
+    "emotionsSortTestingSet", "\[LeftDoubleBracket]", "1", 
+     "\[RightDoubleBracket]"}], "]"}]}], "}"}]], "Input",
+ CellChangeTimes->{{3.6436533179844933`*^9, 3.643653343172389*^9}, {
+  3.643653409089368*^9, 3.643653447945322*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"Show", "[", 
+    RowBox[{
+     RowBox[{
+     "emotionsSortTestingSet", "\[LeftDoubleBracket]", "2", 
+      "\[RightDoubleBracket]"}], ",", 
+     RowBox[{"ImageSize", "\[Rule]", "Tiny"}]}], "]"}], ",", 
+   RowBox[{"ImageIdentify", "[", 
+    RowBox[{
+    "emotionsSortTestingSet", "\[LeftDoubleBracket]", "2", 
+     "\[RightDoubleBracket]"}], "]"}]}], "}"}]], "Input",
+ CellChangeTimes->{{3.6436533179844933`*^9, 3.643653343172389*^9}, {
+  3.643653409089368*^9, 3.643653468286481*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"Show", "[", 
+    RowBox[{
+     RowBox[{
+     "emotionsSortTestingSet", "\[LeftDoubleBracket]", "8", 
+      "\[RightDoubleBracket]"}], ",", 
+     RowBox[{"ImageSize", "\[Rule]", "Tiny"}]}], "]"}], ",", 
+   RowBox[{"ImageIdentify", "[", 
+    RowBox[{
+    "emotionsSortTestingSet", "\[LeftDoubleBracket]", "8", 
+     "\[RightDoubleBracket]"}], "]"}]}], "}"}]], "Input",
+ CellChangeTimes->{{3.6436533179844933`*^9, 3.643653343172389*^9}, {
+  3.643653409089368*^9, 3.643653447945322*^9}, {3.643653487614409*^9, 
+  3.643653490469479*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"Show", "[", 
+    RowBox[{
+     RowBox[{
+     "emotionsSortTestingSet", "\[LeftDoubleBracket]", "9", 
+      "\[RightDoubleBracket]"}], ",", 
+     RowBox[{"ImageSize", "\[Rule]", "Tiny"}]}], "]"}], ",", 
+   RowBox[{"ImageIdentify", "[", 
+    RowBox[{
+    "emotionsSortTestingSet", "\[LeftDoubleBracket]", "9", 
+     "\[RightDoubleBracket]"}], "]"}]}], "}"}]], "Input",
+ CellChangeTimes->{{3.6436533179844933`*^9, 3.643653343172389*^9}, {
+  3.643653409089368*^9, 3.643653447945322*^9}, {3.643653487614409*^9, 
+  3.643653490469479*^9}, {3.643653655464696*^9, 3.6436536570314407`*^9}}],
+
+Cell[TextData[{
+ "This is what ",
+ StyleBox["ImageIdentify",
+  FontWeight->"Bold"],
+ " thinks that is..."
+}], "Text",
+ CellChangeTimes->{{3.643653621600986*^9, 3.643653630592256*^9}}],
+
+Cell[BoxData[
+ RowBox[{"newfoundlandDog", "=", 
+  NamespaceBox["LinguisticAssistant",
+   DynamicModuleBox[{Typeset`query$$ = "picture of newfoundland dog", 
+    Typeset`boxes$$ = RowBox[{
+      TemplateBox[{"\"Newfoundland\"", 
+        RowBox[{"Entity", "[", 
+          RowBox[{"\"DogBreed\"", ",", "\"Newfoundland\""}], "]"}], 
+        "\"Entity[\\\"DogBreed\\\", \\\"Newfoundland\\\"]\"", 
+        "\"dog breed\""}, "Entity"], "[", 
+      TemplateBox[{"\"image\"", 
+        RowBox[{"EntityProperty", "[", 
+          RowBox[{"\"DogBreed\"", ",", "\"Image\""}], "]"}], 
+        "\"EntityProperty[\\\"DogBreed\\\", \\\"Image\\\"]\""}, 
+       "EntityProperty"], "]"}], Typeset`allassumptions$$ = {}, 
+    Typeset`assumptions$$ = {}, Typeset`open$$ = {1, 2}, 
+    Typeset`querystate$$ = {
+    "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+     1.61088`6.658608183028223, "Messages" -> {}}}, 
+    DynamicBox[ToBoxes[
+      AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+       Dynamic[Typeset`query$$], 
+       Dynamic[Typeset`boxes$$], 
+       Dynamic[Typeset`allassumptions$$], 
+       Dynamic[Typeset`assumptions$$], 
+       Dynamic[Typeset`open$$], 
+       Dynamic[Typeset`querystate$$]], StandardForm],
+     ImageSizeCache->{363., {13., 22.}},
+     TrackedSymbols:>{
+      Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+       Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+    DynamicModuleValues:>{},
+    UndoTrackedVariables:>{Typeset`open$$}],
+   BaseStyle->{"Deploy"},
+   DeleteWithContents->True,
+   Editable->False,
+   SelectWithContents->True]}]], "Input",
+ CellChangeTimes->{{3.643653551356104*^9, 3.643653613136269*^9}, {
+  3.6566791864869213`*^9, 3.656679190032886*^9}, {3.6566795036512547`*^9, 
+  3.656679506084499*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"Show", "[", 
+    RowBox[{
+     RowBox[{
+     "emotionsSortTestingSet", "\[LeftDoubleBracket]", "12", 
+      "\[RightDoubleBracket]"}], ",", 
+     RowBox[{"ImageSize", "\[Rule]", "Tiny"}]}], "]"}], ",", 
+   RowBox[{"ImageIdentify", "[", 
+    RowBox[{
+    "emotionsSortTestingSet", "\[LeftDoubleBracket]", "12", 
+     "\[RightDoubleBracket]"}], "]"}]}], "}"}]], "Input",
+ CellChangeTimes->{{3.6436533179844933`*^9, 3.643653343172389*^9}, {
+  3.643653409089368*^9, 3.643653447945322*^9}, {3.643653487614409*^9, 
+  3.643653490469479*^9}, {3.6436536791278563`*^9, 3.643653681327032*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Removing backgrounds", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.656679394185049*^9, 3.656679397126235*^9}}],
+
+Cell[TextData[{
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " uses computer vision for a variety of other tasks. One of these is the ",
+ StyleBox["RemoveBackground",
+  FontWeight->"Bold"],
+ " command"
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.656679401278715*^9, 3.656679436300734*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"ExampleData", "[", 
+    RowBox[{"{", 
+     RowBox[{"\"\<TestImage\>\"", ",", "\"\<House\>\""}], "}"}], "]"}], ",", 
+   RowBox[{"RemoveBackground", "[", 
+    RowBox[{"ExampleData", "[", 
+     RowBox[{"{", 
+      RowBox[{"\"\<TestImage\>\"", ",", "\"\<House\>\""}], "}"}], "]"}], 
+    "]"}]}], "}"}]], "Input",
+ CellChangeTimes->{{3.656679586986395*^9, 3.656679721609219*^9}, {
+  3.656679860918507*^9, 3.6566798662450666`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"ExampleData", "[", 
+    RowBox[{"{", 
+     RowBox[{"\"\<TestImage\>\"", ",", "\"\<Splash\>\""}], "}"}], "]"}], ",", 
+   
+   RowBox[{"RemoveBackground", "[", 
+    RowBox[{
+     RowBox[{"ExampleData", "[", 
+      RowBox[{"{", 
+       RowBox[{"\"\<TestImage\>\"", ",", "\"\<Splash\>\""}], "}"}], "]"}], 
+     ",", 
+     RowBox[{"{", 
+      RowBox[{"\"\<Background\>\"", ",", "\"\<Dark\>\""}], "}"}]}], "]"}]}], 
+  "}"}]], "Input",
+ CellChangeTimes->{{3.656679586986395*^9, 3.656679721609219*^9}, {
+  3.656679860918507*^9, 3.6566798662450666`*^9}, {3.656679906300446*^9, 
+  3.656679959809819*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+
+Cell[CellGroupData[{
+
+Cell["Colorization", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.656681255289898*^9, 3.6566812567135763`*^9}}],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["Colorize",
+  FontWeight->"Bold"],
+ " command renders each intensity level in a grayscale image with a different \
+color"
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+   3.656681402453061*^9, 3.6566814562982397`*^9}, {3.656681754704762*^9, 
+   3.6566817585351543`*^9}, 3.687369110853932*^9}],
+
+Cell[BoxData[
+ RowBox[{"Grid", "[", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"ExampleData", "[", 
+       RowBox[{"{", 
+        RowBox[{"\"\<TestImage\>\"", ",", "\"\<ChemicalPlant\>\""}], "}"}], 
+       "]"}], ",", 
+      RowBox[{"Colorize", "[", 
+       RowBox[{"ExampleData", "[", 
+        RowBox[{"{", 
+         RowBox[{"\"\<TestImage\>\"", ",", "\"\<ChemicalPlant\>\""}], "}"}], 
+        "]"}], "]"}]}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"ExampleData", "[", 
+       RowBox[{"{", 
+        RowBox[{"\"\<TestImage\>\"", ",", "\"\<Airplane2\>\""}], "}"}], "]"}],
+       ",", 
+      RowBox[{"Colorize", "[", 
+       RowBox[{"ExampleData", "[", 
+        RowBox[{"{", 
+         RowBox[{"\"\<TestImage\>\"", ",", "\"\<Airplane2\>\""}], "}"}], 
+        "]"}], "]"}]}], "}"}]}], "}"}], "]"}]], "Input",
+ CellChangeTimes->{{3.656681217067601*^9, 3.6566812448990297`*^9}, {
+  3.656681275346188*^9, 3.656681391597336*^9}}]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1422, 1107},
+WindowMargins->{{538, Automatic}, {Automatic, 9}},
+TaggingRules->{"SlideShow" -> True},
+Magnification:>1.25 Inherited,
+FrontEndVersion->"11.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (July 28, \
+2016)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "SlideShowHeader"->{
+  Cell[580, 22, 4383, 98, 75, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[5780, 147, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[6450, 168, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[8289, 224, 64, 1, 74, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[11283, 312, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[12822, 359, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[16730, 478, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[18217, 523, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[23213, 664, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[25580, 736, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[31420, 899, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"],
+  Cell[33180, 957, 64, 1, 92, "SlideShowNavigationBar",
+   CellTags->"SlideShowHeader"]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"SlideShowHeader", 35168, 1021}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 4383, 98, 75, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[4966, 122, 431, 9, 183, "Title"],
+Cell[5400, 133, 343, 9, 99, "Subtitle"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5780, 147, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[5869, 152, 95, 1, 80, "Section"],
+Cell[5967, 155, 434, 7, 61, "Text"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6450, 168, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[6539, 173, 143, 2, 80, "Section"],
+Cell[6685, 177, 252, 4, 57, "Text"],
+Cell[6940, 183, 167, 3, 39, "Input"],
+Cell[7110, 188, 248, 6, 37, "Text"],
+Cell[7361, 196, 535, 12, 92, "Input"],
+Cell[7899, 210, 153, 3, 37, "Text"],
+Cell[8055, 215, 185, 3, 39, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[8289, 224, 64, 1, 74, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[8378, 229, 200, 3, 80, "Section"],
+Cell[8581, 234, 337, 7, 46, "Text"],
+Cell[8921, 243, 348, 7, 46, "Text"],
+Cell[9272, 252, 200, 2, 46, "Text"],
+Cell[9475, 256, 755, 20, 212, "Input"],
+Cell[10233, 278, 217, 4, 48, "Input"],
+Cell[10453, 284, 219, 6, 46, "Text"],
+Cell[10675, 292, 559, 14, 82, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[11283, 312, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[11372, 317, 171, 2, 100, "Section"],
+Cell[11546, 321, 405, 11, 46, "Text"],
+Cell[11954, 334, 453, 10, 82, "Input"],
+Cell[12410, 346, 363, 7, 48, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[12822, 359, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[12911, 364, 177, 2, 100, "Section"],
+Cell[13091, 368, 315, 8, 76, "Text"],
+Cell[13409, 378, 147, 2, 46, "Text"],
+Cell[13559, 382, 351, 9, 48, "Input"],
+Cell[13913, 393, 302, 7, 115, "Input"],
+Cell[14218, 402, 676, 19, 115, "Input"],
+Cell[14897, 423, 881, 23, 115, "Input"],
+Cell[15781, 448, 900, 24, 180, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[16730, 478, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[16819, 483, 177, 2, 100, "Section"],
+Cell[16999, 487, 388, 8, 46, "Text"],
+Cell[17390, 497, 620, 16, 82, "Input"],
+Cell[18013, 515, 155, 2, 48, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[18217, 523, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[18306, 528, 178, 2, 100, "Section"],
+Cell[18487, 532, 276, 5, 46, "Text"],
+Cell[18766, 539, 1549, 41, 147, "Input"],
+Cell[20318, 582, 295, 8, 48, "Input"],
+Cell[20616, 592, 392, 10, 46, "Text"],
+Cell[21011, 604, 2153, 54, 180, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[23213, 664, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[23302, 669, 173, 2, 100, "Section"],
+Cell[23478, 673, 173, 4, 46, "Text"],
+Cell[23654, 679, 264, 6, 48, "Input"],
+Cell[23921, 687, 866, 23, 180, "Input"],
+Cell[24790, 712, 741, 18, 82, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[25580, 736, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[25669, 741, 167, 2, 100, "Section"],
+Cell[25839, 745, 353, 9, 46, "Text"],
+Cell[26195, 756, 266, 5, 46, "Text"],
+Cell[26464, 763, 535, 14, 48, "Input"],
+Cell[27002, 779, 535, 14, 48, "Input"],
+Cell[27540, 795, 584, 15, 48, "Input"],
+Cell[28127, 812, 632, 15, 48, "Input"],
+Cell[28762, 829, 183, 6, 46, "Text"],
+Cell[28948, 837, 1786, 39, 68, "Input"],
+Cell[30737, 878, 634, 15, 48, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[31420, 899, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[31509, 904, 156, 2, 100, "Section"],
+Cell[31668, 908, 335, 9, 46, "Text"],
+Cell[32006, 919, 477, 12, 48, "Input"],
+Cell[32486, 933, 645, 18, 48, "Input"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[33180, 957, 64, 1, 92, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[33269, 962, 150, 2, 100, "Section"],
+Cell[33422, 966, 362, 9, 46, "Text"],
+Cell[33787, 977, 972, 27, 82, "Input"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
