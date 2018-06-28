@@ -1,0 +1,1913 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     79875,       1905]
+NotebookOptionsPosition[     64749,       1664]
+NotebookOutlinePosition[     66984,       1710]
+CellTagsIndexPosition[     66905,       1705]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ TogglerBox[2, {1->
+  OverlayBox[{
+   TagBox[GridBox[{
+      {
+       GraphicsBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBAkBOaF5xZnpeaopnXklqemqRRRIz
+UFAKiEGSLED8//9/gvjRo0fsN27cELp69arY+fPnpZExPn137tzhBqrRBGJ/
+ID4CxMfRMTZ9L168YL5w4YIaUD4AiC8C8Qcg/gvE/9AxFreC7PQD4gtA/BGq
+7j8ujKz3+fPnLFC9b6H24dSHTf/FixfVofYSpRdZPzSsAqBuJkovsn5oOF8k
+5F9s+h88eMBBjt0w/devXxcGso+S4m9k/ZcuXRKHpgeS3A7TD0wrkpToPw9J
+ywOmn1L3Uxp+lMYfpemH0vRLjfwDjQey8y9a+fGOWDPwlF+gsPhEKDywlZ8g
+d0D9EniexPITGd++fZv3PBnlN6764zxa3QHCAIDESDs=
+         "], {{0, 26}, {16, 
+         0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{16, 26},
+        PlotRange->{{0, 16}, {0, 26}}], 
+       GraphicsBox[RasterBox[CompressedData["
+1:eJzt2V1vVFUUBuBGTfTSSygthYYKNHyVinrrpbcYfwBEJN5gUkyMfw9KKaVw
+KCkQKCW1RNIQKg1gEE3QtdN10pMRZCaBzNQ+kzxt5nzstfeZfbPOu/vkD8e/
+e6+vr+/sR/Hn+ImfvpyYOPHz1x/Hl2/OnP3+9JlT33515sdTp09NfHHy/TjY
+H6592Nf3QfyvqmpHBwbCYNr5GoMNAw2d1AEAADa3/obtLba1aJ7rb4xR9x1D
+YVfYHYbDnjASPgn7wv4wGg6Eg+FQOByOhLEwnj4Nx8Jn6fM21dcfyzHq8cay
+xuGseTDnMJpz2pdzHMk5D+caduWa6v6p+czafU71s6p1+/cGAADYqt52/9va
+++6tXt331j3v0TTeoj5e966v6lv3Vv/uWfWr9LJm9tzMpN+UW3eaVV9s00yY
+CzfC7bAQFhvuhjt57maYD9er9c+VcDlcCtMd1AQAADafqXQhTabz6VyL+vhk
+Xl/uLX1D6UFmw9VwrVrvL0o/cqta7ztKD3Iv/BLuh1/DSngYHoXfwlp4Ep6F
+38Pz8Ed4Ef5Mf71Gff5F3vM8x3iWY65ljUdZcyXncD/ndC/neDvnfCPXcC3X
+NJtrnG48r3afU/2s6uc11QO/OwAAwFbzLvrfksWVjK30kSV3KxncUlgOD6qN
+vnc1PK42+t7iaaq/r+U1q9VG3/ogx1rKse9krfmsrV+l15R9WDLmkjWXzLl8
+yvuVsmdLJl3eu5R9XN7BNLPrhTxX3seUvT3TQc2Xbfr7LWq3JgAAwH95m33K
+u9Dt5wMAAMDmp2dlK+vGnu/2+yQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYPN42aZu
+1AQAAAAAAICtrNsZIXRTN/b8xTbNhLlwI9wOC2Gx4W64k+duhvlwvVr/XAmX
+w6Uw3UFNAAAAAAAA6EVT6UKaTOfTuRb18cm8vtxbcrOSwc2Gq9V6FlcytlvV
+eu5WMrilsBwehJXwMKyGx2EtPElPU/19La9ZzXtWcozlHHMxa9zKmnM5h9mc
+03Rjfe2uq15bvb6pHvid2NzKPiwZc8maS+ZcPiWDLnu2ZNIlmy77uGTVzex6
+Ic+VbLvs7ZkOau7owEAYTDtfY7BhoKGTOgAAAAAAANDr+hu2t9jWonmuvzFG
+nbsNhd1hOOwJI2Fv2B9Gw4FwMBwKR8JYOJrGW9THx/LaQ3nvgRxrf449krWG
+s/ZQtZH3NdfY7rrqtdW6/fvw/9LMnpuZ9Jty646y6n8AhCP7tg==
+         "], {{0, 26}, {
+         2000, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{2000, 26},
+        PlotRange->{{0, 2000}, {0, 26}}], 
+       GraphicsBox[RasterBox[CompressedData["
+1:eJy9lktLQkEUxyVdCBIELaxctYq+QduWbcKMPoCSRRsDC6JPp+Lj4vuq+EBc
+iBtFfIYrpU7nPzQiN++9vmrgp/dx5j8z55w5c099z56HPYvF8mLnH4/37TIY
+9L7fHvDNXeDl6THgv78KvPof/cELn5UfnjBHjI3J5/OudVBV9bhUKjmbzaad
+iCxmcB9lAxKMmzmv1+v7JvpfG/DJjJkic8NrOut0OlYdfdoCjPXBqMx1q9Vy
+7FhfgvX0MUa73bYZ6edyuTnrvPsZQ4Wv9PTRL5vNroTOGIiJu9FoOLT6UjuT
+yVAqlaJkMin+0+m0YPEZbHTGQDwKyKtl+ugHjdFoRIVCgeLxOCUSCQGua7Ua
+9Xo9YQNbozXI/aHVZ//RcDik2WxG5XKZwuGwANdo0JfrNIhDvFqtHi7zD+YW
+i8VoMBgIvWKxKEDrdrtiHbAxiAF8pHAf5zJ9+Bca0WiUxuMxydbv98U64CvY
+wNZgTyioI9r8QR/EEvrQUhRlrh8Kheb6sDHTZ1xG84ePMP/pdPpr/tvoL/of
+Mcb9Jv7X+mcxP2X+QCMSiYh5VyoVMQbXMbP81I2vzM/JZCLyX+a+BPmPvbFN
+fmr36pr713B/rVp7THy/tD6Y1cjF5zrahvVtB5jW5y21B/kVzpc1kecjfK53
+Pu7kfNfO+x+/T/70++ob7NUEtQ==
+         "], {{0, 26}, {24, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{24, 26},
+        PlotRange->{{0, 24}, {0, 26}}]}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {Automatic, 
+         Scaled[0.6], Automatic}},
+     GridBoxSpacings->{"Columns" -> {{0}}, "Rows" -> {{0}}}],
+    "Grid"], 
+   PaneBox[
+    StyleBox[
+     RowBox[{
+     "Background", " ", "images", " ", "and", " ", "text", " ", "colors", " ",
+       "have", " ", "been", " ", "adjusted", " ", "for", " ", "editing", " ", 
+      
+      RowBox[{"purposes", "."}]}],
+     LineBreakWithin->False,
+     FontFamily->"Helvetica",
+     FontSize->12,
+     FontColor->GrayLevel[0.4]],
+    Alignment->Center,
+    ImageSize->Scaled[0.5],
+    ScrollPosition->{0., 0.}]},
+   Alignment->{Center, Center}], 2->""}, "1"]], "SlideShowNavigationBar", \
+"FirstSlide",
+ CellMargins->{{0, 0}, {0, 0}},
+ CellFrameLabelMargins->2,
+ CellSize->{Inherited, 30},
+ CellChangeTimes->{3.647361175465108*^9},
+ TextAlignment->Center,
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"e8a3887c-5ec8-4e8b-9b0f-72b5c8d1580a"],
+
+Cell["\<\
+Digital Research Methods 10A:
+Page Images and OCR\
+\>", "Title",
+ CellChangeTimes->{
+  3.559948400406288*^9, {3.647331852839075*^9, 3.647331861295168*^9}, {
+   3.647331922221755*^9, 3.647331924532915*^9}, {3.647332658962614*^9, 
+   3.64733266480881*^9}, {3.6473611327373047`*^9, 3.647361139759391*^9}, {
+   3.647448943135475*^9, 3.6474489472294493`*^9}, {3.6551910978973627`*^9, 
+   3.655191105399598*^9}},ExpressionUUID->"1f250691-78df-4397-a41f-\
+cd62011b6c00"],
+
+Cell[TextData[{
+ "William J Turkel, ",
+ StyleBox["wturkel@uwo.ca",
+  FontSlant->"Italic",
+  FontColor->RGBColor[
+   0.396078431372549, 0.596078431372549, 0.796078431372549]],
+ "\nHistory 2816 / Digital Humanities 2130 / History 9877"
+}], "Subtitle",
+ CellChangeTimes->{{3.647331955723979*^9, 3.6473319708190517`*^9}, 
+   3.647332103720562*^9},ExpressionUUID->"973f3d61-1444-4b0b-b679-\
+91b9d97e2a8c"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"d634deb1-272c-40ce-a9c6-4a9062c7884b"],
+
+Cell[CellGroupData[{
+
+Cell["Overview", "Section",
+ CellChangeTimes->{{3.647361153919208*^9, 
+  3.6473611548467712`*^9}},ExpressionUUID->"0b7ad3a2-a385-4675-b2c5-\
+c83431503f53"],
+
+Cell[TextData[{
+ "The digital research techniques that we have learned up to this point \
+mostly rely on having access to machine-readable text. In addition to \
+human-readable formats like raw text, HTML and XML, machine-readable text can \
+also be stored in thousands of different file formats like Adobe\
+\[CloseCurlyQuote]s Portable Document Format (PDF), Microsoft ",
+ StyleBox["Word",
+  FontSlant->"Italic"],
+ " documents or ",
+ StyleBox["Excel",
+  FontSlant->"Italic"],
+ " spreadsheets, and so on. ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " can import many of these formats natively."
+}], "Text",
+ CellChangeTimes->{{3.647361157582405*^9, 3.647361159086673*^9}, {
+  3.655191725990726*^9, 3.655191738761341*^9}, {3.655191862013156*^9, 
+  3.65519186405156*^9}},ExpressionUUID->"c97b04ce-b8ae-4b32-b6ad-\
+493561d6927e"],
+
+Cell[TextData[{
+ "It is also possible for text to be stored in the form of a digital picture, \
+a ",
+ StyleBox["page image",
+  FontSlant->"Italic"],
+ ", that was created by scanning or photographing a physical page. If the \
+text on these page images was printed or typed, it can often be converted to \
+machine-readable text by a process known as Optical Character Recognition \
+(OCR). At present, handwritten text cannot be easily extracted from page \
+images, although that may change in the near future."
+}], "Text",
+ CellChangeTimes->{{3.647361157582405*^9, 3.647361159086673*^9}, {
+  3.655191725990726*^9, 
+  3.655191738761341*^9}},ExpressionUUID->"c6f16206-17e5-4575-b037-\
+1d50d89d8f96"],
+
+Cell["\<\
+People who do archival research now typically return from the archives with \
+(tens of) thousands of digital images of documents. Managing these \
+effectively is an important part of digital research. Rather than scan paper \
+documents, we will download some page images to work with, but the basic \
+principles are the same.\
+\>", "Text",
+ CellChangeTimes->{
+  3.655193254213283*^9},ExpressionUUID->"5b5cc6ee-9ded-45af-b986-\
+971618d8a63c"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"446889c5-ce1c-4170-af20-1a3f977353a6"],
+
+Cell[CellGroupData[{
+
+Cell["Setup", "Section",
+ CellChangeTimes->{{3.647716369451888*^9, 3.647716370003084*^9}, {
+   3.647798474690284*^9, 3.6477984752570744`*^9}, {3.735488404488043*^9, 
+   3.735488406023899*^9}, 
+   3.735489196052189*^9},ExpressionUUID->"552241f6-1de8-46de-b31d-\
+3db6768a1d10"],
+
+Cell[TextData[StyleBox["Make sure to change the following so that it is a \
+valid file path on your own computer",
+ FontSlant->"Italic"]], "Text",
+ CellChangeTimes->{{3.6528996132446327`*^9, 3.652899662803152*^9}},
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"f8f59a59-362b-485f-8bdc-9a2dc9692176"],
+
+Cell[BoxData[
+ RowBox[{"localDownloadFilePath", "=", 
+  "\"\</Users/wjt/Downloads/\>\""}]], "Input",
+ CellChangeTimes->{{3.65289958930519*^9, 3.6528996279964657`*^9}},
+ CellLabel->"In[13]:=",ExpressionUUID->"af5ac1d0-e921-4c9b-bff7-8d538e98891a"],
+
+Cell[CellGroupData[{
+
+Cell["Functions", "Subsection",
+ CellChangeTimes->{{3.6552300996058197`*^9, 
+  3.655230100965486*^9}},ExpressionUUID->"17a84da3-98e3-4f81-80ea-\
+28d265967b8c"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"viewData", "[", "x_", "]"}], ":=", "\[IndentingNewLine]", 
+  RowBox[{"Framed", "[", 
+   RowBox[{"Pane", "[", 
+    RowBox[{"x", ",", 
+     RowBox[{"{", 
+      RowBox[{"Automatic", ",", "200"}], "}"}], ",", 
+     RowBox[{"Scrollbars", "\[Rule]", "True"}]}], "]"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.511539182255096*^9, 3.51153920239167*^9}},
+ CellLabel->"In[14]:=",ExpressionUUID->"e9b4acf8-65cb-4e91-850d-98bd668dc7ac"],
+
+Cell["\<\
+Given a base URL, an identifier, the path to a download directory, and a file \
+extension, this function downloads the file from the Internet Archive\
+\>", "Text",
+ CellChangeTimes->{{3.655230110221574*^9, 3.655230154443007*^9}, {
+  3.655233643659685*^9, 3.655233653618187*^9}, {3.7354881223471518`*^9, 
+  3.73548812680208*^9}},ExpressionUUID->"b20fcd9e-e3ce-4472-8628-\
+d02c7d5ab022"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"downloadIAFile", "[", 
+   RowBox[{"idstr_", ",", "dirstr_", ",", "ext_"}], "]"}], ":=", 
+  "\[IndentingNewLine]", 
+  RowBox[{"Module", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"baseurl", ",", "target", ",", "fname"}], "}"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"Pause", "[", "2", "]"}], ";", "\[IndentingNewLine]", 
+     RowBox[{"baseurl", "=", "\"\<https://archive.org/download/\>\""}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"target", "=", 
+      RowBox[{"FileNameJoin", "[", 
+       RowBox[{"{", 
+        RowBox[{"dirstr", ",", 
+         RowBox[{"idstr", "<>", "ext"}]}], "}"}], "]"}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"If", "[", 
+      RowBox[{
+       RowBox[{"FileExistsQ", "[", "target", "]"}], ",", 
+       "\[IndentingNewLine]", 
+       RowBox[{"PrintTemporary", "[", 
+        RowBox[{
+        "\"\<File \>\"", "<>", "target", "<>", 
+         "\"\< was already downloaded\>\""}], "]"}], ",", 
+       "\[IndentingNewLine]", 
+       RowBox[{
+        RowBox[{"PrintTemporary", "[", 
+         RowBox[{"\"\<Downloading \>\"", "<>", "target"}], "]"}], ";", 
+        "\[IndentingNewLine]", 
+        RowBox[{"fname", "=", "\[IndentingNewLine]", 
+         RowBox[{"Select", "[", 
+          RowBox[{
+           RowBox[{"StringCases", "[", 
+            RowBox[{
+             RowBox[{"URLFetch", "[", 
+              RowBox[{
+               RowBox[{"baseurl", "<>", "idstr"}], ",", "\"\<Content\>\""}], 
+              "]"}], ",", 
+             RowBox[{
+              RowBox[{"Shortest", "[", 
+               RowBox[{
+               "\"\<href=\\\"\>\"", "~~", "x__", "~~", "\"\<\\\"\>\""}], 
+               "]"}], "\[Rule]", "x"}]}], "]"}], ",", 
+           RowBox[{
+            RowBox[{"StringContainsQ", "[", 
+             RowBox[{"#", ",", "ext"}], "]"}], "&"}]}], "]"}]}], ";", 
+        "\[IndentingNewLine]", 
+        RowBox[{"If", "[", 
+         RowBox[{
+          RowBox[{"fname", "\[NotEqual]", 
+           RowBox[{"{", "}"}]}], ",", "\[IndentingNewLine]", 
+          RowBox[{"URLSave", "[", 
+           RowBox[{
+            RowBox[{"baseurl", "<>", "idstr", "<>", "\"\</\>\"", "<>", 
+             RowBox[{"First", "@", "fname"}]}], ",", "target"}], "]"}], ",", 
+          "\[IndentingNewLine]", 
+          RowBox[{"PrintTemporary", "[", 
+           RowBox[{"\"\<No text file for \>\"", "<>", "target"}], "]"}]}], 
+         "]"}]}]}], "]"}]}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.643304040419911*^9, 3.6433041061418533`*^9}, {
+   3.64330483976549*^9, 3.6433050345844717`*^9}, {3.643305069023876*^9, 
+   3.643305072404985*^9}, {3.643813189972381*^9, 3.6438132248354387`*^9}, {
+   3.6451200422364473`*^9, 3.645120045660598*^9}, 3.645120086747076*^9, {
+   3.6451204805414333`*^9, 3.6451205829941072`*^9}, {3.645121004700139*^9, 
+   3.645121044698612*^9}, 3.64512130366669*^9, {3.645122076704507*^9, 
+   3.6451220781197777`*^9}, {3.645124570911981*^9, 3.645124620817313*^9}, {
+   3.6451246648728437`*^9, 3.645124688143436*^9}, 3.645125171862575*^9, {
+   3.645715723903986*^9, 3.645715742485321*^9}},
+ CellLabel->"In[15]:=",ExpressionUUID->"2b5e437e-e1eb-42d4-a02c-5d1a07ba9da7"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"cee76c6b-697c-4f6e-a2a3-f5fc6f746f66"],
+
+Cell[CellGroupData[{
+
+Cell["Document file formats", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.655191751207501*^9, 
+  3.6551917596236467`*^9}},ExpressionUUID->"785c2b4b-9856-4de4-83e6-\
+9522ff1ad386"],
+
+Cell[TextData[{
+ "You can use the ",
+ StyleBox["Import",
+  FontWeight->"Bold"],
+ " command to load machine-readable information into ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " from many different file formats. Here are a handful of examples."
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.6551917664390574`*^9, 3.6551918044780684`*^9}, {3.6551918938512*^9, 
+  3.655191901658506*^9}, {3.655192036533019*^9, 
+  3.6551920401654673`*^9}},ExpressionUUID->"03c79b76-6c1a-4fb7-83a7-\
+451a6f762903"],
+
+Cell[CellGroupData[{
+
+Cell["Microsoft Word Documents (save as RTF)", "Subsubsection",
+ CellChangeTimes->{{3.655192527851766*^9, 
+  3.6551925605624247`*^9}},ExpressionUUID->"70a2d30e-5e72-4837-a296-\
+bae4e36c45dc"],
+
+Cell["\<\
+If you have access to the document in Word, it is easiest to save it as a \
+plain text file and import that. If not, you can import Microsoft\
+\[CloseCurlyQuote]s Rich Text Format (RTF) files\
+\>", "Text",
+ CellChangeTimes->{{3.655192679110251*^9, 
+  3.655192727372385*^9}},ExpressionUUID->"43ca8bd5-ea8c-494b-9390-\
+ca8d846a6c3e"],
+
+Cell[BoxData[
+ RowBox[{"Import", "[", 
+  RowBox[{"\"\<ExampleData/sample.rtf\>\"", ",", "\"\<Elements\>\""}], 
+  "]"}]], "Input",
+ CellLabel->"In[1]:=",
+ CellID->1922689863,ExpressionUUID->"cfd962cd-0458-4ef9-b26f-4a2af1bc621e"],
+
+Cell["Open as a notebook", "Text",
+ CellChangeTimes->{{3.655192768467082*^9, 
+  3.6551927710985727`*^9}},ExpressionUUID->"be65fd41-b2fd-4735-a97a-\
+852764bce69d"],
+
+Cell[BoxData[
+ RowBox[{"Import", "[", 
+  RowBox[{"\"\<ExampleData/sample.rtf\>\"", ",", "\"\<NotebookObject\>\""}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.6551926537429256`*^9, 3.65519265859905*^9}},
+ CellLabel->"In[2]:=",
+ CellID->910738447,ExpressionUUID->"b4b238b9-d6d0-408b-927a-5f6b54ede8cc"],
+
+Cell["Return with notebook formatting", "Text",
+ CellChangeTimes->{{3.655192773106168*^9, 
+  3.655192777595346*^9}},ExpressionUUID->"2f1cbfa6-37d6-4a88-b466-\
+5ef1a3feb14d"],
+
+Cell[BoxData[
+ RowBox[{"Import", "[", 
+  RowBox[{"\"\<ExampleData/sample.rtf\>\"", ",", "\"\<Notebook\>\""}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.6551926537429256`*^9, 3.65519265859905*^9}, 
+   3.655192758347808*^9},
+ CellLabel->"In[3]:=",
+ CellID->282594733,ExpressionUUID->"4be60e51-1e5a-44a4-b7df-5fa6d9597b05"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Microsoft Excel Spreadsheets", "Subsubsection",
+ CellChangeTimes->{{3.6551919563446617`*^9, 
+  3.6551919693120947`*^9}},ExpressionUUID->"de43bad7-7600-4e01-8136-\
+b2ad2a608e50"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"Import", "[", "\"\<ExampleData/elements.xls\>\"", "]"}], " ", 
+   "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}], "//", " ", 
+  "TableForm"}]], "Input",
+ CellChangeTimes->{{3.6551920649416113`*^9, 3.6551920670448017`*^9}},
+ CellLabel->"In[4]:=",
+ CellID->1194929201,ExpressionUUID->"6fe37fe7-b992-43fd-aeb2-ee029386d12f"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"Import", "[", "\"\<ExampleData/cities.xlsx\>\"", "]"}], 
+   "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}], "//", 
+  "TableForm"}]], "Input",
+ CellChangeTimes->{{3.65519207013203*^9, 3.655192081036087*^9}},
+ CellLabel->"In[5]:=",
+ CellID->1937958477,ExpressionUUID->"d1662504-496c-41e6-bdd2-4c2401045932"],
+
+Cell[BoxData[
+ RowBox[{"Import", "[", 
+  RowBox[{"\"\<ExampleData/cities.xlsx\>\"", ",", "\"\<Elements\>\""}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.655192094147914*^9, 3.6551920961152897`*^9}},
+ CellLabel->"In[6]:=",ExpressionUUID->"d6a9ed01-7692-4016-974e-02e69cb8fd27"],
+
+Cell["You can also import images from spreadsheets", "Text",
+ CellChangeTimes->{{3.655192140890057*^9, 
+  3.655192148137512*^9}},ExpressionUUID->"64575eee-a416-420f-8522-\
+a521fc5ee9d3"],
+
+Cell[BoxData[
+ RowBox[{"Import", "[", 
+  RowBox[{"\"\<ExampleData/cities.xlsx\>\"", ",", " ", "\"\<Images\>\""}], 
+  "]"}]], "Input",
+ CellLabel->"In[7]:=",
+ CellID->303131050,ExpressionUUID->"f20ab208-4b0e-4188-a551-027dce52c122"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Adobe Acrobat PDF", "Subsubsection",
+ CellChangeTimes->{{3.6551922885486803`*^9, 
+  3.6551922924441767`*^9}},ExpressionUUID->"67ddbca7-3af2-42a1-96e5-\
+9d8c4cdc9173"],
+
+Cell["\<\
+Here is a very simple example. We will do something more complicated below\
+\>", "Text",
+ CellChangeTimes->{{3.6551923927528477`*^9, 
+  3.655192410295891*^9}},ExpressionUUID->"d79917d4-15d1-4727-9abe-\
+68571256291c"],
+
+Cell[BoxData[
+ RowBox[{"Import", "[", 
+  RowBox[{
+  "\"\<ExampleData/mathematica.pdf\>\"", ",", " ", "\"\<Elements\>\""}], 
+  "]"}]], "Input",
+ CellLabel->"In[8]:=",
+ CellID->1448926485,ExpressionUUID->"f304c44b-6eaa-429a-ace1-3e5e246500b1"],
+
+Cell["Page image", "Text",
+ CellChangeTimes->{{3.655192481333322*^9, 
+  3.655192482477244*^9}},ExpressionUUID->"6c6f23f4-d877-4563-8fa7-\
+be07f9c5b755"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Import", "[", "\"\<ExampleData/mathematica.pdf\>\"", "]"}], 
+  "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}]], "Input",
+ CellChangeTimes->{{3.655192427247945*^9, 3.655192430647314*^9}},
+ CellLabel->"In[9]:=",
+ CellID->2083662841,ExpressionUUID->"d486b4a8-7668-49ee-9b2c-928a366a93bf"],
+
+Cell["Text layer", "Text",
+ CellChangeTimes->{{3.655192490604413*^9, 
+  3.6551924921168737`*^9}},ExpressionUUID->"41c20337-e7df-4421-b059-\
+2ffb220428a8"],
+
+Cell[BoxData[
+ RowBox[{"Import", "[", 
+  RowBox[{
+  "\"\<ExampleData/mathematica.pdf\>\"", ",", " ", "\"\<Plaintext\>\""}], 
+  "]"}]], "Input",
+ CellLabel->"In[10]:=",
+ CellID->40700270,ExpressionUUID->"b18b46ac-a311-41d6-8f7b-ebb5cf7a0f84"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["All formats", "Subsubsection",
+ CellChangeTimes->{{3.65519195937584*^9, 
+  3.6551919605362263`*^9}},ExpressionUUID->"3cc57d3d-3041-4842-950a-\
+d9f8a1adadbf"],
+
+Cell[TextData[{
+ "There is a documentation page ",
+ ButtonBox["listing all formats",
+  BaseStyle->"Link",
+  ButtonData->"paclet:guide/ListingOfAllFormats"],
+ ". "
+}], "Text",
+ CellChangeTimes->{{3.6551918346525097`*^9, 
+  3.655191885930786*^9}},ExpressionUUID->"739ce2b7-3ad4-48b9-b438-\
+5fca3ddcac91"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"ec93c1c1-280c-4a3c-b762-d56985e2d6f2"],
+
+Cell[CellGroupData[{
+
+Cell["Importing a PDF", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.6551933961486692`*^9, 
+  3.6551933984597692`*^9}},ExpressionUUID->"053ff8bf-fa22-4e3b-85ad-\
+69fd348ff9b2"],
+
+Cell["\<\
+The Wilson Center digital library has a copy of a 1948 CIA memorandum to \
+President Truman on Soviet actions in Berlin stored as a PDF.\
+\>", "Text",
+ CellChangeTimes->{{3.655193446518058*^9, 3.655193465601758*^9}, {
+  3.735488654568211*^9, 3.7354887188047657`*^9}, {3.735489264401842*^9, 
+  3.735489264944932*^9}, {3.735489358253689*^9, 3.735489383124658*^9}, {
+  3.735489540863881*^9, 
+  3.735489566470139*^9}},ExpressionUUID->"62e8444a-9ef4-482f-8159-\
+30ffe20f2166"],
+
+Cell[TextData[ButtonBox["http://digitalarchive.wilsoncenter.org/document/\
+116188",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["http://digitalarchive.wilsoncenter.org/document/116188"], None},
+ ButtonNote->
+  "http://digitalarchive.wilsoncenter.org/document/116188"]], "Text",
+ CellChangeTimes->{{3.735489574595003*^9, 
+  3.735489577636578*^9}},ExpressionUUID->"48fceef0-0069-4e19-8e54-\
+4116fe15adc5"],
+
+Cell["\<\
+Rather than use the original, I archived a copy in the Wayback Machine on May \
+16, 2018. If we use that copy, we don\[CloseCurlyQuote]t have to worry about \
+the file changing on the original site.\
+\>", "Text",
+ CellChangeTimes->{{3.647104014438295*^9, 3.6471041185619783`*^9}, {
+  3.647104155464772*^9, 3.64710416042523*^9}, {3.6471042016548653`*^9, 
+  3.64710424245356*^9}, {3.647106939517277*^9, 3.647106940213382*^9}, {
+  3.7354887391488647`*^9, 
+  3.735488742003866*^9}},ExpressionUUID->"b92334d3-219f-48a2-9d3f-\
+a042af662866"],
+
+Cell[TextData[ButtonBox["https://web.archive.org/web/20180516195401/http://\
+digitalarchive.wilsoncenter.org/document/116188.pdf?v=\
+3379f0c03457ecbe104be8895b9a8ea8",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://web.archive.org/web/20180516195401/http://digitalarchive.\
+wilsoncenter.org/document/116188.pdf?v=3379f0c03457ecbe104be8895b9a8ea8"], 
+   None},
+ ButtonNote->
+  "https://web.archive.org/web/20180516195401/http://digitalarchive.\
+wilsoncenter.org/document/116188.pdf?v=3379f0c03457ecbe104be8895b9a8ea8"]], \
+"Text",
+ CellChangeTimes->{{3.735489505870566*^9, 
+  3.7354895202622757`*^9}},ExpressionUUID->"60e7568d-0dd0-4691-8a08-\
+83104f3e275e"],
+
+Cell[TextData[{
+ "PDFs can have multiple layers. What you see when you open the PDF in ",
+ StyleBox["Acrobat",
+  FontSlant->"Italic"],
+ " or ",
+ StyleBox["Acrobat Reader",
+  FontSlant->"Italic"],
+ " are the page images. In addition, the PDF can have a layer of searchable \
+(that is, machine-readable) text associated with each page. The easiest way \
+to see if a particular PDF has this layer is to open it in ",
+ StyleBox["Acrobat",
+  FontSlant->"Italic"],
+ " and try to search for a word you can see on the page. If search doesn\
+\[CloseCurlyQuote]t work, the file is missing a text layer."
+}], "Text",
+ CellChangeTimes->{{3.647104275261386*^9, 3.647104452238267*^9}, {
+  3.73548879851474*^9, 
+  3.735488798810066*^9}},ExpressionUUID->"ae847515-5ecd-4d38-8842-\
+6c01464672a6"],
+
+Cell[TextData[{
+ "In ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ ", we begin by using ",
+ StyleBox["Import",
+  FontWeight->"Bold"],
+ " and requesting the elements associated with the file."
+}], "Text",
+ CellChangeTimes->{{3.647104492156454*^9, 
+  3.64710452405142*^9}},ExpressionUUID->"2cc3e797-6aca-4145-a377-\
+b7802620e919"],
+
+Cell[BoxData[
+ RowBox[{"Import", "[", 
+  RowBox[{
+  "\"\<https://web.archive.org/web/20180516195401/http://digitalarchive.\
+wilsoncenter.org/document/116188.pdf?v=3379f0c03457ecbe104be8895b9a8ea8\>\"", 
+   ",", "\"\<Elements\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.646763032460813*^9, 3.64676304437022*^9}, 
+   3.647104538830579*^9, {3.735488806433897*^9, 3.735488806854003*^9}, {
+   3.735489292026637*^9, 3.735489292388773*^9}, 3.735489411450611*^9},
+ CellLabel->"In[19]:=",ExpressionUUID->"ec455396-be40-42ac-98d3-570b33565947"],
+
+Cell[TextData[{
+ "If the file had a text layer, we could use ",
+ StyleBox["Import",
+  FontWeight->"Bold"],
+ " to get it, but this fails, giving us an empty string."
+}], "Text",
+ CellChangeTimes->{{3.6471045537469587`*^9, 3.647104583665258*^9}, {
+  3.64710696060465*^9, 
+  3.64710696405264*^9}},ExpressionUUID->"c3573e3b-c350-45f4-ae95-\
+41857ea5ad6c"],
+
+Cell[BoxData[
+ RowBox[{"viewData", "[", 
+  RowBox[{"Import", "[", 
+   RowBox[{
+   "\"\<https://web.archive.org/web/20180516195401/http://digitalarchive.\
+wilsoncenter.org/document/116188.pdf?v=3379f0c03457ecbe104be8895b9a8ea8\>\"", 
+    ",", "\"\<Plaintext\>\""}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.646763032460813*^9, 3.64676304437022*^9}, 
+   3.647104538830579*^9, {3.647104592801778*^9, 3.647104594200921*^9}, {
+   3.647104661535584*^9, 3.647104667791106*^9}, {3.6551935331757*^9, 
+   3.6551935353264103`*^9}, {3.655193568175763*^9, 3.6551935723338833`*^9}, {
+   3.735489302168722*^9, 3.735489305013039*^9}, 3.735489425027095*^9},
+ CellLabel->"In[20]:=",ExpressionUUID->"0660681b-c406-4710-a370-9f3b95efa221"],
+
+Cell["\<\
+We can, however, request the number of pages for the document. Note that this \
+includes the Wilson Center header page.\
+\>", "Text",
+ CellChangeTimes->{{3.6471046881820297`*^9, 3.6471047114527693`*^9}, {
+  3.7354893301193867`*^9, 
+  3.735489340350299*^9}},ExpressionUUID->"d7067737-1b23-41aa-8b1c-\
+969f8e482f8e"],
+
+Cell[BoxData[
+ RowBox[{"Import", "[", 
+  RowBox[{
+  "\"\<https://web.archive.org/web/20180516195401/http://digitalarchive.\
+wilsoncenter.org/document/116188.pdf?v=3379f0c03457ecbe104be8895b9a8ea8\>\"", 
+   ",", "\"\<PageCount\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.646763032460813*^9, 3.646763117222975*^9}, {
+   3.6471047308861933`*^9, 3.647104732908825*^9}, 3.735489325492875*^9, {
+   3.7354894331969147`*^9, 3.735489484705213*^9}, 3.735489639441642*^9},
+ CellLabel->"In[25]:=",ExpressionUUID->"90095ebd-db72-49e1-9e44-3a9e14bf8433"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"ace85d3f-ad6c-4b53-9ae9-4b39b1ad07f1"],
+
+Cell[CellGroupData[{
+
+Cell["Page images in a PDF", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.655191817533144*^9, 
+  3.655191821637171*^9}},ExpressionUUID->"09247574-c913-4b2a-a42a-\
+4d876d839922"],
+
+Cell[TextData[{
+ "If you are working with traditional printed or typed sources, you can \
+create page images by ",
+ StyleBox["digitizing",
+  FontSlant->"Italic"],
+ " your sources with a scanner or photographing them with a digital camera. \
+PDFs provide another source of page images."
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, 
+   3.655193275852891*^9, {3.6551933227029448`*^9, 
+   3.6551933446212606`*^9}},ExpressionUUID->"fb95b0aa-063b-41bc-b6f0-\
+c0b0e2c25196"],
+
+Cell["\<\
+We can also get all of the page images for our PDF document in a list.\
+\>", "Text",
+ CellChangeTimes->{{3.647104766234725*^9, 3.647104805033268*^9}, {
+  3.647105553336711*^9, 3.6471055550589523`*^9}, {3.647106972380163*^9, 
+  3.647106981875945*^9}, {3.6551938740750723`*^9, 3.655193875314354*^9}, {
+  3.735489607109474*^9, 
+  3.735489608228547*^9}},ExpressionUUID->"9078c61d-c495-4fc0-a05e-\
+d7fe187f0998"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"ciaMemoPageImages", "=", 
+   RowBox[{"Import", "[", 
+    RowBox[{
+    "\"\<https://web.archive.org/web/20180516195401/http://digitalarchive.\
+wilsoncenter.org/document/116188.pdf?v=3379f0c03457ecbe104be8895b9a8ea8\>\"", 
+     ",", "\"\<Images\>\""}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.647104812928792*^9, 3.647104884934515*^9}, {
+   3.647105535033292*^9, 3.6471055355512*^9}, {3.735489612460702*^9, 
+   3.735489615772602*^9}, 3.7354896487441063`*^9},
+ CellLabel->"In[26]:=",ExpressionUUID->"1f3a817d-950f-4088-aaa3-a246535b1c5a"],
+
+Cell[TextData[{
+ "We can get a sense of the document by using the ",
+ StyleBox["ConformImages",
+  FontWeight->"Bold"],
+ " command to make all of the pages the same height (this is what the ",
+ StyleBox["Small",
+  FontSlant->"Italic"],
+ " and ",
+ StyleBox["Pillarbox",
+  FontSlant->"Italic"],
+ " options do). We can see that Wilson Center graphics were extracted from \
+the cover page, and that there are two typescript pages that will need to be \
+rotated into upright position."
+}], "Text",
+ CellChangeTimes->{{3.647105045873362*^9, 3.6471050597362137`*^9}, {
+  3.647105240746751*^9, 3.647105364653318*^9}, {3.7354897067621613`*^9, 
+  3.735489756519335*^9}},ExpressionUUID->"a3e9e737-dac7-40cf-a302-\
+494ab0259585"],
+
+Cell[BoxData[
+ RowBox[{"ConformImages", "[", 
+  RowBox[{"ciaMemoPageImages", ",", "Small", ",", "\"\<Pillarbox\>\""}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.647105014962296*^9, 3.647105018133795*^9}, {
+  3.647105144238452*^9, 3.647105201928254*^9}, {3.73548966913937*^9, 
+  3.735489696713521*^9}},
+ CellLabel->"In[28]:=",ExpressionUUID->"8c21406d-4e60-463e-b7fa-5d0aa3c2ba86"],
+
+Cell[TextData[{
+ "At present, ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ "\[CloseCurlyQuote]s PDF importing capabilities are somewhat buggy. If you \
+are having trouble with using PDFs, be sure to do a search on ",
+ ButtonBox["mathematica.stackexchange.com",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["http://mathematica.stackexchange.com"], None},
+  ButtonNote->"http://mathematica.stackexchange.com"],
+ " to see if there are other techniques that you can take advantage of. "
+}], "Text",
+ CellChangeTimes->{{3.647105871635861*^9, 3.647105921937531*^9}, {
+   3.647105962056088*^9, 3.647106029855083*^9}, {3.647106999051358*^9, 
+   3.647107011491044*^9}, {3.647107740123234*^9, 3.6471077649201307`*^9}, 
+   3.65519400575145*^9},ExpressionUUID->"6bc45d2d-7708-4f2f-8503-\
+fa207776641e"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"ec4055c3-21e1-42b8-87fd-ac70368c7ae3"],
+
+Cell[CellGroupData[{
+
+Cell["Optical character recognition (OCR)", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.655193906832817*^9, 
+  3.655193912424809*^9}},ExpressionUUID->"904ff7c0-7713-4ba3-b3fc-\
+3053aee80a8b"],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["TextRecognize",
+  FontWeight->"Bold"],
+ " command performs OCR on a page image. Sometimes you have to adjust the \
+image to get good results. Here I use the ",
+ StyleBox["ImageResize",
+  FontWeight->"Bold"],
+ ", ",
+ StyleBox["Scaled",
+  FontWeight->"Bold"],
+ " and ",
+ StyleBox["ImageRotate",
+  FontWeight->"Bold"],
+ " commands to double the size of the page image for page 3 and then rotate \
+it."
+}], "Text",
+ CellChangeTimes->{{3.647105387260542*^9, 3.64710548682519*^9}, 
+   3.735489778670882*^9, {3.735489836565153*^9, 3.735489857387693*^9}, {
+   3.7354899535467978`*^9, 
+   3.735489980119464*^9}},ExpressionUUID->"49883f1f-f42d-4576-94f7-\
+2f17a48c69bf"],
+
+Cell[BoxData[
+ RowBox[{"cleanedCIAMemoPage3Image", "=", 
+  RowBox[{"ImageRotate", "[", 
+   RowBox[{
+    RowBox[{"ImageResize", "[", 
+     RowBox[{
+      RowBox[{
+      "ciaMemoPageImages", "\[LeftDoubleBracket]", "3", 
+       "\[RightDoubleBracket]"}], ",", 
+      RowBox[{"Scaled", "[", "2", "]"}]}], "]"}], ",", 
+    RowBox[{
+     RowBox[{"-", "90"}], " ", "Degree"}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.735489883910553*^9, 3.73548990032666*^9}, {
+  3.735489937642476*^9, 3.735489941025058*^9}, {3.735490014462255*^9, 
+  3.735490021981885*^9}},
+ CellLabel->"In[31]:=",ExpressionUUID->"37ea5e46-4ec7-40be-9e42-74b94ff7d662"],
+
+Cell["Now we can do OCR on the image.", "Text",
+ CellChangeTimes->{{3.735489876234962*^9, 
+  3.7354898814907722`*^9}},ExpressionUUID->"656c64d2-5ca7-4297-8e38-\
+2daf7ee61ffe"],
+
+Cell[BoxData[
+ RowBox[{"viewData", "[", 
+  RowBox[{"TextRecognize", "[", "cleanedCIAMemoPage3Image", "]"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.647105461488117*^9, 3.647105501960511*^9}, {
+   3.735489780966564*^9, 3.735489789070272*^9}, 3.735489898692047*^9, 
+   3.73549005189701*^9},
+ CellLabel->"In[32]:=",ExpressionUUID->"351e59c7-2df5-4a00-b9d1-1c8dbc1173e0"],
+
+Cell["\<\
+If you look through the OCR results, you will see that they are very rough. \
+Depending on the quality of the page images, the typeface, lighting, and many \
+other factors, OCR can range from excellent to unusable. Whether or not you \
+can use OCR for your own research depends on the nature of your project.\
+\>", "Text",
+ CellChangeTimes->{{3.6471056061652937`*^9, 3.647105778598778*^9}, {
+  3.647105833334326*^9, 3.647105849756219*^9}, {3.735490230895114*^9, 
+  3.735490233094243*^9}},ExpressionUUID->"d11d0cd8-035d-4c5c-bf3c-\
+a94cfab25879"],
+
+Cell["\<\
+If you use search engines to look for relevant sources in digitized \
+newspapers, books, etc. you should be aware that the quality of the OCR is \
+often no better than this (and sometimes much worse). If an online search \
+doesn\[CloseCurlyQuote]t turn up a keyword you can\[CloseCurlyQuote]t be sure \
+that the keyword doesn\[CloseCurlyQuote]t exist in the sources you are \
+searching through.\
+\>", "Text",
+ CellChangeTimes->{{3.735490238533833*^9, 
+  3.73549034362617*^9}},ExpressionUUID->"bdbd9502-c6aa-43d4-8cf5-\
+8daba103731a"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"8e4cbd4c-b594-4d21-9d7d-c5facdadfc13"],
+
+Cell[CellGroupData[{
+
+Cell["Getting all of the page images for a book", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.655229898758696*^9, 3.65522990426099*^9}, {3.655230550916708*^9, 
+  3.655230551588842*^9}},ExpressionUUID->"e47fe393-0eec-409c-a3c9-\
+d4d12d3c83f2"],
+
+Cell[TextData[{
+ "We are going to get all of the page images for ",
+ StyleBox["Home Protection Exercises",
+  FontSlant->"Italic"],
+ ", a 1953 (rev. 1957) publication of the United States Office of Civil \
+Defense."
+}], "Text",
+ CellChangeTimes->{
+  3.643651607080645*^9, {3.6438130147138233`*^9, 3.6438130197605457`*^9}, 
+   3.643818420174282*^9, {3.643818477242765*^9, 3.643818485402451*^9}, 
+   3.655229977972436*^9, {3.65523056233232*^9, 3.655230571444346*^9}, {
+   3.7354904042248173`*^9, 
+   3.7354904426147013`*^9}},ExpressionUUID->"9c10de51-89bd-48b6-a49c-\
+bd386b6b4f15"],
+
+Cell[TextData[ButtonBox["https://archive.org/details/home-protection-\
+exercises",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://archive.org/details/home-protection-exercises"], None},
+ ButtonNote->"https://archive.org/details/home-protection-exercises"]], "Text",\
+
+ CellChangeTimes->{{3.735490449715672*^9, 
+  3.7354904548053493`*^9}},ExpressionUUID->"ef4e2483-e32c-49ae-ae7b-\
+877b0946c193"],
+
+Cell["\<\
+A folder of the full-size page images is available on the Internet Archive. \
+These were created when the book was digitized by scanning. \
+\>", "Text",
+ CellChangeTimes->{
+  3.643651607080645*^9, {3.6438130147138233`*^9, 3.6438130197605457`*^9}, 
+   3.643818420174282*^9, {3.643818477242765*^9, 3.643818485402451*^9}, {
+   3.655229977972436*^9, 3.655230030648098*^9}, {3.655230577091427*^9, 
+   3.6552305984993763`*^9}, {3.687280985236885*^9, 3.687281025874681*^9}, {
+   3.735490596161834*^9, 
+   3.735490600648905*^9}},ExpressionUUID->"c8477ebe-983b-4cd7-9817-\
+267d2ab7f443"],
+
+Cell["\<\
+Instead we are going to use a zipped folder of thumbnails of the page images \
+which I already extracted and stored on GitHub\
+\>", "Text",
+ CellChangeTimes->{{3.655230210697706*^9, 3.655230232328741*^9}, {
+  3.655230286175283*^9, 3.655230290526596*^9}, {3.735490846456942*^9, 
+  3.73549084812004*^9}},ExpressionUUID->"48a158d3-c9ad-43a7-bf16-\
+15764ab05da5"],
+
+Cell[BoxData[
+ RowBox[{"URLSave", "[", 
+  RowBox[{
+  "\"\<https://github.com/williamjturkel/Digital-Research-Methods/blob/master/\
+home-protection-exercises-thumbs.zip?raw=true\>\"", ",", 
+   RowBox[{"FileNameJoin", "[", 
+    RowBox[{"{", 
+     RowBox[{
+     "localDownloadFilePath", ",", 
+      "\"\<home-protection-exercises-thumbs.zip\>\""}], "}"}], "]"}]}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.647107905125802*^9, 3.647107916589477*^9}, {
+   3.647107974137518*^9, 3.647107975288651*^9}, 3.647108091006802*^9, {
+   3.6471082076270227`*^9, 3.64710820906719*^9}, {3.647108293791032*^9, 
+   3.647108294992169*^9}, {3.655230247664783*^9, 3.655230275411652*^9}, {
+   3.735490867631707*^9, 3.7354908761592703`*^9}, 3.7354909560581636`*^9},
+ CellLabel->"In[33]:=",ExpressionUUID->"2caf9221-1fa4-45b5-a4e1-1a2f95025f2c"],
+
+Cell["\<\
+Here is what a file name within the zipped folder looks like. Note that we \
+can request information from the zipped file without unzipping it first\
+\>", "Text",
+ CellChangeTimes->{{3.655230336980545*^9, 3.655230366907873*^9}, {
+  3.687281048321869*^9, 
+  3.6872810501297493`*^9}},ExpressionUUID->"9c92445d-1b21-4fa3-846e-\
+652547f315fa"],
+
+Cell[BoxData[
+ RowBox[{"First", "[", 
+  RowBox[{"Import", "[", 
+   RowBox[{
+    RowBox[{"FileNameJoin", "[", 
+     RowBox[{"{", 
+      RowBox[{
+      "localDownloadFilePath", ",", 
+       "\"\<home-protection-exercises-thumbs.zip\>\""}], "}"}], "]"}], ",", 
+    "\"\<FileNames\>\""}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.6438186858527803`*^9, 3.643818735377964*^9}, {
+  3.6438193821414623`*^9, 3.643819391206435*^9}, {3.647107135847295*^9, 
+  3.647107160613638*^9}, {3.655230397686905*^9, 3.655230406562273*^9}, {
+  3.735490980439847*^9, 3.73549100832303*^9}},
+ CellLabel->"In[36]:=",ExpressionUUID->"3d566420-9882-470a-9f20-e4f4514148e4"],
+
+Cell["Here is a page image thumbnail imported from the zipped file", "Text",
+ CellChangeTimes->{{3.655230375363615*^9, 3.655230381395214*^9}, {
+  3.65523043936158*^9, 
+  3.655230447033465*^9}},ExpressionUUID->"ae20f024-3d22-4320-bb57-\
+8bca64e30262"],
+
+Cell[BoxData[
+ RowBox[{"Import", "[", 
+  RowBox[{
+   RowBox[{"FileNameJoin", "[", 
+    RowBox[{"{", 
+     RowBox[{
+     "localDownloadFilePath", ",", 
+      "\"\<home-protection-exercises-thumbs.zip\>\""}], "}"}], "]"}], ",", 
+   "\"\<home-protection-exercises-thumbs/001_thumb.jpg\>\""}], "]"}]], "Input",\
+
+ CellChangeTimes->{{3.643818756839386*^9, 3.643818771339127*^9}, {
+   3.643818811800137*^9, 3.643818829694746*^9}, {3.643819045732032*^9, 
+   3.643819055950097*^9}, {3.643820034916111*^9, 3.643820035603777*^9}, {
+   3.643820125868898*^9, 3.6438201289713707`*^9}, 3.643820204964143*^9, {
+   3.643820318969721*^9, 3.643820350031918*^9}, {3.643820424281089*^9, 
+   3.643820434960906*^9}, {3.647107098780611*^9, 3.647107110319522*^9}, {
+   3.647107175319613*^9, 3.647107193652548*^9}, {3.6552304274021883`*^9, 
+   3.65523052226971*^9}, {3.7354910190546427`*^9, 3.735491046761137*^9}},
+ CellLabel->"In[37]:=",ExpressionUUID->"6fd774b8-31cc-4e8e-a6b5-ec62aad1204a"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"813b3916-8402-41cb-9939-f7c6c3ec835c"],
+
+Cell[CellGroupData[{
+
+Cell["Visualizing the sequence of page images", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.65523097439056*^9, 
+  3.6552309795730658`*^9}},ExpressionUUID->"01b242c2-b0a7-4a71-ab23-\
+300fe3650a1a"],
+
+Cell["Import all of the page image thumbnails into a list.", "Text",
+ CellChangeTimes->{{3.655231333744112*^9, 3.6552313796381207`*^9}, 
+   3.7354916591870317`*^9},ExpressionUUID->"ea28153f-ec21-436e-a1f8-\
+fcd9eb2f5bc6"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"homeProtectionExerciseLargeThumbs", "=", 
+   RowBox[{"Select", "[", 
+    RowBox[{
+     RowBox[{"Import", "[", 
+      RowBox[{
+       RowBox[{"FileNameJoin", "[", 
+        RowBox[{"{", 
+         RowBox[{
+         "localDownloadFilePath", ",", 
+          "\"\<home-protection-exercises-thumbs.zip\>\""}], "}"}], "]"}], 
+       ",", "\"\<*\>\""}], "]"}], ",", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"FailureQ", "[", "#", "]"}], "==", "False"}], "&"}]}], "]"}]}],
+   ";"}]], "Input",
+ CellChangeTimes->{{3.735491459894911*^9, 3.735491481626288*^9}, {
+   3.735491540440712*^9, 3.7354915603190203`*^9}, {3.735491631284968*^9, 
+   3.735491638707872*^9}, 3.7354916840877113`*^9, {3.73549173463326*^9, 
+   3.7354917872155437`*^9}, {3.7354919889531937`*^9, 3.7354919897835293`*^9}},
+ 
+ CellLabel->"In[58]:=",ExpressionUUID->"ee3148ce-265f-4a63-9531-bb968f613a6c"],
+
+Cell[BoxData[
+ RowBox[{"Length", "[", "homeProtectionExerciseLargeThumbs", "]"}]], "Input",
+ CellChangeTimes->{{3.735491357850664*^9, 3.735491362894408*^9}, {
+  3.735491993449285*^9, 3.7354919940870113`*^9}},
+ CellLabel->"In[59]:=",ExpressionUUID->"40f26329-4ca2-42d3-8626-4670df711660"],
+
+Cell["Look at the first three", "Text",
+ CellChangeTimes->{{3.655231366038992*^9, 3.6552313689506283`*^9}, {
+  3.735491807686561*^9, 
+  3.7354918081017237`*^9}},ExpressionUUID->"e1ac52eb-2902-4001-b237-\
+693e89b1d8de"],
+
+Cell[BoxData[
+ RowBox[{"homeProtectionExerciseLargeThumbs", "\[LeftDoubleBracket]", 
+  RowBox[{"1", ";;", "3"}], "\[RightDoubleBracket]"}]], "Input",
+ CellChangeTimes->{{3.64416473384793*^9, 3.644164736746838*^9}, {
+  3.7354912116843433`*^9, 3.735491215666973*^9}, {3.735491810158654*^9, 
+  3.735491818338799*^9}, {3.735491996849319*^9, 3.735491997414975*^9}},
+ CellLabel->"In[60]:=",ExpressionUUID->"13c1c6a5-1677-4659-8c6c-fe73e3859bdc"],
+
+Cell["Measure the brightness of the first page", "Text",
+ CellChangeTimes->{{3.6552314140205393`*^9, 
+  3.655231435764138*^9}},ExpressionUUID->"6f6d2a96-c53d-48ee-89a9-\
+0c1d5315bb50"],
+
+Cell[BoxData[
+ RowBox[{"Mean", "[", 
+  RowBox[{"Mean", "[", 
+   RowBox[{"ImageData", "[", 
+    RowBox[{"ColorConvert", "[", 
+     RowBox[{
+      RowBox[{"First", "[", "homeProtectionExerciseLargeThumbs", "]"}], ",", 
+      "\"\<Grayscale\>\""}], "]"}], "]"}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.644165207369321*^9, 3.644165242159905*^9}, 
+   3.735491230815082*^9, {3.735492000656846*^9, 3.7354920011349792`*^9}},
+ CellLabel->"In[61]:=",ExpressionUUID->"e88d9953-141d-45f3-af11-013cf81d7198"],
+
+Cell["\<\
+Visualization of the pages in order: empty pages float upwards, darker ones \
+(typically with images) sink downwards\
+\>", "Text",
+ CellChangeTimes->{{3.655231449795156*^9, 3.655231486018341*^9}, {
+  3.655231546103636*^9, 
+  3.655231550447998*^9}},ExpressionUUID->"65eaae6f-c726-4e5b-9d94-\
+0d066fd38f29"],
+
+Cell[BoxData[
+ RowBox[{"With", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"bdata", "=", 
+     RowBox[{"Thread", "[", 
+      RowBox[{"List", "[", 
+       RowBox[{
+        RowBox[{"Range", "[", 
+         RowBox[{"Length", "[", "homeProtectionExerciseThumbs", "]"}], "]"}], 
+        ",", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"Mean", "[", 
+           RowBox[{"Mean", "[", 
+            RowBox[{"ImageData", "[", 
+             RowBox[{"ColorConvert", "[", 
+              RowBox[{"#", ",", "\"\<Grayscale\>\""}], "]"}], "]"}], "]"}], 
+           "]"}], "&"}], "/@", "homeProtectionExerciseLargeThumbs"}]}], "]"}],
+       "]"}]}], "}"}], ",", 
+   RowBox[{"Graphics", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"Opacity", "[", "0", "]"}], ",", 
+       RowBox[{"Point", "[", "bdata", "]"}], ",", "\[IndentingNewLine]", 
+       RowBox[{"MapThread", "[", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"Inset", "[", 
+           RowBox[{
+            RowBox[{"SetAlphaChannel", "[", 
+             RowBox[{"#1", ",", ".8"}], "]"}], ",", "#2", ",", "Center", ",", 
+            
+            RowBox[{"{", 
+             RowBox[{"2", ",", "2"}], "}"}]}], "]"}], "&"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"homeProtectionExerciseThumbs", ",", "bdata"}], "}"}]}], 
+        "]"}]}], "}"}], ",", "\[IndentingNewLine]", 
+     RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+     RowBox[{"ImageSize", "\[Rule]", "Large"}], ",", 
+     RowBox[{"ImagePadding", "\[Rule]", "20"}], ",", 
+     RowBox[{"AspectRatio", "\[Rule]", "1"}], ",", 
+     RowBox[{"FrameLabel", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\"\<Page Number\>\"", ",", "\"\<Brightness\>\""}], "}"}]}], 
+     ",", "\[IndentingNewLine]", 
+     RowBox[{"PlotRange", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"1", ",", 
+          RowBox[{"Length", "[", "homeProtectionExerciseThumbs", "]"}]}], 
+         "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"0.81", ",", "0.88"}], "}"}]}], "}"}]}]}], "]"}]}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.535184833537919*^9, 3.535184928558133*^9}, {
+   3.535184959274621*^9, 3.53518507558689*^9}, {3.535185122807294*^9, 
+   3.535185125636869*^9}, {3.5351851729417973`*^9, 3.53518518249122*^9}, {
+   3.535185255176139*^9, 3.535185282551223*^9}, {3.535185324350914*^9, 
+   3.535185327893671*^9}, {3.535185498226025*^9, 3.535185507214546*^9}, 
+   3.535188079400173*^9, {3.535188117876301*^9, 3.53518816550986*^9}, {
+   3.535188219281629*^9, 3.535188228199678*^9}, {3.535188258672133*^9, 
+   3.535188263599434*^9}, {3.535188391315996*^9, 3.53518839799384*^9}, {
+   3.5351884998758497`*^9, 3.535188517711351*^9}, {3.555825859407449*^9, 
+   3.5558258775322313`*^9}, {3.5558259123198347`*^9, 3.55582594770741*^9}, {
+   3.555826037985515*^9, 3.5558260474023333`*^9}, {3.5558260899988937`*^9, 
+   3.5558260939996223`*^9}, {3.555826160885565*^9, 3.555826165639304*^9}, {
+   3.6441663285621767`*^9, 3.6441664722771177`*^9}, {3.6441665483120003`*^9, 
+   3.6441666927546873`*^9}, {3.644166793799958*^9, 3.6441668043104477`*^9}, {
+   3.644166866460062*^9, 3.644166965264615*^9}, {3.6441670242135353`*^9, 
+   3.644167065541705*^9}, {3.644167095835799*^9, 3.644167132331254*^9}, {
+   3.644167212815123*^9, 3.644167235567252*^9}, {3.644167341946774*^9, 
+   3.6441673707444677`*^9}, {3.735491246816581*^9, 3.735491256278428*^9}, {
+   3.7354921719153*^9, 3.735492175953361*^9}, {3.735492264063883*^9, 
+   3.735492278533814*^9}, {3.735492380636118*^9, 3.735492423106618*^9}, {
+   3.7354925181114817`*^9, 3.73549256153162*^9}, {3.7354926221947308`*^9, 
+   3.7354926548586884`*^9}},
+ CellLabel->"In[84]:=",ExpressionUUID->"2377275a-cee0-48b5-848d-521a0eb0aef5"],
+
+Cell["\<\
+A visualization like this suggests a way of using the brightness of a scanned \
+page image to find covers, blank pages or pages with a lot of white space and \
+pages that contain images\
+\>", "Text",
+ CellChangeTimes->{{3.655231520857239*^9, 3.6552315269711514`*^9}, {
+  3.655231557831284*^9, 3.655231604038128*^9}, {3.655232344619823*^9, 
+  3.6552323578498487`*^9}, {3.735492584826839*^9, 
+  3.7354925918178377`*^9}},ExpressionUUID->"07b6c64c-6535-4eb9-9f45-\
+be9c7ffcba3d"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"fb470dfb-1101-4637-9466-40193233fbbe"],
+
+Cell[CellGroupData[{
+
+Cell["OCRing a batch of page images ", "Section",
+ CellChangeTimes->{{3.649950784924818*^9, 3.649950788859275*^9}, {
+   3.655231946595327*^9, 3.655231948129149*^9}, 3.655231992967762*^9, {
+   3.735492840345579*^9, 3.735492853048543*^9}, 
+   3.73549387171692*^9},ExpressionUUID->"5b3489d5-c286-4023-a35e-\
+cc52ade11744"],
+
+Cell[TextData[{
+ "I used the following code to OCR every page image of ",
+ StyleBox["Home Protection Exercises",
+  FontSlant->"Italic"],
+ ". "
+}], "Text",
+ CellChangeTimes->{{3.735492858952903*^9, 
+  3.735492933295205*^9}},ExpressionUUID->"b4a9e613-6fae-4f60-b212-\
+18bda76b2e59"],
+
+Cell[BoxData[
+ RowBox[{"Module", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"curfile", ",", "curname", ",", "txtfile"}], "}"}], ",", 
+   "\[IndentingNewLine]", 
+   RowBox[{"Do", "[", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"curname", "=", 
+       RowBox[{"FileNameTake", "[", "n", "]"}]}], ";", "\[IndentingNewLine]", 
+      
+      RowBox[{"curfile", "=", 
+       RowBox[{"Import", "[", "n", "]"}]}], ";", "\[IndentingNewLine]", 
+      RowBox[{"PrintTemporary", "[", 
+       RowBox[{"\"\<Processing \>\"", "<>", "curname"}], "]"}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{"txtfile", "=", 
+       RowBox[{"TextRecognize", "[", "curfile", "]"}]}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{"Put", "[", 
+       RowBox[{"txtfile", ",", 
+        RowBox[{"FileNameJoin", "[", 
+         RowBox[{"{", 
+          RowBox[{
+          "localDownloadFilePath", ",", "\"\<home-protection-exercises\>\"", 
+           ",", 
+           RowBox[{"curname", "<>", "\"\<.txt\>\""}]}], "}"}], "]"}]}], 
+       "]"}]}], ",", "\[IndentingNewLine]", 
+     RowBox[{"{", 
+      RowBox[{"n", ",", 
+       RowBox[{"FileNames", "[", 
+        RowBox[{"\"\<*.jpeg\>\"", ",", 
+         RowBox[{"FileNameJoin", "[", 
+          RowBox[{"{", 
+           RowBox[{
+           "localDownloadFilePath", ",", 
+            "\"\<home-protection-exercises/\>\""}], "}"}], "]"}]}], "]"}]}], 
+      "}"}]}], "]"}]}], "]"}]], "Input",
+ Evaluatable->False,
+ CellChangeTimes->{{3.735492986408009*^9, 3.735493042993854*^9}, 
+   3.735493082930696*^9, {3.735493130449358*^9, 3.7354931355827093`*^9}, {
+   3.735493175126177*^9, 3.735493194772388*^9}, {3.735493277114531*^9, 
+   3.735493323711957*^9}, {3.735493356677009*^9, 3.735493393253749*^9}, {
+   3.735493443508625*^9, 3.73549384625504*^9}, 
+   3.735494567637635*^9},ExpressionUUID->"45e4ff19-7eb3-4f17-bb2a-\
+05f5b5e14303"],
+
+Cell["\<\
+It takes a while to run so the cell is currently set so the code won\
+\[CloseCurlyQuote]t evaluate. Instead, I saved the results in a zipped file \
+which can be downloaded from GitHub\
+\>", "Text",
+ CellChangeTimes->{{3.735492935073954*^9, 3.73549296889235*^9}, {
+  3.735494038519162*^9, 
+  3.735494049901902*^9}},ExpressionUUID->"078385cc-90bf-4e86-8c75-\
+49722bf380fe"],
+
+Cell[BoxData[
+ RowBox[{"URLSave", "[", 
+  RowBox[{
+  "\"\<https://github.com/williamjturkel/Digital-Research-Methods/blob/master/\
+home-protection-exercises-ocrtext.zip?raw=true\>\"", ",", 
+   RowBox[{"FileNameJoin", "[", 
+    RowBox[{"{", 
+     RowBox[{
+     "localDownloadFilePath", ",", 
+      "\"\<home-protection-exercises-ocrtext.zip\>\""}], "}"}], "]"}]}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.647107847892406*^9, 3.647107893245933*^9}, {
+  3.6471083166148167`*^9, 3.6471083442377167`*^9}, {3.655232203034586*^9, 
+  3.655232218599272*^9}, {3.7354942574955597`*^9, 3.7354942893050327`*^9}},
+ CellLabel->"In[99]:=",ExpressionUUID->"a8f889fb-f601-4f03-86b7-bf3343caf06b"],
+
+Cell["Here is what a file name looks like", "Text",
+ CellChangeTimes->{{3.655232260765951*^9, 3.6552322659824963`*^9}, 
+   3.687281104305285*^9},ExpressionUUID->"6fa1a871-fc95-462f-bb77-\
+ae983e24c8be"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Import", "[", 
+   RowBox[{
+    RowBox[{"FileNameJoin", "[", 
+     RowBox[{"{", 
+      RowBox[{
+      "localDownloadFilePath", ",", 
+       "\"\<home-protection-exercises-ocrtext.zip\>\""}], "}"}], "]"}], ",", 
+    "\"\<FileNames\>\""}], "]"}], "\[LeftDoubleBracket]", "3", 
+  "\[RightDoubleBracket]"}]], "Input",
+ CellChangeTimes->{{3.6438186858527803`*^9, 3.643818735377964*^9}, {
+   3.6438193821414623`*^9, 3.643819391206435*^9}, {3.647107135847295*^9, 
+   3.647107160613638*^9}, {3.6471072327159767`*^9, 3.6471072330030403`*^9}, {
+   3.655232242733684*^9, 3.6552322591456537`*^9}, 3.735494298929627*^9},
+ CellLabel->
+  "In[100]:=",ExpressionUUID->"109a5e1b-656d-44a3-a665-4d66117d3fb0"],
+
+Cell["\<\
+Here are the first 500 characters of the OCR for a sample page\
+\>", "Text",
+ CellChangeTimes->{{3.655232271676605*^9, 3.655232275324915*^9}, {
+  3.6552323118599653`*^9, 
+  3.655232320731431*^9}},ExpressionUUID->"79f4d834-f979-4a1b-bcf7-\
+42bb008f7ba3"],
+
+Cell[BoxData[
+ RowBox[{"StringTake", "[", 
+  RowBox[{
+   RowBox[{"Import", "[", 
+    RowBox[{
+     RowBox[{"FileNameJoin", "[", 
+      RowBox[{"{", 
+       RowBox[{
+       "localDownloadFilePath", ",", 
+        "\"\<home-protection-exercises-ocrtext.zip\>\""}], "}"}], "]"}], ",", 
+     "\"\<home-protection-exercises-ocrtext/003.jpeg.txt\>\""}], "]"}], ",", 
+   "500"}], "]"}]], "Input",
+ CellChangeTimes->{{3.643818756839386*^9, 3.643818771339127*^9}, {
+   3.643818811800137*^9, 3.643818829694746*^9}, {3.643819045732032*^9, 
+   3.643819055950097*^9}, {3.643820034916111*^9, 3.643820035603777*^9}, {
+   3.643820125868898*^9, 3.6438201289713707`*^9}, 3.643820204964143*^9, {
+   3.643820318969721*^9, 3.643820350031918*^9}, {3.643820424281089*^9, 
+   3.643820434960906*^9}, {3.647107098780611*^9, 3.647107110319522*^9}, {
+   3.647107175319613*^9, 3.647107193652548*^9}, {3.647107247619452*^9, 
+   3.647107291048999*^9}, {3.655232301596492*^9, 3.655232305828011*^9}, {
+   3.735494315857288*^9, 3.735494336363915*^9}},
+ CellLabel->
+  "In[101]:=",ExpressionUUID->"85ffb3b4-a51e-4f3b-ade5-a49b5603d01a"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"fa25b323-bc1d-4760-9aff-32f2d401db54"],
+
+Cell[CellGroupData[{
+
+Cell["Plotting page image size vs. OCR file size", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.655232072614852*^9, 
+  3.655232087755782*^9}},ExpressionUUID->"7896974f-9ae1-4062-926b-\
+6da302f9398b"],
+
+Cell["\<\
+Vertical axis is size of OCR text file, horizontal axis is JPEG file size\
+\>", "Text",
+ CellChangeTimes->{{3.643821785907205*^9, 3.643821823810697*^9}, {
+  3.648531725156858*^9, 
+  3.6485317264685717`*^9}},ExpressionUUID->"c7ad9d4a-5b61-41f5-9bed-\
+af3bc80ea1b1"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"scaledFileSizes", "[", "flist_", "]"}], ":=", 
+  "\[IndentingNewLine]", 
+  RowBox[{"Module", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"fslist", ",", "max"}], "}"}], ",", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"fslist", "=", 
+      RowBox[{"Map", "[", 
+       RowBox[{"FileByteCount", ",", "flist"}], "]"}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"max", "=", 
+      RowBox[{"Max", "[", "fslist", "]"}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"Return", "[", 
+      RowBox[{"Map", "[", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"N", "[", 
+          RowBox[{
+           RowBox[{"(", 
+            RowBox[{"#", "/", "max"}], ")"}], ",", "5"}], "]"}], "&"}], ",", 
+        "fslist"}], "]"}], "]"}]}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.555821770606835*^9, 3.555821925972328*^9}, {
+  3.555821982308527*^9, 3.555822015560976*^9}, {3.644167814696582*^9, 
+  3.644167840750867*^9}},
+ CellLabel->
+  "In[102]:=",ExpressionUUID->"7ed366d2-9085-4f1b-aea1-01ff960fb154"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"ExtractArchive", "[", 
+   RowBox[{
+    RowBox[{"FileNameJoin", "[", 
+     RowBox[{"{", 
+      RowBox[{
+      "localDownloadFilePath", ",", 
+       "\"\<home-protection-exercises-thumbs.zip\>\""}], "}"}], "]"}], ",", 
+    "localDownloadFilePath"}], "]"}], ";"}]], "Input",
+ CellChangeTimes->{{3.655234294673893*^9, 3.6552343545365257`*^9}, {
+  3.7354944981234617`*^9, 3.735494505405731*^9}, {3.7354946797932253`*^9, 
+  3.7354946949108133`*^9}},
+ CellLabel->
+  "In[105]:=",ExpressionUUID->"09a2f94e-22e1-4940-bfbc-5a0d01b26d48"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"ExtractArchive", "[", 
+   RowBox[{
+    RowBox[{"FileNameJoin", "[", 
+     RowBox[{"{", 
+      RowBox[{
+      "localDownloadFilePath", ",", 
+       "\"\<home-protection-exercises-ocrtext.zip\>\""}], "}"}], "]"}], ",", 
+    "localDownloadFilePath"}], "]"}], ";"}]], "Input",
+ CellChangeTimes->{{3.655234294673893*^9, 3.655234375839924*^9}, {
+  3.7354945264977407`*^9, 3.735494531764866*^9}, {3.735494731719961*^9, 
+  3.7354947327449303`*^9}},
+ CellLabel->
+  "In[106]:=",ExpressionUUID->"34bb8f76-9748-4578-9161-28514c53ef77"],
+
+Cell[BoxData[
+ RowBox[{"scaledFileSizes", "[", 
+  RowBox[{"FileNames", "[", 
+   RowBox[{"\"\<*.jpg\>\"", ",", 
+    RowBox[{"FileNameJoin", "[", 
+     RowBox[{"{", 
+      RowBox[{
+      "localDownloadFilePath", ",", 
+       "\"\<home-protection-exercises-thumbs\>\""}], "}"}], "]"}]}], "]"}], 
+  "]"}]], "Input",
+ CellLabel->
+  "In[115]:=",ExpressionUUID->"8f8fc1c9-cb7e-4bf1-be01-70486094308a"],
+
+Cell[BoxData[
+ RowBox[{"Module", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"thumbsizes", "=", 
+      RowBox[{"scaledFileSizes", "[", 
+       RowBox[{"FileNames", "[", 
+        RowBox[{"\"\<*.jpg\>\"", ",", 
+         RowBox[{"FileNameJoin", "[", 
+          RowBox[{"{", 
+           RowBox[{
+           "localDownloadFilePath", ",", 
+            "\"\<home-protection-exercises-thumbs\>\""}], "}"}], "]"}]}], 
+        "]"}], "]"}]}], ",", "\[IndentingNewLine]", 
+     RowBox[{"textsizes", "=", 
+      RowBox[{"scaledFileSizes", "[", 
+       RowBox[{"FileNames", "[", 
+        RowBox[{"\"\<*.jpeg.txt\>\"", ",", 
+         RowBox[{"FileNameJoin", "[", 
+          RowBox[{"{", 
+           RowBox[{
+           "localDownloadFilePath", ",", 
+            "\"\<home-protection-exercises-ocrtext\>\""}], "}"}], "]"}]}], 
+        "]"}], "]"}]}]}], "}"}], ",", "\[IndentingNewLine]", 
+   RowBox[{"With", "[", 
+    RowBox[{
+     RowBox[{"{", "\[IndentingNewLine]", 
+      RowBox[{"bdata", "=", 
+       RowBox[{"MapThread", "[", 
+        RowBox[{"List", ",", 
+         RowBox[{"{", 
+          RowBox[{"thumbsizes", ",", "textsizes"}], "}"}]}], "]"}]}], "}"}], 
+     ",", "\[IndentingNewLine]", 
+     RowBox[{"Graphics", "[", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"Opacity", "[", "0", "]"}], ",", 
+         RowBox[{"Point", "[", "bdata", "]"}], ",", "\[IndentingNewLine]", 
+         RowBox[{"MapThread", "[", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"Inset", "[", 
+             RowBox[{
+              RowBox[{"SetAlphaChannel", "[", 
+               RowBox[{"#1", ",", ".8"}], "]"}], ",", "#2", ",", "Center", 
+              ",", 
+              RowBox[{"{", 
+               RowBox[{".1", ",", ".1"}], "}"}]}], "]"}], "&"}], ",", 
+           RowBox[{"{", 
+            RowBox[{"homeProtectionExerciseLargeThumbs", ",", "bdata"}], 
+            "}"}]}], "]"}]}], "}"}], ",", "\[IndentingNewLine]", 
+       RowBox[{"Frame", "\[Rule]", "True"}], ",", 
+       RowBox[{"ImageSize", "\[Rule]", "Large"}], ",", 
+       RowBox[{"ImagePadding", "\[Rule]", "40"}], ",", 
+       RowBox[{"AspectRatio", "\[Rule]", "1"}], ",", 
+       RowBox[{"FrameLabel", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{
+         "\"\<JPEG Thumb File Size\>\"", ",", "\"\<OCR File Size\>\""}], 
+         "}"}]}], ",", "\[IndentingNewLine]", 
+       RowBox[{"PlotRange", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"Min", "[", "thumbsizes", "]"}], ",", 
+            RowBox[{"Max", "[", "thumbsizes", "]"}]}], "}"}], ",", 
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"Min", "[", "textsizes", "]"}], ",", 
+            RowBox[{"Max", "[", "textsizes", "]"}]}], "}"}]}], "}"}]}]}], 
+      "]"}]}], "]"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.535184833537919*^9, 3.535184928558133*^9}, {
+   3.535184959274621*^9, 3.53518507558689*^9}, {3.535185122807294*^9, 
+   3.535185125636869*^9}, {3.5351851729417973`*^9, 3.53518518249122*^9}, {
+   3.535185255176139*^9, 3.535185282551223*^9}, {3.535185324350914*^9, 
+   3.535185327893671*^9}, {3.535185498226025*^9, 3.535185507214546*^9}, 
+   3.535188079400173*^9, {3.535188117876301*^9, 3.53518816550986*^9}, {
+   3.535188219281629*^9, 3.535188228199678*^9}, {3.535188258672133*^9, 
+   3.535188263599434*^9}, {3.535188391315996*^9, 3.53518839799384*^9}, {
+   3.5351884998758497`*^9, 3.535188517711351*^9}, {3.555825859407449*^9, 
+   3.5558258775322313`*^9}, {3.5558259123198347`*^9, 3.55582594770741*^9}, {
+   3.555826037985515*^9, 3.5558260474023333`*^9}, {3.5558260899988937`*^9, 
+   3.5558260939996223`*^9}, {3.555826160885565*^9, 3.555826165639304*^9}, {
+   3.6441663285621767`*^9, 3.6441664722771177`*^9}, {3.6441665483120003`*^9, 
+   3.6441666927546873`*^9}, {3.644166793799958*^9, 3.6441668043104477`*^9}, {
+   3.644166866460062*^9, 3.644166965264615*^9}, {3.6441670242135353`*^9, 
+   3.644167065541705*^9}, {3.644167095835799*^9, 3.644167132331254*^9}, {
+   3.644167212815123*^9, 3.644167235567252*^9}, {3.644167341946774*^9, 
+   3.6441673707444677`*^9}, {3.6441679419481697`*^9, 3.644167989428998*^9}, {
+   3.644168066778257*^9, 3.644168077128077*^9}, {3.644168110391954*^9, 
+   3.644168158875286*^9}, {3.644168195441984*^9, 3.644168202521776*^9}, {
+   3.6441683194957247`*^9, 3.644168360803761*^9}, {3.6441684009247026`*^9, 
+   3.644168403170273*^9}, {3.644168469481902*^9, 3.644168505174654*^9}, {
+   3.644168538336969*^9, 3.644168581339828*^9}, {3.6441686174787483`*^9, 
+   3.6441686318738213`*^9}, {3.644168850161998*^9, 3.644168850297777*^9}, 
+   3.644168931270124*^9, {3.644168997125493*^9, 3.64416912239996*^9}, {
+   3.644169159718698*^9, 3.644169160942576*^9}, {3.655234397207672*^9, 
+   3.655234408681757*^9}, {3.6552344986442327`*^9, 3.655234507834866*^9}, {
+   3.6552345515627203`*^9, 3.655234551969812*^9}, {3.655234739551188*^9, 
+   3.655234745470748*^9}, {3.7354945941915092`*^9, 3.735494615006908*^9}, {
+   3.735494759582159*^9, 3.735494802558956*^9}, {3.7354949500796328`*^9, 
+   3.735495007692232*^9}, {3.735495051988967*^9, 3.7354951471397333`*^9}, {
+   3.735495181927425*^9, 3.7354951859338903`*^9}, {3.73549521912617*^9, 
+   3.735495252508318*^9}, {3.735495292252265*^9, 3.7354954117420263`*^9}, {
+   3.7354954423589697`*^9, 3.735495522100181*^9}},
+ CellLabel->
+  "In[129]:=",ExpressionUUID->"2fabb4c0-9d4e-4a9c-8c15-452d03e05d58"],
+
+Cell["\<\
+This visualization suggests that we can use two fairly simple measures (the \
+size of a page image file and the size of the corresponding OCRed text file) \
+to automate the process of figuring out what is on a page. If both the page \
+image and text file sizes are low, the page is mostly blank. If the page \
+image file is large but the text file is small, the page probably contains \
+mostly imagery. If both file sizes are large, the page includes text but may \
+also include graphics, and so on.\
+\>", "Text",
+ CellChangeTimes->{{3.735495543288926*^9, 
+  3.735495771064402*^9}},ExpressionUUID->"f3265207-983c-4032-ab04-\
+5e62228baa97"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"0ef1b09c-d3cd-4d77-833c-dffcf71fadb4"],
+
+Cell[CellGroupData[{
+
+Cell["Identifying text blocks", "Section",
+ CellChangeTimes->{{3.649950784924818*^9, 3.649950788859275*^9}, {
+   3.655231946595327*^9, 3.655231948129149*^9}, 3.655231992967762*^9, {
+   3.735495795328125*^9, 
+   3.7354957993830137`*^9}},ExpressionUUID->"7ddc78c7-8902-4039-9898-\
+8a7fc1071317"],
+
+Cell[TextData[{
+ "Working at the level of full page images (rather than thumbnails) we can \
+also use the ",
+ StyleBox["TextRecognize",
+  FontWeight->"Bold"],
+ " command to identify those portions of a page which contain text. Here we \
+download a single large page image."
+}], "Text",
+ CellChangeTimes->{{3.649950792779258*^9, 3.649950818634288*^9}, {
+  3.735495804454973*^9, 3.735495839925734*^9}, {3.735496093397524*^9, 
+  3.735496116124091*^9}},ExpressionUUID->"bd6d8ba2-3ceb-4aa4-8715-\
+ecafc906b785"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"homeProtectionExerciseP29", "=", 
+   RowBox[{
+   "Import", "[", 
+    "\"\<https://github.com/williamjturkel/Digital-Research-Methods/raw/\
+master/home-protection-exercises-p029.jpeg\>\"", "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.7354960309836206`*^9, 3.73549608676982*^9}},
+ CellLabel->
+  "In[130]:=",ExpressionUUID->"9507941e-8d66-4336-a888-b1bef440ceb0"],
+
+Cell[TextData[{
+ "Next we use the ",
+ StyleBox["HighlightImage",
+  FontWeight->"Bold"],
+ " and ",
+ StyleBox["TextRecognize",
+  FontWeight->"Bold"],
+ " commands to draw bounding boxes around all of the recognized text in the \
+page image. Note that part of the bottom figure is incorrectly recognized as \
+a text block."
+}], "Text",
+ CellChangeTimes->{{3.735496119467689*^9, 3.7354961735058603`*^9}, {
+  3.7354962414001703`*^9, 
+  3.735496256686928*^9}},ExpressionUUID->"f69bcda1-eb80-43d9-ab30-\
+d5d78c740658"],
+
+Cell[BoxData[
+ RowBox[{"HighlightImage", "[", 
+  RowBox[{"homeProtectionExerciseP29", ",", 
+   RowBox[{"{", 
+    RowBox[{"\"\<Boundary\>\"", ",", 
+     RowBox[{"TextRecognize", "[", 
+      RowBox[{
+      "homeProtectionExerciseP29", ",", "\"\<Line\>\"", ",", 
+       "\"\<BoundingBox\>\""}], "]"}]}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.735496198462317*^9, 3.735496210212194*^9}},
+ CellLabel->"In[131]:=",
+ CellID->1769314200,ExpressionUUID->"d3c9a29e-6b9d-4d41-9867-facacecbc3da"],
+
+Cell[TextData[{
+ "Next class we will see how we can use ",
+ StyleBox["image processing",
+  FontSlant->"Italic"],
+ " techniques to automatically extract graphics from page images."
+}], "Text",
+ CellChangeTimes->{{3.73549630278962*^9, 3.7354963439557123`*^9}, {
+  3.73549642075485*^9, 
+  3.735496423008786*^9}},ExpressionUUID->"2a95d101-bc7e-4f50-b7a5-\
+aaa51b7b98a8"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1408, 1107},
+WindowMargins->{{125, Automatic}, {Automatic, 71}},
+TaggingRules->{"SlideShow" -> True},
+Magnification:>1.25 Inherited,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "SlideShowHeader"->{
+  Cell[580, 22, 4441, 99, 75, "SlideShowNavigationBar",ExpressionUUID->"e8a3887c-5ec8-4e8b-9b0f-72b5c8d1580a",
+   CellTags->"SlideShowHeader"],
+  Cell[5937, 150, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"d634deb1-272c-40ce-a9c6-4a9062c7884b",
+   CellTags->"SlideShowHeader"],
+  Cell[8278, 213, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"446889c5-ce1c-4170-af20-1a3f977353a6",
+   CellTags->"SlideShowHeader"],
+  Cell[13547, 346, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"cee76c6b-697c-4f6e-a2a3-f5fc6f746f66",
+   CellTags->"SlideShowHeader"],
+  Cell[20015, 543, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"ec93c1c1-280c-4a3c-b762-d56985e2d6f2",
+   CellTags->"SlideShowHeader"],
+  Cell[26150, 698, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"ace85d3f-ad6c-4b53-9ae9-4b39b1ad07f1",
+   CellTags->"SlideShowHeader"],
+  Cell[29976, 797, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"ec4055c3-21e1-42b8-87fd-ac70368c7ae3",
+   CellTags->"SlideShowHeader"],
+  Cell[33392, 890, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"8e4cbd4c-b594-4d21-9d7d-c5facdadfc13",
+   CellTags->"SlideShowHeader"],
+  Cell[38874, 1023, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"813b3916-8402-41cb-9939-f7c6c3ec835c",
+   CellTags->"SlideShowHeader"],
+  Cell[46607, 1206, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"fb470dfb-1101-4637-9466-40193233fbbe",
+   CellTags->"SlideShowHeader"],
+  Cell[52647, 1362, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"fa25b323-bc1d-4760-9aff-32f2d401db54",
+   CellTags->"SlideShowHeader"],
+  Cell[61993, 1585, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"0ef1b09c-d3cd-4d77-833c-dffcf71fadb4",
+   CellTags->"SlideShowHeader"]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"SlideShowHeader", 65131, 1677}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 4441, 99, 75, "SlideShowNavigationBar",ExpressionUUID->"e8a3887c-5ec8-4e8b-9b0f-72b5c8d1580a",
+ CellTags->"SlideShowHeader"],
+Cell[5024, 123, 473, 10, 200, "Title",ExpressionUUID->"1f250691-78df-4397-a41f-cd62011b6c00"],
+Cell[5500, 135, 400, 10, 108, "Subtitle",ExpressionUUID->"973f3d61-1444-4b0b-b679-91b9d97e2a8c"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5937, 150, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"d634deb1-272c-40ce-a9c6-4a9062c7884b",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[6084, 156, 155, 3, 84, "Section",ExpressionUUID->"0b7ad3a2-a385-4675-b2c5-c83431503f53"],
+Cell[6242, 161, 835, 19, 102, "Text",ExpressionUUID->"c97b04ce-b8ae-4b32-b6ad-493561d6927e"],
+Cell[7080, 182, 695, 14, 102, "Text",ExpressionUUID->"c6f16206-17e5-4575-b037-1d50d89d8f96"],
+Cell[7778, 198, 451, 9, 73, "Text",ExpressionUUID->"5b5cc6ee-9ded-45af-b986-971618d8a63c"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[8278, 213, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"446889c5-ce1c-4170-af20-1a3f977353a6",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[8425, 219, 275, 5, 84, "Section",ExpressionUUID->"552241f6-1de8-46de-b31d-3db6768a1d10"],
+Cell[8703, 226, 310, 5, 64, "Text",ExpressionUUID->"f8f59a59-362b-485f-8bdc-9a2dc9692176"],
+Cell[9016, 233, 246, 4, 37, "Input",ExpressionUUID->"af5ac1d0-e921-4c9b-bff7-8d538e98891a"],
+Cell[CellGroupData[{
+Cell[9287, 241, 159, 3, 67, "Subsection",ExpressionUUID->"17a84da3-98e3-4f81-80ea-28d265967b8c"],
+Cell[9449, 246, 460, 10, 100, "Input",ExpressionUUID->"e9b4acf8-65cb-4e91-850d-98bd668dc7ac"],
+Cell[9912, 258, 395, 7, 68, "Text",ExpressionUUID->"b20fcd9e-e3ce-4472-8628-d02c7d5ab022"],
+Cell[10310, 267, 3176, 72, 546, "Input",ExpressionUUID->"2b5e437e-e1eb-42d4-a02c-5d1a07ba9da7"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[13547, 346, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"cee76c6b-697c-4f6e-a2a3-f5fc6f746f66",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[13694, 352, 219, 4, 131, "Section",ExpressionUUID->"785c2b4b-9856-4de4-83e6-9522ff1ad386"],
+Cell[13916, 358, 542, 13, 68, "Text",ExpressionUUID->"03c79b76-6c1a-4fb7-83a7-451a6f762903"],
+Cell[CellGroupData[{
+Cell[14483, 375, 191, 3, 87, "Subsubsection",ExpressionUUID->"70a2d30e-5e72-4837-a296-bae4e36c45dc"],
+Cell[14677, 380, 341, 7, 68, "Text",ExpressionUUID->"43ca8bd5-ea8c-494b-9390-ca8d846a6c3e"],
+Cell[15021, 389, 228, 5, 57, "Input",ExpressionUUID->"cfd962cd-0458-4ef9-b26f-4a2af1bc621e",
+ CellID->1922689863],
+Cell[15252, 396, 162, 3, 68, "Text",ExpressionUUID->"be65fd41-b2fd-4735-a97a-852764bce69d"],
+Cell[15417, 401, 300, 6, 57, "Input",ExpressionUUID->"b4b238b9-d6d0-408b-927a-5f6b54ede8cc",
+ CellID->910738447],
+Cell[15720, 409, 173, 3, 68, "Text",ExpressionUUID->"2f1cbfa6-37d6-4a88-b466-5ef1a3feb14d"],
+Cell[15896, 414, 320, 7, 57, "Input",ExpressionUUID->"4be60e51-1e5a-44a4-b7df-5fa6d9597b05",
+ CellID->282594733]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[16253, 426, 183, 3, 87, "Subsubsection",ExpressionUUID->"de43bad7-7600-4e01-8136-b2ad2a608e50"],
+Cell[16439, 431, 376, 8, 57, "Input",ExpressionUUID->"6fe37fe7-b992-43fd-aeb2-ee029386d12f",
+ CellID->1194929201],
+Cell[16818, 441, 360, 8, 57, "Input",ExpressionUUID->"d1662504-496c-41e6-bdd2-4c2401045932",
+ CellID->1937958477],
+Cell[17181, 451, 276, 5, 57, "Input",ExpressionUUID->"d6a9ed01-7692-4016-974e-02e69cb8fd27"],
+Cell[17460, 458, 186, 3, 68, "Text",ExpressionUUID->"64575eee-a416-420f-8522-a521fc5ee9d3"],
+Cell[17649, 463, 231, 5, 57, "Input",ExpressionUUID->"f20ab208-4b0e-4188-a551-027dce52c122",
+ CellID->303131050]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[17917, 473, 172, 3, 87, "Subsubsection",ExpressionUUID->"67ddbca7-3af2-42a1-96e5-9d8c4cdc9173"],
+Cell[18092, 478, 226, 5, 68, "Text",ExpressionUUID->"d79917d4-15d1-4727-9abe-68571256291c"],
+Cell[18321, 485, 241, 6, 57, "Input",ExpressionUUID->"f304c44b-6eaa-429a-ace1-3e5e246500b1",
+ CellID->1448926485],
+Cell[18565, 493, 152, 3, 68, "Text",ExpressionUUID->"6c6f23f4-d877-4563-8fa7-be07f9c5b755"],
+Cell[18720, 498, 328, 6, 57, "Input",ExpressionUUID->"d486b4a8-7668-49ee-9b2c-928a366a93bf",
+ CellID->2083662841],
+Cell[19051, 506, 154, 3, 68, "Text",ExpressionUUID->"41c20337-e7df-4421-b059-2ffb220428a8"],
+Cell[19208, 511, 241, 6, 57, "Input",ExpressionUUID->"b18b46ac-a311-41d6-8f7b-ebb5cf7a0f84",
+ CellID->40700270]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[19486, 522, 163, 3, 87, "Subsubsection",ExpressionUUID->"3cc57d3d-3041-4842-950a-d9f8a1adadbf"],
+Cell[19652, 527, 302, 9, 68, "Text",ExpressionUUID->"739ce2b7-3ad4-48b9-b438-5fca3ddcac91"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[20015, 543, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"ec93c1c1-280c-4a3c-b762-d56985e2d6f2",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[20162, 549, 215, 4, 131, "Section",ExpressionUUID->"053ff8bf-fa22-4e3b-85ad-69fd348ff9b2"],
+Cell[20380, 555, 481, 9, 68, "Text",ExpressionUUID->"62e8444a-9ef4-482f-8159-30ffe20f2166"],
+Cell[20864, 566, 406, 9, 68, "Text",ExpressionUUID->"48fceef0-0069-4e19-8e54-4116fe15adc5"],
+Cell[21273, 577, 545, 10, 114, "Text",ExpressionUUID->"b92334d3-219f-48a2-9d3f-a042af662866"],
+Cell[21821, 589, 666, 14, 68, "Text",ExpressionUUID->"60e7568d-0dd0-4691-8a08-83104f3e275e"],
+Cell[22490, 605, 779, 18, 159, "Text",ExpressionUUID->"ae847515-5ecd-4d38-8842-6c01464672a6"],
+Cell[23272, 625, 335, 11, 68, "Text",ExpressionUUID->"2cc3e797-6aca-4145-a377-b7802620e919"],
+Cell[23610, 638, 537, 9, 100, "Input",ExpressionUUID->"ec455396-be40-42ac-98d3-570b33565947"],
+Cell[24150, 649, 351, 9, 68, "Text",ExpressionUUID->"c3573e3b-c350-45f4-ae95-41857ea5ad6c"],
+Cell[24504, 660, 724, 12, 100, "Input",ExpressionUUID->"0660681b-c406-4710-a370-9f3b95efa221"],
+Cell[25231, 674, 324, 7, 68, "Text",ExpressionUUID->"d7067737-1b23-41aa-8b1c-969f8e482f8e"],
+Cell[25558, 683, 543, 9, 100, "Input",ExpressionUUID->"90095ebd-db72-49e1-9e44-3a9e14bf8433"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[26150, 698, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"ace85d3f-ad6c-4b53-9ae9-4b39b1ad07f1",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[26297, 704, 216, 4, 131, "Section",ExpressionUUID->"09247574-c913-4b2a-a42a-4d876d839922"],
+Cell[26516, 710, 502, 11, 114, "Text",ExpressionUUID->"fb95b0aa-063b-41bc-b6f0-c0b0e2c25196"],
+Cell[27021, 723, 417, 8, 68, "Text",ExpressionUUID->"9078c61d-c495-4fc0-a05e-d7fe187f0998"],
+Cell[27441, 733, 578, 11, 140, "Input",ExpressionUUID->"1f3a817d-950f-4088-aaa3-a246535b1c5a"],
+Cell[28022, 746, 716, 17, 159, "Text",ExpressionUUID->"a3e9e737-dac7-40cf-a302-494ab0259585"],
+Cell[28741, 765, 380, 7, 57, "Input",ExpressionUUID->"8c21406d-4e60-463e-b7fa-5d0aa3c2ba86"],
+Cell[29124, 774, 803, 17, 114, "Text",ExpressionUUID->"6bc45d2d-7708-4f2f-8503-fa207776641e"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[29976, 797, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"ec4055c3-21e1-42b8-87fd-ac70368c7ae3",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[30123, 803, 231, 4, 131, "Section",ExpressionUUID->"904ff7c0-7713-4ba3-b3fc-3053aee80a8b"],
+Cell[30357, 809, 696, 21, 114, "Text",ExpressionUUID->"49883f1f-f42d-4576-94f7-2f17a48c69bf"],
+Cell[31056, 832, 633, 15, 57, "Input",ExpressionUUID->"37ea5e46-4ec7-40be-9e42-74b94ff7d662"],
+Cell[31692, 849, 175, 3, 68, "Text",ExpressionUUID->"656c64d2-5ca7-4297-8e38-2daf7ee61ffe"],
+Cell[31870, 854, 369, 7, 57, "Input",ExpressionUUID->"351e59c7-2df5-4a00-b9d1-1c8dbc1173e0"],
+Cell[32242, 863, 555, 9, 114, "Text",ExpressionUUID->"d11d0cd8-035d-4c5c-bf3c-a94cfab25879"],
+Cell[32800, 874, 543, 10, 159, "Text",ExpressionUUID->"bdbd9502-c6aa-43d4-8cf5-8daba103731a"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[33392, 890, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"8e4cbd4c-b594-4d21-9d7d-c5facdadfc13",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[33539, 896, 282, 4, 131, "Section",ExpressionUUID->"e47fe393-0eec-409c-a3c9-d4d12d3c83f2"],
+Cell[33824, 902, 579, 13, 68, "Text",ExpressionUUID->"9c10de51-89bd-48b6-a49c-bd386b6b4f15"],
+Cell[34406, 917, 404, 9, 68, "Text",ExpressionUUID->"ef4e2483-e32c-49ae-ae7b-877b0946c193"],
+Cell[34813, 928, 588, 11, 68, "Text",ExpressionUUID->"c8477ebe-983b-4cd7-9817-267d2ab7f443"],
+Cell[35404, 941, 369, 7, 68, "Text",ExpressionUUID->"48a158d3-c9ad-43a7-bf16-15764ab05da5"],
+Cell[35776, 950, 821, 16, 100, "Input",ExpressionUUID->"2caf9221-1fa4-45b5-a4e1-1a2f95025f2c"],
+Cell[36600, 968, 349, 7, 68, "Text",ExpressionUUID->"9c92445d-1b21-4fa3-846e-652547f315fa"],
+Cell[36952, 977, 649, 14, 57, "Input",ExpressionUUID->"3d566420-9882-470a-9f20-e4f4514148e4"],
+Cell[37604, 993, 250, 4, 68, "Text",ExpressionUUID->"ae20f024-3d22-4320-bb57-8bca64e30262"],
+Cell[37857, 999, 968, 18, 100, "Input",ExpressionUUID->"6fd774b8-31cc-4e8e-a6b5-ec62aad1204a"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[38874, 1023, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"813b3916-8402-41cb-9939-f7c6c3ec835c",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[39021, 1029, 236, 4, 131, "Section",ExpressionUUID->"01b242c2-b0a7-4a71-ab23-300fe3650a1a"],
+Cell[39260, 1035, 221, 3, 68, "Text",ExpressionUUID->"ea28153f-ec21-436e-a1f8-fcd9eb2f5bc6"],
+Cell[39484, 1040, 894, 22, 100, "Input",ExpressionUUID->"ee3148ce-265f-4a63-9531-bb968f613a6c"],
+Cell[40381, 1064, 287, 4, 57, "Input",ExpressionUUID->"40f26329-4ca2-42d3-8626-4670df711660"],
+Cell[40671, 1070, 218, 4, 68, "Text",ExpressionUUID->"e1ac52eb-2902-4001-b237-693e89b1d8de"],
+Cell[40892, 1076, 439, 6, 57, "Input",ExpressionUUID->"13c1c6a5-1677-4659-8c6c-fe73e3859bdc"],
+Cell[41334, 1084, 184, 3, 68, "Text",ExpressionUUID->"6f6d2a96-c53d-48ee-89a9-0c1d5315bb50"],
+Cell[41521, 1089, 502, 10, 57, "Input",ExpressionUUID->"e88d9953-141d-45f3-af11-013cf81d7198"],
+Cell[42026, 1101, 315, 7, 68, "Text",ExpressionUUID->"65eaae6f-c726-4e5b-9d94-0d066fd38f29"],
+Cell[42344, 1110, 3726, 79, 303, "Input",ExpressionUUID->"2377275a-cee0-48b5-848d-521a0eb0aef5"],
+Cell[46073, 1191, 485, 9, 114, "Text",ExpressionUUID->"07b6c64c-6535-4eb9-9f45-be9c7ffcba3d"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[46607, 1206, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"fb470dfb-1101-4637-9466-40193233fbbe",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[46754, 1212, 319, 5, 131, "Section",ExpressionUUID->"5b3489d5-c286-4023-a35e-cc52ade11744"],
+Cell[47076, 1219, 280, 8, 68, "Text",ExpressionUUID->"b4a9e613-6fae-4f60-b212-18bda76b2e59"],
+Cell[47359, 1229, 1872, 46, 343, "Input",ExpressionUUID->"45e4ff19-7eb3-4f17-bb2a-05f5b5e14303",
+ Evaluatable->False],
+Cell[49234, 1277, 381, 8, 68, "Text",ExpressionUUID->"078385cc-90bf-4e86-8c75-49722bf380fe"],
+Cell[49618, 1287, 680, 14, 100, "Input",ExpressionUUID->"a8f889fb-f601-4f03-86b7-bf3343caf06b"],
+Cell[50301, 1303, 202, 3, 68, "Text",ExpressionUUID->"6fa1a871-fc95-462f-bb77-ae983e24c8be"],
+Cell[50506, 1308, 724, 16, 57, "Input",ExpressionUUID->"109a5e1b-656d-44a3-a665-4d66117d3fb0"],
+Cell[51233, 1326, 263, 6, 68, "Text",ExpressionUUID->"79f4d834-f979-4a1b-bcf7-42bb008f7ba3"],
+Cell[51499, 1334, 1099, 22, 100, "Input",ExpressionUUID->"85ffb3b4-a51e-4f3b-ade5-a49b5603d01a"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[52647, 1362, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"fa25b323-bc1d-4760-9aff-32f2d401db54",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[52794, 1368, 238, 4, 131, "Section",ExpressionUUID->"7896974f-9ae1-4062-926b-6da302f9398b"],
+Cell[53035, 1374, 274, 6, 68, "Text",ExpressionUUID->"c7ad9d4a-5b61-41f5-9bed-af3bc80ea1b1"],
+Cell[53312, 1382, 1040, 28, 221, "Input",ExpressionUUID->"7ed366d2-9085-4f1b-aea1-01ff960fb154"],
+Cell[54355, 1412, 561, 14, 57, "Input",ExpressionUUID->"09a2f94e-22e1-4940-bfbc-5a0d01b26d48"],
+Cell[54919, 1428, 558, 14, 57, "Input",ExpressionUUID->"34bb8f76-9748-4578-9161-28514c53ef77"],
+Cell[55480, 1444, 394, 11, 57, "Input",ExpressionUUID->"8f8fc1c9-cb7e-4bf1-be01-70486094308a"],
+Cell[55877, 1457, 5415, 109, 425, "Input",ExpressionUUID->"2fabb4c0-9d4e-4a9c-8c15-452d03e05d58"],
+Cell[61295, 1568, 649, 11, 159, "Text",ExpressionUUID->"f3265207-983c-4032-ab04-5e62228baa97"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[61993, 1585, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"0ef1b09c-d3cd-4d77-833c-dffcf71fadb4",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[62140, 1591, 293, 5, 131, "Section",ExpressionUUID->"7ddc78c7-8902-4039-9898-8a7fc1071317"],
+Cell[62436, 1598, 506, 11, 114, "Text",ExpressionUUID->"bd6d8ba2-3ceb-4aa4-8715-ecafc906b785"],
+Cell[62945, 1611, 398, 9, 100, "Input",ExpressionUUID->"9507941e-8d66-4336-a888-b1bef440ceb0"],
+Cell[63346, 1622, 510, 14, 114, "Text",ExpressionUUID->"f69bcda1-eb80-43d9-ab30-d5d78c740658"],
+Cell[63859, 1638, 493, 11, 57, "Input",ExpressionUUID->"d3c9a29e-6b9d-4d41-9867-facacecbc3da",
+ CellID->1769314200],
+Cell[64355, 1651, 366, 9, 68, "Text",ExpressionUUID->"2a95d101-bc7e-4f50-b7a5-aaa51b7b98a8"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+

@@ -1,0 +1,1663 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     66433,       1655]
+NotebookOptionsPosition[     51759,       1416]
+NotebookOutlinePosition[     53844,       1460]
+CellTagsIndexPosition[     53765,       1455]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ TogglerBox[2, {1->
+  OverlayBox[{
+   TagBox[GridBox[{
+      {
+       GraphicsBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBAkBOaF5xZnpeaopnXklqemqRRRIz
+UFAKiEGSLED8//9/gvjRo0fsN27cELp69arY+fPnpZExPn137tzhBqrRBGJ/
+ID4CxMfRMTZ9L168YL5w4YIaUD4AiC8C8Qcg/gvE/9AxFreC7PQD4gtA/BGq
+7j8ujKz3+fPnLFC9b6H24dSHTf/FixfVofYSpRdZPzSsAqBuJkovsn5oOF8k
+5F9s+h88eMBBjt0w/devXxcGso+S4m9k/ZcuXRKHpgeS3A7TD0wrkpToPw9J
+ywOmn1L3Uxp+lMYfpemH0vRLjfwDjQey8y9a+fGOWDPwlF+gsPhEKDywlZ8g
+d0D9EniexPITGd++fZv3PBnlN6764zxa3QHCAIDESDs=
+         "], {{0, 26}, {16, 
+         0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{16, 26},
+        PlotRange->{{0, 16}, {0, 26}}], 
+       GraphicsBox[RasterBox[CompressedData["
+1:eJzt2V1vVFUUBuBGTfTSSygthYYKNHyVinrrpbcYfwBEJN5gUkyMfw9KKaVw
+KCkQKCW1RNIQKg1gEE3QtdN10pMRZCaBzNQ+kzxt5nzstfeZfbPOu/vkD8e/
+e6+vr+/sR/Hn+ImfvpyYOPHz1x/Hl2/OnP3+9JlT33515sdTp09NfHHy/TjY
+H6592Nf3QfyvqmpHBwbCYNr5GoMNAw2d1AEAADa3/obtLba1aJ7rb4xR9x1D
+YVfYHYbDnjASPgn7wv4wGg6Eg+FQOByOhLEwnj4Nx8Jn6fM21dcfyzHq8cay
+xuGseTDnMJpz2pdzHMk5D+caduWa6v6p+czafU71s6p1+/cGAADYqt52/9va
+++6tXt331j3v0TTeoj5e966v6lv3Vv/uWfWr9LJm9tzMpN+UW3eaVV9s00yY
+CzfC7bAQFhvuhjt57maYD9er9c+VcDlcCtMd1AQAADafqXQhTabz6VyL+vhk
+Xl/uLX1D6UFmw9VwrVrvL0o/cqta7ztKD3Iv/BLuh1/DSngYHoXfwlp4Ep6F
+38Pz8Ed4Ef5Mf71Gff5F3vM8x3iWY65ljUdZcyXncD/ndC/neDvnfCPXcC3X
+NJtrnG48r3afU/2s6uc11QO/OwAAwFbzLvrfksWVjK30kSV3KxncUlgOD6qN
+vnc1PK42+t7iaaq/r+U1q9VG3/ogx1rKse9krfmsrV+l15R9WDLmkjWXzLl8
+yvuVsmdLJl3eu5R9XN7BNLPrhTxX3seUvT3TQc2Xbfr7LWq3JgAAwH95m33K
+u9Dt5wMAAMDmp2dlK+vGnu/2+yQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYPN42aZu
+1AQAAAAAAICtrNsZIXRTN/b8xTbNhLlwI9wOC2Gx4W64k+duhvlwvVr/XAmX
+w6Uw3UFNAAAAAAAA6EVT6UKaTOfTuRb18cm8vtxbcrOSwc2Gq9V6FlcytlvV
+eu5WMrilsBwehJXwMKyGx2EtPElPU/19La9ZzXtWcozlHHMxa9zKmnM5h9mc
+03Rjfe2uq15bvb6pHvid2NzKPiwZc8maS+ZcPiWDLnu2ZNIlmy77uGTVzex6
+Ic+VbLvs7ZkOau7owEAYTDtfY7BhoKGTOgAAAAAAANDr+hu2t9jWonmuvzFG
+nbsNhd1hOOwJI2Fv2B9Gw4FwMBwKR8JYOJrGW9THx/LaQ3nvgRxrf449krWG
+s/ZQtZH3NdfY7rrqtdW6/fvw/9LMnpuZ9Jty646y6n8AhCP7tg==
+         "], {{0, 26}, {
+         2000, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{2000, 26},
+        PlotRange->{{0, 2000}, {0, 26}}], 
+       GraphicsBox[RasterBox[CompressedData["
+1:eJy9lktLQkEUxyVdCBIELaxctYq+QduWbcKMPoCSRRsDC6JPp+Lj4vuq+EBc
+iBtFfIYrpU7nPzQiN++9vmrgp/dx5j8z55w5c099z56HPYvF8mLnH4/37TIY
+9L7fHvDNXeDl6THgv78KvPof/cELn5UfnjBHjI3J5/OudVBV9bhUKjmbzaad
+iCxmcB9lAxKMmzmv1+v7JvpfG/DJjJkic8NrOut0OlYdfdoCjPXBqMx1q9Vy
+7FhfgvX0MUa73bYZ6edyuTnrvPsZQ4Wv9PTRL5vNroTOGIiJu9FoOLT6UjuT
+yVAqlaJkMin+0+m0YPEZbHTGQDwKyKtl+ugHjdFoRIVCgeLxOCUSCQGua7Ua
+9Xo9YQNbozXI/aHVZ//RcDik2WxG5XKZwuGwANdo0JfrNIhDvFqtHi7zD+YW
+i8VoMBgIvWKxKEDrdrtiHbAxiAF8pHAf5zJ9+Bca0WiUxuMxydbv98U64CvY
+wNZgTyioI9r8QR/EEvrQUhRlrh8Kheb6sDHTZ1xG84ePMP/pdPpr/tvoL/of
+Mcb9Jv7X+mcxP2X+QCMSiYh5VyoVMQbXMbP81I2vzM/JZCLyX+a+BPmPvbFN
+fmr36pr713B/rVp7THy/tD6Y1cjF5zrahvVtB5jW5y21B/kVzpc1kecjfK53
+Pu7kfNfO+x+/T/70++ob7NUEtQ==
+         "], {{0, 26}, {24, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{24, 26},
+        PlotRange->{{0, 24}, {0, 26}}]}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {Automatic, 
+         Scaled[0.6], Automatic}},
+     GridBoxSpacings->{"Columns" -> {{0}}, "Rows" -> {{0}}}],
+    "Grid"], 
+   PaneBox[
+    StyleBox[
+     RowBox[{
+     "Background", " ", "images", " ", "and", " ", "text", " ", "colors", " ",
+       "have", " ", "been", " ", "adjusted", " ", "for", " ", "editing", " ", 
+      
+      RowBox[{"purposes", "."}]}],
+     LineBreakWithin->False,
+     FontFamily->"Helvetica",
+     FontSize->12,
+     FontColor->GrayLevel[0.4]],
+    Alignment->Center,
+    ImageSize->Scaled[0.5],
+    ScrollPosition->{0., 0.}]},
+   Alignment->{Center, Center}], 2->""}, "1"]], "SlideShowNavigationBar", \
+"FirstSlide",
+ CellMargins->{{0, 0}, {0, 0}},
+ CellFrameLabelMargins->2,
+ CellSize->{Inherited, 30},
+ CellChangeTimes->{3.647361175465108*^9},
+ TextAlignment->Center,
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"50733e17-ecf3-49ba-9395-dd0a313f64f1"],
+
+Cell["\<\
+Digital Research Methods 09A:
+Markup Languages\
+\>", "Title",
+ CellChangeTimes->{
+  3.559948400406288*^9, {3.647331852839075*^9, 3.647331861295168*^9}, {
+   3.647331922221755*^9, 3.647331924532915*^9}, {3.647332658962614*^9, 
+   3.64733266480881*^9}, {3.6473611327373047`*^9, 3.647361139759391*^9}, {
+   3.647448943135475*^9, 3.6474489472294493`*^9}, {3.6541586257875633`*^9, 
+   3.654158631217699*^9}},ExpressionUUID->"a43fb5cf-aafd-4ed3-af5e-\
+afd7c6d8e52d"],
+
+Cell[TextData[{
+ "William J Turkel, ",
+ StyleBox["wturkel@uwo.ca",
+  FontSlant->"Italic",
+  FontColor->RGBColor[
+   0.396078431372549, 0.596078431372549, 0.796078431372549]],
+ "\nHistory 2816 / Digital Humanities 2130 / History 9877"
+}], "Subtitle",
+ CellChangeTimes->{{3.647331955723979*^9, 3.6473319708190517`*^9}, 
+   3.647332103720562*^9},ExpressionUUID->"f8b4c8e8-8ea9-4d65-8b1e-\
+fe54decd4c00"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"975524f6-c38b-433b-8a1b-206bfe06f7d6"],
+
+Cell[CellGroupData[{
+
+Cell["Overview", "Section",
+ CellChangeTimes->{{3.647361153919208*^9, 
+  3.6473611548467712`*^9}},ExpressionUUID->"092b1134-d056-4676-bcdf-\
+5f70a67030e3"],
+
+Cell[TextData[{
+ "When information is presented online, the content provider needs some way \
+of indicating how different elements are supposed to look, how they are \
+related to one another, and, at least to some extent, what they mean. All of \
+this ",
+ StyleBox["metadata",
+  FontSlant->"Italic"],
+ " can be provided in the form of ",
+ StyleBox["tags",
+  FontSlant->"Italic"],
+ " which are added to a text file. The process of adding such information is \
+called \[OpenCurlyQuote]marking up\[CloseCurlyQuote] a file, hence \
+\[OpenCurlyQuote]markup languages\[CloseCurlyQuote]."
+}], "Text",
+ CellChangeTimes->{{3.647361157582405*^9, 3.647361159086673*^9}, 
+   3.6541593295570793`*^9},ExpressionUUID->"5d253a30-a02d-46c8-8f1e-\
+d201e5af26c3"],
+
+Cell["\<\
+HTML, the HyperText Markup Language, is widely used on the web, so we will \
+begin with it. Then we will turn to a more general markup language called XML.\
+\>", "Text",
+ CellChangeTimes->{{3.654159408261732*^9, 3.6541594609390717`*^9}, {
+  3.654166062522862*^9, 
+  3.654166076833004*^9}},ExpressionUUID->"1d4e8ede-a219-4b98-a00f-\
+e1144c3eff1e"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"552933e5-08e7-41e1-99c6-d0b4d36342ce"],
+
+Cell[CellGroupData[{
+
+Cell["Setup", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.654163269552444*^9, 
+  3.654163270207502*^9}},ExpressionUUID->"b3046aef-aca9-4b65-a92f-\
+dec37f3d3397"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"viewData", "[", "x_", "]"}], ":=", "\[IndentingNewLine]", 
+  RowBox[{"Framed", "[", 
+   RowBox[{"Pane", "[", 
+    RowBox[{"x", ",", 
+     RowBox[{"{", 
+      RowBox[{"Automatic", ",", "200"}], "}"}], ",", 
+     RowBox[{"Scrollbars", "\[Rule]", "True"}]}], "]"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.511539182255096*^9, 3.51153920239167*^9}},
+ CellLabel->"In[1]:=",ExpressionUUID->"223443f4-4627-4553-a127-d604b5716872"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"81a31051-a3dd-4fe3-8c78-5e2020c96548"],
+
+Cell[CellGroupData[{
+
+Cell["HTML: HyperText Markup Language", "Section",
+ CellChangeTimes->{{3.647716369451888*^9, 3.647716370003084*^9}, {
+  3.647798474690284*^9, 3.6477984752570744`*^9}, {3.654159350320114*^9, 
+  3.654159373718552*^9}},ExpressionUUID->"0fafe4d4-1709-4386-9afc-\
+f50ac5ae7b9c"],
+
+Cell[TextData[{
+ "In the Hypertext Markup Language (HTML) you can indicate that some text is \
+to be emphasized with the ",
+ StyleBox["em",
+  FontSlant->"Italic"],
+ " tag. Emphasized text is usually rendered with italic font."
+}], "Text",
+ CellChangeTimes->{{3.6458894610786552`*^9, 
+  3.645889509380952*^9}},ExpressionUUID->"09d995a2-0bf6-4188-a17d-\
+cc1650999920"],
+
+Cell[BoxData[
+ RowBox[{"EmbeddedHTML", "[", 
+  "\"\<This <em>italicized</em> word is in italics\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.645725373664715*^9, 3.645725411216551*^9}, {
+  3.645725457031631*^9, 3.645725494909481*^9}, {3.645980683153906*^9, 
+  3.645980688120593*^9}},
+ CellLabel->"In[2]:=",ExpressionUUID->"c61e90e9-40ca-4a91-8ffe-ccbd5cba07e0"],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["EmbeddedHTML",
+  FontWeight->"Bold"],
+ " command takes an HTML string and creates a button. When you click on the \
+button above in your ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " notebook, it opens the string in your default web browser. There you \
+should see the text with the word \[OpenCurlyQuote]italicized\
+\[CloseCurlyQuote] in italics."
+}], "Text",
+ CellChangeTimes->{{3.645889513620696*^9, 3.6458895816581717`*^9}, {
+   3.6458896198257923`*^9, 3.645889620721019*^9}, 3.6458897560056953`*^9, {
+   3.64598065323499*^9, 
+   3.645980697560033*^9}},ExpressionUUID->"a61b04d4-d4ff-4f32-93ef-\
+0b9fbfde9afd"],
+
+Cell[TextData[{
+ "Tags that are used to indicate a span of material have a beginning tag \
+(like ",
+ StyleBox["<em>",
+  FontSlant->"Italic"],
+ ") and an ending tag (like ",
+ StyleBox["</em>",
+  FontSlant->"Italic"],
+ "). The paragraph tag works in a similar fashion to the emphasis tag."
+}], "Text",
+ CellChangeTimes->{{3.645889773611134*^9, 3.645889966124249*^9}, {
+  3.645890022618145*^9, 
+  3.6458900689203053`*^9}},ExpressionUUID->"cda02252-512e-4331-8f6c-\
+3ae663cbe744"],
+
+Cell[BoxData[
+ RowBox[{"EmbeddedHTML", "[", 
+  "\"\<<p>This the <em>first</em> paragraph.</p><p>This the <em>second</em> \
+paragraph.</p>\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.645725373664715*^9, 3.645725411216551*^9}, {
+  3.645725457031631*^9, 3.645725494909481*^9}, {3.645889973036777*^9, 
+  3.6458900028110323`*^9}},
+ CellLabel->"In[3]:=",ExpressionUUID->"a6b98a9b-a286-4eb7-948f-3737c3c1dcf1"],
+
+Cell[CellGroupData[{
+
+Cell["Nesting", "Subsubsection",
+ CellChangeTimes->{{3.654162785449944*^9, 
+  3.6541627860811853`*^9}},ExpressionUUID->"acc72ace-d64c-40cc-97d8-\
+f41196b36b38"],
+
+Cell[TextData[{
+ "Note that tags have to be ",
+ StyleBox["properly nested",
+  FontSlant->"Italic"],
+ ". That means that the following is OK"
+}], "Text",
+ CellChangeTimes->{{3.64589057410183*^9, 3.645890605772875*^9}, {
+  3.645973276370764*^9, 3.645973276466948*^9}, {3.645980734199953*^9, 
+  3.6459807355426283`*^9}},ExpressionUUID->"383acacb-3dbe-498d-bcfb-\
+995f9c15ee57"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"<", "outer", ">", "<", "inner", ">"}], "..."}], "<", 
+  RowBox[{"/", "inner"}], ">", "<", 
+  RowBox[{"/", "outer"}], ">"}]], "DisplayFormula",
+ CellChangeTimes->{{3.6458906097829*^9, 
+  3.645890633971863*^9}},ExpressionUUID->"ecb9f1a4-91fb-486c-bb01-\
+804288270709"],
+
+Cell["But that this is not OK", "Text",
+ CellChangeTimes->{{3.6458906365877*^9, 3.6458906487872267`*^9}, {
+  3.645980739030323*^9, 
+  3.645980739830593*^9}},ExpressionUUID->"12626da3-d14f-4276-a646-\
+bcd1324a299d"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"<", "outer", ">", "<", "inner", ">"}], "..."}], "<", 
+  RowBox[{"/", "outer"}], ">", "<", 
+  RowBox[{"/", "inner"}], ">"}]], "DisplayFormula",
+ CellChangeTimes->{{3.6458906097829*^9, 
+  3.64589065893281*^9}},ExpressionUUID->"9b61a8ce-f912-42a4-880c-\
+27dde1210b17"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Single location tags", "Subsubsection",
+ CellChangeTimes->{{3.65416279392885*^9, 
+  3.6541627974325438`*^9}},ExpressionUUID->"e8acaca0-973a-4967-9cea-\
+3431fba81907"],
+
+Cell[TextData[{
+ "Some tags are used in a single location. The line break tag is an example. \
+Note that the syntax for these kind of tags looks like ",
+ StyleBox["<br/>",
+  FontSlant->"Italic"],
+ ". Compare this example with the previous one."
+}], "Text",
+ CellChangeTimes->{{3.645890041961445*^9, 3.645890109135055*^9}, {
+  3.64589014763844*^9, 
+  3.645890168236987*^9}},ExpressionUUID->"b1a767c0-4bae-4e2c-ae23-\
+f587b1431c82"],
+
+Cell[BoxData[
+ RowBox[{"EmbeddedHTML", "[", 
+  "\"\<<p>This the <br/><em>first</em> paragraph.</p><p>This the \
+<br/><em>second</em> paragraph.</p>\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.645725373664715*^9, 3.645725411216551*^9}, {
+  3.645725457031631*^9, 3.645725494909481*^9}, {3.645889973036777*^9, 
+  3.6458900028110323`*^9}, {3.645890122535345*^9, 3.645890135790104*^9}},
+ CellLabel->"In[4]:=",ExpressionUUID->"91c7470e-dbd9-41bb-9cdd-709080c83322"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"a2893c09-9be1-4f6a-96bf-eabc7422f479"],
+
+Cell[CellGroupData[{
+
+Cell["Special characters", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+   3.654162390801433*^9, 3.65416239527153*^9}, 
+   3.654162822231695*^9},ExpressionUUID->"a629871a-a880-4112-804f-\
+ea977d494aca"],
+
+Cell[TextData[{
+ "A string that begins with an ampersand and ends with a semicolon represents \
+a special character in HTML. Suppose, for example, that you want to put a \
+left angle bracket on your page. Since that character is used in every tag, \
+you need to have some way of telling the web browser that you are ",
+ StyleBox["mentioning",
+  FontSlant->"Italic"],
+ " the character rather than ",
+ StyleBox["using",
+  FontSlant->"Italic"],
+ " it to define a tag. In HTML, you can represent a left angle bracket with \
+",
+ StyleBox["&lt;",
+  FontSlant->"Italic"],
+ " (the \[OpenCurlyQuote]lt\[CloseCurlyQuote] stands for \
+\[OpenCurlyQuote]less than\[CloseCurlyQuote]). Likewise, if you need to \
+mention an ampersand you can do so with ",
+ StyleBox["&amp; ",
+  FontSlant->"Italic"],
+ "as shown in the example below. The ",
+ StyleBox["strong",
+  FontSlant->"Italic"],
+ " tag is usually rendered as boldface."
+}], "Text",
+ CellChangeTimes->{{3.645973460492125*^9, 3.645973516386112*^9}, {
+  3.645973550625763*^9, 3.645973680388454*^9}, {3.6459738577107553`*^9, 
+  3.645973903268157*^9}, {3.64598077405519*^9, 
+  3.645980790469102*^9}},ExpressionUUID->"aa5188bb-ec30-4ced-9d09-\
+79213f3aba3c"],
+
+Cell[BoxData[
+ RowBox[{"EmbeddedHTML", "[", 
+  "\"\<It is <strong>true</strong> that 4&lt;8 &amp; 4&gt;2.\>\"", 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.645973711715814*^9, 3.645973836039153*^9}},
+ CellLabel->"In[5]:=",ExpressionUUID->"aa8cbee7-0170-47f8-9bf0-cff08ffff217"],
+
+Cell[CellGroupData[{
+
+Cell["Character codes", "Subsubsection",
+ CellChangeTimes->{{3.654162815023937*^9, 
+  3.65416281900797*^9}},ExpressionUUID->"d909958a-dadf-4958-ae0d-\
+9835985d82fa"],
+
+Cell[TextData[{
+ "Sometimes special characters are represented with HTML ",
+ StyleBox["character codes",
+  FontSlant->"Italic"],
+ ". These begin with an ampersand and end with a semicolon. In the middle \
+they have a number sign (#) followed by an integer. Below we will see an \
+example that uses the code ",
+ StyleBox["&#8216;",
+  FontSlant->"Italic"],
+ " to stand for a left single quotation mark and ",
+ StyleBox["&#8217;",
+  FontSlant->"Italic"],
+ " to stand for a right single quotation mark. It also uses the code ",
+ StyleBox["&#8211;",
+  FontSlant->"Italic"],
+ " to represent what is called an ",
+ StyleBox["en dash",
+  FontSlant->"Italic"],
+ ", a dash that is the width of the lowercase letter ",
+ StyleBox["n",
+  FontSlant->"Italic"],
+ ". It is wider than a hyphen and narrower than an ",
+ StyleBox["em dash,",
+  FontSlant->"Italic"],
+ " which is the width of an uppercase ",
+ StyleBox["M",
+  FontSlant->"Italic"],
+ ".) You can use the ",
+ StyleBox["FromCharacterCode",
+  FontWeight->"Bold"],
+ " command to discover what symbol is being represented."
+}], "Text",
+ CellChangeTimes->{{3.6464981641602793`*^9, 3.6464982731652107`*^9}, {
+  3.646498317389587*^9, 3.6464983842250547`*^9}, {3.6464984147346487`*^9, 
+  3.64649843081529*^9}},ExpressionUUID->"24aa4824-1d82-4ba9-967d-\
+49e95344aa25"],
+
+Cell[BoxData[
+ RowBox[{"FromCharacterCode", "[", 
+  RowBox[{"{", 
+   RowBox[{"8216", ",", "8217", ",", "8211"}], "}"}], "]"}]], "Input",
+ CellChangeTimes->{{3.646498123395268*^9, 3.646498129873186*^9}, {
+  3.646498443726337*^9, 3.646498451254447*^9}},
+ CellLabel->"In[6]:=",ExpressionUUID->"63ce7827-b61c-47d9-854b-f40a9ab9f1d0"],
+
+Cell[TextData[{
+ "You can also convert a string containing an HTML character code into an \
+integer with ",
+ StyleBox["StringDelete",
+  FontWeight->"Bold"],
+ " and ",
+ StyleBox["ToExpression",
+  FontWeight->"Bold"],
+ ", then use that to look up the character code."
+}], "Text",
+ CellChangeTimes->{{3.6464985465216084`*^9, 
+  3.6464986191600313`*^9}},ExpressionUUID->"678b0d72-2281-4ea6-8f56-\
+c46121b80800"],
+
+Cell[BoxData[
+ RowBox[{"ToExpression", "[", 
+  RowBox[{"StringDelete", "[", 
+   RowBox[{"\"\<&#8216;\>\"", ",", 
+    RowBox[{"Except", "[", "DigitCharacter", "]"}]}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.646498473896641*^9, 3.646498528586224*^9}},
+ CellLabel->"In[7]:=",ExpressionUUID->"473b7f6d-a2cf-445a-9d89-40324e81f679"],
+
+Cell[BoxData[
+ RowBox[{"FromCharacterCode", "@", 
+  RowBox[{"ToExpression", "[", 
+   RowBox[{"StringDelete", "[", 
+    RowBox[{"\"\<&#8216;\>\"", ",", 
+     RowBox[{"Except", "[", "DigitCharacter", "]"}]}], "]"}], 
+   "]"}]}]], "Input",
+ CellChangeTimes->{{3.646498473896641*^9, 3.646498505637135*^9}, {
+  3.646498536918882*^9, 3.64649854002676*^9}},
+ CellLabel->"In[8]:=",ExpressionUUID->"dd3ce3ff-ac9b-4f06-99f8-67f79bb99259"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"10669110-903f-489a-81e1-5c5685b39a6d"],
+
+Cell[CellGroupData[{
+
+Cell["HTML pages and anchors", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.654162679590764*^9, 
+  3.654162684428938*^9}},ExpressionUUID->"76906ead-bab0-4e5c-9ede-\
+1367f9458f7c"],
+
+Cell["\<\
+The example strings that we have been looking at are HTML fragments. A \
+minimal HTML page needs to include a number of other tags that indicate what \
+kind of document it is, where the HTML begins and ends, a head section that \
+includes the title and other metadata, and a body section that includes the \
+visible body of the page. Here is a more complete HTML page.\
+\>", "Text",
+ CellChangeTimes->{{3.6458908870263453`*^9, 3.645890990039036*^9}, {
+  3.6459733066737003`*^9, 3.6459733072497797`*^9}, {3.654163945720223*^9, 
+  3.654163947630782*^9}},ExpressionUUID->"42b6c418-c3cf-41bb-b7f1-\
+3652f2cecdce"],
+
+Cell[BoxData[
+ RowBox[{"EmbeddedHTML", "[", 
+  "\"\<<!DOCTYPE html>\n<html>\n  <head>\n    <title>This is a title</title>\n\
+  </head>\n  <body>\n    <!-- this is a comment -->\n    <p>Hello world!</p>\n\
+  </body>\n</html>\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.6458910014974813`*^9, 3.645891017062695*^9}, {
+  3.654163969069807*^9, 3.654163990086535*^9}, {3.654164059571158*^9, 
+  3.654164064250558*^9}},
+ CellLabel->"In[9]:=",ExpressionUUID->"077194b9-7007-4af2-94c7-76e95ec96036"],
+
+Cell[CellGroupData[{
+
+Cell["Comments", "Subsubsection",
+ CellChangeTimes->{{3.654163951086215*^9, 
+  3.654163951902534*^9}},ExpressionUUID->"069e4929-d5d9-409d-92d6-\
+2969e48330f1"],
+
+Cell["\<\
+Note that the material inside the comment tags is visible in the code, but \
+not when the page is displayed in the browser.\
+\>", "Text",
+ CellChangeTimes->{{3.654163954294176*^9, 3.6541639599742126`*^9}, {
+  3.6541640095098057`*^9, 
+  3.654164055906764*^9}},ExpressionUUID->"2756c332-b347-4adc-b25e-\
+f9b9a848c022"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Anchors", "Subsubsection",
+ CellChangeTimes->{{3.6541627311239777`*^9, 
+  3.654162731891231*^9}},ExpressionUUID->"ece7aecc-8654-43ac-8f26-\
+afe1df8e15d5"],
+
+Cell[TextData[{
+ "One of the most useful HTML tags is the anchor tag, which is used to create \
+a hyperlink. Suppose that we want to create a link to the URL ",
+ StyleBox["http://digitalarchive.wilsoncenter.org",
+  FontSlant->"Italic"],
+ " and we want to label the link \[OpenCurlyDoubleQuote]Wilson Center Digital \
+Archive\[CloseCurlyDoubleQuote]. Then the HTML for the hyperlink looks like \
+this"
+}], "Text",
+ CellChangeTimes->{{3.645890829381888*^9, 3.6458908403399973`*^9}, {
+  3.645890880884245*^9, 3.6458908824106693`*^9}, {3.64589110737154*^9, 
+  3.645891124290038*^9}, {3.645891172248144*^9, 3.645891173296185*^9}, {
+  3.6458912309499407`*^9, 3.645891292523892*^9}, {3.645891340088027*^9, 
+  3.645891387648481*^9}, {3.645974314392694*^9, 3.6459743302768993`*^9}, {
+  3.735296005578074*^9, 
+  3.735296020801064*^9}},ExpressionUUID->"7e5d782a-ea0f-436e-9007-\
+ad13be0bc13e"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"<", 
+   RowBox[{"a", " ", "href"}]}], "=", 
+  RowBox[{"\"\<http://digitalarchive.wilsoncenter.org\>\"", ">", 
+   RowBox[{"Wilson", " ", "Center", " ", "Digital", " ", "Archive"}], "<", 
+   RowBox[{"/", "a"}], ">"}]}]], "DisplayFormula",
+ CellChangeTimes->{{3.64589139803483*^9, 3.645891426462954*^9}, {
+  3.645974335295624*^9, 3.645974342724325*^9}, {3.735296024798341*^9, 
+  3.735296034960369*^9}},ExpressionUUID->"f17a135e-65ca-4d8b-a711-\
+144a0fdf4afd"],
+
+Cell[TextData[{
+ "The part inside the tag that looks like ",
+ StyleBox["href=\[OpenCurlyDoubleQuote]URL\[CloseCurlyDoubleQuote]",
+  FontSlant->"Italic"],
+ " is called an ",
+ StyleBox["attribute",
+  FontSlant->"Italic"],
+ ". Attributes are typically pairs of names and values, and are used to \
+provide more information."
+}], "Text",
+ CellChangeTimes->{{3.645891621824458*^9, 
+  3.6458917345558434`*^9}},ExpressionUUID->"55198e85-e9c8-43eb-b9db-\
+3dceb6ea6402"],
+
+Cell[TextData[{
+ "Since we are putting our HTML inside a string to test it with the ",
+ StyleBox["EmbeddedHTML",
+  FontWeight->"Bold"],
+ " command, we have to ",
+ StyleBox["escape",
+  FontSlant->"Italic"],
+ " the interior quotation marks by putting backslashes in front of them. This \
+is another example of ",
+ StyleBox["mentioning",
+  FontSlant->"Italic"],
+ " something rather than ",
+ StyleBox["using",
+  FontSlant->"Italic"],
+ " it. We don\[CloseCurlyQuote]t want ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " to interpret the inside pair of quotation marks as beginning and ending a \
+string."
+}], "Text",
+ CellChangeTimes->{{3.6458914332544622`*^9, 3.645891477276923*^9}, {
+  3.645891584810645*^9, 3.645891592464912*^9}, {3.6459733911986313`*^9, 
+  3.645973405062295*^9}, {3.645974363171509*^9, 3.6459743640836477`*^9}, {
+  3.645980949856462*^9, 
+  3.645981022356653*^9}},ExpressionUUID->"18da3e8a-9d87-49f2-a544-\
+db52d37e41ed"],
+
+Cell[BoxData[
+ RowBox[{"EmbeddedHTML", "[", 
+  "\"\<<a href=\\\"http://digitalarchive.wilsoncenter.org\\\">Wilson Center \
+Digital Archive</a>\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.645891142666451*^9, 3.64589124328438*^9}, 
+   3.645891276796472*^9, {3.645891360626626*^9, 3.645891370169146*^9}, {
+   3.645974350472187*^9, 3.645974357659863*^9}, {3.735296046229641*^9, 
+   3.735296055951846*^9}},
+ CellLabel->"In[10]:=",ExpressionUUID->"3d25db3e-1fd5-41a2-8290-cd83489fedec"],
+
+Cell[TextData[{
+ "When you visit a web page with a browser you see the rendered page rather \
+than the HTML (and other web technologies) that lay behind it. But most \
+browsers also allow you to view the page source, so you can see how the web \
+developer(s) accomplished a particular effect. Studying the page source also \
+allows you to write programs that extract information from web pages, a \
+process known as ",
+ StyleBox["scraping",
+  FontSlant->"Italic"],
+ ". We will explore some examples in the next lesson."
+}], "Text",
+ CellChangeTimes->{{3.64589034343117*^9, 3.645890528647599*^9}, {
+   3.645890701898099*^9, 3.645890813773497*^9}, {3.645973424759055*^9, 
+   3.645973425541654*^9}, 3.645979991089271*^9, {3.645981049092886*^9, 
+   3.645981050747622*^9}, {3.654162770642066*^9, 
+   3.654162774177795*^9}},ExpressionUUID->"f7b15c97-6089-448c-a42d-\
+fcbdf9089325"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Adding a hyperlink directly to your notebook", "Subsubsection",
+ CellChangeTimes->{{3.654163569276391*^9, 
+  3.654163578092186*^9}},ExpressionUUID->"cf91dcda-c020-4e7e-b5ef-\
+97084c951211"],
+
+Cell["\<\
+If you want to format some text as a hyperlink in your notebook, paste it \
+into a separate cell (formatted as Style \[Rule] Text)\
+\>", "Text",
+ CellChangeTimes->{{3.65416358057987*^9, 
+  3.6541636222346897`*^9}},ExpressionUUID->"80b44aa4-c607-46fd-8911-\
+3e12b5180217"],
+
+Cell["http://digitalarchive.wilsoncenter.org", "Text",
+ CellChangeTimes->{{3.654163627786201*^9, 3.6541636337622747`*^9}, 
+   3.735296077292078*^9},ExpressionUUID->"6be53c79-dfe0-4405-aff3-\
+56e2878baf26"],
+
+Cell["\<\
+Then select the text and choose Insert \[Rule] Hyperlink and paste the target \
+URL into the box under \[OpenCurlyDoubleQuote]Other notebook or URL\
+\[CloseCurlyDoubleQuote]\
+\>", "Text",
+ CellChangeTimes->{{3.654163637825786*^9, 
+  3.654163700623806*^9}},ExpressionUUID->"a1caf2b4-21e3-4954-9b0f-\
+eeca923a333f"],
+
+Cell[TextData[ButtonBox["http://digitalarchive.wilsoncenter.org",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["http://digitalarchive.wilsoncenter.org"], None},
+ ButtonNote->"http://digitalarchive.wilsoncenter.org"]], "Text",
+ CellChangeTimes->{{3.735296097730905*^9, 
+  3.7352961034108753`*^9}},ExpressionUUID->"7ba2895b-e793-450e-97e7-\
+88ce148cf30b"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"b48f8e8d-e5aa-4a42-ad99-0db0a7a2fd3c"],
+
+Cell[CellGroupData[{
+
+Cell["Manually archiving a web page in the Wayback Machine", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.654162880031472*^9, 
+  3.654162889597333*^9}},ExpressionUUID->"62ff69ba-91f2-40a0-87ba-\
+e926b87fc5a3"],
+
+Cell[TextData[{
+ "The Internet Archive\[CloseCurlyQuote]s ",
+ StyleBox["Wayback Machine",
+  FontSlant->"Italic"],
+ " allows you to explore the way that particular web pages looked in the past \
+(at least approximately; the details are a bit more complicated). The \
+Internet Archive automatically archives web sites at regular intervals, but \
+if you have a URL that you want added to the ",
+ StyleBox["Wayback Machine",
+  FontSlant->"Italic"],
+ " at at particular time, you can go to the following page and paste the URL \
+that you want to archive in the box under \[OpenCurlyDoubleQuote]Save Page \
+Now.\[CloseCurlyDoubleQuote]"
+}], "Text",
+ CellChangeTimes->{{3.654163112953032*^9, 
+  3.654163159899411*^9}},ExpressionUUID->"ab2e6097-688d-49ec-8e5c-\
+1df67c2efc27"],
+
+Cell[TextData[ButtonBox["https://archive.org/web/",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://archive.org/web/"], None},
+ ButtonNote->"https://archive.org/web/"]], "Text",
+ CellChangeTimes->{{3.645978735427964*^9, 3.6459787363455553`*^9}, {
+   3.649251694054845*^9, 3.649251710319685*^9}, {3.6856370344225473`*^9, 
+   3.685637034423294*^9}, 3.685637067248011*^9, {3.685637151295053*^9, 
+   3.685637161675445*^9}},ExpressionUUID->"84297238-5f40-445b-9998-\
+4097f0ea4ec2"],
+
+Cell["On May 14, 2018, I saved a copy of this page", "Text",
+ CellChangeTimes->{{3.645978755698104*^9, 3.645978774836941*^9}, {
+  3.645978864922471*^9, 3.645978867241681*^9}, {3.735296130677639*^9, 
+  3.735296133212832*^9}},ExpressionUUID->"1dab3b70-dcfb-4118-834c-\
+b9cefca5d01c"],
+
+Cell[TextData[ButtonBox["http://digitalarchive.wilsoncenter.org",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["http://digitalarchive.wilsoncenter.org"], None},
+ ButtonNote->"http://digitalarchive.wilsoncenter.org"]], "Text",
+ CellChangeTimes->{
+  3.735296145657033*^9},ExpressionUUID->"cad184c1-c815-43f3-a254-\
+fc6ff64e2d53"],
+
+Cell["The archived page is at", "Text",
+ CellChangeTimes->{{3.6459788104680433`*^9, 3.6459788185073233`*^9}, {
+  3.645978873393092*^9, 
+  3.645978875161365*^9}},ExpressionUUID->"6eee6dbf-a489-468f-9a00-\
+d0c727064c80"],
+
+Cell[TextData[ButtonBox["https://web.archive.org/web/20180514141602/http://\
+digitalarchive.wilsoncenter.org",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://web.archive.org/web/20180514141602/http://digitalarchive.\
+wilsoncenter.org"], None},
+ ButtonNote->
+  "https://web.archive.org/web/20180514141602/http://digitalarchive.\
+wilsoncenter.org"]], "Text",
+ CellChangeTimes->{{3.73529619488853*^9, 
+  3.735296198848421*^9}},ExpressionUUID->"0057dbe8-94a7-4c22-b9fe-\
+5ba4221dec32"],
+
+Cell["\<\
+By using the archived page for our example (rather than the live page) we can \
+be sure that the example will continue to work as long as we want it to. Note \
+that other pages that are linked from an archived page will not be \
+automatically archived.\
+\>", "Text",
+ CellChangeTimes->{{3.645979703179871*^9, 3.6459797475860977`*^9}, {
+  3.649251207937829*^9, 
+  3.649251251679516*^9}},ExpressionUUID->"f48209d6-5035-42e2-b31c-\
+017b48bbb0f3"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"c23e5729-e1f6-4c99-9dcd-9fb83745b0bc"],
+
+Cell[CellGroupData[{
+
+Cell["Viewing HTML page source", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.654164095226959*^9, 
+  3.654164099025004*^9}},ExpressionUUID->"87ea641f-6546-47a4-ac01-\
+12d6a66d156a"],
+
+Cell["\<\
+We can compare a web page with the source that was used to create it. Open \
+the following link in a browser\
+\>", "Text",
+ CellChangeTimes->{{3.654166919179051*^9, 
+  3.654166943866084*^9}},ExpressionUUID->"069bb67e-d2d5-42e0-b6de-\
+c6183c77a9a1"],
+
+Cell[TextData[ButtonBox["https://web.archive.org/web/20180514141602/http://\
+digitalarchive.wilsoncenter.org",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://web.archive.org/web/20180514141602/http://digitalarchive.\
+wilsoncenter.org"], None},
+ ButtonNote->
+  "https://web.archive.org/web/20180514141602/http://digitalarchive.\
+wilsoncenter.org"]], "Text",
+ CellChangeTimes->{{3.7352962153191233`*^9, 
+  3.735296220935705*^9}},ExpressionUUID->"1a44c113-5147-4bde-a2f8-\
+9979aec2c7d8"],
+
+Cell[TextData[{
+ "We have seen that we can use the ",
+ StyleBox["Import",
+  FontWeight->"Bold"],
+ " command to request the title, hyperlinks and plaintext from a web page. We \
+can also request the HTML source."
+}], "Text",
+ CellChangeTimes->{{3.6458917569722023`*^9, 3.645891768922327*^9}, {
+   3.645891810162025*^9, 3.6458918579753838`*^9}, {3.645891903910967*^9, 
+   3.6458920150336123`*^9}, {3.645892046016464*^9, 3.6458921686522007`*^9}, {
+   3.64589221033928*^9, 3.6458922353698673`*^9}, 3.645974477720295*^9, {
+   3.645980025241431*^9, 3.6459800798623867`*^9}, 
+   3.654166331658016*^9},ExpressionUUID->"cd2a2256-2ef8-452c-8439-\
+c5a4cdce95fa"],
+
+Cell[BoxData[
+ RowBox[{"Import", "[", 
+  RowBox[{
+  "\"\<https://web.archive.org/web/20180514141602/http://digitalarchive.\
+wilsoncenter.org\>\"", ",", "\"\<Elements\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.6445942877590227`*^9, 3.644594310728959*^9}, 
+   3.645974386206222*^9, 3.645979857905024*^9, 3.735296233806816*^9},
+ CellLabel->"In[11]:=",ExpressionUUID->"be167151-db9c-4573-8b19-584db332105e"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"wilsonCenterSource", "=", 
+   RowBox[{"Import", "[", 
+    RowBox[{
+    "\"\<https://web.archive.org/web/20180514141602/http://digitalarchive.\
+wilsoncenter.org\>\"", ",", "\"\<Source\>\""}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.645975046833542*^9, 3.645975114384987*^9}, 
+   3.6459798706640787`*^9, {3.735296261145074*^9, 3.7352962720292788`*^9}},
+ CellLabel->"In[12]:=",ExpressionUUID->"2e2aa9bf-1f3b-4908-bdd2-3793bcc24875"],
+
+Cell[TextData[{
+ "Here is the source for the ",
+ StyleBox["Darwin Correspondence Project",
+  FontSlant->"Italic"],
+ " homepage as it appeared on May 14, 2018. Notice that some of the tags are \
+already familiar: ",
+ StyleBox["!DOCTYPE",
+  FontSlant->"Italic"],
+ ", ",
+ StyleBox["html",
+  FontSlant->"Italic"],
+ ", ",
+ StyleBox["head",
+  FontSlant->"Italic"],
+ ", ",
+ StyleBox["title",
+  FontSlant->"Italic"],
+ ", ",
+ StyleBox["body",
+  FontSlant->"Italic"],
+ ", ",
+ StyleBox["a",
+  FontSlant->"Italic"],
+ " and ",
+ StyleBox["em",
+  FontSlant->"Italic"],
+ "."
+}], "Text",
+ CellChangeTimes->{{3.6458917569722023`*^9, 3.645891768922327*^9}, {
+   3.645891810162025*^9, 3.6458918579753838`*^9}, {3.645891903910967*^9, 
+   3.6458920150336123`*^9}, {3.645892046016464*^9, 3.6458921686522007`*^9}, {
+   3.64589221033928*^9, 3.6458922353698673`*^9}, 3.645974477720295*^9, {
+   3.645980025241431*^9, 3.6459800798623867`*^9}, {3.654166331658016*^9, 
+   3.654166366719488*^9}, {3.7352963000470324`*^9, 
+   3.735296305094687*^9}},ExpressionUUID->"fc7f355b-8292-45dc-a146-\
+97d311093db7"],
+
+Cell[BoxData[
+ RowBox[{"viewData", "[", "wilsonCenterSource", "]"}]], "Input",
+ CellChangeTimes->{{3.6445942877590227`*^9, 3.644594310728959*^9}, {
+   3.64589194020508*^9, 3.645891950076045*^9}, 3.6459743953185062`*^9, {
+   3.645975111795598*^9, 3.645975118978529*^9}, {3.685637233365748*^9, 
+   3.685637235724059*^9}, {3.735296278864258*^9, 3.735296287960116*^9}},
+ CellLabel->"In[13]:=",ExpressionUUID->"76b497e2-8418-41ab-94e1-f8fd3828e786"],
+
+Cell[TextData[{
+ "This particular page also uses the web scripting language JavaScript, \
+Cascading Style Sheets (CSS) for formatting, some layout tags like ",
+ StyleBox["div",
+  FontSlant->"Italic"],
+ " and ",
+ StyleBox["span",
+  FontSlant->"Italic"],
+ ", and many other elements."
+}], "Text",
+ CellChangeTimes->{{3.6458917569722023`*^9, 3.645891768922327*^9}, {
+   3.645891810162025*^9, 3.6458918579753838`*^9}, {3.645891903910967*^9, 
+   3.6458920150336123`*^9}, {3.645892046016464*^9, 3.6458921686522007`*^9}, {
+   3.64589221033928*^9, 3.6458922353698673`*^9}, 3.645974477720295*^9, {
+   3.645980025241431*^9, 3.6459800798623867`*^9}, {3.654166331658016*^9, 
+   3.654166366719488*^9}, {3.654166468771443*^9, 3.6541664753468122`*^9}, {
+   3.735296384348477*^9, 
+   3.735296384747712*^9}},ExpressionUUID->"c3ebfd55-0dac-4cd5-b972-\
+1cbc88cc65a2"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"55cd0ab3-5613-4f8e-b8b2-02e917d9c7cb"],
+
+Cell[CellGroupData[{
+
+Cell["Activity", "Section",
+ CellChangeTimes->{{3.647716402186221*^9, 
+  3.647716405353856*^9}},ExpressionUUID->"b209ea51-2440-4006-998d-\
+83b8bf02183e"],
+
+Cell[CellGroupData[{
+
+Cell["Setup", "Subsection",
+ CellChangeTimes->{{3.6541634875754147`*^9, 
+  3.65416348817522*^9}},ExpressionUUID->"805fc66e-d4f1-472e-b605-\
+b578d28bd22d"],
+
+Cell["\<\
+In your web browser, open up the online HTML tutorial at the link below. On \
+the left-hand-side of the browser screen you will see lessons on various \
+aspects of HTML. Use it as a reference for this activity. If you\
+\[CloseCurlyQuote]d like to go through the whole tutorial later, it takes a \
+couple of hours but is very valuable for developing your skills writing and \
+understanding markup languages.\
+\>", "Text",
+ CellChangeTimes->{{3.654159498770425*^9, 3.654159519201044*^9}, {
+  3.654159607352208*^9, 3.654159624573978*^9}, {3.654159674772297*^9, 
+  3.6541596846671667`*^9}, {3.6541597171459837`*^9, 
+  3.65415983299763*^9}},ExpressionUUID->"8a76bfea-a647-46c8-945b-\
+593f3b04301b"],
+
+Cell[TextData[ButtonBox["http://www.w3schools.com/html/default.asp",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["http://www.w3schools.com/html/default.asp"], None},
+ ButtonNote->"http://www.w3schools.com/html/default.asp"]], "Text",
+ CellChangeTimes->{{3.654159582035099*^9, 
+  3.654159587923444*^9}},ExpressionUUID->"094f3859-eb7a-4f8c-9d50-\
+3b146ab89f53"],
+
+Cell["Create a new notebook and answer the following questions.", "Text",
+ CellChangeTimes->{{3.654163498294837*^9, 
+  3.654163513422413*^9}},ExpressionUUID->"7ccfa6d0-0b90-4455-9be1-\
+3a0fdf891b69"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Questions", "Subsection",
+ CellChangeTimes->{{3.6541634918951283`*^9, 
+  3.654163494912355*^9}},ExpressionUUID->"2f150096-d6b8-4ca4-8888-\
+834f230d2b42"],
+
+Cell[CellGroupData[{
+
+Cell["Wayback Machine", "Subsubsection",
+ CellChangeTimes->{{3.654165028775453*^9, 
+  3.654165034422717*^9}},ExpressionUUID->"3a2774b8-f783-42e3-8786-\
+640254cd2f38"],
+
+Cell["\<\
+Try manually archiving a webpage in the Internet Archive Wayback Machine. \
+Include hyperlinks to both the original URL and the URL of the archived page \
+in your notebook.\
+\>", "Text",
+ CellChangeTimes->{{3.654163436185759*^9, 3.654163436609481*^9}, 
+   3.6541634786478024`*^9, {3.6541635158621607`*^9, 3.6541635458374033`*^9}, {
+   3.654163742295557*^9, 
+   3.654163776756916*^9}},ExpressionUUID->"dd1e8960-14a9-4440-8b18-\
+2a8166adc033"],
+
+Cell[TextData[{
+ "Import the HTML page source from your archived page into your notebook, \
+then use ",
+ StyleBox["viewData",
+  FontSlant->"Italic"],
+ " to look at the source. At the end of the page you will find an HTML \
+comment containing a message. What is that message? Did it appear in the code \
+of the original page?"
+}], "Text",
+ CellChangeTimes->{{3.654163819227737*^9, 3.654163912615959*^9}, {
+  3.654164121329772*^9, 
+  3.654164135247839*^9}},ExpressionUUID->"b9f08aa1-e755-4e9a-a695-\
+e4af26f353ef"],
+
+Cell["\<\
+Does your page use Cascading Style Sheets (CSS)? Does it use JavaScript? Does \
+it have a link to an RSS feed or Atom feed (or both)?\
+\>", "Text",
+ CellChangeTimes->{{3.654166398733882*^9, 
+  3.654166455995515*^9}},ExpressionUUID->"9df78ca3-ab95-45da-86e4-\
+763188618fc1"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Quotations", "Subsubsection",
+ CellChangeTimes->{{3.65416504604597*^9, 
+  3.654165056701561*^9}},ExpressionUUID->"61a73611-d808-4a13-945c-\
+ed95be53079e"],
+
+Cell[TextData[{
+ "The following code retrieves the first few lines of Poe\[CloseCurlyQuote]s \
+poem ",
+ StyleBox["The Raven",
+  FontSlant->"Italic"],
+ ". Using the ",
+ StyleBox["EmbeddedHTML",
+  FontWeight->"Bold"],
+ " command try formatting it with both the HTML ",
+ StyleBox["q",
+  FontSlant->"Italic"],
+ " and ",
+ StyleBox["blockquote",
+  FontSlant->"Italic"],
+ " tags. If you are not sure how to format quotations, read the \
+\[OpenCurlyDoubleQuote]HTML Quotation and Citation Elements\
+\[CloseCurlyDoubleQuote] section of the W3Schools tutorial."
+}], "Text",
+ CellChangeTimes->{{3.654164683003975*^9, 3.654164683819035*^9}, {
+  3.6541647444017963`*^9, 
+  3.654164851485512*^9}},ExpressionUUID->"a2db32b8-b282-46eb-bd37-\
+8a7e41503299"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"ExampleData", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\"\<Text\>\"", ",", " ", "\"\<TheRaven\>\""}], "}"}], ",", " ", 
+    "\"\<Lines\>\""}], "]"}], "[", 
+  RowBox[{"[", 
+   RowBox[{"1", " ", ";;", " ", "4"}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.654164686286934*^9, 3.654164742116008*^9}, {
+  3.6856372929264307`*^9, 
+  3.6856372929270077`*^9}},ExpressionUUID->"632b6d2d-b600-45e8-89ba-\
+bf408e3a9141"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Images", "Subsubsection",
+ CellChangeTimes->{{3.654165053197823*^9, 
+  3.6541650540539703`*^9}},ExpressionUUID->"762494fa-d2d1-4103-9a50-\
+ec8d1a018e1b"],
+
+Cell[TextData[{
+ "The following URL contains an image of the logo for the University of \
+Western Ontario. Try importing it directly into your notebook with the ",
+ StyleBox["Import",
+  FontWeight->"Bold"],
+ " command."
+}], "Text",
+ CellChangeTimes->{{3.654164169758574*^9, 3.654164176326069*^9}, {
+  3.654164217317546*^9, 
+  3.654164271634651*^9}},ExpressionUUID->"848b6d59-d39b-413d-a827-\
+640e496d0147"],
+
+Cell[TextData[ButtonBox["https://www.uwo.ca/web_standards/img/logos-faculties-\
+stacked/ttl-western-logo-trans.gif",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.uwo.ca/web_standards/img/logos-faculties-stacked/ttl-\
+western-logo-trans.gif"], None},
+ ButtonNote->
+  "https://www.uwo.ca/web_standards/img/logos-faculties-stacked/ttl-western-\
+logo-trans.gif"]], "Text",
+ CellChangeTimes->{
+  3.654164283366816*^9, {3.685637315010509*^9, 
+   3.685637315013254*^9}},ExpressionUUID->"4fa12e13-5d52-49fc-b502-\
+cc3b54014450"],
+
+Cell[TextData[{
+ "Now use the ",
+ StyleBox["EmbeddedHTML",
+  FontWeight->"Bold"],
+ " command and the HTML ",
+ StyleBox["img",
+  FontSlant->"Italic"],
+ " tag to create a button in your notebook. When you press the button, the \
+Western logo should be displayed on a web page in your browser. If you are \
+not sure how to use the ",
+ StyleBox["img",
+  FontSlant->"Italic"],
+ " tag, read the \[OpenCurlyDoubleQuote]HTML Images\[CloseCurlyDoubleQuote] \
+section of the W3Schools tutorial. Try adjusting the width and height of the \
+image to squash it vertically or horizontally."
+}], "Text",
+ CellChangeTimes->{{3.654164315697509*^9, 3.654164336400291*^9}, {
+  3.6541643885833397`*^9, 
+  3.654164513321967*^9}},ExpressionUUID->"d2ea22fd-d04c-4d22-a93a-\
+9005b360cf82"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Tables", "Subsubsection",
+ CellChangeTimes->{{3.654165110940337*^9, 3.654165111627962*^9}}],
+
+Cell[TextData[{
+ "In ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ ", you can get a table of the first five elements and their abbreviations \
+with the following command"
+}], "Text",
+ CellChangeTimes->{{3.654165762156651*^9, 3.6541657896593523`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"TableForm", "[", 
+  RowBox[{"Table", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"ElementData", "[", 
+       RowBox[{"z", ",", "\"\<Name\>\""}], "]"}], ",", 
+      RowBox[{"ElementData", "[", 
+       RowBox[{"z", ",", "\"\<Abbreviation\>\""}], "]"}]}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"z", ",", "1", ",", "5"}], "}"}]}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.654165834946451*^9, 3.654165859841564*^9}}],
+
+Cell[TextData[{
+ "Try using the ",
+ StyleBox["EmbeddedHTML",
+  FontWeight->"Bold"],
+ " command and the HTML table tags to lay out the same information so it can \
+be seen in your web browser. You don\[CloseCurlyQuote]t have to use the ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " command, just use the information from the table above. If you are not \
+sure how to use table formatting, read the \[OpenCurlyDoubleQuote]HTML Tables\
+\[CloseCurlyDoubleQuote] section of the W3Schools tutorial."
+}], "Text",
+ CellChangeTimes->{{3.654165878832419*^9, 3.6541660126193953`*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Programming?", "Subsubsection",
+ CellChangeTimes->{{3.6541651473389053`*^9, 3.654165148474539*^9}, 
+   3.654165264493972*^9}],
+
+Cell[TextData[{
+ "Given your experience of programming in ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " (and perhaps other languages), does using a markup language seem like \
+programming to you? Why or why not?"
+}], "Text",
+ CellChangeTimes->{{3.6541651508820877`*^9, 3.654165162634132*^9}, {
+  3.6541651951208763`*^9, 3.6541652549105787`*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"84cefc63-a30b-4256-8caf-3ac1c4812e74"],
+
+Cell[CellGroupData[{
+
+Cell["Markup languages: XML", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.654166525274431*^9, 3.654166530352902*^9}}],
+
+Cell[TextData[{
+ "Unlike HTML, which uses a limited set of predefined tags to indicate how \
+data should be rendered or displayed, the Extensible Markup Language (XML) \
+uses tags to ",
+ StyleBox["describe",
+  FontSlant->"Italic"],
+ " data. There are many standards for representing various kinds of metadata \
+with XML, but users are also free to define their own tags. This flexibility, \
+and the fact that XML is both human- and machine-readable, makes it a very \
+powerful way to represent textual and numeric information."
+}], "Text",
+ CellChangeTimes->{{3.645982954519794*^9, 3.6459830517883053`*^9}, {
+  3.645983082595269*^9, 3.645983089523077*^9}, {3.6459831260369062`*^9, 
+  3.645983210094821*^9}, {3.646498717556802*^9, 3.646498802209251*^9}, {
+  3.685637384399304*^9, 3.68563738658247*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["OCLC Classify web service", "Subsubsection",
+ CellChangeTimes->{{3.654166650229005*^9, 3.654166654524186*^9}, {
+  3.6541668246548843`*^9, 3.654166825054203*^9}}],
+
+Cell["\<\
+So that we have a short piece of XML to look at, I am going to request \
+information about a recent history of the Cold War written by John Lewis \
+Gaddis. To do this, I am using a web service created by the Online Computer \
+Library Center (OCLC) called Classify. If you send the book ISBN in a URL to \
+OCLC Classify, the system will respond with a file of bibliographic \
+information marked up with XML.\
+\>", "Text",
+ CellChangeTimes->{{3.646499220264966*^9, 3.6464992642958727`*^9}, {
+   3.646500204868194*^9, 3.646500398189623*^9}, {3.646504441503633*^9, 
+   3.6465044447510138`*^9}, 3.654166681604051*^9, {3.735296587798089*^9, 
+   3.735296599019915*^9}},ExpressionUUID->"93b3a436-edfd-4b8f-94e7-\
+c1d274343eab"],
+
+Cell[BoxData[
+ RowBox[{"Import", "[", 
+  RowBox[{
+  "\"\<http://classify.oclc.org/classify2/Classify?isbn=0143038273&summary=\
+true\>\"", ",", "\"\<Elements\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.6464989380678*^9, 3.646498939204504*^9}, {
+   3.646500056951043*^9, 3.646500061513832*^9}, 3.646500119043436*^9, 
+   3.735296638432551*^9},
+ CellLabel->"In[14]:=",ExpressionUUID->"8bfdff4b-93de-475e-87b5-181c1a6957ec"],
+
+Cell[TextData[{
+ "In order to see the raw XML, I am converting it to a string before passing \
+it off to ",
+ StyleBox["viewData",
+  FontSlant->"Italic"],
+ "."
+}], "Text",
+ CellChangeTimes->{{3.646499220264966*^9, 3.6464992642958727`*^9}, {
+  3.646500204868194*^9, 3.646500398189623*^9}, {3.646504441503633*^9, 
+  3.6465044447510138`*^9}, {3.654166681604051*^9, 
+  3.654166683442932*^9}},ExpressionUUID->"b707e268-d00a-4db8-bad8-\
+d1c2c11a316b"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"biographyXMLstring", "=", 
+   RowBox[{"StringRiffle", "[", 
+    RowBox[{
+     RowBox[{"Flatten", "[", 
+      RowBox[{"Import", "[", 
+       RowBox[{
+       "\"\<http://classify.oclc.org/classify2/Classify?isbn=0143038273&\
+summary=true\>\"", ",", "\"\<Data\>\""}], "]"}], "]"}], ",", "\"\<\\n\>\""}], 
+    "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.646501237627932*^9, 3.646501250021154*^9}, {
+  3.735296662870307*^9, 3.735296673821917*^9}},
+ CellLabel->"In[15]:=",ExpressionUUID->"557ab9cf-3a8e-41a0-b771-8939cf2d0d55"],
+
+Cell[BoxData[
+ RowBox[{"viewData", "[", "biographyXMLstring", "]"}]], "Input",
+ CellChangeTimes->{{3.6464989380678*^9, 3.646498950683838*^9}, {
+  3.6464989842186623`*^9, 3.646499002857421*^9}, {3.646500065548368*^9, 
+  3.6465001227074213`*^9}, {3.646500180757526*^9, 3.6465001881880836`*^9}, {
+  3.646501246864779*^9, 3.64650125830296*^9}, {3.7352966550583773`*^9, 
+  3.735296657177594*^9}},
+ CellLabel->"In[16]:=",ExpressionUUID->"216fbdc4-6614-4959-afc9-95b6329378db"],
+
+Cell[TextData[{
+ "Note that the file begins with a tag that indicates that the file is marked \
+up with XML, ",
+ StyleBox["?xml",
+  FontSlant->"Italic"],
+ "."
+}], "Text",
+ CellChangeTimes->{{3.6465004068757477`*^9, 3.646500550255843*^9}, {
+   3.646500607124113*^9, 3.646500825494028*^9}, {3.646500986215063*^9, 
+   3.646501023613852*^9}, {3.646501057381605*^9, 3.6465010899559183`*^9}, {
+   3.64650115219423*^9, 3.646501220743013*^9}, 3.646754034087826*^9, {
+   3.654166737130343*^9, 3.654166754681562*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Bibliographic metadata", "Subsubsection",
+ CellChangeTimes->{{3.6541667883838797`*^9, 3.654166791471299*^9}}],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["work",
+  FontSlant->"Italic"],
+ " tag contains information about the book, mostly stored in attributes like ",
+ StyleBox["author",
+  FontSlant->"Italic"],
+ ", ",
+ StyleBox["editions",
+  FontSlant->"Italic"],
+ ", ",
+ StyleBox["format",
+  FontSlant->"Italic"],
+ " and ",
+ StyleBox["title",
+  FontSlant->"Italic"],
+ ". "
+}], "Text",
+ CellChangeTimes->{{3.6465004068757477`*^9, 3.646500550255843*^9}, {
+   3.646500607124113*^9, 3.646500825494028*^9}, {3.646500986215063*^9, 
+   3.646501023613852*^9}, {3.646501057381605*^9, 3.6465010899559183`*^9}, {
+   3.64650115219423*^9, 3.646501220743013*^9}, 3.646754034087826*^9, {
+   3.654166737130343*^9, 3.654166759841291*^9}}],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["author",
+  FontSlant->"Italic"],
+ " and ",
+ StyleBox["authors ",
+  FontSlant->"Italic"],
+ "tags contain information about the authors, some of it redundant. "
+}], "Text",
+ CellChangeTimes->{{3.6465004068757477`*^9, 3.646500550255843*^9}, {
+   3.646500607124113*^9, 3.646500825494028*^9}, {3.646500986215063*^9, 
+   3.646501023613852*^9}, {3.646501057381605*^9, 3.6465010899559183`*^9}, {
+   3.64650115219423*^9, 3.646501220743013*^9}, 3.646754034087826*^9, {
+   3.654166737130343*^9, 3.654166764521249*^9}}],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["lc",
+  FontSlant->"Italic"],
+ " and ",
+ StyleBox["viaf",
+  FontSlant->"Italic"],
+ " attributes of the ",
+ StyleBox["author",
+  FontSlant->"Italic"],
+ " tag hold Library of Congress and OCLC identifiers, respectively. We will \
+make use of these later. "
+}], "Text",
+ CellChangeTimes->{{3.6465004068757477`*^9, 3.646500550255843*^9}, {
+   3.646500607124113*^9, 3.646500825494028*^9}, {3.646500986215063*^9, 
+   3.646501023613852*^9}, {3.646501057381605*^9, 3.6465010899559183`*^9}, {
+   3.64650115219423*^9, 3.646501220743013*^9}, 3.646754034087826*^9, {
+   3.654166737130343*^9, 3.654166769353128*^9}}],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["ddc",
+  FontSlant->"Italic"],
+ " tag contains Dewey Decimal call numbers (576.82092). You would use these \
+to look for a copy of the book in most North American public libraries. "
+}], "Text",
+ CellChangeTimes->{{3.6465004068757477`*^9, 3.646500550255843*^9}, {
+   3.646500607124113*^9, 3.646500825494028*^9}, {3.646500986215063*^9, 
+   3.646501023613852*^9}, {3.646501057381605*^9, 3.6465010899559183`*^9}, {
+   3.64650115219423*^9, 3.646501220743013*^9}, 3.646754034087826*^9, {
+   3.654166737130343*^9, 3.654166775032791*^9}}],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["lcc",
+  FontSlant->"Italic"],
+ " tag contains Library of Congress call numbers (QH31.D2) which indicate \
+where the book would be filed in most North American academic libraries."
+}], "Text",
+ CellChangeTimes->{{3.6465004068757477`*^9, 3.646500550255843*^9}, {
+   3.646500607124113*^9, 3.646500825494028*^9}, {3.646500986215063*^9, 
+   3.646501023613852*^9}, {3.646501057381605*^9, 3.6465010899559183`*^9}, {
+   3.64650115219423*^9, 3.646501220743013*^9}, 3.646754034087826*^9, {
+   3.654166737130343*^9, 3.654166775032791*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"f610281c-9356-49ba-bac8-9eed48ce7ef3"],
+
+Cell[CellGroupData[{
+
+Cell["Upload your notebook", "Section",
+ CellChangeTimes->{{3.649950784924818*^9, 3.649950788859275*^9}}],
+
+Cell["\<\
+Don\[CloseCurlyQuote]t forget to upload a copy of your notebook for this \
+class to the OWL Site for the course\
+\>", "Text",
+ CellChangeTimes->{{3.649950792779258*^9, 3.649950818634288*^9}}]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1398, 1106},
+WindowMargins->{{Automatic, 266}, {Automatic, 73}},
+TaggingRules->{"SlideShow" -> True},
+Magnification:>1.25 Inherited,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "SlideShowHeader"->{
+  Cell[580, 22, 4441, 99, 75, "SlideShowNavigationBar",ExpressionUUID->"50733e17-ecf3-49ba-9395-dd0a313f64f1",
+   CellTags->"SlideShowHeader"],
+  Cell[5934, 150, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"975524f6-c38b-433b-8a1b-206bfe06f7d6",
+   CellTags->"SlideShowHeader"],
+  Cell[7391, 192, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"552933e5-08e7-41e1-99c6-d0b4d36342ce",
+   CellTags->"SlideShowHeader"],
+  Cell[8250, 220, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"81a31051-a3dd-4fe3-8c78-5e2020c96548",
+   CellTags->"SlideShowHeader"],
+  Cell[13526, 371, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"a2893c09-9be1-4f6a-96bf-eabc7422f479",
+   CellTags->"SlideShowHeader"],
+  Cell[18448, 510, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"10669110-903f-489a-81e1-5c5685b39a6d",
+   CellTags->"SlideShowHeader"],
+  Cell[26258, 711, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"b48f8e8d-e5aa-4a42-ad99-0db0a7a2fd3c",
+   CellTags->"SlideShowHeader"],
+  Cell[29746, 801, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"c23e5729-e1f6-4c99-9dcd-9fb83745b0bc",
+   CellTags->"SlideShowHeader"],
+  Cell[34833, 938, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"55cd0ab3-5613-4f8e-b8b2-02e917d9c7cb",
+   CellTags->"SlideShowHeader"],
+  Cell[43584, 1198, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"84cefc63-a30b-4256-8caf-3ac1c4812e74",
+   CellTags->"SlideShowHeader"],
+  Cell[51275, 1399, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"f610281c-9356-49ba-bac8-9eed48ce7ef3",
+   CellTags->"SlideShowHeader"]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"SlideShowHeader", 52141, 1429}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 4441, 99, 75, "SlideShowNavigationBar",ExpressionUUID->"50733e17-ecf3-49ba-9395-dd0a313f64f1",
+ CellTags->"SlideShowHeader"],
+Cell[5024, 123, 470, 10, 200, "Title",ExpressionUUID->"a43fb5cf-aafd-4ed3-af5e-afd7c6d8e52d"],
+Cell[5497, 135, 400, 10, 108, "Subtitle",ExpressionUUID->"f8b4c8e8-8ea9-4d65-8b1e-fe54decd4c00"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5934, 150, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"975524f6-c38b-433b-8a1b-206bfe06f7d6",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[6081, 156, 155, 3, 84, "Section",ExpressionUUID->"092b1134-d056-4676-bcdf-5f70a67030e3"],
+Cell[6239, 161, 744, 16, 102, "Text",ExpressionUUID->"5d253a30-a02d-46c8-8f1e-d201e5af26c3"],
+Cell[6986, 179, 356, 7, 44, "Text",ExpressionUUID->"1d4e8ede-a219-4b98-a00f-e1144c3eff1e"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7391, 192, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"552933e5-08e7-41e1-99c6-d0b4d36342ce",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[7538, 198, 201, 4, 84, "Section",ExpressionUUID->"b3046aef-aca9-4b65-a92f-dec37f3d3397"],
+Cell[7742, 204, 459, 10, 64, "Input",ExpressionUUID->"223443f4-4627-4553-a127-d604b5716872"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[8250, 220, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"81a31051-a3dd-4fe3-8c78-5e2020c96548",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[8397, 226, 273, 4, 84, "Section",ExpressionUUID->"0fafe4d4-1709-4386-9afc-f50ac5ae7b9c"],
+Cell[8673, 232, 366, 9, 73, "Text",ExpressionUUID->"09d995a2-0bf6-4188-a17d-cc1650999920"],
+Cell[9042, 243, 360, 6, 37, "Input",ExpressionUUID->"c61e90e9-40ca-4a91-8ffe-ccbd5cba07e0"],
+Cell[9405, 251, 659, 16, 114, "Text",ExpressionUUID->"a61b04d4-d4ff-4f32-93ef-0b9fbfde9afd"],
+Cell[10067, 269, 476, 13, 114, "Text",ExpressionUUID->"cda02252-512e-4331-8f6c-3ae663cbe744"],
+Cell[10546, 284, 404, 7, 57, "Input",ExpressionUUID->"a6b98a9b-a286-4eb7-948f-3737c3c1dcf1"],
+Cell[CellGroupData[{
+Cell[10975, 295, 160, 3, 87, "Subsubsection",ExpressionUUID->"acc72ace-d64c-40cc-97d8-f41196b36b38"],
+Cell[11138, 300, 374, 9, 68, "Text",ExpressionUUID->"383acacb-3dbe-498d-bcfb-995f9c15ee57"],
+Cell[11515, 311, 313, 8, 51, "DisplayFormula",ExpressionUUID->"ecb9f1a4-91fb-486c-bb01-804288270709"],
+Cell[11831, 321, 214, 4, 68, "Text",ExpressionUUID->"12626da3-d14f-4276-a646-bcd1324a299d"],
+Cell[12048, 327, 312, 8, 51, "DisplayFormula",ExpressionUUID->"9b61a8ce-f912-42a4-880c-27dde1210b17"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[12397, 340, 172, 3, 87, "Subsubsection",ExpressionUUID->"e8acaca0-973a-4967-9cea-3431fba81907"],
+Cell[12572, 345, 430, 10, 114, "Text",ExpressionUUID->"b1a767c0-4bae-4e2c-ae23-f587b1431c82"],
+Cell[13005, 357, 460, 7, 57, "Input",ExpressionUUID->"91c7470e-dbd9-41bb-9cdd-709080c83322"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[13526, 371, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"a2893c09-9be1-4f6a-96bf-eabc7422f479",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[13673, 377, 237, 4, 131, "Section",ExpressionUUID->"a629871a-a880-4112-804f-ea977d494aca"],
+Cell[13913, 383, 1192, 28, 204, "Text",ExpressionUUID->"aa5188bb-ec30-4ced-9d09-79213f3aba3c"],
+Cell[15108, 413, 275, 5, 57, "Input",ExpressionUUID->"aa8cbee7-0170-47f8-9bf0-cff08ffff217"],
+Cell[CellGroupData[{
+Cell[15408, 422, 165, 3, 87, "Subsubsection",ExpressionUUID->"d909958a-dadf-4958-ae0d-9835985d82fa"],
+Cell[15576, 427, 1301, 35, 248, "Text",ExpressionUUID->"24aa4824-1d82-4ba9-967d-49e95344aa25"],
+Cell[16880, 464, 329, 6, 57, "Input",ExpressionUUID->"63ce7827-b61c-47d9-854b-f40a9ab9f1d0"],
+Cell[17212, 472, 407, 12, 114, "Text",ExpressionUUID->"678b0d72-2281-4ea6-8f56-c46121b80800"],
+Cell[17622, 486, 334, 6, 57, "Input",ExpressionUUID->"473b7f6d-a2cf-445a-9d89-40324e81f679"],
+Cell[17959, 494, 428, 9, 57, "Input",ExpressionUUID->"dd3ce3ff-ac9b-4f06-99f8-67f79bb99259"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[18448, 510, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"10669110-903f-489a-81e1-5c5685b39a6d",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[18595, 516, 218, 4, 131, "Section",ExpressionUUID->"76906ead-bab0-4e5c-9ede-1367f9458f7c"],
+Cell[18816, 522, 619, 10, 159, "Text",ExpressionUUID->"42b6c418-c3cf-41bb-b7f1-3652f2cecdce"],
+Cell[19438, 534, 490, 8, 425, "Input",ExpressionUUID->"077194b9-7007-4af2-94c7-76e95ec96036"],
+Cell[CellGroupData[{
+Cell[19953, 546, 159, 3, 87, "Subsubsection",ExpressionUUID->"069e4929-d5d9-409d-92d6-2969e48330f1"],
+Cell[20115, 551, 326, 7, 68, "Text",ExpressionUUID->"2756c332-b347-4adc-b25e-f9b9a848c022"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[20478, 563, 160, 3, 87, "Subsubsection",ExpressionUUID->"ece7aecc-8654-43ac-8f26-afe1df8e15d5"],
+Cell[20641, 568, 882, 16, 114, "Text",ExpressionUUID->"7e5d782a-ea0f-436e-9007-ad13be0bc13e"],
+Cell[21526, 586, 491, 10, 51, "DisplayFormula",ExpressionUUID->"f17a135e-65ca-4d8b-a711-144a0fdf4afd"],
+Cell[22020, 598, 460, 12, 114, "Text",ExpressionUUID->"55198e85-e9c8-43eb-b9db-3dceb6ea6402"],
+Cell[22483, 612, 944, 25, 159, "Text",ExpressionUUID->"18da3e8a-9d87-49f2-a544-db52d37e41ed"],
+Cell[23430, 639, 481, 8, 57, "Input",ExpressionUUID->"3d25db3e-1fd5-41a2-8290-cd83489fedec"],
+Cell[23914, 649, 875, 16, 159, "Text",ExpressionUUID->"f7b15c97-6089-448c-a42d-fcbdf9089325"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[24826, 670, 195, 3, 87, "Subsubsection",ExpressionUUID->"cf91dcda-c020-4e7e-b5ef-97084c951211"],
+Cell[25024, 675, 281, 6, 68, "Text",ExpressionUUID->"80b44aa4-c607-46fd-8911-3e12b5180217"],
+Cell[25308, 683, 205, 3, 68, "Text",ExpressionUUID->"6be53c79-dfe0-4405-aff3-56e2878baf26"],
+Cell[25516, 688, 323, 7, 68, "Text",ExpressionUUID->"a1caf2b4-21e3-4954-9b0f-eeca923a333f"],
+Cell[25842, 697, 355, 7, 68, "Text",ExpressionUUID->"7ba2895b-e793-450e-97e7-88ce148cf30b"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[26258, 711, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"b48f8e8d-e5aa-4a42-ad99-0db0a7a2fd3c",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[26405, 717, 248, 4, 131, "Section",ExpressionUUID->"62ff69ba-91f2-40a0-87ba-e926b87fc5a3"],
+Cell[26656, 723, 768, 16, 159, "Text",ExpressionUUID->"ab2e6097-688d-49ec-8e5c-1df67c2efc27"],
+Cell[27427, 741, 484, 9, 68, "Text",ExpressionUUID->"84297238-5f40-445b-9998-4097f0ea4ec2"],
+Cell[27914, 752, 281, 4, 68, "Text",ExpressionUUID->"1dab3b70-dcfb-4118-834c-b9cefca5d01c"],
+Cell[28198, 758, 329, 7, 68, "Text",ExpressionUUID->"cad184c1-c815-43f3-a254-fc6ff64e2d53"],
+Cell[28530, 767, 218, 4, 68, "Text",ExpressionUUID->"6eee6dbf-a489-468f-9a00-d0c727064c80"],
+Cell[28751, 773, 490, 11, 68, "Text",ExpressionUUID->"0057dbe8-94a7-4c22-b9fe-5ba4221dec32"],
+Cell[29244, 786, 453, 9, 114, "Text",ExpressionUUID->"f48209d6-5035-42e2-b31c-017b48bbb0f3"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[29746, 801, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"c23e5729-e1f6-4c99-9dcd-9fb83745b0bc",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[29893, 807, 220, 4, 131, "Section",ExpressionUUID->"87ea641f-6546-47a4-ac01-12d6a66d156a"],
+Cell[30116, 813, 258, 6, 68, "Text",ExpressionUUID->"069bb67e-d2d5-42e0-b6de-c6183c77a9a1"],
+Cell[30377, 821, 493, 11, 68, "Text",ExpressionUUID->"1a44c113-5147-4bde-a2f8-9979aec2c7d8"],
+Cell[30873, 834, 651, 13, 68, "Text",ExpressionUUID->"cd2a2256-2ef8-452c-8439-c5a4cdce95fa"],
+Cell[31527, 849, 407, 7, 57, "Input",ExpressionUUID->"be167151-db9c-4573-8b19-584db332105e"],
+Cell[31937, 858, 472, 9, 57, "Input",ExpressionUUID->"2e2aa9bf-1f3b-4908-bdd2-3793bcc24875"],
+Cell[32412, 869, 1074, 35, 114, "Text",ExpressionUUID->"fc7f355b-8292-45dc-a146-97d311093db7"],
+Cell[33489, 906, 444, 6, 57, "Input",ExpressionUUID->"76b497e2-8418-41ab-94e1-f8fd3828e786"],
+Cell[33936, 914, 848, 18, 114, "Text",ExpressionUUID->"c3ebfd55-0dac-4cd5-b972-1cbc88cc65a2"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[34833, 938, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"55cd0ab3-5613-4f8e-b8b2-02e917d9c7cb",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[34980, 944, 153, 3, 131, "Section",ExpressionUUID->"b209ea51-2440-4006-998d-83b8bf02183e"],
+Cell[CellGroupData[{
+Cell[35158, 951, 154, 3, 104, "Subsection",ExpressionUUID->"805fc66e-d4f1-472e-b605-b578d28bd22d"],
+Cell[35315, 956, 703, 12, 159, "Text",ExpressionUUID->"8a76bfea-a647-46c8-945b-593f3b04301b"],
+Cell[36021, 970, 362, 7, 68, "Text",ExpressionUUID->"094f3859-eb7a-4f8c-9d50-3b146ab89f53"],
+Cell[36386, 979, 199, 3, 68, "Text",ExpressionUUID->"7ccfa6d0-0b90-4455-9be1-3a0fdf891b69"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[36622, 987, 159, 3, 104, "Subsection",ExpressionUUID->"2f150096-d6b8-4ca4-8888-834f230d2b42"],
+Cell[CellGroupData[{
+Cell[36806, 994, 166, 3, 87, "Subsubsection",ExpressionUUID->"3a2774b8-f783-42e3-8786-640254cd2f38"],
+Cell[36975, 999, 451, 9, 114, "Text",ExpressionUUID->"dd1e8960-14a9-4440-8b18-2a8166adc033"],
+Cell[37429, 1010, 512, 12, 114, "Text",ExpressionUUID->"b9f08aa1-e755-4e9a-a695-e4af26f353ef"],
+Cell[37944, 1024, 283, 6, 68, "Text",ExpressionUUID->"9df78ca3-ab95-45da-86e4-763188618fc1"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[38264, 1035, 160, 3, 87, "Subsubsection",ExpressionUUID->"61a73611-d808-4a13-945c-ed95be53079e"],
+Cell[38427, 1040, 740, 21, 114, "Text",ExpressionUUID->"a2db32b8-b282-46eb-bd37-8a7e41503299"],
+Cell[39170, 1063, 457, 12, 57, "Input",ExpressionUUID->"632b6d2d-b600-45e8-89ba-bf408e3a9141"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[39664, 1080, 159, 3, 87, "Subsubsection",ExpressionUUID->"762494fa-d2d1-4103-9a50-ec8d1a018e1b"],
+Cell[39826, 1085, 406, 10, 68, "Text",ExpressionUUID->"848b6d59-d39b-413d-a827-640e496d0147"],
+Cell[40235, 1097, 535, 12, 68, "Text",ExpressionUUID->"4fa12e13-5d52-49fc-b502-cc3b54014450"],
+Cell[40773, 1111, 765, 19, 159, "Text",ExpressionUUID->"d2ea22fd-d04c-4d22-a93a-9005b360cf82"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[41575, 1135, 97, 1, 87, "Subsubsection",ExpressionUUID->"6e2b4840-36c6-46ba-a8b0-570eff9a3ade"],
+Cell[41675, 1138, 257, 7, 68, "Text",ExpressionUUID->"4f7ba756-1ad8-46c5-9424-481f0e6154ac"],
+Cell[41935, 1147, 466, 12, 57, "Input",ExpressionUUID->"212419e1-102d-4a0c-b01f-2e48badc02ed"],
+Cell[42404, 1161, 582, 12, 159, "Text",ExpressionUUID->"492fed41-a482-4878-9132-de9b150121fd"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[43023, 1178, 131, 2, 87, "Subsubsection",ExpressionUUID->"3c12ab9f-afb3-4a2b-a59f-8d50715ae2db"],
+Cell[43157, 1182, 354, 8, 114, "Text",ExpressionUUID->"ea12757a-44d5-48da-8733-b8fad00be202"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[43584, 1198, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"84cefc63-a30b-4256-8caf-3ac1c4812e74",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[43731, 1204, 157, 2, 131, "Section",ExpressionUUID->"51b47328-2db8-4cc5-af8d-e644f4a5c615"],
+Cell[43891, 1208, 801, 14, 159, "Text",ExpressionUUID->"57f974e4-bae9-4877-98ae-6622b9459dcd"],
+Cell[CellGroupData[{
+Cell[44717, 1226, 167, 2, 87, "Subsubsection",ExpressionUUID->"3dbca548-fbe9-4c5a-82af-d2bdcde174a9"],
+Cell[44887, 1230, 729, 12, 159, "Text",ExpressionUUID->"93b3a436-edfd-4b8f-94e7-c1d274343eab"],
+Cell[45619, 1244, 422, 8, 57, "Input",ExpressionUUID->"8bfdff4b-93de-475e-87b5-181c1a6957ec"],
+Cell[46044, 1254, 444, 11, 68, "Text",ExpressionUUID->"b707e268-d00a-4db8-bad8-d1c2c11a316b"],
+Cell[46491, 1267, 560, 13, 100, "Input",ExpressionUUID->"557ab9cf-3a8e-41a0-b771-8939cf2d0d55"],
+Cell[47054, 1282, 470, 7, 57, "Input",ExpressionUUID->"216fbdc4-6614-4959-afc9-95b6329378db"],
+Cell[47527, 1291, 507, 11, 68, "Text",ExpressionUUID->"bad8687f-2eb0-4d3f-a18c-fe200a666a38"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[48071, 1307, 115, 1, 87, "Subsubsection",ExpressionUUID->"3e2392ee-cdd6-48fd-9521-aa6f58db6cd5"],
+Cell[48189, 1310, 702, 22, 68, "Text",ExpressionUUID->"0608ee44-8e46-47d1-b2f2-db058f5529e2"],
+Cell[48894, 1334, 543, 13, 68, "Text",ExpressionUUID->"b047a3ec-820d-4df0-86de-76709af43deb"],
+Cell[49440, 1349, 638, 17, 68, "Text",ExpressionUUID->"83c2802b-834e-4034-97c8-f320f1149b2f"],
+Cell[50081, 1368, 566, 11, 68, "Text",ExpressionUUID->"163f6459-6f4f-4c0e-9264-1bb67f53cb1e"],
+Cell[50650, 1381, 564, 11, 68, "Text",ExpressionUUID->"e2d1c6ce-b1f3-4edc-a688-8309cc7ccf80"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[51275, 1399, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"f610281c-9356-49ba-bac8-9eed48ce7ef3",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[51422, 1405, 105, 1, 131, "Section",ExpressionUUID->"d192e0f8-a26a-4647-a232-04893451cec6"],
+Cell[51530, 1408, 201, 4, 68, "Text",ExpressionUUID->"5d3f54ea-e203-421a-a0a1-f1473f7ba919"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+

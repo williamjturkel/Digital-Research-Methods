@@ -1,0 +1,2578 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[    112816,       2570]
+NotebookOptionsPosition[     96351,       2319]
+NotebookOutlinePosition[     98905,       2370]
+CellTagsIndexPosition[     98826,       2365]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ TogglerBox[2, {1->
+  OverlayBox[{
+   TagBox[GridBox[{
+      {
+       GraphicsBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBAkBOaF5xZnpeaopnXklqemqRRRIz
+UFAKiEGSLED8//9/gvjRo0fsN27cELp69arY+fPnpZExPn137tzhBqrRBGJ/
+ID4CxMfRMTZ9L168YL5w4YIaUD4AiC8C8Qcg/gvE/9AxFreC7PQD4gtA/BGq
+7j8ujKz3+fPnLFC9b6H24dSHTf/FixfVofYSpRdZPzSsAqBuJkovsn5oOF8k
+5F9s+h88eMBBjt0w/devXxcGso+S4m9k/ZcuXRKHpgeS3A7TD0wrkpToPw9J
+ywOmn1L3Uxp+lMYfpemH0vRLjfwDjQey8y9a+fGOWDPwlF+gsPhEKDywlZ8g
+d0D9EniexPITGd++fZv3PBnlN6764zxa3QHCAIDESDs=
+         "], {{0, 26}, {16, 
+         0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{16, 26},
+        PlotRange->{{0, 16}, {0, 26}}], 
+       GraphicsBox[RasterBox[CompressedData["
+1:eJzt2V1vVFUUBuBGTfTSSygthYYKNHyVinrrpbcYfwBEJN5gUkyMfw9KKaVw
+KCkQKCW1RNIQKg1gEE3QtdN10pMRZCaBzNQ+kzxt5nzstfeZfbPOu/vkD8e/
+e6+vr+/sR/Hn+ImfvpyYOPHz1x/Hl2/OnP3+9JlT33515sdTp09NfHHy/TjY
+H6592Nf3QfyvqmpHBwbCYNr5GoMNAw2d1AEAADa3/obtLba1aJ7rb4xR9x1D
+YVfYHYbDnjASPgn7wv4wGg6Eg+FQOByOhLEwnj4Nx8Jn6fM21dcfyzHq8cay
+xuGseTDnMJpz2pdzHMk5D+caduWa6v6p+czafU71s6p1+/cGAADYqt52/9va
+++6tXt331j3v0TTeoj5e966v6lv3Vv/uWfWr9LJm9tzMpN+UW3eaVV9s00yY
+CzfC7bAQFhvuhjt57maYD9er9c+VcDlcCtMd1AQAADafqXQhTabz6VyL+vhk
+Xl/uLX1D6UFmw9VwrVrvL0o/cqta7ztKD3Iv/BLuh1/DSngYHoXfwlp4Ep6F
+38Pz8Ed4Ef5Mf71Gff5F3vM8x3iWY65ljUdZcyXncD/ndC/neDvnfCPXcC3X
+NJtrnG48r3afU/2s6uc11QO/OwAAwFbzLvrfksWVjK30kSV3KxncUlgOD6qN
+vnc1PK42+t7iaaq/r+U1q9VG3/ogx1rKse9krfmsrV+l15R9WDLmkjWXzLl8
+yvuVsmdLJl3eu5R9XN7BNLPrhTxX3seUvT3TQc2Xbfr7LWq3JgAAwH95m33K
+u9Dt5wMAAMDmp2dlK+vGnu/2+yQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYPN42aZu
+1AQAAAAAAICtrNsZIXRTN/b8xTbNhLlwI9wOC2Gx4W64k+duhvlwvVr/XAmX
+w6Uw3UFNAAAAAAAA6EVT6UKaTOfTuRb18cm8vtxbcrOSwc2Gq9V6FlcytlvV
+eu5WMrilsBwehJXwMKyGx2EtPElPU/19La9ZzXtWcozlHHMxa9zKmnM5h9mc
+03Rjfe2uq15bvb6pHvid2NzKPiwZc8maS+ZcPiWDLnu2ZNIlmy77uGTVzex6
+Ic+VbLvs7ZkOau7owEAYTDtfY7BhoKGTOgAAAAAAANDr+hu2t9jWonmuvzFG
+nbsNhd1hOOwJI2Fv2B9Gw4FwMBwKR8JYOJrGW9THx/LaQ3nvgRxrf449krWG
+s/ZQtZH3NdfY7rrqtdW6/fvw/9LMnpuZ9Jty646y6n8AhCP7tg==
+         "], {{0, 26}, {
+         2000, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{2000, 26},
+        PlotRange->{{0, 2000}, {0, 26}}], 
+       GraphicsBox[RasterBox[CompressedData["
+1:eJy9lktLQkEUxyVdCBIELaxctYq+QduWbcKMPoCSRRsDC6JPp+Lj4vuq+EBc
+iBtFfIYrpU7nPzQiN++9vmrgp/dx5j8z55w5c099z56HPYvF8mLnH4/37TIY
+9L7fHvDNXeDl6THgv78KvPof/cELn5UfnjBHjI3J5/OudVBV9bhUKjmbzaad
+iCxmcB9lAxKMmzmv1+v7JvpfG/DJjJkic8NrOut0OlYdfdoCjPXBqMx1q9Vy
+7FhfgvX0MUa73bYZ6edyuTnrvPsZQ4Wv9PTRL5vNroTOGIiJu9FoOLT6UjuT
+yVAqlaJkMin+0+m0YPEZbHTGQDwKyKtl+ugHjdFoRIVCgeLxOCUSCQGua7Ua
+9Xo9YQNbozXI/aHVZ//RcDik2WxG5XKZwuGwANdo0JfrNIhDvFqtHi7zD+YW
+i8VoMBgIvWKxKEDrdrtiHbAxiAF8pHAf5zJ9+Bca0WiUxuMxydbv98U64CvY
+wNZgTyioI9r8QR/EEvrQUhRlrh8Kheb6sDHTZ1xG84ePMP/pdPpr/tvoL/of
+Mcb9Jv7X+mcxP2X+QCMSiYh5VyoVMQbXMbP81I2vzM/JZCLyX+a+BPmPvbFN
+fmr36pr713B/rVp7THy/tD6Y1cjF5zrahvVtB5jW5y21B/kVzpc1kecjfK53
+Pu7kfNfO+x+/T/70++ob7NUEtQ==
+         "], {{0, 26}, {24, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{24, 26},
+        PlotRange->{{0, 24}, {0, 26}}]}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {Automatic, 
+         Scaled[0.6], Automatic}},
+     GridBoxSpacings->{"Columns" -> {{0}}, "Rows" -> {{0}}}],
+    "Grid"], 
+   PaneBox[
+    StyleBox[
+     RowBox[{
+     "Background", " ", "images", " ", "and", " ", "text", " ", "colors", " ",
+       "have", " ", "been", " ", "adjusted", " ", "for", " ", "editing", " ", 
+      
+      RowBox[{"purposes", "."}]}],
+     LineBreakWithin->False,
+     FontFamily->"Helvetica",
+     FontSize->12,
+     FontColor->GrayLevel[0.4]],
+    Alignment->Center,
+    ImageSize->Scaled[0.5],
+    ScrollPosition->{0., 0.}]},
+   Alignment->{Center, Center}], 2->""}, "1"]], "SlideShowNavigationBar", \
+"FirstSlide",
+ CellMargins->{{0, 0}, {0, 0}},
+ CellFrameLabelMargins->2,
+ CellSize->{Inherited, 30},
+ CellChangeTimes->{3.647361175465108*^9},
+ TextAlignment->Center,
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"f07620f7-8487-461b-8dd5-a39e9beac907"],
+
+Cell["\<\
+Digital Research Methods 05B:
+Named Entities\
+\>", "Title",
+ CellChangeTimes->{
+  3.559948400406288*^9, {3.647331852839075*^9, 3.647331861295168*^9}, {
+   3.647331922221755*^9, 3.647331924532915*^9}, {3.647332658962614*^9, 
+   3.64733266480881*^9}, {3.6473611327373047`*^9, 3.647361139759391*^9}, {
+   3.647448943135475*^9, 3.6474489472294493`*^9}, {3.651642281280785*^9, 
+   3.651642289294532*^9}},ExpressionUUID->"779fde82-4995-4758-9ab4-\
+becd72836587"],
+
+Cell[TextData[{
+ "William J Turkel, ",
+ StyleBox["wturkel@uwo.ca",
+  FontSlant->"Italic",
+  FontColor->RGBColor[
+   0.396078431372549, 0.596078431372549, 0.796078431372549]],
+ "\nHistory 2816 / Digital Humanities 2130 / History 9877"
+}], "Subtitle",
+ CellChangeTimes->{{3.647331955723979*^9, 3.6473319708190517`*^9}, 
+   3.647332103720562*^9},ExpressionUUID->"40c95259-5d09-4dfc-bb94-\
+b466864789f3"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"04979d90-a748-4fd4-a1ff-0b183b6745e4"],
+
+Cell[CellGroupData[{
+
+Cell["Overview", "Section",
+ CellChangeTimes->{{3.647361153919208*^9, 
+  3.6473611548467712`*^9}},ExpressionUUID->"877dde87-58bf-42c6-aba3-\
+6932d8a517b4"],
+
+Cell[TextData[{
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " allows us to retrieve computable data about millions of different named \
+entities, including persons, places, art works, institutions, artifacts, \
+economies, societies, organisms, molecules, astronomical bodies, geographical \
+features, buildings, historical events and periods, and so on."
+}], "Text",
+ CellChangeTimes->{{3.647361157582405*^9, 3.647361159086673*^9}, {
+  3.6522894875857973`*^9, 
+  3.65228963385093*^9}},ExpressionUUID->"065849c3-2e86-46f6-80fa-\
+1970a55f905b"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"486a1e8c-0a22-4375-80c5-d52dfca0c933"],
+
+Cell[CellGroupData[{
+
+Cell["Setup", "Section",
+ CellChangeTimes->{{3.647716369451888*^9, 3.647716370003084*^9}, {
+  3.647798474690284*^9, 
+  3.6477984752570744`*^9}},ExpressionUUID->"bea045c0-80a7-4e75-98e0-\
+2d22b33016a6"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"viewData", "[", "x_", "]"}], ":=", "\[IndentingNewLine]", 
+  RowBox[{"Framed", "[", 
+   RowBox[{"Pane", "[", 
+    RowBox[{"x", ",", 
+     RowBox[{"{", 
+      RowBox[{"Automatic", ",", "200"}], "}"}], ",", 
+     RowBox[{"Scrollbars", "\[Rule]", "True"}]}], "]"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.511539182255096*^9, 3.51153920239167*^9}},
+ CellLabel->"In[1]:=",ExpressionUUID->"0639395a-6ba3-4e43-8fa6-f598b4ceee4d"],
+
+Cell["\<\
+We will be using some functions that allow us to visualize and interact with \
+information about named entities\
+\>", "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.651651970323504*^9, 3.65165199388214*^9}, {3.68330023299625*^9, 
+  3.683300246145749*^9}},ExpressionUUID->"6b97bfc4-0c80-4abc-9271-\
+f5fa07d64ba8"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"getWAPersonPropertyAssoc", "[", "person_", "]"}], ":=", 
+  "\[IndentingNewLine]", 
+  RowBox[{"PersonData", "[", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"Interpreter", "[", "\"\<ComputedPerson\>\"", "]"}], "[", 
+     "person", "]"}], ",", 
+    RowBox[{"{", 
+     RowBox[{
+     "\"\<Entity\>\"", ",", "\"\<FullName\>\"", ",", "\"\<Image\>\"", ",", 
+      "\"\<BirthDate\>\"", ",", "\"\<DeathDate\>\"", ",", 
+      "\"\<NotableFacts\>\""}], "}"}], ",", "\"\<PropertyAssociation\>\""}], 
+   "]"}]}]], "Input",
+ CellChangeTimes->{{3.64182939296874*^9, 3.641829412373787*^9}, {
+  3.6418294730478287`*^9, 3.641829503478922*^9}, {3.64182959503443*^9, 
+  3.6418295994352217`*^9}, {3.641830457033346*^9, 3.641830466522045*^9}},
+ CellLabel->"In[2]:=",ExpressionUUID->"6e7a3bc8-97e1-464d-9ee6-3c29752c3e18"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"formatWAPersonData", "[", "assoc_", "]"}], ":=", 
+  "\[IndentingNewLine]", 
+  RowBox[{"(*", " ", 
+   RowBox[{"version", " ", "20160920"}], " ", "*)"}], "\[IndentingNewLine]", 
+  RowBox[{"Grid", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"assoc", "[", "\"\<Image\>\"", "]"}], ",", 
+       RowBox[{"Column", "[", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"Text", "@", 
+           RowBox[{"Style", "[", 
+            RowBox[{
+             RowBox[{"assoc", "[", "\"\<FullName\>\"", "]"}], ",", "Bold"}], 
+            "]"}]}], ",", 
+          RowBox[{"Text", "[", 
+           RowBox[{"\"\<b. \>\"", "<>", 
+            RowBox[{"DateString", "@", 
+             RowBox[{"assoc", "[", "\"\<BirthDate\>\"", "]"}]}], "<>", 
+            "\"\<, d. \>\"", "<>", 
+            RowBox[{"DateString", "@", 
+             RowBox[{"assoc", "[", "\"\<DeathDate\>\"", "]"}]}]}], "]"}], ",", 
+          RowBox[{"Column", "[", 
+           RowBox[{
+            RowBox[{
+             RowBox[{"Text", "[", 
+              RowBox[{"Style", "[", 
+               RowBox[{"#", ",", " ", "Medium"}], "]"}], "]"}], " ", "&"}], 
+            " ", "/@", " ", 
+            RowBox[{"assoc", "[", "\"\<NotableFacts\>\"", "]"}]}], "]"}]}], 
+         "}"}], "]"}]}], "}"}], "}"}], ",", "\[IndentingNewLine]", 
+    RowBox[{"Frame", "\[Rule]", "All"}], ",", 
+    RowBox[{"ItemSize", "\[Rule]", 
+     RowBox[{"{", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"Scaled", "[", ".25", "]"}], ",", 
+        RowBox[{"Scaled", "[", ".65", "]"}]}], "}"}], "}"}]}], ",", 
+    RowBox[{"Alignment", "\[Rule]", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"Center", ",", "Left"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"Top", ",", "Top"}], "}"}]}], "}"}]}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.641491826288348*^9, 3.641491880204611*^9}, {
+  3.649058510228985*^9, 3.649058552576703*^9}, {3.6833009159797688`*^9, 
+  3.6833010257744913`*^9}, {3.683301061375318*^9, 3.683301073412898*^9}},
+ CellLabel->"In[3]:=",ExpressionUUID->"bf37e7d0-255b-4d06-8696-5e483197b507"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"whosWho", "[", "assoc_", "]"}], ":=", "\[IndentingNewLine]", 
+  RowBox[{"MenuView", "[", 
+   RowBox[{
+    RowBox[{"Sort", "[", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{
+         RowBox[{"Keys", "[", "assoc", "]"}], "\[LeftDoubleBracket]", "i", 
+         "\[RightDoubleBracket]"}], "\[Rule]", 
+        RowBox[{"formatWAPersonData", "[", 
+         RowBox[{"assoc", "\[LeftDoubleBracket]", 
+          RowBox[{
+           RowBox[{"Keys", "[", "assoc", "]"}], "\[LeftDoubleBracket]", "i", 
+           "\[RightDoubleBracket]"}], "\[RightDoubleBracket]"}], "]"}]}], ",", 
+       RowBox[{"{", 
+        RowBox[{"i", ",", 
+         RowBox[{"Length", "[", 
+          RowBox[{"Keys", "[", "assoc", "]"}], "]"}]}], "}"}]}], "]"}], "]"}],
+     ",", 
+    RowBox[{"ImageSize", "\[Rule]", "Automatic"}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.6414950916869926`*^9, 3.641495153450778*^9}, 
+   3.641495252255622*^9, {3.641495288795348*^9, 3.641495292408897*^9}},
+ CellLabel->"In[4]:=",ExpressionUUID->"b090fd1a-0692-41f7-b58b-f7bce6b8d012"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"91cc2749-a7d1-4347-8259-57916af09a60"],
+
+Cell[CellGroupData[{
+
+Cell["Entities", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.651642353717334*^9, 3.651642354412077*^9}, {3.651642586332061*^9, 
+  3.651642614387403*^9}},ExpressionUUID->"0e5f75a5-0f74-4634-9235-\
+d17f62eaab63"],
+
+Cell[TextData[{
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " has direct access to the properties of millions of ",
+ StyleBox["entities",
+  FontSlant->"Italic"],
+ ". To discover one of these entities, we can use the \[ControlKey]= command \
+at the beginning of an input cell."
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.651642359844118*^9, 
+  3.6516424505445004`*^9}},ExpressionUUID->"320bc386-a0e6-4157-9bec-\
+1323c58dc549"],
+
+Cell[CellGroupData[{
+
+Cell["People", "Subsection",
+ CellChangeTimes->{{3.651642453032385*^9, 
+  3.651642453760228*^9}},ExpressionUUID->"4a974dc2-2199-4aa8-b330-\
+8fc480c85791"],
+
+Cell["\<\
+When an entity is recognized it appears in your notebook in a tan-colored box \
+with rounded edges\
+\>", "Text",
+ CellChangeTimes->{{3.651642511110777*^9, 3.651642546492818*^9}, 
+   3.651648552743421*^9},ExpressionUUID->"2772ae99-27e7-4759-8ea4-\
+d20db2da4133"],
+
+Cell[BoxData[
+ NamespaceBox["LinguisticAssistant",
+  DynamicModuleBox[{Typeset`query$$ = "j edgar hoover", Typeset`boxes$$ = 
+   TemplateBox[{"\"J. Edgar Hoover\"", 
+     RowBox[{"Entity", "[", 
+       RowBox[{"\"Person\"", ",", "\"JEdgarHoover::3737b\""}], "]"}], 
+     "\"Entity[\\\"Person\\\", \\\"JEdgarHoover::3737b\\\"]\"", "\"person\""},
+     "Entity"], Typeset`allassumptions$$ = {}, Typeset`assumptions$$ = {}, 
+   Typeset`open$$ = {1, 2}, Typeset`querystate$$ = {
+   "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+    0.928353`6.419258138682119, "Messages" -> {}}}, 
+   DynamicBox[ToBoxes[
+     AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+      Dynamic[Typeset`query$$], 
+      Dynamic[Typeset`boxes$$], 
+      Dynamic[Typeset`allassumptions$$], 
+      Dynamic[Typeset`assumptions$$], 
+      Dynamic[Typeset`open$$], 
+      Dynamic[Typeset`querystate$$]], StandardForm],
+    ImageSizeCache->{221., {9., 19.}},
+    TrackedSymbols:>{
+     Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+      Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+   DynamicModuleValues:>{},
+   UndoTrackedVariables:>{Typeset`open$$}],
+  BaseStyle->{"Deploy"},
+  DeleteWithContents->True,
+  Editable->False,
+  SelectWithContents->True]], "Input",
+ CellChangeTimes->{3.734971272139908*^9},
+ CellLabel->"In[5]:=",ExpressionUUID->"803cdb10-d31c-4495-a31e-b56a08873f92"],
+
+Cell[TextData[{
+ "Each entity has a given type. ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " knows different things about different kinds of entities"
+}], "Text",
+ CellChangeTimes->{{3.6516426275457973`*^9, 3.65164263338556*^9}, {
+  3.651642764396665*^9, 
+  3.651642778364086*^9}},ExpressionUUID->"182f3039-4249-4cfd-b129-\
+0895f8c8670d"],
+
+Cell[BoxData[
+ RowBox[{"EntityTypeName", "[", 
+  NamespaceBox["LinguisticAssistant",
+   DynamicModuleBox[{Typeset`query$$ = "j edgar hoover", Typeset`boxes$$ = 
+    TemplateBox[{"\"J. Edgar Hoover\"", 
+      RowBox[{"Entity", "[", 
+        RowBox[{"\"Person\"", ",", "\"JEdgarHoover::3737b\""}], "]"}], 
+      "\"Entity[\\\"Person\\\", \\\"JEdgarHoover::3737b\\\"]\"", 
+      "\"person\""}, "Entity"], Typeset`allassumptions$$ = {}, 
+    Typeset`assumptions$$ = {}, Typeset`open$$ = {1, 2}, 
+    Typeset`querystate$$ = {
+    "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+     0.928353`6.419258138682119, "Messages" -> {}}}, 
+    DynamicBox[ToBoxes[
+      AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+       Dynamic[Typeset`query$$], 
+       Dynamic[Typeset`boxes$$], 
+       Dynamic[Typeset`allassumptions$$], 
+       Dynamic[Typeset`assumptions$$], 
+       Dynamic[Typeset`open$$], 
+       Dynamic[Typeset`querystate$$]], StandardForm],
+     ImageSizeCache->{221., {9., 19.}},
+     TrackedSymbols:>{
+      Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+       Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+    DynamicModuleValues:>{},
+    UndoTrackedVariables:>{Typeset`open$$}],
+   BaseStyle->{"Deploy"},
+   DeleteWithContents->True,
+   Editable->False,
+   SelectWithContents->True], "]"}]], "Input",
+ CellChangeTimes->{3.734971298941044*^9},
+ NumberMarks->False,
+ CellLabel->"In[6]:=",ExpressionUUID->"6c324efe-38c0-497a-b91e-993aeb86b3e1"],
+
+Cell[TextData[{
+ "If we want to refer to an entity directly, it helps to know its canonical \
+name. We can get this with the ",
+ StyleBox["InputForm",
+  FontWeight->"Bold"],
+ " and ",
+ StyleBox["CanonicalName",
+  FontWeight->"Bold"],
+ " commands."
+}], "Text",
+ CellChangeTimes->{{3.651642807699683*^9, 
+  3.651642886208068*^9}},ExpressionUUID->"48435766-bfcb-4f16-ab6e-\
+34c9e50abba6"],
+
+Cell[BoxData[
+ RowBox[{"InputForm", "[", 
+  NamespaceBox["LinguisticAssistant",
+   DynamicModuleBox[{Typeset`query$$ = "j edgar hoover", Typeset`boxes$$ = 
+    TemplateBox[{"\"J. Edgar Hoover\"", 
+      RowBox[{"Entity", "[", 
+        RowBox[{"\"Person\"", ",", "\"JEdgarHoover::3737b\""}], "]"}], 
+      "\"Entity[\\\"Person\\\", \\\"JEdgarHoover::3737b\\\"]\"", 
+      "\"person\""}, "Entity"], Typeset`allassumptions$$ = {}, 
+    Typeset`assumptions$$ = {}, Typeset`open$$ = {1, 2}, 
+    Typeset`querystate$$ = {
+    "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+     0.928353`6.419258138682119, "Messages" -> {}}}, 
+    DynamicBox[ToBoxes[
+      AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+       Dynamic[Typeset`query$$], 
+       Dynamic[Typeset`boxes$$], 
+       Dynamic[Typeset`allassumptions$$], 
+       Dynamic[Typeset`assumptions$$], 
+       Dynamic[Typeset`open$$], 
+       Dynamic[Typeset`querystate$$]], StandardForm],
+     ImageSizeCache->{221., {9., 19.}},
+     TrackedSymbols:>{
+      Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+       Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+    DynamicModuleValues:>{},
+    UndoTrackedVariables:>{Typeset`open$$}],
+   BaseStyle->{"Deploy"},
+   DeleteWithContents->True,
+   Editable->False,
+   SelectWithContents->True], "]"}]], "Input",
+ CellChangeTimes->{3.73497130696279*^9},
+ NumberMarks->False,
+ CellLabel->"In[7]:=",ExpressionUUID->"e49bbee2-8efa-41e3-8242-66ee2c13bf7f"],
+
+Cell[BoxData[
+ RowBox[{"CanonicalName", "[", 
+  NamespaceBox["LinguisticAssistant",
+   DynamicModuleBox[{Typeset`query$$ = "j edgar hoover", Typeset`boxes$$ = 
+    TemplateBox[{"\"J. Edgar Hoover\"", 
+      RowBox[{"Entity", "[", 
+        RowBox[{"\"Person\"", ",", "\"JEdgarHoover::3737b\""}], "]"}], 
+      "\"Entity[\\\"Person\\\", \\\"JEdgarHoover::3737b\\\"]\"", 
+      "\"person\""}, "Entity"], Typeset`allassumptions$$ = {}, 
+    Typeset`assumptions$$ = {}, Typeset`open$$ = {1, 2}, 
+    Typeset`querystate$$ = {
+    "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+     0.928353`6.419258138682119, "Messages" -> {}}}, 
+    DynamicBox[ToBoxes[
+      AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+       Dynamic[Typeset`query$$], 
+       Dynamic[Typeset`boxes$$], 
+       Dynamic[Typeset`allassumptions$$], 
+       Dynamic[Typeset`assumptions$$], 
+       Dynamic[Typeset`open$$], 
+       Dynamic[Typeset`querystate$$]], StandardForm],
+     ImageSizeCache->{221., {9., 19.}},
+     TrackedSymbols:>{
+      Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+       Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+    DynamicModuleValues:>{},
+    UndoTrackedVariables:>{Typeset`open$$}],
+   BaseStyle->{"Deploy"},
+   DeleteWithContents->True,
+   Editable->False,
+   SelectWithContents->True], "]"}]], "Input",
+ CellChangeTimes->{3.7349713115386333`*^9},
+ NumberMarks->False,
+ CellLabel->"In[8]:=",ExpressionUUID->"8ed9aff8-ef3f-4b15-88ec-c79bcd491d29"],
+
+Cell["\<\
+When we have an entity type and canonical name, we can refer to a unique \
+entity in our code.\
+\>", "Text",
+ CellChangeTimes->{{3.651642897272086*^9, 
+  3.651642929878408*^9}},ExpressionUUID->"2650c35c-4de3-479d-b7fa-\
+b85e2a0e2459"],
+
+Cell[BoxData[
+ RowBox[{"Entity", "[", 
+  RowBox[{"\"\<Person\>\"", ",", " ", "\"\<JEdgarHoover::3737b\>\""}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.651642935206991*^9, 3.651642935208891*^9}, {
+  3.7349713237574797`*^9, 3.7349713288164663`*^9}},
+ CellLabel->"In[9]:=",ExpressionUUID->"772641b6-3f92-4705-8bb3-30b345384a2a"],
+
+Cell["\<\
+For presentation purposes we sometimes want to use the person\
+\[CloseCurlyQuote]s common name instead of the entity\
+\>", "Text",
+ CellChangeTimes->{{3.651642941846376*^9, 
+  3.651642970492791*^9}},ExpressionUUID->"2f84da09-7618-4c14-8d99-\
+1f41237fd904"],
+
+Cell[BoxData[
+ RowBox[{"CommonName", "[", 
+  TemplateBox[{"\"J. Edgar Hoover\"",RowBox[{"Entity", "[", 
+      RowBox[{"\"Person\"", ",", "\"JEdgarHoover::3737b\""}], "]"}],
+    "\"Entity[\\\"Person\\\", \\\"JEdgarHoover::3737b\\\"]\"","\"person\""},
+   "Entity"], "]"}]], "Input",
+ CellChangeTimes->{3.734971338422048*^9},
+ NumberMarks->False,
+ CellLabel->"In[10]:=",ExpressionUUID->"bd93f25a-d487-48f8-91cb-6fc47acabe96"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"feee45fe-3b88-4d7c-b7a5-36ea19225455"],
+
+Cell[CellGroupData[{
+
+Cell["Disambiguation", "Section",
+ CellChangeTimes->{{3.65164274798986*^9, 
+  3.651642750133153*^9}},ExpressionUUID->"af83bac1-8cb2-4a22-b4c3-\
+5f29e68e6b75"],
+
+Cell[TextData[{
+ "Names are not always unique identifiers. If you are not sure you have found \
+the correct entity, try clicking on the cell bracket of the output and use \
+the pulldown ",
+ StyleBox["properties",
+  FontSlant->"Italic"],
+ " menu of the suggestion bar to get ",
+ StyleBox["notable facts",
+  FontSlant->"Italic"],
+ " (we will see another way to do the same thing with code below)."
+}], "Text",
+ CellChangeTimes->{{3.651642997404545*^9, 3.651643037546308*^9}, {
+   3.651643071488984*^9, 3.651643072640921*^9}, {3.651643103552533*^9, 
+   3.6516431632614937`*^9}, {3.651643622591226*^9, 3.651643632628701*^9}, {
+   3.651643664899544*^9, 3.651643761895011*^9}, {3.651643937321287*^9, 
+   3.65164394006446*^9}, {3.651643994927085*^9, 3.651644037412909*^9}, 
+   3.6516462976974583`*^9},ExpressionUUID->"eadec7ea-a229-4048-b39d-\
+ed16c80aadeb"],
+
+Cell[BoxData[
+ NamespaceBox["LinguisticAssistant",
+  DynamicModuleBox[{Typeset`query$$ = "Robert Jackson", Typeset`boxes$$ = 
+   TemplateBox[{"\"Robert H. Jackson\"", 
+     RowBox[{"Entity", "[", 
+       RowBox[{"\"Person\"", ",", "\"RobertHJackson::757jm\""}], "]"}], 
+     "\"Entity[\\\"Person\\\", \\\"RobertHJackson::757jm\\\"]\"", 
+     "\"person\""}, "Entity"], 
+   Typeset`allassumptions$$ = {{
+    "type" -> "SubCategory", "word" -> "Robert Jackson", "template" -> 
+     "Assuming ${desc1}. Use ${desc2} instead", "count" -> "5", 
+     "Values" -> {{
+       "name" -> "RobertHJackson::757jm", "desc" -> 
+        "Robert H. Jackson (judge, 1892\[Dash]1954)", "input" -> 
+        "*DPClash.PersonE.Robert+Jackson-_*RobertHJackson%3A%3A757jm-"}, {
+       "name" -> "RobertJackson::74ht9", "desc" -> 
+        "Robert Jackson (football player, 1958\[Dash])", "input" -> 
+        "*DPClash.PersonE.Robert+Jackson-_*RobertJackson%3A%3A74ht9-"}, {
+       "name" -> "RobertJackson::77g92", "desc" -> 
+        "Robert Jackson (football player, 1953\[Dash])", "input" -> 
+        "*DPClash.PersonE.Robert+Jackson-_*RobertJackson%3A%3A77g92-"}, {
+       "name" -> "RobertJackson::s69v5", "desc" -> "Robert Jackson (golfer)", 
+        "input" -> 
+        "*DPClash.PersonE.Robert+Jackson-_*RobertJackson%3A%3As69v5-"}, {
+       "name" -> "RobertLJackson::xq47p", "desc" -> 
+        "Robert L. Jackson (football player, 1954\[Dash])", "input" -> 
+        "*DPClash.PersonE.Robert+Jackson-_*RobertLJackson%3A%3Axq47p-"}}}}, 
+   Typeset`assumptions$$ = {}, Typeset`open$$ = {1, 2}, 
+   Typeset`querystate$$ = {
+   "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+    1.111392`6.4974122598266035, "Messages" -> {}}}, 
+   DynamicBox[ToBoxes[
+     AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+      Dynamic[Typeset`query$$], 
+      Dynamic[Typeset`boxes$$], 
+      Dynamic[Typeset`allassumptions$$], 
+      Dynamic[Typeset`assumptions$$], 
+      Dynamic[Typeset`open$$], 
+      Dynamic[Typeset`querystate$$]], StandardForm],
+    ImageSizeCache->{269., {9., 19.}},
+    TrackedSymbols:>{
+     Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+      Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+   DynamicModuleValues:>{},
+   UndoTrackedVariables:>{Typeset`open$$}],
+  BaseStyle->{"Deploy"},
+  DeleteWithContents->True,
+  Editable->False,
+  SelectWithContents->True]], "Input",
+ CellChangeTimes->{3.734971392991173*^9},
+ CellLabel->"In[11]:=",ExpressionUUID->"e8f14d8c-155e-4672-8261-0b89580b9dd2"],
+
+Cell[BoxData[
+ RowBox[{"PersonData", "[", 
+  RowBox[{
+   TemplateBox[{"\"Robert H. Jackson\"",RowBox[{"Entity", "[", 
+       RowBox[{"\"Person\"", ",", "\"RobertHJackson::757jm\""}], "]"}],
+     "\"Entity[\\\"Person\\\", \\\"RobertHJackson::757jm\\\"]\"","\"person\""},
+    "Entity"], ",", "\"\<NotableFacts\>\""}], "]"}]], "Input",
+ NumberMarks->False,
+ CellLabel->"In[12]:=",ExpressionUUID->"01d21a3f-1595-42ec-90a8-09a7c948eba9"],
+
+Cell[BoxData[
+ RowBox[{"InputForm", "[", 
+  NamespaceBox["LinguisticAssistant",
+   DynamicModuleBox[{Typeset`query$$ = "Robert Jackson", Typeset`boxes$$ = 
+    TemplateBox[{"\"Robert H. Jackson\"", 
+      RowBox[{"Entity", "[", 
+        RowBox[{"\"Person\"", ",", "\"RobertHJackson::757jm\""}], "]"}], 
+      "\"Entity[\\\"Person\\\", \\\"RobertHJackson::757jm\\\"]\"", 
+      "\"person\""}, "Entity"], 
+    Typeset`allassumptions$$ = {{
+     "type" -> "SubCategory", "word" -> "Robert Jackson", "template" -> 
+      "Assuming ${desc1}. Use ${desc2} instead", "count" -> "5", 
+      "Values" -> {{
+        "name" -> "RobertHJackson::757jm", "desc" -> 
+         "Robert H. Jackson (judge, 1892\[Dash]1954)", "input" -> 
+         "*DPClash.PersonE.Robert+Jackson-_*RobertHJackson%3A%3A757jm-"}, {
+        "name" -> "RobertJackson::74ht9", "desc" -> 
+         "Robert Jackson (football player, 1958\[Dash])", "input" -> 
+         "*DPClash.PersonE.Robert+Jackson-_*RobertJackson%3A%3A74ht9-"}, {
+        "name" -> "RobertJackson::77g92", "desc" -> 
+         "Robert Jackson (football player, 1953\[Dash])", "input" -> 
+         "*DPClash.PersonE.Robert+Jackson-_*RobertJackson%3A%3A77g92-"}, {
+        "name" -> "RobertJackson::s69v5", "desc" -> "Robert Jackson (golfer)",
+          "input" -> 
+         "*DPClash.PersonE.Robert+Jackson-_*RobertJackson%3A%3As69v5-"}, {
+        "name" -> "RobertLJackson::xq47p", "desc" -> 
+         "Robert L. Jackson (football player, 1954\[Dash])", "input" -> 
+         "*DPClash.PersonE.Robert+Jackson-_*RobertLJackson%3A%3Axq47p-"}}}}, 
+    Typeset`assumptions$$ = {}, Typeset`open$$ = {1, 2}, 
+    Typeset`querystate$$ = {
+    "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+     1.111392`6.4974122598266035, "Messages" -> {}}}, 
+    DynamicBox[ToBoxes[
+      AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+       Dynamic[Typeset`query$$], 
+       Dynamic[Typeset`boxes$$], 
+       Dynamic[Typeset`allassumptions$$], 
+       Dynamic[Typeset`assumptions$$], 
+       Dynamic[Typeset`open$$], 
+       Dynamic[Typeset`querystate$$]], StandardForm],
+     ImageSizeCache->{269., {9., 19.}},
+     TrackedSymbols:>{
+      Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+       Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+    DynamicModuleValues:>{},
+    UndoTrackedVariables:>{Typeset`open$$}],
+   BaseStyle->{"Deploy"},
+   DeleteWithContents->True,
+   Editable->False,
+   SelectWithContents->True], "]"}]], "Input",
+ CellChangeTimes->{3.734971531916786*^9},
+ NumberMarks->False,
+ CellLabel->"In[13]:=",ExpressionUUID->"8e91409a-39be-43bc-a22b-b23d97036b76"],
+
+Cell["\<\
+When you use WolframAlpha to discover an entity, you can click on the box \
+with three dots after the name to find alternate interpretations. Here I have \
+chosen a golfer named Robert Jackson\
+\>", "Text",
+ CellChangeTimes->{
+  3.651643627143407*^9, {3.651644115994573*^9, 3.6516441254334784`*^9}, {
+   3.651644411352325*^9, 3.651644414782626*^9}, {3.7349715620086737`*^9, 
+   3.734971588958982*^9}},ExpressionUUID->"5ee47bc2-9893-420c-8604-\
+9ca11bfb4533"],
+
+Cell[BoxData[
+ NamespaceBox["LinguisticAssistant",
+  DynamicModuleBox[{Typeset`query$$ = "Robert Jackson", Typeset`boxes$$ = 
+   "None", Typeset`allassumptions$$ = {{
+    "type" -> "Clash", "word" -> "Robert Jackson", "template" -> 
+     "Assuming \"${word}\" is ${desc1}. Use as ${desc2} instead", "count" -> 
+     "2", "Values" -> {{
+       "name" -> "NFLPlayer", "desc" -> "an NFL player", "input" -> 
+        "*C.Robert+Jackson-_*NFLPlayer-"}, {
+       "name" -> "Person", "desc" -> "a person", "input" -> 
+        "*C.Robert+Jackson-_*Person-"}}}, {
+    "type" -> "SubCategory", "word" -> "Robert Jackson", "template" -> 
+     "Assuming ${desc1}. Use ${desc2} instead", "count" -> "3", 
+     "Values" -> {{
+       "name" -> "RobertJackson::74ht9", "desc" -> 
+        "Robert Jackson (football player, 1958\[Dash])", "input" -> 
+        "*DPClash.NFLPlayerE.Robert+Jackson-_*RobertJackson%3A%3A74ht9-"}, {
+       "name" -> "RobertJackson::77g92", "desc" -> 
+        "Robert Jackson (football player, 1953\[Dash])", "input" -> 
+        "*DPClash.NFLPlayerE.Robert+Jackson-_*RobertJackson%3A%3A77g92-"}, {
+       "name" -> "RobertLJackson::xq47p", "desc" -> 
+        "Robert L. Jackson (football player, 1954\[Dash])", "input" -> 
+        "*DPClash.NFLPlayerE.Robert+Jackson-_*RobertLJackson%3A%3Axq47p-"}}}},
+    Typeset`assumptions$$ = {}, Typeset`open$$ = {1, 2}, 
+   Typeset`querystate$$ = {
+   "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+    1.110425`6.497034224380371, "$TimedOut" -> 4.901502`7.141874177678712, 
+    "Messages" -> {}}}, 
+   DynamicBox[ToBoxes[
+     AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+      Dynamic[Typeset`query$$], 
+      Dynamic[Typeset`boxes$$], 
+      Dynamic[Typeset`allassumptions$$], 
+      Dynamic[Typeset`assumptions$$], 
+      Dynamic[Typeset`open$$], 
+      Dynamic[Typeset`querystate$$]], StandardForm],
+    ImageSizeCache->{200., {8., 25.}},
+    TrackedSymbols:>{
+     Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+      Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+   DynamicModuleValues:>{},
+   UndoTrackedVariables:>{Typeset`open$$}],
+  BaseStyle->{"Deploy"},
+  DeleteWithContents->True,
+  Editable->False,
+  SelectWithContents->True]], "Input",
+ CellChangeTimes->{3.734971392991173*^9},
+ CellLabel->"In[14]:=",ExpressionUUID->"6baf13c8-131d-4428-80fc-1f46b35f43ff"],
+
+Cell["Note that the canonical form is now different", "Text",
+ CellChangeTimes->{{3.651644201870604*^9, 
+  3.651644241901157*^9}},ExpressionUUID->"8150debb-bed9-4a65-aee8-\
+fc02d4671192"],
+
+Cell[BoxData[
+ RowBox[{"InputForm", "[", 
+  NamespaceBox["LinguisticAssistant",
+   DynamicModuleBox[{Typeset`query$$ = "Robert Jackson", Typeset`boxes$$ = 
+    "None", Typeset`allassumptions$$ = {{
+     "type" -> "Clash", "word" -> "Robert Jackson", "template" -> 
+      "Assuming \"${word}\" is ${desc1}. Use as ${desc2} instead", "count" -> 
+      "2", "Values" -> {{
+        "name" -> "NFLPlayer", "desc" -> "an NFL player", "input" -> 
+         "*C.Robert+Jackson-_*NFLPlayer-"}, {
+        "name" -> "Person", "desc" -> "a person", "input" -> 
+         "*C.Robert+Jackson-_*Person-"}}}, {
+     "type" -> "SubCategory", "word" -> "Robert Jackson", "template" -> 
+      "Assuming ${desc1}. Use ${desc2} instead", "count" -> "3", 
+      "Values" -> {{
+        "name" -> "RobertJackson::74ht9", "desc" -> 
+         "Robert Jackson (football player, 1958\[Dash])", "input" -> 
+         "*DPClash.NFLPlayerE.Robert+Jackson-_*RobertJackson%3A%3A74ht9-"}, {
+        "name" -> "RobertJackson::77g92", "desc" -> 
+         "Robert Jackson (football player, 1953\[Dash])", "input" -> 
+         "*DPClash.NFLPlayerE.Robert+Jackson-_*RobertJackson%3A%3A77g92-"}, {
+        "name" -> "RobertLJackson::xq47p", "desc" -> 
+         "Robert L. Jackson (football player, 1954\[Dash])", "input" -> 
+         "*DPClash.NFLPlayerE.Robert+Jackson-_*RobertLJackson%3A%3Axq47p-"}}}}\
+, Typeset`assumptions$$ = {}, Typeset`open$$ = {1, 2}, 
+    Typeset`querystate$$ = {
+    "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+     1.000335`6.451690457783504, "$TimedOut" -> 5.102864`7.159358987296244, 
+     "Messages" -> {}}}, 
+    DynamicBox[ToBoxes[
+      AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+       Dynamic[Typeset`query$$], 
+       Dynamic[Typeset`boxes$$], 
+       Dynamic[Typeset`allassumptions$$], 
+       Dynamic[Typeset`assumptions$$], 
+       Dynamic[Typeset`open$$], 
+       Dynamic[Typeset`querystate$$]], StandardForm],
+     ImageSizeCache->{205., {8., 19.}},
+     TrackedSymbols:>{
+      Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+       Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+    DynamicModuleValues:>{},
+    UndoTrackedVariables:>{Typeset`open$$}],
+   BaseStyle->{"Deploy"},
+   DeleteWithContents->True,
+   Editable->False,
+   SelectWithContents->True], "]"}]], "Input",
+ CellChangeTimes->{{3.6516441921411963`*^9, 3.651644196640278*^9}, 
+   3.7349715960303793`*^9},
+ CellLabel->"In[15]:=",ExpressionUUID->"7851c8ed-6ec1-44f3-ada2-fb6aa5b4eb1b"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"6f76e267-3e5f-41fc-9c40-d47937d8cc92"],
+
+Cell[CellGroupData[{
+
+Cell["Entity properties", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+   3.651642600442754*^9, 3.6516426023707333`*^9}, {3.651642653041567*^9, 
+   3.6516426539447393`*^9}, 
+   3.65164272174331*^9},ExpressionUUID->"1cd358a9-2af8-48ed-9064-\
+0e979eb6a202"],
+
+Cell[TextData[{
+ "Once we have identified a person, we can request information about him or \
+her with the ",
+ StyleBox["PersonData",
+  FontWeight->"Bold"],
+ " command."
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.6516435379042597`*^9, 3.651643553078884*^9}, {3.6516443649058037`*^9, 
+  3.651644389271615*^9}},ExpressionUUID->"d889364f-4ab9-4414-a873-\
+9b5d7686315b"],
+
+Cell["Here are all the properties associated with a named person", "Text",
+ CellChangeTimes->{{3.651644433694635*^9, 3.651644501235474*^9}, {
+  3.651644789066964*^9, 
+  3.651644799352376*^9}},ExpressionUUID->"46f91e7b-8e39-4066-ac05-\
+1a15815165b1"],
+
+Cell[BoxData[
+ RowBox[{"EntityProperties", "[", "\"\<Person\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.6516449418183413`*^9, 3.651644947914996*^9}},
+ CellLabel->"In[16]:=",ExpressionUUID->"38c0d714-c547-4591-a1a3-0a686822ca95"],
+
+Cell[TextData[{
+ "To request one of these properties, it helps to have its ",
+ StyleBox["InputForm",
+  FontWeight->"Bold"],
+ "."
+}], "Text",
+ CellChangeTimes->{{3.651644972914538*^9, 3.651644989945294*^9}, {
+  3.734971680059579*^9, 
+  3.734971683307609*^9}},ExpressionUUID->"9300118d-b5f4-4e05-ba5e-\
+d8768ca68574"],
+
+Cell[BoxData[
+ RowBox[{"InputForm", "[", 
+  RowBox[{"EntityProperties", "[", "\"\<Person\>\"", "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.6516449418183413`*^9, 3.651644947914996*^9}, {
+  3.651645004049675*^9, 3.651645005680808*^9}, {3.734971686083503*^9, 
+  3.734971692867944*^9}},
+ CellLabel->"In[17]:=",ExpressionUUID->"eb622570-d3d3-4176-93b7-78981fa5320d"],
+
+Cell[TextData[{
+ "To request one of these properties, we can use the ",
+ StyleBox["PersonData",
+  FontWeight->"Bold"],
+ " command. In this case we are using John Mills the actor."
+}], "Text",
+ CellChangeTimes->{{3.651644687597074*^9, 3.651644694324333*^9}, {
+  3.651644791580072*^9, 3.651644794464615*^9}, {3.651644859798162*^9, 
+  3.651644863717931*^9}, {3.65164502392095*^9, 
+  3.651645034175675*^9}},ExpressionUUID->"67b4b43b-0a7f-4219-b985-\
+a10c950b7df5"],
+
+Cell[BoxData[
+ RowBox[{"PersonData", "[", 
+  RowBox[{
+   RowBox[{"Entity", "[", 
+    RowBox[{"\"\<Person\>\"", ",", "\"\<RobertHJackson::757jm\>\""}], "]"}], 
+   ",", "\"\<Occupation\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.651644448749918*^9, 3.651644508815899*^9}, {
+  3.651644725412101*^9, 3.651644732299733*^9}, {3.651644838967641*^9, 
+  3.65164484162368*^9}, {3.7349717032883663`*^9, 3.7349717202696047`*^9}},
+ CellLabel->"In[18]:=",ExpressionUUID->"df3d8f70-7086-4ea5-9b96-872c5802be8d"],
+
+Cell["We can request a list of properties for a single person", "Text",
+ CellChangeTimes->{{3.651645106517548*^9, 3.651645115188689*^9}, {
+  3.6516451846669292`*^9, 
+  3.651645193721657*^9}},ExpressionUUID->"2051984d-9abf-423e-aa55-\
+5fb7db1d790e"],
+
+Cell[BoxData[
+ RowBox[{"PersonData", "[", 
+  RowBox[{
+   RowBox[{"Entity", "[", 
+    RowBox[{"\"\<Person\>\"", ",", "\"\<RobertHJackson::757jm\>\""}], "]"}], 
+   ",", 
+   RowBox[{"{", 
+    RowBox[{
+    "\"\<FullName\>\"", ",", "\"\<Gender\>\"", ",", "\"\<BirthDate\>\"", ",", 
+     "\"\<BirthPlace\>\"", ",", "\"\<DeathDate\>\"", ",", 
+     "\"\<DeathPlace\>\""}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.651644448749918*^9, 3.651644508815899*^9}, {
+  3.651644725412101*^9, 3.651644732299733*^9}, {3.651644838967641*^9, 
+  3.65164484162368*^9}, {3.651645125909279*^9, 3.651645146931326*^9}, {
+  3.6516451968579273`*^9, 3.651645217936199*^9}, {3.734971731666761*^9, 
+  3.734971739878337*^9}},
+ CellLabel->"In[19]:=",ExpressionUUID->"4c34991a-869b-484f-b83a-8dd3a76753a0"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"254f71f6-aa9b-41bc-80bf-a41104742177"],
+
+Cell[CellGroupData[{
+
+Cell["Other kinds of entities", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.651642592603136*^9, 
+  3.6516425962749977`*^9}},ExpressionUUID->"c85061ec-d4de-4dec-a5ad-\
+176bd5d7e93c"],
+
+Cell[TextData[{
+ "In addition to persons, ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " has access to information about a wide range of other kinds of entities"
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.651645434090304*^9, 3.651645437032686*^9}, {3.6516491933433647`*^9, 
+  3.651649212245332*^9}},ExpressionUUID->"045bda07-4a4c-43c1-be6d-\
+83e1e389b715"],
+
+Cell[BoxData[
+ NamespaceBox["LinguisticAssistant",
+  DynamicModuleBox[{Typeset`query$$ = "cold war", Typeset`boxes$$ = 
+   TemplateBox[{"\"Cold War era\"", 
+     RowBox[{"Entity", "[", 
+       RowBox[{"\"HistoricalPeriod\"", ",", "\"ColdWarEra\""}], "]"}], 
+     "\"Entity[\\\"HistoricalPeriod\\\", \\\"ColdWarEra\\\"]\"", 
+     "\"historical period\""}, "Entity"], 
+   Typeset`allassumptions$$ = {{
+    "type" -> "Clash", "word" -> "cold war", "template" -> 
+     "Assuming \"${word}\" is ${desc1}. Use as ${desc2} instead", "count" -> 
+     "3", "Values" -> {{
+       "name" -> "HistoricalPeriod", "desc" -> "a historical period", "input" -> 
+        "*C.cold+war-_*HistoricalPeriod-"}, {
+       "name" -> "MusicWork", "desc" -> "a music work", "input" -> 
+        "*C.cold+war-_*MusicWork-"}, {
+       "name" -> "Word", "desc" -> "a word", "input" -> 
+        "*C.cold+war-_*Word-"}}}}, Typeset`assumptions$$ = {}, 
+   Typeset`open$$ = {1, 2}, Typeset`querystate$$ = {
+   "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+    0.846266`6.379051886292301, "Messages" -> {}}}, 
+   DynamicBox[ToBoxes[
+     AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+      Dynamic[Typeset`query$$], 
+      Dynamic[Typeset`boxes$$], 
+      Dynamic[Typeset`allassumptions$$], 
+      Dynamic[Typeset`assumptions$$], 
+      Dynamic[Typeset`open$$], 
+      Dynamic[Typeset`querystate$$]], StandardForm],
+    ImageSizeCache->{292., {9., 19.}},
+    TrackedSymbols:>{
+     Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+      Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+   DynamicModuleValues:>{},
+   UndoTrackedVariables:>{Typeset`open$$}],
+  BaseStyle->{"Deploy"},
+  DeleteWithContents->True,
+  Editable->False,
+  SelectWithContents->True]], "Input",
+ CellChangeTimes->{3.734972122016348*^9},
+ CellLabel->"In[20]:=",ExpressionUUID->"75688aac-2b06-460d-8edf-322491f5c51a"],
+
+Cell[BoxData[
+ NamespaceBox["LinguisticAssistant",
+  DynamicModuleBox[{Typeset`query$$ = "bay of pigs", Typeset`boxes$$ = 
+   TemplateBox[{"\"Bay of Pigs Invasion\"", 
+     RowBox[{"Entity", "[", 
+       RowBox[{"\"HistoricalEvent\"", ",", "\"BayOfPigsInvasion\""}], "]"}], 
+     "\"Entity[\\\"HistoricalEvent\\\", \\\"BayOfPigsInvasion\\\"]\"", 
+     "\"historical event\""}, "Entity"], 
+   Typeset`allassumptions$$ = {{
+    "type" -> "Clash", "word" -> "bay of pigs", "template" -> 
+     "Assuming \"${word}\" is ${desc1}. Use as ${desc2} instead", "count" -> 
+     "2", "Values" -> {{
+       "name" -> "HistoricalEvent", "desc" -> "a historical event", "input" -> 
+        "*C.bay+of+pigs-_*HistoricalEvent-"}, {
+       "name" -> "Bay", "desc" -> "a bay", "input" -> 
+        "*C.bay+of+pigs-_*Bay-"}}}}, Typeset`assumptions$$ = {}, 
+   Typeset`open$$ = {1, 2}, Typeset`querystate$$ = {
+   "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+    1.253033`6.549507502262811, "Messages" -> {}}}, 
+   DynamicBox[ToBoxes[
+     AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+      Dynamic[Typeset`query$$], 
+      Dynamic[Typeset`boxes$$], 
+      Dynamic[Typeset`allassumptions$$], 
+      Dynamic[Typeset`assumptions$$], 
+      Dynamic[Typeset`open$$], 
+      Dynamic[Typeset`querystate$$]], StandardForm],
+    ImageSizeCache->{346., {9., 19.}},
+    TrackedSymbols:>{
+     Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+      Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+   DynamicModuleValues:>{},
+   UndoTrackedVariables:>{Typeset`open$$}],
+  BaseStyle->{"Deploy"},
+  DeleteWithContents->True,
+  Editable->False,
+  SelectWithContents->True]], "Input",
+ CellChangeTimes->{3.6516495014020967`*^9},
+ CellLabel->"In[21]:=",ExpressionUUID->"a6f9c7a1-74bf-4f13-9241-d5569996268e"],
+
+Cell[BoxData[
+ NamespaceBox["LinguisticAssistant",
+  DynamicModuleBox[{Typeset`query$$ = "Berlin", Typeset`boxes$$ = 
+   TemplateBox[{"\"Berlin\"", 
+     RowBox[{"Entity", "[", 
+       RowBox[{"\"City\"", ",", 
+         RowBox[{"{", 
+           RowBox[{"\"Berlin\"", ",", "\"Berlin\"", ",", "\"Germany\""}], 
+           "}"}]}], "]"}], 
+     "\"Entity[\\\"City\\\", {\\\"Berlin\\\", \\\"Berlin\\\", \
+\\\"Germany\\\"}]\"", "\"city\""}, "Entity"], 
+   Typeset`allassumptions$$ = {{
+    "type" -> "Clash", "word" -> "Berlin", "template" -> 
+     "Assuming \"${word}\" is ${desc1}. Use as ${desc2} instead", "count" -> 
+     "4", "Values" -> {{
+       "name" -> "City", "desc" -> "a city", "input" -> 
+        "*C.Berlin-_*City-"}, {
+       "name" -> "AdministrativeDivision", "desc" -> 
+        "an administrative division", "input" -> 
+        "*C.Berlin-_*AdministrativeDivision-"}, {
+       "name" -> "MusicAct", "desc" -> "a music act", "input" -> 
+        "*C.Berlin-_*MusicAct-"}, {
+       "name" -> "GivenName", "desc" -> "a given name", "input" -> 
+        "*C.Berlin-_*GivenName-"}}}, {
+    "type" -> "SubCategory", "word" -> "Berlin", "template" -> 
+     "Assuming ${desc1}. Use ${desc2} instead", "count" -> "15", 
+     "Values" -> {{
+       "name" -> "{Berlin, Berlin, Germany}", "desc" -> "Berlin (Germany)", 
+        "input" -> "*DPClash.CityE.Berlin-_**Berlin.Berlin.Germany--"}, {
+       "name" -> "{Berlin, Connecticut, UnitedStates}", "desc" -> 
+        "Berlin (Connecticut, USA)", "input" -> 
+        "*DPClash.CityE.Berlin-_**Berlin.Connecticut.UnitedStates--"}, {
+       "name" -> "{Berlin, NewHampshire, UnitedStates}", "desc" -> 
+        "Berlin (New Hampshire, USA)", "input" -> 
+        "*DPClash.CityE.Berlin-_**Berlin.NewHampshire.UnitedStates--"}, {
+       "name" -> "{Berlin, NewJersey, UnitedStates}", "desc" -> 
+        "Berlin (New Jersey, USA)", "input" -> 
+        "*DPClash.CityE.Berlin-_**Berlin.NewJersey.UnitedStates--"}, {
+       "name" -> "{Berlin, Wisconsin, UnitedStates}", "desc" -> 
+        "Berlin (Wisconsin, USA)", "input" -> 
+        "*DPClash.CityE.Berlin-_**Berlin.Wisconsin.UnitedStates--"}, {
+       "name" -> "{Berlin, Maryland, UnitedStates}", "desc" -> 
+        "Berlin (Maryland, USA)", "input" -> 
+        "*DPClash.CityE.Berlin-_**Berlin.Maryland.UnitedStates--"}, {
+       "name" -> "{Berlin, Pennsylvania, UnitedStates}", "desc" -> 
+        "Berlin (Pennsylvania, USA)", "input" -> 
+        "*DPClash.CityE.Berlin-_**Berlin.Pennsylvania.UnitedStates--"}, {
+       "name" -> "{Berlin, Massachusetts, UnitedStates}", "desc" -> 
+        "Berlin (Massachusetts, USA)", "input" -> 
+        "*DPClash.CityE.Berlin-_**Berlin.Massachusetts.UnitedStates--"}, {
+       "name" -> "{Berlin, Vermont, UnitedStates}", "desc" -> 
+        "Berlin (Vermont, USA)", "input" -> 
+        "*DPClash.CityE.Berlin-_**Berlin.Vermont.UnitedStates--"}, {
+       "name" -> "{Berlin, Usulutan, ElSalvador}", "desc" -> 
+        "Berlin (El Salvador)", "input" -> 
+        "*DPClash.CityE.Berlin-_**Berlin.Usulutan.ElSalvador--"}, {
+       "name" -> "{Berlin, NewYork, UnitedStates}", "desc" -> 
+        "Berlin (New York, USA)", "input" -> 
+        "*DPClash.CityE.Berlin-_**Berlin.NewYork.UnitedStates--"}, {
+       "name" -> "{Berlin, Georgia, UnitedStates}", "desc" -> 
+        "Berlin (Georgia, USA)", "input" -> 
+        "*DPClash.CityE.Berlin-_**Berlin.Georgia.UnitedStates--"}, {
+       "name" -> "{Berlin, SantaBarbara, Honduras}", "desc" -> 
+        "Berlin (Honduras)", "input" -> 
+        "*DPClash.CityE.Berlin-_**Berlin.SantaBarbara.Honduras--"}, {
+       "name" -> "{Berlin, Illinois, UnitedStates}", "desc" -> 
+        "Berlin (Illinois, USA)", "input" -> 
+        "*DPClash.CityE.Berlin-_**Berlin.Illinois.UnitedStates--"}, {
+       "name" -> "{Berlin, NorthDakota, UnitedStates}", "desc" -> 
+        "Berlin (North Dakota, USA)", "input" -> 
+        "*DPClash.CityE.Berlin-_**Berlin.NorthDakota.UnitedStates--"}}}}, 
+   Typeset`assumptions$$ = {}, Typeset`open$$ = {1, 2}, 
+   Typeset`querystate$$ = {
+   "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+    0.83278`6.372075280130611, "Messages" -> {}}}, 
+   DynamicBox[ToBoxes[
+     AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+      Dynamic[Typeset`query$$], 
+      Dynamic[Typeset`boxes$$], 
+      Dynamic[Typeset`allassumptions$$], 
+      Dynamic[Typeset`assumptions$$], 
+      Dynamic[Typeset`open$$], 
+      Dynamic[Typeset`querystate$$]], StandardForm],
+    ImageSizeCache->{149., {9., 19.}},
+    TrackedSymbols:>{
+     Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+      Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+   DynamicModuleValues:>{},
+   UndoTrackedVariables:>{Typeset`open$$}],
+  BaseStyle->{"Deploy"},
+  DeleteWithContents->True,
+  Editable->False,
+  SelectWithContents->True]], "Input",
+ CellChangeTimes->{3.734972082001865*^9},
+ CellLabel->"In[22]:=",ExpressionUUID->"28b26fd2-4f7b-4de5-8e7f-6ae8d01507be"],
+
+Cell[BoxData[
+ NamespaceBox["LinguisticAssistant",
+  DynamicModuleBox[{Typeset`query$$ = "spy who came in from the cold", 
+   Typeset`boxes$$ = TemplateBox[{"\"The Spy Who Came in From the Cold\"", 
+     RowBox[{"Entity", "[", 
+       RowBox[{"\"Book\"", ",", "\"TheSpyWhoCameInFromTheCold\""}], "]"}], 
+     "\"Entity[\\\"Book\\\", \\\"TheSpyWhoCameInFromTheCold\\\"]\"", 
+     "\"book\""}, "Entity"], 
+   Typeset`allassumptions$$ = {{
+    "type" -> "Clash", "word" -> "spy who came in from the cold", "template" -> 
+     "Assuming \"${word}\" is ${desc1}. Use as ${desc2} instead", "count" -> 
+     "2", "Values" -> {{
+       "name" -> "Book", "desc" -> "a book", "input" -> 
+        "*C.spy+who+came+in+from+the+cold-_*Book-"}, {
+       "name" -> "Movie", "desc" -> "a movie", "input" -> 
+        "*C.spy+who+came+in+from+the+cold-_*Movie-"}}}}, 
+   Typeset`assumptions$$ = {}, Typeset`open$$ = {1, 2}, 
+   Typeset`querystate$$ = {
+   "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+    1.232364`6.542283996651336, "Messages" -> {}}}, 
+   DynamicBox[ToBoxes[
+     AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+      Dynamic[Typeset`query$$], 
+      Dynamic[Typeset`boxes$$], 
+      Dynamic[Typeset`allassumptions$$], 
+      Dynamic[Typeset`assumptions$$], 
+      Dynamic[Typeset`open$$], 
+      Dynamic[Typeset`querystate$$]], StandardForm],
+    ImageSizeCache->{398., {9., 19.}},
+    TrackedSymbols:>{
+     Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+      Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+   DynamicModuleValues:>{},
+   UndoTrackedVariables:>{Typeset`open$$}],
+  BaseStyle->{"Deploy"},
+  DeleteWithContents->True,
+  Editable->False,
+  SelectWithContents->True]], "Input",
+ CellChangeTimes->{3.734971885425783*^9},
+ CellLabel->"In[23]:=",ExpressionUUID->"aa6397f9-d983-4231-90fc-42368085c17a"],
+
+Cell[BoxData[
+ NamespaceBox["LinguisticAssistant",
+  DynamicModuleBox[{Typeset`query$$ = "from russia with love", 
+   Typeset`boxes$$ = TemplateBox[{"\"From Russia with Love\"", 
+     RowBox[{"Entity", "[", 
+       RowBox[{"\"Movie\"", ",", "\"FromRussiaWithLove::787df\""}], "]"}], 
+     "\"Entity[\\\"Movie\\\", \\\"FromRussiaWithLove::787df\\\"]\"", 
+     "\"movie\""}, "Entity"], 
+   Typeset`allassumptions$$ = {{
+    "type" -> "Clash", "word" -> "from russia with love", "template" -> 
+     "Assuming \"${word}\" is ${desc1}. Use as ${desc2} instead", "count" -> 
+     "4", "Values" -> {{
+       "name" -> "Movie", "desc" -> "a movie", "input" -> 
+        "*C.from+russia+with+love-_*Movie-"}, {
+       "name" -> "VideoGame", "desc" -> "a video game", "input" -> 
+        "*C.from+russia+with+love-_*VideoGame-"}, {
+       "name" -> "MusicWork", "desc" -> "a music work", "input" -> 
+        "*C.from+russia+with+love-_*MusicWork-"}, {
+       "name" -> "MusicAlbum", "desc" -> "a music album", "input" -> 
+        "*C.from+russia+with+love-_*MusicAlbum-"}}}}, 
+   Typeset`assumptions$$ = {}, Typeset`open$$ = {1, 2}, 
+   Typeset`querystate$$ = {
+   "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+    2.000492`6.7526818124637735, "Messages" -> {}}}, 
+   DynamicBox[ToBoxes[
+     AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+      Dynamic[Typeset`query$$], 
+      Dynamic[Typeset`boxes$$], 
+      Dynamic[Typeset`allassumptions$$], 
+      Dynamic[Typeset`assumptions$$], 
+      Dynamic[Typeset`open$$], 
+      Dynamic[Typeset`querystate$$]], StandardForm],
+    ImageSizeCache->{292., {9., 19.}},
+    TrackedSymbols:>{
+     Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+      Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+   DynamicModuleValues:>{},
+   UndoTrackedVariables:>{Typeset`open$$}],
+  BaseStyle->{"Deploy"},
+  DeleteWithContents->True,
+  Editable->False,
+  SelectWithContents->True]], "Input",
+ CellChangeTimes->{3.7349721580963507`*^9},
+ CellLabel->"In[24]:=",ExpressionUUID->"efe84cdd-4433-44cd-8d14-b6b0c5af3292"],
+
+Cell[BoxData[
+ NamespaceBox["LinguisticAssistant",
+  DynamicModuleBox[{Typeset`query$$ = "James Bond", Typeset`boxes$$ = 
+   TemplateBox[{"\"James Bond\"", 
+     RowBox[{"Entity", "[", 
+       RowBox[{"\"FictionalCharacter\"", ",", "\"JamesBond\""}], "]"}], 
+     "\"Entity[\\\"FictionalCharacter\\\", \\\"JamesBond\\\"]\"", 
+     "\"fictional character\""}, "Entity"], 
+   Typeset`allassumptions$$ = {{
+    "type" -> "Clash", "word" -> "James Bond", "template" -> 
+     "Assuming \"${word}\" is ${desc1}. Use as ${desc2} instead", "count" -> 
+     "3", "Values" -> {{
+       "name" -> "FictionalCharacter", "desc" -> 
+        " referring to a fictional character", "input" -> 
+        "*C.James+Bond-_*FictionalCharacter-"}, {
+       "name" -> "MovieClass", "desc" -> "a class of movies", "input" -> 
+        "*C.James+Bond-_*MovieClass-"}, {
+       "name" -> "Gene", "desc" -> "a gene", "input" -> 
+        "*C.James+Bond-_*Gene-"}}}}, Typeset`assumptions$$ = {
+   "*C.James+Bond-_*FictionalCharacter-"}, Typeset`open$$ = {1, 2}, 
+   Typeset`querystate$$ = {
+   "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+    0.930169`6.420106855060119, "Messages" -> {}}}, 
+   DynamicBox[ToBoxes[
+     AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+      Dynamic[Typeset`query$$], 
+      Dynamic[Typeset`boxes$$], 
+      Dynamic[Typeset`allassumptions$$], 
+      Dynamic[Typeset`assumptions$$], 
+      Dynamic[Typeset`open$$], 
+      Dynamic[Typeset`querystate$$]], StandardForm],
+    ImageSizeCache->{307., {9., 19.}},
+    TrackedSymbols:>{
+     Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+      Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+   DynamicModuleValues:>{},
+   UndoTrackedVariables:>{Typeset`open$$}],
+  BaseStyle->{"Deploy"},
+  DeleteWithContents->True,
+  Editable->False,
+  SelectWithContents->True]], "Input",
+ CellChangeTimes->{3.734972197126751*^9},
+ CellLabel->"In[25]:=",ExpressionUUID->"dd1ba198-77da-47ae-8708-d5cdc3b003c9"],
+
+Cell[BoxData[
+ NamespaceBox["LinguisticAssistant",
+  DynamicModuleBox[{Typeset`query$$ = "heroes", Typeset`boxes$$ = 
+   TemplateBox[{"\"Heroes\"", 
+     RowBox[{"Entity", "[", 
+       RowBox[{"\"MusicWork\"", ",", "\"Heroes::v9977\""}], "]"}], 
+     "\"Entity[\\\"MusicWork\\\", \\\"Heroes::v9977\\\"]\"", 
+     "\"music work\""}, "Entity"], 
+   Typeset`allassumptions$$ = {{
+    "type" -> "Clash", "word" -> "heroes", "template" -> 
+     "Assuming \"${word}\" is ${desc1}. Use as ${desc2} instead", "count" -> 
+     "4", "Values" -> {{
+       "name" -> "MusicWork", "desc" -> "a music work", "input" -> 
+        "*C.heroes-_*MusicWork-"}, {
+       "name" -> "Word", "desc" -> "a word", "input" -> 
+        "*C.heroes-_*Word-"}, {
+       "name" -> "TelevisionProgram", "desc" -> "a television series", 
+        "input" -> "*C.heroes-_*TelevisionProgram-"}, {
+       "name" -> "Movie", "desc" -> "a movie", "input" -> 
+        "*C.heroes-_*Movie-"}}}}, Typeset`assumptions$$ = {
+   "*C.heroes-_*MusicWork-"}, Typeset`open$$ = {1, 2}, 
+   Typeset`querystate$$ = {
+   "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+    0.628176`6.249626333284224, "Messages" -> {}}}, 
+   DynamicBox[ToBoxes[
+     AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+      Dynamic[Typeset`query$$], 
+      Dynamic[Typeset`boxes$$], 
+      Dynamic[Typeset`allassumptions$$], 
+      Dynamic[Typeset`assumptions$$], 
+      Dynamic[Typeset`open$$], 
+      Dynamic[Typeset`querystate$$]], StandardForm],
+    ImageSizeCache->{206., {9., 19.}},
+    TrackedSymbols:>{
+     Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+      Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+   DynamicModuleValues:>{},
+   UndoTrackedVariables:>{Typeset`open$$}],
+  BaseStyle->{"Deploy"},
+  DeleteWithContents->True,
+  Editable->False,
+  SelectWithContents->True]], "Input",
+ CellChangeTimes->{3.7349722540199833`*^9},
+ CellLabel->"In[26]:=",ExpressionUUID->"f8a2d67b-20e9-4d87-ae01-efc6209ed0e4"],
+
+Cell[BoxData[
+ NamespaceBox["LinguisticAssistant",
+  DynamicModuleBox[{Typeset`query$$ = "Kraftwerk", Typeset`boxes$$ = 
+   TemplateBox[{"\"Kraftwerk\"", 
+     RowBox[{"Entity", "[", 
+       RowBox[{"\"MusicAct\"", ",", "\"Kraftwerk::9x986\""}], "]"}], 
+     "\"Entity[\\\"MusicAct\\\", \\\"Kraftwerk::9x986\\\"]\"", 
+     "\"music act\""}, "Entity"], 
+   Typeset`allassumptions$$ = {{
+    "type" -> "Clash", "word" -> "Kraftwerk", "template" -> 
+     "Assuming \"${word}\" is ${desc1}. Use as ${desc2} instead", "count" -> 
+     "2", "Values" -> {{
+       "name" -> "MusicAct", "desc" -> "a music act", "input" -> 
+        "*C.Kraftwerk-_*MusicAct-"}, {
+       "name" -> "TranslationData", "desc" -> " referring to translations", 
+        "input" -> "*C.Kraftwerk-_*TranslationData-"}}}}, 
+   Typeset`assumptions$$ = {}, Typeset`open$$ = {1, 2}, 
+   Typeset`querystate$$ = {
+   "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+    0.523206`6.170217709224933, "Messages" -> {}}}, 
+   DynamicBox[ToBoxes[
+     AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+      Dynamic[Typeset`query$$], 
+      Dynamic[Typeset`boxes$$], 
+      Dynamic[Typeset`allassumptions$$], 
+      Dynamic[Typeset`assumptions$$], 
+      Dynamic[Typeset`open$$], 
+      Dynamic[Typeset`querystate$$]], StandardForm],
+    ImageSizeCache->{214., {9., 19.}},
+    TrackedSymbols:>{
+     Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+      Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+   DynamicModuleValues:>{},
+   UndoTrackedVariables:>{Typeset`open$$}],
+  BaseStyle->{"Deploy"},
+  DeleteWithContents->True,
+  Editable->False,
+  SelectWithContents->True]], "Input",
+ CellChangeTimes->{{3.73497227985927*^9, 3.734972291095665*^9}},
+ CellLabel->"In[27]:=",ExpressionUUID->"9903f4f0-ee86-4511-bb60-3b18975747c3"],
+
+Cell[BoxData[
+ NamespaceBox["LinguisticAssistant",
+  DynamicModuleBox[{Typeset`query$$ = "u-2", Typeset`boxes$$ = 
+   TemplateBox[{"\"Lockheed U-2\"", 
+     RowBox[{"Entity", "[", 
+       RowBox[{"\"Aircraft\"", ",", "\"LockheedU2\""}], "]"}], 
+     "\"Entity[\\\"Aircraft\\\", \\\"LockheedU2\\\"]\"", "\"aircraft\""}, 
+    "Entity"], 
+   Typeset`allassumptions$$ = {{
+    "type" -> "MultiClash", "word" -> "", "template" -> 
+     "Assuming ${word1} is referring to ${desc1}. Use \"${word2}\" as \
+${desc2}. Use \"${word3}\" as ${desc3}.", "count" -> "3", 
+     "Values" -> {{
+       "name" -> "Aircraft", "word" -> "u-2", "desc" -> "an aircraft", 
+        "input" -> "*MC.u%21-2-_*Aircraft-"}, {
+       "name" -> "Variable", "word" -> "u", "desc" -> "a variable", "input" -> 
+        "*MC.u%21-2-_*Variable-"}, {
+       "name" -> "Unit", "word" -> "u", "desc" -> "a unit", "input" -> 
+        "*MC.u%21-2-_*Unit-"}}}}, Typeset`assumptions$$ = {}, 
+   Typeset`open$$ = {1, 2}, Typeset`querystate$$ = {
+   "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+    0.890356`6.401108683199351, "Messages" -> {}}}, 
+   DynamicBox[ToBoxes[
+     AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+      Dynamic[Typeset`query$$], 
+      Dynamic[Typeset`boxes$$], 
+      Dynamic[Typeset`allassumptions$$], 
+      Dynamic[Typeset`assumptions$$], 
+      Dynamic[Typeset`open$$], 
+      Dynamic[Typeset`querystate$$]], StandardForm],
+    ImageSizeCache->{240., {9., 19.}},
+    TrackedSymbols:>{
+     Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+      Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+   DynamicModuleValues:>{},
+   UndoTrackedVariables:>{Typeset`open$$}],
+  BaseStyle->{"Deploy"},
+  DeleteWithContents->True,
+  Editable->False,
+  SelectWithContents->True]], "Input",
+ CellChangeTimes->{3.73497193438426*^9},
+ CellLabel->"In[28]:=",ExpressionUUID->"7e24870c-fff6-4678-b790-4c577a8fed30"],
+
+Cell[BoxData[
+ NamespaceBox["LinguisticAssistant",
+  DynamicModuleBox[{Typeset`query$$ = "Kremlin", Typeset`boxes$$ = 
+   TemplateBox[{"\"Kremlin\"", 
+     RowBox[{"Entity", "[", 
+       RowBox[{"\"Castle\"", ",", "\"Kremlin\""}], "]"}], 
+     "\"Entity[\\\"Castle\\\", \\\"Kremlin\\\"]\"", "\"castle\""}, "Entity"], 
+   Typeset`allassumptions$$ = {{
+    "type" -> "Clash", "word" -> "Kremlin", "template" -> 
+     "Assuming \"${word}\" is ${desc1}. Use as ${desc2} instead", "count" -> 
+     "4", "Values" -> {{
+       "name" -> "Castle", "desc" -> "a castle", "input" -> 
+        "*C.Kremlin-_*Castle-"}, {
+       "name" -> "Building", "desc" -> "a structure", "input" -> 
+        "*C.Kremlin-_*Building-"}, {
+       "name" -> "BuildingClass", "desc" -> "a class of structures", "input" -> 
+        "*C.Kremlin-_*BuildingClass-"}, {
+       "name" -> "Word", "desc" -> "a word", "input" -> 
+        "*C.Kremlin-_*Word-"}}}}, Typeset`assumptions$$ = {}, 
+   Typeset`open$$ = {1, 2}, Typeset`querystate$$ = {
+   "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+    0.766002`6.335774897055246, "Messages" -> {}}}, 
+   DynamicBox[ToBoxes[
+     AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+      Dynamic[Typeset`query$$], 
+      Dynamic[Typeset`boxes$$], 
+      Dynamic[Typeset`allassumptions$$], 
+      Dynamic[Typeset`assumptions$$], 
+      Dynamic[Typeset`open$$], 
+      Dynamic[Typeset`querystate$$]], StandardForm],
+    ImageSizeCache->{182., {9., 19.}},
+    TrackedSymbols:>{
+     Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+      Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+   DynamicModuleValues:>{},
+   UndoTrackedVariables:>{Typeset`open$$}],
+  BaseStyle->{"Deploy"},
+  DeleteWithContents->True,
+  Editable->False,
+  SelectWithContents->True]], "Input",
+ CellChangeTimes->{3.734972028259886*^9},
+ CellLabel->"In[29]:=",ExpressionUUID->"68046fa7-3ba3-4637-bd9e-c70060411d43"],
+
+Cell[BoxData[
+ NamespaceBox["LinguisticAssistant",
+  DynamicModuleBox[{Typeset`query$$ = "zither", Typeset`boxes$$ = 
+   TemplateBox[{"\"zither\"", 
+     RowBox[{"Entity", "[", 
+       RowBox[{"\"MusicalInstrument\"", ",", "\"Zither\""}], "]"}], 
+     "\"Entity[\\\"MusicalInstrument\\\", \\\"Zither\\\"]\"", 
+     "\"musical instrument\""}, "Entity"], 
+   Typeset`allassumptions$$ = {{
+    "type" -> "Clash", "word" -> "zither", "template" -> 
+     "Assuming \"${word}\" is ${desc1}. Use as ${desc2} instead", "count" -> 
+     "2", "Values" -> {{
+       "name" -> "MusicalInstrument", "desc" -> "a musical instrument", 
+        "input" -> "*C.zither-_*MusicalInstrument-"}, {
+       "name" -> "Word", "desc" -> "a word", "input" -> 
+        "*C.zither-_*Word-"}}}}, Typeset`assumptions$$ = {}, 
+   Typeset`open$$ = {1, 2}, Typeset`querystate$$ = {
+   "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+    1.220066`6.537928318154748, "Messages" -> {}}}, 
+   DynamicBox[ToBoxes[
+     AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+      Dynamic[Typeset`query$$], 
+      Dynamic[Typeset`boxes$$], 
+      Dynamic[Typeset`allassumptions$$], 
+      Dynamic[Typeset`assumptions$$], 
+      Dynamic[Typeset`open$$], 
+      Dynamic[Typeset`querystate$$]], StandardForm],
+    ImageSizeCache->{247., {9., 19.}},
+    TrackedSymbols:>{
+     Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+      Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+   DynamicModuleValues:>{},
+   UndoTrackedVariables:>{Typeset`open$$}],
+  BaseStyle->{"Deploy"},
+  DeleteWithContents->True,
+  Editable->False,
+  SelectWithContents->True]], "Input",
+ CellChangeTimes->{3.651649339185677*^9},
+ CellLabel->"In[30]:=",ExpressionUUID->"a868fbd1-82e3-47ec-8849-333d8c4ef85d"],
+
+Cell[BoxData[
+ NamespaceBox["LinguisticAssistant",
+  DynamicModuleBox[{Typeset`query$$ = "caffiene", Typeset`boxes$$ = 
+   TemplateBox[{"\"caffeine\"", 
+     RowBox[{"Entity", "[", 
+       RowBox[{"\"Chemical\"", ",", "\"Caffeine\""}], "]"}], 
+     "\"Entity[\\\"Chemical\\\", \\\"Caffeine\\\"]\"", "\"chemical\""}, 
+    "Entity"], 
+   Typeset`allassumptions$$ = {{
+    "type" -> "Clash", "word" -> "caffiene", "template" -> 
+     "Assuming \"${word}\" is ${desc1}. Use as ${desc2} instead", "count" -> 
+     "3", "Values" -> {{
+       "name" -> "Chemical", "desc" -> "a chemical compound", "input" -> 
+        "*C.caffiene-_*Chemical-"}, {
+       "name" -> "Word", "desc" -> "a word", "input" -> 
+        "*C.caffiene-_*Word-"}, {
+       "name" -> "Movie", "desc" -> "a movie", "input" -> 
+        "*C.caffiene-_*Movie-"}}}}, Typeset`assumptions$$ = {}, 
+   Typeset`open$$ = {1, 2}, Typeset`querystate$$ = {
+   "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+    0.874283`6.393197027325323, "Messages" -> {}}}, 
+   DynamicBox[ToBoxes[
+     AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+      Dynamic[Typeset`query$$], 
+      Dynamic[Typeset`boxes$$], 
+      Dynamic[Typeset`allassumptions$$], 
+      Dynamic[Typeset`assumptions$$], 
+      Dynamic[Typeset`open$$], 
+      Dynamic[Typeset`querystate$$]], StandardForm],
+    ImageSizeCache->{196., {9., 19.}},
+    TrackedSymbols:>{
+     Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+      Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+   DynamicModuleValues:>{},
+   UndoTrackedVariables:>{Typeset`open$$}],
+  BaseStyle->{"Deploy"},
+  DeleteWithContents->True,
+  Editable->False,
+  SelectWithContents->True]], "Input",
+ CellChangeTimes->{3.6516493605147743`*^9},
+ CellLabel->"In[31]:=",ExpressionUUID->"c42a6b66-3c18-421f-a815-3a43359052a2"],
+
+Cell[BoxData[
+ NamespaceBox["LinguisticAssistant",
+  DynamicModuleBox[{Typeset`query$$ = "electric eel", Typeset`boxes$$ = 
+   TemplateBox[{"\"electric eel\"", 
+     RowBox[{"Entity", "[", 
+       RowBox[{"\"Species\"", ",", "\"Species:ElectrophorusElectricus\""}], 
+       "]"}], "\"Entity[\\\"Species\\\", \
+\\\"Species:ElectrophorusElectricus\\\"]\"", "\"species specification\""}, 
+    "Entity"], 
+   Typeset`allassumptions$$ = {{
+    "type" -> "Clash", "word" -> "electric eel", "template" -> 
+     "Assuming \"${word}\" is ${desc1}. Use as ${desc2} instead", "count" -> 
+     "2", "Values" -> {{
+       "name" -> "Species", "desc" -> "a species specification", "input" -> 
+        "*C.electric+eel-_*Species-"}, {
+       "name" -> "Word", "desc" -> "a word", "input" -> 
+        "*C.electric+eel-_*Word-"}}}}, Typeset`assumptions$$ = {}, 
+   Typeset`open$$ = {1, 2}, Typeset`querystate$$ = {
+   "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+    1.536686`6.638130128140252, "Messages" -> {}}}, 
+   DynamicBox[ToBoxes[
+     AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+      Dynamic[Typeset`query$$], 
+      Dynamic[Typeset`boxes$$], 
+      Dynamic[Typeset`allassumptions$$], 
+      Dynamic[Typeset`assumptions$$], 
+      Dynamic[Typeset`open$$], 
+      Dynamic[Typeset`querystate$$]], StandardForm],
+    ImageSizeCache->{300., {9., 19.}},
+    TrackedSymbols:>{
+     Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+      Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+   DynamicModuleValues:>{},
+   UndoTrackedVariables:>{Typeset`open$$}],
+  BaseStyle->{"Deploy"},
+  DeleteWithContents->True,
+  Editable->False,
+  SelectWithContents->True]], "Input",
+ CellChangeTimes->{3.651649642316266*^9},
+ CellLabel->"In[32]:=",ExpressionUUID->"2b8e598b-fcc8-43cf-bd83-913cfe4eefdb"],
+
+Cell[BoxData[
+ NamespaceBox["LinguisticAssistant",
+  DynamicModuleBox[{Typeset`query$$ = "jested", Typeset`boxes$$ = 
+   TemplateBox[{"\"Je\[SHacek]t\[EHacek]d\"", 
+     RowBox[{"Entity", "[", 
+       RowBox[{"\"Mountain\"", ",", "\"Jested\""}], "]"}], 
+     "\"Entity[\\\"Mountain\\\", \\\"Jested\\\"]\"", "\"mountain\""}, 
+    "Entity"], 
+   Typeset`allassumptions$$ = {{
+    "type" -> "Clash", "word" -> "jested", "template" -> 
+     "Assuming \"${word}\" is ${desc1}. Use as ${desc2} instead", "count" -> 
+     "2", "Values" -> {{
+       "name" -> "Mountain", "desc" -> "a mountain", "input" -> 
+        "*C.jested-_*Mountain-"}, {
+       "name" -> "Word", "desc" -> "a word", "input" -> 
+        "*C.jested-_*Word-"}}}}, Typeset`assumptions$$ = {}, 
+   Typeset`open$$ = {1, 2}, Typeset`querystate$$ = {
+   "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+    0.49183`6.143360009230699, "Messages" -> {}}}, 
+   DynamicBox[ToBoxes[
+     AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+      Dynamic[Typeset`query$$], 
+      Dynamic[Typeset`boxes$$], 
+      Dynamic[Typeset`allassumptions$$], 
+      Dynamic[Typeset`assumptions$$], 
+      Dynamic[Typeset`open$$], 
+      Dynamic[Typeset`querystate$$]], StandardForm],
+    ImageSizeCache->{188., {9., 19.}},
+    TrackedSymbols:>{
+     Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+      Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+   DynamicModuleValues:>{},
+   UndoTrackedVariables:>{Typeset`open$$}],
+  BaseStyle->{"Deploy"},
+  DeleteWithContents->True,
+  Editable->False,
+  SelectWithContents->True]], "Input",
+ CellChangeTimes->{3.734972462654005*^9},
+ CellLabel->"In[33]:=",ExpressionUUID->"48a0bff8-f111-4b1b-8927-df83381c67f9"],
+
+Cell[BoxData[
+ NamespaceBox["LinguisticAssistant",
+  DynamicModuleBox[{Typeset`query$$ = "eiffel tower", Typeset`boxes$$ = 
+   TemplateBox[{"\"Eiffel Tower\"", 
+     RowBox[{"Entity", "[", 
+       RowBox[{"\"Building\"", ",", "\"EiffelTower::5h9w8\""}], "]"}], 
+     "\"Entity[\\\"Building\\\", \\\"EiffelTower::5h9w8\\\"]\"", 
+     "\"building\""}, "Entity"], 
+   Typeset`allassumptions$$ = {{
+    "type" -> "Clash", "word" -> "eiffel tower", "template" -> 
+     "Assuming \"${word}\" is ${desc1}. Use as ${desc2} instead", "count" -> 
+     "2", "Values" -> {{
+       "name" -> "Building", "desc" -> "a structure", "input" -> 
+        "*C.eiffel+tower-_*Building-"}, {
+       "name" -> "Word", "desc" -> "a word", "input" -> 
+        "*C.eiffel+tower-_*Word-"}}}}, Typeset`assumptions$$ = {}, 
+   Typeset`open$$ = {1, 2}, Typeset`querystate$$ = {
+   "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+    1.089958`6.488954756831398, "Messages" -> {}}}, 
+   DynamicBox[ToBoxes[
+     AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+      Dynamic[Typeset`query$$], 
+      Dynamic[Typeset`boxes$$], 
+      Dynamic[Typeset`allassumptions$$], 
+      Dynamic[Typeset`assumptions$$], 
+      Dynamic[Typeset`open$$], 
+      Dynamic[Typeset`querystate$$]], StandardForm],
+    ImageSizeCache->{223., {9., 19.}},
+    TrackedSymbols:>{
+     Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+      Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+   DynamicModuleValues:>{},
+   UndoTrackedVariables:>{Typeset`open$$}],
+  BaseStyle->{"Deploy"},
+  DeleteWithContents->True,
+  Editable->False,
+  SelectWithContents->True]], "Input",
+ CellChangeTimes->{3.651649692690083*^9},
+ CellLabel->"In[34]:=",ExpressionUUID->"5343c0df-3b7d-4966-b681-413ed38e402e"],
+
+Cell[BoxData[
+ NamespaceBox["LinguisticAssistant",
+  DynamicModuleBox[{Typeset`query$$ = "mona lisa", Typeset`boxes$$ = 
+   TemplateBox[{"\"Mona Lisa\"", 
+     RowBox[{"Entity", "[", 
+       RowBox[{"\"Artwork\"", ",", "\"MonaLisa::LeonardoDaVinci\""}], "]"}], 
+     "\"Entity[\\\"Artwork\\\", \\\"MonaLisa::LeonardoDaVinci\\\"]\"", 
+     "\"artwork\""}, "Entity"], 
+   Typeset`allassumptions$$ = {{
+    "type" -> "Clash", "word" -> "mona lisa", "template" -> 
+     "Assuming \"${word}\" is ${desc1}. Use as ${desc2} instead", "count" -> 
+     "5", "Values" -> {{
+       "name" -> "VisualArts", "desc" -> "a painting", "input" -> 
+        "*C.mona+lisa-_*VisualArts-"}, {
+       "name" -> "Person", "desc" -> "a person", "input" -> 
+        "*C.mona+lisa-_*Person-"}, {
+       "name" -> "MusicWork", "desc" -> "a music work", "input" -> 
+        "*C.mona+lisa-_*MusicWork-"}, {
+       "name" -> "MusicAlbum", "desc" -> "a music album", "input" -> 
+        "*C.mona+lisa-_*MusicAlbum-"}, {
+       "name" -> "Movie", "desc" -> "a movie", "input" -> 
+        "*C.mona+lisa-_*Movie-"}}}}, Typeset`assumptions$$ = {}, 
+   Typeset`open$$ = {1, 2}, Typeset`querystate$$ = {
+   "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+    1.061768`6.47757462575291, "Messages" -> {}}}, 
+   DynamicBox[ToBoxes[
+     AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+      Dynamic[Typeset`query$$], 
+      Dynamic[Typeset`boxes$$], 
+      Dynamic[Typeset`allassumptions$$], 
+      Dynamic[Typeset`assumptions$$], 
+      Dynamic[Typeset`open$$], 
+      Dynamic[Typeset`querystate$$]], StandardForm],
+    ImageSizeCache->{214., {9., 19.}},
+    TrackedSymbols:>{
+     Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+      Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+   DynamicModuleValues:>{},
+   UndoTrackedVariables:>{Typeset`open$$}],
+  BaseStyle->{"Deploy"},
+  DeleteWithContents->True,
+  Editable->False,
+  SelectWithContents->True]], "Input",
+ CellChangeTimes->{3.651649702856412*^9},
+ CellLabel->"In[35]:=",ExpressionUUID->"c84ad124-d506-471d-b2b9-cded3ca7e9c0"],
+
+Cell["\<\
+And so on. Each different kind of entity has associated properties.\
+\>", "Text",
+ CellChangeTimes->{{3.651649779871829*^9, 3.651649792047698*^9}, {
+  3.734972565868329*^9, 
+  3.734972567355523*^9}},ExpressionUUID->"2916900b-6d89-4132-84e5-\
+e51cd2332152"],
+
+Cell[BoxData[
+ RowBox[{"EntityProperties", "[", "\"\<Aircraft\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.65164980278146*^9, 3.651649812207033*^9}, {
+  3.651649959970104*^9, 3.651649962035964*^9}},
+ CellLabel->"In[36]:=",ExpressionUUID->"9bdf382f-6e45-4bdb-abff-508fd33a2730"],
+
+Cell[BoxData[
+ RowBox[{"EntityProperties", "[", "\"\<Artwork\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.65164980278146*^9, 3.651649812207033*^9}},
+ CellLabel->"In[37]:=",ExpressionUUID->"ef5c9829-99d9-4781-8ff2-5e170b5c3652"],
+
+Cell[BoxData[
+ RowBox[{"EntityProperties", "[", "\"\<Book\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.651649816378457*^9, 3.651649821822616*^9}, {
+  3.6516498769164*^9, 3.651649877660386*^9}},
+ CellLabel->"In[38]:=",ExpressionUUID->"29ebfe17-f494-4e12-b3de-b68beac3569d"],
+
+Cell[BoxData[
+ RowBox[{"viewData", "[", 
+  RowBox[{"EntityProperties", "[", "\"\<City\>\"", "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.6516498944461412`*^9, 3.651649901667634*^9}, {
+  3.734972584932775*^9, 3.734972589595516*^9}},
+ CellLabel->"In[39]:=",ExpressionUUID->"01914684-9818-4ce6-bf02-a33e1e28be61"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"b14e67c3-a3dd-48ee-adb1-346283dbac5a"],
+
+Cell[CellGroupData[{
+
+Cell["Constructing queries with computable data", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.6516456395780153`*^9, 3.651645643392981*^9}, {3.651645689455138*^9, 
+  3.6516456944230824`*^9}, {3.651645737205505*^9, 
+  3.65164573754935*^9}},ExpressionUUID->"9e4a8ae2-aa68-474c-96d7-\
+84dbe0bfd953"],
+
+Cell[TextData[{
+ "The vast network of entities and properties accessible in ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " allows us to construct complicated queries"
+}], "Text",
+ CellChangeTimes->{{3.651645648248734*^9, 3.6516457153502617`*^9}}],
+
+Cell[BoxData[
+ NamespaceBox["LinguisticAssistant",
+  DynamicModuleBox[{Typeset`query$$ = "Richard Nixon", Typeset`boxes$$ = 
+   TemplateBox[{"\"Richard M. Nixon\"", 
+     RowBox[{"Entity", "[", 
+       RowBox[{"\"Person\"", ",", "\"RichardMNixon::39q5n\""}], "]"}], 
+     "\"Entity[\\\"Person\\\", \\\"RichardMNixon::39q5n\\\"]\"", 
+     "\"person\""}, "Entity"], Typeset`allassumptions$$ = {}, 
+   Typeset`assumptions$$ = {}, Typeset`open$$ = {1, 2}, 
+   Typeset`querystate$$ = {
+   "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+    0.870443`6.391285330585199, "Messages" -> {}}}, 
+   DynamicBox[ToBoxes[
+     AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+      Dynamic[Typeset`query$$], 
+      Dynamic[Typeset`boxes$$], 
+      Dynamic[Typeset`allassumptions$$], 
+      Dynamic[Typeset`assumptions$$], 
+      Dynamic[Typeset`open$$], 
+      Dynamic[Typeset`querystate$$]], StandardForm],
+    ImageSizeCache->{230., {9., 19.}},
+    TrackedSymbols:>{
+     Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+      Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+   DynamicModuleValues:>{},
+   UndoTrackedVariables:>{Typeset`open$$}],
+  BaseStyle->{"Deploy"},
+  DeleteWithContents->True,
+  Editable->False,
+  SelectWithContents->True]], "Input",
+ CellChangeTimes->{3.7349726424541407`*^9},
+ CellLabel->"In[40]:=",ExpressionUUID->"335d5da8-03ff-41f3-9e16-8eca3d54fa33"],
+
+Cell[BoxData[
+ RowBox[{"InputForm", "[", 
+  TemplateBox[{"\"Richard M. Nixon\"",RowBox[{"Entity", "[", 
+      RowBox[{"\"Person\"", ",", "\"RichardMNixon::39q5n\""}], "]"}],
+    "\"Entity[\\\"Person\\\", \\\"RichardMNixon::39q5n\\\"]\"","\"person\""},
+   "Entity"], "]"}]], "Input",
+ CellChangeTimes->{{3.734972688123464*^9, 3.734972695444619*^9}},
+ CellLabel->"In[41]:=",ExpressionUUID->"74275753-8c06-4c2f-8571-448d7d1bb519"],
+
+Cell[BoxData[
+ RowBox[{"PersonData", "[", 
+  RowBox[{
+   TemplateBox[{"\"Richard M. Nixon\"",RowBox[{"Entity", "[", 
+       RowBox[{"\"Person\"", ",", "\"RichardMNixon::39q5n\""}], "]"}],
+     "\"Entity[\\\"Person\\\", \\\"RichardMNixon::39q5n\\\"]\"","\"person\""},
+    
+    "Entity"], ",", "\"\<Children\>\""}], "]"}]], "Input",
+ NumberMarks->False,
+ CellLabel->"In[42]:=",ExpressionUUID->"1a192bfc-01d1-4e47-8f18-26f0ab3a9402"],
+
+Cell["\<\
+What was the age difference of the daughters of Richard Nixon?\
+\>", "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.651645872400544*^9, 3.651645905079192*^9}, {3.734972673384247*^9, 
+  3.734972676591557*^9}},ExpressionUUID->"06012e46-8c98-4ffc-be02-\
+db649f354ccf"],
+
+Cell[BoxData[
+ RowBox[{"PersonData", "[", 
+  RowBox[{
+   RowBox[{"PersonData", "[", 
+    RowBox[{
+     RowBox[{"Entity", "[", 
+      RowBox[{"\"\<Person\>\"", ",", "\"\<RichardMNixon::39q5n\>\""}], "]"}], 
+     ",", "\"\<Daughters\>\""}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\"\<Name\>\"", ",", "\"\<BirthDate\>\""}], "}"}]}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.651645784612652*^9, 3.651645823562509*^9}, {
+   3.651645856274083*^9, 3.651645864345599*^9}, 3.734972705876224*^9},
+ CellLabel->"In[43]:=",ExpressionUUID->"b2586988-46e2-4b55-a3ba-d4d425ed1e8a"],
+
+Cell[BoxData[
+ RowBox[{"DateDifference", "[", 
+  RowBox[{
+   TemplateBox[{RowBox[{
+       StyleBox[
+       "\"Day: \"", FontColor -> GrayLevel[0.5], FontWeight -> Plain], 
+       "\"Thu 21 Feb 1946\""}],RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"1946", ",", "2", ",", "21"}], "}"}], ",", "\"Day\"", ",", 
+         "\"Gregorian\"", ",", 
+         RowBox[{"-", "4.`"}]}], "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{RowBox[{
+       StyleBox[
+       "\"Day: \"", FontColor -> GrayLevel[0.5], FontWeight -> Plain], 
+       "\"Mon 5 Jul 1948\""}],RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"1948", ",", "7", ",", "5"}], "}"}], ",", "\"Day\"", ",", 
+         "\"Gregorian\"", ",", 
+         RowBox[{"-", "4.`"}]}], "]"}]},
+    "DateObject",
+    Editable->False], ",", "\"\<Year\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.651646106075111*^9, 3.651646124332011*^9}, {
+  3.651646220054263*^9, 3.651646228131776*^9}, {3.734972724749053*^9, 
+  3.734972745986842*^9}},
+ CellLabel->"In[44]:=",ExpressionUUID->"23e09a8b-883d-402e-869f-f9daa7066749"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"3f03fcd5-5778-4ed9-813d-38ba4de43757"],
+
+Cell[CellGroupData[{
+
+Cell["Mapping computable data", "Section",
+ CellChangeTimes->{{3.647361153919208*^9, 3.6473611548467712`*^9}, {
+  3.734975062506084*^9, 
+  3.734975071529064*^9}},ExpressionUUID->"0666177c-4144-4da7-b42c-\
+8df29fd926f9"],
+
+Cell["\<\
+What are the fifteen largest cities in the US? Do you see an increase or \
+decrease in the crime rate as you move from South to North?\
+\>", "Text",
+ CellChangeTimes->{{3.651650223559804*^9, 3.651650232167294*^9}, {
+  3.651650332132169*^9, 3.6516503328914137`*^9}, {3.651651066682225*^9, 
+  3.651651124119815*^9}, {3.6833005603030977`*^9, 3.683300560454265*^9}, {
+  3.734973404837948*^9, 
+  3.7349734059893103`*^9}},ExpressionUUID->"f18c3b2a-acc9-4331-afc8-\
+7bc5f9e52e0e"],
+
+Cell[BoxData[
+ RowBox[{"largest15", "=", 
+  RowBox[{
+   RowBox[{"CityData", "[", 
+    RowBox[{"{", 
+     RowBox[{"Large", ",", "\"\<UnitedStates\>\""}], "}"}], "]"}], 
+   "\[LeftDoubleBracket]", 
+   RowBox[{"1", ";;", "15"}], "\[RightDoubleBracket]"}]}]], "Input",
+ CellChangeTimes->{{3.651650257559128*^9, 3.6516502648219852`*^9}, {
+  3.65165033560353*^9, 3.651650435135689*^9}, {3.683300564375208*^9, 
+  3.683300600749434*^9}, {3.683300636221078*^9, 3.683300642098338*^9}, {
+  3.734973409295063*^9, 3.7349734118851223`*^9}},
+ CellLabel->"In[45]:=",
+ CellID->734364217,ExpressionUUID->"7558fe86-e51a-4a0e-99e8-b30d89e3265e"],
+
+Cell[BoxData[
+ RowBox[{"TableForm", "[", 
+  RowBox[{"Sort", "[", 
+   RowBox[{
+    RowBox[{"EntityValue", "[", 
+     RowBox[{"largest15", ",", 
+      RowBox[{"{", 
+       RowBox[{
+       "\"\<Name\>\"", ",", "\"\<Latitude\>\"", ",", "\"\<CrimeRate\>\""}], 
+       "}"}]}], "]"}], ",", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"#1", "\[LeftDoubleBracket]", "2", "\[RightDoubleBracket]"}], 
+      "<", 
+      RowBox[{"#2", "\[LeftDoubleBracket]", "2", "\[RightDoubleBracket]"}]}], 
+     "&"}]}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.651650707585894*^9, 3.6516507242612867`*^9}, {
+   3.651650762948574*^9, 3.651650764692191*^9}, {3.65165080997855*^9, 
+   3.651650910911522*^9}, {3.651651005844507*^9, 3.651651057074175*^9}, {
+   3.651651228269565*^9, 3.6516512620437*^9}, {3.651651302875256*^9, 
+   3.651651322249806*^9}, 3.683300605182168*^9, {3.734972780092565*^9, 
+   3.7349727859245033`*^9}, 3.7349734211267357`*^9},
+ CellLabel->"In[46]:=",ExpressionUUID->"45d4de8d-7845-4255-9d96-62488529f660"],
+
+Cell[BoxData[
+ RowBox[{"GeoListPlot", "[", 
+  RowBox[{
+   RowBox[{"Map", "[", 
+    RowBox[{
+     RowBox[{"Interpreter", "[", "\"\<City\>\"", "]"}], ",", "largest15"}], 
+    "]"}], ",", 
+   RowBox[{"GeoLabels", "\[Rule]", "Automatic"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.7349728229233103`*^9, 3.734972882368137*^9}, 
+   3.7349734391500483`*^9},
+ CellLabel->"In[47]:=",ExpressionUUID->"b26f6ac7-cb10-472b-b4a1-f08558d1a871"],
+
+Cell[TextData[{
+ "Rather than looking at a table and a map separately, we can combine the \
+information in a ",
+ StyleBox["GeoBubbleChart",
+  FontWeight->"Bold"],
+ " where the size of the bubble reflects the crime rate."
+}], "Text",
+ CellChangeTimes->{{3.734972905848034*^9, 3.734972939477886*^9}, {
+   3.7349729807416*^9, 3.734972997196011*^9}, {3.7349733534391823`*^9, 
+   3.734973380614273*^9}, 
+   3.734973490890101*^9},ExpressionUUID->"d5464093-3ba7-4cac-ae65-\
+3423abcdba6a"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"largest15CrimeData", "=", 
+   RowBox[{"Rule", "@@@", 
+    RowBox[{"EntityValue", "[", 
+     RowBox[{"largest15", ",", 
+      RowBox[{"{", 
+       RowBox[{"\"\<Entity\>\"", ",", "\"\<CrimeRate\>\""}], "}"}]}], 
+     "]"}]}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.734973043316074*^9, 3.7349731016884413`*^9}, 
+   3.734973182943082*^9, {3.7349732443322678`*^9, 3.7349732456433363`*^9}, {
+   3.734973450717499*^9, 3.734973457035551*^9}, 3.734974870458127*^9, 
+   3.7349750177650633`*^9},
+ CellLabel->"In[66]:=",ExpressionUUID->"b29ef88c-d695-45e4-8a39-3e15c17ab286"],
+
+Cell[BoxData[
+ RowBox[{"GeoBubbleChart", "[", "largest15CrimeData", " ", "]"}]], "Input",
+ CellChangeTimes->{{3.734973012484074*^9, 3.7349730150761423`*^9}, {
+   3.734973117989167*^9, 3.734973124256275*^9}, {3.7349731591606417`*^9, 
+   3.734973207828457*^9}, {3.73497327961895*^9, 3.734973322561358*^9}, 
+   3.734973460477312*^9},
+ CellLabel->"In[67]:=",ExpressionUUID->"c982fa85-2e74-436f-a780-4eb6d881766d"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"7ad8293f-987d-4755-a233-47a6edbd2755"],
+
+Cell[CellGroupData[{
+
+Cell["Storing entity information in an association", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.651645449945039*^9, 3.6516454611598043`*^9}}],
+
+Cell[TextData[{
+ "Associations provide a convenient way to store a copy of any information \
+that we retrieve about a particular entity. Since it takes a while to request \
+external information, we don\[CloseCurlyQuote]t want to ask for the same \
+thing more than once. The ",
+ StyleBox["PersonData",
+  FontWeight->"Bold"],
+ " command allows us to specify an ",
+ StyleBox["annotation",
+  FontSlant->"Italic"],
+ ", in this case ",
+ StyleBox["PropertyAssociation",
+  FontSlant->"Italic"],
+ ", telling it how to return its results."
+}], "Text",
+ CellChangeTimes->{{3.651645464959532*^9, 3.651645469305105*^9}, {
+  3.651651383073288*^9, 3.651651447149662*^9}, {3.651651555402566*^9, 
+  3.651651597232379*^9}, {3.651651630808391*^9, 3.651651675813458*^9}}],
+
+Cell[BoxData[
+ RowBox[{"hooverAssoc", "=", 
+  RowBox[{"PersonData", "[", 
+   RowBox[{
+    RowBox[{"Entity", "[", 
+     RowBox[{"\"\<Person\>\"", ",", "\"\<JEdgarHoover::3737b\>\""}], "]"}], 
+    ",", 
+    RowBox[{"{", 
+     RowBox[{
+     "\"\<Entity\>\"", ",", "\"\<FullName\>\"", ",", "\"\<Image\>\"", ",", 
+      "\"\<BirthDate\>\"", ",", "\"\<DeathDate\>\"", ",", 
+      "\"\<NotableFacts\>\""}], "}"}], ",", "\"\<PropertyAssociation\>\""}], 
+   "]"}]}]], "Input",
+ CellChangeTimes->{{3.6516515144921923`*^9, 3.651651542115054*^9}, {
+  3.651651731164611*^9, 3.651651733163636*^9}, {3.651651778579026*^9, 
+  3.651651797730755*^9}, {3.734973570465315*^9, 3.734973578540731*^9}},
+ CellLabel->"In[50]:=",ExpressionUUID->"d7a69030-e00d-489b-b411-d4ebca9bdc13"],
+
+Cell[BoxData[
+ RowBox[{"Head", "[", "hooverAssoc", "]"}]], "Input",
+ CellChangeTimes->{{3.651651680996488*^9, 3.651651685917898*^9}, {
+  3.734973582999619*^9, 3.734973583815057*^9}},
+ CellLabel->"In[51]:=",ExpressionUUID->"0d977b3e-96ea-47d0-b2c3-81e0f732d34c"],
+
+Cell["\<\
+We can now request the value associated with a particular key like this\
+\>", "Text",
+ CellChangeTimes->{{3.651651692661212*^9, 3.651651697260659*^9}, {
+   3.651651816784037*^9, 3.651651825992083*^9}, 3.651651908621689*^9}],
+
+Cell[BoxData[
+ RowBox[{"hooverAssoc", "[", "\"\<Entity\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.651651830199273*^9, 3.651651861862946*^9}, {
+  3.683300842557816*^9, 3.683300847996624*^9}, {3.734973587126786*^9, 
+  3.734973587702962*^9}},
+ CellLabel->"In[52]:=",ExpressionUUID->"b820f6bf-3a31-452c-a63f-ad9e7552d1c1"],
+
+Cell[BoxData[
+ RowBox[{"hooverAssoc", "[", "\"\<FullName\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.651651830199273*^9, 3.651651881158143*^9}, {
+  3.683300858973536*^9, 3.683300864692007*^9}, {3.734973590798674*^9, 
+  3.7349735922067013`*^9}},
+ CellLabel->"In[53]:=",ExpressionUUID->"553616f3-875b-45fa-bd2b-f7ce90b05363"],
+
+Cell[BoxData[
+ RowBox[{"hooverAssoc", "[", "\"\<BirthDate\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.651651830199273*^9, 3.651651861862946*^9}, {
+  3.651651894558406*^9, 3.6516518963085403`*^9}, {3.6833008697882147`*^9, 
+  3.6833008724999123`*^9}, {3.734973595166304*^9, 3.7349735961425543`*^9}},
+ CellLabel->"In[54]:=",ExpressionUUID->"c8f81a90-9916-4df4-8903-532bdf06d739"],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["formatWAPersonData",
+  FontSlant->"Italic"],
+ " function allows us to display all of this information neatly"
+}], "Text",
+ CellChangeTimes->{{3.651652020257574*^9, 3.651652043288344*^9}, {
+   3.651652335790745*^9, 3.651652338701096*^9}, 3.6833008799313297`*^9}],
+
+Cell[BoxData[
+ RowBox[{"formatWAPersonData", "[", "hooverAssoc", "]"}]], "Input",
+ CellChangeTimes->{{3.651652047648342*^9, 3.651652051784927*^9}, {
+  3.734973599902302*^9, 3.734973600518387*^9}},
+ CellLabel->"In[55]:=",ExpressionUUID->"47154a1e-cf1a-4990-a793-d9ebdfb26730"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"9cd8c16f-f34e-4016-a4c6-1281ed2fd45a"],
+
+Cell[CellGroupData[{
+
+Cell["Who\[CloseCurlyQuote]s Who", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.651652088192172*^9, 3.651652090038589*^9}}],
+
+Cell["\<\
+J Edgar Hoover was one of the people we encountered in our analysis of texts \
+related to McCarthyism. Let\[CloseCurlyQuote]s retrieve some information \
+about a number of the other people involved in that incident. To store the \
+information we can use an association of associations (a nested association). \
+We will then display that information interactively.\
+\>", "Text",
+ CellChangeTimes->{{3.651735990688445*^9, 3.651736108732266*^9}, 
+   3.651736280743184*^9, {3.7349736564360456`*^9, 3.734973702234563*^9}, {
+   3.734973778232518*^9, 
+   3.734973837501569*^9}},ExpressionUUID->"08896bb1-7a3b-4d26-962c-\
+838ef9b4aa57"],
+
+Cell["\<\
+We start building our association of associations by creating an entry for J \
+Edgar Hoover.\
+\>", "Text",
+ CellChangeTimes->{{3.651731708177862*^9, 3.651731722001423*^9}, {
+  3.734973842989492*^9, 
+  3.734973844949422*^9}},ExpressionUUID->"7e81fdc5-1efa-422a-adac-\
+c0afa1813c5d"],
+
+Cell[BoxData[
+ RowBox[{"mccarthyismAssoc", "=", "\[IndentingNewLine]", 
+  RowBox[{"Association", "[", 
+   RowBox[{"{", 
+    RowBox[{"\"\<Hoover, J Edgar\>\"", "\[Rule]", "hooverAssoc"}], "}"}], 
+   "]"}]}]], "Input",
+ CellChangeTimes->{{3.6517317257114687`*^9, 3.651731809246408*^9}, {
+  3.7349738509574127`*^9, 3.73497390127564*^9}},
+ CellLabel->"In[56]:=",ExpressionUUID->"cdd756f4-4f86-463d-be9a-389c5f1b81b3"],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["getWAPersonPropertyAssoc",
+  FontSlant->"Italic"],
+ " function retrieves the information about a particular person in the form \
+of an association (like we did for J Edgar Hoover above). The ",
+ StyleBox["AssociateTo",
+  FontWeight->"Bold"],
+ " command allows us to add an entry to an existing association."
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.651731314220808*^9, 3.651731355542576*^9}, {3.651731443308316*^9, 
+  3.6517314470593157`*^9}, {3.651731477523027*^9, 3.65173149997731*^9}, {
+  3.651731536584729*^9, 3.651731561449313*^9}, {3.651731859333166*^9, 
+  3.6517318909153757`*^9}, {3.734973929258361*^9, 
+  3.734973936650412*^9}},ExpressionUUID->"1f554acb-78e7-4cbc-a8dc-\
+f7ec7b22c58a"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"AssociateTo", "[", 
+   RowBox[{"mccarthyismAssoc", ",", 
+    RowBox[{"\"\<McCarthy, Joseph\>\"", "\[Rule]", 
+     RowBox[{
+     "getWAPersonPropertyAssoc", "[", "\"\<Joseph McCarthy\>\"", "]"}]}]}], 
+   "]"}], ";"}]], "Input",
+ CellChangeTimes->{{3.651731462761251*^9, 3.65173147465814*^9}, {
+  3.6517318966518917`*^9, 3.651731956449871*^9}, {3.734973944890011*^9, 
+  3.7349739650414047`*^9}},
+ CellLabel->"In[57]:=",ExpressionUUID->"75fb6cad-6577-4d30-b18e-c43d4747df03"],
+
+Cell["\<\
+We can look at the information we just added with the following command\
+\>", "Text",
+ CellChangeTimes->{{3.651732031846713*^9, 3.651732053957478*^9}}],
+
+Cell[BoxData[
+ RowBox[{"formatWAPersonData", "[", 
+  RowBox[{
+  "mccarthyismAssoc", "\[LeftDoubleBracket]", "\"\<McCarthy, Joseph\>\"", 
+   "\[RightDoubleBracket]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.651732056847658*^9, 3.651732074700923*^9}, {
+  3.734973994128192*^9, 3.7349740037999887`*^9}},
+ CellLabel->"In[58]:=",ExpressionUUID->"44e81ee2-ab71-4ce8-9f4d-98654fdac02b"],
+
+Cell["\<\
+Let\[CloseCurlyQuote]s add some more people to our association of \
+associations.\
+\>", "Text",
+ CellChangeTimes->{{3.6517321904492817`*^9, 3.65173220610411*^9}, {
+  3.73497510286384*^9, 3.7349751049519043`*^9}, {3.734975218100479*^9, 
+  3.73497521844388*^9}},ExpressionUUID->"14eae9bd-0ab9-4d59-9472-\
+9fd24d54351f"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"AssociateTo", "[", 
+   RowBox[{"mccarthyismAssoc", ",", 
+    RowBox[{"\"\<Hiss, Alger\>\"", "\[Rule]", 
+     RowBox[{"getWAPersonPropertyAssoc", "[", "\"\<Alger Hiss\>\"", "]"}]}]}],
+    "]"}], ";"}]], "Input",
+ CellChangeTimes->{{3.651731462761251*^9, 3.65173147465814*^9}, {
+  3.6517318966518917`*^9, 3.651731956449871*^9}, {3.65173221962451*^9, 
+  3.65173222971135*^9}, {3.734974027270978*^9, 3.7349740379586763`*^9}},
+ CellLabel->"In[59]:=",ExpressionUUID->"a270bee0-4983-4308-8221-ba60b8bfcda4"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"AssociateTo", "[", 
+   RowBox[{"mccarthyismAssoc", ",", 
+    RowBox[{"\"\<Rosenberg, Ethel\>\"", "\[Rule]", 
+     RowBox[{
+     "getWAPersonPropertyAssoc", "[", "\"\<Ethel Rosenberg\>\"", "]"}]}]}], 
+   "]"}], ";"}]], "Input",
+ CellChangeTimes->{{3.651731462761251*^9, 3.65173147465814*^9}, {
+  3.6517318966518917`*^9, 3.651731956449871*^9}, {3.65173221962451*^9, 
+  3.65173222971135*^9}, {3.734974027270978*^9, 3.7349740379586763`*^9}, {
+  3.734975113721024*^9, 3.734975141630898*^9}, {3.7349752267088337`*^9, 
+  3.7349752501068172`*^9}},
+ CellLabel->"In[70]:=",ExpressionUUID->"9d4b905d-332a-4fba-b0fd-70b860ba0be9"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"afcee4da-0830-4423-a20c-156af5b3ef9d"],
+
+Cell[CellGroupData[{
+
+Cell["An interactive display", "Section",
+ CellChangeTimes->{{3.647361153919208*^9, 3.6473611548467712`*^9}, {
+  3.734975157566492*^9, 
+  3.734975163197839*^9}},ExpressionUUID->"3c2e5bc4-8371-4e48-83f8-\
+35641b7ab990"],
+
+Cell[TextData[{
+ "Now we use the ",
+ StyleBox["whosWho",
+  FontSlant->"Italic"],
+ " function to present our information in an interactive display"
+}], "Text",
+ CellChangeTimes->{{3.6517322634140053`*^9, 3.651732285613243*^9}, 
+   3.734975171638074*^9},ExpressionUUID->"1845287d-743c-4794-8d8c-\
+5c6db978a6ee"],
+
+Cell[BoxData[
+ RowBox[{"whosWho", "[", "mccarthyismAssoc", "]"}]], "Input",
+ CellChangeTimes->{{3.651732292582456*^9, 3.65173229911465*^9}, {
+  3.734974092004574*^9, 3.7349740928873787`*^9}},
+ CellLabel->"In[75]:=",ExpressionUUID->"f02540ab-9f0d-4a32-aaa8-54cc6eb69de0"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"d4bc6772-e8a2-407b-85bf-bf0235cee871"],
+
+Cell[CellGroupData[{
+
+Cell["Activity", "Section",
+ CellChangeTimes->{{3.647716402186221*^9, 3.647716405353856*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Questions", "Subsubsection",
+ CellChangeTimes->{{3.647716408857376*^9, 3.647716409673744*^9}}],
+
+Cell["\<\
+Use the \[ControlKey]= method to search in WolframAlpha for some of the \
+people involved in the McCarthyist episode. Can you find a named entity that \
+needs to be disambiguated? That is, can you find a case where WolframAlpha\
+\[CloseCurlyQuote]s default assumption is that you are interested in some \
+other person than the one you are looking for?\
+\>", "Text",
+ CellChangeTimes->{{3.651732897143314*^9, 3.651732922918489*^9}, {
+  3.651732998379702*^9, 3.651733041082096*^9}, {3.651733073065052*^9, 
+  3.651733140158825*^9}, {3.7349741342295628`*^9, 3.734974162298213*^9}, {
+  3.734974194009057*^9, 
+  3.734974219264051*^9}},ExpressionUUID->"f0bdf23d-4e4a-4073-bc61-\
+70d31f02bde3"],
+
+Cell[TextData[{
+ "As you find named entities that do refer to people you are interested in, \
+try adding them to your association of associations (",
+ StyleBox["mccarthyismAssoc",
+  FontSlant->"Italic"],
+ ") and then re-evaluating the ",
+ StyleBox["whosWho",
+  FontSlant->"Italic"],
+ " command."
+}], "Text",
+ CellChangeTimes->{{3.651733017635055*^9, 3.651733018955044*^9}, {
+  3.651733058633597*^9, 3.651733060793581*^9}, {3.651733160773947*^9, 
+  3.651733204108427*^9}, {3.73497422850375*^9, 
+  3.7349742402873287`*^9}},ExpressionUUID->"6c14a827-5423-4793-a5bd-\
+344260ebfaee"],
+
+Cell[TextData[{
+ "Try building a ",
+ StyleBox["whosWho",
+  FontSlant->"Italic"],
+ " display for some other small group of people (athletes, musical act, \
+scientists, etc.)"
+}], "Text",
+ CellChangeTimes->{{3.6517333757745543`*^9, 3.651733386061754*^9}, {
+  3.651733435364887*^9, 3.6517334673550053`*^9}, {3.6517335111941767`*^9, 
+  3.651733578703061*^9}}],
+
+Cell[TextData[{
+ "How might you incorporate ",
+ StyleBox["Wikipedia",
+  FontSlant->"Italic"],
+ " data into a display like this?"
+}], "Text",
+ CellChangeTimes->{{3.734975561007887*^9, 
+  3.734975573886977*^9}},ExpressionUUID->"d8dad2b2-0969-4b07-a21e-\
+4faef13a268b"],
+
+Cell["\<\
+Suppose you wanted to create a similar display for a different kind of named \
+entity (e.g., aircraft, artwork, city, molecule, etc.) What modifications \
+would you have to make to the code?\
+\>", "Text",
+ CellChangeTimes->{{3.651733597246192*^9, 3.651733666667872*^9}}]
+}, Open  ]],
+
+Cell["Discussion", "Subsubsection",
+ CellChangeTimes->{{3.647716411921282*^9, 3.6477164128415117`*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"887cc650-3107-46cf-a6ea-2ec2a6f841fb"],
+
+Cell[CellGroupData[{
+
+Cell["Upload your notebook", "Section",
+ CellChangeTimes->{{3.649950784924818*^9, 3.649950788859275*^9}}],
+
+Cell["\<\
+Don\[CloseCurlyQuote]t forget to upload a copy of your notebook for this \
+class to the OWL Site for the course\
+\>", "Text",
+ CellChangeTimes->{{3.649950792779258*^9, 3.649950818634288*^9}}]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1416, 1107},
+WindowMargins->{{372, Automatic}, {Automatic, 83}},
+WindowStatusArea->None,
+TaggingRules->{"SlideShow" -> True},
+Magnification:>1.25 Inherited,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "SlideShowHeader"->{
+  Cell[580, 22, 4441, 99, 75, "SlideShowNavigationBar",ExpressionUUID->"f07620f7-8487-461b-8dd5-a39e9beac907",
+   CellTags->"SlideShowHeader"],
+  Cell[5930, 150, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"04979d90-a748-4fd4-a1ff-0b183b6745e4",
+   CellTags->"SlideShowHeader"],
+  Cell[6832, 178, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"486a1e8c-0a22-4375-80c5-d52dfca0c933",
+   CellTags->"SlideShowHeader"],
+  Cell[12135, 317, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"91cc2749-a7d1-4347-8259-57916af09a60",
+   CellTags->"SlideShowHeader"],
+  Cell[21435, 559, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"feee45fe-3b88-4d7c-b7a5-36ea19225455",
+   CellTags->"SlideShowHeader"],
+  Cell[33806, 825, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"6f76e267-3e5f-41fc-9c40-d47937d8cc92",
+   CellTags->"SlideShowHeader"],
+  Cell[37868, 931, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"254f71f6-aa9b-41bc-80bf-a41104742177",
+   CellTags->"SlideShowHeader"],
+  Cell[73504, 1719, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"b14e67c3-a3dd-48ee-adb1-346283dbac5a",
+   CellTags->"SlideShowHeader"],
+  Cell[78611, 1850, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"3f03fcd5-5778-4ed9-813d-38ba4de43757",
+   CellTags->"SlideShowHeader"],
+  Cell[83079, 1964, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"7ad8293f-987d-4755-a233-47a6edbd2755",
+   CellTags->"SlideShowHeader"],
+  Cell[87080, 2063, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"9cd8c16f-f34e-4016-a4c6-1281ed2fd45a",
+   CellTags->"SlideShowHeader"],
+  Cell[92146, 2190, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"afcee4da-0830-4423-a20c-156af5b3ef9d",
+   CellTags->"SlideShowHeader"],
+  Cell[93145, 2222, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"d4bc6772-e8a2-407b-85bf-bf0235cee871",
+   CellTags->"SlideShowHeader"],
+  Cell[95867, 2302, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"887cc650-3107-46cf-a6ea-2ec2a6f841fb",
+   CellTags->"SlideShowHeader"]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"SlideShowHeader", 96757, 2333}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 4441, 99, 75, "SlideShowNavigationBar",ExpressionUUID->"f07620f7-8487-461b-8dd5-a39e9beac907",
+ CellTags->"SlideShowHeader"],
+Cell[5024, 123, 466, 10, 200, "Title",ExpressionUUID->"779fde82-4995-4758-9ab4-becd72836587"],
+Cell[5493, 135, 400, 10, 108, "Subtitle",ExpressionUUID->"40c95259-5d09-4dfc-bb94-b466864789f3"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5930, 150, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"04979d90-a748-4fd4-a1ff-0b183b6745e4",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[6077, 156, 155, 3, 84, "Section",ExpressionUUID->"877dde87-58bf-42c6-aba3-6932d8a517b4"],
+Cell[6235, 161, 548, 11, 73, "Text",ExpressionUUID->"065849c3-2e86-46f6-80fa-1970a55f905b"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6832, 178, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"486a1e8c-0a22-4375-80c5-d52dfca0c933",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[6979, 184, 201, 4, 84, "Section",ExpressionUUID->"bea045c0-80a7-4e75-98e0-2d22b33016a6"],
+Cell[7183, 190, 459, 10, 64, "Input",ExpressionUUID->"0639395a-6ba3-4e43-8fa6-f598b4ceee4d"],
+Cell[7645, 202, 356, 7, 44, "Text",ExpressionUUID->"6b97bfc4-0c80-4abc-9271-f5fa07d64ba8"],
+Cell[8004, 211, 829, 18, 90, "Input",ExpressionUUID->"6e7a3bc8-97e1-464d-9ee6-3c29752c3e18"],
+Cell[8836, 231, 2152, 53, 220, "Input",ExpressionUUID->"bf37e7d0-255b-4d06-8696-5e483197b507"],
+Cell[10991, 286, 1095, 25, 140, "Input",ExpressionUUID->"b090fd1a-0692-41f7-b58b-f7bce6b8d012"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[12135, 317, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"91cc2749-a7d1-4347-8259-57916af09a60",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[12282, 323, 250, 4, 131, "Section",ExpressionUUID->"0e5f75a5-0f74-4634-9235-d17f62eaab63"],
+Cell[12535, 329, 473, 12, 114, "Text",ExpressionUUID->"320bc386-a0e6-4157-9bec-1323c58dc549"],
+Cell[CellGroupData[{
+Cell[13033, 345, 154, 3, 104, "Subsection",ExpressionUUID->"4a974dc2-2199-4aa8-b330-8fc480c85791"],
+Cell[13190, 350, 271, 6, 44, "Text",ExpressionUUID->"2772ae99-27e7-4759-8ea4-d20db2da4133"],
+Cell[13464, 358, 1403, 30, 71, "Input",ExpressionUUID->"803cdb10-d31c-4495-a31e-b56a08873f92"],
+Cell[14870, 390, 348, 9, 68, "Text",ExpressionUUID->"182f3039-4249-4cfd-b129-0895f8c8670d"],
+Cell[15221, 401, 1498, 33, 75, "Input",ExpressionUUID->"6c324efe-38c0-497a-b91e-993aeb86b3e1"],
+Cell[16722, 436, 385, 12, 68, "Text",ExpressionUUID->"48435766-bfcb-4f16-ab6e-34c9e50abba6"],
+Cell[17110, 450, 1492, 33, 75, "Input",ExpressionUUID->"e49bbee2-8efa-41e3-8242-66ee2c13bf7f"],
+Cell[18605, 485, 1499, 33, 75, "Input",ExpressionUUID->"8ed9aff8-ef3f-4b15-88ec-c79bcd491d29"],
+Cell[20107, 520, 244, 6, 68, "Text",ExpressionUUID->"2650c35c-4de3-479d-b7fa-b85e2a0e2459"],
+Cell[20354, 528, 326, 6, 57, "Input",ExpressionUUID->"772641b6-3f92-4705-8bb3-30b345384a2a"],
+Cell[20683, 536, 266, 6, 68, "Text",ExpressionUUID->"2f84da09-7618-4c14-8d99-1f41237fd904"],
+Cell[20952, 544, 422, 8, 75, "Input",ExpressionUUID->"bd93f25a-d487-48f8-91cb-6fc47acabe96"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[21435, 559, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"feee45fe-3b88-4d7c-b7a5-36ea19225455",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[21582, 565, 158, 3, 131, "Section",ExpressionUUID->"af83bac1-8cb2-4a22-b4c3-5f29e68e6b75"],
+Cell[21743, 570, 851, 17, 114, "Text",ExpressionUUID->"eadec7ea-a229-4048-b39d-ed16c80aadeb"],
+Cell[22597, 589, 2534, 50, 71, "Input",ExpressionUUID->"e8f14d8c-155e-4672-8261-0b89580b9dd2"],
+Cell[25134, 641, 432, 8, 75, "Input",ExpressionUUID->"01d21a3f-1595-42ec-90a8-09a7c948eba9"],
+Cell[25569, 651, 2638, 52, 75, "Input",ExpressionUUID->"8e91409a-39be-43bc-a22b-b23d97036b76"],
+Cell[28210, 705, 468, 9, 114, "Text",ExpressionUUID->"5ee47bc2-9893-420c-8604-9ca11bfb4533"],
+Cell[28681, 716, 2376, 47, 79, "Input",ExpressionUUID->"6baf13c8-131d-4428-80fc-1f46b35f43ff"],
+Cell[31060, 765, 187, 3, 68, "Text",ExpressionUUID->"8150debb-bed9-4a65-aee8-fc02d4671192"],
+Cell[31250, 770, 2507, 49, 75, "Input",ExpressionUUID->"7851c8ed-6ec1-44f3-ada2-fb6aa5b4eb1b"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[33806, 825, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"6f76e267-3e5f-41fc-9c40-d47937d8cc92",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[33953, 831, 290, 5, 131, "Section",ExpressionUUID->"1cd358a9-2af8-48ed-9064-0e979eb6a202"],
+Cell[34246, 838, 408, 10, 68, "Text",ExpressionUUID->"d889364f-4ab9-4414-a873-9b5d7686315b"],
+Cell[34657, 850, 249, 4, 68, "Text",ExpressionUUID->"46f91e7b-8e39-4066-ac05-1a15815165b1"],
+Cell[34909, 856, 229, 3, 57, "Input",ExpressionUUID->"38c0d714-c547-4591-a1a3-0a686822ca95"],
+Cell[35141, 861, 315, 9, 68, "Text",ExpressionUUID->"9300118d-b5f4-4e05-ba5e-d8768ca68574"],
+Cell[35459, 872, 363, 6, 57, "Input",ExpressionUUID->"eb622570-d3d3-4176-93b7-78981fa5320d"],
+Cell[35825, 880, 460, 10, 68, "Text",ExpressionUUID->"67b4b43b-0a7f-4219-b985-a10c950b7df5"],
+Cell[36288, 892, 499, 9, 57, "Input",ExpressionUUID->"df3d8f70-7086-4ea5-9b96-872c5802be8d"],
+Cell[36790, 903, 248, 4, 68, "Text",ExpressionUUID->"2051984d-9abf-423e-aa55-5fb7db1d790e"],
+Cell[37041, 909, 778, 16, 57, "Input",ExpressionUUID->"4c34991a-869b-484f-b83a-8dd3a76753a0"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[37868, 931, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"254f71f6-aa9b-41bc-80bf-a41104742177",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[38015, 937, 221, 4, 131, "Section",ExpressionUUID->"c85061ec-d4de-4dec-a5ad-176bd5d7e93c"],
+Cell[38239, 943, 406, 9, 68, "Text",ExpressionUUID->"045bda07-4a4c-43c1-be6d-83e1e389b715"],
+Cell[38648, 954, 1902, 40, 71, "Input",ExpressionUUID->"75688aac-2b06-460d-8edf-322491f5c51a"],
+Cell[40553, 996, 1822, 38, 71, "Input",ExpressionUUID->"a6f9c7a1-74bf-4f13-9241-d5569996268e"],
+Cell[42378, 1036, 4978, 94, 71, "Input",ExpressionUUID->"28b26fd2-4f7b-4de5-8e7f-6ae8d01507be"],
+Cell[47359, 1132, 1865, 39, 71, "Input",ExpressionUUID->"aa6397f9-d983-4231-90fc-42368085c17a"],
+Cell[49227, 1173, 2084, 43, 71, "Input",ExpressionUUID->"efe84cdd-4433-44cd-8d14-b6b0c5af3292"],
+Cell[51314, 1218, 1991, 42, 71, "Input",ExpressionUUID->"dd1ba198-77da-47ae-8708-d5cdc3b003c9"],
+Cell[53308, 1262, 1995, 43, 71, "Input",ExpressionUUID->"f8a2d67b-20e9-4d87-ae01-efc6209ed0e4"],
+Cell[55306, 1307, 1829, 39, 71, "Input",ExpressionUUID->"9903f4f0-ee86-4511-bb60-3b18975747c3"],
+Cell[57138, 1348, 1931, 41, 71, "Input",ExpressionUUID->"7e24870c-fff6-4678-b790-4c577a8fed30"],
+Cell[59072, 1391, 1938, 41, 71, "Input",ExpressionUUID->"68046fa7-3ba3-4637-bd9e-c70060411d43"],
+Cell[61013, 1434, 1779, 38, 71, "Input",ExpressionUUID->"a868fbd1-82e3-47ec-8849-333d8c4ef85d"],
+Cell[62795, 1474, 1841, 40, 71, "Input",ExpressionUUID->"c42a6b66-3c18-421f-a815-3a43359052a2"],
+Cell[64639, 1516, 1828, 39, 71, "Input",ExpressionUUID->"2b8e598b-fcc8-43cf-bd83-913cfe4eefdb"],
+Cell[66470, 1557, 1737, 38, 71, "Input",ExpressionUUID->"48a0bff8-f111-4b1b-8927-df83381c67f9"],
+Cell[68210, 1597, 1778, 38, 71, "Input",ExpressionUUID->"5343c0df-3b7d-4966-b681-413ed38e402e"],
+Cell[69991, 1637, 2096, 44, 71, "Input",ExpressionUUID->"c84ad124-d506-471d-b2b9-cded3ca7e9c0"],
+Cell[72090, 1683, 266, 6, 68, "Text",ExpressionUUID->"2916900b-6d89-4132-84e5-e51cd2332152"],
+Cell[72359, 1691, 277, 4, 57, "Input",ExpressionUUID->"9bdf382f-6e45-4bdb-abff-508fd33a2730"],
+Cell[72639, 1697, 227, 3, 57, "Input",ExpressionUUID->"ef5c9829-99d9-4781-8ff2-5e170b5c3652"],
+Cell[72869, 1702, 272, 4, 57, "Input",ExpressionUUID->"29ebfe17-f494-4e12-b3de-b68beac3569d"],
+Cell[73144, 1708, 311, 5, 57, "Input",ExpressionUUID->"01914684-9818-4ce6-bf02-a33e1e28be61"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[73504, 1719, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"b14e67c3-a3dd-48ee-adb1-346283dbac5a",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[73651, 1725, 335, 5, 131, "Section",ExpressionUUID->"9e4a8ae2-aa68-474c-96d7-84dbe0bfd953"],
+Cell[73989, 1732, 254, 6, 68, "Text",ExpressionUUID->"25ea2250-855a-4b64-95eb-239f945940a8"],
+Cell[74246, 1740, 1413, 31, 71, "Input",ExpressionUUID->"335d5da8-03ff-41f3-9e16-8eca3d54fa33"],
+Cell[75662, 1773, 427, 7, 75, "Input",ExpressionUUID->"74275753-8c06-4c2f-8571-448d7d1bb519"],
+Cell[76092, 1782, 430, 9, 75, "Input",ExpressionUUID->"1a192bfc-01d1-4e47-8f18-26f0ab3a9402"],
+Cell[76525, 1793, 309, 6, 68, "Text",ExpressionUUID->"06012e46-8c98-4ffc-be02-db649f354ccf"],
+Cell[76837, 1801, 570, 13, 57, "Input",ExpressionUUID->"b2586988-46e2-4b55-a3ba-d4d425ed1e8a"],
+Cell[77410, 1816, 1152, 28, 76, "Input",ExpressionUUID->"23e09a8b-883d-402e-869f-f9daa7066749"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[78611, 1850, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"3f03fcd5-5778-4ed9-813d-38ba4de43757",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[78758, 1856, 219, 4, 131, "Section",ExpressionUUID->"0666177c-4144-4da7-b42c-8df29fd926f9"],
+Cell[78980, 1862, 483, 9, 68, "Text",ExpressionUUID->"f18c3b2a-acc9-4331-afc8-7bc5f9e52e0e"],
+Cell[79466, 1873, 625, 13, 57, "Input",ExpressionUUID->"7558fe86-e51a-4a0e-99e8-b30d89e3265e",
+ CellID->734364217],
+Cell[80094, 1888, 1005, 22, 57, "Input",ExpressionUUID->"45d4de8d-7845-4255-9d96-62488529f660"],
+Cell[81102, 1912, 429, 10, 57, "Input",ExpressionUUID->"b26f6ac7-cb10-472b-b4a1-f08558d1a871"],
+Cell[81534, 1924, 481, 11, 68, "Text",ExpressionUUID->"d5464093-3ba7-4cac-ae65-3423abcdba6a"],
+Cell[82018, 1937, 600, 13, 57, "Input",ExpressionUUID->"b29ef88c-d695-45e4-8a39-3e15c17ab286"],
+Cell[82621, 1952, 409, 6, 57, "Input",ExpressionUUID->"c982fa85-2e74-436f-a780-4eb6d881766d"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[83079, 1964, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"7ad8293f-987d-4755-a233-47a6edbd2755",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[83226, 1970, 182, 2, 131, "Section",ExpressionUUID->"e2a68a78-6e2a-4efd-8f1e-1144d308468b"],
+Cell[83411, 1974, 751, 17, 159, "Text",ExpressionUUID->"06a4497c-ef60-48fd-aa34-0c01d5f5dbc3"],
+Cell[84165, 1993, 758, 16, 100, "Input",ExpressionUUID->"d7a69030-e00d-489b-b411-d4ebca9bdc13"],
+Cell[84926, 2011, 261, 4, 57, "Input",ExpressionUUID->"0d977b3e-96ea-47d0-b2c3-81e0f732d34c"],
+Cell[85190, 2017, 233, 4, 68, "Text",ExpressionUUID->"a1b7fd7a-076a-4a57-a191-4d80cb176270"],
+Cell[85426, 2023, 320, 5, 57, "Input",ExpressionUUID->"b820f6bf-3a31-452c-a63f-ad9e7552d1c1"],
+Cell[85749, 2030, 324, 5, 57, "Input",ExpressionUUID->"553616f3-875b-45fa-bd2b-f7ce90b05363"],
+Cell[86076, 2037, 377, 5, 57, "Input",ExpressionUUID->"c8f81a90-9916-4df4-8903-532bdf06d739"],
+Cell[86456, 2044, 297, 7, 68, "Text",ExpressionUUID->"a8c39be5-9706-473f-b757-aa46c96d8736"],
+Cell[86756, 2053, 275, 4, 57, "Input",ExpressionUUID->"47154a1e-cf1a-4990-a793-d9ebdfb26730"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[87080, 2063, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"9cd8c16f-f34e-4016-a4c6-1281ed2fd45a",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[87227, 2069, 162, 2, 131, "Section",ExpressionUUID->"f5959087-6f15-4764-b9e5-c9d74253751d"],
+Cell[87392, 2073, 638, 11, 159, "Text",ExpressionUUID->"08896bb1-7a3b-4d26-962c-838ef9b4aa57"],
+Cell[88033, 2086, 291, 7, 68, "Text",ExpressionUUID->"7e81fdc5-1efa-422a-adac-c0afa1813c5d"],
+Cell[88327, 2095, 413, 8, 100, "Input",ExpressionUUID->"cdd756f4-4f86-463d-be9a-389c5f1b81b3"],
+Cell[88743, 2105, 774, 16, 114, "Text",ExpressionUUID->"1f554acb-78e7-4cbc-a8dc-f7ec7b22c58a"],
+Cell[89520, 2123, 507, 11, 57, "Input",ExpressionUUID->"75fb6cad-6577-4d30-b18e-c43d4747df03"],
+Cell[90030, 2136, 161, 3, 68, "Text",ExpressionUUID->"a4b1305d-4173-49aa-8dc6-9cf8760bf75e"],
+Cell[90194, 2141, 379, 7, 57, "Input",ExpressionUUID->"44e81ee2-ab71-4ce8-9f4d-98654fdac02b"],
+Cell[90576, 2150, 327, 7, 68, "Text",ExpressionUUID->"14eae9bd-0ab9-4d59-9472-9fd24d54351f"],
+Cell[90906, 2159, 535, 10, 57, "Input",ExpressionUUID->"a270bee0-4983-4308-8221-ba60b8bfcda4"],
+Cell[91444, 2171, 653, 13, 57, "Input",ExpressionUUID->"9d4b905d-332a-4fba-b0fd-70b860ba0be9"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[92146, 2190, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"afcee4da-0830-4423-a20c-156af5b3ef9d",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[92293, 2196, 218, 4, 131, "Section",ExpressionUUID->"3c2e5bc4-8371-4e48-83f8-35641b7ab990"],
+Cell[92514, 2202, 309, 8, 68, "Text",ExpressionUUID->"1845287d-743c-4794-8d8c-5c6db978a6ee"],
+Cell[92826, 2212, 270, 4, 57, "Input",ExpressionUUID->"f02540ab-9f0d-4a32-aaa8-54cc6eb69de0"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[93145, 2222, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"d4bc6772-e8a2-407b-85bf-bf0235cee871",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[93292, 2228, 93, 1, 131, "Section",ExpressionUUID->"581fc8e0-6dbb-490a-89b5-ccc492a3fe6e"],
+Cell[CellGroupData[{
+Cell[93410, 2233, 100, 1, 87, "Subsubsection",ExpressionUUID->"275b8564-3093-4238-8ece-408349bc8ec5"],
+Cell[93513, 2236, 696, 12, 159, "Text",ExpressionUUID->"f0bdf23d-4e4a-4073-bc61-70d31f02bde3"],
+Cell[94212, 2250, 578, 14, 114, "Text",ExpressionUUID->"6c14a827-5423-4793-a5bd-344260ebfaee"],
+Cell[94793, 2266, 355, 9, 68, "Text",ExpressionUUID->"db31e4f3-625b-4bfe-a770-4aae00e6d06d"],
+Cell[95151, 2277, 266, 8, 68, "Text",ExpressionUUID->"d8dad2b2-0969-4b07-a21e-4faef13a268b"],
+Cell[95420, 2287, 280, 5, 114, "Text",ExpressionUUID->"55ecb730-0291-46be-ba4e-3e633e75d618"]
+}, Open  ]],
+Cell[95715, 2295, 103, 1, 87, "Subsubsection",ExpressionUUID->"9c49e4ce-f383-409f-a204-24d2843e3475"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[95867, 2302, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"887cc650-3107-46cf-a6ea-2ec2a6f841fb",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[96014, 2308, 105, 1, 131, "Section",ExpressionUUID->"657cc0b7-1692-4588-8ace-e7d971b52752"],
+Cell[96122, 2311, 201, 4, 68, "Text",ExpressionUUID->"6791e038-3b0b-41f9-ab2e-b8c56e67ca9f"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+

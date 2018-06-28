@@ -1,0 +1,2508 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[    103642,       2500]
+NotebookOptionsPosition[     81505,       2178]
+NotebookOutlinePosition[     84326,       2232]
+CellTagsIndexPosition[     84247,       2227]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ TogglerBox[2, {1->
+  OverlayBox[{
+   TagBox[GridBox[{
+      {
+       GraphicsBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBAkBOaF5xZnpeaopnXklqemqRRRIz
+UFAKiEGSLED8//9/gvjRo0fsN27cELp69arY+fPnpZExPn137tzhBqrRBGJ/
+ID4CxMfRMTZ9L168YL5w4YIaUD4AiC8C8Qcg/gvE/9AxFreC7PQD4gtA/BGq
+7j8ujKz3+fPnLFC9b6H24dSHTf/FixfVofYSpRdZPzSsAqBuJkovsn5oOF8k
+5F9s+h88eMBBjt0w/devXxcGso+S4m9k/ZcuXRKHpgeS3A7TD0wrkpToPw9J
+ywOmn1L3Uxp+lMYfpemH0vRLjfwDjQey8y9a+fGOWDPwlF+gsPhEKDywlZ8g
+d0D9EniexPITGd++fZv3PBnlN6764zxa3QHCAIDESDs=
+         "], {{0, 26}, {16, 
+         0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{16, 26},
+        PlotRange->{{0, 16}, {0, 26}}], 
+       GraphicsBox[RasterBox[CompressedData["
+1:eJzt2V1vVFUUBuBGTfTSSygthYYKNHyVinrrpbcYfwBEJN5gUkyMfw9KKaVw
+KCkQKCW1RNIQKg1gEE3QtdN10pMRZCaBzNQ+kzxt5nzstfeZfbPOu/vkD8e/
+e6+vr+/sR/Hn+ImfvpyYOPHz1x/Hl2/OnP3+9JlT33515sdTp09NfHHy/TjY
+H6592Nf3QfyvqmpHBwbCYNr5GoMNAw2d1AEAADa3/obtLba1aJ7rb4xR9x1D
+YVfYHYbDnjASPgn7wv4wGg6Eg+FQOByOhLEwnj4Nx8Jn6fM21dcfyzHq8cay
+xuGseTDnMJpz2pdzHMk5D+caduWa6v6p+czafU71s6p1+/cGAADYqt52/9va
+++6tXt331j3v0TTeoj5e966v6lv3Vv/uWfWr9LJm9tzMpN+UW3eaVV9s00yY
+CzfC7bAQFhvuhjt57maYD9er9c+VcDlcCtMd1AQAADafqXQhTabz6VyL+vhk
+Xl/uLX1D6UFmw9VwrVrvL0o/cqta7ztKD3Iv/BLuh1/DSngYHoXfwlp4Ep6F
+38Pz8Ed4Ef5Mf71Gff5F3vM8x3iWY65ljUdZcyXncD/ndC/neDvnfCPXcC3X
+NJtrnG48r3afU/2s6uc11QO/OwAAwFbzLvrfksWVjK30kSV3KxncUlgOD6qN
+vnc1PK42+t7iaaq/r+U1q9VG3/ogx1rKse9krfmsrV+l15R9WDLmkjWXzLl8
+yvuVsmdLJl3eu5R9XN7BNLPrhTxX3seUvT3TQc2Xbfr7LWq3JgAAwH95m33K
+u9Dt5wMAAMDmp2dlK+vGnu/2+yQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYPN42aZu
+1AQAAAAAAICtrNsZIXRTN/b8xTbNhLlwI9wOC2Gx4W64k+duhvlwvVr/XAmX
+w6Uw3UFNAAAAAAAA6EVT6UKaTOfTuRb18cm8vtxbcrOSwc2Gq9V6FlcytlvV
+eu5WMrilsBwehJXwMKyGx2EtPElPU/19La9ZzXtWcozlHHMxa9zKmnM5h9mc
+03Rjfe2uq15bvb6pHvid2NzKPiwZc8maS+ZcPiWDLnu2ZNIlmy77uGTVzex6
+Ic+VbLvs7ZkOau7owEAYTDtfY7BhoKGTOgAAAAAAANDr+hu2t9jWonmuvzFG
+nbsNhd1hOOwJI2Fv2B9Gw4FwMBwKR8JYOJrGW9THx/LaQ3nvgRxrf449krWG
+s/ZQtZH3NdfY7rrqtdW6/fvw/9LMnpuZ9Jty646y6n8AhCP7tg==
+         "], {{0, 26}, {
+         2000, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{2000, 26},
+        PlotRange->{{0, 2000}, {0, 26}}], 
+       GraphicsBox[RasterBox[CompressedData["
+1:eJy9lktLQkEUxyVdCBIELaxctYq+QduWbcKMPoCSRRsDC6JPp+Lj4vuq+EBc
+iBtFfIYrpU7nPzQiN++9vmrgp/dx5j8z55w5c099z56HPYvF8mLnH4/37TIY
+9L7fHvDNXeDl6THgv78KvPof/cELn5UfnjBHjI3J5/OudVBV9bhUKjmbzaad
+iCxmcB9lAxKMmzmv1+v7JvpfG/DJjJkic8NrOut0OlYdfdoCjPXBqMx1q9Vy
+7FhfgvX0MUa73bYZ6edyuTnrvPsZQ4Wv9PTRL5vNroTOGIiJu9FoOLT6UjuT
+yVAqlaJkMin+0+m0YPEZbHTGQDwKyKtl+ugHjdFoRIVCgeLxOCUSCQGua7Ua
+9Xo9YQNbozXI/aHVZ//RcDik2WxG5XKZwuGwANdo0JfrNIhDvFqtHi7zD+YW
+i8VoMBgIvWKxKEDrdrtiHbAxiAF8pHAf5zJ9+Bca0WiUxuMxydbv98U64CvY
+wNZgTyioI9r8QR/EEvrQUhRlrh8Kheb6sDHTZ1xG84ePMP/pdPpr/tvoL/of
+Mcb9Jv7X+mcxP2X+QCMSiYh5VyoVMQbXMbP81I2vzM/JZCLyX+a+BPmPvbFN
+fmr36pr713B/rVp7THy/tD6Y1cjF5zrahvVtB5jW5y21B/kVzpc1kecjfK53
+Pu7kfNfO+x+/T/70++ob7NUEtQ==
+         "], {{0, 26}, {24, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{24, 26},
+        PlotRange->{{0, 24}, {0, 26}}]}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {Automatic, 
+         Scaled[0.6], Automatic}},
+     GridBoxSpacings->{"Columns" -> {{0}}, "Rows" -> {{0}}}],
+    "Grid"], 
+   PaneBox[
+    StyleBox[
+     RowBox[{
+     "Background", " ", "images", " ", "and", " ", "text", " ", "colors", " ",
+       "have", " ", "been", " ", "adjusted", " ", "for", " ", "editing", " ", 
+      
+      RowBox[{"purposes", "."}]}],
+     LineBreakWithin->False,
+     FontFamily->"Helvetica",
+     FontSize->12,
+     FontColor->GrayLevel[0.4]],
+    Alignment->Center,
+    ImageSize->Scaled[0.5],
+    ScrollPosition->{0., 0.}]},
+   Alignment->{Center, Center}], 2->""}, "1"]], "SlideShowNavigationBar", \
+"FirstSlide",
+ CellMargins->{{0, 0}, {0, 0}},
+ CellFrameLabelMargins->2,
+ CellSize->{Inherited, 30},
+ CellChangeTimes->{3.647361175465108*^9},
+ TextAlignment->Center,
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"78c18c44-f5ae-41a2-953c-01374dba713c"],
+
+Cell["\<\
+Digital Research Methods 08A:
+Document Vectors\
+\>", "Title",
+ CellChangeTimes->{
+  3.559948400406288*^9, {3.647331852839075*^9, 3.647331861295168*^9}, {
+   3.647331922221755*^9, 3.647331924532915*^9}, {3.647332658962614*^9, 
+   3.64733266480881*^9}, {3.6473611327373047`*^9, 3.647361139759391*^9}, {
+   3.647448943135475*^9, 3.6474489472294493`*^9}, {3.653035514662826*^9, 
+   3.65303552230066*^9}},ExpressionUUID->"15b588ab-a64f-4554-84d4-\
+84515498578c"],
+
+Cell[TextData[{
+ "William J Turkel, ",
+ StyleBox["wturkel@uwo.ca",
+  FontSlant->"Italic",
+  FontColor->RGBColor[
+   0.396078431372549, 0.596078431372549, 0.796078431372549]],
+ "\nHistory 2816 / Digital Humanities 2130 / History 9877"
+}], "Subtitle",
+ CellChangeTimes->{{3.647331955723979*^9, 3.6473319708190517`*^9}, 
+   3.647332103720562*^9},ExpressionUUID->"6e6c6490-ec95-459e-a632-\
+101aaa2720c7"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"3c8bbe16-5209-4db8-acc9-fce6823b2a90"],
+
+Cell[CellGroupData[{
+
+Cell["Overview", "Section",
+ CellChangeTimes->{{3.647361153919208*^9, 
+  3.6473611548467712`*^9}},ExpressionUUID->"7708fd06-a064-4c43-85b6-\
+6f3ef0eb81b5"],
+
+Cell["\<\
+Many powerful information retrieval and text mining tools are based on the \
+idea that aspects of a text can be represented in the form of vectors.\
+\>", "Text",
+ CellChangeTimes->{{3.6530371930191298`*^9, 3.6530372193455677`*^9}, {
+  3.653037289088135*^9, 
+  3.653037352613102*^9}},ExpressionUUID->"e154d983-0601-4e02-86dc-\
+fd2b3fe718fb"],
+
+Cell[TextData[{
+ "Speaking somewhat loosely, a ",
+ StyleBox["vector",
+  FontSlant->"Italic"],
+ " is a mathematical quantity that has more than one component. To describe \
+the distance along a ruler, you only need one measurement (say 2.5 \
+centimeters from one end). To describe a position on a sheet of graph paper, \
+however, you need two measurements (say three squares down and seven squares \
+to the right of the upper left-hand corner). In ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ ", we can write the resulting vector using ",
+ StyleBox["List",
+  FontWeight->"Bold"],
+ " notation"
+}], "Text",
+ CellChangeTimes->{{3.647361157582405*^9, 3.647361159086673*^9}, {
+  3.6530363784929533`*^9, 3.6530365439746017`*^9}, {3.653036616398018*^9, 
+  3.653036648491637*^9}},ExpressionUUID->"95027741-84b7-4de6-835f-\
+0f6c369eadb1"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"3", ",", "7"}], "}"}]], "Input",
+ CellChangeTimes->{{3.653036650307026*^9, 3.653036652315374*^9}},
+ CellLabel->"In[1]:=",ExpressionUUID->"129c4659-9f16-4857-9cf7-23c0cb22b6f9"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"8d8efcd3-6841-4dc6-8b1c-2bd02d7e748c"],
+
+Cell[CellGroupData[{
+
+Cell["Setup", "Section",
+ CellChangeTimes->{{3.647716369451888*^9, 3.647716370003084*^9}, {
+  3.647798474690284*^9, 
+  3.6477984752570744`*^9}},ExpressionUUID->"e86fd597-8dde-4f83-8305-\
+b85508994391"],
+
+Cell[TextData[{
+ "These functions were introduced in the slide set ",
+ StyleBox["4B: Collocations",
+  FontSlant->"Italic"]
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.6530359437856693`*^9, 
+  3.653035980870925*^9}},ExpressionUUID->"413e4875-4d27-48a1-b08d-\
+4f2492b67fe0"],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["txtblks",
+  FontSlant->"Italic"],
+ " argument is assigned to a list of text blocks. These may be paragraphs, \
+pages, blocks of fixed length (e.g., 250 words) or even whole documents. The ",
+ StyleBox["ngram",
+  FontSlant->"Italic"],
+ " argument is assigned to a list of words."
+}], "Text",
+ CellChangeTimes->{{3.653036015110578*^9, 3.653036139258276*^9}, {
+  3.653036174970052*^9, 3.653036191576782*^9}, {3.653036242487473*^9, 
+  3.653036246887125*^9}, {3.735148412426145*^9, 3.7351484128561897`*^9}, {
+  3.735148902518566*^9, 
+  3.735148904430478*^9}},ExpressionUUID->"1299ad19-7cd0-43f5-80e8-\
+47c51e011256"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"getOccurrences", "[", 
+   RowBox[{"txtblks_", ",", "ngram_"}], "]"}], ":=", "\[IndentingNewLine]", 
+  RowBox[{"Map", "[", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"Length", "[", 
+      RowBox[{"SequenceCases", "[", 
+       RowBox[{"#", ",", "ngram"}], "]"}], "]"}], "&"}], ",", "txtblks"}], 
+   "]"}]}]], "Input",
+ CellChangeTimes->{{3.647748516710093*^9, 3.647748582265139*^9}},
+ CellLabel->"In[2]:=",ExpressionUUID->"7ba7e388-4fc3-45e0-a499-9dde676adcbf"],
+
+Cell[TextData[{
+ "Assign a nested list to the ",
+ StyleBox["ngramlist",
+  FontSlant->"Italic"],
+ " argument."
+}], "Text",
+ CellChangeTimes->{{3.653036204648402*^9, 
+  3.653036250031117*^9}},ExpressionUUID->"c506dabc-c6c0-48fe-b11c-\
+4b6ab19a5560"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"plotCooccurrences", "[", 
+   RowBox[{"txtblks_", ",", "ngramlist_"}], "]"}], ":=", 
+  "\[IndentingNewLine]", 
+  RowBox[{"MatrixPlot", "[", 
+   RowBox[{
+    RowBox[{"Map", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"getOccurrences", "[", 
+        RowBox[{"txtblks", ",", "#"}], "]"}], "&"}], ",", "ngramlist"}], 
+     "]"}], ",", 
+    RowBox[{"ImageSize", "\[Rule]", "Full"}], ",", 
+    RowBox[{"AspectRatio", "\[Rule]", 
+     RowBox[{"1", "/", "8"}]}], ",", 
+    RowBox[{"FrameTicks", "\[Rule]", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"Map", "[", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"#", ",", 
+            RowBox[{"StringRiffle", "@", 
+             RowBox[{
+             "ngramlist", "\[LeftDoubleBracket]", "#", 
+              "\[RightDoubleBracket]"}]}]}], "}"}], "&"}], ",", 
+         RowBox[{"Range", "[", 
+          RowBox[{"Length", "[", "ngramlist", "]"}], "]"}]}], "]"}], ",", 
+       "Automatic"}], "}"}]}], ",", 
+    RowBox[{"ImagePadding", "\[Rule]", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"110", ",", "10"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"20", ",", "5"}], "}"}]}], "}"}]}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.6477489707297087`*^9, 3.647748993641851*^9}, {
+   3.647749052439962*^9, 3.64774908806187*^9}, {3.647750447438566*^9, 
+   3.6477505139701357`*^9}, {3.647750576001113*^9, 3.647750667572423*^9}, {
+   3.647784048682667*^9, 3.647784141526886*^9}, {3.647784180421927*^9, 
+   3.647784290296781*^9}, {3.6477843341609573`*^9, 3.647784351935066*^9}, 
+   3.64778472712313*^9, {3.647784802255986*^9, 3.6477848059739437`*^9}, {
+   3.647784994328109*^9, 3.647784997167368*^9}, {3.647785035958646*^9, 
+   3.647785042845336*^9}, {3.647785448487372*^9, 3.647785468238415*^9}, {
+   3.6477864050755663`*^9, 3.647786409082419*^9}, {3.6477864544657993`*^9, 
+   3.647786455720682*^9}, {3.647786491280575*^9, 3.647786492927422*^9}, {
+   3.647786526503208*^9, 3.6477865273342*^9}, {3.64778656026995*^9, 
+   3.647786561564884*^9}, {3.647786609923525*^9, 3.6477866381454697`*^9}, 
+   3.6477866701302156`*^9, {3.647787590216681*^9, 3.6477876197978697`*^9}, {
+   3.647787687956114*^9, 3.647787700452544*^9}},
+ CellLabel->"In[3]:=",ExpressionUUID->"61c8d353-763e-4430-9743-35294464e507"],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["blockSearch",
+  FontSlant->"Italic"],
+ " function will let us find all of the text blocks where a particular term \
+appears"
+}], "Text",
+ CellChangeTimes->{{3.653038001024428*^9, 3.6530380095112753`*^9}, {
+  3.685634253237033*^9, 3.685634265864587*^9}, {3.7351496393801317`*^9, 
+  3.7351496453471622`*^9}},ExpressionUUID->"36cea656-6b01-4e92-b39f-\
+57fcd31fb7ce"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"blockSearch", "[", 
+   RowBox[{"blklist_", ",", "str_"}], "]"}], ":=", "\[IndentingNewLine]", 
+  RowBox[{"TabView", "[", 
+   RowBox[{"Select", "[", 
+    RowBox[{
+     RowBox[{"Thread", "[", 
+      RowBox[{"Rule", "[", 
+       RowBox[{
+        RowBox[{"Range", "[", 
+         RowBox[{"Length", "[", "blklist", "]"}], "]"}], ",", "blklist"}], 
+       "]"}], "]"}], ",", 
+     RowBox[{
+      RowBox[{"MemberQ", "[", 
+       RowBox[{
+        RowBox[{"#", "\[LeftDoubleBracket]", "2", "\[RightDoubleBracket]"}], 
+        ",", "str"}], "]"}], "&"}]}], "]"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.6428724393820267`*^9, 3.642872514518104*^9}, {
+  3.64287286338131*^9, 3.642872863776352*^9}, {3.642872911207341*^9, 
+  3.6428729164707336`*^9}, {3.735149653652936*^9, 3.7351496834178953`*^9}},
+ CellLabel->"In[4]:=",ExpressionUUID->"6aad7c6e-81b6-4804-8c19-44821519f05b"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"3216ac1e-9a62-4067-b18c-5c6764c75cce"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ StyleBox["First on the Moon ",
+  FontSlant->"Italic"],
+ "(1958)"
+}], "Section",
+ CellChangeTimes->{{3.647361153919208*^9, 3.6473611548467712`*^9}, {
+  3.735148557827367*^9, 
+  3.735148564730575*^9}},ExpressionUUID->"b8c5e398-dcfc-4dfe-baed-\
+1e0acf24880d"],
+
+Cell[TextData[{
+ "For today\[CloseCurlyQuote]s class we will be using the Cold War science \
+fiction novel ",
+ StyleBox["First on the Moon",
+  FontSlant->"Italic"],
+ " by Jeff Sutton (Ace Books, 1958)."
+}], "Text",
+ CellChangeTimes->{{3.684855500905425*^9, 3.68485555257479*^9}, {
+   3.735052163523096*^9, 3.735052185066346*^9}, 3.735148612341202*^9, {
+   3.735148802058786*^9, 
+   3.735148810369611*^9}},ExpressionUUID->"a6c94029-5b91-4813-bc0a-\
+24aa520678b2"],
+
+Cell[TextData[ButtonBox["http://www.gutenberg.org/cache/epub/43235/pg43235.\
+txt",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["http://www.gutenberg.org/cache/epub/43235/pg43235.txt"], None},
+ ButtonNote->"http://www.gutenberg.org/cache/epub/43235/pg43235.txt"]], "Text",\
+
+ CellChangeTimes->{{3.735052201318778*^9, 
+  3.735052206673596*^9}},ExpressionUUID->"137bedd0-0ac6-4515-84f0-\
+0086927b56d5"],
+
+Cell[BoxData[
+ RowBox[{"Import", "[", 
+  "\"\<http://www.gutenberg.org/cache/epub/43235/pg43235.cover.medium.jpg\>\"\
+", "]"}]], "Input",
+ CellChangeTimes->{{3.735052247015346*^9, 3.735052256159666*^9}},
+ CellLabel->"In[5]:=",ExpressionUUID->"dbc01a41-e0b6-45e7-9673-3126445169ee"],
+
+Cell["\<\
+We retrieve the file and trim the Project Gutenberg header and footer.\
+\>", "Text",
+ CellChangeTimes->{{3.7351486636153097`*^9, 
+  3.735148682902132*^9}},ExpressionUUID->"3c5a98c5-6a59-4de5-bd32-\
+80c28ea23723"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"firstOnTheMoonTrimmed", "=", 
+   RowBox[{"StringTake", "[", 
+    RowBox[{
+     RowBox[{"Import", "[", 
+      RowBox[{
+      "\"\<http://www.gutenberg.org/cache/epub/43235/pg43235.txt\>\"", ",", 
+       "\"\<Plaintext\>\""}], "]"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"631", ",", "330959"}], "}"}]}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.735148697189732*^9, 3.735148741556901*^9}},
+ CellLabel->"In[6]:=",ExpressionUUID->"a34acf79-44c5-4f73-938f-6d4676e88c21"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"c8a10cab-4783-4d30-a128-554fc2ebee4b"],
+
+Cell[CellGroupData[{
+
+Cell["Creating and searching text blocks", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.6530374469236813`*^9, 3.653037477001051*^9}, {3.653037650844243*^9, 
+  3.65303765267526*^9}, {3.735148837937353*^9, 3.735148840400526*^9}, {
+  3.735148989420699*^9, 
+  3.735148991986904*^9}},ExpressionUUID->"1a234c92-ed5c-4d7c-9249-\
+5a0419988b34"],
+
+Cell["\<\
+Since we don\[CloseCurlyQuote]t have pagination information for the book, we \
+will use non-overlapping 250-word text blocks as a substitute.\
+\>", "Text",
+ CellChangeTimes->{{3.653037655403122*^9, 3.653037685482169*^9}, {
+  3.735148863104374*^9, 
+  3.735148894182515*^9}},ExpressionUUID->"6ffb5b8b-73f0-43d6-97ef-\
+545d8c9bca81"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"firstOnTheMoon250WordBlocks", "=", 
+   RowBox[{"Partition", "[", 
+    RowBox[{
+     RowBox[{"TextWords", "[", "firstOnTheMoonTrimmed", "]"}], ",", "250", 
+     ",", "250", ",", "1", ",", 
+     RowBox[{"{", "}"}]}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.735148925801948*^9, 3.735148934437084*^9}, {
+  3.7351489992196283`*^9, 3.735149021801969*^9}},
+ CellLabel->"In[7]:=",ExpressionUUID->"4c58c14e-590f-4547-989d-e587779b71f5"],
+
+Cell["Here is the first block", "Text",
+ CellChangeTimes->{{3.735149026225568*^9, 
+  3.735149028713492*^9}},ExpressionUUID->"42a28b17-ac8e-414f-bb5b-\
+03a8f99e233e"],
+
+Cell[BoxData[
+ RowBox[{"firstOnTheMoon250WordBlocks", "\[LeftDoubleBracket]", "1", 
+  "\[RightDoubleBracket]"}]], "Input",
+ CellChangeTimes->{{3.735149032449102*^9, 3.735149037494444*^9}},
+ CellLabel->"In[8]:=",ExpressionUUID->"7c59c3aa-4e71-43c4-89ee-0942402ead55"],
+
+Cell[TextData[{
+ "We can use the ",
+ StyleBox["blockSearch",
+  FontSlant->"Italic"],
+ " function to find all of the pages where a particular term appears. We use ",
+ StyleBox["Alternatives",
+  FontWeight->"Bold"],
+ " to specify more than one search string."
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.653038019119878*^9, 3.6530380281988697`*^9}, {3.653038137339406*^9, 
+  3.6530381942656727`*^9}, {3.735149699770091*^9, 
+  3.73514970041709*^9}},ExpressionUUID->"45a20cc6-d71b-4594-ad40-\
+61c301bc8be2"],
+
+Cell[BoxData[
+ RowBox[{"blockSearch", "[", 
+  RowBox[{"firstOnTheMoon250WordBlocks", ",", 
+   RowBox[{"\"\<saboteur\>\"", "|", "\"\<sabotage\>\""}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.653038049966961*^9, 3.653038120132017*^9}, {
+  3.7351490853364887`*^9, 3.735149107158926*^9}, {3.735149704594005*^9, 
+  3.7351497050969276`*^9}},
+ CellLabel->"In[9]:=",ExpressionUUID->"ece2e38f-0852-4653-8d3b-4005e5773c05"],
+
+Cell[TextData[{
+ "Note that the tabs in the ",
+ StyleBox["TabView",
+  FontWeight->"Bold"],
+ " display show us the block number where a term appears"
+}], "Text",
+ CellChangeTimes->{{3.6530381791539373`*^9, 3.653038203905246*^9}, {
+  3.735149717897332*^9, 
+  3.7351497229922943`*^9}},ExpressionUUID->"0a83ad7c-63cc-42ff-9369-\
+beccbb42e879"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"30d8c02a-99b6-42b5-ba7e-8af134094a05"],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+Review: Representing the distribution of a term with a vector\
+\>", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.653038371205661*^9, 3.653038387275289*^9}, {3.653039630668948*^9, 
+  3.653039632243474*^9}},ExpressionUUID->"6698fc38-39f7-4c82-a692-\
+b723b54ef0e9"],
+
+Cell["\<\
+We have already seen (in slide set 4B) that it is possible to use a vector to \
+represent the distribution of a particular term or n-gram. \
+\>", "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+   3.653038391458981*^9, 3.6530385502302933`*^9}, 3.6530388717885*^9, {
+   3.6531170434365664`*^9, 
+   3.653117050482573*^9}},ExpressionUUID->"38da7297-67e3-4dd6-a05d-\
+064f4f3e68f1"],
+
+Cell[TextData[{
+ "We can use the ",
+ StyleBox["getOccurrences",
+  FontSlant->"Italic"],
+ " function to go through each text block of ",
+ StyleBox["firstOnTheMoon250WordBlocks",
+  FontSlant->"Italic"],
+ " and count the number of times that the term ",
+ StyleBox["saboteur",
+  FontSlant->"Italic"],
+ " appears. (This function is expecting an n-gram for its second argument, so \
+we have to create a 1-gram by putting our search word in curly braces.)"
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+   3.653038391458981*^9, 3.6530385502302933`*^9}, 3.6530388717885*^9, {
+   3.653038916355298*^9, 3.653038917098431*^9}, {3.653038973552659*^9, 
+   3.653038985632442*^9}, {3.735149904570745*^9, 
+   3.735149930936802*^9}},ExpressionUUID->"e065306f-9828-4d81-b624-\
+4f95b38ba941"],
+
+Cell[BoxData[
+ RowBox[{"getOccurrences", "[", 
+  RowBox[{"firstOnTheMoon250WordBlocks", ",", 
+   RowBox[{"{", "\"\<saboteur\>\"", "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6530384733214073`*^9, 3.6530384939678507`*^9}, {
+  3.653038606903007*^9, 3.653038632268463*^9}, {3.65303882583049*^9, 
+  3.653038831309408*^9}, {3.735149838077043*^9, 3.7351498489399157`*^9}},
+ CellLabel->"In[10]:=",ExpressionUUID->"d1248d03-03e3-4fde-bf87-474949473699"],
+
+Cell["\<\
+The result is a long vector, where each element corresponds to the number of \
+times that \[OpenCurlyDoubleQuote]saboteur\[CloseCurlyDoubleQuote] appears in \
+that text block. The search term occurs once in the first text block, but \
+then doesn\[CloseCurlyQuote]t appear again for a while.\
+\>", "Text",
+ CellChangeTimes->{{3.65303900397549*^9, 3.653039045422469*^9}, {
+  3.65303907820508*^9, 3.6530390946447983`*^9}, {3.735149950713008*^9, 
+  3.735149988790764*^9}},ExpressionUUID->"b68c5243-5378-45f8-96ad-\
+6853aed50b88"],
+
+Cell[TextData[{
+ "As we have seen, we can visualize this distribution with ",
+ StyleBox["MatrixPlot",
+  FontWeight->"Bold"],
+ ". It looks as if a saboteur becomes increasingly important towards the end \
+of the story."
+}], "Text",
+ CellChangeTimes->{{3.653039114548053*^9, 3.653039129299653*^9}, {
+  3.653039177210894*^9, 3.653039197305451*^9}, {3.735150004478992*^9, 
+  3.735150031509046*^9}},ExpressionUUID->"8d1a7901-457b-4591-9a85-\
+cebea1a2e784"],
+
+Cell[BoxData[
+ RowBox[{"MatrixPlot", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"getOccurrences", "[", 
+     RowBox[{"firstOnTheMoon250WordBlocks", ",", 
+      RowBox[{"{", "\"\<saboteur\>\"", "}"}]}], "]"}], "}"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Full"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6530391529896917`*^9, 3.6530391683703957`*^9}, {
+  3.73514986697992*^9, 3.7351498720111217`*^9}},
+ CellLabel->"In[11]:=",ExpressionUUID->"2bfc7d05-80bb-4466-811e-846557d65602"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"7400536f-9c1b-4aa1-b2af-6e190b7174ed"],
+
+Cell[CellGroupData[{
+
+Cell["Review: Comparing distributions", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.6530392693928432`*^9, 3.653039272375104*^9}, {3.653039636915319*^9, 
+  3.6530396382832727`*^9}},ExpressionUUID->"b6e2025b-5bd7-4ff3-aedb-\
+a1986f7ddbf1"],
+
+Cell["\<\
+We have also seen that it is possible to compare distributions of terms by \
+visualizing their vectors together\
+\>", "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.653039282736195*^9, 3.653039292182438*^9}, {3.6530393302221603`*^9, 
+  3.653039348612639*^9}},ExpressionUUID->"772e44c7-49bd-4da8-aa60-\
+5c8ccb013ac4"],
+
+Cell[BoxData[
+ RowBox[{"plotCooccurrences", "[", 
+  RowBox[{"firstOnTheMoon250WordBlocks", ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", "\"\<Crag\>\"", "}"}], ",", 
+     RowBox[{"{", "\"\<Prochaska\>\"", "}"}], ",", 
+     RowBox[{"{", "\"\<Nagel\>\"", "}"}], ",", 
+     RowBox[{"{", "\"\<Bandit\>\"", "}"}], ",", 
+     RowBox[{"{", "\"\<Richter\>\"", "}"}]}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.647783921365094*^9, 3.647783988699861*^9}, {
+   3.647784061587838*^9, 3.647784066313754*^9}, {3.64778437087158*^9, 
+   3.6477845007294617`*^9}, {3.647784543409196*^9, 3.64778454555933*^9}, {
+   3.6477846512280493`*^9, 3.647784688290694*^9}, {3.653039374780904*^9, 
+   3.6530394203064537`*^9}, {3.653039450523343*^9, 3.653039461673367*^9}, {
+   3.65303950313595*^9, 3.653039510359825*^9}, 3.6530395521038837`*^9, {
+   3.735150072465365*^9, 3.735150113250209*^9}, {3.735150160490592*^9, 
+   3.7351501949595537`*^9}, {3.735150234224852*^9, 3.735150353873672*^9}, {
+   3.735150433356263*^9, 3.735150468005559*^9}},
+ CellLabel->"In[12]:=",ExpressionUUID->"8ddc1e08-9720-45f8-9f27-4028fdcb93e5"],
+
+Cell[BoxData[
+ RowBox[{"plotCooccurrences", "[", 
+  RowBox[{"firstOnTheMoon250WordBlocks", ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", "\"\<Gordon\>\"", "}"}], ",", 
+     RowBox[{"{", "\"\<Max\>\"", "}"}], ",", 
+     RowBox[{"{", "\"\<Otto\>\"", "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"\"\<Red\>\"", ",", "\"\<Dog\>\""}], "}"}]}], "}"}]}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.647783921365094*^9, 3.647783988699861*^9}, {
+   3.647784061587838*^9, 3.647784066313754*^9}, {3.64778437087158*^9, 
+   3.6477845007294617`*^9}, {3.647784543409196*^9, 3.64778454555933*^9}, {
+   3.6477846512280493`*^9, 3.647784688290694*^9}, {3.653039374780904*^9, 
+   3.6530394203064537`*^9}, {3.653039450523343*^9, 3.653039461673367*^9}, {
+   3.65303950313595*^9, 3.653039510359825*^9}, 3.6530395521038837`*^9, {
+   3.735150072465365*^9, 3.735150113250209*^9}, {3.735150160490592*^9, 
+   3.7351501949595537`*^9}, {3.735150234224852*^9, 3.735150366585218*^9}, {
+   3.735150401849863*^9, 3.735150444998424*^9}, {3.7351504881988487`*^9, 
+   3.735150491932584*^9}},
+ CellLabel->"In[13]:=",ExpressionUUID->"9904a3d0-11c3-4f05-a072-98ffdcdf017d"],
+
+Cell["\<\
+Looking at these charts of named entities from the book, we might conclude \
+that Crag is the protagonist. We can see that Prochaska and Nagel are \
+important through most of the book, Bandit appears a bit later, and Richter \
+at about the half-way point. Gordon and Max are introduced early but \
+otherwise don\[CloseCurlyQuote]t appear until half-way through. Red Dog \
+becomes important in the final third.\
+\>", "Text",
+ CellChangeTimes->{{3.653039701633211*^9, 3.653039774870924*^9}, {
+  3.735150511668611*^9, 
+  3.735150643487212*^9}},ExpressionUUID->"accb9505-c9a1-43c8-88b0-\
+0c0d427c1e5e"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"42989741-b481-4e8d-a7b8-740c6cd86b69"],
+
+Cell[CellGroupData[{
+
+Cell["Cosine distance", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+   3.653039650011655*^9, 3.6530396550587597`*^9}, 
+   3.6856344953617563`*^9},ExpressionUUID->"e9ece4ce-1230-4580-b88e-\
+19093525ea83"],
+
+Cell[TextData[{
+ "There is a mathematical operation called the ",
+ StyleBox["cosine distance",
+  FontSlant->"Italic"],
+ " that tells us how similar or different two vectors are, on a scale of 0 \
+(identical) to 1 (completely different). Used with distribution vectors, this \
+measurement lets us quantify the degree to which two terms co-occur in a text."
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+   3.653039670947852*^9, 3.6530396983694277`*^9}, {3.6530397780228*^9, 
+   3.653039828901287*^9}, {3.653117111856675*^9, 3.653117116672544*^9}, {
+   3.685634445922756*^9, 3.685634451361703*^9}, 
+   3.685634498592008*^9},ExpressionUUID->"d624328a-8886-42d4-9d49-\
+8400990a05fa"],
+
+Cell["These two characters are usually mentioned together", "Text",
+ CellChangeTimes->{{3.6530399120984573`*^9, 3.6530399209542828`*^9}, {
+  3.735150687166836*^9, 3.735150687365424*^9}, {3.7351507434993553`*^9, 
+  3.735150744987322*^9}, {3.735150779578074*^9, 
+  3.735150780058004*^9}},ExpressionUUID->"ce2a98af-429c-4a2c-8eab-\
+8f8b37443242"],
+
+Cell[BoxData[
+ RowBox[{"N", "[", 
+  RowBox[{"CosineDistance", "[", 
+   RowBox[{
+    RowBox[{"getOccurrences", "[", 
+     RowBox[{"firstOnTheMoon250WordBlocks", ",", 
+      RowBox[{"{", "\"\<Crag\>\"", "}"}]}], "]"}], ",", 
+    RowBox[{"getOccurrences", "[", 
+     RowBox[{"firstOnTheMoon250WordBlocks", ",", 
+      RowBox[{"{", "\"\<Prochaska\>\"", "}"}]}], "]"}]}], "]"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.647751745579569*^9, 3.647751800602219*^9}, {
+  3.6477519928601007`*^9, 3.647751993884453*^9}, {3.647788550597053*^9, 
+  3.6477885913952827`*^9}, {3.653039844149591*^9, 3.653039866492193*^9}, {
+  3.7351507014218493`*^9, 3.735150731764122*^9}},
+ CellLabel->"In[14]:=",ExpressionUUID->"3d4fc2a6-2132-42be-bedc-108545636da5"],
+
+Cell["These two are often mentioned together", "Text",
+ CellChangeTimes->{{3.7351507833379*^9, 
+  3.735150798033395*^9}},ExpressionUUID->"6e625bcd-e55b-4136-a8e3-\
+0ca4c65222c3"],
+
+Cell[BoxData[
+ RowBox[{"N", "[", 
+  RowBox[{"CosineDistance", "[", 
+   RowBox[{
+    RowBox[{"getOccurrences", "[", 
+     RowBox[{"firstOnTheMoon250WordBlocks", ",", 
+      RowBox[{"{", "\"\<Prochaska\>\"", "}"}]}], "]"}], ",", 
+    RowBox[{"getOccurrences", "[", 
+     RowBox[{"firstOnTheMoon250WordBlocks", ",", 
+      RowBox[{"{", "\"\<Nagel\>\"", "}"}]}], "]"}]}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.647751745579569*^9, 3.647751800602219*^9}, {
+  3.6477519928601007`*^9, 3.647751993884453*^9}, {3.647788550597053*^9, 
+  3.6477885913952827`*^9}, {3.653039844149591*^9, 3.65303987990775*^9}, {
+  3.735150711325509*^9, 3.735150718455888*^9}, {3.735150758587096*^9, 
+  3.7351507652188807`*^9}},
+ CellLabel->"In[15]:=",ExpressionUUID->"ae2cd917-2ecd-4149-b694-9dc3758c9ed7"],
+
+Cell["These two characters are almost never mentioned together", "Text",
+ CellChangeTimes->{{3.653039923690057*^9, 3.653039932178028*^9}, {
+  3.7351508014652147`*^9, 
+  3.735150830520249*^9}},ExpressionUUID->"e02c0bb5-7e50-4c54-998f-\
+0a7e4efb9420"],
+
+Cell[BoxData[
+ RowBox[{"N", "[", 
+  RowBox[{"CosineDistance", "[", 
+   RowBox[{
+    RowBox[{"getOccurrences", "[", 
+     RowBox[{"firstOnTheMoon250WordBlocks", ",", 
+      RowBox[{"{", "\"\<Max\>\"", "}"}]}], "]"}], ",", 
+    RowBox[{"getOccurrences", "[", 
+     RowBox[{"firstOnTheMoon250WordBlocks", ",", 
+      RowBox[{"{", "\"\<Otto\>\"", "}"}]}], "]"}]}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.647751745579569*^9, 3.647751800602219*^9}, {
+  3.6477519928601007`*^9, 3.647751993884453*^9}, {3.647788550597053*^9, 
+  3.6477885913952827`*^9}, {3.653039844149591*^9, 3.65303987990775*^9}, {
+  3.735150711325509*^9, 3.735150718455888*^9}, {3.735150758587096*^9, 
+  3.7351507652188807`*^9}, {3.735150821058238*^9, 3.735150824208701*^9}},
+ CellLabel->"In[16]:=",ExpressionUUID->"6fc73229-4c88-4f2f-b8f0-c45cf0281d1b"],
+
+Cell["\<\
+We can use cosine distance to measure the co-occurrence of any two terms, not \
+just named entities. Here we observe that braking is usually mentioned in \
+conjunction with rockets.\
+\>", "Text",
+ CellChangeTimes->{{3.653040091964552*^9, 3.65304013088349*^9}, {
+  3.653040461402199*^9, 3.653040464816455*^9}, {3.685634455834072*^9, 
+  3.6856344595693808`*^9}, {3.68563452477573*^9, 3.6856345327665663`*^9}, {
+  3.735150964236107*^9, 
+  3.735150984450659*^9}},ExpressionUUID->"e9d8a89c-ec17-486f-b379-\
+4f26def4e4fb"],
+
+Cell[BoxData[
+ RowBox[{"N", "[", 
+  RowBox[{"CosineDistance", "[", 
+   RowBox[{
+    RowBox[{"getOccurrences", "[", 
+     RowBox[{"firstOnTheMoon250WordBlocks", ",", 
+      RowBox[{"{", "\"\<braking\>\"", "}"}]}], "]"}], ",", 
+    RowBox[{"getOccurrences", "[", 
+     RowBox[{"firstOnTheMoon250WordBlocks", ",", 
+      RowBox[{"{", "\"\<rockets\>\"", "}"}]}], "]"}]}], "]"}], "]"}]], "Input",\
+
+ CellChangeTimes->{{3.647751745579569*^9, 3.647751800602219*^9}, {
+  3.6477519928601007`*^9, 3.647751993884453*^9}, {3.647788550597053*^9, 
+  3.6477885913952827`*^9}, {3.653039844149591*^9, 3.653039866492193*^9}, {
+  3.653039942610527*^9, 3.653039945681656*^9}, {3.653040077246229*^9, 
+  3.653040084037149*^9}, {3.735150931585964*^9, 3.735150947580195*^9}},
+ CellLabel->"In[17]:=",ExpressionUUID->"7096f22e-1698-4a5a-8fb1-2d657116c91e"],
+
+Cell[BoxData[
+ RowBox[{"plotCooccurrences", "[", 
+  RowBox[{"firstOnTheMoon250WordBlocks", ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", "\"\<braking\>\"", "}"}], ",", 
+     RowBox[{"{", "\"\<rockets\>\"", "}"}]}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.65304016361103*^9, 3.6530401713221283`*^9}, {
+  3.735150941552763*^9, 3.735150954723919*^9}},
+ CellLabel->"In[18]:=",ExpressionUUID->"113a17f8-0bcc-431f-92fb-15a79344c7a3"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"88c18020-93cb-4fb7-b2a4-7bf514c3c2c5"],
+
+Cell[CellGroupData[{
+
+Cell["The document vector model", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+   3.653040510016675*^9, 3.653040513070846*^9}, {3.6531186929349537`*^9, 
+   3.653118696742763*^9}, {3.653118930487574*^9, 3.653118931390304*^9}, 
+   3.653119524569868*^9},ExpressionUUID->"022017e2-4adc-4fb9-82f4-\
+1364e41542c3"],
+
+Cell[TextData[{
+ "We can use a ",
+ StyleBox["different",
+  FontSlant->"Italic"],
+ " vector representation to study the similarity or difference of two texts. \
+These texts could be whole documents, pieces of documents like chapters, \
+sections or pages, or even sentences or short passages. Here we will study \
+the similarity of text blocks of ",
+ StyleBox["First on the Moon",
+  FontSlant->"Italic"],
+ " to one another."
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.653040533230139*^9, 3.6530405799441433`*^9}, {3.653117721042348*^9, 
+  3.653117736538056*^9}, {3.735151014547596*^9, 
+  3.735151032153193*^9}},ExpressionUUID->"1ec2fdb3-fc69-4c8b-a15a-\
+cd0c23ed1fba"],
+
+Cell[CellGroupData[{
+
+Cell["Most frequent terms", "Subsection",
+ CellChangeTimes->{{3.653118435336213*^9, 
+  3.65311843830435*^9}},ExpressionUUID->"4047cfbc-d59b-42ab-ac4a-\
+ed305a098123"],
+
+Cell["\<\
+We start with the most frequent words in the book (not including stopwords). \
+Here is every word that appears more than twenty times, sorted in order of \
+descending frequency.\
+\>", "Text",
+ CellChangeTimes->{{3.653117398215509*^9, 3.653117401950087*^9}, {
+  3.6531177084188557`*^9, 3.6531177478575373`*^9}, {3.653118116620571*^9, 
+  3.65311813213148*^9}, {3.6531181732746897`*^9, 3.653118177977845*^9}, {
+  3.6531182633827*^9, 3.6531182673665447`*^9}, {3.685634562607052*^9, 
+  3.6856345655333633`*^9}, {3.735151095599506*^9, 
+  3.735151096358695*^9}},ExpressionUUID->"90c242cf-9b2a-4d6d-a0d4-\
+f880ee78d450"],
+
+Cell[BoxData[
+ RowBox[{"firstOnTheMoonFrequentTerms", "=", 
+  RowBox[{
+   RowBox[{"Select", "[", 
+    RowBox[{
+     RowBox[{"Sort", "[", 
+      RowBox[{
+       RowBox[{"Tally", "[", 
+        RowBox[{"DeleteStopwords", "[", 
+         RowBox[{"Flatten", "[", 
+          RowBox[{"ToLowerCase", "[", 
+           RowBox[{"TextWords", "[", "firstOnTheMoonTrimmed", "]"}], "]"}], 
+          "]"}], "]"}], "]"}], ",", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"#1", "\[LeftDoubleBracket]", "2", "\[RightDoubleBracket]"}],
+          ">", 
+         RowBox[{
+         "#2", "\[LeftDoubleBracket]", "2", "\[RightDoubleBracket]"}]}], 
+        "&"}]}], "]"}], ",", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"#", "\[LeftDoubleBracket]", "2", "\[RightDoubleBracket]"}], 
+       ">", "20"}], "&"}]}], "]"}], "\[LeftDoubleBracket]", 
+   RowBox[{"All", ",", "1"}], "\[RightDoubleBracket]"}]}]], "Input",
+ CellChangeTimes->{{3.65311778682251*^9, 3.653117908123805*^9}, {
+   3.653117944763323*^9, 3.653118041774969*^9}, {3.653118089374113*^9, 
+   3.653118091845159*^9}, 3.6531182499122753`*^9, {3.7351510423768578`*^9, 
+   3.735151100654673*^9}},
+ CellLabel->"In[19]:=",ExpressionUUID->"cbf133ec-ec7a-485d-93ca-dcef7fa1c2d0"],
+
+Cell["There are 224 such words", "Text",
+ CellChangeTimes->{{3.653118225568059*^9, 3.653118256998849*^9}, {
+  3.735151123062285*^9, 
+  3.7351511233575974`*^9}},ExpressionUUID->"cb0a803e-8fc4-47f9-9175-\
+f7fe45d80b6b"],
+
+Cell[BoxData[
+ RowBox[{"Length", "[", "firstOnTheMoonFrequentTerms", "]"}]], "Input",
+ CellChangeTimes->{{3.653118228926928*^9, 3.653118232144656*^9}, {
+  3.735151116221951*^9, 3.7351511182572327`*^9}},
+ CellLabel->"In[20]:=",ExpressionUUID->"7559446b-fd3f-422b-bb01-cfdc73cd721b"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["A vector representation", "Subsection",
+ CellChangeTimes->{{3.653118469902981*^9, 
+  3.653118475086967*^9}},ExpressionUUID->"010ac066-1f20-45c1-b885-\
+af8cfec01d18"],
+
+Cell[TextData[{
+ "Now suppose we use these words, in this order, to specify a vector with 224 \
+elements. Then we can represent any given page in ",
+ StyleBox["First on the Moon",
+  FontSlant->"Italic"],
+ " by putting a one in the column if that word appears on the page, and a \
+zero otherwise. Suppose a page has the words \[OpenCurlyDoubleQuote]Crag\
+\[CloseCurlyDoubleQuote], \[OpenCurlyDoubleQuote]said\[CloseCurlyDoubleQuote] \
+and \[OpenCurlyDoubleQuote]flight\[CloseCurlyDoubleQuote] but no other high \
+frequency terms. Then its document vector representation will look like this"
+}], "Text",
+ CellChangeTimes->{{3.653118204632749*^9, 3.6531182198643293`*^9}, {
+  3.6531182723822412`*^9, 3.653118350283615*^9}, {3.6531195596552477`*^9, 
+  3.653119601789793*^9}, {3.6531199061873198`*^9, 3.6531199567848673`*^9}, {
+  3.735151199795232*^9, 
+  3.735151273792202*^9}},ExpressionUUID->"d3acbe07-6adf-43d9-85ab-\
+e44d78c6a93b"],
+
+Cell[BoxData[GridBox[{
+   {"\"\<crag\>\"", "\"\<prochaska\>\"", "\"\<larkwell\>\"", "\"\<nagel\>\"", 
+    "\"\<said\>\"", "\"\<rocket\>\"", "\"\<...\>\"", "\"\<sun\>\"", 
+    "\"\<human\>\"", "\"\<flight\>\""},
+   {"1", "0", "0", "0", "1", "0", " ", "0", "0", "1"}
+  },
+  GridBoxDividers->{
+   "Columns" -> {{True}}, "ColumnsIndexed" -> {}, "Rows" -> {{True}}, 
+    "RowsIndexed" -> {}}]], "Input",
+ Evaluatable->False,
+ CellChangeTimes->{{3.653119851950844*^9, 3.6531198990429564`*^9}, {
+  3.6531199685043163`*^9, 3.653119991463442*^9}, {3.735151182324828*^9, 
+  3.7351512246822433`*^9}},ExpressionUUID->"1b0d1374-66ff-405d-81b3-\
+37e66b534cf3"],
+
+Cell["All of columns that are not shown will contain zeros.", "Text",
+ CellChangeTimes->{{3.653119996903173*^9, 
+  3.6531200206304693`*^9}},ExpressionUUID->"ee5bd321-bda6-479b-9453-\
+a64bc0b3cf73"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"69c4243f-d7f9-4936-86a3-7dd7589eaf7f"],
+
+Cell[CellGroupData[{
+
+Cell["Example of document vector representation", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+   3.653118702254643*^9, 3.6531187136622972`*^9}, {3.653118935646062*^9, 
+   3.65311893659822*^9}, 
+   3.653120046446948*^9},ExpressionUUID->"a3d4432c-b0d2-4b38-803d-\
+7966b51e486f"],
+
+Cell[TextData[{
+ "Here are the words that appear on the first page of ",
+ StyleBox["First on the Moon",
+  FontSlant->"Italic"],
+ ", in order"
+}], "Text",
+ CellChangeTimes->{{3.653118401233461*^9, 3.65311841143321*^9}, {
+  3.6531187296064367`*^9, 3.653118730605706*^9}, {3.735151304360767*^9, 
+  3.735151306486927*^9}},ExpressionUUID->"98f4786c-3d09-4642-b0cc-\
+eaee6c55c538"],
+
+Cell[BoxData[
+ RowBox[{"firstOnTheMoon250WordBlocks", "\[LeftDoubleBracket]", "1", 
+  "\[RightDoubleBracket]"}]], "Input",
+ CellChangeTimes->{{3.6531183819886837`*^9, 3.653118394131051*^9}, {
+  3.735151311710815*^9, 3.735151314207384*^9}},
+ CellLabel->"In[21]:=",ExpressionUUID->"8f38ff01-2eb0-4b17-b5cc-5ce758b255cd"],
+
+Cell["\<\
+Here is the lowercase bag of words on the first page, stopwords deleted\
+\>", "Text",
+ CellChangeTimes->{{3.653118415776849*^9, 3.653118416473068*^9}, {
+  3.653118501261942*^9, 3.653118528245034*^9}, {3.7351514623861103`*^9, 
+  3.7351514635213346`*^9}},ExpressionUUID->"6d57086e-3c0a-434a-9ff8-\
+c54b8d2ad6f8"],
+
+Cell[BoxData[
+ RowBox[{"Union", "[", 
+  RowBox[{"DeleteStopwords", "[", 
+   RowBox[{"ToLowerCase", "[", 
+    RowBox[{
+    "firstOnTheMoon250WordBlocks", "\[LeftDoubleBracket]", "1", 
+     "\[RightDoubleBracket]"}], "]"}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.6531183819886837`*^9, 3.653118394131051*^9}, {
+   3.653118515422336*^9, 3.653118538676569*^9}, 3.735151327538916*^9, {
+   3.7351514720271482`*^9, 3.735151478321604*^9}},
+ CellLabel->"In[22]:=",ExpressionUUID->"a985d914-0a8a-40f7-b879-aacbae715892"],
+
+Cell["Now we start with a blank vector that has 224 zeros.", "Text",
+ CellChangeTimes->{{3.653120093075614*^9, 3.653120109691217*^9}, {
+  3.73515134640631*^9, 
+  3.735151346789563*^9}},ExpressionUUID->"e8d1ab71-8f9d-46b3-b9ea-\
+852dcfcfb5ac"],
+
+Cell[BoxData[
+ RowBox[{"ConstantArray", "[", 
+  RowBox[{"0", ",", "224"}], "]"}]], "Input",
+ CellChangeTimes->{{3.6531201123959007`*^9, 3.653120120066966*^9}, {
+  3.7351513493733463`*^9, 3.735151349733569*^9}},
+ CellLabel->"In[23]:=",ExpressionUUID->"8f76bea4-6d64-4002-b953-65fbc5c55ee3"],
+
+Cell[TextData[{
+ "Next we look up the ",
+ StyleBox["Position",
+  FontWeight->"Bold"],
+ " of each word in this list in our 224-word vector. The term ",
+ StyleBox["1120",
+  FontSlant->"Italic"],
+ " is not frequent."
+}], "Text",
+ CellChangeTimes->{{3.653118543612351*^9, 3.653118576155233*^9}, {
+  3.653120098595525*^9, 3.653120099531598*^9}, {3.735151373212612*^9, 
+  3.7351514181950903`*^9}},ExpressionUUID->"62c36ae6-9eca-4466-9f31-\
+2d4b1eafd348"],
+
+Cell[BoxData[
+ RowBox[{"Position", "[", 
+  RowBox[{"firstOnTheMoonFrequentTerms", ",", "\"\<1120\>\""}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.6531185785265007`*^9, 3.653118591978794*^9}, {
+  3.7351513863723097`*^9, 3.7351513944838*^9}},
+ CellLabel->"In[24]:=",ExpressionUUID->"b9de7e78-ebcc-4457-b41c-1e53ee013fa1"],
+
+Cell[TextData[{
+ "The first term on this page that appears in our 224-word vector of frequent \
+terms is ",
+ StyleBox["adam",
+  FontSlant->"Italic"],
+ ". Since \[OpenCurlyDoubleQuote]adam\[CloseCurlyDoubleQuote] appears on this \
+page we flip the 76th position of our vector from a zero to a one."
+}], "Text",
+ CellChangeTimes->{{3.735151498216021*^9, 
+  3.7351515872290087`*^9}},ExpressionUUID->"f54a65c4-f2fe-44f7-a7cd-\
+12f5bc863069"],
+
+Cell[BoxData[
+ RowBox[{"Position", "[", 
+  RowBox[{"firstOnTheMoonFrequentTerms", ",", "\"\<adam\>\""}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.6531185785265007`*^9, 3.653118591978794*^9}, {
+  3.7351513863723097`*^9, 3.7351513944838*^9}, {3.735151429323946*^9, 
+  3.735151433322399*^9}, {3.73515148920162*^9, 3.7351514892884417`*^9}},
+ CellLabel->"In[25]:=",ExpressionUUID->"5b029e8a-7442-45a3-951f-7d59c15bbab0"],
+
+Cell[BoxData[
+ RowBox[{"ReplacePart", "[", 
+  RowBox[{
+   RowBox[{"ConstantArray", "[", 
+    RowBox[{"0", ",", "224"}], "]"}], ",", 
+   RowBox[{"76", "\[Rule]", "1"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6531201123959007`*^9, 3.653120120066966*^9}, {
+  3.6531201711539917`*^9, 3.65312019412825*^9}, {3.7351515998931932`*^9, 
+  3.735151606308187*^9}},
+ CellLabel->"In[26]:=",ExpressionUUID->"de7f285f-1f0f-4bda-b4fa-29aa5a4342de"],
+
+Cell[TextData[{
+ "Then we look up the next term from our page. We can disregard any that don\
+\[CloseCurlyQuote]t appear in ",
+ StyleBox["firstOnTheMoonFrequentTerms",
+  FontSlant->"Italic"],
+ ". The next one is ",
+ StyleBox["agent",
+  FontSlant->"Italic"],
+ "."
+}], "Text",
+ CellChangeTimes->{{3.653120200544159*^9, 3.653120230670813*^9}, {
+  3.6531202646453667`*^9, 3.653120276477129*^9}, {3.7351516331079273`*^9, 
+  3.7351516735619097`*^9}},ExpressionUUID->"fb8ad7d0-6979-43dd-ae18-\
+cf8e3d394984"],
+
+Cell[BoxData[
+ RowBox[{"Position", "[", 
+  RowBox[{"firstOnTheMoonFrequentTerms", ",", "\"\<agent\>\""}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.6531185785265007`*^9, 3.653118591978794*^9}, {
+  3.7351513863723097`*^9, 3.7351513944838*^9}, {3.735151429323946*^9, 
+  3.735151433322399*^9}, {3.73515148920162*^9, 3.7351514892884417`*^9}, {
+  3.73515165649184*^9, 3.735151657970512*^9}},
+ CellLabel->"In[27]:=",ExpressionUUID->"3949d43b-43e7-4b75-8c29-5064936d502b"],
+
+Cell["\<\
+Since the word \[OpenCurlyDoubleQuote]agent\[CloseCurlyDoubleQuote] occurs on \
+this page, we flip the 71st position of our vector from a zero to a one.\
+\>", "Text",
+ CellChangeTimes->{{3.653118642168684*^9, 3.653118642504788*^9}, {
+  3.6531202857086687`*^9, 3.653120330515193*^9}, {3.735151693865822*^9, 
+  3.7351516996327744`*^9}},ExpressionUUID->"84b20b81-4fe8-4a03-9c33-\
+20adac18be5c"],
+
+Cell[BoxData[
+ RowBox[{"ReplacePart", "[", 
+  RowBox[{
+   RowBox[{"ReplacePart", "[", 
+    RowBox[{
+     RowBox[{"ConstantArray", "[", 
+      RowBox[{"0", ",", "224"}], "]"}], ",", 
+     RowBox[{"76", "\[Rule]", "1"}]}], "]"}], ",", 
+   RowBox[{"71", "\[Rule]", "1"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6531201123959007`*^9, 3.653120120066966*^9}, {
+  3.6531201711539917`*^9, 3.65312019412825*^9}, {3.6531203405315657`*^9, 
+  3.653120347754695*^9}, {3.735151712937257*^9, 3.735151728703925*^9}},
+ CellLabel->"In[28]:=",ExpressionUUID->"10cb5e48-de65-4f75-9e94-dfac20539670"],
+
+Cell["And so on.", "Text",
+ CellChangeTimes->{{3.65311867139161*^9, 3.653118679807527*^9}, {
+   3.653118744701008*^9, 3.653118752204968*^9}, 
+   3.653120083915945*^9},ExpressionUUID->"8567a35f-0adf-46f0-8120-\
+2e4222f85de9"],
+
+Cell["\<\
+This would obviously be pretty tedious, time consuming and error-prone to try \
+to do by hand!\
+\>", "Text",
+ CellChangeTimes->{{3.653120395105245*^9, 3.6531204130007563`*^9}, {
+  3.735151751190852*^9, 
+  3.735151753038912*^9}},ExpressionUUID->"d0b6ceca-c24a-45f9-8147-\
+f45ac2897fbc"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"86c77fc3-eb29-4b2a-811b-b541c3df7f54"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "The ",
+ StyleBox["getFreqVector",
+  FontSlant->"Italic"],
+ " command"
+}], "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.653118818306333*^9, 
+  3.65311882338625*^9}},ExpressionUUID->"07ed5512-26f7-4304-9101-\
+9ee16b7291da"],
+
+Cell["\<\
+Here is a function to automate the process that we just did by hand...\
+\>", "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.6531205649554977`*^9, 3.653120576114183*^9}, {3.6856346634905453`*^9, 
+  3.685634672353518*^9}},ExpressionUUID->"11588e03-294e-43a0-a27f-\
+5b4f85043fb2"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"getFreqVector", "[", 
+   RowBox[{"wordlist_", ",", "freq_"}], "]"}], ":=", "\[IndentingNewLine]", 
+  RowBox[{"(*", " ", 
+   RowBox[{"Version", " ", "20180512"}], " ", "*)"}], "\[IndentingNewLine]", 
+  RowBox[{"ReplacePart", "[", 
+   RowBox[{
+    RowBox[{"ConstantArray", "[", 
+     RowBox[{"0", ",", 
+      RowBox[{"{", 
+       RowBox[{"Length", "[", "freq", "]"}], "}"}]}], "]"}], ",", 
+    RowBox[{"Map", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"First", "@", 
+          RowBox[{"First", "@", 
+           RowBox[{"Position", "[", 
+            RowBox[{"freq", ",", "#"}], "]"}]}]}], "\[Rule]", "1"}], ")"}], 
+       "&"}], ",", 
+      RowBox[{"Intersection", "[", 
+       RowBox[{
+        RowBox[{"DeleteStopwords", "@", 
+         RowBox[{"ToLowerCase", "@", "wordlist"}]}], ",", "freq"}], "]"}]}], 
+     "]"}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.6428683304516993`*^9, 3.6428683526866817`*^9}, 
+   3.64286838924129*^9, {3.7351520103272133`*^9, 3.735152063940145*^9}},
+ CellLabel->"In[29]:=",ExpressionUUID->"5a91cf41-f151-4ee4-b807-523528d9beff"],
+
+Cell[TextData[{
+ "It allows us to generate a document vector representation, given a page and \
+a list of frequent terms. Here is the vector for the first page of ",
+ StyleBox["First on the Moon",
+  FontSlant->"Italic"],
+ " (the one we were computing by hand in the previous slide)."
+}], "Text",
+ CellChangeTimes->{{3.65312058148987*^9, 3.6531206417199097`*^9}, {
+  3.7351517804229107`*^9, 
+  3.735151786749654*^9}},ExpressionUUID->"df3dbba5-bfbd-4ccf-8840-\
+2c1cb5fa3f00"],
+
+Cell[BoxData[
+ RowBox[{"firstOnTheMoon250WordBlocks", "\[LeftDoubleBracket]", "1", 
+  "\[RightDoubleBracket]"}]], "Input",
+ CellChangeTimes->{{3.653120717493121*^9, 3.6531207273408737`*^9}, {
+  3.735151792221416*^9, 3.735151797466772*^9}},
+ CellLabel->"In[30]:=",ExpressionUUID->"de5e2380-b90b-486c-8cde-129ca05fb0ae"],
+
+Cell[BoxData[
+ RowBox[{"getFreqVector", "[", 
+  RowBox[{
+   RowBox[{
+   "firstOnTheMoon250WordBlocks", "\[LeftDoubleBracket]", "1", 
+    "\[RightDoubleBracket]"}], ",", "firstOnTheMoonFrequentTerms"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.6531204318824463`*^9, 3.653120468135075*^9}, {
+  3.653120519773683*^9, 3.653120546851612*^9}, {3.735151842464219*^9, 
+  3.73515190981735*^9}, {3.735152082309484*^9, 3.7351520854029503`*^9}},
+ CellLabel->"In[31]:=",ExpressionUUID->"024a33e0-6b32-4466-82a5-e8edab835ae3"],
+
+Cell["Here is the second text block of the book", "Text",
+ CellChangeTimes->{{3.653120676279017*^9, 3.653120681590433*^9}, {
+  3.7351521139074907`*^9, 
+  3.735152115713749*^9}},ExpressionUUID->"1a8d4913-2d2a-4bab-925b-\
+c702607b9fed"],
+
+Cell[BoxData[
+ RowBox[{"firstOnTheMoon250WordBlocks", "\[LeftDoubleBracket]", "2", 
+  "\[RightDoubleBracket]"}]], "Input",
+ CellChangeTimes->{
+  3.6531206891188297`*^9, {3.735152122038145*^9, 3.735152124850237*^9}},
+ CellLabel->"In[32]:=",ExpressionUUID->"a9a1812b-e38e-412a-b40b-ebd6b4154598"],
+
+Cell["And here is the vector for the second text block", "Text",
+ CellChangeTimes->{{3.653120693773704*^9, 3.653120699181716*^9}, {
+  3.735152127417108*^9, 
+  3.735152142049665*^9}},ExpressionUUID->"312d902d-e22c-48d1-8c0c-\
+6395f1792ad5"],
+
+Cell[BoxData[
+ RowBox[{"getFreqVector", "[", 
+  RowBox[{
+   RowBox[{
+   "firstOnTheMoon250WordBlocks", "\[LeftDoubleBracket]", "2", 
+    "\[RightDoubleBracket]"}], ",", "firstOnTheMoonFrequentTerms"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.6531204318824463`*^9, 3.653120468135075*^9}, {
+   3.653120519773683*^9, 3.653120546851612*^9}, {3.735151842464219*^9, 
+   3.73515190981735*^9}, {3.735152082309484*^9, 3.7351520854029503`*^9}, 
+   3.7351521443852043`*^9},
+ CellLabel->"In[33]:=",ExpressionUUID->"98a72706-9be9-4bff-9491-dcd5dddc437c"],
+
+Cell["\<\
+We can compare the two vectors by eye, and see that they overlap in some \
+places but not in others.\
+\>", "Text",
+ CellChangeTimes->{{3.653120753996232*^9, 3.65312076855519*^9}, {
+  3.653120799706731*^9, 3.653120833736816*^9}, {3.73515219093579*^9, 
+  3.735152201334675*^9}},ExpressionUUID->"e37af446-9a1f-4aaf-b5f1-\
+5bd0ed2687ac"],
+
+Cell[BoxData[
+ RowBox[{"ArrayPlot", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"getFreqVector", "[", 
+      RowBox[{
+       RowBox[{
+       "firstOnTheMoon250WordBlocks", "\[LeftDoubleBracket]", "1", 
+        "\[RightDoubleBracket]"}], ",", "firstOnTheMoonFrequentTerms"}], 
+      "]"}], ",", 
+     RowBox[{"getFreqVector", "[", 
+      RowBox[{
+       RowBox[{
+       "firstOnTheMoon250WordBlocks", "\[LeftDoubleBracket]", "2", 
+        "\[RightDoubleBracket]"}], ",", "firstOnTheMoonFrequentTerms"}], 
+      "]"}]}], "}"}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Full"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.65312084368944*^9, 3.65312088509512*^9}, {
+  3.735152171452642*^9, 3.735152179379457*^9}},
+ CellLabel->"In[34]:=",ExpressionUUID->"80187cc6-db37-44bc-ae10-48b4344f7045"],
+
+Cell["But, of course, we don't need to compare them by eye!", "Text",
+ CellChangeTimes->{{3.653120753996232*^9, 3.65312076855519*^9}, {
+  3.653120799706731*^9, 3.65312082169007*^9}, {3.6531209017109737`*^9, 
+  3.653120904702016*^9}, {3.735152210806292*^9, 
+  3.73515221134234*^9}},ExpressionUUID->"7bf6e3d3-c163-4765-9176-\
+a1dd5514a995"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"52720a60-9cc5-47b3-a3ad-446f642be289"],
+
+Cell[CellGroupData[{
+
+Cell["The vector product", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.653120991380327*^9, 
+  3.653121000858708*^9}},ExpressionUUID->"fd35308a-a1d2-41a1-aa28-\
+f80f2b87fdb7"],
+
+Cell[TextData[{
+ "To determine how similar or different two vectors are, we can use a \
+mathematical operation called the ",
+ StyleBox["vector product",
+  FontSlant->"Italic"],
+ ". In ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " you use the Dot command to multiply two vectors."
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.6531213332399473`*^9, 
+  3.653121391260528*^9}},ExpressionUUID->"cceca486-2f4b-4b7d-8373-\
+bd277f9a2cd3"],
+
+Cell[BoxData[
+ RowBox[{"Dot", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"0", ",", "0"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0", ",", "1"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.649250347005537*^9, 3.649250364294126*^9}},
+ CellLabel->"In[35]:=",ExpressionUUID->"a74f2e75-7b9c-4f42-9532-7c064468950a"],
+
+Cell["This can also be written as", "Text",
+ CellChangeTimes->{{3.6492503698779163`*^9, 
+  3.6492503735818663`*^9}},ExpressionUUID->"2fafe22a-5a4a-408d-81d2-\
+ec8493645bea"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"{", 
+   RowBox[{"0", ",", "1"}], "}"}], ".", 
+  RowBox[{"{", 
+   RowBox[{"0", ",", "0"}], "}"}]}]], "Input",
+ CellChangeTimes->{{3.649250376749682*^9, 3.6492503818294973`*^9}},
+ CellLabel->"In[36]:=",ExpressionUUID->"791e1726-99d6-4336-b90a-810a6b8a1ecb"],
+
+Cell[TextData[{
+ "Given two vectors ",
+ StyleBox["{a,b,c}",
+  FontSlant->"Italic"],
+ " and ",
+ StyleBox["{d,e,f}",
+  FontSlant->"Italic"],
+ " the vector product is defined as"
+}], "Text",
+ CellChangeTimes->{{3.64925046050762*^9, 
+  3.6492504889858713`*^9}},ExpressionUUID->"3f6c550e-4ac8-4f68-b9cf-\
+1bea99f429fb"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"{", 
+   RowBox[{"a", ",", "b", ",", "c"}], "}"}], ".", 
+  RowBox[{"{", 
+   RowBox[{"d", ",", "e", ",", "f"}], "}"}]}]], "Input",
+ CellChangeTimes->{{3.649250499598311*^9, 3.6492505061132917`*^9}},
+ CellLabel->"In[37]:=",ExpressionUUID->"78fa026f-fa52-4da6-b2dc-5529e88ed950"],
+
+Cell[TextData[{
+ "Note that if either ",
+ StyleBox["a",
+  FontSlant->"Italic"],
+ " or ",
+ StyleBox["d",
+  FontSlant->"Italic"],
+ " is 0, then their product ",
+ StyleBox["ad",
+  FontSlant->"Italic"],
+ " will also be zero. If both are 1, then their product will be 1."
+}], "Text",
+ CellChangeTimes->{{3.649250510931354*^9, 
+  3.649250552968552*^9}},ExpressionUUID->"08fed0c3-fa83-48ea-911f-\
+8c2a4d594e0d"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"{", 
+   RowBox[{"0", ",", "b", ",", "c"}], "}"}], ".", 
+  RowBox[{"{", 
+   RowBox[{"0", ",", "e", ",", "f"}], "}"}]}]], "Input",
+ CellChangeTimes->{{3.6492505559488287`*^9, 3.649250565383315*^9}},
+ CellLabel->"In[38]:=",ExpressionUUID->"a0f5401b-65fe-4e3c-aaea-b7851fbcd54d"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"{", 
+   RowBox[{"0", ",", "b", ",", "c"}], "}"}], ".", 
+  RowBox[{"{", 
+   RowBox[{"1", ",", "e", ",", "f"}], "}"}]}]], "Input",
+ CellChangeTimes->{{3.6492505559488287`*^9, 3.649250575391829*^9}},
+ CellLabel->"In[39]:=",ExpressionUUID->"0c47f92b-598c-4332-9364-e1a632148e6c"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"{", 
+   RowBox[{"1", ",", "b", ",", "c"}], "}"}], ".", 
+  RowBox[{"{", 
+   RowBox[{"1", ",", "e", ",", "f"}], "}"}]}]], "Input",
+ CellChangeTimes->{{3.6492505559488287`*^9, 3.649250584311475*^9}},
+ CellLabel->"In[40]:=",ExpressionUUID->"82c15300-6b01-4a78-9a3d-25e47d6c7358"],
+
+Cell[TextData[{
+ "The same logic goes for ",
+ StyleBox["b",
+  FontSlant->"Italic"],
+ " and ",
+ StyleBox["e",
+  FontSlant->"Italic"],
+ ", and for ",
+ StyleBox["c",
+  FontSlant->"Italic"],
+ " and ",
+ StyleBox["f",
+  FontSlant->"Italic"],
+ ". So for each column where both vectors have a 1, one will be added to the \
+vector product. Study the following examples."
+}], "Text",
+ CellChangeTimes->{{3.6492505887504396`*^9, 
+  3.649250699626656*^9}},ExpressionUUID->"5b3e5c56-4adf-46a4-b27d-\
+2ae09a8681b5"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"{", 
+   RowBox[{"0", ",", "0", ",", "0"}], "}"}], ".", 
+  RowBox[{"{", 
+   RowBox[{"0", ",", "1", ",", "1"}], "}"}]}]], "Input",
+ CellChangeTimes->{{3.649250720480953*^9, 3.64925073005752*^9}},
+ CellLabel->"In[41]:=",ExpressionUUID->"1bc375d0-e082-44fb-8e20-e71f7755f1ee"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"{", 
+   RowBox[{"1", ",", "0", ",", "0"}], "}"}], ".", 
+  RowBox[{"{", 
+   RowBox[{"0", ",", "1", ",", "1"}], "}"}]}]], "Input",
+ CellChangeTimes->{{3.6492507333362637`*^9, 3.649250744177055*^9}},
+ CellLabel->"In[42]:=",ExpressionUUID->"afa2b244-8522-4d64-ae25-f6b2a26dba32"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"{", 
+   RowBox[{"1", ",", "0", ",", "0"}], "}"}], ".", 
+  RowBox[{"{", 
+   RowBox[{"1", ",", "1", ",", "1"}], "}"}]}]], "Input",
+ CellChangeTimes->{{3.6492507463449507`*^9, 3.64925075298473*^9}},
+ CellLabel->"In[43]:=",ExpressionUUID->"3318557d-a8c7-4f3c-ba17-df298e8cb693"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"{", 
+   RowBox[{"1", ",", "1", ",", "0"}], "}"}], ".", 
+  RowBox[{"{", 
+   RowBox[{"1", ",", "1", ",", "1"}], "}"}]}]], "Input",
+ CellChangeTimes->{{3.6492507463449507`*^9, 3.649250762657255*^9}},
+ CellLabel->"In[44]:=",ExpressionUUID->"4ac6fe9f-6c37-4a23-b9af-0cdec7871ce4"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"{", 
+   RowBox[{"1", ",", "1", ",", "1"}], "}"}], ".", 
+  RowBox[{"{", 
+   RowBox[{"1", ",", "1", ",", "1"}], "}"}]}]], "Input",
+ CellChangeTimes->{{3.6492507463449507`*^9, 3.64925076934509*^9}},
+ CellLabel->"In[45]:=",ExpressionUUID->"5d5709d7-7c09-4958-b130-22d9af2622e8"],
+
+Cell[TextData[{
+ "To test how many of the most frequent words two pages have in common, we \
+simply multiply their vectors. The first two pages of ",
+ StyleBox["First on the Moon",
+  FontSlant->"Italic"],
+ " have nine high frequency words in common."
+}], "Text",
+ CellChangeTimes->{{3.653121449706821*^9, 3.6531215292795553`*^9}, {
+  3.7351523158508987`*^9, 
+  3.735152334465908*^9}},ExpressionUUID->"364f1de6-7931-4d7c-ae0b-\
+5f977b5c0650"],
+
+Cell[BoxData[
+ RowBox[{"Dot", "[", 
+  RowBox[{
+   RowBox[{"getFreqVector", "[", 
+    RowBox[{
+     RowBox[{
+     "firstOnTheMoon250WordBlocks", "\[LeftDoubleBracket]", "1", 
+      "\[RightDoubleBracket]"}], ",", "firstOnTheMoonFrequentTerms"}], "]"}], 
+   ",", 
+   RowBox[{"getFreqVector", "[", 
+    RowBox[{
+     RowBox[{
+     "firstOnTheMoon250WordBlocks", "\[LeftDoubleBracket]", "2", 
+      "\[RightDoubleBracket]"}], ",", "firstOnTheMoonFrequentTerms"}], 
+    "]"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.653121473021697*^9, 3.653121494352689*^9}, {
+  3.735152244745983*^9, 3.735152251677699*^9}},
+ CellLabel->"In[46]:=",ExpressionUUID->"48259d43-ff7f-454d-8854-8d95ad05f23a"],
+
+Cell[TextData[{
+ "We can use the ",
+ StyleBox["Intersection",
+  FontWeight->"Bold"],
+ " command to find the words the two text blocks have in common"
+}], "Text",
+ CellChangeTimes->{{3.7351523398016863`*^9, 3.735152344937372*^9}, {
+  3.7351524309824743`*^9, 
+  3.735152457381628*^9}},ExpressionUUID->"1c018a60-a3cb-4c7a-9886-\
+15caa4e723d5"],
+
+Cell[BoxData[
+ RowBox[{"Intersection", "[", 
+  RowBox[{
+   RowBox[{"ToLowerCase", "[", 
+    RowBox[{
+    "firstOnTheMoon250WordBlocks", "\[LeftDoubleBracket]", "1", 
+     "\[RightDoubleBracket]"}], "]"}], ",", 
+   RowBox[{"ToLowerCase", "[", 
+    RowBox[{
+    "firstOnTheMoon250WordBlocks", "\[LeftDoubleBracket]", "2", 
+     "\[RightDoubleBracket]"}], "]"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.735152353458893*^9, 3.735152445949976*^9}},
+ CellLabel->"In[47]:=",ExpressionUUID->"79543d2a-6ccb-4200-9800-324f6ddecc61"],
+
+Cell[TextData[{
+ "And we use ",
+ StyleBox["Intersection",
+  FontWeight->"Bold"],
+ " again to find out which of those terms are in our list of frequent terms. \
+These are the nine high frequency words the two pages have in common."
+}], "Text",
+ CellChangeTimes->{{3.735152471140944*^9, 3.7351524988681917`*^9}, {
+  3.735152535506692*^9, 
+  3.735152546490344*^9}},ExpressionUUID->"b7d15b40-9ac8-422b-aa68-\
+6a37a6fb2e47"],
+
+Cell[BoxData[
+ RowBox[{"Intersection", "[", 
+  RowBox[{"firstOnTheMoonFrequentTerms", ",", 
+   RowBox[{"Intersection", "[", 
+    RowBox[{
+     RowBox[{"ToLowerCase", "[", 
+      RowBox[{
+      "firstOnTheMoon250WordBlocks", "\[LeftDoubleBracket]", "1", 
+       "\[RightDoubleBracket]"}], "]"}], ",", 
+     RowBox[{"ToLowerCase", "[", 
+      RowBox[{
+      "firstOnTheMoon250WordBlocks", "\[LeftDoubleBracket]", "2", 
+       "\[RightDoubleBracket]"}], "]"}]}], "]"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.735152521228074*^9, 3.735152531482957*^9}},
+ CellLabel->"In[48]:=",ExpressionUUID->"c98cda40-e030-4764-830f-7a2a769f9ef6"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"e901b7d2-bfed-47b4-a64b-35e6832d9597"],
+
+Cell[CellGroupData[{
+
+Cell["Show me more like this", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+   3.653120935174762*^9, 3.653120942092812*^9}, 
+   3.653121549784102*^9},ExpressionUUID->"81ae860f-3d36-4b9f-aefa-\
+054099a67fb6"],
+
+Cell["\<\
+Once we have computed the vector representation for each page (or some other \
+smaller or larger unit) we can compare that vector with others to accomplish \
+a variety of goals. We can find other pages that are similar to one we are \
+interested in, for example.\
+\>", "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.6531215839012423`*^9, 
+  3.653121638691572*^9}},ExpressionUUID->"7e56ab38-add9-4cfc-a3b3-\
+f583a213df3c"],
+
+Cell["We start by computing the vector for each text block", "Text",
+ CellChangeTimes->{{3.653121644875062*^9, 3.653121667946623*^9}, {
+  3.7352295443892717`*^9, 
+  3.735229547193178*^9}},ExpressionUUID->"d2469275-c305-4a2c-a94a-\
+aa47a62e0483"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"firstOnTheMoonFrequencyVectors", "=", 
+   RowBox[{"Map", "[", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"getFreqVector", "[", 
+       RowBox[{"#", ",", "firstOnTheMoonFrequentTerms"}], "]"}], "&"}], ",", 
+     "firstOnTheMoon250WordBlocks"}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.653121676100469*^9, 3.653121716857603*^9}, {
+  3.735229558217716*^9, 3.735229579010503*^9}},
+ CellLabel->"In[49]:=",ExpressionUUID->"f8c011b2-1c2e-46e2-bb8f-ac94697ebd56"],
+
+Cell[BoxData[
+ RowBox[{"Length", "[", "firstOnTheMoon250WordBlocks", "]"}]], "Input",
+ CellChangeTimes->{{3.735229600482945*^9, 3.7352296070958357`*^9}},
+ CellLabel->"In[50]:=",ExpressionUUID->"7bb80f79-353f-4e5e-9fbf-d8298dff9b1f"],
+
+Cell[BoxData[
+ RowBox[{"Length", "[", "firstOnTheMoonFrequencyVectors", "]"}]], "Input",
+ CellChangeTimes->{{3.7352296097866507`*^9, 3.735229615655519*^9}},
+ CellLabel->"In[51]:=",ExpressionUUID->"7610a54b-54ea-434e-b73e-bb7cc4d749ab"],
+
+Cell["\<\
+This is a list of vectors. We can look up the vector for the first text block \
+like this\
+\>", "Text",
+ CellChangeTimes->{{3.6531217230481663`*^9, 3.653121755775231*^9}, {
+  3.735229591200345*^9, 
+  3.735229595063415*^9}},ExpressionUUID->"0958a42f-dc45-420d-a8a9-\
+22f8d2ad64c6"],
+
+Cell[BoxData[
+ RowBox[{"firstOnTheMoonFrequencyVectors", "\[LeftDoubleBracket]", "1", 
+  "\[RightDoubleBracket]"}]], "Input",
+ CellChangeTimes->{{3.653121757626326*^9, 3.653121761351142*^9}, {
+  3.735229623983152*^9, 3.735229628579211*^9}},
+ CellLabel->"In[52]:=",ExpressionUUID->"e478edd1-952a-4c5e-8a14-f018cdd50317"],
+
+Cell["\<\
+Now suppose, for whatever reason, we find this text block to be interesting\
+\>", "Text",
+ CellChangeTimes->{{3.653121773118327*^9, 3.6531218152690773`*^9}, {
+  3.735229812991438*^9, 
+  3.735229814639065*^9}},ExpressionUUID->"2ad19282-afb4-45c2-9cff-\
+d41a73aedff3"],
+
+Cell[BoxData[
+ RowBox[{"firstOnTheMoon250WordBlocks", "\[LeftDoubleBracket]", "190", 
+  "\[RightDoubleBracket]"}]], "Input",
+ CellChangeTimes->{{3.653121817093936*^9, 3.653121848171897*^9}, {
+  3.735229679925071*^9, 3.735229686926259*^9}, {3.735229724044886*^9, 
+  3.735229749953745*^9}},
+ CellLabel->"In[56]:=",ExpressionUUID->"a4590778-5b08-4aa7-aee7-11f5f614aa00"],
+
+Cell["\<\
+The vector product gives us a way of measuring how similar this text block is \
+to another text block. We see, for example that the text block we are \
+interested in has seven frequent terms in common with the first text block \
+and seven with the second text block.\
+\>", "Text",
+ CellChangeTimes->{{3.642873402779702*^9, 3.642873491584244*^9}, {
+  3.642873589692871*^9, 3.642873590732637*^9}, {3.642943782483891*^9, 
+  3.642943807537332*^9}, {3.653121946496168*^9, 3.653121955191967*^9}, {
+  3.73522981905536*^9, 3.735229831902767*^9}, {3.7352298731653643`*^9, 
+  3.735229909131845*^9}},ExpressionUUID->"339fc119-09c9-4ea4-9926-\
+16b64a979922"],
+
+Cell[BoxData[
+ RowBox[{"Dot", "[", 
+  RowBox[{
+   RowBox[{
+   "firstOnTheMoonFrequencyVectors", "\[LeftDoubleBracket]", "190", 
+    "\[RightDoubleBracket]"}], ",", 
+   RowBox[{
+   "firstOnTheMoonFrequencyVectors", "\[LeftDoubleBracket]", "1", 
+    "\[RightDoubleBracket]"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6531219010530367`*^9, 3.6531219360965776`*^9}, {
+  3.735229840838562*^9, 3.735229862942417*^9}},
+ CellLabel->"In[57]:=",ExpressionUUID->"6de0d5b7-0eb3-4dd2-be1a-2c941f14f821"],
+
+Cell[BoxData[
+ RowBox[{"Dot", "[", 
+  RowBox[{
+   RowBox[{
+   "firstOnTheMoonFrequencyVectors", "\[LeftDoubleBracket]", "190", 
+    "\[RightDoubleBracket]"}], ",", 
+   RowBox[{
+   "firstOnTheMoonFrequencyVectors", "\[LeftDoubleBracket]", "2", 
+    "\[RightDoubleBracket]"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6531219010530367`*^9, 3.653121940016368*^9}, {
+  3.735229856418302*^9, 3.7352298648854847`*^9}},
+ CellLabel->"In[58]:=",ExpressionUUID->"f754f4f5-d25d-4224-a719-1c7c7c7ba892"],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["findSimilarBlocks",
+  FontSlant->"Italic"],
+ " function allows us to search for text blocks that do share frequent terms \
+with one we are interested in."
+}], "Text",
+ CellChangeTimes->{{3.6531219938870287`*^9, 3.653122025357456*^9}, {
+  3.6531222366302223`*^9, 3.653122237093721*^9}, {3.735229915875643*^9, 
+  3.735229921867388*^9}, {3.735231135911405*^9, 
+  3.7352311365424833`*^9}},ExpressionUUID->"51a3d2fe-db27-486c-88e3-\
+fc5326f1a3d4"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"findSimilarBlocks", "[", 
+   RowBox[{"freqvs_", ",", " ", "blk_", ",", "n_"}], "]"}], ":=", 
+  "\[IndentingNewLine]", 
+  RowBox[{"(*", " ", 
+   RowBox[{"Version", " ", "20180513"}], " ", "*)"}], "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"Rest", "[", 
+    RowBox[{"MaximalBy", "[", 
+     RowBox[{
+      RowBox[{"Thread", "[", 
+       RowBox[{"Rule", "[", 
+        RowBox[{
+         RowBox[{"Range", "[", 
+          RowBox[{"Length", "[", "freqvs", "]"}], "]"}], ",", " ", "freqvs"}],
+         "]"}], "]"}], ",", 
+      RowBox[{
+       RowBox[{
+        RowBox[{
+        "freqvs", "\[LeftDoubleBracket]", "blk", "\[RightDoubleBracket]"}], 
+        ".", 
+        RowBox[{"#", "\[LeftDoubleBracket]", "2", "\[RightDoubleBracket]"}]}],
+        "&"}], ",", 
+      RowBox[{"n", "+", "1"}]}], "]"}], "]"}], "\[LeftDoubleBracket]", 
+   RowBox[{"All", ",", "1"}], "\[RightDoubleBracket]"}]}]], "Input",
+ CellChangeTimes->{{3.642944520681155*^9, 3.6429445969894753`*^9}, {
+  3.64294477655131*^9, 3.64294477689508*^9}, {3.735231140440127*^9, 
+  3.735231152614818*^9}, {3.73523156653623*^9, 
+  3.735231570567698*^9}},ExpressionUUID->"1952e687-0fb5-43ff-9070-\
+fa6f3477e1cd"],
+
+Cell[TextData[{
+ "Here are the two text blocks in ",
+ StyleBox["First on the Moon",
+  FontSlant->"Italic"],
+ " that are most similar to the one we chose, and their dot products"
+}], "Text",
+ CellChangeTimes->{{3.653122049708276*^9, 3.653122088755157*^9}, {
+  3.653122194839158*^9, 3.6531221953433027`*^9}, {3.735229932771888*^9, 
+  3.7352299394666348`*^9}, {3.735230097372932*^9, 
+  3.735230104228718*^9}},ExpressionUUID->"55d2cd53-4e10-4ac2-889c-\
+76695ca9ebba"],
+
+Cell[BoxData[
+ RowBox[{"findSimilarBlocks", "[", 
+  RowBox[{"firstOnTheMoonFrequencyVectors", ",", "190", ",", "2"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.653122028775564*^9, 3.653122045028812*^9}, 
+   3.653122198431374*^9, {3.735229944130658*^9, 3.735229953418243*^9}, {
+   3.735231160479434*^9, 3.735231161141704*^9}},
+ CellLabel->"In[70]:=",ExpressionUUID->"882e109f-ec90-45fd-a66a-aedf2edaefad"],
+
+Cell[BoxData[
+ RowBox[{"Dot", "[", 
+  RowBox[{
+   RowBox[{
+   "firstOnTheMoonFrequencyVectors", "\[LeftDoubleBracket]", "190", 
+    "\[RightDoubleBracket]"}], ",", 
+   RowBox[{
+   "firstOnTheMoonFrequencyVectors", "\[LeftDoubleBracket]", "42", 
+    "\[RightDoubleBracket]"}]}], "]"}]], "Input",
+ CellChangeTimes->{3.735230112964397*^9},
+ CellLabel->"In[64]:=",ExpressionUUID->"0e00f86d-fc0a-4209-afae-113cae4e7131"],
+
+Cell[BoxData[
+ RowBox[{"Dot", "[", 
+  RowBox[{
+   RowBox[{
+   "firstOnTheMoonFrequencyVectors", "\[LeftDoubleBracket]", "190", 
+    "\[RightDoubleBracket]"}], ",", 
+   RowBox[{
+   "firstOnTheMoonFrequencyVectors", "\[LeftDoubleBracket]", "198", 
+    "\[RightDoubleBracket]"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.7352301198529377`*^9, 3.735230120332041*^9}},
+ CellLabel->"In[65]:=",ExpressionUUID->"08f7f866-8e6d-42ca-b45b-2b74b2218b86"],
+
+Cell["\<\
+On this page Gotch is calling with information about a warhead, too.\
+\>", "Text",
+ CellChangeTimes->{{3.653122095492758*^9, 3.6531221020106287`*^9}, {
+  3.653122144361849*^9, 3.653122148656917*^9}, {3.7352300024410686`*^9, 
+  3.735230003194263*^9}, {3.735230035935129*^9, 
+  3.735230043750828*^9}},ExpressionUUID->"d11356fd-8ed4-46bb-a158-\
+5a081bde3f6b"],
+
+Cell[BoxData[
+ RowBox[{"firstOnTheMoon250WordBlocks", "\[LeftDoubleBracket]", "42", 
+  "\[RightDoubleBracket]"}]], "Input",
+ CellChangeTimes->{{3.653122060352723*^9, 3.653122072851797*^9}, {
+  3.7352299647181187`*^9, 3.73522999188072*^9}},
+ CellLabel->"In[62]:=",ExpressionUUID->"ab0250fc-e846-4411-b562-98738eff3217"],
+
+Cell["\<\
+It is not as obvious what this text block has in common with the one we \
+chose...\
+\>", "Text",
+ CellChangeTimes->{{3.653122095492758*^9, 3.6531221020106287`*^9}, {
+  3.653122202046802*^9, 3.6531222026469316`*^9}, {3.735230005559973*^9, 
+  3.7352300065657043`*^9}, {3.7352302426874037`*^9, 
+  3.735230278646056*^9}},ExpressionUUID->"8c323466-a9ec-49b7-aeac-\
+6fbaa564c5ae"],
+
+Cell[BoxData[
+ RowBox[{"firstOnTheMoon250WordBlocks", "\[LeftDoubleBracket]", "198", 
+  "\[RightDoubleBracket]"}]], "Input",
+ CellChangeTimes->{{3.653122060352723*^9, 3.653122072851797*^9}, {
+  3.653122117658743*^9, 3.6531221178020678`*^9}, {3.735229967037964*^9, 
+  3.735229999276821*^9}},
+ CellLabel->"In[63]:=",ExpressionUUID->"70bb0957-ffd6-4f37-ac57-c12358e92a1c"],
+
+Cell["So we can check for common frequent terms", "Text",
+ CellChangeTimes->{{3.735230271582282*^9, 
+  3.735230308556746*^9}},ExpressionUUID->"9c6d38b5-7dca-44b8-887b-\
+bd0d4f7e5aef"],
+
+Cell[BoxData[
+ RowBox[{"Intersection", "[", 
+  RowBox[{"firstOnTheMoonFrequentTerms", ",", 
+   RowBox[{"Intersection", "[", 
+    RowBox[{
+     RowBox[{"ToLowerCase", "[", 
+      RowBox[{
+      "firstOnTheMoon250WordBlocks", "\[LeftDoubleBracket]", "190", 
+       "\[RightDoubleBracket]"}], "]"}], ",", 
+     RowBox[{"ToLowerCase", "[", 
+      RowBox[{
+      "firstOnTheMoon250WordBlocks", "\[LeftDoubleBracket]", "198", 
+       "\[RightDoubleBracket]"}], "]"}]}], "]"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.735152521228074*^9, 3.735152531482957*^9}, {
+  3.735230314230275*^9, 3.735230318252706*^9}},
+ CellLabel->"In[66]:=",ExpressionUUID->"6bc61a53-a0cc-4a0d-ad38-587ae5d14cf9"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"f71e71ec-96ad-48c5-8e4a-dff433fe55e4"],
+
+Cell[CellGroupData[{
+
+Cell["Activity", "Section",
+ CellChangeTimes->{{3.647716402186221*^9, 3.647716405353856*^9}, {
+   3.6531209698851433`*^9, 3.6531209710599318`*^9}, 
+   3.653122527667828*^9},ExpressionUUID->"a24d52d9-df78-4617-98fe-\
+b95639948c94"],
+
+Cell["\<\
+Using commands you learned in this and the previous lessons, try to answer \
+the following questions.\
+\>", "Text",
+ CellChangeTimes->{{3.73523037286716*^9, 
+  3.735230398073634*^9}},ExpressionUUID->"12d16d26-4452-4a1b-b23e-\
+ef2738909020"],
+
+Cell[CellGroupData[{
+
+Cell["Synonymy", "Subsubsection",
+ CellChangeTimes->{{3.735230840497149*^9, 
+  3.7352308442891483`*^9}},ExpressionUUID->"2c1caf39-6ef0-4353-8d81-\
+c64b93464e1b"],
+
+Cell[TextData[{
+ "What do the named entities ",
+ StyleBox["Larkwell",
+  FontSlant->"Italic"],
+ ", ",
+ StyleBox["Gotch",
+  FontSlant->"Italic"],
+ ", ",
+ StyleBox["Aztec",
+  FontSlant->"Italic"],
+ ", ",
+ StyleBox["Arzachel",
+  FontSlant->"Italic"],
+ ", ",
+ StyleBox["Adam",
+  FontSlant->"Italic"],
+ ", ",
+ StyleBox["Baker",
+  FontSlant->"Italic"],
+ " and ",
+ StyleBox["Charlie",
+  FontSlant->"Italic"],
+ " refer to? "
+}], "Text",
+ CellChangeTimes->{{3.7352304001854563`*^9, 3.7352304358802757`*^9}, {
+   3.7352304797426167`*^9, 3.735230570811496*^9}, {3.735230678975515*^9, 
+   3.735230730589731*^9}, 
+   3.735230785122211*^9},ExpressionUUID->"ece7537b-3bf5-4e96-9f7e-\
+46f40266dc5b"],
+
+Cell[TextData[{
+ "What about ",
+ StyleBox["Chief",
+  FontSlant->"Italic"],
+ ", ",
+ StyleBox["Colonel",
+  FontSlant->"Italic"],
+ " and ",
+ StyleBox["General",
+  FontSlant->"Italic"],
+ "? "
+}], "Text",
+ CellChangeTimes->{{3.7352304001854563`*^9, 3.7352304358802757`*^9}, {
+   3.7352304797426167`*^9, 3.735230570811496*^9}, {3.735230678975515*^9, 
+   3.735230730589731*^9}, 
+   3.735230790536869*^9},ExpressionUUID->"15c0c4a4-26dc-4ab8-b5a5-\
+f39b0ad9d55a"],
+
+Cell["\<\
+Some of these terms have the potential to cause us to rethink or refine the \
+frequency vector approach as we presented it here. Which ones, and what \
+revisions do they suggest?\
+\>", "Text",
+ CellChangeTimes->{{3.7352304001854563`*^9, 3.7352304358802757`*^9}, {
+  3.7352304797426167`*^9, 3.735230570811496*^9}, {3.735230678975515*^9, 
+  3.735230730589731*^9}},ExpressionUUID->"45daa439-b28b-444c-8cf1-\
+d957b3a00199"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["A new visualization", "Subsubsection",
+ CellChangeTimes->{{3.653123567349601*^9, 3.653123569021014*^9}, {
+  3.7352307950989513`*^9, 
+  3.735230830985723*^9}},ExpressionUUID->"53bce95f-a7e0-4e28-9a41-\
+c7bcd64a1283"],
+
+Cell[TextData[{
+ "Look at the following plot (which you haven\[CloseCurlyQuote]t seen \
+before). The rows of this plot correspond to the text blocks of ",
+ StyleBox["First on the Moon",
+  FontSlant->"Italic"],
+ ". The first row is for the first text block, the second row for the second \
+text block, and so on. The columns correspond to ",
+ StyleBox["firstOnTheMoonFrequentTerms",
+  FontSlant->"Italic"],
+ ". The first column is for \[OpenCurlyDoubleQuote]Crag\
+\[CloseCurlyDoubleQuote], the second column is for \
+\[OpenCurlyDoubleQuote]Prochaska\[CloseCurlyDoubleQuote], and so on."
+}], "Text",
+ CellChangeTimes->{{3.6531236379469223`*^9, 3.6531236388186007`*^9}, {
+  3.653123836451807*^9, 3.6531239493112497`*^9}, {3.653123983287323*^9, 
+  3.6531239863099213`*^9}, {3.7352310207478123`*^9, 
+  3.735231090456318*^9}},ExpressionUUID->"fc758cb1-1c12-477d-a236-\
+5a51fdcc4045"],
+
+Cell[BoxData[
+ RowBox[{"ArrayPlot", "[", "firstOnTheMoonFrequencyVectors", "]"}]], "Input",
+ CellChangeTimes->{{3.7352309531166677`*^9, 3.735230961005662*^9}},
+ CellLabel->"In[67]:=",ExpressionUUID->"32611b47-2dc0-4f9a-9bea-48fa5432b232"],
+
+Cell[TextData[{
+ "What does the ",
+ StyleBox["findSimilarBlocks",
+  FontSlant->"Italic"],
+ " function do, in terms of this visualization?"
+}], "Text",
+ CellChangeTimes->{{3.653123989097212*^9, 3.653124013324885*^9}, {
+  3.735231183757621*^9, 
+  3.735231184340753*^9}},ExpressionUUID->"bde23028-69f6-4630-a000-\
+e721e2db4cee"],
+
+Cell["\<\
+Can you imagine a similar function that would compare columns? What would \
+that be useful for?\
+\>", "Text",
+ CellChangeTimes->{{3.735231213788095*^9, 
+  3.735231302400339*^9}},ExpressionUUID->"6f2a4f13-799a-4ebb-b763-\
+eba99ae18f53"]
+}, Open  ]],
+
+Cell["Discussion", "Subsection",
+ CellChangeTimes->{{3.6531240205328093`*^9, 3.653124021652528*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"668d66b9-c885-4971-adc7-6cd8c5c97a1f"],
+
+Cell[CellGroupData[{
+
+Cell["Find similar terms", "Section",
+ CellChangeTimes->{{3.649950784924818*^9, 3.649950788859275*^9}, {
+  3.735231343375515*^9, 
+  3.7352313455987186`*^9}},ExpressionUUID->"ec5b8ef9-db74-47bd-93f0-\
+707576b53d70"],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["findSimilarTerms",
+  FontSlant->"Italic"],
+ " function allows us to search for other frequent terms that appear in text \
+blocks with one we are interested in."
+}], "Text",
+ CellChangeTimes->{{3.6531219938870287`*^9, 3.653122025357456*^9}, {
+  3.6531222366302223`*^9, 3.653122237093721*^9}, {3.735229915875643*^9, 
+  3.735229921867388*^9}, {3.735231135911405*^9, 3.7352311365424833`*^9}, {
+  3.735231366438978*^9, 3.7352314173641872`*^9}, {3.7352320294305553`*^9, 
+  3.735232029965625*^9}},ExpressionUUID->"1fbfca15-5240-468b-b482-\
+c9d333809fcb"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"findSimilarTerms", "[", 
+   RowBox[{"freqvs_", ",", " ", "term_", ",", "n_"}], "]"}], ":=", 
+  "\[IndentingNewLine]", 
+  RowBox[{"(*", " ", 
+   RowBox[{"Version", " ", "20180513"}], " ", "*)"}], "\[IndentingNewLine]", 
+  RowBox[{"Module", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"termvs", "=", 
+      RowBox[{"Transpose", "[", "freqvs", "]"}]}], "}"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"Rest", "[", 
+      RowBox[{"MaximalBy", "[", 
+       RowBox[{
+        RowBox[{"Thread", "[", 
+         RowBox[{"Rule", "[", 
+          RowBox[{
+           RowBox[{"Range", "[", 
+            RowBox[{"Length", "[", "termvs", "]"}], "]"}], ",", " ", 
+           "termvs"}], "]"}], "]"}], ",", 
+        RowBox[{
+         RowBox[{
+          RowBox[{
+          "termvs", "\[LeftDoubleBracket]", "term", "\[RightDoubleBracket]"}],
+           ".", 
+          RowBox[{
+          "#", "\[LeftDoubleBracket]", "2", "\[RightDoubleBracket]"}]}], 
+         "&"}], ",", 
+        RowBox[{"n", "+", "1"}]}], "]"}], "]"}], "\[LeftDoubleBracket]", 
+     RowBox[{"All", ",", "1"}], "\[RightDoubleBracket]"}]}], "]"}]}]], "Input",\
+
+ CellChangeTimes->{{3.642944520681155*^9, 3.6429445969894753`*^9}, {
+  3.64294477655131*^9, 3.64294477689508*^9}, {3.735231140440127*^9, 
+  3.735231152614818*^9}, {3.735231464195932*^9, 3.735231464682714*^9}, {
+  3.735231583310904*^9, 3.73523161022134*^9}, {3.735232084732582*^9, 
+  3.735232143209915*^9}},
+ CellLabel->"In[78]:=",ExpressionUUID->"47c0c3dd-c316-4cf0-bea3-3b220cbded80"],
+
+Cell["Here is the 26th most frequent term", "Text",
+ CellChangeTimes->{{3.735232156905599*^9, 3.735232166632531*^9}, {
+  3.735232279333194*^9, 
+  3.7352322796043453`*^9}},ExpressionUUID->"ea77940b-86b1-45e9-bea0-\
+74c3f84c8e54"],
+
+Cell[BoxData[
+ RowBox[{"firstOnTheMoonFrequentTerms", "\[LeftDoubleBracket]", "26", 
+  "\[RightDoubleBracket]"}]], "Input",
+ CellChangeTimes->{{3.735232169807437*^9, 3.735232177301721*^9}, 
+   3.7352322825897493`*^9},
+ CellLabel->"In[81]:=",ExpressionUUID->"ddb0fca3-78de-4006-b55a-bcc4c04015a9"],
+
+Cell[TextData[{
+ "Which other frequent terms are most likely to appear in the same text block \
+as ",
+ StyleBox["red",
+  FontSlant->"Italic"],
+ "?"
+}], "Text",
+ CellChangeTimes->{{3.7352321810871468`*^9, 3.735232224478451*^9}, {
+  3.735232288548184*^9, 
+  3.7352323152832813`*^9}},ExpressionUUID->"a5493977-4256-4542-a42c-\
+d3749cd135e6"],
+
+Cell[BoxData[
+ RowBox[{"findSimilarTerms", "[", 
+  RowBox[{"firstOnTheMoonFrequencyVectors", ",", "26", ",", "2"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.7352322039347773`*^9, 3.735232221174642*^9}, {
+  3.735232299836622*^9, 3.735232307852317*^9}},
+ CellLabel->"In[83]:=",ExpressionUUID->"c40c6869-0e8d-44d6-9bd2-c64617f0c24a"],
+
+Cell[BoxData[
+ RowBox[{"firstOnTheMoonFrequentTerms", "\[LeftDoubleBracket]", "1", 
+  "\[RightDoubleBracket]"}]], "Input",
+ CellChangeTimes->{3.735232327074731*^9},
+ CellLabel->"In[84]:=",ExpressionUUID->"530ad24a-1564-4e3a-9694-3b7e17802e05"],
+
+Cell[BoxData[
+ RowBox[{"firstOnTheMoonFrequentTerms", "\[LeftDoubleBracket]", "28", 
+  "\[RightDoubleBracket]"}]], "Input",
+ CellChangeTimes->{3.735232325315675*^9},
+ CellLabel->"In[85]:=",ExpressionUUID->"15bbb1c3-f48c-4259-be36-59d1a4371221"],
+
+Cell[TextData[{
+ "Is ",
+ StyleBox["crater",
+  FontSlant->"Italic"],
+ " a frequent term? Yes"
+}], "Text",
+ CellChangeTimes->{{3.7352323511698217`*^9, 
+  3.7352323782889*^9}},ExpressionUUID->"d9ab1d36-cb65-48f2-94a3-bb11d86d8ff0"],
+
+Cell[BoxData[
+ RowBox[{"Position", "[", 
+  RowBox[{"firstOnTheMoonFrequentTerms", ",", "\"\<crater\>\""}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.735232361618554*^9, 3.7352323743530607`*^9}},
+ CellLabel->"In[86]:=",ExpressionUUID->"1b326cb9-11c3-4f18-b8ce-e272c9bdda66"],
+
+Cell[TextData[{
+ "Frequent terms most likely to appear in same text block as ",
+ StyleBox["crater",
+  FontSlant->"Italic"]
+}], "Text",
+ CellChangeTimes->{{3.7352323829766808`*^9, 
+  3.7352323973601217`*^9}},ExpressionUUID->"b7bde78d-10d7-4001-9827-\
+1fba77da9cb1"],
+
+Cell[BoxData[
+ RowBox[{"Extract", "[", 
+  RowBox[{"firstOnTheMoonFrequentTerms", ",", 
+   RowBox[{"Map", "[", 
+    RowBox[{"List", ",", 
+     RowBox[{"findSimilarTerms", "[", 
+      RowBox[{"firstOnTheMoonFrequencyVectors", ",", "51", ",", "5"}], 
+      "]"}]}], "]"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.7352324045769*^9, 3.735232414831511*^9}, {
+  3.735232486023695*^9, 3.735232496244652*^9}, {3.7352325611640882`*^9, 
+  3.7352325657789173`*^9}},
+ CellLabel->"In[89]:=",ExpressionUUID->"10edd138-ccd8-40d2-a4a2-6b1adc93ed7d"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"146bd3f6-106f-4b50-befc-2d9435283930"],
+
+Cell[CellGroupData[{
+
+Cell["Upload your notebook", "Section",
+ CellChangeTimes->{{3.649950784924818*^9, 3.649950788859275*^9}}],
+
+Cell["\<\
+Don\[CloseCurlyQuote]t forget to upload a copy of your notebook for this \
+class to the OWL Site for the course\
+\>", "Text",
+ CellChangeTimes->{{3.649950792779258*^9, 3.649950818634288*^9}}]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1233, 1185},
+WindowMargins->{{222, Automatic}, {Automatic, 47}},
+TaggingRules->{"SlideShow" -> True},
+Magnification:>1.25 Inherited,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "SlideShowHeader"->{
+  Cell[580, 22, 4441, 99, 75, "SlideShowNavigationBar",ExpressionUUID->"78c18c44-f5ae-41a2-953c-01374dba713c",
+   CellTags->"SlideShowHeader"],
+  Cell[5931, 150, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"3c8bbe16-5209-4db8-acc9-fce6823b2a90",
+   CellTags->"SlideShowHeader"],
+  Cell[7693, 201, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"8d8efcd3-6841-4dc6-8b1c-2bd02d7e748c",
+   CellTags->"SlideShowHeader"],
+  Cell[13443, 357, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"3216ac1e-9a62-4067-b18c-5c6764c75cce",
+   CellTags->"SlideShowHeader"],
+  Cell[15802, 429, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"c8a10cab-4783-4d30-a128-554fc2ebee4b",
+   CellTags->"SlideShowHeader"],
+  Cell[18931, 514, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"30d8c02a-99b6-42b5-ba7e-8af134094a05",
+   CellTags->"SlideShowHeader"],
+  Cell[22602, 606, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"7400536f-9c1b-4aa1-b2af-6e190b7174ed",
+   CellTags->"SlideShowHeader"],
+  Cell[26301, 688, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"42989741-b481-4e8d-a7b8-740c6cd86b69",
+   CellTags->"SlideShowHeader"],
+  Cell[32391, 829, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"88c18020-93cb-4fb7-b2a4-7bf514c3c2c5",
+   CellTags->"SlideShowHeader"],
+  Cell[38182, 974, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"69c4243f-d7f9-4936-86a3-7dd7589eaf7f",
+   CellTags->"SlideShowHeader"],
+  Cell[45323, 1159, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"86c77fc3-eb29-4b2a-811b-b541c3df7f54",
+   CellTags->"SlideShowHeader"],
+  Cell[51391, 1320, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"52720a60-9cc5-47b3-a3ad-446f642be289",
+   CellTags->"SlideShowHeader"],
+  Cell[60172, 1589, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"e901b7d2-bfed-47b4-a64b-35e6832d9597",
+   CellTags->"SlideShowHeader"],
+  Cell[70950, 1862, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"f71e71ec-96ad-48c5-8e4a-dff433fe55e4",
+   CellTags->"SlideShowHeader"],
+  Cell[75459, 2007, 122, 2, 179, "SlideShowNavigationBar",ExpressionUUID->"668d66b9-c885-4971-adc7-6cd8c5c97a1f",
+   CellTags->"SlideShowHeader"],
+  Cell[81021, 2161, 122, 2, 179, "SlideShowNavigationBar",ExpressionUUID->"146bd3f6-106f-4b50-befc-2d9435283930",
+   CellTags->"SlideShowHeader"]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"SlideShowHeader", 81887, 2191}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 4441, 99, 75, "SlideShowNavigationBar",ExpressionUUID->"78c18c44-f5ae-41a2-953c-01374dba713c",
+ CellTags->"SlideShowHeader"],
+Cell[5024, 123, 467, 10, 200, "Title",ExpressionUUID->"15b588ab-a64f-4554-84d4-84515498578c"],
+Cell[5494, 135, 400, 10, 108, "Subtitle",ExpressionUUID->"6e6c6490-ec95-459e-a632-101aaa2720c7"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5931, 150, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"3c8bbe16-5209-4db8-acc9-fce6823b2a90",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[6078, 156, 155, 3, 84, "Section",ExpressionUUID->"7708fd06-a064-4c43-85b6-6f3ef0eb81b5"],
+Cell[6236, 161, 350, 7, 73, "Text",ExpressionUUID->"e154d983-0601-4e02-86dc-fd2b3fe718fb"],
+Cell[6589, 170, 836, 19, 131, "Text",ExpressionUUID->"95027741-84b7-4de6-835f-0f6c369eadb1"],
+Cell[7428, 191, 216, 4, 37, "Input",ExpressionUUID->"129c4659-9f16-4857-9cf7-23c0cb22b6f9"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7693, 201, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"8d8efcd3-6841-4dc6-8b1c-2bd02d7e748c",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[7840, 207, 201, 4, 84, "Section",ExpressionUUID->"e86fd597-8dde-4f83-8305-b85508994391"],
+Cell[8044, 213, 313, 8, 44, "Text",ExpressionUUID->"413e4875-4d27-48a1-b08d-4f2492b67fe0"],
+Cell[8360, 223, 647, 15, 73, "Text",ExpressionUUID->"1299ad19-7cd0-43f5-80e8-47c51e011256"],
+Cell[9010, 240, 490, 12, 64, "Input",ExpressionUUID->"7ba7e388-4fc3-45e0-a499-9dde676adcbf"],
+Cell[9503, 254, 247, 8, 44, "Text",ExpressionUUID->"c506dabc-c6c0-48fe-b11c-4b6ab19a5560"],
+Cell[9753, 264, 2337, 52, 116, "Input",ExpressionUUID->"61c8d353-763e-4430-9743-35294464e507"],
+Cell[12093, 318, 399, 10, 68, "Text",ExpressionUUID->"36cea656-6b01-4e92-b39f-57fcd31fb7ce"],
+Cell[12495, 330, 899, 21, 100, "Input",ExpressionUUID->"6aad7c6e-81b6-4804-8c19-44821519f05b"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[13443, 357, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"3216ac1e-9a62-4067-b18c-5c6764c75cce",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[13590, 363, 273, 8, 131, "Section",ExpressionUUID->"b8c5e398-dcfc-4dfe-baed-1e0acf24880d"],
+Cell[13866, 373, 462, 11, 68, "Text",ExpressionUUID->"a6c94029-5b91-4813-bc0a-24aa520678b2"],
+Cell[14331, 386, 402, 9, 68, "Text",ExpressionUUID->"137bedd0-0ac6-4515-84f0-0086927b56d5"],
+Cell[14736, 397, 281, 5, 57, "Input",ExpressionUUID->"dbc01a41-e0b6-45e7-9673-3126445169ee"],
+Cell[15020, 404, 222, 5, 68, "Text",ExpressionUUID->"3c5a98c5-6a59-4de5-bd32-80c28ea23723"],
+Cell[15245, 411, 508, 12, 100, "Input",ExpressionUUID->"a34acf79-44c5-4f73-938f-6d4676e88c21"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[15802, 429, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"c8a10cab-4783-4d30-a128-554fc2ebee4b",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[15949, 435, 375, 6, 131, "Section",ExpressionUUID->"1a234c92-ed5c-4d7c-9249-5a0419988b34"],
+Cell[16327, 443, 340, 7, 68, "Text",ExpressionUUID->"6ffb5b8b-73f0-43d6-97ef-545d8c9bca81"],
+Cell[16670, 452, 470, 10, 57, "Input",ExpressionUUID->"4c58c14e-590f-4547-989d-e587779b71f5"],
+Cell[17143, 464, 165, 3, 68, "Text",ExpressionUUID->"42a28b17-ac8e-414f-bb5b-03a8f99e233e"],
+Cell[17311, 469, 266, 4, 57, "Input",ExpressionUUID->"7c59c3aa-4e71-43c4-89ee-0942402ead55"],
+Cell[17580, 475, 544, 13, 114, "Text",ExpressionUUID->"45a20cc6-d71b-4594-ad40-61c301bc8be2"],
+Cell[18127, 490, 413, 7, 59, "Input",ExpressionUUID->"ece2e38f-0852-4653-8d3b-4005e5773c05"],
+Cell[18543, 499, 339, 9, 68, "Text",ExpressionUUID->"0a83ad7c-63cc-42ff-9369-beccbb42e879"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[18931, 514, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"30d8c02a-99b6-42b5-ba7e-8af134094a05",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[19078, 520, 311, 6, 131, "Section",ExpressionUUID->"6698fc38-39f7-4c82-a692-b723b54ef0e9"],
+Cell[19392, 528, 416, 8, 68, "Text",ExpressionUUID->"38da7297-67e3-4dd6-a05d-064f4f3e68f1"],
+Cell[19811, 538, 808, 18, 159, "Text",ExpressionUUID->"e065306f-9828-4d81-b624-4f95b38ba941"],
+Cell[20622, 558, 449, 7, 57, "Input",ExpressionUUID->"d1248d03-03e3-4fde-bf87-474949473699"],
+Cell[21074, 567, 535, 9, 114, "Text",ExpressionUUID->"b68c5243-5378-45f8-96ad-6853aed50b88"],
+Cell[21612, 578, 451, 10, 114, "Text",ExpressionUUID->"8d1a7901-457b-4591-9a85-cebea1a2e784"],
+Cell[22066, 590, 487, 10, 57, "Input",ExpressionUUID->"2bfc7d05-80bb-4466-811e-846557d65602"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[22602, 606, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"7400536f-9c1b-4aa1-b2af-6e190b7174ed",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[22749, 612, 277, 4, 131, "Section",ExpressionUUID->"b6e2025b-5bd7-4ff3-aedb-a1986f7ddbf1"],
+Cell[23029, 618, 360, 7, 68, "Text",ExpressionUUID->"772e44c7-49bd-4da8-aa60-5c8ccb013ac4"],
+Cell[23392, 627, 1106, 19, 57, "Input",ExpressionUUID->"8ddc1e08-9720-45f8-9f27-4028fdcb93e5"],
+Cell[24501, 648, 1140, 21, 57, "Input",ExpressionUUID->"9904a3d0-11c3-4f05-a072-98ffdcdf017d"],
+Cell[25644, 671, 608, 11, 159, "Text",ExpressionUUID->"accb9505-c9a1-43c8-88b0-0c0d427c1e5e"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[26301, 688, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"42989741-b481-4e8d-a7b8-740c6cd86b69",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[26448, 694, 239, 4, 131, "Section",ExpressionUUID->"e9ece4ce-1230-4580-b88e-19093525ea83"],
+Cell[26690, 700, 714, 13, 159, "Text",ExpressionUUID->"d624328a-8886-42d4-9d49-8400990a05fa"],
+Cell[27407, 715, 343, 5, 68, "Text",ExpressionUUID->"ce2a98af-429c-4a2c-8eab-8f8b37443242"],
+Cell[27753, 722, 737, 15, 100, "Input",ExpressionUUID->"3d4fc2a6-2132-42be-bedc-108545636da5"],
+Cell[28493, 739, 178, 3, 68, "Text",ExpressionUUID->"6e625bcd-e55b-4136-a8e3-0ca4c65222c3"],
+Cell[28674, 744, 783, 15, 100, "Input",ExpressionUUID->"ae2cd917-2ecd-4149-b694-9dc3758c9ed7"],
+Cell[29460, 761, 249, 4, 68, "Text",ExpressionUUID->"e02c0bb5-7e50-4c54-998f-0a7e4efb9420"],
+Cell[29712, 767, 822, 15, 100, "Input",ExpressionUUID->"6fc73229-4c88-4f2f-b8f0-c45cf0281d1b"],
+Cell[30537, 784, 526, 10, 114, "Text",ExpressionUUID->"e9d8a89c-ec17-486f-b379-4f26def4e4fb"],
+Cell[31066, 796, 830, 16, 100, "Input",ExpressionUUID->"7096f22e-1698-4a5a-8fb1-2d657116c91e"],
+Cell[31899, 814, 443, 9, 57, "Input",ExpressionUUID->"113a17f8-0bcc-431f-92fb-15a79344c7a3"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[32391, 829, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"88c18020-93cb-4fb7-b2a4-7bf514c3c2c5",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[32538, 835, 343, 5, 131, "Section",ExpressionUUID->"022017e2-4adc-4fb9-82f4-1364e41542c3"],
+Cell[32884, 842, 708, 16, 159, "Text",ExpressionUUID->"1ec2fdb3-fc69-4c8b-a15a-cd0c23ed1fba"],
+Cell[CellGroupData[{
+Cell[33617, 862, 166, 3, 104, "Subsection",ExpressionUUID->"4047cfbc-d59b-42ab-ac4a-ed305a098123"],
+Cell[33786, 867, 622, 11, 114, "Text",ExpressionUUID->"90c242cf-9b2a-4d6d-a0d4-f880ee78d450"],
+Cell[34411, 880, 1216, 29, 140, "Input",ExpressionUUID->"cbf133ec-ec7a-485d-93ca-dcef7fa1c2d0"],
+Cell[35630, 911, 217, 4, 68, "Text",ExpressionUUID->"cb0a803e-8fc4-47f9-9175-f7fe45d80b6b"],
+Cell[35850, 917, 281, 4, 57, "Input",ExpressionUUID->"7559446b-fd3f-422b-bb01-cfdc73cd721b"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[36168, 926, 171, 3, 104, "Subsection",ExpressionUUID->"010ac066-1f20-45c1-b885-af8cfec01d18"],
+Cell[36342, 931, 930, 16, 159, "Text",ExpressionUUID->"d3acbe07-6adf-43d9-85ab-e44d78c6a93b"],
+Cell[37275, 949, 646, 13, 103, "Input",ExpressionUUID->"1b0d1374-66ff-405d-81b3-37e66b534cf3",
+ Evaluatable->False],
+Cell[37924, 964, 197, 3, 68, "Text",ExpressionUUID->"ee5bd321-bda6-479b-9453-a64bc0b3cf73"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[38182, 974, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"69c4243f-d7f9-4936-86a3-7dd7589eaf7f",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[38329, 980, 312, 5, 131, "Section",ExpressionUUID->"a3d4432c-b0d2-4b38-803d-7966b51e486f"],
+Cell[38644, 987, 375, 9, 68, "Text",ExpressionUUID->"98f4786c-3d09-4642-b0cc-eaee6c55c538"],
+Cell[39022, 998, 318, 5, 57, "Input",ExpressionUUID->"8f38ff01-2eb0-4b17-b5cc-5ce758b255cd"],
+Cell[39343, 1005, 320, 6, 68, "Text",ExpressionUUID->"6d57086e-3c0a-434a-9ff8-c54b8d2ad6f8"],
+Cell[39666, 1013, 516, 10, 57, "Input",ExpressionUUID->"a985d914-0a8a-40f7-b879-aacbae715892"],
+Cell[40185, 1025, 242, 4, 68, "Text",ExpressionUUID->"e8d1ab71-8f9d-46b3-b9ea-852dcfcfb5ac"],
+Cell[40430, 1031, 289, 5, 57, "Input",ExpressionUUID->"8f76bea4-6d64-4002-b953-65fbc5c55ee3"],
+Cell[40722, 1038, 448, 12, 68, "Text",ExpressionUUID->"62c36ae6-9eca-4466-9f31-2d4b1eafd348"],
+Cell[41173, 1052, 320, 6, 57, "Input",ExpressionUUID->"b9de7e78-ebcc-4457-b41c-1e53ee013fa1"],
+Cell[41496, 1060, 437, 10, 114, "Text",ExpressionUUID->"f54a65c4-f2fe-44f7-a7cd-12f5bc863069"],
+Cell[41936, 1072, 416, 7, 57, "Input",ExpressionUUID->"5b029e8a-7442-45a3-951f-7d59c15bbab0"],
+Cell[42355, 1081, 434, 9, 57, "Input",ExpressionUUID->"de7f285f-1f0f-4bda-b4fa-29aa5a4342de"],
+Cell[42792, 1092, 501, 13, 114, "Text",ExpressionUUID->"fb8ad7d0-6979-43dd-ae18-cf8e3d394984"],
+Cell[43296, 1107, 465, 8, 57, "Input",ExpressionUUID->"3949d43b-43e7-4b75-8c29-5064936d502b"],
+Cell[43764, 1117, 401, 7, 68, "Text",ExpressionUUID->"84b20b81-4fe8-4a03-9c33-20adac18be5c"],
+Cell[44168, 1126, 581, 12, 57, "Input",ExpressionUUID->"10cb5e48-de65-4f75-9e94-dfac20539670"],
+Cell[44752, 1140, 224, 4, 68, "Text",ExpressionUUID->"8567a35f-0adf-46f0-8120-2e4222f85de9"],
+Cell[44979, 1146, 295, 7, 68, "Text",ExpressionUUID->"d0b6ceca-c24a-45f9-8147-f45ac2897fbc"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[45323, 1159, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"86c77fc3-eb29-4b2a-811b-b541c3df7f54",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[45470, 1165, 278, 9, 131, "Section",ExpressionUUID->"07ed5512-26f7-4304-9101-9ee16b7291da"],
+Cell[45751, 1176, 321, 6, 68, "Text",ExpressionUUID->"11588e03-294e-43a0-a27f-5b4f85043fb2"],
+Cell[46075, 1184, 1139, 29, 181, "Input",ExpressionUUID->"5a91cf41-f151-4ee4-b807-523528d9beff"],
+Cell[47217, 1215, 473, 10, 114, "Text",ExpressionUUID->"df3dbba5-bfbd-4ccf-8840-2c1cb5fa3f00"],
+Cell[47693, 1227, 318, 5, 57, "Input",ExpressionUUID->"de5e2380-b90b-486c-8cde-129ca05fb0ae"],
+Cell[48014, 1234, 513, 10, 57, "Input",ExpressionUUID->"024a33e0-6b32-4466-82a5-e8edab835ae3"],
+Cell[48530, 1246, 234, 4, 68, "Text",ExpressionUUID->"1a8d4913-2d2a-4bab-925b-c702607b9fed"],
+Cell[48767, 1252, 294, 5, 57, "Input",ExpressionUUID->"a9a1812b-e38e-412a-b40b-ebd6b4154598"],
+Cell[49064, 1259, 239, 4, 68, "Text",ExpressionUUID->"312d902d-e22c-48d1-8c0c-6395f1792ad5"],
+Cell[49306, 1265, 543, 11, 57, "Input",ExpressionUUID->"98a72706-9be9-4bff-9491-dcd5dddc437c"],
+Cell[49852, 1278, 343, 7, 68, "Text",ExpressionUUID->"e37af446-9a1f-4aaf-b5f1-5bd0ed2687ac"],
+Cell[50198, 1287, 803, 20, 100, "Input",ExpressionUUID->"80187cc6-db37-44bc-ae10-48b4344f7045"],
+Cell[51004, 1309, 338, 5, 68, "Text",ExpressionUUID->"7bf6e3d3-c163-4765-9176-a1dd5514a995"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[51391, 1320, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"52720a60-9cc5-47b3-a3ad-446f642be289",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[51538, 1326, 214, 4, 131, "Section",ExpressionUUID->"fd35308a-a1d2-41a1-aa28-f80f2b87fdb7"],
+Cell[51755, 1332, 479, 13, 114, "Text",ExpressionUUID->"cceca486-2f4b-4b7d-8373-bd277f9a2cd3"],
+Cell[52237, 1347, 322, 8, 57, "Input",ExpressionUUID->"a74f2e75-7b9c-4f42-9532-7c064468950a"],
+Cell[52562, 1357, 173, 3, 68, "Text",ExpressionUUID->"2fafe22a-5a4a-408d-81d2-ec8493645bea"],
+Cell[52738, 1362, 290, 7, 57, "Input",ExpressionUUID->"791e1726-99d6-4336-b90a-810a6b8a1ecb"],
+Cell[53031, 1371, 314, 11, 68, "Text",ExpressionUUID->"3f6c550e-4ac8-4f68-b9cf-1bea99f429fb"],
+Cell[53348, 1384, 310, 7, 57, "Input",ExpressionUUID->"78fa026f-fa52-4da6-b2dc-5529e88ed950"],
+Cell[53661, 1393, 404, 14, 68, "Text",ExpressionUUID->"08fed0c3-fa83-48ea-911f-8c2a4d594e0d"],
+Cell[54068, 1409, 310, 7, 57, "Input",ExpressionUUID->"a0f5401b-65fe-4e3c-aaea-b7851fbcd54d"],
+Cell[54381, 1418, 310, 7, 57, "Input",ExpressionUUID->"0c47f92b-598c-4332-9364-e1a632148e6c"],
+Cell[54694, 1427, 310, 7, 57, "Input",ExpressionUUID->"82c15300-6b01-4a78-9a3d-25e47d6c7358"],
+Cell[55007, 1436, 501, 18, 114, "Text",ExpressionUUID->"5b3e5c56-4adf-46a4-b27d-2ae09a8681b5"],
+Cell[55511, 1456, 307, 7, 57, "Input",ExpressionUUID->"1bc375d0-e082-44fb-8e20-e71f7755f1ee"],
+Cell[55821, 1465, 310, 7, 57, "Input",ExpressionUUID->"afa2b244-8522-4d64-ae25-f6b2a26dba32"],
+Cell[56134, 1474, 309, 7, 57, "Input",ExpressionUUID->"3318557d-a8c7-4f3c-ba17-df298e8cb693"],
+Cell[56446, 1483, 310, 7, 57, "Input",ExpressionUUID->"4ac6fe9f-6c37-4a23-b9af-0cdec7871ce4"],
+Cell[56759, 1492, 309, 7, 57, "Input",ExpressionUUID->"5d5709d7-7c09-4958-b130-22d9af2622e8"],
+Cell[57071, 1501, 441, 10, 114, "Text",ExpressionUUID->"364f1de6-7931-4d7c-ae0b-5f977b5c0650"],
+Cell[57515, 1513, 684, 17, 100, "Input",ExpressionUUID->"48259d43-ff7f-454d-8854-8d95ad05f23a"],
+Cell[58202, 1532, 340, 9, 68, "Text",ExpressionUUID->"1c018a60-a3cb-4c7a-9886-15caa4e723d5"],
+Cell[58545, 1543, 523, 12, 57, "Input",ExpressionUUID->"79543d2a-6ccb-4200-9800-324f6ddecc61"],
+Cell[59071, 1557, 419, 10, 114, "Text",ExpressionUUID->"b7d15b40-9ac8-422b-aa68-6a37a6fb2e47"],
+Cell[59493, 1569, 630, 14, 100, "Input",ExpressionUUID->"c98cda40-e030-4764-830f-7a2a769f9ef6"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[60172, 1589, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"e901b7d2-bfed-47b4-a64b-35e6832d9597",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[60319, 1595, 242, 4, 131, "Section",ExpressionUUID->"81ae860f-3d36-4b9f-aefa-054099a67fb6"],
+Cell[60564, 1601, 465, 9, 114, "Text",ExpressionUUID->"7e56ab38-add9-4cfc-a3b3-f583a213df3c"],
+Cell[61032, 1612, 245, 4, 68, "Text",ExpressionUUID->"d2469275-c305-4a2c-a94a-aa47a62e0483"],
+Cell[61280, 1618, 497, 11, 100, "Input",ExpressionUUID->"f8c011b2-1c2e-46e2-bb8f-ac94697ebd56"],
+Cell[61780, 1631, 232, 3, 57, "Input",ExpressionUUID->"7bb80f79-353f-4e5e-9fbf-d8298dff9b1f"],
+Cell[62015, 1636, 235, 3, 57, "Input",ExpressionUUID->"7610a54b-54ea-434e-b73e-bb7cc4d749ab"],
+Cell[62253, 1641, 290, 7, 68, "Text",ExpressionUUID->"0958a42f-dc45-420d-a8a9-22f8d2ad64c6"],
+Cell[62546, 1650, 319, 5, 57, "Input",ExpressionUUID->"e478edd1-952a-4c5e-8a14-f018cdd50317"],
+Cell[62868, 1657, 276, 6, 68, "Text",ExpressionUUID->"2ad19282-afb4-45c2-9cff-d41a73aedff3"],
+Cell[63147, 1665, 367, 6, 57, "Input",ExpressionUUID->"a4590778-5b08-4aa7-aee7-11f5f614aa00"],
+Cell[63517, 1673, 656, 11, 114, "Text",ExpressionUUID->"339fc119-09c9-4ea4-9926-16b64a979922"],
+Cell[64176, 1686, 491, 11, 57, "Input",ExpressionUUID->"6de0d5b7-0eb3-4dd2-be1a-2c941f14f821"],
+Cell[64670, 1699, 491, 11, 57, "Input",ExpressionUUID->"f754f4f5-d25d-4224-a719-1c7c7c7ba892"],
+Cell[65164, 1712, 478, 11, 68, "Text",ExpressionUUID->"51a3d2fe-db27-486c-88e3-fc5326f1a3d4"],
+Cell[65645, 1725, 1199, 30, 140, "Input",ExpressionUUID->"1952e687-0fb5-43ff-9070-fa6f3477e1cd"],
+Cell[66847, 1757, 463, 10, 68, "Text",ExpressionUUID->"55d2cd53-4e10-4ac2-889c-76695ca9ebba"],
+Cell[67313, 1769, 404, 7, 57, "Input",ExpressionUUID->"882e109f-ec90-45fd-a66a-aedf2edaefad"],
+Cell[67720, 1778, 415, 10, 57, "Input",ExpressionUUID->"0e00f86d-fc0a-4209-afae-113cae4e7131"],
+Cell[68138, 1790, 442, 10, 57, "Input",ExpressionUUID->"08f7f866-8e6d-42ca-b45b-2b74b2218b86"],
+Cell[68583, 1802, 366, 7, 68, "Text",ExpressionUUID->"d11356fd-8ed4-46bb-a158-5a081bde3f6b"],
+Cell[68952, 1811, 318, 5, 57, "Input",ExpressionUUID->"ab0250fc-e846-4411-b562-98738eff3217"],
+Cell[69273, 1818, 384, 8, 68, "Text",ExpressionUUID->"8c323466-a9ec-49b7-aeac-6fbaa564c5ae"],
+Cell[69660, 1828, 369, 6, 57, "Input",ExpressionUUID->"70bb0957-ffd6-4f37-ac57-c12358e92a1c"],
+Cell[70032, 1836, 183, 3, 68, "Text",ExpressionUUID->"9c6d38b5-7dca-44b8-887b-bd0d4f7e5aef"],
+Cell[70218, 1841, 683, 15, 100, "Input",ExpressionUUID->"6bc61a53-a0cc-4a0d-ad38-587ae5d14cf9"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[70950, 1862, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"f71e71ec-96ad-48c5-8e4a-dff433fe55e4",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[71097, 1868, 230, 4, 131, "Section",ExpressionUUID->"a24d52d9-df78-4617-98fe-b95639948c94"],
+Cell[71330, 1874, 250, 6, 68, "Text",ExpressionUUID->"12d16d26-4452-4a1b-b23e-ef2738909020"],
+Cell[CellGroupData[{
+Cell[71605, 1884, 161, 3, 87, "Subsubsection",ExpressionUUID->"2c1caf39-6ef0-4353-8d81-c64b93464e1b"],
+Cell[71769, 1889, 682, 28, 68, "Text",ExpressionUUID->"ece7537b-3bf5-4e96-9f7e-46f40266dc5b"],
+Cell[72454, 1919, 454, 16, 68, "Text",ExpressionUUID->"15c0c4a4-26dc-4ab8-b5a5-f39b0ad9d55a"],
+Cell[72911, 1937, 429, 8, 114, "Text",ExpressionUUID->"45daa439-b28b-444c-8cf1-d957b3a00199"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[73377, 1950, 221, 4, 87, "Subsubsection",ExpressionUUID->"53bce95f-a7e0-4e28-9a41-c7bcd64a1283"],
+Cell[73601, 1956, 877, 17, 159, "Text",ExpressionUUID->"fc758cb1-1c12-477d-a236-5a51fdcc4045"],
+Cell[74481, 1975, 238, 3, 89, "Input",ExpressionUUID->"32611b47-2dc0-4f9a-9bea-48fa5432b232"],
+Cell[74722, 1980, 325, 9, 106, "Text",ExpressionUUID->"bde23028-69f6-4630-a000-e721e2db4cee"],
+Cell[75050, 1991, 245, 6, 106, "Text",ExpressionUUID->"6f2a4f13-799a-4ebb-b763-eba99ae18f53"]
+}, Open  ]],
+Cell[75310, 2000, 100, 1, 162, "Subsection",ExpressionUUID->"dd6f5881-ee62-470c-903d-7bf5043dd7d3"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[75459, 2007, 122, 2, 179, "SlideShowNavigationBar",ExpressionUUID->"668d66b9-c885-4971-adc7-6cd8c5c97a1f",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[75606, 2013, 214, 4, 204, "Section",ExpressionUUID->"ec5b8ef9-db74-47bd-93f0-707576b53d70"],
+Cell[75823, 2019, 583, 12, 106, "Text",ExpressionUUID->"1fbfca15-5240-468b-b482-c9d333809fcb"],
+Cell[76409, 2033, 1555, 39, 282, "Input",ExpressionUUID->"47c0c3dd-c316-4cf0-bea3-3b220cbded80"],
+Cell[77967, 2074, 228, 4, 106, "Text",ExpressionUUID->"ea77940b-86b1-45e9-bea0-74c3f84c8e54"],
+Cell[78198, 2080, 296, 5, 89, "Input",ExpressionUUID->"ddb0fca3-78de-4006-b55a-bcc4c04015a9"],
+Cell[78497, 2087, 338, 10, 106, "Text",ExpressionUUID->"a5493977-4256-4542-a42c-d3749cd135e6"],
+Cell[78838, 2099, 331, 6, 89, "Input",ExpressionUUID->"c40c6869-0e8d-44d6-9bd2-c64617f0c24a"],
+Cell[79172, 2107, 243, 4, 89, "Input",ExpressionUUID->"530ad24a-1564-4e3a-9694-3b7e17802e05"],
+Cell[79418, 2113, 244, 4, 89, "Input",ExpressionUUID->"15bbb1c3-f48c-4259-be36-59d1a4371221"],
+Cell[79665, 2119, 228, 7, 106, "Text",ExpressionUUID->"d9ab1d36-cb65-48f2-94a3-bb11d86d8ff0"],
+Cell[79896, 2128, 273, 5, 89, "Input",ExpressionUUID->"1b326cb9-11c3-4f18-b8ce-e272c9bdda66"],
+Cell[80172, 2135, 264, 7, 106, "Text",ExpressionUUID->"b7bde78d-10d7-4001-9827-1fba77da9cb1"],
+Cell[80439, 2144, 533, 11, 89, "Input",ExpressionUUID->"10edd138-ccd8-40d2-a4a2-6b1adc93ed7d"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[81021, 2161, 122, 2, 179, "SlideShowNavigationBar",ExpressionUUID->"146bd3f6-106f-4b50-befc-2d9435283930",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[81168, 2167, 105, 1, 204, "Section",ExpressionUUID->"e161c780-97da-47ea-8246-80565632a60a"],
+Cell[81276, 2170, 201, 4, 106, "Text",ExpressionUUID->"078abaaf-eda4-4674-b665-3366fbd464d3"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+

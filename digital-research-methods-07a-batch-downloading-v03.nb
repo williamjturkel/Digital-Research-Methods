@@ -1,0 +1,2212 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     92263,       2204]
+NotebookOptionsPosition[     74472,       1935]
+NotebookOutlinePosition[     76876,       1984]
+CellTagsIndexPosition[     76797,       1979]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ TogglerBox[2, {1->
+  OverlayBox[{
+   TagBox[GridBox[{
+      {
+       GraphicsBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBAkBOaF5xZnpeaopnXklqemqRRRIz
+UFAKiEGSLED8//9/gvjRo0fsN27cELp69arY+fPnpZExPn137tzhBqrRBGJ/
+ID4CxMfRMTZ9L168YL5w4YIaUD4AiC8C8Qcg/gvE/9AxFreC7PQD4gtA/BGq
+7j8ujKz3+fPnLFC9b6H24dSHTf/FixfVofYSpRdZPzSsAqBuJkovsn5oOF8k
+5F9s+h88eMBBjt0w/devXxcGso+S4m9k/ZcuXRKHpgeS3A7TD0wrkpToPw9J
+ywOmn1L3Uxp+lMYfpemH0vRLjfwDjQey8y9a+fGOWDPwlF+gsPhEKDywlZ8g
+d0D9EniexPITGd++fZv3PBnlN6764zxa3QHCAIDESDs=
+         "], {{0, 26}, {16, 
+         0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{16, 26},
+        PlotRange->{{0, 16}, {0, 26}}], 
+       GraphicsBox[RasterBox[CompressedData["
+1:eJzt2V1vVFUUBuBGTfTSSygthYYKNHyVinrrpbcYfwBEJN5gUkyMfw9KKaVw
+KCkQKCW1RNIQKg1gEE3QtdN10pMRZCaBzNQ+kzxt5nzstfeZfbPOu/vkD8e/
+e6+vr+/sR/Hn+ImfvpyYOPHz1x/Hl2/OnP3+9JlT33515sdTp09NfHHy/TjY
+H6592Nf3QfyvqmpHBwbCYNr5GoMNAw2d1AEAADa3/obtLba1aJ7rb4xR9x1D
+YVfYHYbDnjASPgn7wv4wGg6Eg+FQOByOhLEwnj4Nx8Jn6fM21dcfyzHq8cay
+xuGseTDnMJpz2pdzHMk5D+caduWa6v6p+czafU71s6p1+/cGAADYqt52/9va
+++6tXt331j3v0TTeoj5e966v6lv3Vv/uWfWr9LJm9tzMpN+UW3eaVV9s00yY
+CzfC7bAQFhvuhjt57maYD9er9c+VcDlcCtMd1AQAADafqXQhTabz6VyL+vhk
+Xl/uLX1D6UFmw9VwrVrvL0o/cqta7ztKD3Iv/BLuh1/DSngYHoXfwlp4Ep6F
+38Pz8Ed4Ef5Mf71Gff5F3vM8x3iWY65ljUdZcyXncD/ndC/neDvnfCPXcC3X
+NJtrnG48r3afU/2s6uc11QO/OwAAwFbzLvrfksWVjK30kSV3KxncUlgOD6qN
+vnc1PK42+t7iaaq/r+U1q9VG3/ogx1rKse9krfmsrV+l15R9WDLmkjWXzLl8
+yvuVsmdLJl3eu5R9XN7BNLPrhTxX3seUvT3TQc2Xbfr7LWq3JgAAwH95m33K
+u9Dt5wMAAMDmp2dlK+vGnu/2+yQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYPN42aZu
+1AQAAAAAAICtrNsZIXRTN/b8xTbNhLlwI9wOC2Gx4W64k+duhvlwvVr/XAmX
+w6Uw3UFNAAAAAAAA6EVT6UKaTOfTuRb18cm8vtxbcrOSwc2Gq9V6FlcytlvV
+eu5WMrilsBwehJXwMKyGx2EtPElPU/19La9ZzXtWcozlHHMxa9zKmnM5h9mc
+03Rjfe2uq15bvb6pHvid2NzKPiwZc8maS+ZcPiWDLnu2ZNIlmy77uGTVzex6
+Ic+VbLvs7ZkOau7owEAYTDtfY7BhoKGTOgAAAAAAANDr+hu2t9jWonmuvzFG
+nbsNhd1hOOwJI2Fv2B9Gw4FwMBwKR8JYOJrGW9THx/LaQ3nvgRxrf449krWG
+s/ZQtZH3NdfY7rrqtdW6/fvw/9LMnpuZ9Jty646y6n8AhCP7tg==
+         "], {{0, 26}, {
+         2000, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{2000, 26},
+        PlotRange->{{0, 2000}, {0, 26}}], 
+       GraphicsBox[RasterBox[CompressedData["
+1:eJy9lktLQkEUxyVdCBIELaxctYq+QduWbcKMPoCSRRsDC6JPp+Lj4vuq+EBc
+iBtFfIYrpU7nPzQiN++9vmrgp/dx5j8z55w5c099z56HPYvF8mLnH4/37TIY
+9L7fHvDNXeDl6THgv78KvPof/cELn5UfnjBHjI3J5/OudVBV9bhUKjmbzaad
+iCxmcB9lAxKMmzmv1+v7JvpfG/DJjJkic8NrOut0OlYdfdoCjPXBqMx1q9Vy
+7FhfgvX0MUa73bYZ6edyuTnrvPsZQ4Wv9PTRL5vNroTOGIiJu9FoOLT6UjuT
+yVAqlaJkMin+0+m0YPEZbHTGQDwKyKtl+ugHjdFoRIVCgeLxOCUSCQGua7Ua
+9Xo9YQNbozXI/aHVZ//RcDik2WxG5XKZwuGwANdo0JfrNIhDvFqtHi7zD+YW
+i8VoMBgIvWKxKEDrdrtiHbAxiAF8pHAf5zJ9+Bca0WiUxuMxydbv98U64CvY
+wNZgTyioI9r8QR/EEvrQUhRlrh8Kheb6sDHTZ1xG84ePMP/pdPpr/tvoL/of
+Mcb9Jv7X+mcxP2X+QCMSiYh5VyoVMQbXMbP81I2vzM/JZCLyX+a+BPmPvbFN
+fmr36pr713B/rVp7THy/tD6Y1cjF5zrahvVtB5jW5y21B/kVzpc1kecjfK53
+Pu7kfNfO+x+/T/70++ob7NUEtQ==
+         "], {{0, 26}, {24, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{24, 26},
+        PlotRange->{{0, 24}, {0, 26}}]}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {Automatic, 
+         Scaled[0.6], Automatic}},
+     GridBoxSpacings->{"Columns" -> {{0}}, "Rows" -> {{0}}}],
+    "Grid"], 
+   PaneBox[
+    StyleBox[
+     RowBox[{
+     "Background", " ", "images", " ", "and", " ", "text", " ", "colors", " ",
+       "have", " ", "been", " ", "adjusted", " ", "for", " ", "editing", " ", 
+      
+      RowBox[{"purposes", "."}]}],
+     LineBreakWithin->False,
+     FontFamily->"Helvetica",
+     FontSize->12,
+     FontColor->GrayLevel[0.4]],
+    Alignment->Center,
+    ImageSize->Scaled[0.5],
+    ScrollPosition->{0., 0.}]},
+   Alignment->{Center, Center}], 2->""}, "1"]], "SlideShowNavigationBar", \
+"FirstSlide",
+ CellMargins->{{0, 0}, {0, 0}},
+ CellFrameLabelMargins->2,
+ CellSize->{Inherited, 30},
+ CellChangeTimes->{3.647361175465108*^9},
+ TextAlignment->Center,
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"34979ff4-3323-48c9-ad01-1f54ce7be811"],
+
+Cell["\<\
+Digital Research Methods 07A:
+Batch Downloading\
+\>", "Title",
+ CellChangeTimes->{
+  3.559948400406288*^9, {3.647331852839075*^9, 3.647331861295168*^9}, {
+   3.647331922221755*^9, 3.647331924532915*^9}, {3.647332658962614*^9, 
+   3.64733266480881*^9}, {3.6473611327373047`*^9, 3.647361139759391*^9}, {
+   3.647448943135475*^9, 3.6474489472294493`*^9}, {3.652462190043445*^9, 
+   3.6524621967373247`*^9}},ExpressionUUID->"d9b32acf-d469-4fec-90f2-\
+0d81ce43d808"],
+
+Cell[TextData[{
+ "William J Turkel, ",
+ StyleBox["wturkel@uwo.ca",
+  FontSlant->"Italic",
+  FontColor->RGBColor[
+   0.396078431372549, 0.596078431372549, 0.796078431372549]],
+ "\nHistory 2816 / Digital Humanities 2130 / History 9877"
+}], "Subtitle",
+ CellChangeTimes->{{3.647331955723979*^9, 3.6473319708190517`*^9}, 
+   3.647332103720562*^9},ExpressionUUID->"dd962f3e-1ed2-44f0-9f69-\
+3801d7fa6340"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"7e3df656-92e1-43b5-bd53-4ba85f2cfa59"],
+
+Cell[CellGroupData[{
+
+Cell["Overview (and warning)", "Section",
+ CellChangeTimes->{{3.647361153919208*^9, 3.6473611548467712`*^9}, {
+  3.652462602571419*^9, 
+  3.652462604786944*^9}},ExpressionUUID->"3148138e-3a6f-4c33-bdfc-\
+1738781ae749"],
+
+Cell["\<\
+Anything that you can do once with a computer, you can do over and over. In \
+this lesson we learn to automate the downloading of arbitrary numbers of \
+digital sources.\
+\>", "Text",
+ CellChangeTimes->{{3.647361157582405*^9, 3.647361159086673*^9}, {
+  3.6524622011770067`*^9, 
+  3.652462320453129*^9}},ExpressionUUID->"fa69884f-750b-4d17-9fea-\
+d771b35f3c31"],
+
+Cell[TextData[{
+ StyleBox["N.B. Always check the terms of use of a site before you use \
+automated downloading.",
+  FontWeight->"Bold"],
+ " Many sites, especially those that provide journal articles or other \
+scholarly resources, ",
+ StyleBox["expressly forbid",
+  FontSlant->"Italic"],
+ " the use of computer programs to harvest or process their resources \
+automatically. Be sure to ask a university librarian if you are in any doubt \
+about what you can or cannot do."
+}], "Text",
+ CellChangeTimes->{{3.652462517830398*^9, 
+  3.652462583830241*^9}},ExpressionUUID->"4bbbb5b0-76e0-4463-bc1e-\
+36efb02e8dae"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"fe25ee54-5a19-4bfd-bd0d-501c1def5cd7"],
+
+Cell[CellGroupData[{
+
+Cell["Setup", "Section",
+ CellChangeTimes->{{3.647716369451888*^9, 3.647716370003084*^9}, {
+  3.647798474690284*^9, 
+  3.6477984752570744`*^9}},ExpressionUUID->"4d66dd78-e6f8-49b6-acd1-\
+b22e1edc7ee7"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"viewData", "[", "x_", "]"}], ":=", "\[IndentingNewLine]", 
+  RowBox[{"Framed", "[", 
+   RowBox[{"Pane", "[", 
+    RowBox[{"x", ",", 
+     RowBox[{"{", 
+      RowBox[{"Automatic", ",", "200"}], "}"}], ",", 
+     RowBox[{"Scrollbars", "\[Rule]", "True"}]}], "]"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.511539182255096*^9, 3.51153920239167*^9}},
+ CellLabel->"In[49]:=",ExpressionUUID->"2c512366-6379-4fb4-92fe-335a9a087fac"],
+
+Cell[TextData[StyleBox["Make sure to change the following so that it is a \
+valid file path on your own computer",
+ FontSlant->"Italic"]], "Text",
+ CellChangeTimes->{{3.6528996132446327`*^9, 3.652899662803152*^9}},
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"91cbc349-33f2-4a1a-8027-b61bcfa46479"],
+
+Cell[BoxData[
+ RowBox[{"localDownloadFilePath", "=", 
+  "\"\</Users/wjt/Downloads/\>\""}]], "Input",
+ CellChangeTimes->{{3.65289958930519*^9, 3.6528996279964657`*^9}},
+ CellLabel->"In[50]:=",ExpressionUUID->"af414ed1-8386-4ce9-907e-50cff49d59ee"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"dc6f37ef-c689-4d16-b493-6b72e64111de"],
+
+Cell[CellGroupData[{
+
+Cell["URL: Uniform resource locator", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.652462611996009*^9, 
+  3.652462619746293*^9}},ExpressionUUID->"8a37c135-5753-4e4a-ba58-\
+6d4a19a979d8"],
+
+Cell[TextData[{
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " knows about domain names and can give you information about them. Use \
+\[ControlKey]= for discovery"
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.65246263088269*^9, 
+  3.6524626697606277`*^9}},ExpressionUUID->"7fc900a6-4651-4f3a-8ba0-\
+20f4fa920d81"],
+
+Cell[BoxData[
+ NamespaceBox["WolframAlphaQueryParseResults",
+  DynamicModuleBox[{Typeset`q$$ = "archive.org", Typeset`newq$$ = 
+   "archive.org", Typeset`chosen$$ = 
+   "Entity[\"InternetDomain\", \"archive.org\"]", Typeset`open$$ = False}, 
+   PaneSelectorBox[{False->
+    DynamicModuleBox[{WolframAlphaClient`Private`show$$ = False, 
+     WolframAlphaClient`Private`assumptionsQ$$ = False}, 
+     TagBox[
+      FrameBox[
+       TagBox[GridBox[{
+          {
+           InputFieldBox[Dynamic[Typeset`newq$$], String,
+            Appearance->None,
+            BaseStyle->{"CalculateInput"},
+            ContinuousAction->True,
+            Enabled->True,
+            FieldSize->{{1, 40}, {1, 
+               DirectedInfinity[1]}},
+            TrapSelection->False], 
+           ItemBox[
+            ButtonBox[
+             PaneSelectorBox[{True->
+              TagBox[
+               TooltipBox[
+                
+                DynamicBox[FEPrivate`FrontEndResource[
+                 "WABitmaps", "OrangeSquarePlus"],
+                 ImageSizeCache->{13., {3., 11.}}],
+                DynamicBox[
+                 ToBoxes[
+                  FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"], 
+                  StandardForm]]],
+               Annotation[#, 
+                Dynamic[
+                 FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"]], 
+                "Tooltip"]& ], False->
+              TagBox[
+               TooltipBox[
+                
+                DynamicBox[FEPrivate`FrontEndResource[
+                 "WABitmaps", "GraySquarePlus"],
+                 ImageSizeCache->{13., {3., 11.}}],
+                DynamicBox[
+                 ToBoxes[
+                  FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"], 
+                  StandardForm]]],
+               Annotation[#, 
+                Dynamic[
+                 FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"]], 
+                "Tooltip"]& ]}, Dynamic[WolframAlphaClient`Private`show$$],
+              ImageSize->All],
+             Appearance->None,
+             ButtonFunction:>(Quiet[
+                WolframAlpha[]]; If[
+                Or[
+                 CurrentValue["OptionKey"], 
+                 CurrentValue["AltKey"]], SelectionMove[
+                  ButtonNotebook[], All, ButtonCell, AutoScroll -> False]; 
+                NotebookWrite[
+                  ButtonNotebook[], 
+                  Cell[
+                  Typeset`newq$$, "WolframAlphaShort", FormatType -> 
+                   "TextForm"], All], Typeset`open$$ = True; 
+                WolframAlphaClient`Private`extrudeFromFastParse["archive.org", 
+                  Defer[
+                   Entity["InternetDomain", "archive.org"]], "Fast parse"]; 
+                Typeset`open$$ = False]),
+             Evaluator->Automatic,
+             Method->"Queued"],
+            Alignment->{Right, Top},
+            StripOnInput->False]},
+          {
+           PaneBox[
+            TagBox[
+             TooltipBox[
+              ButtonBox[
+               PaneSelectorBox[{False->
+                StyleBox[
+                 TemplateBox[{"\"archive.org\"",RowBox[{"Entity", "[", 
+                    RowBox[{"\"InternetDomain\"", ",", "\"archive.org\""}], 
+                    "]"}],"\"Entity[\\\"InternetDomain\\\", \\\"archive.org\\\
+\"]\"","\"internet domain\""},
+                  "Entity"],
+                 StripOnInput->False,
+                 NumberMarks->False], True->
+                StyleBox[
+                 TemplateBox[{"\"archive.org\"",RowBox[{"Entity", "[", 
+                    RowBox[{"\"InternetDomain\"", ",", "\"archive.org\""}], 
+                    "]"}],"\"Entity[\\\"InternetDomain\\\", \\\"archive.org\\\
+\"]\"","\"internet domain\""},
+                  "Entity"],
+                 StripOnInput->False,
+                 ShowSyntaxStyles->False,
+                 NumberMarks->False,
+                 FontColor->RGBColor[1, 0.5, 0]]}, Dynamic[
+                 CurrentValue["MouseOver"]],
+                BaseStyle->{ShowStringCharacters -> True},
+                FrameMargins->0,
+                ImageSize->Automatic],
+               Alignment->Left,
+               Appearance->None,
+               BaseStyle->{},
+               ButtonFunction:>(SelectionMove[
+                  ButtonNotebook[], All, ButtonCell]; NotebookWrite[
+                  ButtonNotebook[], 
+                  Cell[
+                   BoxData[
+                    TemplateBox[{"\"archive.org\"", 
+                    RowBox[{"Entity", "[", 
+                    RowBox[{"\"InternetDomain\"", ",", "\"archive.org\""}], 
+                    "]"}], "\"Entity[\\\"InternetDomain\\\", \
+\\\"archive.org\\\"]\"", "\"internet domain\""}, "Entity"]], "Input"], All]; 
+                SelectionMove[
+                  ButtonNotebook[], After, CellContents]),
+               Evaluator->Automatic,
+               ImageSize->Automatic,
+               Method->"Preemptive"],
+              DynamicBox[
+               ToBoxes[
+                FEPrivate`FrontEndResource["WAStrings", "RemoveResults"], 
+                StandardForm]]],
+             Annotation[#, 
+              Dynamic[
+               FEPrivate`FrontEndResource["WAStrings", "RemoveResults"]], 
+              "Tooltip"]& ],
+            AppearanceElements->{},
+            BaseStyle->{ShowStringCharacters -> True, ScriptLevel -> 0},
+            ImageSize->{Automatic, {1, 100}},
+            Scrollbars->{False, Automatic}], "\[SpanFromLeft]"}
+         },
+         AutoDelete->False,
+         BaselinePosition->{1, 1},
+         FrameStyle->GrayLevel[0.85],
+         GridBoxAlignment->{"Columns" -> {{Left}}},
+         GridBoxDividers->{
+          "Columns" -> {{False}}, "Rows" -> {False, {True}, False}},
+         GridBoxItemSize->{
+          "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+        "Grid"],
+       Alignment->Top,
+       Background->Dynamic[
+         FEPrivate`If[
+          FEPrivate`And[
+           FEPrivate`SameQ[
+            FEPrivate`Head[Typeset`newq$$], String], 
+           FEPrivate`UnsameQ[Typeset`q$$, Typeset`newq$$]], 
+          RGBColor[1., 0.975, 0.95], 
+          GrayLevel[1]]],
+       BaselinePosition->Baseline,
+       FrameStyle->GrayLevel[0.85],
+       ImageSize->Automatic,
+       RoundingRadius->5,
+       StripOnInput->False],
+      EventHandlerTag[{
+       "MouseEntered" :> 
+        FEPrivate`Set[WolframAlphaClient`Private`show$$, True], "MouseExited" :> 
+        FEPrivate`Set[WolframAlphaClient`Private`show$$, False], Method -> 
+        "Preemptive", PassEventsDown -> Automatic, PassEventsUp -> True}]],
+     DynamicModuleValues:>{}], True->
+    TagBox[GridBox[{
+       {
+        DynamicModuleBox[{WolframAlphaClient`Private`show$$ = False, 
+         WolframAlphaClient`Private`assumptionsQ$$ = False}, 
+         TagBox[
+          FrameBox[
+           TagBox[GridBox[{
+              {
+               InputFieldBox[Dynamic[Typeset`newq$$], String,
+                Appearance->None,
+                BaseStyle->{"CalculateInput"},
+                ContinuousAction->True,
+                Enabled->True,
+                FieldSize->{{1, 40}, {1, 
+                   DirectedInfinity[1]}},
+                TrapSelection->False], 
+               ItemBox[
+                ButtonBox[
+                 PaneSelectorBox[{True->
+                  TagBox[
+                   TooltipBox[
+                    
+                    DynamicBox[FEPrivate`FrontEndResource[
+                    "WABitmaps", "OrangeSquarePlus"]],
+                    DynamicBox[
+                    ToBoxes[
+                    FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"],
+                     StandardForm]]],
+                   Annotation[#, 
+                    Dynamic[
+                    FEPrivate`FrontEndResource[
+                    "WAStrings", "ShowAllResults"]], "Tooltip"]& ], False->
+                  TagBox[
+                   TooltipBox[
+                    
+                    DynamicBox[FEPrivate`FrontEndResource[
+                    "WABitmaps", "GraySquarePlus"]],
+                    DynamicBox[
+                    ToBoxes[
+                    FEPrivate`FrontEndResource["WAStrings", "ShowAllResults"],
+                     StandardForm]]],
+                   Annotation[#, 
+                    Dynamic[
+                    FEPrivate`FrontEndResource[
+                    "WAStrings", "ShowAllResults"]], "Tooltip"]& ]}, Dynamic[
+                  WolframAlphaClient`Private`show$$],
+                  ImageSize->All],
+                 Appearance->None,
+                 ButtonFunction:>(Quiet[
+                    WolframAlpha[]]; If[
+                    Or[
+                    CurrentValue["OptionKey"], 
+                    CurrentValue["AltKey"]], SelectionMove[
+                    ButtonNotebook[], All, ButtonCell, AutoScroll -> False]; 
+                    NotebookWrite[
+                    ButtonNotebook[], 
+                    Cell[
+                    Typeset`newq$$, "WolframAlphaShort", FormatType -> 
+                    "TextForm"], All], Typeset`open$$ = True; 
+                    WolframAlphaClient`Private`extrudeFromFastParse[
+                    "archive.org", 
+                    Defer[
+                    Entity["InternetDomain", "archive.org"]], "Fast parse"]; 
+                    Typeset`open$$ = False]),
+                 Evaluator->Automatic,
+                 Method->"Queued"],
+                Alignment->{Right, Top},
+                StripOnInput->False]},
+              {
+               PaneBox[
+                TagBox[
+                 TooltipBox[
+                  ButtonBox[
+                   PaneSelectorBox[{False->
+                    StyleBox[
+                    TemplateBox[{"\"archive.org\"",RowBox[{"Entity", "[", 
+                    RowBox[{"\"InternetDomain\"", ",", "\"archive.org\""}], 
+                    "]"}],"\"Entity[\\\"InternetDomain\\\", \\\"archive.org\\\
+\"]\"","\"internet domain\""},
+                    "Entity"],
+                    StripOnInput->False,
+                    NumberMarks->False], True->
+                    StyleBox[
+                    TemplateBox[{"\"archive.org\"",RowBox[{"Entity", "[", 
+                    RowBox[{"\"InternetDomain\"", ",", "\"archive.org\""}], 
+                    "]"}],"\"Entity[\\\"InternetDomain\\\", \\\"archive.org\\\
+\"]\"","\"internet domain\""},
+                    "Entity"],
+                    StripOnInput->False,
+                    ShowSyntaxStyles->False,
+                    NumberMarks->False,
+                    FontColor->RGBColor[1, 0.5, 0]]}, Dynamic[
+                    CurrentValue["MouseOver"]],
+                    BaseStyle->{ShowStringCharacters -> True},
+                    FrameMargins->0,
+                    ImageSize->Automatic],
+                   Alignment->Left,
+                   Appearance->None,
+                   BaseStyle->{},
+                   ButtonFunction:>(SelectionMove[
+                    ButtonNotebook[], All, ButtonCell]; NotebookWrite[
+                    ButtonNotebook[], 
+                    Cell[
+                    BoxData[
+                    TemplateBox[{"\"archive.org\"", 
+                    RowBox[{"Entity", "[", 
+                    RowBox[{"\"InternetDomain\"", ",", "\"archive.org\""}], 
+                    "]"}], "\"Entity[\\\"InternetDomain\\\", \
+\\\"archive.org\\\"]\"", "\"internet domain\""}, "Entity"]], "Input"], All]; 
+                    SelectionMove[
+                    ButtonNotebook[], After, CellContents]),
+                   Evaluator->Automatic,
+                   ImageSize->Automatic,
+                   Method->"Preemptive"],
+                  DynamicBox[
+                   ToBoxes[
+                    FEPrivate`FrontEndResource["WAStrings", "RemoveResults"], 
+                    StandardForm]]],
+                 Annotation[#, 
+                  Dynamic[
+                   FEPrivate`FrontEndResource["WAStrings", "RemoveResults"]], 
+                  "Tooltip"]& ],
+                AppearanceElements->{},
+                BaseStyle->{ShowStringCharacters -> True, ScriptLevel -> 0},
+                ImageSize->{Automatic, {1, 100}},
+                Scrollbars->{False, Automatic}], "\[SpanFromLeft]"}
+             },
+             AutoDelete->False,
+             BaselinePosition->{1, 1},
+             FrameStyle->GrayLevel[0.85],
+             GridBoxAlignment->{"Columns" -> {{Left}}},
+             
+             GridBoxDividers->{
+              "Columns" -> {{False}}, "Rows" -> {False, {True}, False}},
+             
+             GridBoxItemSize->{
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+            "Grid"],
+           Alignment->Top,
+           Background->Dynamic[
+             FEPrivate`If[
+              FEPrivate`And[
+               FEPrivate`SameQ[
+                FEPrivate`Head[Typeset`newq$$], String], 
+               FEPrivate`UnsameQ[Typeset`q$$, Typeset`newq$$]], 
+              RGBColor[1., 0.975, 0.95], 
+              GrayLevel[1]]],
+           BaselinePosition->Baseline,
+           FrameStyle->GrayLevel[0.85],
+           ImageSize->Automatic,
+           RoundingRadius->5,
+           StripOnInput->False],
+          
+          EventHandlerTag[{
+           "MouseEntered" :> 
+            FEPrivate`Set[WolframAlphaClient`Private`show$$, True], 
+            "MouseExited" :> 
+            FEPrivate`Set[WolframAlphaClient`Private`show$$, False], Method -> 
+            "Preemptive", PassEventsDown -> Automatic, PassEventsUp -> True}]],
+         DynamicModuleValues:>{}]},
+       {
+        InterpretationBox[
+         StyleBox[
+          
+          DynamicBox[FEPrivate`FrontEndResource[
+           "FEExpressions", "NecklaceAnimator"][20]],
+          AnimatorBoxOptions->{ImageSize->20}],
+         Animator[Appearance -> "Necklace", ImageSize -> 20],
+         BaseStyle->{"Deploy"}]}
+      },
+      BaselinePosition->{1, 1},
+      DefaultBaseStyle->"Column",
+      GridBoxAlignment->{"Columns" -> {{Left}}},
+      GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+     
+     "Column"]}, Dynamic[
+     TrueQ[Typeset`open$$]],
+    BaseStyle->{Deployed -> True},
+    ImageSize->Automatic],
+   DynamicModuleValues:>{}],
+  BaseStyle->{Deployed -> True},
+  DeleteWithContents->True,
+  Editable->False,
+  SelectWithContents->True]], "WolframAlphaShortInput",
+ CellLabel->"In[51]:=",ExpressionUUID->"9bcc57db-2fb7-4221-bb05-0c519ff000ec"],
+
+Cell[BoxData[
+ RowBox[{"EntityTypeName", "[", 
+  TemplateBox[{"\"archive.org\"",RowBox[{"Entity", "[", 
+      RowBox[{"\"InternetDomain\"", ",", "\"archive.org\""}], "]"}],
+    "\"Entity[\\\"InternetDomain\\\", \\\"archive.org\\\"]\"",
+    "\"internet domain\""},
+   "Entity"], "]"}]], "Input",
+ CellChangeTimes->{{3.652462718927141*^9, 3.652462744038781*^9}, {
+   3.65246287013848*^9, 3.652462870493648*^9}, 3.735051211106472*^9},
+ CellLabel->"In[52]:=",ExpressionUUID->"3c1e98c1-e37b-4def-9418-5f0a2a9d9038"],
+
+Cell[BoxData[
+ RowBox[{"EntityProperties", "[", "\"\<InternetDomain\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.652462749879826*^9, 3.652462757438388*^9}},
+ CellLabel->"In[53]:=",ExpressionUUID->"ac4d1843-a13c-4834-80c4-7a8c942ec529"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Entity", "[", 
+   RowBox[{"\"\<InternetDomain\>\"", ",", "\"\<http://www.archive.org\>\""}], 
+   "]"}], "[", "\"\<SiteAnnualVisitors\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.652462772498166*^9, 3.652462847370491*^9}, {
+  3.7350512208613863`*^9, 3.735051225373247*^9}},
+ CellLabel->"In[54]:=",ExpressionUUID->"2481677c-4a6c-4a28-9311-67639fcf0bd9"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"Entity", "[", 
+    RowBox[{"\"\<InternetDomain\>\"", ",", "\"\<http://www.archive.org\>\""}],
+     "]"}], "[", "\"\<SiteViewsPerSecond\>\"", "]"}], "//", "N"}]], "Input",
+ CellChangeTimes->{{3.652462772498166*^9, 3.652462847370491*^9}, {
+  3.652813487547061*^9, 3.6528134990831137`*^9}, {3.7350512294772167`*^9, 
+  3.735051231068975*^9}},
+ CellLabel->"In[55]:=",ExpressionUUID->"60b56abc-ad4b-4d79-9db0-ded622d7982a"],
+
+Cell["\<\
+You can plot a map showing the physical location of a web server\
+\>", "Text",
+ CellChangeTimes->{{3.652462974157421*^9, 3.652462996804949*^9}, {
+  3.6524630953869743`*^9, 
+  3.65246309608932*^9}},ExpressionUUID->"950c49c3-dc93-426f-839a-\
+73d79d7a0877"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Entity", "[", 
+   RowBox[{"\"\<InternetDomain\>\"", ",", "\"\<http://www.archive.org\>\""}], 
+   "]"}], "[", "\"\<Country\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.652462772498166*^9, 3.652462847370491*^9}, {
+  3.652813451387177*^9, 3.652813452259705*^9}, {3.7350512386928387`*^9, 
+  3.735051240780546*^9}},
+ CellLabel->"In[56]:=",ExpressionUUID->"e6cbd873-edae-4a28-b70f-6da3c227c84d"],
+
+Cell[BoxData[
+ RowBox[{"GeoGraphics", "[", 
+  RowBox[{
+   RowBox[{"Entity", "[", 
+    RowBox[{"\"\<InternetDomain\>\"", ",", "\"\<http://www.archive.org\>\""}],
+     "]"}], "[", "\"\<HostLocation\>\"", "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.652462772498166*^9, 3.652462847370491*^9}, {
+  3.652462944071528*^9, 3.652462963870122*^9}, {3.735051245652546*^9, 
+  3.735051247492386*^9}},
+ CellLabel->"In[57]:=",ExpressionUUID->"271cfdae-dd6d-4473-bf2e-d742044f2ac6"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"6299c8e6-ee40-4022-b55a-192ca6ed9924"],
+
+Cell[CellGroupData[{
+
+Cell["Retrieving information from the web", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.652463119442025*^9, 
+  3.6524631231524487`*^9}},ExpressionUUID->"ff61f7dc-8968-488a-8bf3-\
+f92caf3f3065"],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["Import",
+  FontWeight->"Bold"],
+ " command allows you to retrieve web pages or elements from them. Start by \
+requesting available ",
+ StyleBox["Elements",
+  FontSlant->"Italic"]
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.652463128191985*^9, 
+  3.652463164455007*^9}},ExpressionUUID->"2e07b332-a146-423c-8340-\
+c92b0a83a8a6"],
+
+Cell[BoxData[
+ RowBox[{"Import", "[", 
+  RowBox[{"\"\<http://www.archive.org\>\"", ",", "\"\<Elements\>\""}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.652463170356929*^9, 3.652463181055093*^9}, {
+  3.7350512849558077`*^9, 3.735051288514987*^9}},
+ CellLabel->"In[58]:=",ExpressionUUID->"fb16305d-a1c4-40b9-a3cb-9edcaf0de0b8"],
+
+Cell[BoxData[
+ RowBox[{"Import", "[", 
+  RowBox[{"\"\<http://www.archive.org\>\"", ",", "\"\<Title\>\""}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.652463170356929*^9, 3.652463181055093*^9}, {
+  3.652463300186694*^9, 3.652463300834002*^9}, {3.735051295602713*^9, 
+  3.735051298282506*^9}},
+ CellLabel->"In[59]:=",ExpressionUUID->"c68f1b8d-066f-4e88-a225-3da69fa5cd57"],
+
+Cell["\<\
+Here is a list of all the images on the Internet Archive main page\
+\>", "Text",
+ CellChangeTimes->{{3.652463197742094*^9, 3.652463208733161*^9}, {
+  3.652463280218257*^9, 3.6524632809467382`*^9}, {3.652463312650358*^9, 
+  3.652463313881373*^9}, {3.7350513101297617`*^9, 
+  3.73505131701764*^9}},ExpressionUUID->"2363e998-ce60-4b35-9c92-\
+2aed9b0b7b97"],
+
+Cell[BoxData[
+ RowBox[{"Import", "[", 
+  RowBox[{"\"\<http://www.archive.org\>\"", ",", "\"\<Images\>\""}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.652463170356929*^9, 3.652463181055093*^9}, {
+  3.6524632186536837`*^9, 3.652463219213171*^9}, {3.735051321425721*^9, 
+  3.735051322793642*^9}},
+ CellLabel->"In[60]:=",ExpressionUUID->"43a77f3a-d35e-46d3-a4f6-410e5a271ca2"],
+
+Cell["And all the hyperlinks", "Text",
+ CellChangeTimes->{{3.6524632351726637`*^9, 
+  3.65246323887724*^9}},ExpressionUUID->"72205db5-4576-4561-968c-\
+637b24e91d25"],
+
+Cell[BoxData[
+ RowBox[{"viewData", "[", 
+  RowBox[{"Import", "[", 
+   RowBox[{"\"\<http://www.archive.org\>\"", ",", "\"\<Hyperlinks\>\""}], 
+   "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.6524632493485622`*^9, 3.652463265339966*^9}, {
+  3.735051343240995*^9, 3.735051344824975*^9}},
+ CellLabel->"In[61]:=",ExpressionUUID->"ec68177c-64d7-445a-8f98-fc2816d28e0e"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"cbabba3c-b527-41f8-ac21-b8276643b2ab"],
+
+Cell[CellGroupData[{
+
+Cell["Web page plaintext", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.6524633784160233`*^9, 
+  3.652463384598558*^9}},ExpressionUUID->"5b831b3d-e4d6-44a0-9c1d-\
+71b751adb132"],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["Import",
+  FontWeight->"Bold"],
+ " command also allows us to retrieve the plain text of web pages"
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.652463387190621*^9, 
+  3.652463424421451*^9}},ExpressionUUID->"c3d8d9ed-5a5c-4768-a1f6-\
+c6468e1089ee"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"internetArchivePlaintext", "=", 
+   RowBox[{"Import", "[", 
+    RowBox[{"\"\<http://www.archive.org\>\"", ",", "\"\<Plaintext\>\""}], 
+    "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.6524634283976316`*^9, 3.6524634424455347`*^9}, {
+  3.7350513721278677`*^9, 3.7350513839914722`*^9}},
+ CellLabel->"In[62]:=",ExpressionUUID->"948dd279-ac55-4b53-8086-3b5cd081fde7"],
+
+Cell["\<\
+We can then apply any of the techniques that we have already learned to \
+analyze that text\
+\>", "Text",
+ CellChangeTimes->{{3.6524634470604143`*^9, 
+  3.6524634628521233`*^9}},ExpressionUUID->"5d3215a1-e346-4284-8e46-\
+799ccab7919e"],
+
+Cell[BoxData[
+ RowBox[{"WordCloud", "[", 
+  RowBox[{"DeleteStopwords", "[", 
+   RowBox[{"TextWords", "[", "internetArchivePlaintext", "]"}], "]"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.6524634671250134`*^9, 3.652463494975995*^9}, {
+  3.6524635265706177`*^9, 3.652463540001101*^9}, {3.735051391791094*^9, 
+  3.7350514361255627`*^9}, {3.7350514778010883`*^9, 3.735051486260397*^9}},
+ CellLabel->"In[66]:=",ExpressionUUID->"62740ea6-6f2e-46d5-aafd-2c31bdf9629f"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"95a957f1-8674-4978-a0d5-b08e91254e3e"],
+
+Cell[CellGroupData[{
+
+Cell["Files and directories", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.652463581713134*^9, 
+  3.6524635847756147`*^9}},ExpressionUUID->"718be5a4-e321-4beb-b4ca-\
+60ed853a74d7"],
+
+Cell[TextData[{
+ "Once we have retrieved online information, we usually want to store a copy \
+on our local machine. ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " has a number of commands that allow you to work with files and directories \
+right from your notebook."
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, 
+   3.6524635937949753`*^9, {3.652465038620572*^9, 
+   3.652465055530686*^9}},ExpressionUUID->"f4c286e7-2faa-4ac9-ae3e-\
+654fe2167c20"],
+
+Cell[TextData[{
+ "We can see the current working directory (i.e., folder) with ",
+ StyleBox["Directory",
+  FontWeight->"Bold"],
+ " and change it with ",
+ StyleBox["SetDirectory",
+  FontWeight->"Bold"]
+}], "Text",
+ CellChangeTimes->{{3.6524636398219757`*^9, 3.6524636604690247`*^9}, {
+  3.652463701539085*^9, 
+  3.652463713938698*^9}},ExpressionUUID->"744e190f-d480-4ba6-8cf5-\
+673c719bf229"],
+
+Cell[BoxData[
+ RowBox[{"Directory", "[", "]"}]], "Input",
+ CellChangeTimes->{{3.6524636668140707`*^9, 3.652463668567721*^9}},
+ CellLabel->"In[67]:=",ExpressionUUID->"2e557fb8-b3b7-4a8d-8dd6-467d6c886a06"],
+
+Cell["\<\
+If you are using Windows, your file paths will look a bit different than mine.\
+\>", "Text",
+ CellChangeTimes->{{3.652463722154961*^9, 3.652463737330093*^9}, {
+   3.652896975062345*^9, 3.652896990532344*^9}, 
+   3.6528997006266212`*^9},ExpressionUUID->"9389e72d-e0f1-44c4-a84b-\
+37a7c25de8fe"],
+
+Cell[BoxData[
+ RowBox[{"SetDirectory", "[", "localDownloadFilePath", "]"}]], "Input",
+ CellChangeTimes->{{3.652463676529574*^9, 3.6524636934597597`*^9}, 
+   3.6528996976278763`*^9},
+ CellLabel->"In[68]:=",ExpressionUUID->"45215404-cae8-4522-a091-ed54cbe0c7f6"],
+
+Cell["If a directory doesn\[CloseCurlyQuote]t exist you can create one", \
+"Text",
+ CellChangeTimes->{{3.652463743057499*^9, 
+  3.652463752081518*^9}},ExpressionUUID->"3de74ca6-5df3-41ba-a44d-\
+ae49d18b84fc"],
+
+Cell[BoxData[
+ RowBox[{"If", "[", 
+  RowBox[{
+   RowBox[{"Not", "[", 
+    RowBox[{"DirectoryQ", "[", 
+     RowBox[{"localDownloadFilePath", "<>", "\"\<temp\>\""}], "]"}], "]"}], 
+   ",", 
+   RowBox[{"CreateDirectory", "[", 
+    RowBox[{"localDownloadFilePath", "<>", "\"\<temp\>\""}], "]"}]}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.644595512597419*^9, 3.644595533932564*^9}, {
+  3.644595567171823*^9, 3.6445955859703836`*^9}, {3.6528997089134007`*^9, 
+  3.652899722785116*^9}, {3.652900096037068*^9, 3.652900111138836*^9}},
+ CellLabel->"In[69]:=",ExpressionUUID->"5c3bbc7d-dba1-46d5-8445-90464447a1a9"],
+
+Cell[TextData[{
+ "You can list the files in a particular directory with ",
+ StyleBox["FileNames",
+  FontWeight->"Bold"]
+}], "Text",
+ CellChangeTimes->{{3.65246377048139*^9, 
+  3.652463782216486*^9}},ExpressionUUID->"78b13be8-aef8-4c89-83ab-\
+16e53dcaea41"],
+
+Cell[BoxData[
+ RowBox[{"FileNames", "[", "]"}]], "Input",
+ CellChangeTimes->{{3.652463788098797*^9, 3.652463790825091*^9}},
+ CellLabel->"In[70]:=",ExpressionUUID->"2210c903-e077-49ef-ad94-742eedc0e757"],
+
+Cell[BoxData[
+ RowBox[{"FileNames", "[", "\"\<*.pdf\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.652463791714336*^9, 3.6524637981359787`*^9}},
+ CellLabel->"In[71]:=",ExpressionUUID->"9697c981-eb24-4abd-96f3-c3abbc70fd1e"],
+
+Cell[BoxData[
+ RowBox[{"FileNames", "[", "\"\<*.txt\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.652463791714336*^9, 3.6524637981359787`*^9}, {
+  3.652900156018221*^9, 3.652900157497418*^9}},
+ CellLabel->"In[72]:=",ExpressionUUID->"217b4281-066a-45d6-ae57-a41f911b35d7"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"2c9d9e12-1c09-47d1-853f-1ebae0e914d6"],
+
+Cell[CellGroupData[{
+
+Cell["Downloading a text file", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.652463897013597*^9, 
+  3.652463899885069*^9}},ExpressionUUID->"9abd894f-5df0-4933-8325-\
+e252c25b852b"],
+
+Cell[TextData[{
+ "There are more than 50000 freely available e-books at Project Gutenberg. \
+Since these have been typed in by human volunteers, the quality tends to be \
+good, and each is available in plain text form. Here is a link to a 1920 work \
+by Joseph J. Mereto, ",
+ StyleBox["The Red Conspiracy",
+  FontSlant->"Italic"],
+ "."
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.6528070806679296`*^9, 3.652807164454891*^9}, {3.652807213812855*^9, 
+  3.6528072201089077`*^9}, {3.6528072985866756`*^9, 3.652807342096496*^9}, {
+  3.7350515323149843`*^9, 
+  3.735051575656344*^9}},ExpressionUUID->"3f39d1f0-1255-477c-a572-\
+fe6f3e74e644"],
+
+Cell[TextData[ButtonBox["http://www.gutenberg.org/cache/epub/19150/pg19150.\
+txt",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["http://www.gutenberg.org/cache/epub/19150/pg19150.txt"], None},
+ ButtonNote->"http://www.gutenberg.org/cache/epub/19150/pg19150.txt"]], "Text",\
+
+ CellChangeTimes->{{3.735051599900798*^9, 
+  3.735051607758027*^9}},ExpressionUUID->"e2bb35fc-fd4e-40c7-ae07-\
+13a48839ccba"],
+
+Cell[TextData[{
+ "We could use ",
+ StyleBox["Import",
+  FontWeight->"Bold"],
+ " with the \[OpenCurlyDoubleQuote]Plaintext\[CloseCurlyDoubleQuote] option \
+and save the text directly to a symbol, as shown in the next cell. (N.B. \
+Since I didn\[CloseCurlyQuote]t want this cell to automatically evaluate, I \
+turned off \[OpenCurlyDoubleQuote]Evaluatable\[CloseCurlyDoubleQuote] in the \
+Cell Properties menu under Cell.)"
+}], "Text",
+ CellChangeTimes->{{3.6528071923581676`*^9, 3.6528072091330767`*^9}, {
+  3.652807362191491*^9, 3.652807375294854*^9}, {3.6528074326217957`*^9, 
+  3.6528074327891607`*^9}, {3.684855055729269*^9, 
+  3.684855161124712*^9}},ExpressionUUID->"10d036a2-9fe6-4e76-a1e2-\
+94c2b91c7733"],
+
+Cell[BoxData[
+ RowBox[{"Import", "[", 
+  RowBox[{
+  "\"\<http://www.gutenberg.org/cache/epub/19150/pg19150.txt\>\"", ",", " ", 
+   "\"\<Plaintext\>\""}], "]"}]], "Code",
+ Evaluatable->False,
+ CellChangeTimes->{{3.652807414605782*^9, 3.652807441738329*^9}, {
+   3.684855000848843*^9, 3.684855000849465*^9}, 
+   3.7350516469877167`*^9},ExpressionUUID->"8a5ed4ae-139f-47cc-a0e2-\
+1b8a48e3b844"],
+
+Cell[TextData[{
+ "Instead we are going to use the ",
+ StyleBox["URLSave",
+  FontWeight->"Bold"],
+ " command to save the file directly to our local machine. ",
+ StyleBox["Note that you must change the file path to a location on your \
+computer.",
+  FontSlant->"Italic"]
+}], "Text",
+ CellChangeTimes->{{3.652807381166678*^9, 3.652807383894843*^9}, {
+  3.6528074477809963`*^9, 3.652807450748316*^9}, {3.652807492946747*^9, 
+  3.652807537457295*^9}},ExpressionUUID->"65315e2f-419d-46be-b101-\
+44893b93c28e"],
+
+Cell[BoxData[
+ RowBox[{"URLSave", "[", 
+  RowBox[{
+  "\"\<http://www.gutenberg.org/cache/epub/19150/pg19150.txt\>\"", ",", 
+   RowBox[{"FileNameJoin", "[", 
+    RowBox[{"{", 
+     RowBox[{"localDownloadFilePath", ",", "\"\<mereto.txt\>\""}], "}"}], 
+    "]"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6404531645863657`*^9, 3.640453177225417*^9}, {
+   3.6404532392426023`*^9, 3.640453252598781*^9}, {3.640453332324367*^9, 
+   3.640453373242258*^9}, {3.64045345209636*^9, 3.640453453095564*^9}, {
+   3.640453594611061*^9, 3.6404535984827967`*^9}, 3.6404539529742727`*^9, 
+   3.640454002341669*^9, 3.640454054773275*^9, {3.6430409251412983`*^9, 
+   3.643040943391324*^9}, {3.64304113004578*^9, 3.643041132016547*^9}, {
+   3.652807471968218*^9, 3.6528074898431883`*^9}, {3.6528997515054197`*^9, 
+   3.6528997519768143`*^9}, {3.735051671685857*^9, 3.735051676794527*^9}},
+ CellLabel->"In[73]:=",ExpressionUUID->"28af24cd-8c0e-4d5e-a5df-4d2ea53c03d4"],
+
+Cell[TextData[{
+ "We can now check to make sure the file is there. When I downloaded it, I \
+changed the file name to ",
+ StyleBox["mereto.txt",
+  FontSlant->"Italic"],
+ " "
+}], "Text",
+ CellChangeTimes->{{3.644597382370234*^9, 3.644597398354122*^9}, {
+  3.652807555385264*^9, 3.6528075759999323`*^9}, {3.7350516834853992`*^9, 
+  3.735051684212222*^9}},ExpressionUUID->"568db7ae-e5aa-4f6c-b0c9-\
+c4bab6b6137f"],
+
+Cell[BoxData[
+ RowBox[{"FileNames", "[", 
+  RowBox[{"\"\<*.txt\>\"", ",", "localDownloadFilePath"}], "]"}]], "Input",
+ CellChangeTimes->{{3.644597404632413*^9, 3.644597417589155*^9}, {
+  3.65289975964835*^9, 3.652899760128626*^9}},
+ CellLabel->"In[74]:=",ExpressionUUID->"7aa2fbbe-2eb6-49f5-8f26-6ee88e44e4ac"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"81d7c655-f1e1-4f97-b41f-278eec9ea960"],
+
+Cell[CellGroupData[{
+
+Cell["Trimming a text", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.6528079415472403`*^9, 3.652807944962501*^9}, {3.6528114037669077`*^9, 
+  3.6528114043251743`*^9}},ExpressionUUID->"f9cd02b3-9317-46fd-a273-\
+f5c9767d44fb"],
+
+Cell[CellGroupData[{
+
+Cell["Header and Footer", "Subsection",
+ CellChangeTimes->{{3.652811405769665*^9, 
+  3.652811410460661*^9}},ExpressionUUID->"736d22ea-7bcd-4c82-88b0-\
+d164c620bd5a"],
+
+Cell[TextData[{
+ "If we want to assign the text to a symbol, we can now use the ",
+ StyleBox["Import",
+  FontWeight->"Bold"],
+ " command. Rather than importing from the web, however, we are importing our \
+local copy."
+}], "Text",
+ CellChangeTimes->{{3.65280758935175*^9, 3.65280759085528*^9}, {
+  3.6528078496790648`*^9, 
+  3.65280788962047*^9}},ExpressionUUID->"6a9b8e17-5b94-40ae-b707-\
+f45aa4e15577"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"mereto", "=", 
+   RowBox[{"Import", "[", 
+    RowBox[{"FileNameJoin", "[", 
+     RowBox[{"{", 
+      RowBox[{"localDownloadFilePath", ",", "\"\<mereto.txt\>\""}], "}"}], 
+     "]"}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.6528078958766403`*^9, 3.6528079304747677`*^9}, {
+  3.652899779185812*^9, 3.652899784966614*^9}, {3.652899922459062*^9, 
+  3.652899926609612*^9}, {3.735051716557033*^9, 3.735051722907241*^9}},
+ CellLabel->"In[75]:=",ExpressionUUID->"e1e27867-d77b-4d02-a212-03f6fe9a55bb"],
+
+Cell[TextData[{
+ "If we use ",
+ StyleBox["viewData",
+  FontSlant->"Italic"],
+ " to have a look at the file, we can see that it has a Project Gutenberg \
+header and footer"
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+   3.652807738011359*^9, 3.6528077418258753`*^9}, {3.65280797392117*^9, 
+   3.652807999824375*^9}, {3.65280805326433*^9, 3.6528080558704844`*^9}, 
+   3.652810620858234*^9},ExpressionUUID->"6c1d395b-3455-4eae-8ae2-\
+6ad7975a637d"],
+
+Cell[BoxData[
+ RowBox[{"viewData", "[", "mereto", "]"}]], "Input",
+ CellChangeTimes->{{3.652810611564897*^9, 3.652810615729534*^9}, {
+  3.735051729602847*^9, 3.7350517314748*^9}},
+ CellLabel->"In[76]:=",ExpressionUUID->"c164989d-f312-4a66-af64-59d6fcbbe862"],
+
+Cell["\<\
+Here are the character positions of the beginning and end of the text. The \
+third token of the title marks the beginning of the text proper.\
+\>", "Text",
+ CellChangeTimes->{{3.6528106263606977`*^9, 3.6528106944785843`*^9}, {
+  3.652810840632969*^9, 3.652810852576907*^9}, {3.735051839263761*^9, 
+  3.735051861926044*^9}},ExpressionUUID->"83cbbe89-b9b6-48ad-95c6-\
+d5c9655c903f"],
+
+Cell[BoxData[
+ RowBox[{"StringPosition", "[", 
+  RowBox[{"mereto", ",", "\"\<The Red Conspiracy\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.652810700190961*^9, 3.6528107064222393`*^9}, {
+  3.65281081457817*^9, 3.652810826025922*^9}, {3.735051804928998*^9, 
+  3.7350518130399027`*^9}},
+ CellLabel->"In[77]:=",ExpressionUUID->"c4c6f1b9-d31f-43a4-90cc-d619ccef1d91"],
+
+Cell["This is the end of the text.", "Text",
+ CellChangeTimes->{{3.6528108978870153`*^9, 
+  3.652810906982911*^9}},ExpressionUUID->"ef791892-d6bd-49f7-a62d-\
+f473ad9004c8"],
+
+Cell[BoxData[
+ RowBox[{"StringPosition", "[", 
+  RowBox[{"mereto", ",", "\"\<End of the Project Gutenberg EBook\>\""}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.652810700190961*^9, 3.6528107064222393`*^9}, {
+  3.65281081457817*^9, 3.652810826025922*^9}, {3.6528108906964006`*^9, 
+  3.652810893063632*^9}, {3.7350518992216177`*^9, 3.735051910548246*^9}},
+ CellLabel->"In[78]:=",ExpressionUUID->"8f314d02-87c1-4a93-8481-585e5023bebd"],
+
+Cell["\<\
+Here is how we trim the text from between the markers we have identified.\
+\>", "Text",
+ CellChangeTimes->{{3.7350519202525387`*^9, 
+  3.735051935931265*^9}},ExpressionUUID->"bf48a6f3-2da0-4259-969b-\
+d155e7ee6add"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"meretoTrimmed", "=", 
+   RowBox[{"StringTake", "[", 
+    RowBox[{"mereto", ",", 
+     RowBox[{"{", 
+      RowBox[{"626", ",", "995974"}], "}"}]}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.652810910575865*^9, 3.6528109332539682`*^9}, {
+  3.735051940299163*^9, 3.735051982890478*^9}},
+ CellLabel->"In[81]:=",ExpressionUUID->"9cf05490-84e8-4cac-b7e3-38f7ff9a971f"],
+
+Cell[BoxData[
+ RowBox[{"viewData", "[", "meretoTrimmed", "]"}]], "Input",
+ CellChangeTimes->{{3.735051944395919*^9, 3.735051950338567*^9}},
+ CellLabel->"In[82]:=",ExpressionUUID->"89d4815f-00ef-4a8a-b0bc-a904410fcf7b"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[StyleBox["The Introduction",
+ FontSlant->"Italic"]], "Subsection",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.6528109914926577`*^9, 3.652810993283793*^9}, {3.735052001161704*^9, 
+  3.7350520026888657`*^9}},ExpressionUUID->"29b50dda-9879-4066-9f6e-\
+3b7bd35ed39a"],
+
+Cell["\<\
+We can use a similar technique to extract a portion of the text. Here we clip \
+out the introduction.\
+\>", "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.652807623047297*^9, 3.652807685399632*^9}, {3.652810807483226*^9, 
+  3.652810810130455*^9}, {3.6528109989234247`*^9, 3.6528110213868427`*^9}, {
+  3.735052007832778*^9, 
+  3.735052009360465*^9}},ExpressionUUID->"be524442-e3de-419e-a57a-\
+2510bd401b3b"],
+
+Cell[BoxData[
+ RowBox[{"StringPosition", "[", 
+  RowBox[{"mereto", ",", "\"\<INTRODUCTION\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.652810700190961*^9, 3.6528107064222393`*^9}, {
+  3.65281081457817*^9, 3.652810826025922*^9}, {3.652811090169264*^9, 
+  3.652811091656373*^9}, {3.7350520313767157`*^9, 3.7350520386006403`*^9}},
+ CellLabel->"In[83]:=",ExpressionUUID->"31642bfb-a117-4b18-be9b-3317acb1ab0e"],
+
+Cell[BoxData[
+ RowBox[{"StringPosition", "[", 
+  RowBox[{"mereto", ",", "\"\<CONTENTS\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.652810700190961*^9, 3.6528107064222393`*^9}, {
+  3.65281081457817*^9, 3.652810826025922*^9}, {3.652811090169264*^9, 
+  3.652811091656373*^9}, {3.652811184509705*^9, 3.6528111873649607`*^9}, {
+  3.735052045063493*^9, 3.735052057686885*^9}},
+ CellLabel->"In[84]:=",ExpressionUUID->"9e8bf709-ce81-4080-9102-6ab6264bd28b"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"meretoIntroduction", "=", 
+   RowBox[{"StringTake", "[", 
+    RowBox[{"mereto", ",", 
+     RowBox[{"{", 
+      RowBox[{"1299", ",", "10933"}], "}"}]}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.652811190185861*^9, 3.652811224547279*^9}, {
+  3.73505206387868*^9, 3.735052083581884*^9}},
+ CellLabel->"In[85]:=",ExpressionUUID->"55c6e209-506d-404a-9743-04c461d0128f"],
+
+Cell[TextData[{
+ "We can use ",
+ StyleBox["viewData",
+  FontSlant->"Italic"],
+ " to make sure that we clipped out the correct part of the book"
+}], "Text",
+ CellChangeTimes->{{3.684855242970544*^9, 
+  3.684855271840733*^9}},ExpressionUUID->"5f2d1427-92fc-4b08-a9d0-\
+553cec1805bd"],
+
+Cell[BoxData[
+ RowBox[{"viewData", "[", "meretoIntroduction", "]"}]], "Input",
+ CellChangeTimes->{{3.68485522189073*^9, 3.684855229682455*^9}, {
+  3.735052090445724*^9, 3.735052093000836*^9}},
+ CellLabel->"In[86]:=",ExpressionUUID->"04ee857c-e1d6-412d-b80a-231808c5fc9b"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"7fcbd782-47f7-44cb-8149-9ac0fa996d2c"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "Activity - ",
+ StyleBox["First on the Moon",
+  FontSlant->"Italic"]
+}], "Section",
+ CellChangeTimes->{{3.647716402186221*^9, 3.647716405353856*^9}, {
+  3.68485545493895*^9, 3.6848554599393682`*^9}, {3.735052157525015*^9, 
+  3.7350521595392447`*^9}},ExpressionUUID->"8310c1fd-fd31-4bfc-b5b1-\
+06ece69e59a1"],
+
+Cell[TextData[{
+ "For this activity we will be using ",
+ StyleBox["First on the Moon",
+  FontSlant->"Italic"],
+ " by Jeff Sutton (Ace Books, 1958)."
+}], "Text",
+ CellChangeTimes->{{3.684855500905425*^9, 3.68485555257479*^9}, {
+  3.735052163523096*^9, 
+  3.735052185066346*^9}},ExpressionUUID->"95fa9e62-6c22-4845-94b8-\
+19c617b3d462"],
+
+Cell[TextData[ButtonBox["http://www.gutenberg.org/cache/epub/43235/pg43235.\
+txt",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["http://www.gutenberg.org/cache/epub/43235/pg43235.txt"], None},
+ ButtonNote->"http://www.gutenberg.org/cache/epub/43235/pg43235.txt"]], "Text",\
+
+ CellChangeTimes->{{3.735052201318778*^9, 
+  3.735052206673596*^9}},ExpressionUUID->"24a8edfd-ff53-41d5-9583-\
+a3ebbad15f09"],
+
+Cell[BoxData[
+ RowBox[{"Import", "[", 
+  "\"\<http://www.gutenberg.org/cache/epub/43235/pg43235.cover.medium.jpg\>\"\
+", "]"}]], "Input",
+ CellChangeTimes->{{3.735052247015346*^9, 3.735052256159666*^9}},
+ CellLabel->"In[87]:=",ExpressionUUID->"381b9b26-5cb6-4bc3-ab60-9b1805423d13"],
+
+Cell[CellGroupData[{
+
+Cell["Retrieving the file", "Subsubsection",
+ CellChangeTimes->{{3.652809269817828*^9, 3.652809273322113*^9}}],
+
+Cell[TextData[{
+ "Use ",
+ StyleBox["URLSave",
+  FontWeight->"Bold"],
+ " to create a local copy of ",
+ StyleBox["First on the Moon",
+  FontSlant->"Italic"],
+ " and then use the ",
+ StyleBox["Import",
+  FontWeight->"Bold"],
+ " command on your local copy to assign the text to a symbol."
+}], "Text",
+ CellChangeTimes->{{3.6528081001021423`*^9, 3.652808160586626*^9}, {
+  3.735052294048112*^9, 
+  3.7350522995182047`*^9}},ExpressionUUID->"fb599924-1c6e-460a-9c03-\
+6bdfdc9cdce3"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"URLSave", "[", 
+   RowBox[{
+   "\"\<http://www.gutenberg.org/cache/epub/43235/pg43235.txt\>\"", ",", 
+    RowBox[{"FileNameJoin", "[", 
+     RowBox[{"{", 
+      RowBox[{"localDownloadFilePath", ",", "\"\<firstonthemoon.txt\>\""}], 
+      "}"}], "]"}]}], "]"}], ";"}]], "Input",
+ CellChangeTimes->{{3.6404531645863657`*^9, 3.640453177225417*^9}, {
+   3.6404532392426023`*^9, 3.640453252598781*^9}, {3.640453332324367*^9, 
+   3.640453373242258*^9}, {3.64045345209636*^9, 3.640453453095564*^9}, {
+   3.640453594611061*^9, 3.6404535984827967`*^9}, 3.6404539529742727`*^9, 
+   3.640454002341669*^9, 3.640454054773275*^9, {3.6430409251412983`*^9, 
+   3.643040943391324*^9}, {3.64304113004578*^9, 3.643041132016547*^9}, {
+   3.652807471968218*^9, 3.6528074898431883`*^9}, {3.652808694300765*^9, 
+   3.652808715414109*^9}, {3.652899856189983*^9, 3.652899856597155*^9}, {
+   3.73505231389946*^9, 3.7350523199897127`*^9}},
+ CellLabel->"In[88]:=",ExpressionUUID->"a5346c7e-7bf2-42aa-b644-d21f18a2b394"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"firstOnTheMoon", "=", 
+   RowBox[{"Import", "[", 
+    RowBox[{"FileNameJoin", "[", 
+     RowBox[{"{", 
+      RowBox[{"localDownloadFilePath", ",", "\"\<firstonthemoon.txt\>\""}], 
+      "}"}], "]"}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.65280872039176*^9, 3.6528087465729237`*^9}, {
+  3.6528998618779993`*^9, 3.652899897099634*^9}, {3.73505232906921*^9, 
+  3.735052341700588*^9}},
+ CellLabel->"In[89]:=",ExpressionUUID->"a5267731-372e-4077-840a-3c9e1e99294f"],
+
+Cell[BoxData[
+ RowBox[{"viewData", "[", "firstOnTheMoon", "]"}]], "Input",
+ CellChangeTimes->{{3.652808748518599*^9, 3.6528087528860207`*^9}, {
+  3.735052345020565*^9, 3.7350523475644903`*^9}},
+ CellLabel->"In[90]:=",ExpressionUUID->"5c1b4c04-e750-4dcc-a69f-c956f445d4bf"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Trimming the header and footer", "Subsubsection",
+ CellChangeTimes->{{3.652809260850271*^9, 3.652809265402318*^9}}],
+
+Cell["\<\
+Trim off the Project Gutenberg header and footer and assign the remaining \
+text to another symbol.\
+\>", "Text",
+ CellChangeTimes->{{3.652808216256844*^9, 3.652808247783359*^9}}],
+
+Cell["Find the text starting position", "Text",
+ CellChangeTimes->{{3.652808907807158*^9, 3.6528089225189123`*^9}, {
+  3.7350524111225767`*^9, 
+  3.735052415761857*^9}},ExpressionUUID->"aa634117-49de-419b-901a-\
+ab3b5589803a"],
+
+Cell[BoxData[
+ RowBox[{"StringPosition", "[", 
+  RowBox[{"firstOnTheMoon", ",", "\"\<FIRST on the MOON\>\""}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.652808830700344*^9, 3.652808840657975*^9}, {
+  3.652808888521091*^9, 3.652808893688095*^9}, {3.735052390259139*^9, 
+  3.735052401490415*^9}},
+ CellLabel->"In[91]:=",ExpressionUUID->"fa174cfc-ae67-4f7e-91c9-2cb46c038fd2"],
+
+Cell["\<\
+The text ends with the phrase \[OpenCurlyDoubleQuote]Secretary-General of the \
+United Nations.\[CloseCurlyDoubleQuote]\
+\>", "Text",
+ CellChangeTimes->{{3.652808962685635*^9, 3.652809003995885*^9}, {
+  3.735052468752002*^9, 
+  3.735052484339919*^9}},ExpressionUUID->"8a78fe2c-bfde-40f7-a11a-\
+ee627fd459b0"],
+
+Cell[BoxData[
+ RowBox[{"StringPosition", "[", 
+  RowBox[{
+  "firstOnTheMoon", ",", "\"\<Secretary-General of the United Nations.\>\""}],
+   "]"}]], "Input",
+ CellChangeTimes->{{3.652808830700344*^9, 3.652808840657975*^9}, {
+  3.652808888521091*^9, 3.652808893688095*^9}, {3.652808976613592*^9, 
+  3.6528089797648563`*^9}, {3.73505248786419*^9, 3.735052502699538*^9}},
+ CellLabel->"In[92]:=",ExpressionUUID->"8bdc5493-5d7f-4ced-8158-4484792a86a3"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"firstOnTheMoonTrimmed", "=", 
+   RowBox[{"StringTake", "[", 
+    RowBox[{"firstOnTheMoon", ",", 
+     RowBox[{"{", 
+      RowBox[{"631", ",", "330959"}], "}"}]}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.652809011100312*^9, 3.652809072721531*^9}, {
+  3.73505250899154*^9, 3.73505253409376*^9}},
+ CellLabel->"In[93]:=",ExpressionUUID->"3d258f6b-857b-467b-93f0-fb12650b935e"],
+
+Cell[BoxData[
+ RowBox[{"viewData", "[", "firstOnTheMoonTrimmed", "]"}]], "Input",
+ CellChangeTimes->{{3.735052536830326*^9, 3.735052542358073*^9}},
+ CellLabel->"In[94]:=",ExpressionUUID->"1837cdf6-7b59-408f-8427-2f09c867e9fc"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Extracting the Back Cover Blurb", "Subsubsection",
+ CellChangeTimes->{{3.7350528209469423`*^9, 
+  3.735052829858787*^9}},ExpressionUUID->"68c9d650-bab2-4fa2-bf00-\
+11a1869bdf8e"],
+
+Cell[BoxData[
+ RowBox[{"StringPosition", "[", 
+  RowBox[{"firstOnTheMoon", ",", "\"\<SCIENCE-FICTION AT ITS BEST\>\""}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.652808830700344*^9, 3.652808840657975*^9}, {
+  3.652808888521091*^9, 3.652808893688095*^9}, {3.652809173686469*^9, 
+  3.652809175285756*^9}, {3.735052607251259*^9, 3.735052613562874*^9}, {
+  3.7350528549793253`*^9, 3.735052859249844*^9}},
+ CellLabel->
+  "In[101]:=",ExpressionUUID->"dc3cf938-50e4-4d0b-88af-af93ad709b7e"],
+
+Cell[BoxData[
+ RowBox[{"StringPosition", "[", 
+  RowBox[{"firstOnTheMoon", ",", "\"\<AN ACE BOOK\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.652808830700344*^9, 3.652808840657975*^9}, {
+  3.652808888521091*^9, 3.652808893688095*^9}, {3.652809173686469*^9, 
+  3.652809175285756*^9}, {3.735052607251259*^9, 3.735052613562874*^9}, {
+  3.7350528549793253`*^9, 3.7350528880327063`*^9}},
+ CellLabel->
+  "In[102]:=",ExpressionUUID->"6c555ade-ac32-461d-a39a-1a89c18850aa"],
+
+Cell[BoxData[
+ RowBox[{"StringTake", "[", 
+  RowBox[{"firstOnTheMoon", ",", 
+   RowBox[{"{", 
+    RowBox[{"331988", ",", "332983"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.735052892050439*^9, 3.7350529321991177`*^9}, {
+  3.7350530413010187`*^9, 3.735053046908372*^9}},
+ CellLabel->
+  "In[108]:=",ExpressionUUID->"23dd38d4-5538-4c87-b3da-a7b16d12b2ec"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Extracting the Information about the Author", "Subsubsection",
+ CellChangeTimes->{{3.6528091364554663`*^9, 3.652809156390334*^9}, {
+  3.7350525601815*^9, 
+  3.735052563860461*^9}},ExpressionUUID->"4de5be88-9552-4449-ac10-\
+97e6127df7a2"],
+
+Cell[TextData[{
+ "Use ",
+ StyleBox["StringTake",
+  FontWeight->"Bold"],
+ " to extract the information about the author. "
+}], "Text",
+ CellChangeTimes->{{3.652808443168586*^9, 3.652808544596665*^9}, {
+   3.652808649576521*^9, 3.652808663240324*^9}, {3.65280956555184*^9, 
+   3.652809566367497*^9}, 3.684855610151287*^9, {3.7350525999153757`*^9, 
+   3.735052603883101*^9}, 
+   3.735052675192391*^9},ExpressionUUID->"f0476f78-2042-4ef6-b142-\
+582773a442d0"],
+
+Cell[BoxData[
+ RowBox[{"StringPosition", "[", 
+  RowBox[{"firstOnTheMoon", ",", "\"\<Jeff Sutton\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.652808830700344*^9, 3.652808840657975*^9}, {
+  3.652808888521091*^9, 3.652808893688095*^9}, {3.652809173686469*^9, 
+  3.652809175285756*^9}, {3.735052607251259*^9, 3.735052613562874*^9}},
+ CellLabel->"In[95]:=",ExpressionUUID->"c6330e7d-a94d-4ada-a69d-4d2d563066f3"],
+
+Cell[BoxData[
+ RowBox[{"StringPosition", "[", 
+  RowBox[{"firstOnTheMoon", ",", "\"\<my desire to write\>\""}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.652808830700344*^9, 3.652808840657975*^9}, {
+  3.652808888521091*^9, 3.652808893688095*^9}, {3.652809173686469*^9, 
+  3.652809175285756*^9}, {3.652809209333115*^9, 3.652809210372431*^9}, {
+  3.735052655393461*^9, 3.7350526614284763`*^9}},
+ CellLabel->"In[96]:=",ExpressionUUID->"f5786ec7-4976-4fb2-aefa-e5d6206768be"],
+
+Cell[BoxData[
+ RowBox[{"StringTake", "[", 
+  RowBox[{"firstOnTheMoon", ",", 
+   RowBox[{"{", 
+    RowBox[{"331008", ",", "331924"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.652809215224105*^9, 3.65280924217144*^9}, {
+   3.735052671057526*^9, 3.735052696687767*^9}, {3.735052750456081*^9, 
+   3.735052784437604*^9}, 3.735053033333459*^9},
+ CellLabel->
+  "In[106]:=",ExpressionUUID->"ef667f74-6a0d-4ad5-9e30-65d79cf55cac"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Word frequencies", "Subsection",
+ CellChangeTimes->{{3.652809283513912*^9, 3.65280929091333*^9}}],
+
+Cell[BoxData[
+ RowBox[{"WordCloud", "[", 
+  RowBox[{"DeleteStopwords", "[", 
+   RowBox[{"TextWords", "[", "firstOnTheMoonTrimmed", "]"}], "]"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.652809294316485*^9, 3.652809321016053*^9}, {
+  3.6528094392606983`*^9, 3.652809439939389*^9}, {3.735052982278026*^9, 
+  3.735052987847715*^9}},
+ CellLabel->
+  "In[105]:=",ExpressionUUID->"35aef1bd-8ab9-448a-93a6-469197a7e93c"],
+
+Cell["\<\
+Try using some of the techniques that you have already learned (e.g., text \
+search, KWIC / concordance, named entities) to explore this book further.\
+\>", "Text",
+ CellChangeTimes->{{3.6848561025478487`*^9, 3.684856140105818*^9}, {
+   3.684856198737462*^9, 3.6848562204950743`*^9}, 
+   3.735053107394388*^9},ExpressionUUID->"6f75ddb7-963f-418e-b42d-\
+f84f9a5715e9"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"a82d3fa4-39d0-4e35-90b2-089c4a1ef841"],
+
+Cell[CellGroupData[{
+
+Cell["Batch downloading from a scraped list of links", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+   3.65281278132443*^9, 3.652812785715391*^9}, {3.652813079882297*^9, 
+   3.652813087528636*^9}, {3.652896889640319*^9, 3.652896890575815*^9}, 
+   3.652897379806121*^9}],
+
+Cell[TextData[{
+ "We start by downloading a batch of files that are linked to from another \
+web page. The technique of pulling links from a web page is known as web ",
+ StyleBox["scraping",
+  FontSlant->"Italic"],
+ "."
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+   3.652807635174065*^9, 3.652807641549488*^9}, 3.652807683278205*^9, {
+   3.652810715054469*^9, 3.652810745372793*^9}, {3.652812791715114*^9, 
+   3.652812816146441*^9}, {3.652813098680045*^9, 3.652813119255653*^9}}],
+
+Cell[TextData[{
+ "The Project Gutenberg terms of use ",
+ StyleBox["forbid",
+  FontWeight->"Bold"],
+ " automated downloading from their site, so we will use Project Gutenberg \
+texts that have been stored in the Internet Archive instead."
+}], "Text",
+ CellChangeTimes->{{3.652897011027967*^9, 3.65289704974603*^9}}],
+
+Cell[TextData[{
+ "Here are three volumes from the House Committee on Un-American Activities \
+(HUAC) ",
+ StyleBox["Investigation of Communist Activities in Seattle, Wash., Area ",
+  FontSlant->"Italic"],
+ "(1955)"
+}], "Text",
+ CellChangeTimes->{{3.735053246867971*^9, 3.735053371455038*^9}, {
+  3.735053407125856*^9, 
+  3.735053408037714*^9}},ExpressionUUID->"3132be52-f526-45a0-95e7-\
+e83acc899f3c"],
+
+Cell[TextData[ButtonBox["https://archive.org/search.php?query=un-American+\
+activities&&and[]=collection %3 A %22 gutenberg %22",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://archive.org/search.php?query=un-American+activities&&and[]=\
+collection%3A%22gutenberg%22"], None},
+ ButtonNote->
+  "https://archive.org/search.php?query=un-American+activities&&and[]=\
+collection%3A%22gutenberg%22"]], "Text",
+ CellChangeTimes->{
+  3.735053190684669*^9, {3.735053222209584*^9, 
+   3.7350532222122173`*^9}},ExpressionUUID->"d9f69e2c-e00d-4485-965c-\
+0d638435ceaf"],
+
+Cell["We can retrieve the hyperlinks with the following command", "Text",
+ CellChangeTimes->{{3.735053471523932*^9, 
+  3.7350534849867373`*^9}},ExpressionUUID->"7e477449-4aa9-4aae-8d71-\
+c9eaa0117fea"],
+
+Cell[BoxData[
+ RowBox[{"viewData", "[", 
+  RowBox[{"Import", "[", 
+   RowBox[{
+   "\"\<https://archive.org/search.php?query=un-American+activities&&and[]=\
+collection%3A%22gutenberg%22\>\"", ",", "\"\<Hyperlinks\>\""}], "]"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.735053497491338*^9, 3.735053522154543*^9}},
+ CellLabel->
+  "In[110]:=",ExpressionUUID->"856e7b83-ddc9-4e63-a6ee-784d03eafc83"],
+
+Cell[TextData[{
+ "Now we pull out all of the Internet Archive identifiers. Note that we use \
+",
+ StyleBox["StringCases",
+  FontWeight->"Bold"],
+ " to get links that look a particular way, and then a named pattern to \
+extract just the ID number..."
+}], "Text",
+ CellChangeTimes->{{3.652812151354623*^9, 3.652812164073615*^9}, {
+  3.652813535298112*^9, 3.652813569463516*^9}, {3.65289716751861*^9, 
+  3.652897183141117*^9}}],
+
+Cell[BoxData[
+ RowBox[{"huacIDs", "=", 
+  RowBox[{"Flatten", "[", 
+   RowBox[{"StringCases", "[", 
+    RowBox[{
+     RowBox[{"Import", "[", 
+      RowBox[{
+      "\"\<https://archive.org/search.php?query=un-American+activities&&and[]=\
+collection%3A%22gutenberg%22\>\"", ",", "\"\<Hyperlinks\>\""}], "]"}], ",", 
+     RowBox[{
+      RowBox[{"\"\<https://archive.org/details/\>\"", "~~", 
+       RowBox[{"id", ":", 
+        RowBox[{"{", 
+         RowBox[{
+         "\"\<investigationofc\>\"", "~~", "__", "~~", "\"\<gut\>\""}], 
+         "}"}]}]}], "\[Rule]", "id"}]}], "]"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.652811876769315*^9, 3.652811894011611*^9}, {
+  3.652811929323123*^9, 3.652812008904244*^9}, {3.65281207718163*^9, 
+  3.652812082029162*^9}, {3.6528121693298607`*^9, 3.6528121793534603`*^9}, {
+  3.6528971968136787`*^9, 3.6528972247465553`*^9}, {3.6528972600354156`*^9, 
+  3.65289737187061*^9}, {3.7350534466772118`*^9, 3.7350534470686913`*^9}, {
+  3.7350535653524942`*^9, 3.7350535839233217`*^9}},
+ CellLabel->
+  "In[111]:=",ExpressionUUID->"48d7ac04-3a8d-4a8e-bd35-74ac85d8f66d"],
+
+Cell["\<\
+Given an Internet Archive identifier, we can get the URL of the text file to \
+download with the following function\
+\>", "Text",
+ CellChangeTimes->{{3.652897961305238*^9, 3.652897989151738*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"internetArchiveIDToURL", "[", "id_", "]"}], ":=", 
+  "\[IndentingNewLine]", 
+  RowBox[{
+  "\"\<https://archive.org/download/\>\"", "~~", "id", "~~", "\"\</\>\"", "~~", 
+   RowBox[{
+    RowBox[{"Flatten", "[", 
+     RowBox[{"StringCases", "[", 
+      RowBox[{
+       RowBox[{"Import", "[", 
+        RowBox[{
+         RowBox[{
+         "\"\<https://archive.org/download/\>\"", "~~", "id", "~~", 
+          "\"\</\>\""}], ",", "\"\<Hyperlinks\>\""}], "]"}], ",", 
+       RowBox[{
+        RowBox[{"\"\</download/\>\"", "~~", "id", "~~", "\"\</\>\"", "~~", 
+         RowBox[{"f", ":", 
+          RowBox[{"{", 
+           RowBox[{"__", "~~", "\"\<.txt\>\""}], "}"}]}]}], "\[Rule]", 
+        "f"}]}], "]"}], "]"}], "\[LeftDoubleBracket]", "1", 
+    "\[RightDoubleBracket]"}]}]}]], "Input",
+ CellChangeTimes->{{3.652898080597025*^9, 3.652898130658784*^9}, {
+  3.652898570107688*^9, 3.652898572490798*^9}},
+ CellLabel->
+  "In[112]:=",ExpressionUUID->"7e243958-a7d5-45ad-919f-71b4b87e9d7f"],
+
+Cell[BoxData[
+ RowBox[{"internetArchiveIDToURL", "[", "\"\<investigationofc56383gut\>\"", 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.6528981524837723`*^9, 3.6528981638530817`*^9}, {
+  3.652898379314548*^9, 3.652898381233501*^9}, {3.652898579514553*^9, 
+  3.652898583337892*^9}, {3.735053604623437*^9, 3.735053613486326*^9}},
+ CellLabel->
+  "In[113]:=",ExpressionUUID->"1734c05f-4e97-450e-839c-b1fb94be31c4"],
+
+Cell[TextData[{
+ "This function downloads the text file for one ID number. Note that we use \
+the ",
+ StyleBox["Pause",
+  FontWeight->"Bold"],
+ " command to wait for 2 seconds between each download so we don\
+\[CloseCurlyQuote]t overload their servers."
+}], "Text",
+ CellChangeTimes->{{3.6528125437158422`*^9, 3.6528125948902063`*^9}, {
+   3.652812693679264*^9, 3.6528127211577673`*^9}, {3.652896034855791*^9, 
+   3.6528961236518993`*^9}, {3.652896205545689*^9, 3.652896218320496*^9}, 
+   3.6528974055186443`*^9, {3.652898210000511*^9, 3.652898215967392*^9}, {
+   3.65289981758225*^9, 3.652899817925609*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"internetArchiveIDDownload", "[", "id_", "]"}], ":=", 
+  "\[IndentingNewLine]", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"Pause", "[", "2", "]"}], ";", 
+    RowBox[{"URLSave", "[", 
+     RowBox[{
+      RowBox[{"internetArchiveIDToURL", "[", "id", "]"}], ",", 
+      RowBox[{"FileNameJoin", "[", 
+       RowBox[{"{", 
+        RowBox[{"localDownloadFilePath", ",", 
+         RowBox[{
+          RowBox[{"ToString", "[", "id", "]"}], "~~", "\"\<.txt\>\""}]}], 
+        "}"}], "]"}]}], "]"}]}], "}"}]}]], "Input",
+ CellChangeTimes->{{3.652812596723868*^9, 3.652812641657048*^9}, {
+   3.652812749752721*^9, 3.652812757192513*^9}, {3.652896222345756*^9, 
+   3.652896224928454*^9}, 3.6528974074127293`*^9, {3.652898277854329*^9, 
+   3.6528982803251457`*^9}, {3.652898594226543*^9, 3.652898607335566*^9}, {
+   3.65289981251956*^9, 3.652899813446726*^9}},
+ CellLabel->
+  "In[114]:=",ExpressionUUID->"a719b5da-4465-4e07-b7e7-15702877b553"],
+
+Cell[TextData[{
+ "Now we can use the ",
+ StyleBox["Map",
+  FontWeight->"Bold"],
+ " command to grab a batch of files."
+}], "Text",
+ CellChangeTimes->{{3.6528128384091053`*^9, 3.652812864184766*^9}, {
+  3.6528983305401382`*^9, 3.652898339106966*^9}, {3.735053666212288*^9, 
+  3.735053666764202*^9}},ExpressionUUID->"a143e6d9-bfc4-427b-9597-\
+52edb42dd54a"],
+
+Cell[BoxData[
+ RowBox[{"Map", "[", 
+  RowBox[{"internetArchiveIDDownload", ",", "huacIDs"}], "]"}]], "Input",
+ CellChangeTimes->{{3.652812878770679*^9, 3.652812894367598*^9}, 
+   3.652898336018993*^9, {3.65289864958433*^9, 3.652898655142823*^9}, {
+   3.735053656901589*^9, 3.73505366178852*^9}},
+ CellLabel->
+  "In[115]:=",ExpressionUUID->"6b0feb37-3551-4b25-9473-5ac3ae14cc0d"],
+
+Cell[BoxData[
+ RowBox[{"FileNames", "[", 
+  RowBox[{"\"\<*.txt\>\"", ",", "localDownloadFilePath"}], "]"}]], "Input",
+ CellChangeTimes->{{3.644597404632413*^9, 3.644597417589155*^9}, {
+  3.6528998273992033`*^9, 3.6528998277341223`*^9}},
+ CellLabel->
+  "In[116]:=",ExpressionUUID->"3166dc69-1e5b-4308-b357-536c9d93d480"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"629bc6f3-7daf-4263-9889-673df3bdde4f"],
+
+Cell[CellGroupData[{
+
+Cell["Batch downloading from a search page", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+   3.6528131310004587`*^9, 3.652813136934884*^9}, {3.652896900023468*^9, 
+   3.6528969010153837`*^9}, 3.652898848641885*^9}],
+
+Cell[TextData[{
+ "Another way to retrieve links to files that can be downloaded is by using a \
+search page. As an example we will get a list of identifiers for works on the \
+subject of civil defense published between 1947 and 1957 appearing in the ",
+ StyleBox["Internet Archive",
+  FontSlant->"Italic"],
+ "."
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.652807679028677*^9, 3.652807679398507*^9}, {3.6528077460894337`*^9, 
+  3.65280775449739*^9}, {3.652813142775338*^9, 3.6528131696136837`*^9}, {
+  3.652898858144058*^9, 3.652898874679489*^9}, {3.6528989926599407`*^9, 
+  3.652899015957933*^9}, {3.735056317661376*^9, 
+  3.73505635982696*^9}},ExpressionUUID->"6e70db20-e5e8-4fcc-bad9-\
+e546d67864ca"],
+
+Cell["\<\
+The Internet Archive has an advanced search page at the following URL. If you \
+visit this page in a web browser, you can fill out a number of fields \
+indicating the title, creator, collection, date range or other information \
+you are interested in. When you submit your query, the system will respond \
+with matching texts, images, movies, audio files, or whatever.\
+\>", "Text",
+ CellChangeTimes->{{3.65289903277831*^9, 
+  3.65289905694036*^9}},ExpressionUUID->"8091a9ee-69be-4e34-9478-\
+47b45476ba42"],
+
+Cell[TextData[Cell[BoxData[
+ RowBox[{
+  RowBox[{"http", ":"}], "//", 
+  RowBox[{
+   RowBox[{"archive", ".", "org"}], "/", 
+   RowBox[{"advancedsearch", ".", "php"}]}]}]], "DisplayFormula",
+ CellChangeTimes->{{3.6451180318524723`*^9, 
+  3.645118031853385*^9}},ExpressionUUID->"332c5441-a8e2-4f0c-9b9e-\
+cb68a3eff82e"]], "Text",
+ CellChangeTimes->{
+  3.65289907662071*^9},ExpressionUUID->"fc1c4f81-79d4-4f64-9340-e143f4851e30"],
+
+Cell[TextData[{
+ "We can also use the ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " ",
+ StyleBox["URLBuild",
+  FontWeight->"Bold"],
+ " command to enter our query directly as a URL. We want all texts on the \
+subject of civil defense published in the decade after 1947. The only field \
+that we are interested in is the ",
+ StyleBox["identifier",
+  FontSlant->"Italic"],
+ ". We ask for 50 rows of information beginning with the first page. (If we \
+need to request more information we can make subsequent calls for ",
+ StyleBox["\[OpenCurlyDoubleQuote]page\[CloseCurlyDoubleQuote]\[Rule]2",
+  FontSlant->"Italic"],
+ ", ",
+ StyleBox["\[OpenCurlyDoubleQuote]page\[CloseCurlyDoubleQuote]\[Rule]3",
+  FontSlant->"Italic"],
+ ", and so on). We ask that the output be returned as ",
+ StyleBox["comma separated values",
+  FontSlant->"Italic"],
+ " (CSV)."
+}], "Text",
+ CellChangeTimes->{
+  3.6528990992110357`*^9, 3.7350563864345207`*^9, {3.735056443145043*^9, 
+   3.735056466671535*^9}},ExpressionUUID->"d0a6c940-2592-4b4e-b658-\
+79932fe6be63"],
+
+Cell[BoxData[
+ RowBox[{"URLBuild", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+    "\"\<http://archive.org/\>\"", ",", "\"\<advancedsearch.php\>\""}], "}"}],
+    ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{
+     "\"\<q\>\"", "\[Rule]", " ", 
+      "\"\<subject:(civil defense) AND mediatype:(texts) AND date:[1947-01-01 \
+TO 1957-12-31]\>\""}], ",", 
+     RowBox[{"\"\<fl[]\>\"", "\[Rule]", "\"\<identifier\>\""}], ",", 
+     RowBox[{"\"\<rows\>\"", "\[Rule]", "50"}], ",", 
+     RowBox[{"\"\<page\>\"", "\[Rule]", "1"}], ",", 
+     RowBox[{"\"\<output\>\"", "\[Rule]", "\"\<csv\>\""}]}], "}"}]}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.7350548610578003`*^9, 3.735054884384163*^9}, {
+  3.735054956159781*^9, 3.7350549714389973`*^9}, {3.735055544258891*^9, 
+  3.7350556346853647`*^9}, {3.735055803209627*^9, 3.7350558187275543`*^9}},
+ CellLabel->
+  "In[122]:=",ExpressionUUID->"3392290c-1d61-4385-a4b4-4a74fe46d834"],
+
+Cell[TextData[{
+ "The above command does nothing but create the URL corresponding to the \
+search that we want, however. In order to actually get the information we use \
+the ",
+ StyleBox["URLFetch",
+  FontWeight->"Bold"],
+ " command. What is returned is one long string, so we use ",
+ StyleBox["StringSplit",
+  FontWeight->"Bold"],
+ " to break the results into a list. Each identifier has a quotation mark \
+character at the beginning and end which we remove with ",
+ StyleBox["StringTrim",
+  FontWeight->"Bold"],
+ ". The first element that is returned is simply the word \
+\[OpenCurlyDoubleQuote]identifier\[CloseCurlyDoubleQuote] and we don\
+\[CloseCurlyQuote]t need that, so we get rid of it with ",
+ StyleBox["Rest",
+  FontWeight->"Bold"],
+ "."
+}], "Text",
+ CellChangeTimes->{{3.645118871411634*^9, 3.64511904910139*^9}, {
+   3.64511913055525*^9, 3.6451191584016733`*^9}, {3.645120282995536*^9, 
+   3.6451202839634*^9}, 3.64512191979846*^9, {3.6451219536507187`*^9, 
+   3.6451220269444838`*^9}},ExpressionUUID->"aeadc4b6-36d8-48b6-88bb-\
+1eff197cfaac"],
+
+Cell[BoxData[
+ RowBox[{"civilDefenseIAIdentifiers", "=", 
+  RowBox[{"Rest", "[", 
+   RowBox[{"StringTrim", "[", 
+    RowBox[{
+     RowBox[{"StringSplit", "[", 
+      RowBox[{"URLFetch", "@", 
+       RowBox[{"URLBuild", "[", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{
+          "\"\<http://archive.org/\>\"", ",", "\"\<advancedsearch.php\>\""}], 
+          "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{
+           "\"\<q\>\"", "\[Rule]", " ", 
+            "\"\<subject:(civil defense) AND mediatype:(texts) AND \
+date:[1947-01-01 TO 1957-12-31]\>\""}], ",", 
+           RowBox[{"\"\<fl[]\>\"", "\[Rule]", "\"\<identifier\>\""}], ",", 
+           RowBox[{"\"\<rows\>\"", "\[Rule]", "50"}], ",", 
+           RowBox[{"\"\<page\>\"", "\[Rule]", "1"}], ",", 
+           RowBox[{"\"\<output\>\"", "\[Rule]", "\"\<csv\>\""}]}], "}"}]}], 
+        "]"}]}], "]"}], ",", "\"\<\\\"\>\""}], "]"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.735056269007175*^9, 3.735056270618227*^9}, {
+  3.735056488808255*^9, 3.735056497934516*^9}},
+ CellLabel->
+  "In[124]:=",ExpressionUUID->"8ce725a9-aeac-4cfb-9340-22351064cad4"],
+
+Cell["\<\
+We can test our ID to URL function with one of the identifiers\
+\>", "Text",
+ CellChangeTimes->{{3.652899369774025*^9, 3.6528993786533213`*^9}, {
+  3.7350565135741568`*^9, 
+  3.7350565273249493`*^9}},ExpressionUUID->"7f77354f-3aaf-428a-b847-\
+09a02946f5ab"],
+
+Cell[BoxData[
+ RowBox[{"internetArchiveIDToURL", "[", "\"\<supplyservice00unitrich\>\"", 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.6528993418714743`*^9, 3.6528993560940123`*^9}, 
+   3.735056531232525*^9},
+ CellLabel->
+  "In[125]:=",ExpressionUUID->"7aa18458-d7e5-4314-9b72-2bda04b5c840"],
+
+Cell["\<\
+Now that we have a list of IDs we can do batch downloading as above\
+\>", "Text",
+ CellChangeTimes->{{3.652814754692604*^9, 3.652814780883955*^9}, {
+  3.6528150269949417`*^9, 3.652815028538673*^9}, {3.6528993021449614`*^9, 
+  3.652899303287979*^9}}]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"518b5d8f-b9ee-430d-9bb1-ad9636792dd6"],
+
+Cell[CellGroupData[{
+
+Cell["Upload your notebook", "Section",
+ CellChangeTimes->{{3.649950784924818*^9, 3.649950788859275*^9}}],
+
+Cell["\<\
+Don\[CloseCurlyQuote]t forget to upload a copy of your notebook for this \
+class to the OWL Site for the course\
+\>", "Text",
+ CellChangeTimes->{{3.649950792779258*^9, 3.649950818634288*^9}}]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1422, 1107},
+WindowMargins->{{Automatic, 469}, {Automatic, 53}},
+WindowStatusArea->None,
+TaggingRules->{"SlideShow" -> True},
+Magnification:>1.25 Inherited,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "SlideShowHeader"->{
+  Cell[580, 22, 4441, 99, 75, "SlideShowNavigationBar",ExpressionUUID->"34979ff4-3323-48c9-ad01-1f54ce7be811",
+   CellTags->"SlideShowHeader"],
+  Cell[5935, 150, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"7e3df656-92e1-43b5-bd53-4ba85f2cfa59",
+   CellTags->"SlideShowHeader"],
+  Cell[7335, 192, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"fe25ee54-5a19-4bfd-bd0d-501c1def5cd7",
+   CellTags->"SlideShowHeader"],
+  Cell[8757, 233, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"dc6f37ef-c689-4d16-b493-6b72e64111de",
+   CellTags->"SlideShowHeader"],
+  Cell[26722, 671, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"6299c8e6-ee40-4022-b55a-192ca6ed9924",
+   CellTags->"SlideShowHeader"],
+  Cell[29533, 750, 122, 2, 179, "SlideShowNavigationBar",ExpressionUUID->"cbabba3c-b527-41f8-ac21-b8276643b2ab",
+   CellTags->"SlideShowHeader"],
+  Cell[31390, 805, 122, 2, 179, "SlideShowNavigationBar",ExpressionUUID->"95a957f1-8674-4978-a0d5-b08e91254e3e",
+   CellTags->"SlideShowHeader"],
+  Cell[35249, 912, 122, 2, 179, "SlideShowNavigationBar",ExpressionUUID->"2c9d9e12-1c09-47d1-853f-1ebae0e914d6",
+   CellTags->"SlideShowHeader"],
+  Cell[40037, 1033, 122, 2, 179, "SlideShowNavigationBar",ExpressionUUID->"81d7c655-f1e1-4f97-b41f-278eec9ea960",
+   CellTags->"SlideShowHeader"],
+  Cell[47246, 1220, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"7fcbd782-47f7-44cb-8149-9ac0fa996d2c",
+   CellTags->"SlideShowHeader"],
+  Cell[58135, 1509, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"a82d3fa4-39d0-4e35-90b2-089c4a1ef841",
+   CellTags->"SlideShowHeader"],
+  Cell[66843, 1733, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"629bc6f3-7daf-4263-9889-673df3bdde4f",
+   CellTags->"SlideShowHeader"],
+  Cell[73988, 1918, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"518b5d8f-b9ee-430d-9bb1-ad9636792dd6",
+   CellTags->"SlideShowHeader"]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"SlideShowHeader", 74878, 1949}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 4441, 99, 75, "SlideShowNavigationBar",ExpressionUUID->"34979ff4-3323-48c9-ad01-1f54ce7be811",
+ CellTags->"SlideShowHeader"],
+Cell[5024, 123, 471, 10, 200, "Title",ExpressionUUID->"d9b32acf-d469-4fec-90f2-0d81ce43d808"],
+Cell[5498, 135, 400, 10, 108, "Subtitle",ExpressionUUID->"dd962f3e-1ed2-44f0-9f69-3801d7fa6340"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5935, 150, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"7e3df656-92e1-43b5-bd53-4ba85f2cfa59",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[6082, 156, 218, 4, 84, "Section",ExpressionUUID->"3148138e-3a6f-4c33-bdfc-1738781ae749"],
+Cell[6303, 162, 370, 8, 73, "Text",ExpressionUUID->"fa69884f-750b-4d17-9fea-d771b35f3c31"],
+Cell[6676, 172, 610, 14, 102, "Text",ExpressionUUID->"4bbbb5b0-76e0-4463-bc1e-36efb02e8dae"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7335, 192, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"fe25ee54-5a19-4bfd-bd0d-501c1def5cd7",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[7482, 198, 201, 4, 84, "Section",ExpressionUUID->"4d66dd78-e6f8-49b6-acd1-b22e1edc7ee7"],
+Cell[7686, 204, 460, 10, 64, "Input",ExpressionUUID->"2c512366-6379-4fb4-92fe-335a9a087fac"],
+Cell[8149, 216, 310, 5, 64, "Text",ExpressionUUID->"91cbc349-33f2-4a1a-8027-b61bcfa46479"],
+Cell[8462, 223, 246, 4, 37, "Input",ExpressionUUID->"af414ed1-8386-4ce9-907e-50cff49d59ee"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[8757, 233, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"dc6f37ef-c689-4d16-b493-6b72e64111de",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[8904, 239, 225, 4, 84, "Section",ExpressionUUID->"8a37c135-5753-4e4a-ba58-6d4a19a979d8"],
+Cell[9132, 245, 359, 9, 68, "Text",ExpressionUUID->"7fc900a6-4651-4f3a-8ba0-20f4fa920d81"],
+Cell[9494, 256, 14407, 344, 137, "WolframAlphaShortInput",ExpressionUUID->"9bcc57db-2fb7-4221-bb05-0c519ff000ec"],
+Cell[23904, 602, 510, 9, 75, "Input",ExpressionUUID->"3c1e98c1-e37b-4def-9418-5f0a2a9d9038"],
+Cell[24417, 613, 235, 3, 89, "Input",ExpressionUUID->"ac4d1843-a13c-4834-80c4-7a8c942ec529"],
+Cell[24655, 618, 386, 7, 57, "Input",ExpressionUUID->"2481677c-4a6c-4a28-9311-67639fcf0bd9"],
+Cell[25044, 627, 464, 9, 57, "Input",ExpressionUUID->"60b56abc-ad4b-4d79-9db0-ded622d7982a"],
+Cell[25511, 638, 264, 6, 68, "Text",ExpressionUUID->"950c49c3-dc93-426f-839a-73d79d7a0877"],
+Cell[25778, 646, 424, 8, 57, "Input",ExpressionUUID->"e6cbd873-edae-4a28-b70f-6da3c227c84d"],
+Cell[26205, 656, 468, 9, 57, "Input",ExpressionUUID->"271cfdae-dd6d-4473-bf2e-d742044f2ac6"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[26722, 671, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"6299c8e6-ee40-4022-b55a-192ca6ed9924",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[26869, 677, 233, 4, 131, "Section",ExpressionUUID->"ff61f7dc-8968-488a-8bf3-f92caf3f3065"],
+Cell[27105, 683, 403, 12, 68, "Text",ExpressionUUID->"2e07b332-a146-423c-8340-c92b0a83a8a6"],
+Cell[27511, 697, 325, 6, 57, "Input",ExpressionUUID->"fb16305d-a1c4-40b9-a3cb-9edcaf0de0b8"],
+Cell[27839, 705, 369, 7, 57, "Input",ExpressionUUID->"c68f1b8d-066f-4e88-a225-3da69fa5cd57"],
+Cell[28211, 714, 363, 7, 68, "Text",ExpressionUUID->"2363e998-ce60-4b35-9c92-2aed9b0b7b97"],
+Cell[28577, 723, 372, 7, 57, "Input",ExpressionUUID->"43a77f3a-d35e-46d3-a4f6-410e5a271ca2"],
+Cell[28952, 732, 165, 3, 106, "Text",ExpressionUUID->"72205db5-4576-4561-968c-637b24e91d25"],
+Cell[29120, 737, 364, 7, 89, "Input",ExpressionUUID->"ec68177c-64d7-445a-8f98-fc2816d28e0e"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[29533, 750, 122, 2, 179, "SlideShowNavigationBar",ExpressionUUID->"cbabba3c-b527-41f8-ac21-b8276643b2ab",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[29680, 756, 216, 4, 204, "Section",ExpressionUUID->"5b831b3d-e4d6-44a0-9c1d-71b751adb132"],
+Cell[29899, 762, 323, 9, 106, "Text",ExpressionUUID->"c3d8d9ed-5a5c-4768-a1f6-c6468e1089ee"],
+Cell[30225, 773, 401, 8, 89, "Input",ExpressionUUID->"948dd279-ac55-4b53-8086-3b5cd081fde7"],
+Cell[30629, 783, 245, 6, 106, "Text",ExpressionUUID->"5d3215a1-e346-4284-8e46-799ccab7919e"],
+Cell[30877, 791, 464, 8, 89, "Input",ExpressionUUID->"62740ea6-6f2e-46d5-aafd-2c31bdf9629f"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[31390, 805, 122, 2, 179, "SlideShowNavigationBar",ExpressionUUID->"95a957f1-8674-4978-a0d5-b08e91254e3e",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[31537, 811, 219, 4, 204, "Section",ExpressionUUID->"718be5a4-e321-4beb-b4ca-60ed853a74d7"],
+Cell[31759, 817, 490, 11, 178, "Text",ExpressionUUID->"f4c286e7-2faa-4ac9-ae3e-654fe2167c20"],
+Cell[32252, 830, 391, 11, 106, "Text",ExpressionUUID->"744e190f-d480-4ba6-8cf5-673c719bf229"],
+Cell[32646, 843, 204, 3, 89, "Input",ExpressionUUID->"2e557fb8-b3b7-4a8d-8dd6-467d6c886a06"],
+Cell[32853, 848, 303, 6, 106, "Text",ExpressionUUID->"9389e72d-e0f1-44c4-a84b-37a7c25de8fe"],
+Cell[33159, 856, 260, 4, 89, "Input",ExpressionUUID->"45215404-cae8-4522-a091-ed54cbe0c7f6"],
+Cell[33422, 862, 208, 4, 106, "Text",ExpressionUUID->"3de74ca6-5df3-41ba-a44d-ae49d18b84fc"],
+Cell[33633, 868, 606, 13, 89, "Input",ExpressionUUID->"5c3bbc7d-dba1-46d5-8445-90464447a1a9"],
+Cell[34242, 883, 256, 7, 106, "Text",ExpressionUUID->"78b13be8-aef8-4c89-83ab-16e53dcaea41"],
+Cell[34501, 892, 202, 3, 89, "Input",ExpressionUUID->"2210c903-e077-49ef-ad94-742eedc0e757"],
+Cell[34706, 897, 221, 3, 89, "Input",ExpressionUUID->"9697c981-eb24-4abd-96f3-c3abbc70fd1e"],
+Cell[34930, 902, 270, 4, 89, "Input",ExpressionUUID->"217b4281-066a-45d6-ae57-a41f911b35d7"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[35249, 912, 122, 2, 179, "SlideShowNavigationBar",ExpressionUUID->"2c9d9e12-1c09-47d1-853f-1ebae0e914d6",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[35396, 918, 219, 4, 204, "Section",ExpressionUUID->"9abd894f-5df0-4933-8325-e252c25b852b"],
+Cell[35618, 924, 676, 14, 178, "Text",ExpressionUUID->"3f39d1f0-1255-477c-a572-fe6f3e74e644"],
+Cell[36297, 940, 402, 9, 106, "Text",ExpressionUUID->"e2bb35fc-fd4e-40c7-ae07-13a48839ccba"],
+Cell[36702, 951, 711, 14, 178, "Text",ExpressionUUID->"10d036a2-9fe6-4e76-a1e2-94c2b91c7733"],
+Cell[37416, 967, 391, 9, 109, "Code",ExpressionUUID->"8a5ed4ae-139f-47cc-a0e2-1b8a48e3b844",
+ Evaluatable->False],
+Cell[37810, 978, 503, 12, 178, "Text",ExpressionUUID->"65315e2f-419d-46be-b101-44893b93c28e"],
+Cell[38316, 992, 946, 16, 89, "Input",ExpressionUUID->"28af24cd-8c0e-4d5e-a5df-4d2ea53c03d4"],
+Cell[39265, 1010, 410, 10, 106, "Text",ExpressionUUID->"568db7ae-e5aa-4f6c-b0c9-c4bab6b6137f"],
+Cell[39678, 1022, 310, 5, 89, "Input",ExpressionUUID->"7aa2fbbe-2eb6-49f5-8f26-6ee88e44e4ac"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[40037, 1033, 122, 2, 179, "SlideShowNavigationBar",ExpressionUUID->"81d7c655-f1e1-4f97-b41f-278eec9ea960",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[40184, 1039, 263, 4, 204, "Section",ExpressionUUID->"f9cd02b3-9317-46fd-a273-f5c9767d44fb"],
+Cell[CellGroupData[{
+Cell[40472, 1047, 165, 3, 162, "Subsection",ExpressionUUID->"736d22ea-7bcd-4c82-88b0-d164c620bd5a"],
+Cell[40640, 1052, 404, 10, 106, "Text",ExpressionUUID->"6a9b8e17-5b94-40ae-b707-f45aa4e15577"],
+Cell[41047, 1064, 536, 11, 89, "Input",ExpressionUUID->"e1e27867-d77b-4d02-a212-03f6fe9a55bb"],
+Cell[41586, 1077, 482, 11, 106, "Text",ExpressionUUID->"6c1d395b-3455-4eae-8ae2-6ad7975a637d"],
+Cell[42071, 1090, 258, 4, 89, "Input",ExpressionUUID->"c164989d-f312-4a66-af64-59d6fcbbe862"],
+Cell[42332, 1096, 390, 7, 106, "Text",ExpressionUUID->"83cbbe89-b9b6-48ad-95c6-d5c9655c903f"],
+Cell[42725, 1105, 366, 6, 89, "Input",ExpressionUUID->"c4c6f1b9-d31f-43a4-90cc-d619ccef1d91"],
+Cell[43094, 1113, 172, 3, 106, "Text",ExpressionUUID->"ef791892-d6bd-49f7-a62d-f473ad9004c8"],
+Cell[43269, 1118, 433, 7, 89, "Input",ExpressionUUID->"8f314d02-87c1-4a93-8481-585e5023bebd"],
+Cell[43705, 1127, 225, 5, 106, "Text",ExpressionUUID->"bf48a6f3-2da0-4259-969b-d155e7ee6add"],
+Cell[43933, 1134, 403, 9, 89, "Input",ExpressionUUID->"9cf05490-84e8-4cac-b7e3-38f7ff9a971f"],
+Cell[44339, 1145, 218, 3, 89, "Input",ExpressionUUID->"89d4815f-00ef-4a8a-b0bc-a904410fcf7b"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[44594, 1153, 307, 5, 162, "Subsection",ExpressionUUID->"29b50dda-9879-4066-9f6e-3b7bd35ed39a"],
+Cell[44904, 1160, 450, 9, 106, "Text",ExpressionUUID->"be524442-e3de-419e-a57a-2510bd401b3b"],
+Cell[45357, 1171, 408, 6, 89, "Input",ExpressionUUID->"31642bfb-a117-4b18-be9b-3317acb1ab0e"],
+Cell[45768, 1179, 451, 7, 89, "Input",ExpressionUUID->"9e8bf709-ce81-4080-9102-6ab6264bd28b"],
+Cell[46222, 1188, 405, 9, 89, "Input",ExpressionUUID->"55c6e209-506d-404a-9743-04c461d0128f"],
+Cell[46630, 1199, 281, 8, 106, "Text",ExpressionUUID->"5f2d1427-92fc-4b08-a9d0-553cec1805bd"],
+Cell[46914, 1209, 271, 4, 57, "Input",ExpressionUUID->"04ee857c-e1d6-412d-b80a-231808c5fc9b"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[47246, 1220, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"7fcbd782-47f7-44cb-8149-9ac0fa996d2c",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[47393, 1226, 324, 8, 131, "Section",ExpressionUUID->"8310c1fd-fd31-4bfc-b5b1-06ece69e59a1"],
+Cell[47720, 1236, 334, 9, 68, "Text",ExpressionUUID->"95fa9e62-6c22-4845-94b8-19c617b3d462"],
+Cell[48057, 1247, 402, 9, 68, "Text",ExpressionUUID->"24a8edfd-ff53-41d5-9583-a3ebbad15f09"],
+Cell[48462, 1258, 282, 5, 57, "Input",ExpressionUUID->"381b9b26-5cb6-4bc3-ab60-9b1805423d13"],
+Cell[CellGroupData[{
+Cell[48769, 1267, 110, 1, 87, "Subsubsection",ExpressionUUID->"9fff727f-b325-4caf-880a-50563bb0da52"],
+Cell[48882, 1270, 475, 15, 68, "Text",ExpressionUUID->"fb599924-1c6e-460a-9c03-6bdfdc9cdce3"],
+Cell[49360, 1287, 1026, 18, 57, "Input",ExpressionUUID->"a5346c7e-7bf2-42aa-b644-d21f18a2b394"],
+Cell[50389, 1307, 505, 11, 57, "Input",ExpressionUUID->"a5267731-372e-4077-840a-3c9e1e99294f"],
+Cell[50897, 1320, 272, 4, 57, "Input",ExpressionUUID->"5c1b4c04-e750-4dcc-a69f-c956f445d4bf"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[51206, 1329, 121, 1, 87, "Subsubsection",ExpressionUUID->"e3353e21-9c3f-4315-aecc-a45450bc2151"],
+Cell[51330, 1332, 189, 4, 68, "Text",ExpressionUUID->"3838549e-6762-451e-8082-b988acca3bb9"],
+Cell[51522, 1338, 226, 4, 68, "Text",ExpressionUUID->"aa634117-49de-419b-901a-ab3b5589803a"],
+Cell[51751, 1344, 373, 7, 57, "Input",ExpressionUUID->"fa174cfc-ae67-4f7e-91c9-2cb46c038fd2"],
+Cell[52127, 1353, 318, 7, 68, "Text",ExpressionUUID->"8a78fe2c-bfde-40f7-a11a-ee627fd459b0"],
+Cell[52448, 1362, 446, 8, 57, "Input",ExpressionUUID->"8bdc5493-5d7f-4ced-8158-4484792a86a3"],
+Cell[52897, 1372, 415, 9, 57, "Input",ExpressionUUID->"3d258f6b-857b-467b-93f0-fb12650b935e"],
+Cell[53315, 1383, 226, 3, 57, "Input",ExpressionUUID->"1837cdf6-7b59-408f-8427-2f09c867e9fc"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[53578, 1391, 184, 3, 87, "Subsubsection",ExpressionUUID->"68c9d650-bab2-4fa2-bf00-11a1869bdf8e"],
+Cell[53765, 1396, 484, 9, 57, "Input",ExpressionUUID->"dc3cf938-50e4-4d0b-88af-af93ad709b7e"],
+Cell[54252, 1407, 467, 8, 57, "Input",ExpressionUUID->"6c555ade-ac32-461d-a39a-1a89c18850aa"],
+Cell[54722, 1417, 360, 8, 57, "Input",ExpressionUUID->"23dd38d4-5538-4c87-b3da-a7b16d12b2ec"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[55119, 1430, 243, 4, 87, "Subsubsection",ExpressionUUID->"4de5be88-9552-4449-ac10-97e6127df7a2"],
+Cell[55365, 1436, 455, 11, 68, "Text",ExpressionUUID->"f0476f78-2042-4ef6-b142-582773a442d0"],
+Cell[55823, 1449, 410, 6, 57, "Input",ExpressionUUID->"c6330e7d-a94d-4ada-a69d-4d2d563066f3"],
+Cell[56236, 1457, 471, 8, 57, "Input",ExpressionUUID->"f5786ec7-4976-4fb2-aefa-e5d6206768be"],
+Cell[56710, 1467, 428, 9, 57, "Input",ExpressionUUID->"ef667f74-6a0d-4ad5-9e30-65d79cf55cac"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[57175, 1481, 103, 1, 104, "Subsection",ExpressionUUID->"d6f5d0c9-f42b-4feb-8f9c-baad374f4412"],
+Cell[57281, 1484, 413, 9, 57, "Input",ExpressionUUID->"35aef1bd-8ab9-448a-93a6-469197a7e93c"],
+Cell[57697, 1495, 377, 7, 68, "Text",ExpressionUUID->"6f75ddb7-963f-418e-b42d-f84f9a5715e9"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[58135, 1509, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"a82d3fa4-39d0-4e35-90b2-089c4a1ef841",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[58282, 1515, 304, 4, 131, "Section",ExpressionUUID->"212c0b42-79de-40a1-a23f-ea68fe65a889"],
+Cell[58589, 1521, 517, 10, 68, "Text",ExpressionUUID->"be146dad-b765-4423-9cee-bdfeb7b14dd5"],
+Cell[59109, 1533, 314, 7, 114, "Text",ExpressionUUID->"f3c61e7d-9fb7-4773-9b9f-a447f5d883d1"],
+Cell[59426, 1542, 400, 10, 68, "Text",ExpressionUUID->"3132be52-f526-45a0-95e7-e83acc899f3c"],
+Cell[59829, 1554, 566, 12, 68, "Text",ExpressionUUID->"d9f69e2c-e00d-4485-965c-0d638435ceaf"],
+Cell[60398, 1568, 201, 3, 68, "Text",ExpressionUUID->"7e477449-4aa9-4aae-8d71-c9eaa0117fea"],
+Cell[60602, 1573, 395, 9, 57, "Input",ExpressionUUID->"856e7b83-ddc9-4e63-a6ee-784d03eafc83"],
+Cell[61000, 1584, 424, 10, 114, "Text",ExpressionUUID->"59006389-f75a-4a43-8e96-59778a6283a6"],
+Cell[61427, 1596, 1096, 23, 140, "Input",ExpressionUUID->"48d7ac04-3a8d-4a8e-bd35-74ac85d8f66d"],
+Cell[62526, 1621, 205, 4, 68, "Text",ExpressionUUID->"2b64d536-8952-45b2-92c1-ea5f9713f8ba"],
+Cell[62734, 1627, 1015, 25, 181, "Input",ExpressionUUID->"7e243958-a7d5-45ad-919f-71b4b87e9d7f"],
+Cell[63752, 1654, 406, 7, 57, "Input",ExpressionUUID->"1734c05f-4e97-450e-839c-b1fb94be31c4"],
+Cell[64161, 1663, 608, 12, 114, "Text",ExpressionUUID->"755c4357-3b3c-4e22-9f5f-07e5c21fe1b7"],
+Cell[64772, 1677, 962, 22, 140, "Input",ExpressionUUID->"a719b5da-4465-4e07-b7e7-15702877b553"],
+Cell[65737, 1701, 354, 9, 68, "Text",ExpressionUUID->"a143e6d9-bfc4-427b-9597-52edb42dd54a"],
+Cell[66094, 1712, 378, 7, 57, "Input",ExpressionUUID->"6b0feb37-3551-4b25-9473-5ac3ae14cc0d"],
+Cell[66475, 1721, 319, 6, 57, "Input",ExpressionUUID->"3166dc69-1e5b-4308-b357-536c9d93d480"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[66843, 1733, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"629bc6f3-7daf-4263-9889-673df3bdde4f",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[66990, 1739, 249, 3, 131, "Section",ExpressionUUID->"2811ebab-49b0-41ac-910c-61a3ab96265e"],
+Cell[67242, 1744, 743, 14, 114, "Text",ExpressionUUID->"6e70db20-e5e8-4fcc-bad9-e546d67864ca"],
+Cell[67988, 1760, 516, 9, 159, "Text",ExpressionUUID->"8091a9ee-69be-4e34-9478-47b45476ba42"],
+Cell[68507, 1771, 425, 10, 65, "Text",ExpressionUUID->"fc1c4f81-79d4-4f64-9340-e143f4851e30"],
+Cell[68935, 1783, 1044, 27, 159, "Text",ExpressionUUID->"d0a6c940-2592-4b4e-b658-79932fe6be63"],
+Cell[69982, 1812, 926, 22, 140, "Input",ExpressionUUID->"3392290c-1d61-4385-a4b4-4a74fe46d834"],
+Cell[70911, 1836, 1057, 24, 204, "Text",ExpressionUUID->"aeadc4b6-36d8-48b6-88bb-1eff197cfaac"],
+Cell[71971, 1862, 1146, 27, 262, "Input",ExpressionUUID->"8ce725a9-aeac-4cfb-9340-22351064cad4"],
+Cell[73120, 1891, 267, 6, 68, "Text",ExpressionUUID->"7f77354f-3aaf-428a-b847-09a02946f5ab"],
+Cell[73390, 1899, 287, 6, 57, "Input",ExpressionUUID->"7aa18458-d7e5-4314-9b72-2bda04b5c840"],
+Cell[73680, 1907, 259, 5, 68, "Text",ExpressionUUID->"3f621ab2-ea93-4b96-82fb-09d6b4a7767e"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[73988, 1918, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"518b5d8f-b9ee-430d-9bb1-ad9636792dd6",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[74135, 1924, 105, 1, 131, "Section",ExpressionUUID->"d91baeff-694d-40e1-abde-02228e017bb4"],
+Cell[74243, 1927, 201, 4, 68, "Text",ExpressionUUID->"1c327a50-4df1-4d26-a8a8-a4c6d0f08566"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+

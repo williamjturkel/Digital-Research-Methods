@@ -1,0 +1,2008 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     81591,       2000]
+NotebookOptionsPosition[     63997,       1735]
+NotebookOutlinePosition[     66524,       1785]
+CellTagsIndexPosition[     66445,       1780]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ TogglerBox[2, {1->
+  OverlayBox[{
+   TagBox[GridBox[{
+      {
+       GraphicsBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBAkBOaF5xZnpeaopnXklqemqRRRIz
+UFAKiEGSLED8//9/gvjRo0fsN27cELp69arY+fPnpZExPn137tzhBqrRBGJ/
+ID4CxMfRMTZ9L168YL5w4YIaUD4AiC8C8Qcg/gvE/9AxFreC7PQD4gtA/BGq
+7j8ujKz3+fPnLFC9b6H24dSHTf/FixfVofYSpRdZPzSsAqBuJkovsn5oOF8k
+5F9s+h88eMBBjt0w/devXxcGso+S4m9k/ZcuXRKHpgeS3A7TD0wrkpToPw9J
+ywOmn1L3Uxp+lMYfpemH0vRLjfwDjQey8y9a+fGOWDPwlF+gsPhEKDywlZ8g
+d0D9EniexPITGd++fZv3PBnlN6764zxa3QHCAIDESDs=
+         "], {{0, 26}, {16, 
+         0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{16, 26},
+        PlotRange->{{0, 16}, {0, 26}}], 
+       GraphicsBox[RasterBox[CompressedData["
+1:eJzt2V1vVFUUBuBGTfTSSygthYYKNHyVinrrpbcYfwBEJN5gUkyMfw9KKaVw
+KCkQKCW1RNIQKg1gEE3QtdN10pMRZCaBzNQ+kzxt5nzstfeZfbPOu/vkD8e/
+e6+vr+/sR/Hn+ImfvpyYOPHz1x/Hl2/OnP3+9JlT33515sdTp09NfHHy/TjY
+H6592Nf3QfyvqmpHBwbCYNr5GoMNAw2d1AEAADa3/obtLba1aJ7rb4xR9x1D
+YVfYHYbDnjASPgn7wv4wGg6Eg+FQOByOhLEwnj4Nx8Jn6fM21dcfyzHq8cay
+xuGseTDnMJpz2pdzHMk5D+caduWa6v6p+czafU71s6p1+/cGAADYqt52/9va
+++6tXt331j3v0TTeoj5e966v6lv3Vv/uWfWr9LJm9tzMpN+UW3eaVV9s00yY
+CzfC7bAQFhvuhjt57maYD9er9c+VcDlcCtMd1AQAADafqXQhTabz6VyL+vhk
+Xl/uLX1D6UFmw9VwrVrvL0o/cqta7ztKD3Iv/BLuh1/DSngYHoXfwlp4Ep6F
+38Pz8Ed4Ef5Mf71Gff5F3vM8x3iWY65ljUdZcyXncD/ndC/neDvnfCPXcC3X
+NJtrnG48r3afU/2s6uc11QO/OwAAwFbzLvrfksWVjK30kSV3KxncUlgOD6qN
+vnc1PK42+t7iaaq/r+U1q9VG3/ogx1rKse9krfmsrV+l15R9WDLmkjWXzLl8
+yvuVsmdLJl3eu5R9XN7BNLPrhTxX3seUvT3TQc2Xbfr7LWq3JgAAwH95m33K
+u9Dt5wMAAMDmp2dlK+vGnu/2+yQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYPN42aZu
+1AQAAAAAAICtrNsZIXRTN/b8xTbNhLlwI9wOC2Gx4W64k+duhvlwvVr/XAmX
+w6Uw3UFNAAAAAAAA6EVT6UKaTOfTuRb18cm8vtxbcrOSwc2Gq9V6FlcytlvV
+eu5WMrilsBwehJXwMKyGx2EtPElPU/19La9ZzXtWcozlHHMxa9zKmnM5h9mc
+03Rjfe2uq15bvb6pHvid2NzKPiwZc8maS+ZcPiWDLnu2ZNIlmy77uGTVzex6
+Ic+VbLvs7ZkOau7owEAYTDtfY7BhoKGTOgAAAAAAANDr+hu2t9jWonmuvzFG
+nbsNhd1hOOwJI2Fv2B9Gw4FwMBwKR8JYOJrGW9THx/LaQ3nvgRxrf449krWG
+s/ZQtZH3NdfY7rrqtdW6/fvw/9LMnpuZ9Jty646y6n8AhCP7tg==
+         "], {{0, 26}, {
+         2000, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{2000, 26},
+        PlotRange->{{0, 2000}, {0, 26}}], 
+       GraphicsBox[RasterBox[CompressedData["
+1:eJy9lktLQkEUxyVdCBIELaxctYq+QduWbcKMPoCSRRsDC6JPp+Lj4vuq+EBc
+iBtFfIYrpU7nPzQiN++9vmrgp/dx5j8z55w5c099z56HPYvF8mLnH4/37TIY
+9L7fHvDNXeDl6THgv78KvPof/cELn5UfnjBHjI3J5/OudVBV9bhUKjmbzaad
+iCxmcB9lAxKMmzmv1+v7JvpfG/DJjJkic8NrOut0OlYdfdoCjPXBqMx1q9Vy
+7FhfgvX0MUa73bYZ6edyuTnrvPsZQ4Wv9PTRL5vNroTOGIiJu9FoOLT6UjuT
+yVAqlaJkMin+0+m0YPEZbHTGQDwKyKtl+ugHjdFoRIVCgeLxOCUSCQGua7Ua
+9Xo9YQNbozXI/aHVZ//RcDik2WxG5XKZwuGwANdo0JfrNIhDvFqtHi7zD+YW
+i8VoMBgIvWKxKEDrdrtiHbAxiAF8pHAf5zJ9+Bca0WiUxuMxydbv98U64CvY
+wNZgTyioI9r8QR/EEvrQUhRlrh8Kheb6sDHTZ1xG84ePMP/pdPpr/tvoL/of
+Mcb9Jv7X+mcxP2X+QCMSiYh5VyoVMQbXMbP81I2vzM/JZCLyX+a+BPmPvbFN
+fmr36pr713B/rVp7THy/tD6Y1cjF5zrahvVtB5jW5y21B/kVzpc1kecjfK53
+Pu7kfNfO+x+/T/70++ob7NUEtQ==
+         "], {{0, 26}, {24, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{24, 26},
+        PlotRange->{{0, 24}, {0, 26}}]}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {Automatic, 
+         Scaled[0.6], Automatic}},
+     GridBoxSpacings->{"Columns" -> {{0}}, "Rows" -> {{0}}}],
+    "Grid"], 
+   PaneBox[
+    StyleBox[
+     RowBox[{
+     "Background", " ", "images", " ", "and", " ", "text", " ", "colors", " ",
+       "have", " ", "been", " ", "adjusted", " ", "for", " ", "editing", " ", 
+      
+      RowBox[{"purposes", "."}]}],
+     LineBreakWithin->False,
+     FontFamily->"Helvetica",
+     FontSize->12,
+     FontColor->GrayLevel[0.4]],
+    Alignment->Center,
+    ImageSize->Scaled[0.5],
+    ScrollPosition->{0., 0.}]},
+   Alignment->{Center, Center}], 2->""}, "1"]], "SlideShowNavigationBar", \
+"FirstSlide",
+ CellMargins->{{0, 0}, {0, 0}},
+ CellFrameLabelMargins->2,
+ CellSize->{Inherited, 30},
+ CellChangeTimes->{3.647361175465108*^9},
+ TextAlignment->Center,
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"71fa2abf-19a9-499b-88bc-290c19732bf8"],
+
+Cell["\<\
+Digital Research Methods 08B:
+TF-IDF\
+\>", "Title",
+ CellChangeTimes->{
+  3.559948400406288*^9, {3.647331852839075*^9, 3.647331861295168*^9}, {
+   3.647331922221755*^9, 3.647331924532915*^9}, {3.647332658962614*^9, 
+   3.64733266480881*^9}, {3.6473611327373047`*^9, 3.647361139759391*^9}, {
+   3.647448943135475*^9, 3.6474489472294493`*^9}, {3.6534090279288893`*^9, 
+   3.6534090327509336`*^9}},ExpressionUUID->"61d71032-8fe5-4bb0-ace0-\
+82479adcf64d"],
+
+Cell[TextData[{
+ "William J Turkel, ",
+ StyleBox["wturkel@uwo.ca",
+  FontSlant->"Italic",
+  FontColor->RGBColor[
+   0.396078431372549, 0.596078431372549, 0.796078431372549]],
+ "\nHistory 2816 / Digital Humanities 2130 / History 9877"
+}], "Subtitle",
+ CellChangeTimes->{{3.647331955723979*^9, 3.6473319708190517`*^9}, 
+   3.647332103720562*^9},ExpressionUUID->"e53285a0-1ee6-406f-875b-\
+fe1f64db0b89"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"ebdb620b-8171-4836-ba26-7ee17125d370"],
+
+Cell[CellGroupData[{
+
+Cell["Overview", "Section",
+ CellChangeTimes->{{3.647361153919208*^9, 
+  3.6473611548467712`*^9}},ExpressionUUID->"67043a86-dc88-4e33-a59d-\
+3b0cdd33ac10"],
+
+Cell[TextData[{
+ "In order to figure out what a text is about, we need some way of measuring \
+the importance of a given word in the text. In this lesson we will learn how \
+to implement one widely used technique from the field of information \
+retrieval, ",
+ StyleBox["TF-IDF",
+  FontSlant->"Italic"],
+ " (term frequency-inverse document frequency)."
+}], "Text",
+ CellChangeTimes->{{3.647361157582405*^9, 3.647361159086673*^9}, {
+  3.6534091252966967`*^9, 3.653409172914212*^9}, {3.735232646664709*^9, 
+  3.735232647847115*^9}},ExpressionUUID->"78508d0d-e4d8-4d4e-bbc5-\
+1cb45652ae71"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"2757d82b-4fdd-4b1f-be4c-1169fddcbd6e"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ StyleBox["First on the Moon ",
+  FontSlant->"Italic"],
+ "(1958)"
+}], "Section",
+ CellChangeTimes->{{3.647361153919208*^9, 3.6473611548467712`*^9}, {
+  3.735148557827367*^9, 
+  3.735148564730575*^9}},ExpressionUUID->"4df78827-ef5e-47d0-bdf3-\
+171ee42b001d"],
+
+Cell[TextData[{
+ "For today\[CloseCurlyQuote]s class we will again be using the Cold War \
+science fiction novel ",
+ StyleBox["First on the Moon",
+  FontSlant->"Italic"],
+ " by Jeff Sutton (Ace Books, 1958)."
+}], "Text",
+ CellChangeTimes->{{3.684855500905425*^9, 3.68485555257479*^9}, {
+   3.735052163523096*^9, 3.735052185066346*^9}, 3.735148612341202*^9, {
+   3.735148802058786*^9, 3.735148810369611*^9}, {3.735232859127166*^9, 
+   3.735232865678965*^9}, {3.7352332187547417`*^9, 
+   3.73523323728915*^9}},ExpressionUUID->"3dead044-ad62-46ac-9efb-\
+ef7b0e3c86ff"],
+
+Cell[TextData[ButtonBox["http://www.gutenberg.org/cache/epub/43235/pg43235.\
+txt",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["http://www.gutenberg.org/cache/epub/43235/pg43235.txt"], None},
+ ButtonNote->"http://www.gutenberg.org/cache/epub/43235/pg43235.txt"]], "Text",\
+
+ CellChangeTimes->{{3.735052201318778*^9, 
+  3.735052206673596*^9}},ExpressionUUID->"92ef0bda-b035-41fd-b2f9-\
+f364e23bdc21"],
+
+Cell[BoxData[
+ RowBox[{"Import", "[", 
+  "\"\<http://www.gutenberg.org/cache/epub/43235/pg43235.cover.medium.jpg\>\"\
+", "]"}]], "Input",
+ CellChangeTimes->{{3.735052247015346*^9, 3.735052256159666*^9}},
+ CellLabel->"In[1]:=",ExpressionUUID->"0ac74d2f-0f0c-4ce4-a188-7717346ac9ac"],
+
+Cell["\<\
+We retrieve the file and trim the Project Gutenberg header and footer.\
+\>", "Text",
+ CellChangeTimes->{{3.7351486636153097`*^9, 
+  3.735148682902132*^9}},ExpressionUUID->"c9aee5db-f8c1-4f98-bb80-\
+e7f5b70c287b"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"firstOnTheMoonTrimmed", "=", 
+   RowBox[{"StringTake", "[", 
+    RowBox[{
+     RowBox[{"Import", "[", 
+      RowBox[{
+      "\"\<http://www.gutenberg.org/cache/epub/43235/pg43235.txt\>\"", ",", 
+       "\"\<Plaintext\>\""}], "]"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"631", ",", "330959"}], "}"}]}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.735148697189732*^9, 3.735148741556901*^9}},
+ CellLabel->"In[2]:=",ExpressionUUID->"a6d663fd-6dc9-40f1-b46d-a89bcf7adfcd"],
+
+Cell["We will also be using a list of stopwords", "Text",
+ CellChangeTimes->{{3.6534094667118483`*^9, 
+  3.6534094750632687`*^9}},ExpressionUUID->"336e7764-3d35-4336-949d-\
+b9848b28c121"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"stopwords", "=", 
+   RowBox[{"WordData", "[", 
+    RowBox[{"All", ",", "\"\<Stopwords\>\""}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.639670580673246*^9, 3.639670586118531*^9}, {
+  3.63967080861541*^9, 3.639670819382111*^9}},
+ CellLabel->"In[3]:=",ExpressionUUID->"0f58b207-1863-4837-be26-8c078ea2162c"],
+
+Cell[TextData[{
+ "and the ",
+ StyleBox["viewData",
+  FontSlant->"Italic"],
+ " function"
+}], "Text",
+ CellChangeTimes->{{3.735233807692649*^9, 
+  3.73523381170796*^9}},ExpressionUUID->"769e8e82-4483-40bc-aa83-\
+0919e0da3f0f"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"viewData", "[", "x_", "]"}], ":=", "\[IndentingNewLine]", 
+  RowBox[{"Framed", "[", 
+   RowBox[{"Pane", "[", 
+    RowBox[{"x", ",", 
+     RowBox[{"{", 
+      RowBox[{"Automatic", ",", "200"}], "}"}], ",", 
+     RowBox[{"Scrollbars", "\[Rule]", "True"}]}], "]"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.511539182255096*^9, 3.51153920239167*^9}},
+ CellLabel->"In[4]:=",ExpressionUUID->"03052781-c421-4145-bb2f-f85d891b7980"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"568c8e8d-c2e8-41b4-b1dc-9813b173d68f"],
+
+Cell[CellGroupData[{
+
+Cell["TF-IDF: Measuring the importance of a word", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.653409182321638*^9, 
+  3.6534091890814962`*^9}},ExpressionUUID->"784b8153-c390-4df9-9b25-\
+dceec3de5570"],
+
+Cell[TextData[{
+ "In order to figure out what a text is about, we need some way of measuring \
+the importance of a given word in the text. We will use a measure called ",
+ StyleBox["TF-IDF",
+  FontSlant->"Italic"],
+ ", which stands for \[OpenCurlyQuote]term frequency-inverse document \
+frequency\[CloseCurlyQuote]. There are a lot of different ways to calculate \
+TF-IDF, but they all capture the basic intuition that there are three \
+categories of word."
+}], "Text",
+ CellChangeTimes->{{3.640103887803824*^9, 3.64010394696187*^9}, {
+  3.640451893952711*^9, 3.640451900927368*^9}, {3.640707210258869*^9, 
+  3.6407072641048317`*^9}, {3.6429485842148857`*^9, 
+  3.642948611292387*^9}},ExpressionUUID->"c621c3f3-17b7-4733-bf6a-\
+aacd9f966213"],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+A word that occurs on (practically) every page doesn\[CloseCurlyQuote]t tell \
+you anything special about a particular page. It is a stopword.\
+\>", "ItemNumbered",
+ CellChangeTimes->{{3.640103960263874*^9, 3.6401039914536257`*^9}, {
+  3.640707083169034*^9, 
+  3.640707124758102*^9}},ExpressionUUID->"9d9d0665-8f31-45bc-a80e-\
+4d06e51ed81c"],
+
+Cell["\<\
+A word that occurs only once or is sprinkled a few times through the whole \
+document or corpus of documents probably can be safely ignored.\
+\>", "ItemNumbered",
+ CellChangeTimes->{{3.640103960263874*^9, 3.640104034929956*^9}, {
+  3.64010418491179*^9, 3.640104185593779*^9}, {3.640104517229784*^9, 
+  3.640104578482395*^9}},ExpressionUUID->"b909772f-21f5-4c44-b0d9-\
+e23e2f83477b"],
+
+Cell["\<\
+A word that occurs a number of times on one page but is relatively rare in \
+the document or overall corpus plays an important role in figuring out what \
+that page is about. \
+\>", "ItemNumbered",
+ CellChangeTimes->{{3.640103960263874*^9, 3.640104106115612*^9}, {
+  3.640104205591097*^9, 3.6401042097517347`*^9}, {3.640707193100892*^9, 
+  3.640707199155991*^9}},ExpressionUUID->"3027c999-dcf6-47ed-b757-\
+35b951e76ef6"]
+}, Open  ]],
+
+Cell["\<\
+We will simply introduce one method of calculating TF-IDF here and note that \
+there are many varieties.\
+\>", "Text",
+ CellChangeTimes->{{3.640104109325653*^9, 3.640104141770215*^9}, {
+   3.6401042140466013`*^9, 3.640104230966936*^9}, {3.640104266070969*^9, 
+   3.640104268301176*^9}, {3.640104323794619*^9, 3.640104335067133*^9}, {
+   3.640104365297893*^9, 3.6401044095604763`*^9}, {3.640104604640318*^9, 
+   3.640104663031204*^9}, {3.640705630902692*^9, 3.6407056416608953`*^9}, {
+   3.640707222403349*^9, 3.64070723726759*^9}, {3.6407072747764053`*^9, 
+   3.6407072840882063`*^9}, 3.640707316367612*^9, {3.653409223304964*^9, 
+   3.653409230584038*^9}},ExpressionUUID->"1be4b8a4-81b3-4700-914d-\
+58b1aff8560c"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"b3fe6b91-da44-49b5-b38e-9a67d7d9f9ae"],
+
+Cell[CellGroupData[{
+
+Cell["Document frequencies for the whole book", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.653409395362803*^9, 
+  3.653409407369604*^9}},ExpressionUUID->"96a97ca6-80b9-4c14-9516-\
+f81d64aa1b98"],
+
+Cell[TextData[{
+ "To compute document frequencies for the whole book, we use ",
+ StyleBox["Tally",
+  FontWeight->"Bold"],
+ " and ",
+ StyleBox["Sort",
+  FontWeight->"Bold"],
+ ", as we have done many times in the past."
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.653409413449314*^9, 
+  3.653409435760827*^9}},ExpressionUUID->"b90f06ba-daae-428e-8684-\
+f46c41940bf3"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"firstOnTheMoonLowercaseWords", "=", 
+   RowBox[{"ToLowerCase", "[", 
+    RowBox[{"TextWords", "[", "firstOnTheMoonTrimmed", "]"}], "]"}]}], 
+  ";"}]], "Input",
+ CellChangeTimes->{{3.7352333451219177`*^9, 3.735233374747952*^9}},
+ CellLabel->"In[96]:=",ExpressionUUID->"88e63e2b-a718-42ee-a277-30c2d2d79f82"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"docFreq", "=", 
+   RowBox[{"Sort", "[", 
+    RowBox[{
+     RowBox[{"Tally", "[", "firstOnTheMoonLowercaseWords", "]"}], ",", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"#1", "\[LeftDoubleBracket]", "2", "\[RightDoubleBracket]"}], 
+       ">", 
+       RowBox[{"#2", "\[LeftDoubleBracket]", "2", "\[RightDoubleBracket]"}]}],
+       "&"}]}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.640104951143414*^9, 3.640104952765362*^9}, {
+   3.6405343376897306`*^9, 3.6405343466308823`*^9}, 3.643394133613207*^9, 
+   3.735233387248156*^9},
+ CellLabel->"In[97]:=",ExpressionUUID->"b31b2774-df27-47e5-9443-159f1122c56b"],
+
+Cell[BoxData[
+ RowBox[{"Short", "[", 
+  RowBox[{"docFreq", ",", "6"}], "]"}]], "Input",
+ CellChangeTimes->{{3.640104974141613*^9, 3.640104981188102*^9}},
+ CellLabel->"In[98]:=",ExpressionUUID->"e9595e82-1ce2-4e17-9c8c-b28d6cf83b8e"],
+
+Cell[TextData[{
+ "If we look at the fifty most common words in ",
+ StyleBox["First on the Moon",
+  FontSlant->"Italic"],
+ " that are not stopwords, we can get a pretty good idea of what the whole \
+book is about"
+}], "Text",
+ CellChangeTimes->{{3.653409505470414*^9, 3.6534095424770393`*^9}, {
+  3.7352334046990843`*^9, 
+  3.7352334083389053`*^9}},ExpressionUUID->"57b4c18a-6487-4135-86e5-\
+be86ed715201"],
+
+Cell[BoxData[
+ RowBox[{"Take", "[", 
+  RowBox[{
+   RowBox[{"Select", "[", 
+    RowBox[{
+     RowBox[{"Take", "[", 
+      RowBox[{"docFreq", ",", "200"}], "]"}], ",", 
+     RowBox[{
+      RowBox[{"Not", "[", 
+       RowBox[{"MemberQ", "[", 
+        RowBox[{"stopwords", ",", 
+         RowBox[{"First", "[", "#", "]"}]}], "]"}], "]"}], "&"}]}], "]"}], 
+   ",", "50"}], "]"}]], "Input",
+ CellChangeTimes->{{3.640106005467373*^9, 3.640106007452688*^9}},
+ CellLabel->"In[99]:=",ExpressionUUID->"8dbc2d10-eae3-4072-997e-72370661473f"],
+
+Cell[TextData[{
+ "Suppose, however, we want to know what a ",
+ StyleBox["portion",
+  FontSlant->"Italic"],
+ " of the book is about..."
+}], "Text",
+ CellChangeTimes->{{3.65340956277245*^9, 
+  3.653409576163643*^9}},ExpressionUUID->"06d4343b-c7f2-412b-b9aa-\
+9fbce1aaac5a"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"eba02a99-3efb-4f11-becb-a620b46ac2ac"],
+
+Cell[CellGroupData[{
+
+Cell["Chapters", "Section",
+ CellChangeTimes->{{3.647716369451888*^9, 3.647716370003084*^9}, {
+  3.647798474690284*^9, 3.6477984752570744`*^9}, {3.735233124462001*^9, 
+  3.735233125205242*^9}},ExpressionUUID->"8d79439c-e7cc-4a07-a60a-\
+6f55442078ed"],
+
+Cell[TextData[{
+ "The text of ",
+ StyleBox["First on the Moon ",
+  FontSlant->"Italic"],
+ "is broken into a Prologue and 21 Chapters"
+}], "Text",
+ CellChangeTimes->{{3.735233482216729*^9, 
+  3.735233506687307*^9}},ExpressionUUID->"247e210e-5f3a-4586-ae2d-\
+d8e4c3da9bfd"],
+
+Cell[BoxData[
+ RowBox[{"StringCases", "[", 
+  RowBox[{"firstOnTheMoonTrimmed", ",", 
+   RowBox[{"Shortest", "[", 
+    RowBox[{"\"\<CHAPTER \>\"", "~~", "__", "~~", "WordBoundary"}], "]"}]}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.735233019536539*^9, 3.7352330670083513`*^9}},
+ CellLabel->
+  "In[100]:=",ExpressionUUID->"40083010-cde6-4613-bd5a-b1242020197d"],
+
+Cell["\<\
+We can extract a single chapter with pattern matching. To be concrete, let\
+\[CloseCurlyQuote]s say we are interested in trying to figure out what \
+happens in Chapter 9.\
+\>", "Text",
+ CellChangeTimes->{{3.735233545661775*^9, 
+  3.7352335882762413`*^9}},ExpressionUUID->"658d33bd-ae0e-4ab7-b1c4-\
+a86528aa7130"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"ch9", "=", 
+   RowBox[{
+    RowBox[{"StringCases", "[", 
+     RowBox[{"firstOnTheMoonTrimmed", ",", 
+      RowBox[{
+       RowBox[{"Shortest", "[", 
+        RowBox[{"\"\<CHAPTER 9\>\"", "~~", "x__", "~~", "\"\<CHAPTER\>\""}], 
+        "]"}], "\[Rule]", "x"}]}], "]"}], "\[LeftDoubleBracket]", "1", 
+    "\[RightDoubleBracket]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.735233600860834*^9, 3.735233626300436*^9}, {
+  3.735233672219245*^9, 3.735233672465341*^9}, {3.735233703945207*^9, 
+  3.735233727664394*^9}, {3.735233836764246*^9, 3.7352338386723747`*^9}},
+ CellLabel->
+  "In[114]:=",ExpressionUUID->"4d03295c-85a8-4870-a13d-20a292b8c5e3"],
+
+Cell[BoxData[
+ RowBox[{"viewData", "[", "ch9", "]"}]], "Input",
+ CellChangeTimes->{{3.735233629242628*^9, 3.7352336303394136`*^9}, {
+  3.735233826341428*^9, 3.735233829587414*^9}},
+ CellLabel->
+  "In[115]:=",ExpressionUUID->"39130617-da9b-4ff0-949e-6d9eb6d62d07"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"78311217-4348-47e7-9aae-0d08453f3d63"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "Term frequencies for Chapter 9 of ",
+ StyleBox["First on the Moon",
+  FontSlant->"Italic"]
+}], "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.6534096839132347`*^9, 3.6534096926154823`*^9}, {3.735233871545783*^9, 
+  3.735233873401849*^9}},ExpressionUUID->"113eec2c-8bc0-4fd9-bf4c-\
+7c6a4d90d4ca"],
+
+Cell["\<\
+We split the Chapter 9 string into separate words and convert each to \
+lowercase using the same method we just used for the whole book.\
+\>", "Text",
+ CellChangeTimes->{{3.640106446934812*^9, 3.640106511238591*^9}, 
+   3.640535371597501*^9, {3.640535405548098*^9, 3.640535451426903*^9}, 
+   3.735233868074873*^9},ExpressionUUID->"8a299e57-d726-4d03-8811-\
+7a5405ec746c"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"ch9LowercaseWords", "=", 
+   RowBox[{"ToLowerCase", "[", 
+    RowBox[{"TextWords", "[", "ch9", "]"}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.640107073598773*^9, 3.640107105048902*^9}, {
+  3.735233913157113*^9, 3.735233942375309*^9}},
+ CellLabel->
+  "In[116]:=",ExpressionUUID->"61b368c9-9c2a-4541-92a2-bfccc71d8589"],
+
+Cell[BoxData[
+ RowBox[{"Short", "[", 
+  RowBox[{"ch9LowercaseWords", ",", "6"}], "]"}]], "Input",
+ CellChangeTimes->{{3.6401071103325853`*^9, 3.640107117834128*^9}, {
+  3.735233945855123*^9, 3.73523394753505*^9}},
+ CellLabel->
+  "In[117]:=",ExpressionUUID->"4ff43aa7-0c2e-47ad-ade2-769ea2f71735"],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["Union",
+  FontWeight->"Bold"],
+ " command allows us to create a bag of words. These are all of the distinct \
+word types that appear in Chapter 9 of ",
+ StyleBox["Origin",
+  FontSlant->"Italic"],
+ ". There are 1640 of them."
+}], "Text",
+ CellChangeTimes->{{3.640106446934812*^9, 3.640106511238591*^9}, 
+   3.640535371597501*^9, {3.640535405548098*^9, 3.640535412557057*^9}, {
+   3.640535476129714*^9, 3.640535501440978*^9}, {3.640707612140024*^9, 
+   3.6407076208357153`*^9}, 
+   3.640888338969771*^9},ExpressionUUID->"e26909a9-19bf-462c-bb60-\
+5190af1f1d7b"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"ch9Terms", "=", 
+   RowBox[{"Union", "[", "ch9LowercaseWords", "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.640106522641197*^9, 3.6401065345048018`*^9}, {
+  3.640107095520974*^9, 3.640107126137352*^9}, {3.7352339597346983`*^9, 
+  3.73523396563054*^9}},
+ CellLabel->
+  "In[118]:=",ExpressionUUID->"dba40360-768e-4ad5-89d1-1d088204c24b"],
+
+Cell[BoxData[
+ RowBox[{"Length", "[", "ch9Terms", "]"}]], "Input",
+ CellChangeTimes->{{3.6407075959487877`*^9, 3.640707604181665*^9}},
+ CellLabel->
+  "In[119]:=",ExpressionUUID->"d9bd710e-ffaa-4364-bac6-7d7d6ab413c1"],
+
+Cell[BoxData[
+ RowBox[{"Short", "[", 
+  RowBox[{"ch9Terms", ",", "6"}], "]"}]], "Input",
+ CellChangeTimes->{{3.640106536399025*^9, 3.6401065448939867`*^9}},
+ CellLabel->
+  "In[120]:=",ExpressionUUID->"73509bb2-6181-45ce-b4cc-86a50d52656e"],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["term frequencies",
+  FontSlant->"Italic"],
+ " are simply the frequencies of all of the words that appear in Chapter 9. \
+Again, we are using the method we just developed. We don\[CloseCurlyQuote]t \
+have to worry about removing stopwords, because their TF-IDF score will be \
+relatively low."
+}], "Text",
+ CellChangeTimes->{{3.640107154278492*^9, 3.640107185014264*^9}, {
+  3.640535522319696*^9, 
+  3.640535591565729*^9}},ExpressionUUID->"789daf6c-6cfb-4a0e-93ac-\
+28ad31371ce3"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"ch9TermFreq", "=", 
+   RowBox[{"Sort", "[", 
+    RowBox[{
+     RowBox[{"Tally", "[", "ch9LowercaseWords", "]"}], ",", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"#1", "\[LeftDoubleBracket]", "2", "\[RightDoubleBracket]"}], 
+       ">", 
+       RowBox[{"#2", "\[LeftDoubleBracket]", "2", "\[RightDoubleBracket]"}]}],
+       "&"}]}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.6401072010425*^9, 3.640107201044076*^9}, {
+  3.73523398777435*^9, 3.735233988496153*^9}},
+ CellLabel->
+  "In[121]:=",ExpressionUUID->"357314c7-8d86-408f-b269-075f22795412"],
+
+Cell[BoxData[
+ RowBox[{"Short", "[", 
+  RowBox[{"ch9TermFreq", ",", "6"}], "]"}]], "Input",
+ CellChangeTimes->{{3.640107204450974*^9, 3.640107216565859*^9}},
+ CellLabel->
+  "In[122]:=",ExpressionUUID->"698f312a-76d9-4c14-91a8-dff067d6031d"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"ee523ee1-8b1a-4468-99df-0fbad533d574"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "Document frequencies for Chapter 9 of ",
+ StyleBox["First on the Moon",
+  FontSlant->"Italic"]
+}], "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.6534098645618067`*^9, 3.6534098659955883`*^9}, {3.7352340172533207`*^9, 
+  3.735234019044363*^9}},ExpressionUUID->"b54996f3-2b2b-4930-b970-\
+5ce823c194a1"],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["docFreq",
+  FontSlant->"Italic"],
+ " list that we generated earlier contains document frequencies for the whole \
+text of ",
+ StyleBox["First on the Moon",
+  FontSlant->"Italic"],
+ ". Here, we only want document frequencies for the terms that appear in \
+Chapter 9. First we need a way of determining whether something appears in a \
+list or not. The ",
+ StyleBox["MemberQ",
+  FontWeight->"Bold"],
+ " command does that."
+}], "Text",
+ CellChangeTimes->{{3.640536100475225*^9, 3.640536287748234*^9}, 
+   3.6405364714539022`*^9, {3.7352340318763866`*^9, 
+   3.735234034764086*^9}},ExpressionUUID->"c2960b05-64b6-409b-bac3-\
+91b53644b1c3"],
+
+Cell[BoxData[
+ RowBox[{"MemberQ", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"a", ",", "b", ",", "c"}], "}"}], ",", "b"}], "]"}]], "Input",
+ CellChangeTimes->{{3.640536292479375*^9, 3.640536303020502*^9}},
+ CellLabel->
+  "In[123]:=",ExpressionUUID->"05b89819-4a58-47ec-8bcd-790093b997be"],
+
+Cell[BoxData[
+ RowBox[{"MemberQ", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"a", ",", "b", ",", "c"}], "}"}], ",", "e"}], "]"}]], "Input",
+ CellChangeTimes->{{3.640536292479375*^9, 3.6405363096845217`*^9}},
+ CellLabel->
+  "In[124]:=",ExpressionUUID->"9ea81542-f1e4-4906-bdc9-4154284c0c1f"],
+
+Cell[BoxData[
+ RowBox[{"MemberQ", "[", 
+  RowBox[{"ch9Terms", ",", "\"\<agleam\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.640536548068367*^9, 3.6405365618028393`*^9}, {
+  3.73523405833101*^9, 3.735234058994997*^9}},
+ CellLabel->
+  "In[125]:=",ExpressionUUID->"e0e24e24-5019-4259-b902-4d9dfe8a83f0"],
+
+Cell[BoxData[
+ RowBox[{"MemberQ", "[", 
+  RowBox[{"ch9Terms", ",", "\"\<aglow\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.640536565178694*^9, 3.640536575282917*^9}, {
+  3.73523406243501*^9, 3.735234064018839*^9}},
+ CellLabel->
+  "In[126]:=",ExpressionUUID->"89b4eb35-cd36-4558-ac36-e998de78fe99"],
+
+Cell[TextData[{
+ "Now we need to go through the ",
+ StyleBox["docFreq",
+  FontSlant->"Italic"],
+ " list and pull out document frequencies for the terms that appear in \
+Chapter 9. We will use the ",
+ StyleBox["Select",
+  FontWeight->"Bold"],
+ " command to do this. ",
+ StyleBox["Select",
+  FontWeight->"Bold"],
+ " takes a list and a function describing the elements that are to be \
+selected. Since each element in the ",
+ StyleBox["docFreq",
+  FontSlant->"Italic"],
+ " list is itself a list with two items (the word type and its frequency)..."
+}], "Text",
+ CellChangeTimes->{{3.640536612311702*^9, 3.640536639103256*^9}, {
+  3.64053667787815*^9, 3.640536739667653*^9}, {3.640536777426262*^9, 
+  3.640536808721065*^9}, {3.642949121315476*^9, 
+  3.6429491300419197`*^9}},ExpressionUUID->"d8b984f6-e401-43d6-815e-\
+f81279740c66"],
+
+Cell[BoxData[
+ RowBox[{"Short", "[", "docFreq", "]"}]], "Input",
+ CellChangeTimes->{{3.640536445266532*^9, 3.640536477418131*^9}},
+ CellLabel->
+  "In[127]:=",ExpressionUUID->"13db82c9-3f13-4f11-bf1e-710c71ed0043"],
+
+Cell[TextData[{
+ "... we use a pure function based on ",
+ StyleBox["MemberQ",
+  FontWeight->"Bold"],
+ " to do the matching based on the word type. The list ",
+ StyleBox["ch9DocFreq",
+  FontSlant->"Italic"],
+ " is a subset of the ",
+ StyleBox["docFreq",
+  FontSlant->"Italic"],
+ " list containing document frequencies for only those terms that appear in \
+Chapter 9 of ",
+ StyleBox["First on the Moon",
+  FontSlant->"Italic"],
+ "."
+}], "Text",
+ CellChangeTimes->{{3.640536831640306*^9, 3.640536900853467*^9}, {
+  3.640536936924665*^9, 3.640536998586123*^9}, {3.640537054393198*^9, 
+  3.640537055671399*^9}, {3.6534104543407516`*^9, 3.653410460971764*^9}, {
+  3.735234087746202*^9, 
+  3.735234089682035*^9}},ExpressionUUID->"21a1a107-35ef-423b-bd79-\
+3daab122d0cc"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"ch9DocFreq", "=", 
+   RowBox[{"Select", "[", 
+    RowBox[{"docFreq", ",", 
+     RowBox[{
+      RowBox[{"MemberQ", "[", 
+       RowBox[{"ch9Terms", ",", 
+        RowBox[{"#", "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}]}],
+        "]"}], "&"}]}], "]"}]}], ";"}]], "Input",
+ CellLabel->
+  "In[128]:=",ExpressionUUID->"81f37c19-f953-4145-934d-9273e516e964"],
+
+Cell[BoxData[
+ RowBox[{"Short", "[", 
+  RowBox[{"ch9DocFreq", ",", "6"}], "]"}]], "Input",
+ CellChangeTimes->{{3.640107331726304*^9, 3.640107338257596*^9}},
+ CellLabel->
+  "In[129]:=",ExpressionUUID->"c58404c8-99b7-4da5-9cdf-764ba76597ba"],
+
+Cell[TextData[{
+ "Looking at ",
+ StyleBox["ch9TermFreq",
+  FontSlant->"Italic"],
+ " and ",
+ StyleBox["ch9DocFreq",
+  FontSlant->"Italic"],
+ " we can see, for example, that the word \[OpenCurlyQuote]the\
+\[CloseCurlyQuote] appears 290 times in Chapter 9 of ",
+ StyleBox["First on the Moon",
+  FontSlant->"Italic"],
+ ", and 4326 times in the book as a whole."
+}], "Text",
+ CellChangeTimes->{{3.642949162440556*^9, 3.642949242613964*^9}, {
+  3.735234130728531*^9, 
+  3.735234142672064*^9}},ExpressionUUID->"7b046d08-63fe-4067-969d-\
+a86f44394e23"],
+
+Cell[BoxData[
+ RowBox[{"TableForm", "[", 
+  RowBox[{
+   RowBox[{"Transpose", "[", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"ch9TermFreq", "\[LeftDoubleBracket]", 
+       RowBox[{"1", ";;", "15"}], "\[RightDoubleBracket]"}], ",", 
+      RowBox[{"ch9DocFreq", "\[LeftDoubleBracket]", 
+       RowBox[{"1", ";;", "15"}], "\[RightDoubleBracket]"}]}], "}"}], "]"}], 
+   ",", 
+   RowBox[{"TableHeadings", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"None", ",", 
+      RowBox[{"{", 
+       RowBox[{
+       "\"\<Ch9 Term Frequencies\>\"", ",", 
+        "\"\<Ch9 Document Frequencies\>\""}], "}"}]}], "}"}]}]}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.6534105285308723`*^9, 3.653410529882135*^9}, {
+  3.65341057335947*^9, 3.653410582064466*^9}, {3.653410637590119*^9, 
+  3.653410678275876*^9}, {3.653410709851595*^9, 3.653410727626938*^9}, {
+  3.653410779997594*^9, 3.65341082211099*^9}},
+ CellLabel->
+  "In[130]:=",ExpressionUUID->"9d55c55d-933d-43eb-978c-48e76b5b747b"],
+
+Cell["\<\
+Notice also that the relative frequencies can change places. For example, \
+\[OpenCurlyQuote]to\[CloseCurlyQuote] occurs more frequently than \
+\[OpenCurlyQuote]a\[CloseCurlyQuote] in Chapter 9, but less frequently in the \
+book as a whole.\
+\>", "Text",
+ CellChangeTimes->{{3.653410830086296*^9, 3.653410881012718*^9}, {
+  3.735234182078536*^9, 
+  3.735234185566346*^9}},ExpressionUUID->"31366537-cb1b-4b05-b89f-\
+b202143266f3"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"5812a544-75a4-4a96-bcc1-812f865b0e67"],
+
+Cell[CellGroupData[{
+
+Cell["Calculating TF-IDF", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.653410968523493*^9, 
+  3.653410972489457*^9}},ExpressionUUID->"07891947-fb15-419c-aef5-\
+cf1b776a9a05"],
+
+Cell["\<\
+Now we have term frequencies for every term that appears in Chapter 9, and we \
+have document frequencies for every term that appears in Chapter 9. So we \
+have enough information to compute the TF-IDF for every term that appears in \
+Chapter 9. Here is one way to calculate it.\
+\>", "Text",
+ CellChangeTimes->{{3.640707760175107*^9, 
+  3.640707838036353*^9}},ExpressionUUID->"ce716a8f-b36e-4db0-9e4e-\
+30e09717d19c"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"tfidf", "[", 
+   RowBox[{"termfreq_", ",", "docfreq_", ",", "numdocs_"}], "]"}], ":=", 
+  "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"Log", "[", 
+    RowBox[{"termfreq", "+", "1.0"}], "]"}], " ", 
+   RowBox[{"Log", "[", 
+    RowBox[{"numdocs", "/", "docfreq"}], "]"}]}]}]], "Input",
+ CellLabel->
+  "In[132]:=",ExpressionUUID->"20f4bb33-1bd8-41f9-a112-b3f42249b2d9"],
+
+Cell["\<\
+Let\[CloseCurlyQuote]s try to calculate the TF-IDF for one term that appears \
+in Chapter 9, \[OpenCurlyQuote]unconscious\[CloseCurlyQuote].\
+\>", "Text",
+ CellChangeTimes->{{3.640707972455134*^9, 3.640708017524967*^9}, {
+  3.735234265108266*^9, 3.7352342659793653`*^9}, {3.7352346241743402`*^9, 
+  3.735234626174749*^9}},ExpressionUUID->"a1cb52b4-e06e-4e9a-b220-\
+b8e7a3fc959f"],
+
+Cell[BoxData[
+ RowBox[{"MemberQ", "[", 
+  RowBox[{"ch9Terms", ",", "\"\<unconscious\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.640708030291469*^9, 3.640708039412837*^9}, {
+  3.7352342689633827`*^9, 3.7352342705473223`*^9}, {3.735234613647798*^9, 
+  3.735234615622726*^9}},
+ CellLabel->
+  "In[148]:=",ExpressionUUID->"9bbd0c33-40ff-4c92-964c-1c3e4933bf85"],
+
+Cell[TextData[{
+ "We can retrieve its term frequency and document frequency. The fact that \
+they are the same number tells us that \[OpenCurlyQuote]unconscious\
+\[CloseCurlyQuote] occurs five times in ",
+ StyleBox["First on the Moon",
+  FontSlant->"Italic"],
+ ", and all five instances are in Chapter 9."
+}], "Text",
+ CellChangeTimes->{{3.64070807652325*^9, 3.640708093874153*^9}, {
+  3.640708128392828*^9, 3.640708158375874*^9}, {3.735234631622141*^9, 
+  3.73523464810949*^9}},ExpressionUUID->"381954e3-e15f-4408-a1e7-\
+f09d3fada8b6"],
+
+Cell[BoxData[
+ RowBox[{"Cases", "[", 
+  RowBox[{"ch9TermFreq", ",", 
+   RowBox[{"{", 
+    RowBox[{"\"\<unconscious\>\"", ",", "_"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.640708054714601*^9, 3.640708071723776*^9}, {
+  3.735234275267276*^9, 3.7352342777310133`*^9}, {3.7352346023043633`*^9, 
+  3.7352346039193296`*^9}},
+ CellLabel->
+  "In[146]:=",ExpressionUUID->"02366934-0046-4c40-ada0-1828012448bc"],
+
+Cell[BoxData[
+ RowBox[{"Cases", "[", 
+  RowBox[{"ch9DocFreq", ",", 
+   RowBox[{"{", 
+    RowBox[{"\"\<unconscious\>\"", ",", "_"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6407080972898903`*^9, 3.640708114442034*^9}, {
+  3.7352342825949793`*^9, 3.7352342840589237`*^9}, {3.735234607568036*^9, 
+  3.7352346090512133`*^9}},
+ CellLabel->
+  "In[147]:=",ExpressionUUID->"e752c3bb-4b0b-4485-9f28-073f68a737dd"],
+
+Cell[TextData[{
+ "We are comparing Chapter 9 to the other chapters in ",
+ StyleBox["First on the Moon",
+  FontSlant->"Italic"],
+ ". Since there are 21 of them (and a prologue), we set the number of \
+documents to 22. The TF-IDF score for \[OpenCurlyDoubleQuote]unconscious\
+\[CloseCurlyDoubleQuote] is "
+}], "Text",
+ CellChangeTimes->{{3.640708169023239*^9, 3.640708235300955*^9}, {
+  3.73523465414133*^9, 
+  3.73523467620453*^9}},ExpressionUUID->"72504388-3a13-485c-a375-\
+b6695919c446"],
+
+Cell[BoxData[
+ RowBox[{"tfidf", "[", 
+  RowBox[{"5", ",", "5", ",", "22"}], "]"}]], "Input",
+ CellChangeTimes->{{3.64070824177691*^9, 3.640708247621209*^9}, {
+  3.735234352729084*^9, 3.735234357952025*^9}, {3.735234679829322*^9, 
+  3.7352346808922777`*^9}},
+ CellLabel->
+  "In[149]:=",ExpressionUUID->"952c5302-3d5b-4b77-8fd5-8e182aa94efe"],
+
+Cell["Let\[CloseCurlyQuote]s compare that score to the score for a stopword", \
+"Text",
+ CellChangeTimes->{{3.6407082630438147`*^9, 
+  3.640708277931406*^9}},ExpressionUUID->"171bd821-ef8f-4b21-976c-\
+e3d04efcf500"],
+
+Cell[BoxData[
+ RowBox[{"Cases", "[", 
+  RowBox[{"ch9TermFreq", ",", 
+   RowBox[{"{", 
+    RowBox[{"\"\<the\>\"", ",", "_"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.640708291143229*^9, 3.640708291451707*^9}},
+ CellLabel->
+  "In[136]:=",ExpressionUUID->"ce6a705b-eac0-4359-a390-386a1677a7a8"],
+
+Cell[BoxData[
+ RowBox[{"Cases", "[", 
+  RowBox[{"ch9DocFreq", ",", 
+   RowBox[{"{", 
+    RowBox[{"\"\<the\>\"", ",", "_"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6407080972898903`*^9, 3.640708114442034*^9}, {
+  3.6407083011200542`*^9, 3.6407083013152657`*^9}},
+ CellLabel->
+  "In[137]:=",ExpressionUUID->"1b32f752-d08b-4cad-955a-0384642ea5cc"],
+
+Cell[BoxData[
+ RowBox[{"tfidf", "[", 
+  RowBox[{"290", ",", "4326", ",", "22"}], "]"}]], "Input",
+ CellChangeTimes->{{3.64070824177691*^9, 3.640708247621209*^9}, {
+  3.6407083152996273`*^9, 3.6407083200105953`*^9}, {3.735234364935855*^9, 
+  3.735234379007328*^9}},
+ CellLabel->
+  "In[139]:=",ExpressionUUID->"5a9d0cbe-ad6e-42d2-89ce-1ebd3d6696e9"],
+
+Cell[TextData[{
+ "Very much lower! Let\[CloseCurlyQuote]s compare the score for \
+\[OpenCurlyQuote]unconscious\[CloseCurlyQuote] with the score for a word that \
+occurs frequently throughout ",
+ StyleBox["First on the Moon",
+  FontSlant->"Italic"],
+ ", \[OpenCurlyQuote]rocket\[CloseCurlyQuote]."
+}], "Text",
+ CellChangeTimes->{{3.640708326769433*^9, 3.640708375127891*^9}, {
+  3.735234694923764*^9, 
+  3.735234706163452*^9}},ExpressionUUID->"452f68b8-3efa-4c8e-96a2-\
+c26f70f93fae"],
+
+Cell[BoxData[
+ RowBox[{"Cases", "[", 
+  RowBox[{"ch9TermFreq", ",", 
+   RowBox[{"{", 
+    RowBox[{"\"\<rocket\>\"", ",", "_"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.640708291143229*^9, 3.640708291451707*^9}, {
+  3.6407083880377407`*^9, 3.640708389832077*^9}, {3.735234390583041*^9, 
+  3.735234391127033*^9}, {3.7352344334794397`*^9, 3.73523443441335*^9}},
+ CellLabel->
+  "In[143]:=",ExpressionUUID->"9762259d-a4fc-4274-9a05-ed345ef28970"],
+
+Cell[BoxData[
+ RowBox[{"Cases", "[", 
+  RowBox[{"ch9DocFreq", ",", 
+   RowBox[{"{", 
+    RowBox[{"\"\<rocket\>\"", ",", "_"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6407080972898903`*^9, 3.640708114442034*^9}, {
+  3.6407083011200542`*^9, 3.6407083013152657`*^9}, {3.640708391780789*^9, 
+  3.640708393071898*^9}, {3.7352343936549387`*^9, 3.735234394110848*^9}, {
+  3.735234438934227*^9, 3.735234439629311*^9}},
+ CellLabel->
+  "In[144]:=",ExpressionUUID->"f9a819be-27ab-4a11-81c9-52e098ed2325"],
+
+Cell[BoxData[
+ RowBox[{"tfidf", "[", 
+  RowBox[{"7", ",", "173", ",", "22"}], "]"}]], "Input",
+ CellChangeTimes->{{3.64070824177691*^9, 3.640708247621209*^9}, {
+  3.6407083152996273`*^9, 3.6407083200105953`*^9}, {3.640708401827133*^9, 
+  3.6407084048635187`*^9}, {3.735234405278305*^9, 3.735234412694015*^9}, {
+  3.73523444420609*^9, 3.735234447132822*^9}},
+ CellLabel->
+  "In[145]:=",ExpressionUUID->"94fcecae-6b14-4ec9-83ac-564c063ad287"],
+
+Cell[TextData[{
+ "If we were comparing ",
+ StyleBox["First on the Moon",
+  FontSlant->"Italic"],
+ " with another text (maybe one that was not science fiction), then the \
+TF-IDF score for \[OpenCurlyQuote]rocket\[CloseCurlyQuote] would be \
+relatively high. But when we compare one part of ",
+ StyleBox["First on the Moon",
+  FontSlant->"Italic"],
+ " with another part, the TF-IDF score for \[OpenCurlyQuote]rocket\
+\[CloseCurlyQuote] may be relatively low in some cases, and high in others, \
+depending on which part of the text we are focusing on."
+}], "Text",
+ CellChangeTimes->{{3.6407084098703737`*^9, 3.640708552697311*^9}, {
+  3.7352347128595543`*^9, 
+  3.735234739650285*^9}},ExpressionUUID->"6de28efe-caf3-43bd-bf19-\
+be78f5415a63"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"a291afef-34c4-42a4-bc65-5eb02b2bc5e2"],
+
+Cell[CellGroupData[{
+
+Cell["The importance of using logarithms", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.653411324854021*^9, 
+  3.653411328972505*^9}},ExpressionUUID->"26e9d0d8-32b8-4451-bf59-\
+a4600d9b05a8"],
+
+Cell[CellGroupData[{
+
+Cell["A review of log scales", "Subsection",
+ CellChangeTimes->{{3.6534114937186193`*^9, 
+  3.653411496478705*^9}},ExpressionUUID->"057e6f15-2b48-440c-a7b0-\
+78816a0bdf04"],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["Log",
+  FontWeight->"Bold"],
+ " function plays an important role in determining the TF-IDF. As we can see \
+if we look at ",
+ StyleBox["docFreq",
+  FontSlant->"Italic"],
+ " above, some terms occur much more frequently than others. In our TF-IDF \
+calculation we need to prevent these more frequent terms from dominating the \
+less frequent ones. So we use the ",
+ StyleBox["Log",
+  FontWeight->"Bold"],
+ " command to take the natural logarithms of the two parts of our equation \
+(the TF and the IDF). First, a quick review of what logarithms do."
+}], "Text",
+ CellChangeTimes->{{3.640708572512288*^9, 3.640708610577944*^9}, {
+  3.6411339554880037`*^9, 3.641133965079959*^9}, {3.653411366492057*^9, 
+  3.653411373874929*^9}},ExpressionUUID->"2a5399f6-3ab6-432b-8503-\
+37bee7570571"],
+
+Cell["\<\
+A logarithm makes it easier to compare numbers that differ greatly in scale. \
+Suppose, for example, you have a list of values like the following\
+\>", "Text",
+ CellChangeTimes->{{3.641133516592708*^9, 3.641133549143021*^9}, {
+  3.641133630476633*^9, 
+  3.641133681626114*^9}},ExpressionUUID->"c1b9c8f1-b044-4473-8ddb-\
+dd989d2ad980"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "3.", ",", "870.", ",", "75.", ",", "88430.", ",", "18.", ",", "12007.", 
+   ",", "239021.", ",", "7689.", ",", "51982.", ",", "11.", ",", "785324.", 
+   ",", "360400."}], "}"}]], "DisplayFormula",
+ CellChangeTimes->{{3.6411336845066757`*^9, 3.641133759704159*^9}, {
+  3.6411338758675117`*^9, 3.641133877367001*^9}, {3.641134129538393*^9, 
+  3.641134144153844*^9}},ExpressionUUID->"23b3a848-f7b6-44f4-a287-\
+c92df3111201"],
+
+Cell[TextData[StyleBox["If you plot those on a linear scale, the handful of \
+very large values dominate your view. Most of the other values appear so \
+close to zero that it is hard to discriminate among them in a meaningful way.",
+ FontSlant->"Plain"]], "Text",
+ CellChangeTimes->{{3.641133784214058*^9, 3.641133791678158*^9}, {
+  3.641133846908699*^9, 3.6411338601075573`*^9}, {3.641133893139132*^9, 
+  3.641133937664638*^9}},
+ FontSlant->"Italic",ExpressionUUID->"051de7d5-213d-4693-89e3-1673b12a259f"],
+
+Cell[BoxData[
+ RowBox[{"ListPlot", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+    "3.", ",", "870.", ",", "75.", ",", "88430.", ",", "18.", ",", "12007.", 
+     ",", "239021.", ",", "7689.", ",", "51982.", ",", "11.", ",", "785324.", 
+     ",", "360400."}], "}"}], ",", 
+   RowBox[{"Filling", "\[Rule]", "Axis"}], ",", 
+   RowBox[{"PlotRange", "\[Rule]", "Full"}], ",", 
+   RowBox[{"AxesLabel", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"None", ",", "\"\<Raw Value\>\""}], "}"}]}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.641133793725905*^9, 3.641133829965734*^9}, 
+   3.6411338869957027`*^9, 3.641134150061911*^9, {3.64113442347185*^9, 
+   3.6411344377673693`*^9}},
+ CellLabel->
+  "In[150]:=",ExpressionUUID->"22348701-bf23-4408-af00-1f223e5bd330"],
+
+Cell[TextData[{
+ "If we take the ",
+ StyleBox["Log",
+  FontWeight->"Bold"],
+ " of each of our values we get the following list."
+}], "Text",
+ CellChangeTimes->{{3.64113399698559*^9, 3.6411340157180223`*^9}, {
+  3.641134103739435*^9, 3.641134108794606*^9}, {3.642949834073748*^9, 
+  3.642949849600173*^9}},ExpressionUUID->"569d9c78-5266-40c8-816e-\
+65929ea68ef6"],
+
+Cell[BoxData[
+ RowBox[{"Log", "[", 
+  RowBox[{"{", 
+   RowBox[{
+   "3.", ",", "870.", ",", "75.", ",", "88430.", ",", "18.", ",", "12007.", 
+    ",", "239021.", ",", "7689.", ",", "51982.", ",", "11.", ",", "785324.", 
+    ",", "360400."}], "}"}], "]"}]], "Input",
+ CellChangeTimes->{{3.642949824581417*^9, 3.642949827409314*^9}},
+ CellLabel->
+  "In[151]:=",ExpressionUUID->"2e67eb06-0ea3-4e0a-9b88-c06ac9032a5c"],
+
+Cell["\<\
+If we plot this list, we get the following figure. The largest value is still \
+the 11th one, the second largest is still the 12th, and so on. The smallest \
+value (the 1st) corresponds to the smallest value in our original list. We \
+can now use the same graph to compare small values as easily as large ones.\
+\>", "Text",
+ CellChangeTimes->{{3.641134180736438*^9, 3.6411342072149754`*^9}, {
+  3.641134319683346*^9, 3.6411343679531317`*^9}, {3.641134533002832*^9, 
+  3.6411345428987827`*^9}, {3.6429498955913887`*^9, 
+  3.642949898958468*^9}},ExpressionUUID->"85a30336-1c53-40ae-b0dd-\
+b39993af7ecf"],
+
+Cell[BoxData[
+ RowBox[{"ListPlot", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+    "1.09861", ",", "6.76849", ",", "4.31749", ",", "11.39", ",", "2.89037", 
+     ",", "9.39325", ",", "12.3843", ",", "8.94755", ",", "10.8587", ",", 
+     "2.3979", ",", "13.5739", ",", "12.795"}], "}"}], ",", 
+   RowBox[{"Filling", "\[Rule]", "Axis"}], ",", 
+   RowBox[{"PlotRange", "\[Rule]", "Full"}], ",", 
+   RowBox[{"AxesLabel", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"None", ",", "\"\<Logs\>\""}], "}"}]}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.641133793725905*^9, 3.641133829965734*^9}, 
+   3.6411338869957027`*^9, 3.641134150061911*^9, {3.6411342196032877`*^9, 
+   3.641134296375345*^9}, 3.64113441608943*^9, {3.641134448078784*^9, 
+   3.6411344606466627`*^9}, 3.641134779211341*^9},
+ CellLabel->
+  "In[152]:=",ExpressionUUID->"74ccdb94-76e0-4874-94dc-176f3143825a"],
+
+Cell[TextData[{
+ "Drawing the figure like this, with a linear scale on the x axis, hides the \
+fact that the difference between the two smallest numbers (3 and 11) is \
+nowhere near as large as the difference between the two largest (360,400 and \
+785,324). It is more useful to draw the figure with a logarithmic scale on \
+the x axis. That is what the ",
+ StyleBox["ListLogPlot",
+  FontWeight->"Bold"],
+ " command does. Note that we give it our original data as input. Compare \
+this figure to the previous two."
+}], "Text",
+ CellChangeTimes->{{3.64113448330939*^9, 3.641134700333125*^9}, {
+  3.6411347399402037`*^9, 3.641134754283196*^9}, {3.64113493541227*^9, 
+  3.641134936668373*^9}, {3.6429499132313232`*^9, 
+  3.642949915365855*^9}},ExpressionUUID->"c3b447e3-6b0e-495a-bb98-\
+442a3b201595"],
+
+Cell[BoxData[
+ RowBox[{"ListLogPlot", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+    "3.", ",", "870.", ",", "75.", ",", "88430.", ",", "18.", ",", "12007.", 
+     ",", "239021.", ",", "7689.", ",", "51982.", ",", "11.", ",", "785324.", 
+     ",", "360400."}], "}"}], ",", 
+   RowBox[{"Filling", "\[Rule]", "Axis"}], ",", 
+   RowBox[{"PlotRange", "\[Rule]", "Full"}], ",", 
+   RowBox[{"AxesLabel", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"None", ",", "\"\<Value\>\""}], "}"}]}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.641133793725905*^9, 3.641133829965734*^9}, 
+   3.6411338869957027`*^9, 3.641134150061911*^9, {3.6411342196032877`*^9, 
+   3.641134296375345*^9}, 3.64113441608943*^9, {3.641134448078784*^9, 
+   3.6411344606466627`*^9}, {3.641134705798472*^9, 3.641134730404694*^9}, {
+   3.641134792193054*^9, 3.641134792666666*^9}},
+ CellLabel->
+  "In[153]:=",ExpressionUUID->"5c98423e-fc8e-435d-bded-b0cd5f76418d"],
+
+Cell[TextData[{
+ "When we look at this figure, we can see that the first element is a bit \
+larger than 2 (it is 3) and the 10th element is a bit larger than 10 (it is \
+11). We can also see that the largest element is a bit less than 1 million ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"(", 
+    SuperscriptBox["10", "6"], ")"}], TraditionalForm]],ExpressionUUID->
+  "ab49d9dc-89f5-4326-9dd2-27e06c879c2a"],
+ " and the second largest is a bit less than half a million. Using a graph \
+with a log scale, we can make rapid comparisons between values that a vastly \
+different in scale: the 10th element is about a hundred times smaller than \
+the 2nd one, a thousand times smaller than the 8th one and ten thousand times \
+smaller than the 4th one."
+}], "Text",
+ CellChangeTimes->{{3.641134804969576*^9, 3.641135091966754*^9}, {
+  3.641135173835668*^9, 3.641135203906681*^9}, {3.641135249672847*^9, 
+  3.641135291175418*^9}},ExpressionUUID->"529604fe-a1fb-4468-9e8a-\
+0e08f7028729"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["TF-IDF without logs", "Subsection",
+ CellChangeTimes->{{3.653411485847583*^9, 
+  3.653411488390912*^9}},ExpressionUUID->"2d4ed826-7d65-4685-aaa3-\
+4f15437786da"],
+
+Cell["\<\
+So what would the TF-IDF measures look like without logarithms? This is the \
+revised formula\
+\>", "Text",
+ CellChangeTimes->{{3.640709895407584*^9, 3.6407099377508574`*^9}, {
+  3.640709979053337*^9, 3.640710006971642*^9}, {3.641133970975275*^9, 
+  3.64113397561547*^9}},ExpressionUUID->"24adacaa-a9bc-48b5-b5be-\
+091a19a605f9"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(", 
+   RowBox[{"termfreq", "+", "1.0"}], ")"}], 
+  RowBox[{"(", " ", 
+   RowBox[{"numdocs", "/", "docfreq"}], ")"}]}]], "DisplayFormula",
+ CellChangeTimes->{{3.640709956953561*^9, 
+  3.6407099706002417`*^9}},ExpressionUUID->"7ccc7424-0a9f-4317-b842-\
+c52dd3ad4bbd"],
+
+Cell["Here are the measures for 'unconscious', \[OpenCurlyQuote]the\
+\[CloseCurlyQuote] and \[OpenCurlyQuote]rocket\[CloseCurlyQuote]", "Text",
+ CellChangeTimes->{{3.640709895407584*^9, 3.6407099377508574`*^9}, {
+  3.640709979053337*^9, 3.640709980180393*^9}, {3.640710011643333*^9, 
+  3.640710019779134*^9}, {3.735234871102147*^9, 
+  3.735234876956984*^9}},ExpressionUUID->"2f16ba6c-9372-421c-a0f0-\
+7eeb93e7e997"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(", 
+   RowBox[{"5", "+", "1.0"}], ")"}], 
+  RowBox[{"(", " ", 
+   RowBox[{"22", "/", "5"}], ")"}]}]], "Input",
+ CellChangeTimes->{{3.640710029513608*^9, 3.640710041157695*^9}, {
+  3.735234879709899*^9, 3.7352349044681473`*^9}},
+ CellLabel->
+  "In[154]:=",ExpressionUUID->"6ea52112-b4b8-4820-af28-db9dc97c3fe8"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(", 
+   RowBox[{"290", "+", "1.0"}], ")"}], 
+  RowBox[{"(", " ", 
+   RowBox[{"22", "/", "4326"}], ")"}]}]], "Input",
+ CellChangeTimes->{{3.640710053886209*^9, 3.640710081737487*^9}, {
+  3.735234881404922*^9, 3.735234881588979*^9}, {3.7352349163804407`*^9, 
+  3.735234920988329*^9}},
+ CellLabel->
+  "In[155]:=",ExpressionUUID->"79772858-541d-4d9b-8536-c28de2101f82"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(", 
+   RowBox[{"7", "+", "1.0"}], ")"}], 
+  RowBox[{"(", " ", 
+   RowBox[{"22", "/", "173"}], ")"}]}]], "Input",
+ CellChangeTimes->{{3.640710093660264*^9, 3.640710101353477*^9}, {
+  3.735234882644931*^9, 3.735234882836914*^9}, {3.7352349364829597`*^9, 
+  3.73523494049074*^9}},
+ CellLabel->
+  "In[156]:=",ExpressionUUID->"9081d195-c311-450f-be93-66d407173b24"],
+
+Cell[TextData[{
+ "Now a very frequent term (like the stopword \[OpenCurlyQuote]the\
+\[CloseCurlyQuote]) has a higher TF-IDF measure than a highly relevant, but \
+less frequent term (like the word \[OpenCurlyQuote]rocket\[CloseCurlyQuote]). \
+This is not the result we want, hence the use of ",
+ StyleBox["Log",
+  FontWeight->"Bold"],
+ " in our formula. (We used the natural logarithm (base \[ExponentialE]) in \
+our code, but the base doesn\[CloseCurlyQuote]t matter.)"
+}], "Text",
+ CellChangeTimes->{{3.640710130118959*^9, 3.640710222987413*^9}, {
+   3.6408884571497307`*^9, 3.64088848305917*^9}, 3.6429499832768373`*^9, {
+   3.642950078760841*^9, 3.642950108839045*^9}, {3.7352349651061707`*^9, 
+   3.735234965674048*^9}},ExpressionUUID->"1dd67477-99a1-4a0b-9608-\
+aa0882641b7e"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"e3d9f672-1e20-40e5-b5bf-1fbd195a4990"],
+
+Cell[CellGroupData[{
+
+Cell["Computing TF-IDF scores for every word in Chapter 9", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.6534115405906467`*^9, 
+  3.653411557460473*^9}},ExpressionUUID->"f6dbe2d9-e147-494b-93ec-\
+e5f607beb710"],
+
+Cell["\<\
+This function computes the TF-IDF score for every word in a chapter.\
+\>", "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+   3.6534117450308723`*^9, 3.653411783156451*^9}, 
+   3.685635364161031*^9},ExpressionUUID->"280789b2-5e29-436b-aba7-\
+aea29d64ae99"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"computeTFIDF", "[", 
+   RowBox[{"termlist_", ",", "tflist_", ",", "dflist_", ",", "numdocs_"}], 
+   "]"}], ":=", "\[IndentingNewLine]", 
+  RowBox[{"(*", " ", 
+   RowBox[{"Version", " ", "20180513"}], " ", "*)"}], "\[IndentingNewLine]", 
+  RowBox[{"Module", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"outlist", ",", "tf", ",", "df"}], "}"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"outlist", "=", 
+      RowBox[{"{", "}"}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"Do", "[", "\[IndentingNewLine]", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"tf", "=", 
+         RowBox[{
+          RowBox[{"Cases", "[", 
+           RowBox[{"tflist", ",", 
+            RowBox[{
+             RowBox[{"{", 
+              RowBox[{"t", ",", "x_"}], "}"}], "\[Rule]", "x"}]}], "]"}], 
+          "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}]}], ";", 
+        "\[IndentingNewLine]", 
+        RowBox[{"df", "=", 
+         RowBox[{
+          RowBox[{"Cases", "[", 
+           RowBox[{"dflist", ",", 
+            RowBox[{
+             RowBox[{"{", 
+              RowBox[{"t", ",", "x_"}], "}"}], "\[Rule]", "x"}]}], "]"}], 
+          "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}]}], ";", 
+        "\[IndentingNewLine]", 
+        RowBox[{"outlist", "=", 
+         RowBox[{"Append", "[", 
+          RowBox[{"outlist", ",", 
+           RowBox[{"{", 
+            RowBox[{"t", ",", "tf", ",", "df", ",", 
+             RowBox[{"tfidf", "[", 
+              RowBox[{"tf", ",", "df", ",", "numdocs"}], "]"}]}], "}"}]}], 
+          "]"}]}]}], ",", "\[IndentingNewLine]", 
+       RowBox[{"{", 
+        RowBox[{"t", ",", "termlist"}], "}"}]}], "]"}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"Return", "[", "outlist", "]"}]}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.735235133317563*^9, 3.73523515932345*^9}},
+ CellLabel->
+  "In[162]:=",ExpressionUUID->"e2da8c80-d5e5-43d5-a6c2-6d4088b8ed70"],
+
+Cell["We do the computation and save the results.", "Text",
+ CellChangeTimes->{
+  3.640107195987481*^9, {3.640107445899001*^9, 3.640107465173037*^9}, {
+   3.640710834894183*^9, 3.640710841188737*^9}, {3.640888574985746*^9, 
+   3.640888576968317*^9}, {3.6534117966201*^9, 
+   3.653411800842989*^9}},ExpressionUUID->"54a585c0-967c-4760-9d1e-\
+aa9abbb9e8a4"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"ch9TFIDF", "=", 
+   RowBox[{"Sort", "[", 
+    RowBox[{
+     RowBox[{"computeTFIDF", "[", 
+      RowBox[{"ch9Terms", ",", "ch9TermFreq", ",", "ch9DocFreq", ",", "22"}], 
+      "]"}], ",", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"#1", "\[LeftDoubleBracket]", "4", "\[RightDoubleBracket]"}], 
+       ">", 
+       RowBox[{"#2", "\[LeftDoubleBracket]", "4", "\[RightDoubleBracket]"}]}],
+       "&"}]}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.5470315943677197`*^9, 3.5470316620577793`*^9}, {
+  3.547032323827345*^9, 3.547032337529541*^9}, {3.547032911696452*^9, 
+  3.547032922240966*^9}, {3.735235169588241*^9, 3.735235170090416*^9}},
+ CellLabel->
+  "In[163]:=",ExpressionUUID->"e90b1887-def6-4cb5-bb1f-9f4eb76bd37e"],
+
+Cell[TextData[{
+ "The output of the ",
+ StyleBox["computeTFIDF",
+  FontSlant->"Italic"],
+ " function includes a lot of information. For each term there is a list \
+consisting of the term, its TF, DF, and TF-IDF. Here are the first twenty \
+entries in the TF-IDF list. We have used the ",
+ StyleBox["Grid",
+  FontWeight->"Bold"],
+ " command to lay everything out in a table, and the ",
+ StyleBox["Prepend",
+  FontWeight->"Bold"],
+ " command to add headers for each column. The ",
+ StyleBox["Alignment\[Rule]Right",
+  FontSlant->"Italic"],
+ " option tells ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " we want the columns to be right justified."
+}], "Text",
+ CellChangeTimes->{{3.6405417315656147`*^9, 3.640541781884459*^9}, {
+  3.6405418206752253`*^9, 3.6405418549457417`*^9}, {3.6405420526590147`*^9, 
+  3.640542074553789*^9}, {3.640542129167292*^9, 3.640542130623193*^9}, {
+  3.640542568232589*^9, 3.640542661436349*^9}, {3.640710868323909*^9, 
+  3.640710875059792*^9}, {3.640888588008998*^9, 3.640888592319961*^9}, {
+  3.735235190970963*^9, 
+  3.735235192169999*^9}},ExpressionUUID->"a3c91e24-a492-401e-bbc3-\
+8a89f7fae4ab"],
+
+Cell[BoxData[
+ RowBox[{"Grid", "[", 
+  RowBox[{
+   RowBox[{"Prepend", "[", 
+    RowBox[{
+     RowBox[{"ch9TFIDF", "\[LeftDoubleBracket]", 
+      RowBox[{"1", ";;", "20"}], "\[RightDoubleBracket]"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+      "\"\<Term\>\"", ",", "\"\<TF\>\"", ",", "\"\<DF\>\"", ",", 
+       "\"\<TF-IDF\>\""}], "}"}]}], "]"}], ",", 
+   RowBox[{"Alignment", "\[Rule]", "Right"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6405417415224*^9, 3.6405417501182337`*^9}, {
+   3.640541792504819*^9, 3.640541817438347*^9}, {3.6405418612257843`*^9, 
+   3.6405420117390223`*^9}, {3.640542042119516*^9, 3.640542066802891*^9}, 
+   3.640542135616065*^9, 3.735235083591782*^9},
+ CellLabel->
+  "In[164]:=",ExpressionUUID->"a4b57e9e-53b1-4b92-b574-a7d5ec2d9e73"],
+
+Cell["\<\
+The fifty terms in Chapter 9 with the highest TF-IDF score are listed below. \
+Take a moment to study them.\
+\>", "Text",
+ CellChangeTimes->{{3.6401074958029623`*^9, 3.6401075580568447`*^9}, {
+  3.64054210994388*^9, 
+  3.640542124855929*^9}},ExpressionUUID->"cb9b66fa-2389-4425-8de3-\
+9ea359d6ec46"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Take", "[", 
+   RowBox[{"ch9TFIDF", ",", "50"}], "]"}], "\[LeftDoubleBracket]", 
+  RowBox[{"All", ",", "1"}], "\[RightDoubleBracket]"}]], "Input",
+ CellLabel->
+  "In[165]:=",ExpressionUUID->"67153e1c-4075-4a12-aa14-205bbbce7e13"],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["term frequency-inverse document frequency",
+  FontSlant->"Italic"],
+ " (TF-IDF) measure gives us one way of determining whether a particular term \
+plays an important role in a page, chapter or other part of a text. In our \
+example we used terms with high TF-IDF to try to figure out what Chapter 9 of \
+",
+ StyleBox["First on the Moon",
+  FontSlant->"Italic"],
+ " is about. When used with a group of documents (a ",
+ StyleBox["corpus",
+  FontSlant->"Italic"],
+ "), TF-IDF can help to automatically determine what each document is about \
+and whether or not it is ",
+ StyleBox["relevant",
+  FontSlant->"Italic"],
+ " to a particular search query."
+}], "Text",
+ CellChangeTimes->{{3.640711530355771*^9, 3.640711534651072*^9}, {
+   3.640888779450098*^9, 3.640888805983494*^9}, {3.6408888524388533`*^9, 
+   3.640888852665229*^9}, {3.640888885068879*^9, 3.640888959410616*^9}, {
+   3.640888999113661*^9, 3.640889221964572*^9}, {3.640889266576339*^9, 
+   3.6408893627163267`*^9}, 3.642955744578618*^9, {3.735235301094718*^9, 
+   3.7352353093256817`*^9}},ExpressionUUID->"797b59cb-2798-470d-aa69-\
+8d6a1d84f33e"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"ef1b9fbe-e461-4eb1-9c20-5b6075f2497b"],
+
+Cell[CellGroupData[{
+
+Cell["Activity", "Section",
+ CellChangeTimes->{{3.647716402186221*^9, 
+  3.647716405353856*^9}},ExpressionUUID->"78e53ce7-99e1-4bc2-92fa-\
+759ba4b825e0"],
+
+Cell[CellGroupData[{
+
+Cell["Questions", "Subsection",
+ CellChangeTimes->{{3.6534137558925667`*^9, 
+  3.653413760700034*^9}},ExpressionUUID->"7ea5047e-d7a3-4f4b-9fea-\
+e14dc380ac88"],
+
+Cell["\<\
+Skim through the text of Chapter 9 and try to get a sense of what it is \
+about. Then look at the fifty terms with the highest TF-IDF score. Do you \
+think they do a good job of suggesting what the chapter is about? Why or why \
+not?\
+\>", "Text",
+ CellChangeTimes->{{3.653413762979555*^9, 3.653413764707856*^9}, {
+  3.65341390711252*^9, 3.6534139286936607`*^9}, {3.6534139709887543`*^9, 
+  3.653413972140258*^9}, {3.653414263506185*^9, 3.653414374629723*^9}, {
+  3.653414429340116*^9, 3.6534144346433897`*^9}, {3.7352354046348753`*^9, 
+  3.7352354210174303`*^9}},ExpressionUUID->"2a294610-4602-4b57-8678-\
+b5021b7d77d1"],
+
+Cell["\<\
+If you were going to come up with a list of keywords for Chapter 9 by hand, \
+which would you add? Which would you remove?\
+\>", "Text",
+ CellChangeTimes->{{3.65341438342099*^9, 3.6534144022526627`*^9}, {
+   3.653414472051249*^9, 3.653414474129919*^9}, 
+   3.735235427113125*^9},ExpressionUUID->"5e27ee28-bd46-4f0c-b8fa-\
+2b817e7add41"],
+
+Cell["\<\
+Repeat the analysis for a different chapter. Do the terms with high TF-IDF do \
+a better (or worse) job of suggesting what that chapter is about? What other \
+kinds of information might improve the automated judgement of relevance?\
+\>", "Text",
+ CellChangeTimes->{{3.735235442903923*^9, 
+  3.735235543004943*^9}},ExpressionUUID->"ffce5eda-bef4-4c5e-b755-\
+37575909e46f"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"76a4a655-beae-4038-8fe9-724b9f14e79e"],
+
+Cell[CellGroupData[{
+
+Cell["FeatureExtraction", "Section",
+ CellChangeTimes->{{3.649950784924818*^9, 3.649950788859275*^9}, {
+  3.7359208390779*^9, 3.7359208419970837`*^9}, {3.735921835017323*^9, 
+  3.7359218363205*^9}, {3.739207441055155*^9, 
+  3.739207444606204*^9}},ExpressionUUID->"3c2b5e5e-f93e-47ad-a0b3-\
+34edeb0862fb"],
+
+Cell[TextData[{
+ "There are a set of machine-learning based ",
+ StyleBox["FeatureExtraction",
+  FontWeight->"Bold"],
+ " commands that can also be used to compute TF-IDF and do text search, \
+although they are still listed as experimental as of Mathematica 11.3 "
+}], "Text",
+ CellChangeTimes->{{3.649950792779258*^9, 3.649950818634288*^9}, {
+  3.7359208458611107`*^9, 3.735920879467534*^9}, {3.739207453854053*^9, 
+  3.739207460269759*^9}, {3.7392075334837713`*^9, 
+  3.73920760103268*^9}},ExpressionUUID->"3ac1e6a5-1706-43a7-b641-\
+335ae131a8ad"],
+
+Cell["\<\
+Split the text into sentences and train a feature extractor on these sentences\
+\>", "Text",
+ CellChangeTimes->{{3.739207621359727*^9, 
+  3.739207635399403*^9}},ExpressionUUID->"0dee2d0c-1ab3-4cff-a76a-\
+d9808b1f4d1a"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"firstOnTheMoonSentences", "=", 
+   RowBox[{"TextSentences", "[", "firstOnTheMoonTrimmed", "]"}]}], 
+  ";"}]], "Input",
+ CellChangeTimes->{{3.739207666900276*^9, 3.739207688461464*^9}},
+ CellLabel->"In[5]:=",ExpressionUUID->"017e5e95-f3dc-4b7c-ad1e-7e01ef8fd04a"],
+
+Cell[BoxData[
+ RowBox[{"fe", "=", 
+  RowBox[{
+  "FeatureExtraction", "[", "firstOnTheMoonSentences", "]"}]}]], "Input",
+ CellChangeTimes->{{3.739207694371399*^9, 3.7392077018217087`*^9}},
+ CellLabel->"In[6]:=",ExpressionUUID->"db9ed871-7096-4bbf-a468-974fdcb37eab"],
+
+Cell[TextData[{
+ "Generate a ",
+ StyleBox["NearestFunction",
+  FontWeight->"Bold"],
+ " with sentence features and wrap this in a function for finding the nearest \
+sentence to a particular text query"
+}], "Text",
+ CellChangeTimes->{{3.739207722796517*^9, 3.739207734395794*^9}, {
+  3.739207782042872*^9, 
+  3.7392078029053373`*^9}},ExpressionUUID->"3ed64a99-073e-45e4-a9ee-\
+1f332c5f4638"],
+
+Cell[BoxData[
+ RowBox[{"nf", "=", 
+  RowBox[{"Nearest", "[", 
+   RowBox[{
+    RowBox[{"fe", "[", "firstOnTheMoonSentences", "]"}], "\[Rule]", 
+    "Automatic"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.739207739594862*^9, 3.739207754827093*^9}},
+ CellLabel->"In[7]:=",ExpressionUUID->"56436880-5175-4190-9bd3-980d033ed218"],
+
+Cell[BoxData[
+ RowBox[{"nearestmoon", "=", 
+  RowBox[{
+   RowBox[{"firstOnTheMoonSentences", "\[LeftDoubleBracket]", 
+    RowBox[{"First", "@", 
+     RowBox[{"nf", "[", 
+      RowBox[{"fe", "[", "#", "]"}], "]"}]}], "\[RightDoubleBracket]"}], 
+   "&"}]}]], "Input",
+ CellChangeTimes->{{3.7392078097204933`*^9, 3.739207848832415*^9}},
+ CellLabel->"In[8]:=",ExpressionUUID->"d58f61eb-4569-4c0d-94ec-cf550cf78b74"],
+
+Cell["Try some sample queries", "Text",
+ CellChangeTimes->{{3.739207857887268*^9, 
+  3.739207863047117*^9}},ExpressionUUID->"9d1d897c-de24-4f3c-9319-\
+3f3df6eee9cd"],
+
+Cell[BoxData[
+ RowBox[{"nearestmoon", "[", "\"\<familiar smell\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.739208111814774*^9, 3.7392081195100527`*^9}, {
+  3.739208190012556*^9, 3.7392081906514273`*^9}, {3.7392083076960506`*^9, 
+  3.739208493656629*^9}},
+ CellLabel->"In[22]:=",ExpressionUUID->"939f2261-1218-4c8a-9c5f-dae744d6a166"],
+
+Cell[BoxData[
+ RowBox[{"nearestmoon", "[", "\"\<Crag whiff\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.7392085170317698`*^9, 3.739208525311387*^9}},
+ CellLabel->"In[23]:=",ExpressionUUID->"5d855c01-9ab9-4e9f-9c92-000de8e06124"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"d83e9562-241d-4288-904e-97a63a3831f8"],
+
+Cell[CellGroupData[{
+
+Cell["Upload your notebook", "Section",
+ CellChangeTimes->{{3.649950784924818*^9, 
+  3.649950788859275*^9}},ExpressionUUID->"b47972fd-bd29-4371-978e-\
+453f623d3066"],
+
+Cell["\<\
+Don\[CloseCurlyQuote]t forget to upload a copy of your notebook for this \
+class to the OWL Site for the course\
+\>", "Text",
+ CellChangeTimes->{{3.649950792779258*^9, 
+  3.649950818634288*^9}},ExpressionUUID->"e5a6c46e-54b7-428b-b247-\
+f6dae6d52c94"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1419, 1107},
+WindowMargins->{{Automatic, 158}, {Automatic, 65}},
+TaggingRules->{"SlideShow" -> True},
+Magnification:>1.25 Inherited,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "SlideShowHeader"->{
+  Cell[580, 22, 4441, 99, 75, "SlideShowNavigationBar",ExpressionUUID->"71fa2abf-19a9-499b-88bc-290c19732bf8",
+   CellTags->"SlideShowHeader"],
+  Cell[5926, 150, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"ebdb620b-8171-4836-ba26-7ee17125d370",
+   CellTags->"SlideShowHeader"],
+  Cell[6866, 179, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"2757d82b-4fdd-4b1f-be4c-1169fddcbd6e",
+   CellTags->"SlideShowHeader"],
+  Cell[10556, 288, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"568c8e8d-c2e8-41b4-b1dc-9813b173d68f",
+   CellTags->"SlideShowHeader"],
+  Cell[13680, 365, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"b3fe6b91-da44-49b5-b38e-9a67d7d9f9ae",
+   CellTags->"SlideShowHeader"],
+  Cell[16963, 465, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"eba02a99-3efb-4f11-becb-a620b46ac2ac",
+   CellTags->"SlideShowHeader"],
+  Cell[19319, 534, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"78311217-4348-47e7-9aae-0d08453f3d63",
+   CellTags->"SlideShowHeader"],
+  Cell[23700, 659, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"ee523ee1-8b1a-4468-99df-0fbad533d574",
+   CellTags->"SlideShowHeader"],
+  Cell[30540, 860, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"5812a544-75a4-4a96-bcc1-812f865b0e67",
+   CellTags->"SlideShowHeader"],
+  Cell[38599, 1072, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"a291afef-34c4-42a4-bc65-5eb02b2bc5e2",
+   CellTags->"SlideShowHeader"],
+  Cell[50315, 1363, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"e3d9f672-1e20-40e5-b5bf-1fbd195a4990",
+   CellTags->"SlideShowHeader"],
+  Cell[57763, 1559, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"ef1b9fbe-e461-4eb1-9c20-5b6075f2497b",
+   CellTags->"SlideShowHeader"],
+  Cell[59675, 1613, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"76a4a655-beae-4038-8fe9-724b9f14e79e",
+   CellTags->"SlideShowHeader"],
+  Cell[63393, 1714, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"d83e9562-241d-4288-904e-97a63a3831f8",
+   CellTags->"SlideShowHeader"]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"SlideShowHeader", 64379, 1748}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 4441, 99, 75, "SlideShowNavigationBar",ExpressionUUID->"71fa2abf-19a9-499b-88bc-290c19732bf8",
+ CellTags->"SlideShowHeader"],
+Cell[5024, 123, 462, 10, 200, "Title",ExpressionUUID->"61d71032-8fe5-4bb0-ace0-82479adcf64d"],
+Cell[5489, 135, 400, 10, 108, "Subtitle",ExpressionUUID->"e53285a0-1ee6-406f-875b-fe1f64db0b89"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5926, 150, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"ebdb620b-8171-4836-ba26-7ee17125d370",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[6073, 156, 155, 3, 84, "Section",ExpressionUUID->"67043a86-dc88-4e33-a59d-3b0cdd33ac10"],
+Cell[6231, 161, 586, 12, 73, "Text",ExpressionUUID->"78508d0d-e4d8-4d4e-bbc5-1cb45652ae71"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6866, 179, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"2757d82b-4fdd-4b1f-be4c-1169fddcbd6e",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[7013, 185, 273, 8, 84, "Section",ExpressionUUID->"4df78827-ef5e-47d0-bdf3-171ee42b001d"],
+Cell[7289, 195, 565, 12, 44, "Text",ExpressionUUID->"3dead044-ad62-46ac-9efb-ef7b0e3c86ff"],
+Cell[7857, 209, 402, 9, 44, "Text",ExpressionUUID->"92ef0bda-b035-41fd-b2f9-f364e23bdc21"],
+Cell[8262, 220, 281, 5, 37, "Input",ExpressionUUID->"0ac74d2f-0f0c-4ce4-a188-7717346ac9ac"],
+Cell[8546, 227, 222, 5, 44, "Text",ExpressionUUID->"c9aee5db-f8c1-4f98-bb80-e7f5b70c287b"],
+Cell[8771, 234, 508, 12, 37, "Input",ExpressionUUID->"a6d663fd-6dc9-40f1-b46d-a89bcf7adfcd"],
+Cell[9282, 248, 187, 3, 44, "Text",ExpressionUUID->"336e7764-3d35-4336-949d-b9848b28c121"],
+Cell[9472, 253, 346, 7, 37, "Input",ExpressionUUID->"0f58b207-1863-4837-be26-8c078ea2162c"],
+Cell[9821, 262, 224, 8, 44, "Text",ExpressionUUID->"769e8e82-4483-40bc-aa83-0919e0da3f0f"],
+Cell[10048, 272, 459, 10, 64, "Input",ExpressionUUID->"03052781-c421-4145-bb2f-f85d891b7980"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[10556, 288, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"568c8e8d-c2e8-41b4-b1dc-9813b173d68f",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[10703, 294, 240, 4, 131, "Section",ExpressionUUID->"784b8153-c390-4df9-9b25-dceec3de5570"],
+Cell[10946, 300, 742, 14, 159, "Text",ExpressionUUID->"c621c3f3-17b7-4733-bf6a-aacd9f966213"],
+Cell[CellGroupData[{
+Cell[11713, 318, 351, 7, 62, "ItemNumbered",ExpressionUUID->"9d9d0665-8f31-45bc-a80e-4d06e51ed81c"],
+Cell[12067, 327, 392, 7, 62, "ItemNumbered",ExpressionUUID->"b909772f-21f5-4c44-b0d9-e23e2f83477b"],
+Cell[12462, 336, 430, 8, 104, "ItemNumbered",ExpressionUUID->"3027c999-dcf6-47ed-b757-35b951e76ef6"]
+}, Open  ]],
+Cell[12907, 347, 724, 12, 68, "Text",ExpressionUUID->"1be4b8a4-81b3-4700-914d-58b1aff8560c"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[13680, 365, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"b3fe6b91-da44-49b5-b38e-9a67d7d9f9ae",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[13827, 371, 235, 4, 131, "Section",ExpressionUUID->"96a97ca6-80b9-4c14-9516-f81d64aa1b98"],
+Cell[14065, 377, 406, 12, 68, "Text",ExpressionUUID->"b90f06ba-daae-428e-8684-f46c41940bf3"],
+Cell[14474, 391, 341, 7, 57, "Input",ExpressionUUID->"88e63e2b-a718-42ee-a277-30c2d2d79f82"],
+Cell[14818, 400, 648, 15, 57, "Input",ExpressionUUID->"b31b2774-df27-47e5-9443-159f1122c56b"],
+Cell[15469, 417, 232, 4, 57, "Input",ExpressionUUID->"e9595e82-1ce2-4e17-9c8c-b28d6cf83b8e"],
+Cell[15704, 423, 405, 10, 68, "Text",ExpressionUUID->"57b4c18a-6487-4135-86e5-be86ed715201"],
+Cell[16112, 435, 528, 14, 57, "Input",ExpressionUUID->"8dbc2d10-eae3-4072-997e-72370661473f"],
+Cell[16643, 451, 271, 8, 68, "Text",ExpressionUUID->"06d4343b-c7f2-412b-b9aa-9fbce1aaac5a"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[16963, 465, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"eba02a99-3efb-4f11-becb-a620b46ac2ac",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[17110, 471, 250, 4, 131, "Section",ExpressionUUID->"8d79439c-e7cc-4a07-a60a-6f55442078ed"],
+Cell[17363, 477, 271, 8, 68, "Text",ExpressionUUID->"247e210e-5f3a-4586-ae2d-d8e4c3da9bfd"],
+Cell[17637, 487, 361, 8, 57, "Input",ExpressionUUID->"40083010-cde6-4613-bd5a-b1242020197d"],
+Cell[18001, 497, 322, 7, 68, "Text",ExpressionUUID->"658d33bd-ae0e-4ab7-b1c4-a86528aa7130"],
+Cell[18326, 506, 678, 15, 57, "Input",ExpressionUUID->"4d03295c-85a8-4870-a13d-20a292b8c5e3"],
+Cell[19007, 523, 263, 5, 57, "Input",ExpressionUUID->"39130617-da9b-4ff0-949e-6d9eb6d62d07"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[19319, 534, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"78311217-4348-47e7-9aae-0d08453f3d63",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[19466, 540, 350, 8, 131, "Section",ExpressionUUID->"113eec2c-8bc0-4fd9-bf4c-7c6a4d90d4ca"],
+Cell[19819, 550, 381, 7, 68, "Text",ExpressionUUID->"8a299e57-d726-4d03-8811-7a5405ec746c"],
+Cell[20203, 559, 360, 8, 57, "Input",ExpressionUUID->"61b368c9-9c2a-4541-92a2-bfccc71d8589"],
+Cell[20566, 569, 296, 6, 57, "Input",ExpressionUUID->"4ff43aa7-0c2e-47ad-ade2-769ea2f71735"],
+Cell[20865, 577, 595, 15, 68, "Text",ExpressionUUID->"e26909a9-19bf-462c-bb60-5190af1f1d7b"],
+Cell[21463, 594, 373, 8, 57, "Input",ExpressionUUID->"dba40360-768e-4ad5-89d1-1d088204c24b"],
+Cell[21839, 604, 217, 4, 57, "Input",ExpressionUUID->"d9bd710e-ffaa-4364-bac6-7d7d6ab413c1"],
+Cell[22059, 610, 239, 5, 57, "Input",ExpressionUUID->"73509bb2-6181-45ce-b4cc-86a50d52656e"],
+Cell[22301, 617, 515, 12, 114, "Text",ExpressionUUID->"789daf6c-6cfb-4a0e-93ac-28ad31371ce3"],
+Cell[22819, 631, 589, 15, 57, "Input",ExpressionUUID->"357314c7-8d86-408f-b269-075f22795412"],
+Cell[23411, 648, 240, 5, 57, "Input",ExpressionUUID->"698f312a-76d9-4c14-91a8-dff067d6031d"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[23700, 659, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"ee523ee1-8b1a-4468-99df-0fbad533d574",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[23847, 665, 356, 8, 131, "Section",ExpressionUUID->"b54996f3-2b2b-4930-b970-5ce823c194a1"],
+Cell[24206, 675, 671, 18, 114, "Text",ExpressionUUID->"c2960b05-64b6-409b-bac3-91b53644b1c3"],
+Cell[24880, 695, 291, 7, 57, "Input",ExpressionUUID->"05b89819-4a58-47ec-8bcd-790093b997be"],
+Cell[25174, 704, 293, 7, 57, "Input",ExpressionUUID->"9ea81542-f1e4-4906-bdc9-4154284c0c1f"],
+Cell[25470, 713, 302, 6, 57, "Input",ExpressionUUID->"e0e24e24-5019-4259-b902-4d9dfe8a83f0"],
+Cell[25775, 721, 299, 6, 57, "Input",ExpressionUUID->"89b4eb35-cd36-4558-ac36-e998de78fe99"],
+Cell[26077, 729, 827, 21, 159, "Text",ExpressionUUID->"d8b984f6-e401-43d6-815e-f81279740c66"],
+Cell[26907, 752, 213, 4, 57, "Input",ExpressionUUID->"13db82c9-3f13-4f11-bf1e-710c71ed0043"],
+Cell[27123, 758, 763, 21, 114, "Text",ExpressionUUID->"21a1a107-35ef-423b-bd79-3daab122d0cc"],
+Cell[27889, 781, 399, 11, 57, "Input",ExpressionUUID->"81f37c19-f953-4145-934d-9273e516e964"],
+Cell[28291, 794, 239, 5, 57, "Input",ExpressionUUID->"c58404c8-99b7-4da5-9cdf-764ba76597ba"],
+Cell[28533, 801, 544, 16, 114, "Text",ExpressionUUID->"7b046d08-63fe-4067-969d-a86f44394e23"],
+Cell[29080, 819, 969, 24, 100, "Input",ExpressionUUID->"9d55c55d-933d-43eb-978c-48e76b5b747b"],
+Cell[30052, 845, 439, 9, 68, "Text",ExpressionUUID->"31366537-cb1b-4b05-b89f-b202143266f3"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[30540, 860, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"5812a544-75a4-4a96-bcc1-812f865b0e67",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[30687, 866, 214, 4, 131, "Section",ExpressionUUID->"07891947-fb15-419c-aef5-cf1b776a9a05"],
+Cell[30904, 872, 428, 8, 114, "Text",ExpressionUUID->"ce716a8f-b36e-4db0-9e4e-30e09717d19c"],
+Cell[31335, 882, 403, 11, 100, "Input",ExpressionUUID->"20f4bb33-1bd8-41f9-a112-b3f42249b2d9"],
+Cell[31741, 895, 389, 7, 68, "Text",ExpressionUUID->"a1cb52b4-e06e-4e9a-b220-b8e7a3fc959f"],
+Cell[32133, 904, 359, 7, 57, "Input",ExpressionUUID->"9bbd0c33-40ff-4c92-964c-1c3e4933bf85"],
+Cell[32495, 913, 536, 11, 114, "Text",ExpressionUUID->"381954e3-e15f-4408-a1e7-f09d3fada8b6"],
+Cell[33034, 926, 411, 9, 57, "Input",ExpressionUUID->"02366934-0046-4c40-ada0-1828012448bc"],
+Cell[33448, 937, 412, 9, 57, "Input",ExpressionUUID->"e752c3bb-4b0b-4485-9f28-073f68a737dd"],
+Cell[33863, 948, 488, 11, 114, "Text",ExpressionUUID->"72504388-3a13-485c-a375-b6695919c446"],
+Cell[34354, 961, 340, 7, 57, "Input",ExpressionUUID->"952c5302-3d5b-4b77-8fd5-8e182aa94efe"],
+Cell[34697, 970, 215, 4, 68, "Text",ExpressionUUID->"171bd821-ef8f-4b21-976c-e3d04efcf500"],
+Cell[34915, 976, 299, 7, 57, "Input",ExpressionUUID->"ce6a705b-eac0-4359-a390-386a1677a7a8"],
+Cell[35217, 985, 353, 8, 57, "Input",ExpressionUUID->"1b32f752-d08b-4cad-955a-0384642ea5cc"],
+Cell[35573, 995, 347, 7, 57, "Input",ExpressionUUID->"5a9d0cbe-ad6e-42d2-89ce-1ebd3d6696e9"],
+Cell[35923, 1004, 483, 11, 68, "Text",ExpressionUUID->"452f68b8-3efa-4c8e-96a2-c26f70f93fae"],
+Cell[36409, 1017, 449, 9, 57, "Input",ExpressionUUID->"9762259d-a4fc-4274-9a05-ed345ef28970"],
+Cell[36861, 1028, 502, 10, 57, "Input",ExpressionUUID->"f9a819be-27ab-4a11-81c9-52e098ed2325"],
+Cell[37366, 1040, 440, 8, 57, "Input",ExpressionUUID->"94fcecae-6b14-4ec9-83ac-564c063ad287"],
+Cell[37809, 1050, 741, 16, 159, "Text",ExpressionUUID->"6de28efe-caf3-43bd-bf19-be78f5415a63"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[38599, 1072, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"a291afef-34c4-42a4-bc65-5eb02b2bc5e2",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[38746, 1078, 230, 4, 131, "Section",ExpressionUUID->"26e9d0d8-32b8-4451-bf59-a4600d9b05a8"],
+Cell[CellGroupData[{
+Cell[39001, 1086, 172, 3, 104, "Subsection",ExpressionUUID->"057e6f15-2b48-440c-a7b0-78816a0bdf04"],
+Cell[39176, 1091, 818, 19, 159, "Text",ExpressionUUID->"2a5399f6-3ab6-432b-8503-37bee7570571"],
+Cell[39997, 1112, 344, 7, 68, "Text",ExpressionUUID->"c1b9c8f1-b044-4473-8ddb-dd989d2ad980"],
+Cell[40344, 1121, 464, 9, 51, "DisplayFormula",ExpressionUUID->"23b3a848-f7b6-44f4-a287-c92df3111201"],
+Cell[40811, 1132, 506, 7, 114, "Text",ExpressionUUID->"051de7d5-213d-4693-89e3-1673b12a259f"],
+Cell[41320, 1141, 755, 17, 100, "Input",ExpressionUUID->"22348701-bf23-4408-af00-1f223e5bd330"],
+Cell[42078, 1160, 362, 9, 68, "Text",ExpressionUUID->"569d9c78-5266-40c8-816e-65929ea68ef6"],
+Cell[42443, 1171, 413, 9, 57, "Input",ExpressionUUID->"2e67eb06-0ea3-4e0a-9b88-c06ac9032a5c"],
+Cell[42859, 1182, 612, 10, 114, "Text",ExpressionUUID->"85a30336-1c53-40ae-b0dd-b39993af7ecf"],
+Cell[43474, 1194, 867, 18, 100, "Input",ExpressionUUID->"74ccdb94-76e0-4874-94dc-176f3143825a"],
+Cell[44344, 1214, 798, 15, 159, "Text",ExpressionUUID->"c3b447e3-6b0e-495a-bb98-442a3b201595"],
+Cell[45145, 1231, 924, 19, 100, "Input",ExpressionUUID->"5c98423e-fc8e-435d-bded-b0cd5f76418d"],
+Cell[46072, 1252, 979, 18, 206, "Text",ExpressionUUID->"529604fe-a1fb-4468-9e8a-0e08f7028729"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[47088, 1275, 167, 3, 104, "Subsection",ExpressionUUID->"2d4ed826-7d65-4685-aaa3-4f15437786da"],
+Cell[47258, 1280, 339, 7, 68, "Text",ExpressionUUID->"24adacaa-a9bc-48b5-b5be-091a19a605f9"],
+Cell[47600, 1289, 301, 8, 51, "DisplayFormula",ExpressionUUID->"7ccc7424-0a9f-4317-b842-c52dd3ad4bbd"],
+Cell[47904, 1299, 415, 6, 68, "Text",ExpressionUUID->"2f16ba6c-9372-421c-a0f0-7eeb93e7e997"],
+Cell[48322, 1307, 346, 9, 57, "Input",ExpressionUUID->"6ea52112-b4b8-4820-af28-db9dc97c3fe8"],
+Cell[48671, 1318, 400, 10, 57, "Input",ExpressionUUID->"79772858-541d-4d9b-8536-c28de2101f82"],
+Cell[49074, 1330, 396, 10, 57, "Input",ExpressionUUID->"9081d195-c311-450f-be93-66d407173b24"],
+Cell[49473, 1342, 781, 14, 114, "Text",ExpressionUUID->"1dd67477-99a1-4a0b-9608-aa0882641b7e"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[50315, 1363, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"e3d9f672-1e20-40e5-b5bf-1fbd195a4990",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[50462, 1369, 249, 4, 131, "Section",ExpressionUUID->"f6dbe2d9-e147-494b-93ec-e5f607beb710"],
+Cell[50714, 1375, 295, 6, 68, "Text",ExpressionUUID->"280789b2-5e29-436b-aba7-aea29d64ae99"],
+Cell[51012, 1383, 1951, 50, 425, "Input",ExpressionUUID->"e2da8c80-d5e5-43d5-a6c2-6d4088b8ed70"],
+Cell[52966, 1435, 355, 6, 68, "Text",ExpressionUUID->"54a585c0-967c-4760-9d1e-aa9abbb9e8a4"],
+Cell[53324, 1443, 760, 18, 57, "Input",ExpressionUUID->"e90b1887-def6-4cb5-bb1f-9f4eb76bd37e"],
+Cell[54087, 1463, 1135, 27, 159, "Text",ExpressionUUID->"a3c91e24-a492-401e-bbc3-8a89f7fae4ab"],
+Cell[55225, 1492, 765, 17, 57, "Input",ExpressionUUID->"a4b57e9e-53b1-4b92-b574-a7d5ec2d9e73"],
+Cell[55993, 1511, 309, 7, 68, "Text",ExpressionUUID->"cb9b66fa-2389-4425-8de3-9ea359d6ec46"],
+Cell[56305, 1520, 264, 6, 57, "Input",ExpressionUUID->"67153e1c-4075-4a12-aa14-205bbbce7e13"],
+Cell[56572, 1528, 1142, 25, 204, "Text",ExpressionUUID->"797b59cb-2798-470d-aa69-8d6a1d84f33e"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[57763, 1559, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"ef1b9fbe-e461-4eb1-9c20-5b6075f2497b",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[57910, 1565, 153, 3, 131, "Section",ExpressionUUID->"78e53ce7-99e1-4bc2-92fa-759ba4b825e0"],
+Cell[CellGroupData[{
+Cell[58088, 1572, 159, 3, 104, "Subsection",ExpressionUUID->"7ea5047e-d7a3-4f4b-9fea-e14dc380ac88"],
+Cell[58250, 1577, 631, 11, 114, "Text",ExpressionUUID->"2a294610-4602-4b57-8678-b5021b7d77d1"],
+Cell[58884, 1590, 346, 7, 68, "Text",ExpressionUUID->"5e27ee28-bd46-4f0c-b8fa-2b817e7add41"],
+Cell[59233, 1599, 381, 7, 114, "Text",ExpressionUUID->"ffce5eda-bef4-4c5e-b755-37575909e46f"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[59675, 1613, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"76a4a655-beae-4038-8fe9-724b9f14e79e",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[59822, 1619, 304, 5, 131, "Section",ExpressionUUID->"3c2b5e5e-f93e-47ad-a0b3-34edeb0862fb"],
+Cell[60129, 1626, 547, 11, 114, "Text",ExpressionUUID->"3ac1e6a5-1706-43a7-b641-335ae131a8ad"],
+Cell[60679, 1639, 228, 5, 68, "Text",ExpressionUUID->"0dee2d0c-1ab3-4cff-a76a-d9808b1f4d1a"],
+Cell[60910, 1646, 297, 6, 57, "Input",ExpressionUUID->"017e5e95-f3dc-4b7c-ad1e-7e01ef8fd04a"],
+Cell[61210, 1654, 265, 5, 57, "Input",ExpressionUUID->"db9ed871-7096-4bbf-a468-974fdcb37eab"],
+Cell[61478, 1661, 389, 10, 68, "Text",ExpressionUUID->"3ed64a99-073e-45e4-a9ee-1f332c5f4638"],
+Cell[61870, 1673, 324, 7, 57, "Input",ExpressionUUID->"56436880-5175-4190-9bd3-980d033ed218"],
+Cell[62197, 1682, 411, 9, 57, "Input",ExpressionUUID->"d58f61eb-4569-4c0d-94ec-cf550cf78b74"],
+Cell[62611, 1693, 165, 3, 68, "Text",ExpressionUUID->"9d1d897c-de24-4f3c-9319-3f3df6eee9cd"],
+Cell[62779, 1698, 334, 5, 57, "Input",ExpressionUUID->"939f2261-1218-4c8a-9c5f-dae744d6a166"],
+Cell[63116, 1705, 228, 3, 57, "Input",ExpressionUUID->"5d855c01-9ab9-4e9f-9c92-000de8e06124"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[63393, 1714, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"d83e9562-241d-4288-904e-97a63a3831f8",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[63540, 1720, 165, 3, 131, "Section",ExpressionUUID->"b47972fd-bd29-4371-978e-453f623d3066"],
+Cell[63708, 1725, 261, 6, 68, "Text",ExpressionUUID->"e5a6c46e-54b7-428b-b247-f6dae6d52c94"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+

@@ -1,0 +1,3216 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[    142338,       3208]
+NotebookOptionsPosition[    127482,       2970]
+NotebookOutlinePosition[    129895,       3019]
+CellTagsIndexPosition[    129815,       3014]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ TogglerBox[2, {1->
+  OverlayBox[{
+   TagBox[GridBox[{
+      {
+       GraphicsBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBAkBOaF5xZnpeaopnXklqemqRRRIz
+UFAKiEGSLED8//9/gvjRo0fsN27cELp69arY+fPnpZExPn137tzhBqrRBGJ/
+ID4CxMfRMTZ9L168YL5w4YIaUD4AiC8C8Qcg/gvE/9AxFreC7PQD4gtA/BGq
+7j8ujKz3+fPnLFC9b6H24dSHTf/FixfVofYSpRdZPzSsAqBuJkovsn5oOF8k
+5F9s+h88eMBBjt0w/devXxcGso+S4m9k/ZcuXRKHpgeS3A7TD0wrkpToPw9J
+ywOmn1L3Uxp+lMYfpemH0vRLjfwDjQey8y9a+fGOWDPwlF+gsPhEKDywlZ8g
+d0D9EniexPITGd++fZv3PBnlN6764zxa3QHCAIDESDs=
+         "], {{0, 26}, {16, 
+         0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{16, 26},
+        PlotRange->{{0, 16}, {0, 26}}], 
+       GraphicsBox[RasterBox[CompressedData["
+1:eJzt2V1vVFUUBuBGTfTSSygthYYKNHyVinrrpbcYfwBEJN5gUkyMfw9KKaVw
+KCkQKCW1RNIQKg1gEE3QtdN10pMRZCaBzNQ+kzxt5nzstfeZfbPOu/vkD8e/
+e6+vr+/sR/Hn+ImfvpyYOPHz1x/Hl2/OnP3+9JlT33515sdTp09NfHHy/TjY
+H6592Nf3QfyvqmpHBwbCYNr5GoMNAw2d1AEAADa3/obtLba1aJ7rb4xR9x1D
+YVfYHYbDnjASPgn7wv4wGg6Eg+FQOByOhLEwnj4Nx8Jn6fM21dcfyzHq8cay
+xuGseTDnMJpz2pdzHMk5D+caduWa6v6p+czafU71s6p1+/cGAADYqt52/9va
+++6tXt331j3v0TTeoj5e966v6lv3Vv/uWfWr9LJm9tzMpN+UW3eaVV9s00yY
+CzfC7bAQFhvuhjt57maYD9er9c+VcDlcCtMd1AQAADafqXQhTabz6VyL+vhk
+Xl/uLX1D6UFmw9VwrVrvL0o/cqta7ztKD3Iv/BLuh1/DSngYHoXfwlp4Ep6F
+38Pz8Ed4Ef5Mf71Gff5F3vM8x3iWY65ljUdZcyXncD/ndC/neDvnfCPXcC3X
+NJtrnG48r3afU/2s6uc11QO/OwAAwFbzLvrfksWVjK30kSV3KxncUlgOD6qN
+vnc1PK42+t7iaaq/r+U1q9VG3/ogx1rKse9krfmsrV+l15R9WDLmkjWXzLl8
+yvuVsmdLJl3eu5R9XN7BNLPrhTxX3seUvT3TQc2Xbfr7LWq3JgAAwH95m33K
+u9Dt5wMAAMDmp2dlK+vGnu/2+yQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYPN42aZu
+1AQAAAAAAICtrNsZIXRTN/b8xTbNhLlwI9wOC2Gx4W64k+duhvlwvVr/XAmX
+w6Uw3UFNAAAAAAAA6EVT6UKaTOfTuRb18cm8vtxbcrOSwc2Gq9V6FlcytlvV
+eu5WMrilsBwehJXwMKyGx2EtPElPU/19La9ZzXtWcozlHHMxa9zKmnM5h9mc
+03Rjfe2uq15bvb6pHvid2NzKPiwZc8maS+ZcPiWDLnu2ZNIlmy77uGTVzex6
+Ic+VbLvs7ZkOau7owEAYTDtfY7BhoKGTOgAAAAAAANDr+hu2t9jWonmuvzFG
+nbsNhd1hOOwJI2Fv2B9Gw4FwMBwKR8JYOJrGW9THx/LaQ3nvgRxrf449krWG
+s/ZQtZH3NdfY7rrqtdW6/fvw/9LMnpuZ9Jty646y6n8AhCP7tg==
+         "], {{0, 26}, {
+         2000, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{2000, 26},
+        PlotRange->{{0, 2000}, {0, 26}}], 
+       GraphicsBox[RasterBox[CompressedData["
+1:eJy9lktLQkEUxyVdCBIELaxctYq+QduWbcKMPoCSRRsDC6JPp+Lj4vuq+EBc
+iBtFfIYrpU7nPzQiN++9vmrgp/dx5j8z55w5c099z56HPYvF8mLnH4/37TIY
+9L7fHvDNXeDl6THgv78KvPof/cELn5UfnjBHjI3J5/OudVBV9bhUKjmbzaad
+iCxmcB9lAxKMmzmv1+v7JvpfG/DJjJkic8NrOut0OlYdfdoCjPXBqMx1q9Vy
+7FhfgvX0MUa73bYZ6edyuTnrvPsZQ4Wv9PTRL5vNroTOGIiJu9FoOLT6UjuT
+yVAqlaJkMin+0+m0YPEZbHTGQDwKyKtl+ugHjdFoRIVCgeLxOCUSCQGua7Ua
+9Xo9YQNbozXI/aHVZ//RcDik2WxG5XKZwuGwANdo0JfrNIhDvFqtHi7zD+YW
+i8VoMBgIvWKxKEDrdrtiHbAxiAF8pHAf5zJ9+Bca0WiUxuMxydbv98U64CvY
+wNZgTyioI9r8QR/EEvrQUhRlrh8Kheb6sDHTZ1xG84ePMP/pdPpr/tvoL/of
+Mcb9Jv7X+mcxP2X+QCMSiYh5VyoVMQbXMbP81I2vzM/JZCLyX+a+BPmPvbFN
+fmr36pr713B/rVp7THy/tD6Y1cjF5zrahvVtB5jW5y21B/kVzpc1kecjfK53
+Pu7kfNfO+x+/T/70++ob7NUEtQ==
+         "], {{0, 26}, {24, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{24, 26},
+        PlotRange->{{0, 24}, {0, 26}}]}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {Automatic, 
+         Scaled[0.6], Automatic}},
+     GridBoxSpacings->{"Columns" -> {{0}}, "Rows" -> {{0}}}],
+    "Grid"], 
+   PaneBox[
+    StyleBox[
+     RowBox[{
+     "Background", " ", "images", " ", "and", " ", "text", " ", "colors", " ",
+       "have", " ", "been", " ", "adjusted", " ", "for", " ", "editing", " ", 
+      
+      RowBox[{"purposes", "."}]}],
+     LineBreakWithin->False,
+     FontFamily->"Helvetica",
+     FontSize->12,
+     FontColor->GrayLevel[0.4]],
+    Alignment->Center,
+    ImageSize->Scaled[0.5],
+    ScrollPosition->{0., 0.}]},
+   Alignment->{Center, Center}], 2->""}, "1"]], "SlideShowNavigationBar", \
+"FirstSlide",
+ CellMargins->{{0, 0}, {0, 0}},
+ CellFrameLabelMargins->2,
+ CellSize->{Inherited, 30},
+ CellChangeTimes->{3.647361175465108*^9},
+ TextAlignment->Center,
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"933118c2-4d78-4025-8c7c-025091c144d8"],
+
+Cell["\<\
+Digital Research Methods 06B:
+Maps\
+\>", "Title",
+ CellChangeTimes->{
+  3.559948400406288*^9, {3.647331852839075*^9, 3.647331861295168*^9}, {
+   3.647331922221755*^9, 3.647331924532915*^9}, {3.647332658962614*^9, 
+   3.64733266480881*^9}, {3.6473611327373047`*^9, 3.647361139759391*^9}, {
+   3.647448943135475*^9, 3.6474489472294493`*^9}, {3.6523678435971603`*^9, 
+   3.6523678478352737`*^9}},ExpressionUUID->"baae56d4-077f-401e-8495-\
+e46bd83e5955"],
+
+Cell[TextData[{
+ "William J Turkel, ",
+ StyleBox["wturkel@uwo.ca",
+  FontSlant->"Italic",
+  FontColor->RGBColor[
+   0.396078431372549, 0.596078431372549, 0.796078431372549]],
+ "\nHistory 2816 / Digital Humanities 2130 / History 9877"
+}], "Subtitle",
+ CellChangeTimes->{{3.647331955723979*^9, 3.6473319708190517`*^9}, 
+   3.647332103720562*^9},ExpressionUUID->"6b9f9171-dee6-4144-af68-\
+8b85b368e1f7"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"257e38d0-bc4e-4a1b-ac42-1e305a52e142"],
+
+Cell[CellGroupData[{
+
+Cell["Overview", "Section",
+ CellChangeTimes->{{3.647361153919208*^9, 
+  3.6473611548467712`*^9}},ExpressionUUID->"77699deb-4682-4c6b-93cb-\
+a4bca568311a"],
+
+Cell[TextData[{
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " includes an extensive set of commands for creating maps and doing \
+computation with geospatial entities."
+}], "Text",
+ CellChangeTimes->{{3.647361157582405*^9, 3.647361159086673*^9}, {
+  3.652369828293847*^9, 
+  3.6523698907143307`*^9}},ExpressionUUID->"d9a2b137-4874-40de-b5bf-\
+17cc4ffa5d3e"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"ff57224f-7e26-40a1-a464-20b1f6c5fe8e"],
+
+Cell[CellGroupData[{
+
+Cell["Setup", "Section",
+ CellChangeTimes->{{3.647361153919208*^9, 3.6473611548467712`*^9}, {
+  3.73600580928975*^9, 3.736005810040956*^9}, {3.736089750106429*^9, 
+  3.7360897508736057`*^9}},ExpressionUUID->"38c833fd-3f7b-4c6c-92b3-\
+9eb7d451d16f"],
+
+Cell["\<\
+Our example for this lesson comes from a declassified 1957 report by the \
+Central Intelligence Agency (CIA) called \[OpenCurlyDoubleQuote]Possible \
+Guided-Missile Testing Ranges in the USSR\[CloseCurlyDoubleQuote].  It is \
+available at the CIA website\
+\>", "Text",
+ CellChangeTimes->{{3.736089754081485*^9, 
+  3.736089824886993*^9}},ExpressionUUID->"08501162-11c2-45bc-8980-\
+25ff7b226b74"],
+
+Cell["\<\
+https://www.cia.gov/library/readingroom/docs/DOC_0005764131.pdf\
+\>", "Text",
+ CellChangeTimes->{
+  3.73608982057211*^9},ExpressionUUID->"1c575f41-ba5e-4432-9181-35cb74dedae3"],
+
+Cell["\<\
+and there is also an archived version on the Internet Archive\
+\>", "Text",
+ CellChangeTimes->{{3.7360898284820557`*^9, 
+  3.7360898440701838`*^9}},ExpressionUUID->"d8c54f7a-6607-4a48-95d6-\
+abc86b9e8375"],
+
+Cell[TextData[ButtonBox["https://web.archive.org/web/20180521215121/https://\
+www.cia.gov/library/readingroom/docs/DOC_0005764131.pdf",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://web.archive.org/web/20180521215121/https://www.cia.gov/\
+library/readingroom/docs/DOC_0005764131.pdf"], None},
+ ButtonNote->
+  "https://web.archive.org/web/20180521215121/https://www.cia.gov/library/\
+readingroom/docs/DOC_0005764131.pdf"]], "Text",
+ CellChangeTimes->{{3.736089852435178*^9, 
+  3.736089860347774*^9}},ExpressionUUID->"7ee6934e-5288-428a-874f-\
+3ad792a44f26"],
+
+Cell["\<\
+In the report, the authors use geographical criteria to try to determine the \
+best location for guided missile testing ranges in the Soviet Union.\
+\>", "Text",
+ CellChangeTimes->{{3.7360898664618587`*^9, 
+  3.7360899046839857`*^9}},ExpressionUUID->"1dbc6cf5-a4c4-47ca-a1c2-\
+33ce496ad5c3"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"c080ada1-24de-4e43-a713-9374988e6139"],
+
+Cell[CellGroupData[{
+
+Cell["Potential Observation Areas", "Section",
+ CellChangeTimes->{{3.647361153919208*^9, 3.6473611548467712`*^9}, {
+  3.73600580928975*^9, 3.736005810040956*^9}, {3.736089947539225*^9, 
+  3.736089951882285*^9}},ExpressionUUID->"d51952b5-1b2e-424d-9314-\
+7415665bf89e"],
+
+Cell[TextData[{
+ "We can use ",
+ StyleBox["GeoGraphics",
+  FontWeight->"Bold"],
+ " to plot the extent of the USSR, listed in Mathematica as a \
+\[OpenCurlyQuote]historical country\[CloseCurlyQuote] since it no longer \
+exists in the same form. If we wrap an entity in the ",
+ StyleBox["Polygon",
+  FontWeight->"Bold"],
+ " command it is shaded. Here it is plotted over present-day borders.  "
+}], "Text",
+ CellChangeTimes->{{3.7360899553861103`*^9, 3.7360900384151363`*^9}, {
+  3.736090303262109*^9, 3.736090320412629*^9}, {3.736094143289525*^9, 
+  3.736094151832877*^9}},ExpressionUUID->"e48efdf0-d68f-4126-9550-\
+978bb9cfab9e"],
+
+Cell[BoxData[
+ RowBox[{"GeoGraphics", "[", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"EdgeForm", "[", "Black", "]"}], ",", 
+    RowBox[{"FaceForm", "[", "Red", "]"}], ",", 
+    RowBox[{"Polygon", "[", 
+     NamespaceBox["LinguisticAssistant",
+      DynamicModuleBox[{Typeset`query$$ = "USSR", Typeset`boxes$$ = 
+       TemplateBox[{"\"Union of Soviet Socialist Republics\"", 
+         RowBox[{"Entity", "[", 
+           
+           RowBox[{"\"HistoricalCountry\"", ",", 
+             "\"UnionSovietSocialistRepublics\""}], "]"}], 
+         "\"Entity[\\\"HistoricalCountry\\\", \
+\\\"UnionSovietSocialistRepublics\\\"]\"", "\"historical country\""}, 
+        "Entity"], 
+       Typeset`allassumptions$$ = {{
+        "type" -> "Clash", "word" -> "USSR", "template" -> 
+         "Assuming \"${word}\" is ${desc1}. Use as ${desc2} instead", "count" -> 
+         "3", "Values" -> {{
+           "name" -> "HistoricalCountry", "desc" -> "a historical country", 
+            "input" -> "*C.USSR-_*HistoricalCountry-"}, {
+           "name" -> "CountryClass", "desc" -> "a class of countries", 
+            "input" -> "*C.USSR-_*CountryClass-"}, {
+           "name" -> "AcronymClass", "desc" -> "an acronym", "input" -> 
+            "*C.USSR-_*AcronymClass-"}}}}, Typeset`assumptions$$ = {}, 
+       Typeset`open$$ = {1, 2}, Typeset`querystate$$ = {
+       "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+        1.802963`6.707531807816426, "Messages" -> {}}}, 
+       DynamicBox[ToBoxes[
+         AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+          Dynamic[Typeset`query$$], 
+          Dynamic[Typeset`boxes$$], 
+          Dynamic[Typeset`allassumptions$$], 
+          Dynamic[Typeset`assumptions$$], 
+          Dynamic[Typeset`open$$], 
+          Dynamic[Typeset`querystate$$]], StandardForm],
+        ImageSizeCache->{479., {9., 19.}},
+        TrackedSymbols:>{
+         Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+          Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+       DynamicModuleValues:>{},
+       UndoTrackedVariables:>{Typeset`open$$}],
+      BaseStyle->{"Deploy"},
+      DeleteWithContents->True,
+      Editable->False,
+      SelectWithContents->True], "]"}]}], "}"}], "]"}]], "Input",
+ CellChangeTimes->{{3.736006139473805*^9, 3.736006192180187*^9}},
+ CellLabel->"In[1]:=",ExpressionUUID->"bd3aca3b-b239-4bcb-b81d-5e119c904214"],
+
+Cell[TextData[{
+ "The CIA analysts argue that missile testing facilities would be placed far \
+enough from non-Soviet bloc countries to make observation difficult. We can \
+use ",
+ StyleBox["GeoListPlot",
+  FontWeight->"Bold"],
+ " to map the potential observation areas that border the USSR. In this case \
+I have set the country borders to 1957 to match the report."
+}], "Text",
+ CellChangeTimes->{{3.736090060590846*^9, 3.73609014741897*^9}, {
+  3.7360903248685493`*^9, 3.73609033626814*^9}, {3.736090599859434*^9, 
+  3.736090609330226*^9}},ExpressionUUID->"58e07115-f816-4774-9f42-\
+1ed0caf69843"],
+
+Cell[BoxData[
+ RowBox[{"GeoListPlot", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       NamespaceBox["LinguisticAssistant",
+        DynamicModuleBox[{Typeset`query$$ = "Norway", Typeset`boxes$$ = 
+         TemplateBox[{"\"Norway\"", 
+           RowBox[{"Entity", "[", 
+             RowBox[{"\"Country\"", ",", "\"Norway\""}], "]"}], 
+           "\"Entity[\\\"Country\\\", \\\"Norway\\\"]\"", "\"country\""}, 
+          "Entity"], Typeset`allassumptions$$ = {}, 
+         Typeset`assumptions$$ = {}, Typeset`open$$ = {1, 2}, 
+         Typeset`querystate$$ = {
+         "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+          0.62927`6.250382021056231, "Messages" -> {}}}, 
+         DynamicBox[ToBoxes[
+           AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+            Dynamic[Typeset`query$$], 
+            Dynamic[Typeset`boxes$$], 
+            Dynamic[Typeset`allassumptions$$], 
+            Dynamic[Typeset`assumptions$$], 
+            Dynamic[Typeset`open$$], 
+            Dynamic[Typeset`querystate$$]], StandardForm],
+          ImageSizeCache->{162., {9., 19.}},
+          
+          TrackedSymbols:>{
+           Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+            Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+         DynamicModuleValues:>{},
+         UndoTrackedVariables:>{Typeset`open$$}],
+        BaseStyle->{"Deploy"},
+        DeleteWithContents->True,
+        Editable->False,
+        SelectWithContents->True], ",", 
+       NamespaceBox["LinguisticAssistant",
+        DynamicModuleBox[{Typeset`query$$ = "Finland", Typeset`boxes$$ = 
+         TemplateBox[{"\"Finland\"", 
+           RowBox[{"Entity", "[", 
+             RowBox[{"\"Country\"", ",", "\"Finland\""}], "]"}], 
+           "\"Entity[\\\"Country\\\", \\\"Finland\\\"]\"", "\"country\""}, 
+          "Entity"], 
+         Typeset`allassumptions$$ = {{
+          "type" -> "Clash", "word" -> "Finland", "template" -> 
+           "Assuming \"${word}\" is ${desc1}. Use as ${desc2} instead", 
+           "count" -> "2", 
+           "Values" -> {{
+             "name" -> "Country", "desc" -> "a country", "input" -> 
+              "*C.Finland-_*Country-"}, {
+             "name" -> "HistoricalCountry", "desc" -> "a historical country", 
+              "input" -> "*C.Finland-_*HistoricalCountry-"}}}}, 
+         Typeset`assumptions$$ = {}, Typeset`open$$ = {1, 2}, 
+         Typeset`querystate$$ = {
+         "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+          0.546364`6.189027069388302, "Messages" -> {}}}, 
+         DynamicBox[ToBoxes[
+           AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+            Dynamic[Typeset`query$$], 
+            Dynamic[Typeset`boxes$$], 
+            Dynamic[Typeset`allassumptions$$], 
+            Dynamic[Typeset`assumptions$$], 
+            Dynamic[Typeset`open$$], 
+            Dynamic[Typeset`querystate$$]], StandardForm],
+          ImageSizeCache->{191., {9., 19.}},
+          
+          TrackedSymbols:>{
+           Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+            Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+         DynamicModuleValues:>{},
+         UndoTrackedVariables:>{Typeset`open$$}],
+        BaseStyle->{"Deploy"},
+        DeleteWithContents->True,
+        Editable->False,
+        SelectWithContents->True], ",", 
+       NamespaceBox["LinguisticAssistant",
+        DynamicModuleBox[{Typeset`query$$ = "Gotland Island", 
+         Typeset`boxes$$ = TemplateBox[{"\"Gotland\"", 
+           RowBox[{"Entity", "[", 
+             RowBox[{"\"Island\"", ",", "\"Gotland\""}], "]"}], 
+           "\"Entity[\\\"Island\\\", \\\"Gotland\\\"]\"", "\"island\""}, 
+          "Entity"], Typeset`allassumptions$$ = {}, 
+         Typeset`assumptions$$ = {}, Typeset`open$$ = {1, 2}, 
+         Typeset`querystate$$ = {
+         "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+          0.979615`6.442600419976575, "Messages" -> {}}}, 
+         DynamicBox[ToBoxes[
+           AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+            Dynamic[Typeset`query$$], 
+            Dynamic[Typeset`boxes$$], 
+            Dynamic[Typeset`allassumptions$$], 
+            Dynamic[Typeset`assumptions$$], 
+            Dynamic[Typeset`open$$], 
+            Dynamic[Typeset`querystate$$]], StandardForm],
+          ImageSizeCache->{149., {9., 19.}},
+          
+          TrackedSymbols:>{
+           Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+            Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+         DynamicModuleValues:>{},
+         UndoTrackedVariables:>{Typeset`open$$}],
+        BaseStyle->{"Deploy"},
+        DeleteWithContents->True,
+        Editable->False,
+        SelectWithContents->True], ",", 
+       NamespaceBox["LinguisticAssistant",
+        DynamicModuleBox[{Typeset`query$$ = "Austria", Typeset`boxes$$ = 
+         TemplateBox[{"\"Austria\"", 
+           RowBox[{"Entity", "[", 
+             RowBox[{"\"Country\"", ",", "\"Austria\""}], "]"}], 
+           "\"Entity[\\\"Country\\\", \\\"Austria\\\"]\"", "\"country\""}, 
+          "Entity"], Typeset`allassumptions$$ = {}, 
+         Typeset`assumptions$$ = {}, Typeset`open$$ = {1, 2}, 
+         Typeset`querystate$$ = {
+         "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+          0.485286`6.137542756044624, "Messages" -> {}}}, 
+         DynamicBox[ToBoxes[
+           AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+            Dynamic[Typeset`query$$], 
+            Dynamic[Typeset`boxes$$], 
+            Dynamic[Typeset`allassumptions$$], 
+            Dynamic[Typeset`assumptions$$], 
+            Dynamic[Typeset`open$$], 
+            Dynamic[Typeset`querystate$$]], StandardForm],
+          ImageSizeCache->{159., {9., 19.}},
+          
+          TrackedSymbols:>{
+           Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+            Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+         DynamicModuleValues:>{},
+         UndoTrackedVariables:>{Typeset`open$$}],
+        BaseStyle->{"Deploy"},
+        DeleteWithContents->True,
+        Editable->False,
+        SelectWithContents->True], ",", 
+       NamespaceBox["LinguisticAssistant",
+        DynamicModuleBox[{Typeset`query$$ = "Turkey", Typeset`boxes$$ = 
+         TemplateBox[{"\"Turkey\"", 
+           RowBox[{"Entity", "[", 
+             RowBox[{"\"Country\"", ",", "\"Turkey\""}], "]"}], 
+           "\"Entity[\\\"Country\\\", \\\"Turkey\\\"]\"", "\"country\""}, 
+          "Entity"], 
+         Typeset`allassumptions$$ = {{
+          "type" -> "Clash", "word" -> "Turkey", "template" -> 
+           "Assuming \"${word}\" is ${desc1}. Use as ${desc2} instead", 
+           "count" -> "5", 
+           "Values" -> {{
+             "name" -> "Country", "desc" -> "a country", "input" -> 
+              "*C.Turkey-_*Country-"}, {
+             "name" -> "Species", "desc" -> "a species specification", 
+              "input" -> "*C.Turkey-_*Species-"}, {
+             "name" -> "FoodType", "desc" -> "a food type", "input" -> 
+              "*C.Turkey-_*FoodType-"}, {
+             "name" -> "CommonMaterial", "desc" -> "a general material", 
+              "input" -> "*C.Turkey-_*CommonMaterial-"}, {
+             "name" -> "Movie", "desc" -> "a movie", "input" -> 
+              "*C.Turkey-_*Movie-"}}}}, Typeset`assumptions$$ = {}, 
+         Typeset`open$$ = {1, 2}, Typeset`querystate$$ = {
+         "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+          1.127027`6.503479313988, "Messages" -> {}}}, 
+         DynamicBox[ToBoxes[
+           AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+            Dynamic[Typeset`query$$], 
+            Dynamic[Typeset`boxes$$], 
+            Dynamic[Typeset`allassumptions$$], 
+            Dynamic[Typeset`assumptions$$], 
+            Dynamic[Typeset`open$$], 
+            Dynamic[Typeset`querystate$$]], StandardForm],
+          ImageSizeCache->{186., {9., 19.}},
+          
+          TrackedSymbols:>{
+           Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+            Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+         DynamicModuleValues:>{},
+         UndoTrackedVariables:>{Typeset`open$$}],
+        BaseStyle->{"Deploy"},
+        DeleteWithContents->True,
+        Editable->False,
+        SelectWithContents->True], ",", 
+       NamespaceBox["LinguisticAssistant",
+        DynamicModuleBox[{Typeset`query$$ = "Iran", Typeset`boxes$$ = 
+         TemplateBox[{"\"Iran\"", 
+           RowBox[{"Entity", "[", 
+             RowBox[{"\"Country\"", ",", "\"Iran\""}], "]"}], 
+           "\"Entity[\\\"Country\\\", \\\"Iran\\\"]\"", "\"country\""}, 
+          "Entity"], Typeset`allassumptions$$ = {}, 
+         Typeset`assumptions$$ = {}, Typeset`open$$ = {1, 2}, 
+         Typeset`querystate$$ = {
+         "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+          0.543922`6.18708161856482, "Messages" -> {}}}, 
+         DynamicBox[ToBoxes[
+           AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+            Dynamic[Typeset`query$$], 
+            Dynamic[Typeset`boxes$$], 
+            Dynamic[Typeset`allassumptions$$], 
+            Dynamic[Typeset`assumptions$$], 
+            Dynamic[Typeset`open$$], 
+            Dynamic[Typeset`querystate$$]], StandardForm],
+          ImageSizeCache->{133., {9., 19.}},
+          
+          TrackedSymbols:>{
+           Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+            Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+         DynamicModuleValues:>{},
+         UndoTrackedVariables:>{Typeset`open$$}],
+        BaseStyle->{"Deploy"},
+        DeleteWithContents->True,
+        Editable->False,
+        SelectWithContents->True], ",", 
+       NamespaceBox["LinguisticAssistant",
+        DynamicModuleBox[{Typeset`query$$ = "Afghanistan", Typeset`boxes$$ = 
+         TemplateBox[{"\"Afghanistan\"", 
+           RowBox[{"Entity", "[", 
+             RowBox[{"\"Country\"", ",", "\"Afghanistan\""}], "]"}], 
+           "\"Entity[\\\"Country\\\", \\\"Afghanistan\\\"]\"", "\"country\""},
+           "Entity"], 
+         Typeset`allassumptions$$ = {{
+          "type" -> "Clash", "word" -> "Afghanistan", "template" -> 
+           "Assuming \"${word}\" is ${desc1}. Use as ${desc2} instead", 
+           "count" -> "2", 
+           "Values" -> {{
+             "name" -> "Country", "desc" -> "a country", "input" -> 
+              "*C.Afghanistan-_*Country-"}, {
+             "name" -> "HistoricalCountry", "desc" -> "a historical country", 
+              "input" -> "*C.Afghanistan-_*HistoricalCountry-"}}}}, 
+         Typeset`assumptions$$ = {}, Typeset`open$$ = {1, 2}, 
+         Typeset`querystate$$ = {
+         "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+          1.054943`6.4747739882441655, "Messages" -> {}}}, 
+         DynamicBox[ToBoxes[
+           AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+            Dynamic[Typeset`query$$], 
+            Dynamic[Typeset`boxes$$], 
+            Dynamic[Typeset`allassumptions$$], 
+            Dynamic[Typeset`assumptions$$], 
+            Dynamic[Typeset`open$$], 
+            Dynamic[Typeset`querystate$$]], StandardForm],
+          ImageSizeCache->{227., {9., 19.}},
+          
+          TrackedSymbols:>{
+           Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+            Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+         DynamicModuleValues:>{},
+         UndoTrackedVariables:>{Typeset`open$$}],
+        BaseStyle->{"Deploy"},
+        DeleteWithContents->True,
+        Editable->False,
+        SelectWithContents->True], ",", 
+       NamespaceBox["LinguisticAssistant",
+        DynamicModuleBox[{Typeset`query$$ = "Hokkaido", Typeset`boxes$$ = 
+         TemplateBox[{"\"Hokkaid\:014d\"", 
+           RowBox[{"Entity", "[", 
+             RowBox[{"\"Island\"", ",", "\"Hokkaido\""}], "]"}], 
+           "\"Entity[\\\"Island\\\", \\\"Hokkaido\\\"]\"", "\"island\""}, 
+          "Entity"], 
+         Typeset`allassumptions$$ = {{
+          "type" -> "Clash", "word" -> "Hokkaido", "template" -> 
+           "Assuming \"${word}\" is ${desc1}. Use as ${desc2} instead", 
+           "count" -> "3", 
+           "Values" -> {{
+             "name" -> "Island", "desc" -> "an island", "input" -> 
+              "*C.Hokkaido-_*Island-"}, {
+             "name" -> "AdministrativeDivision", "desc" -> 
+              "an administrative division", "input" -> 
+              "*C.Hokkaido-_*AdministrativeDivision-"}, {
+             "name" -> "DogBreed", "desc" -> " referring to dog breeds", 
+              "input" -> "*C.Hokkaido-_*DogBreed-"}}}}, 
+         Typeset`assumptions$$ = {}, Typeset`open$$ = {1, 2}, 
+         Typeset`querystate$$ = {
+         "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+          0.8992449999999999999`6.405423025220387, "Messages" -> {}}}, 
+         DynamicBox[ToBoxes[
+           AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+            Dynamic[Typeset`query$$], 
+            Dynamic[Typeset`boxes$$], 
+            Dynamic[Typeset`allassumptions$$], 
+            Dynamic[Typeset`assumptions$$], 
+            Dynamic[Typeset`open$$], 
+            Dynamic[Typeset`querystate$$]], StandardForm],
+          ImageSizeCache->{191., {9., 19.}},
+          
+          TrackedSymbols:>{
+           Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+            Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+         DynamicModuleValues:>{},
+         UndoTrackedVariables:>{Typeset`open$$}],
+        BaseStyle->{"Deploy"},
+        DeleteWithContents->True,
+        Editable->False,
+        SelectWithContents->True], ",", 
+       NamespaceBox["LinguisticAssistant",
+        DynamicModuleBox[{Typeset`query$$ = "Attu", Typeset`boxes$$ = 
+         TemplateBox[{"\"Attu Island\"", 
+           RowBox[{"Entity", "[", 
+             RowBox[{"\"Island\"", ",", "\"AttuIsland\""}], "]"}], 
+           "\"Entity[\\\"Island\\\", \\\"AttuIsland\\\"]\"", "\"island\""}, 
+          "Entity"], Typeset`allassumptions$$ = {}, 
+         Typeset`assumptions$$ = {}, Typeset`open$$ = {1, 2}, 
+         Typeset`querystate$$ = {
+         "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+          0.574887`6.211127481491225, "Messages" -> {}}}, 
+         DynamicBox[ToBoxes[
+           AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+            Dynamic[Typeset`query$$], 
+            Dynamic[Typeset`boxes$$], 
+            Dynamic[Typeset`allassumptions$$], 
+            Dynamic[Typeset`assumptions$$], 
+            Dynamic[Typeset`open$$], 
+            Dynamic[Typeset`querystate$$]], StandardForm],
+          ImageSizeCache->{172., {9., 19.}},
+          
+          TrackedSymbols:>{
+           Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+            Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+         DynamicModuleValues:>{},
+         UndoTrackedVariables:>{Typeset`open$$}],
+        BaseStyle->{"Deploy"},
+        DeleteWithContents->True,
+        Editable->False,
+        SelectWithContents->True], ",", 
+       NamespaceBox["LinguisticAssistant",
+        DynamicModuleBox[{Typeset`query$$ = "St Lawrence Island", 
+         Typeset`boxes$$ = TemplateBox[{"\"St. Lawrence Island\"", 
+           RowBox[{"Entity", "[", 
+             RowBox[{"\"Island\"", ",", "\"StLawrenceIsland\""}], "]"}], 
+           "\"Entity[\\\"Island\\\", \\\"StLawrenceIsland\\\"]\"", 
+           "\"island\""}, "Entity"], Typeset`allassumptions$$ = {}, 
+         Typeset`assumptions$$ = {}, Typeset`open$$ = {1, 2}, 
+         Typeset`querystate$$ = {
+         "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+          0.898763`6.405190178708811, "Messages" -> {}}}, 
+         DynamicBox[ToBoxes[
+           AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+            Dynamic[Typeset`query$$], 
+            Dynamic[Typeset`boxes$$], 
+            Dynamic[Typeset`allassumptions$$], 
+            Dynamic[Typeset`assumptions$$], 
+            Dynamic[Typeset`open$$], 
+            Dynamic[Typeset`querystate$$]], StandardForm],
+          ImageSizeCache->{241., {9., 19.}},
+          
+          TrackedSymbols:>{
+           Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+            Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+         DynamicModuleValues:>{},
+         UndoTrackedVariables:>{Typeset`open$$}],
+        BaseStyle->{"Deploy"},
+        DeleteWithContents->True,
+        Editable->False,
+        SelectWithContents->True], ",", 
+       NamespaceBox["LinguisticAssistant",
+        DynamicModuleBox[{Typeset`query$$ = "Alaska", Typeset`boxes$$ = 
+         TemplateBox[{"\"Alaska, United States\"", 
+           RowBox[{"Entity", "[", 
+             RowBox[{"\"AdministrativeDivision\"", ",", 
+               RowBox[{"{", 
+                 RowBox[{"\"Alaska\"", ",", "\"UnitedStates\""}], "}"}]}], 
+             "]"}], "\"Entity[\\\"AdministrativeDivision\\\", \
+{\\\"Alaska\\\", \\\"UnitedStates\\\"}]\"", "\"administrative division\""}, 
+          "Entity"], 
+         Typeset`allassumptions$$ = {{
+          "type" -> "Clash", "word" -> "Alaska", "template" -> 
+           "Assuming \"${word}\" is ${desc1}. Use as ${desc2} instead", 
+           "count" -> "5", 
+           "Values" -> {{
+             "name" -> "USState", "desc" -> "a US state", "input" -> 
+              "*C.Alaska-_*USState-"}, {
+             "name" -> "Movie", "desc" -> "a movie", "input" -> 
+              "*C.Alaska-_*Movie-"}, {
+             "name" -> "Book", "desc" -> "a book", "input" -> 
+              "*C.Alaska-_*Book-"}, {
+             "name" -> "Word", "desc" -> "a word", "input" -> 
+              "*C.Alaska-_*Word-"}, {
+             "name" -> "Person", "desc" -> "a person", "input" -> 
+              "*C.Alaska-_*Person-"}}}}, Typeset`assumptions$$ = {}, 
+         Typeset`open$$ = {1, 2}, Typeset`querystate$$ = {
+         "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+          0.638132`6.256455516953911, "Messages" -> {}}}, 
+         DynamicBox[ToBoxes[
+           AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+            Dynamic[Typeset`query$$], 
+            Dynamic[Typeset`boxes$$], 
+            Dynamic[Typeset`allassumptions$$], 
+            Dynamic[Typeset`assumptions$$], 
+            Dynamic[Typeset`open$$], 
+            Dynamic[Typeset`querystate$$]], StandardForm],
+          ImageSizeCache->{390., {9., 19.}},
+          
+          TrackedSymbols:>{
+           Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+            Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+         DynamicModuleValues:>{},
+         UndoTrackedVariables:>{Typeset`open$$}],
+        BaseStyle->{"Deploy"},
+        DeleteWithContents->True,
+        Editable->False,
+        SelectWithContents->True]}], "}"}], ",", 
+     RowBox[{"{", 
+      NamespaceBox["LinguisticAssistant",
+       DynamicModuleBox[{Typeset`query$$ = "USSR", Typeset`boxes$$ = 
+        TemplateBox[{"\"Union of Soviet Socialist Republics\"", 
+          RowBox[{"Entity", "[", 
+            
+            RowBox[{"\"HistoricalCountry\"", ",", 
+              "\"UnionSovietSocialistRepublics\""}], "]"}], 
+          "\"Entity[\\\"HistoricalCountry\\\", \
+\\\"UnionSovietSocialistRepublics\\\"]\"", "\"historical country\""}, 
+         "Entity"], 
+        Typeset`allassumptions$$ = {{
+         "type" -> "Clash", "word" -> "USSR", "template" -> 
+          "Assuming \"${word}\" is ${desc1}. Use as ${desc2} instead", 
+          "count" -> "3", 
+          "Values" -> {{
+            "name" -> "HistoricalCountry", "desc" -> "a historical country", 
+             "input" -> "*C.USSR-_*HistoricalCountry-"}, {
+            "name" -> "CountryClass", "desc" -> "a class of countries", 
+             "input" -> "*C.USSR-_*CountryClass-"}, {
+            "name" -> "AcronymClass", "desc" -> "an acronym", "input" -> 
+             "*C.USSR-_*AcronymClass-"}}}}, Typeset`assumptions$$ = {}, 
+        Typeset`open$$ = {1, 2}, Typeset`querystate$$ = {
+        "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+         1.802963`6.707531807816426, "Messages" -> {}}}, 
+        DynamicBox[ToBoxes[
+          AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+           Dynamic[Typeset`query$$], 
+           Dynamic[Typeset`boxes$$], 
+           Dynamic[Typeset`allassumptions$$], 
+           Dynamic[Typeset`assumptions$$], 
+           Dynamic[Typeset`open$$], 
+           Dynamic[Typeset`querystate$$]], StandardForm],
+         ImageSizeCache->{479., {9., 19.}},
+         TrackedSymbols:>{
+          Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+           Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+        DynamicModuleValues:>{},
+        UndoTrackedVariables:>{Typeset`open$$}],
+       BaseStyle->{"Deploy"},
+       DeleteWithContents->True,
+       Editable->False,
+       SelectWithContents->True], "}"}]}], "}"}], ",", 
+   RowBox[{"GeoLabels", "\[Rule]", "True"}], ",", 
+   RowBox[{"GeoBackground", "\[Rule]", 
+    RowBox[{"GeoStyling", "[", 
+     RowBox[{"Dated", "[", 
+      RowBox[{"\"\<CountryBorders\>\"", ",", "1957"}], "]"}], "]"}]}], ",", 
+   RowBox[{"ImageSize", "\[Rule]", "Full"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.736008295790669*^9, 3.736008378127213*^9}, {
+  3.736008412433062*^9, 3.736008458198079*^9}, {3.736008498451013*^9, 
+  3.7360085544006567`*^9}, {3.7360086051564617`*^9, 3.7360086130989103`*^9}, {
+  3.7360086695889072`*^9, 3.736008735215495*^9}, {3.7360089374518223`*^9, 
+  3.736008944302899*^9}},
+ CellLabel->"In[2]:=",ExpressionUUID->"5f67bf7c-7ead-4ad1-baa7-098f42a44683"],
+
+Cell["\<\
+Gotland Island is part of Sweden, and Hokkaido is part of Japan. Attu and St \
+Lawrence Island are part of Alaska.\
+\>", "Text",
+ CellChangeTimes->{{3.7360901820022907`*^9, 
+  3.736090272670547*^9}},ExpressionUUID->"0a6ba0b1-2e1d-4300-b96c-\
+523d8ffa20de"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"4be3e6a7-9c08-43e6-ac9f-f26e6fe25aee"],
+
+Cell[CellGroupData[{
+
+Cell["GeoDistance, GeoPath and Units", "Section",
+ CellChangeTimes->{{3.647361153919208*^9, 3.6473611548467712`*^9}, {
+   3.73600580928975*^9, 3.736005810040956*^9}, {3.736090368435609*^9, 
+   3.7360903720828657`*^9}, 3.736090406969605*^9, {3.7360905373095083`*^9, 
+   3.736090538428727*^9}},ExpressionUUID->"9439f95d-e965-4b68-a707-\
+8cd21d6e4311"],
+
+Cell[TextData[{
+ "The report uses Nautical Miles as a unit of measure. In Mathematica, we use \
+the ",
+ StyleBox["GeoDistance",
+  FontWeight->"Bold"],
+ " command to measure surface (great circle) distances and the ",
+ StyleBox["UnitConvert",
+  FontWeight->"Bold"],
+ " command to convert them."
+}], "Text",
+ CellChangeTimes->{{3.7360903751146593`*^9, 
+  3.736090446864279*^9}},ExpressionUUID->"ac0f8ed3-5147-426e-899c-\
+c02c422a3782"],
+
+Cell["\<\
+One of the maximum distances within the boundaries of the USSR is from the \
+city of Kapustin Yar in the west to the Kamchatka region in the east.\
+\>", "Text",
+ CellChangeTimes->{{3.736090452767679*^9, 
+  3.736090500414195*^9}},ExpressionUUID->"ca5b5ba3-6c1b-4105-9629-\
+6451918baeff"],
+
+Cell[BoxData[
+ RowBox[{"GeoDistance", "[", 
+  RowBox[{"{", 
+   RowBox[{
+    NamespaceBox["LinguisticAssistant",
+     DynamicModuleBox[{Typeset`query$$ = "Kapustin Yar", Typeset`boxes$$ = 
+      TemplateBox[{"\"Kapustin Yar\[Hyphen]1\"", 
+        RowBox[{"Entity", "[", 
+          RowBox[{"\"City\"", ",", 
+            RowBox[{"{", 
+              
+              RowBox[{"\"KapustinYar1\"", ",", "\"Astrakhan\"", ",", 
+                "\"Russia\""}], "}"}]}], "]"}], 
+        "\"Entity[\\\"City\\\", {\\\"KapustinYar1\\\", \\\"Astrakhan\\\", \
+\\\"Russia\\\"}]\"", "\"city\""}, "Entity"], 
+      Typeset`allassumptions$$ = {{
+       "type" -> "SubCategory", "word" -> "Kapustin Yar", "template" -> 
+        "Assuming ${desc1}. Use ${desc2} instead", "count" -> "2", 
+        "Values" -> {{
+          "name" -> "{KapustinYar1, Astrakhan, Russia}", "desc" -> 
+           "Kapustin Yar\[Hyphen]1 (Astrakhan', Russia)", "input" -> 
+           "*DPClash.CityE.Kapustin+Yar-_**KapustinYar1.Astrakhan.Russia--"}, \
+{"name" -> "{KapustinYar, Astrakhan, Russia}", "desc" -> 
+           "Kapustin Yar (Astrakhan', Russia)", "input" -> 
+           "*DPClash.CityE.Kapustin+Yar-_**KapustinYar.Astrakhan.Russia--"}}}}\
+, Typeset`assumptions$$ = {}, Typeset`open$$ = {1, 2}, 
+      Typeset`querystate$$ = {
+      "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+       0.721203`6.309602518092006, "Messages" -> {}}}, 
+      DynamicBox[ToBoxes[
+        AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+         Dynamic[Typeset`query$$], 
+         Dynamic[Typeset`boxes$$], 
+         Dynamic[Typeset`allassumptions$$], 
+         Dynamic[Typeset`assumptions$$], 
+         Dynamic[Typeset`open$$], 
+         Dynamic[Typeset`querystate$$]], StandardForm],
+       ImageSizeCache->{218., {9., 19.}},
+       TrackedSymbols:>{
+        Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+         Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+      DynamicModuleValues:>{},
+      UndoTrackedVariables:>{Typeset`open$$}],
+     BaseStyle->{"Deploy"},
+     DeleteWithContents->True,
+     Editable->False,
+     SelectWithContents->True], ",", 
+    NamespaceBox["LinguisticAssistant",
+     DynamicModuleBox[{Typeset`query$$ = "Kamchatka", Typeset`boxes$$ = 
+      TemplateBox[{"\"Kamchatka, Russia\"", 
+        RowBox[{"Entity", "[", 
+          RowBox[{"\"AdministrativeDivision\"", ",", 
+            RowBox[{"{", 
+              RowBox[{"\"Kamchatka\"", ",", "\"Russia\""}], "}"}]}], "]"}], 
+        "\"Entity[\\\"AdministrativeDivision\\\", {\\\"Kamchatka\\\", \
+\\\"Russia\\\"}]\"", "\"administrative division\""}, "Entity"], 
+      Typeset`allassumptions$$ = {{
+       "type" -> "Clash", "word" -> "Kamchatka", "template" -> 
+        "Assuming \"${word}\" is ${desc1}. Use as ${desc2} instead", "count" -> 
+        "4", "Values" -> {{
+          "name" -> "AdministrativeDivision", "desc" -> 
+           "an administrative division", "input" -> 
+           "*C.Kamchatka-_*AdministrativeDivision-"}, {
+          "name" -> "River", "desc" -> "a river", "input" -> 
+           "*C.Kamchatka-_*River-"}, {
+          "name" -> "Language", "desc" -> "a language", "input" -> 
+           "*C.Kamchatka-_*Language-"}, {
+          "name" -> "Movie", "desc" -> "a movie", "input" -> 
+           "*C.Kamchatka-_*Movie-"}}}}, Typeset`assumptions$$ = {
+      "*C.Kamchatka-_*AdministrativeDivision-"}, Typeset`open$$ = {1, 2}, 
+      Typeset`querystate$$ = {
+      "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+       1.693123`6.680233502863558, "Messages" -> {}}}, 
+      DynamicBox[ToBoxes[
+        AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+         Dynamic[Typeset`query$$], 
+         Dynamic[Typeset`boxes$$], 
+         Dynamic[Typeset`allassumptions$$], 
+         Dynamic[Typeset`assumptions$$], 
+         Dynamic[Typeset`open$$], 
+         Dynamic[Typeset`querystate$$]], StandardForm],
+       ImageSizeCache->{373., {9., 19.}},
+       TrackedSymbols:>{
+        Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+         Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+      DynamicModuleValues:>{},
+      UndoTrackedVariables:>{Typeset`open$$}],
+     BaseStyle->{"Deploy"},
+     DeleteWithContents->True,
+     Editable->False,
+     SelectWithContents->True]}], "}"}], "]"}]], "Input",
+ CellChangeTimes->{{3.7360094610763893`*^9, 3.736009553854197*^9}},
+ CellLabel->"In[3]:=",ExpressionUUID->"948d9144-a627-4284-9d6f-577f5dd4da31"],
+
+Cell[BoxData[
+ RowBox[{"UnitConvert", "[", 
+  RowBox[{
+   RowBox[{"Quantity", "[", 
+    RowBox[{"6328.388028675176`", ",", "\"\<Kilometers\>\""}], "]"}], ",", 
+   "\"\<nautical miles\>\""}], "]"}]], "Input",
+ NumberMarks->False,
+ CellLabel->"In[4]:=",ExpressionUUID->"985ba109-ea64-47cc-a519-edb3b89f7b6e"],
+
+Cell["\<\
+The authors of the report note that a range of at least 3000 nautical miles \
+is required for research and development on intercontinental ballistic \
+missiles (ICBMs).\
+\>", "Text",
+ CellChangeTimes->{{3.736090803211591*^9, 
+  3.7360908455294*^9}},ExpressionUUID->"318bc9c3-f1d6-443e-a657-bb5925a0a36d"],
+
+Cell[TextData[{
+ "We can visualize this distance with the ",
+ StyleBox["GeoPath",
+  FontWeight->"Bold"],
+ " command"
+}], "Text",
+ CellChangeTimes->{{3.73609054184454*^9, 
+  3.736090550588235*^9}},ExpressionUUID->"3f23596b-51c1-4ec6-98c8-\
+fc4c031f900f"],
+
+Cell[BoxData[
+ RowBox[{"GeoGraphics", "[", 
+  RowBox[{"GeoPath", "[", 
+   RowBox[{"{", 
+    RowBox[{
+     NamespaceBox["LinguisticAssistant",
+      DynamicModuleBox[{Typeset`query$$ = "Kapustin Yar", Typeset`boxes$$ = 
+       TemplateBox[{"\"Kapustin Yar\[Hyphen]1\"", 
+         RowBox[{"Entity", "[", 
+           RowBox[{"\"City\"", ",", 
+             RowBox[{"{", 
+               
+               RowBox[{
+                "\"KapustinYar1\"", ",", "\"Astrakhan\"", ",", "\"Russia\""}],
+                "}"}]}], "]"}], 
+         "\"Entity[\\\"City\\\", {\\\"KapustinYar1\\\", \\\"Astrakhan\\\", \\\
+\"Russia\\\"}]\"", "\"city\""}, "Entity"], 
+       Typeset`allassumptions$$ = {{
+        "type" -> "SubCategory", "word" -> "Kapustin Yar", "template" -> 
+         "Assuming ${desc1}. Use ${desc2} instead", "count" -> "2", 
+         "Values" -> {{
+           "name" -> "{KapustinYar1, Astrakhan, Russia}", "desc" -> 
+            "Kapustin Yar\[Hyphen]1 (Astrakhan', Russia)", "input" -> 
+            "*DPClash.CityE.Kapustin+Yar-_**KapustinYar1.Astrakhan.Russia--"},\
+ {"name" -> "{KapustinYar, Astrakhan, Russia}", "desc" -> 
+            "Kapustin Yar (Astrakhan', Russia)", "input" -> 
+            "*DPClash.CityE.Kapustin+Yar-_**KapustinYar.Astrakhan.Russia--"}}}\
+}, Typeset`assumptions$$ = {}, Typeset`open$$ = {1, 2}, 
+       Typeset`querystate$$ = {
+       "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+        0.721203`6.309602518092006, "Messages" -> {}}}, 
+       DynamicBox[ToBoxes[
+         AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+          Dynamic[Typeset`query$$], 
+          Dynamic[Typeset`boxes$$], 
+          Dynamic[Typeset`allassumptions$$], 
+          Dynamic[Typeset`assumptions$$], 
+          Dynamic[Typeset`open$$], 
+          Dynamic[Typeset`querystate$$]], StandardForm],
+        ImageSizeCache->{218., {9., 19.}},
+        TrackedSymbols:>{
+         Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+          Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+       DynamicModuleValues:>{},
+       UndoTrackedVariables:>{Typeset`open$$}],
+      BaseStyle->{"Deploy"},
+      DeleteWithContents->True,
+      Editable->False,
+      SelectWithContents->True], ",", 
+     NamespaceBox["LinguisticAssistant",
+      DynamicModuleBox[{Typeset`query$$ = "Kamchatka", Typeset`boxes$$ = 
+       TemplateBox[{"\"Kamchatka, Russia\"", 
+         RowBox[{"Entity", "[", 
+           RowBox[{"\"AdministrativeDivision\"", ",", 
+             RowBox[{"{", 
+               RowBox[{"\"Kamchatka\"", ",", "\"Russia\""}], "}"}]}], "]"}], 
+         "\"Entity[\\\"AdministrativeDivision\\\", {\\\"Kamchatka\\\", \
+\\\"Russia\\\"}]\"", "\"administrative division\""}, "Entity"], 
+       Typeset`allassumptions$$ = {{
+        "type" -> "Clash", "word" -> "Kamchatka", "template" -> 
+         "Assuming \"${word}\" is ${desc1}. Use as ${desc2} instead", "count" -> 
+         "4", "Values" -> {{
+           "name" -> "AdministrativeDivision", "desc" -> 
+            "an administrative division", "input" -> 
+            "*C.Kamchatka-_*AdministrativeDivision-"}, {
+           "name" -> "River", "desc" -> "a river", "input" -> 
+            "*C.Kamchatka-_*River-"}, {
+           "name" -> "Language", "desc" -> "a language", "input" -> 
+            "*C.Kamchatka-_*Language-"}, {
+           "name" -> "Movie", "desc" -> "a movie", "input" -> 
+            "*C.Kamchatka-_*Movie-"}}}}, Typeset`assumptions$$ = {
+       "*C.Kamchatka-_*AdministrativeDivision-"}, Typeset`open$$ = {1, 2}, 
+       Typeset`querystate$$ = {
+       "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+        1.693123`6.680233502863558, "Messages" -> {}}}, 
+       DynamicBox[ToBoxes[
+         AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+          Dynamic[Typeset`query$$], 
+          Dynamic[Typeset`boxes$$], 
+          Dynamic[Typeset`allassumptions$$], 
+          Dynamic[Typeset`assumptions$$], 
+          Dynamic[Typeset`open$$], 
+          Dynamic[Typeset`querystate$$]], StandardForm],
+        ImageSizeCache->{373., {9., 19.}},
+        TrackedSymbols:>{
+         Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+          Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+       DynamicModuleValues:>{},
+       UndoTrackedVariables:>{Typeset`open$$}],
+      BaseStyle->{"Deploy"},
+      DeleteWithContents->True,
+      Editable->False,
+      SelectWithContents->True]}], "}"}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.736009720919592*^9, 3.736009835952717*^9}},
+ CellLabel->"In[27]:=",ExpressionUUID->"dc647c8a-518f-40f8-b6dc-5e6c1a29f9e0"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"99961e25-196a-4f4b-9921-e4cf1d8d4504"],
+
+Cell[CellGroupData[{
+
+Cell["Kapustin Yar", "Section",
+ CellChangeTimes->{{3.647361153919208*^9, 3.6473611548467712`*^9}, {
+  3.73600580928975*^9, 3.736005810040956*^9}, {3.736090744622097*^9, 
+  3.736090746493102*^9}},ExpressionUUID->"c4858f08-abbc-4a6d-a88b-\
+994e808d35ea"],
+
+Cell["\<\
+According to the analysts, the Kapustin Yar area is the most qualified \
+location for a missile launching area.\
+\>", "Text",
+ CellChangeTimes->{{3.7360907602445927`*^9, 3.7360907613645782`*^9}, {
+  3.736090886961533*^9, 
+  3.7360909286784973`*^9}},ExpressionUUID->"bec53634-6337-4e16-b69b-\
+e6c669befe4b"],
+
+Cell[TextData[{
+ "It is at least 400 nautical miles from the closest non-Soviet bloc border, \
+that of Turkey. We use the ",
+ StyleBox["GeoNearest",
+  FontWeight->"Bold"],
+ " command to confirm. "
+}], "Text",
+ CellChangeTimes->{{3.7360909356780643`*^9, 3.7360909599252872`*^9}, {
+  3.736091010501152*^9, 3.7360910199632053`*^9}, {3.736091161357893*^9, 
+  3.736091175837453*^9}, {3.736091289354129*^9, 
+  3.7360912956250277`*^9}},ExpressionUUID->"2b0765f6-e6ec-4f61-b11d-\
+f5a1d66f79ee"],
+
+Cell[BoxData[
+ RowBox[{"GeoNearest", "[", 
+  RowBox[{
+   RowBox[{"Entity", "[", "\"\<Country\>\"", "]"}], ",", 
+   NamespaceBox["LinguisticAssistant",
+    DynamicModuleBox[{Typeset`query$$ = "Kapustin Yar", Typeset`boxes$$ = 
+     TemplateBox[{"\"Kapustin Yar\[Hyphen]1\"", 
+       RowBox[{"Entity", "[", 
+         RowBox[{"\"City\"", ",", 
+           RowBox[{"{", 
+             
+             RowBox[{"\"KapustinYar1\"", ",", "\"Astrakhan\"", ",", 
+               "\"Russia\""}], "}"}]}], "]"}], 
+       "\"Entity[\\\"City\\\", {\\\"KapustinYar1\\\", \\\"Astrakhan\\\", \
+\\\"Russia\\\"}]\"", "\"city\""}, "Entity"], 
+     Typeset`allassumptions$$ = {{
+      "type" -> "SubCategory", "word" -> "Kapustin Yar", "template" -> 
+       "Assuming ${desc1}. Use ${desc2} instead", "count" -> "2", 
+       "Values" -> {{
+         "name" -> "{KapustinYar1, Astrakhan, Russia}", "desc" -> 
+          "Kapustin Yar\[Hyphen]1 (Astrakhan', Russia)", "input" -> 
+          "*DPClash.CityE.Kapustin+Yar-_**KapustinYar1.Astrakhan.Russia--"}, {
+         "name" -> "{KapustinYar, Astrakhan, Russia}", "desc" -> 
+          "Kapustin Yar (Astrakhan', Russia)", "input" -> 
+          "*DPClash.CityE.Kapustin+Yar-_**KapustinYar.Astrakhan.Russia--"}}}},
+      Typeset`assumptions$$ = {}, Typeset`open$$ = {1, 2}, 
+     Typeset`querystate$$ = {
+     "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+      0.721203`6.309602518092006, "Messages" -> {}}}, 
+     DynamicBox[ToBoxes[
+       AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+        Dynamic[Typeset`query$$], 
+        Dynamic[Typeset`boxes$$], 
+        Dynamic[Typeset`allassumptions$$], 
+        Dynamic[Typeset`assumptions$$], 
+        Dynamic[Typeset`open$$], 
+        Dynamic[Typeset`querystate$$]], StandardForm],
+      ImageSizeCache->{218., {9., 19.}},
+      TrackedSymbols:>{
+       Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+        Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+     DynamicModuleValues:>{},
+     UndoTrackedVariables:>{Typeset`open$$}],
+    BaseStyle->{"Deploy"},
+    DeleteWithContents->True,
+    Editable->False,
+    SelectWithContents->True], ",", "6"}], "]"}]], "Input",
+ CellChangeTimes->{{3.7360910249833593`*^9, 3.736091055498805*^9}, {
+  3.736091124786422*^9, 3.7360911537120237`*^9}},
+ CellLabel->"In[6]:=",ExpressionUUID->"e6b225c1-0d17-4829-830c-a330ac88340a"],
+
+Cell["\<\
+Note that the area is within Russia, and the next four (present-day) \
+countries were within the boundaries of the USSR\
+\>", "Text",
+ CellChangeTimes->{{3.736091304072592*^9, 3.73609132231994*^9}, {
+  3.7360914588914747`*^9, 
+  3.736091476930245*^9}},ExpressionUUID->"f885f20b-7b9e-4ad9-b0e5-\
+84aa9da5f13d"],
+
+Cell[BoxData[
+ RowBox[{"GeoListPlot", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      NamespaceBox["LinguisticAssistant",
+       DynamicModuleBox[{Typeset`query$$ = "Turkey", Typeset`boxes$$ = 
+        TemplateBox[{"\"Turkey\"", 
+          RowBox[{"Entity", "[", 
+            RowBox[{"\"Country\"", ",", "\"Turkey\""}], "]"}], 
+          "\"Entity[\\\"Country\\\", \\\"Turkey\\\"]\"", "\"country\""}, 
+         "Entity"], 
+        Typeset`allassumptions$$ = {{
+         "type" -> "Clash", "word" -> "Turkey", "template" -> 
+          "Assuming \"${word}\" is ${desc1}. Use as ${desc2} instead", 
+          "count" -> "5", 
+          "Values" -> {{
+            "name" -> "Country", "desc" -> "a country", "input" -> 
+             "*C.Turkey-_*Country-"}, {
+            "name" -> "Species", "desc" -> "a species specification", "input" -> 
+             "*C.Turkey-_*Species-"}, {
+            "name" -> "FoodType", "desc" -> "a food type", "input" -> 
+             "*C.Turkey-_*FoodType-"}, {
+            "name" -> "CommonMaterial", "desc" -> "a general material", 
+             "input" -> "*C.Turkey-_*CommonMaterial-"}, {
+            "name" -> "Movie", "desc" -> "a movie", "input" -> 
+             "*C.Turkey-_*Movie-"}}}}, Typeset`assumptions$$ = {}, 
+        Typeset`open$$ = {1, 2}, Typeset`querystate$$ = {
+        "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+         1.204233`6.532255517647232, "Messages" -> {}}}, 
+        DynamicBox[ToBoxes[
+          AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+           Dynamic[Typeset`query$$], 
+           Dynamic[Typeset`boxes$$], 
+           Dynamic[Typeset`allassumptions$$], 
+           Dynamic[Typeset`assumptions$$], 
+           Dynamic[Typeset`open$$], 
+           Dynamic[Typeset`querystate$$]], StandardForm],
+         ImageSizeCache->{186., {9., 19.}},
+         TrackedSymbols:>{
+          Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+           Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+        DynamicModuleValues:>{},
+        UndoTrackedVariables:>{Typeset`open$$}],
+       BaseStyle->{"Deploy"},
+       DeleteWithContents->True,
+       Editable->False,
+       SelectWithContents->True], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       NamespaceBox["LinguisticAssistant",
+        DynamicModuleBox[{Typeset`query$$ = "Kapustin Yar", Typeset`boxes$$ = 
+         TemplateBox[{"\"Kapustin Yar\[Hyphen]1\"", 
+           RowBox[{"Entity", "[", 
+             RowBox[{"\"City\"", ",", 
+               RowBox[{"{", 
+                 
+                 RowBox[{
+                  "\"KapustinYar1\"", ",", "\"Astrakhan\"", ",", 
+                   "\"Russia\""}], "}"}]}], "]"}], 
+           "\"Entity[\\\"City\\\", {\\\"KapustinYar1\\\", \\\"Astrakhan\\\", \
+\\\"Russia\\\"}]\"", "\"city\""}, "Entity"], 
+         Typeset`allassumptions$$ = {{
+          "type" -> "SubCategory", "word" -> "Kapustin Yar", "template" -> 
+           "Assuming ${desc1}. Use ${desc2} instead", "count" -> "2", 
+           "Values" -> {{
+             "name" -> "{KapustinYar1, Astrakhan, Russia}", "desc" -> 
+              "Kapustin Yar\[Hyphen]1 (Astrakhan', Russia)", "input" -> 
+              "*DPClash.CityE.Kapustin+Yar-_**KapustinYar1.Astrakhan.Russia--\
+"}, {"name" -> "{KapustinYar, Astrakhan, Russia}", "desc" -> 
+              "Kapustin Yar (Astrakhan', Russia)", "input" -> 
+              "*DPClash.CityE.Kapustin+Yar-_**KapustinYar.Astrakhan.Russia--"}\
+}}}, Typeset`assumptions$$ = {}, Typeset`open$$ = {1, 2}, 
+         Typeset`querystate$$ = {
+         "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+          0.721203`6.309602518092006, "Messages" -> {}}}, 
+         DynamicBox[ToBoxes[
+           AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+            Dynamic[Typeset`query$$], 
+            Dynamic[Typeset`boxes$$], 
+            Dynamic[Typeset`allassumptions$$], 
+            Dynamic[Typeset`assumptions$$], 
+            Dynamic[Typeset`open$$], 
+            Dynamic[Typeset`querystate$$]], StandardForm],
+          ImageSizeCache->{218., {9., 19.}},
+          
+          TrackedSymbols:>{
+           Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+            Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+         DynamicModuleValues:>{},
+         UndoTrackedVariables:>{Typeset`open$$}],
+        BaseStyle->{"Deploy"},
+        DeleteWithContents->True,
+        Editable->False,
+        SelectWithContents->True], ",", 
+       NamespaceBox["LinguisticAssistant",
+        DynamicModuleBox[{Typeset`query$$ = "USSR", Typeset`boxes$$ = 
+         TemplateBox[{"\"Union of Soviet Socialist Republics\"", 
+           RowBox[{"Entity", "[", 
+             
+             RowBox[{"\"HistoricalCountry\"", ",", 
+               "\"UnionSovietSocialistRepublics\""}], "]"}], 
+           "\"Entity[\\\"HistoricalCountry\\\", \
+\\\"UnionSovietSocialistRepublics\\\"]\"", "\"historical country\""}, 
+          "Entity"], 
+         Typeset`allassumptions$$ = {{
+          "type" -> "Clash", "word" -> "USSR", "template" -> 
+           "Assuming \"${word}\" is ${desc1}. Use as ${desc2} instead", 
+           "count" -> "3", 
+           "Values" -> {{
+             "name" -> "HistoricalCountry", "desc" -> "a historical country", 
+              "input" -> "*C.USSR-_*HistoricalCountry-"}, {
+             "name" -> "CountryClass", "desc" -> "a class of countries", 
+              "input" -> "*C.USSR-_*CountryClass-"}, {
+             "name" -> "AcronymClass", "desc" -> "an acronym", "input" -> 
+              "*C.USSR-_*AcronymClass-"}}}}, Typeset`assumptions$$ = {}, 
+         Typeset`open$$ = {1, 2}, Typeset`querystate$$ = {
+         "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+          1.802963`6.707531807816426, "Messages" -> {}}}, 
+         DynamicBox[ToBoxes[
+           AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+            Dynamic[Typeset`query$$], 
+            Dynamic[Typeset`boxes$$], 
+            Dynamic[Typeset`allassumptions$$], 
+            Dynamic[Typeset`assumptions$$], 
+            Dynamic[Typeset`open$$], 
+            Dynamic[Typeset`querystate$$]], StandardForm],
+          ImageSizeCache->{479., {9., 19.}},
+          
+          TrackedSymbols:>{
+           Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+            Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+         DynamicModuleValues:>{},
+         UndoTrackedVariables:>{Typeset`open$$}],
+        BaseStyle->{"Deploy"},
+        DeleteWithContents->True,
+        Editable->False,
+        SelectWithContents->True], ",", 
+       NamespaceBox["LinguisticAssistant",
+        DynamicModuleBox[{Typeset`query$$ = "kazakhstan", Typeset`boxes$$ = 
+         TemplateBox[{"\"Kazakhstan\"", 
+           RowBox[{"Entity", "[", 
+             RowBox[{"\"Country\"", ",", "\"Kazakhstan\""}], "]"}], 
+           "\"Entity[\\\"Country\\\", \\\"Kazakhstan\\\"]\"", "\"country\""}, 
+          "Entity"], Typeset`allassumptions$$ = {}, 
+         Typeset`assumptions$$ = {}, Typeset`open$$ = {1, 2}, 
+         Typeset`querystate$$ = {
+         "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+          2.117852`6.777440600906193, "Messages" -> {}}}, 
+         DynamicBox[ToBoxes[
+           AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+            Dynamic[Typeset`query$$], 
+            Dynamic[Typeset`boxes$$], 
+            Dynamic[Typeset`allassumptions$$], 
+            Dynamic[Typeset`assumptions$$], 
+            Dynamic[Typeset`open$$], 
+            Dynamic[Typeset`querystate$$]], StandardForm],
+          ImageSizeCache->{193., {9., 19.}},
+          
+          TrackedSymbols:>{
+           Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+            Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+         DynamicModuleValues:>{},
+         UndoTrackedVariables:>{Typeset`open$$}],
+        BaseStyle->{"Deploy"},
+        DeleteWithContents->True,
+        Editable->False,
+        SelectWithContents->True], ",", 
+       NamespaceBox["LinguisticAssistant",
+        DynamicModuleBox[{Typeset`query$$ = "ukraine", Typeset`boxes$$ = 
+         TemplateBox[{"\"Ukraine\"", 
+           RowBox[{"Entity", "[", 
+             RowBox[{"\"Country\"", ",", "\"Ukraine\""}], "]"}], 
+           "\"Entity[\\\"Country\\\", \\\"Ukraine\\\"]\"", "\"country\""}, 
+          "Entity"], Typeset`allassumptions$$ = {}, 
+         Typeset`assumptions$$ = {}, Typeset`open$$ = {1, 2}, 
+         Typeset`querystate$$ = {
+         "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+          0.651937`6.265750623162995, "Messages" -> {}}}, 
+         DynamicBox[ToBoxes[
+           AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+            Dynamic[Typeset`query$$], 
+            Dynamic[Typeset`boxes$$], 
+            Dynamic[Typeset`allassumptions$$], 
+            Dynamic[Typeset`assumptions$$], 
+            Dynamic[Typeset`open$$], 
+            Dynamic[Typeset`querystate$$]], StandardForm],
+          ImageSizeCache->{163., {9., 19.}},
+          
+          TrackedSymbols:>{
+           Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+            Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+         DynamicModuleValues:>{},
+         UndoTrackedVariables:>{Typeset`open$$}],
+        BaseStyle->{"Deploy"},
+        DeleteWithContents->True,
+        Editable->False,
+        SelectWithContents->True], ",", 
+       NamespaceBox["LinguisticAssistant",
+        DynamicModuleBox[{Typeset`query$$ = "georgia", Typeset`boxes$$ = 
+         TemplateBox[{"\"Georgia\"", 
+           RowBox[{"Entity", "[", 
+             RowBox[{"\"Country\"", ",", "\"Georgia\""}], "]"}], 
+           "\"Entity[\\\"Country\\\", \\\"Georgia\\\"]\"", "\"country\""}, 
+          "Entity"], 
+         Typeset`allassumptions$$ = {{
+          "type" -> "Clash", "word" -> "georgia", "template" -> 
+           "Assuming \"${word}\" is ${desc1}. Use as ${desc2} instead", 
+           "count" -> "4", 
+           "Values" -> {{
+             "name" -> "Country", "desc" -> "a country", "input" -> 
+              "*C.georgia-_*Country-"}, {
+             "name" -> "USState", "desc" -> "a US state", "input" -> 
+              "*C.georgia-_*USState-"}, {
+             "name" -> "GivenName", "desc" -> "a given name", "input" -> 
+              "*C.georgia-_*GivenName-"}, {
+             "name" -> "Movie", "desc" -> "a movie", "input" -> 
+              "*C.georgia-_*Movie-"}}}}, Typeset`assumptions$$ = {
+         "*C.georgia-_*Country-"}, Typeset`open$$ = {1, 2}, 
+         Typeset`querystate$$ = {
+         "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+          0.648852`6.263690641123403, "Messages" -> {}}}, 
+         DynamicBox[ToBoxes[
+           AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+            Dynamic[Typeset`query$$], 
+            Dynamic[Typeset`boxes$$], 
+            Dynamic[Typeset`allassumptions$$], 
+            Dynamic[Typeset`assumptions$$], 
+            Dynamic[Typeset`open$$], 
+            Dynamic[Typeset`querystate$$]], StandardForm],
+          ImageSizeCache->{194., {9., 19.}},
+          
+          TrackedSymbols:>{
+           Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+            Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+         DynamicModuleValues:>{},
+         UndoTrackedVariables:>{Typeset`open$$}],
+        BaseStyle->{"Deploy"},
+        DeleteWithContents->True,
+        Editable->False,
+        SelectWithContents->True], ",", 
+       NamespaceBox["LinguisticAssistant",
+        DynamicModuleBox[{Typeset`query$$ = "Azerbaijan", Typeset`boxes$$ = 
+         TemplateBox[{"\"Azerbaijan\"", 
+           RowBox[{"Entity", "[", 
+             RowBox[{"\"Country\"", ",", "\"Azerbaijan\""}], "]"}], 
+           "\"Entity[\\\"Country\\\", \\\"Azerbaijan\\\"]\"", "\"country\""}, 
+          "Entity"], 
+         Typeset`allassumptions$$ = {{
+          "type" -> "Clash", "word" -> "Azerbaijan", "template" -> 
+           "Assuming \"${word}\" is ${desc1}. Use as ${desc2} instead", 
+           "count" -> "2", 
+           "Values" -> {{
+             "name" -> "Country", "desc" -> "a country", "input" -> 
+              "*C.Azerbaijan-_*Country-"}, {
+             "name" -> "Language", "desc" -> "a language", "input" -> 
+              "*C.Azerbaijan-_*Language-"}}}}, Typeset`assumptions$$ = {}, 
+         Typeset`open$$ = {1, 2}, Typeset`querystate$$ = {
+         "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+          0.72346`6.310959517534984, "Messages" -> {}}}, 
+         DynamicBox[ToBoxes[
+           AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+            Dynamic[Typeset`query$$], 
+            Dynamic[Typeset`boxes$$], 
+            Dynamic[Typeset`allassumptions$$], 
+            Dynamic[Typeset`assumptions$$], 
+            Dynamic[Typeset`open$$], 
+            Dynamic[Typeset`querystate$$]], StandardForm],
+          ImageSizeCache->{215., {9., 19.}},
+          
+          TrackedSymbols:>{
+           Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+            Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+         DynamicModuleValues:>{},
+         UndoTrackedVariables:>{Typeset`open$$}],
+        BaseStyle->{"Deploy"},
+        DeleteWithContents->True,
+        Editable->False,
+        SelectWithContents->True]}], "}"}]}], "}"}], ",", 
+   RowBox[{"GeoLabels", "\[Rule]", "True"}], ",", 
+   RowBox[{"GeoCenter", "\[Rule]", 
+    NamespaceBox["LinguisticAssistant",
+     DynamicModuleBox[{Typeset`query$$ = "Kapustin Yar", Typeset`boxes$$ = 
+      TemplateBox[{"\"Kapustin Yar\[Hyphen]1\"", 
+        RowBox[{"Entity", "[", 
+          RowBox[{"\"City\"", ",", 
+            RowBox[{"{", 
+              
+              RowBox[{"\"KapustinYar1\"", ",", "\"Astrakhan\"", ",", 
+                "\"Russia\""}], "}"}]}], "]"}], 
+        "\"Entity[\\\"City\\\", {\\\"KapustinYar1\\\", \\\"Astrakhan\\\", \
+\\\"Russia\\\"}]\"", "\"city\""}, "Entity"], 
+      Typeset`allassumptions$$ = {{
+       "type" -> "SubCategory", "word" -> "Kapustin Yar", "template" -> 
+        "Assuming ${desc1}. Use ${desc2} instead", "count" -> "2", 
+        "Values" -> {{
+          "name" -> "{KapustinYar1, Astrakhan, Russia}", "desc" -> 
+           "Kapustin Yar\[Hyphen]1 (Astrakhan', Russia)", "input" -> 
+           "*DPClash.CityE.Kapustin+Yar-_**KapustinYar1.Astrakhan.Russia--"}, \
+{"name" -> "{KapustinYar, Astrakhan, Russia}", "desc" -> 
+           "Kapustin Yar (Astrakhan', Russia)", "input" -> 
+           "*DPClash.CityE.Kapustin+Yar-_**KapustinYar.Astrakhan.Russia--"}}}}\
+, Typeset`assumptions$$ = {}, Typeset`open$$ = {1, 2}, 
+      Typeset`querystate$$ = {
+      "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+       0.721203`6.309602518092006, "Messages" -> {}}}, 
+      DynamicBox[ToBoxes[
+        AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+         Dynamic[Typeset`query$$], 
+         Dynamic[Typeset`boxes$$], 
+         Dynamic[Typeset`allassumptions$$], 
+         Dynamic[Typeset`assumptions$$], 
+         Dynamic[Typeset`open$$], 
+         Dynamic[Typeset`querystate$$]], StandardForm],
+       ImageSizeCache->{218., {9., 19.}},
+       TrackedSymbols:>{
+        Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+         Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+      DynamicModuleValues:>{},
+      UndoTrackedVariables:>{Typeset`open$$}],
+     BaseStyle->{"Deploy"},
+     DeleteWithContents->True,
+     Editable->False,
+     SelectWithContents->True]}], ",", 
+   RowBox[{"GeoRange", "\[Rule]", 
+    RowBox[{"Quantity", "[", 
+     RowBox[{"800", ",", "\"\<NauticalMiles\>\""}], "]"}]}]}], "]"}]], "Input",\
+
+ CellChangeTimes->{{3.736009603312621*^9, 3.736009661991829*^9}, {
+  3.736009865586976*^9, 3.736010000364685*^9}, {3.736010033348567*^9, 
+  3.7360100705255213`*^9}, {3.73601012758622*^9, 3.736010129295952*^9}, {
+  3.7360102050234537`*^9, 3.7360102054614277`*^9}, {3.736091362787107*^9, 
+  3.73609140075093*^9}},
+ CellLabel->"In[7]:=",ExpressionUUID->"0bae3a69-3c8c-409f-9678-826c85a8536d"],
+
+Cell[TextData[{
+ "We use ",
+ StyleBox["GeoDistance",
+  FontWeight->"Bold"],
+ " to measure the distance to the Turkish border"
+}], "Text",
+ CellChangeTimes->{{3.7360915257609587`*^9, 
+  3.73609153565606*^9}},ExpressionUUID->"207f2195-27f1-4ce2-a359-\
+41e62e5f9ed9"],
+
+Cell[BoxData[
+ RowBox[{"GeoDistance", "[", 
+  RowBox[{"{", 
+   RowBox[{
+    NamespaceBox["LinguisticAssistant",
+     DynamicModuleBox[{Typeset`query$$ = "Kapustin Yar", Typeset`boxes$$ = 
+      TemplateBox[{"\"Kapustin Yar\[Hyphen]1\"", 
+        RowBox[{"Entity", "[", 
+          RowBox[{"\"City\"", ",", 
+            RowBox[{"{", 
+              
+              RowBox[{"\"KapustinYar1\"", ",", "\"Astrakhan\"", ",", 
+                "\"Russia\""}], "}"}]}], "]"}], 
+        "\"Entity[\\\"City\\\", {\\\"KapustinYar1\\\", \\\"Astrakhan\\\", \
+\\\"Russia\\\"}]\"", "\"city\""}, "Entity"], 
+      Typeset`allassumptions$$ = {{
+       "type" -> "SubCategory", "word" -> "Kapustin Yar", "template" -> 
+        "Assuming ${desc1}. Use ${desc2} instead", "count" -> "2", 
+        "Values" -> {{
+          "name" -> "{KapustinYar1, Astrakhan, Russia}", "desc" -> 
+           "Kapustin Yar\[Hyphen]1 (Astrakhan', Russia)", "input" -> 
+           "*DPClash.CityE.Kapustin+Yar-_**KapustinYar1.Astrakhan.Russia--"}, \
+{"name" -> "{KapustinYar, Astrakhan, Russia}", "desc" -> 
+           "Kapustin Yar (Astrakhan', Russia)", "input" -> 
+           "*DPClash.CityE.Kapustin+Yar-_**KapustinYar.Astrakhan.Russia--"}}}}\
+, Typeset`assumptions$$ = {}, Typeset`open$$ = {1, 2}, 
+      Typeset`querystate$$ = {
+      "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+       0.721203`6.309602518092006, "Messages" -> {}}}, 
+      DynamicBox[ToBoxes[
+        AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+         Dynamic[Typeset`query$$], 
+         Dynamic[Typeset`boxes$$], 
+         Dynamic[Typeset`allassumptions$$], 
+         Dynamic[Typeset`assumptions$$], 
+         Dynamic[Typeset`open$$], 
+         Dynamic[Typeset`querystate$$]], StandardForm],
+       ImageSizeCache->{218., {9., 19.}},
+       TrackedSymbols:>{
+        Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+         Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+      DynamicModuleValues:>{},
+      UndoTrackedVariables:>{Typeset`open$$}],
+     BaseStyle->{"Deploy"},
+     DeleteWithContents->True,
+     Editable->False,
+     SelectWithContents->True], ",", 
+    NamespaceBox["LinguisticAssistant",
+     DynamicModuleBox[{Typeset`query$$ = "Turkey", Typeset`boxes$$ = 
+      TemplateBox[{"\"Turkey\"", 
+        RowBox[{"Entity", "[", 
+          RowBox[{"\"Country\"", ",", "\"Turkey\""}], "]"}], 
+        "\"Entity[\\\"Country\\\", \\\"Turkey\\\"]\"", "\"country\""}, 
+       "Entity"], 
+      Typeset`allassumptions$$ = {{
+       "type" -> "Clash", "word" -> "Turkey", "template" -> 
+        "Assuming \"${word}\" is ${desc1}. Use as ${desc2} instead", "count" -> 
+        "5", "Values" -> {{
+          "name" -> "Country", "desc" -> "a country", "input" -> 
+           "*C.Turkey-_*Country-"}, {
+          "name" -> "Species", "desc" -> "a species specification", "input" -> 
+           "*C.Turkey-_*Species-"}, {
+          "name" -> "FoodType", "desc" -> "a food type", "input" -> 
+           "*C.Turkey-_*FoodType-"}, {
+          "name" -> "CommonMaterial", "desc" -> "a general material", "input" -> 
+           "*C.Turkey-_*CommonMaterial-"}, {
+          "name" -> "Movie", "desc" -> "a movie", "input" -> 
+           "*C.Turkey-_*Movie-"}}}}, Typeset`assumptions$$ = {}, 
+      Typeset`open$$ = {1, 2}, Typeset`querystate$$ = {
+      "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+       1.204233`6.532255517647232, "Messages" -> {}}}, 
+      DynamicBox[ToBoxes[
+        AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+         Dynamic[Typeset`query$$], 
+         Dynamic[Typeset`boxes$$], 
+         Dynamic[Typeset`allassumptions$$], 
+         Dynamic[Typeset`assumptions$$], 
+         Dynamic[Typeset`open$$], 
+         Dynamic[Typeset`querystate$$]], StandardForm],
+       ImageSizeCache->{186., {9., 19.}},
+       TrackedSymbols:>{
+        Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+         Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+      DynamicModuleValues:>{},
+      UndoTrackedVariables:>{Typeset`open$$}],
+     BaseStyle->{"Deploy"},
+     DeleteWithContents->True,
+     Editable->False,
+     SelectWithContents->True]}], "}"}], "]"}]], "Input",
+ CellChangeTimes->{{3.7360094610763893`*^9, 3.736009553854197*^9}, {
+  3.736091574041656*^9, 3.736091574322266*^9}},
+ CellLabel->"In[8]:=",ExpressionUUID->"59ead7b2-5c78-42ff-8ad7-4e8bf424c1dd"],
+
+Cell[BoxData[
+ RowBox[{"UnitConvert", "[", 
+  RowBox[{
+   RowBox[{"Quantity", "[", 
+    RowBox[{"809.75", ",", "\"\<Kilometers\>\""}], "]"}], ",", 
+   "\"\<nautical miles\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.736091583079981*^9, 3.7360915864463873`*^9}},
+ NumberMarks->False,
+ CellLabel->"In[9]:=",ExpressionUUID->"8159e9ed-b709-45f4-8332-1e97b79d0eec"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"8458af1d-b32e-4766-b63b-9c1011aa33d1"],
+
+Cell[CellGroupData[{
+
+Cell["Relief and climate", "Section",
+ CellChangeTimes->{{3.649950784924818*^9, 3.649950788859275*^9}, {
+  3.7360916324051037`*^9, 3.736091633052279*^9}, {3.736091693691073*^9, 
+  3.736091697194181*^9}},ExpressionUUID->"78421852-5cc3-4884-a6fb-\
+1d2dcc500739"],
+
+Cell["\<\
+The report states that \[OpenCurlyDoubleQuote]the terrain is flat to gently \
+rolling and favors the construction of roads and airfields. The climate is \
+hot and dry in the summer and cold and dry in the winter; visibility and \
+cloud-cover conditions are among the most favorable in the Soviet Union.\
+\[CloseCurlyDoubleQuote]\
+\>", "Text",
+ CellChangeTimes->{{3.736010442385703*^9, 3.736010449128974*^9}, {
+  3.736091755952736*^9, 
+  3.736091811117979*^9}},ExpressionUUID->"335f14f9-e028-4e5a-87d9-\
+eedb709c762d"],
+
+Cell["We plot the area on a relief map to assess the terrain.", "Text",
+ CellChangeTimes->{{3.736091812973934*^9, 
+  3.736091829189445*^9}},ExpressionUUID->"e5490578-0cc7-47ae-9813-\
+62f149dc5432"],
+
+Cell[BoxData[
+ RowBox[{"GeoGraphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"PointSize", "[", "Large", "]"}], ",", "Red", ",", 
+     RowBox[{"Point", "[", 
+      NamespaceBox["LinguisticAssistant",
+       DynamicModuleBox[{Typeset`query$$ = "Kapustin Yar", Typeset`boxes$$ = 
+        TemplateBox[{"\"Kapustin Yar\[Hyphen]1\"", 
+          RowBox[{"Entity", "[", 
+            RowBox[{"\"City\"", ",", 
+              RowBox[{"{", 
+                
+                RowBox[{
+                 "\"KapustinYar1\"", ",", "\"Astrakhan\"", ",", 
+                  "\"Russia\""}], "}"}]}], "]"}], 
+          "\"Entity[\\\"City\\\", {\\\"KapustinYar1\\\", \\\"Astrakhan\\\", \
+\\\"Russia\\\"}]\"", "\"city\""}, "Entity"], 
+        Typeset`allassumptions$$ = {{
+         "type" -> "SubCategory", "word" -> "Kapustin Yar", "template" -> 
+          "Assuming ${desc1}. Use ${desc2} instead", "count" -> "2", 
+          "Values" -> {{
+            "name" -> "{KapustinYar1, Astrakhan, Russia}", "desc" -> 
+             "Kapustin Yar\[Hyphen]1 (Astrakhan', Russia)", "input" -> 
+             "*DPClash.CityE.Kapustin+Yar-_**KapustinYar1.Astrakhan.Russia--"}\
+, {"name" -> "{KapustinYar, Astrakhan, Russia}", "desc" -> 
+             "Kapustin Yar (Astrakhan', Russia)", "input" -> 
+             "*DPClash.CityE.Kapustin+Yar-_**KapustinYar.Astrakhan.Russia--"}}\
+}}, Typeset`assumptions$$ = {}, Typeset`open$$ = {1, 2}, 
+        Typeset`querystate$$ = {
+        "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+         0.721203`6.309602518092006, "Messages" -> {}}}, 
+        DynamicBox[ToBoxes[
+          AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+           Dynamic[Typeset`query$$], 
+           Dynamic[Typeset`boxes$$], 
+           Dynamic[Typeset`allassumptions$$], 
+           Dynamic[Typeset`assumptions$$], 
+           Dynamic[Typeset`open$$], 
+           Dynamic[Typeset`querystate$$]], StandardForm],
+         ImageSizeCache->{218., {9., 19.}},
+         TrackedSymbols:>{
+          Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+           Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+        DynamicModuleValues:>{},
+        UndoTrackedVariables:>{Typeset`open$$}],
+       BaseStyle->{"Deploy"},
+       DeleteWithContents->True,
+       Editable->False,
+       SelectWithContents->True], "]"}]}], "}"}], ",", 
+   RowBox[{"GeoBackground", "\[Rule]", "\"\<ReliefMap\>\""}], ",", 
+   RowBox[{"GeoRange", "\[Rule]", 
+    RowBox[{"Quantity", "[", 
+     RowBox[{"100", ",", "\"\<NauticalMiles\>\""}], "]"}]}]}], "]"}]], "Input",\
+
+ CellChangeTimes->{{3.7360104546007633`*^9, 3.736010530439231*^9}, {
+   3.7360114143227377`*^9, 3.7360114211913033`*^9}, {3.736011465854762*^9, 
+   3.736011534699215*^9}, 3.73601158383722*^9, 3.736091898813941*^9},
+ CellLabel->"In[11]:=",ExpressionUUID->"4776c1dd-9a0a-4bcf-8af0-1b864b412fff"],
+
+Cell[TextData[{
+ "We find the closest weather station that may have historical data using the \
+",
+ StyleBox["WeatherData",
+  FontWeight->"Bold"],
+ " command, and then plot both the city and the weather station location to \
+make sure they are reasonably close together."
+}], "Text",
+ CellChangeTimes->{{3.736091940201973*^9, 
+  3.736091991007649*^9}},ExpressionUUID->"8b457f3b-9290-41b4-acb6-\
+7995ea6966b7"],
+
+Cell[BoxData[
+ RowBox[{"WeatherData", "[", 
+  NamespaceBox["LinguisticAssistant",
+   DynamicModuleBox[{Typeset`query$$ = "Kapustin Yar", Typeset`boxes$$ = 
+    TemplateBox[{"\"Kapustin Yar\[Hyphen]1\"", 
+      RowBox[{"Entity", "[", 
+        RowBox[{"\"City\"", ",", 
+          RowBox[{"{", 
+            
+            RowBox[{"\"KapustinYar1\"", ",", "\"Astrakhan\"", ",", 
+              "\"Russia\""}], "}"}]}], "]"}], 
+      "\"Entity[\\\"City\\\", {\\\"KapustinYar1\\\", \\\"Astrakhan\\\", \
+\\\"Russia\\\"}]\"", "\"city\""}, "Entity"], 
+    Typeset`allassumptions$$ = {{
+     "type" -> "SubCategory", "word" -> "Kapustin Yar", "template" -> 
+      "Assuming ${desc1}. Use ${desc2} instead", "count" -> "2", 
+      "Values" -> {{
+        "name" -> "{KapustinYar1, Astrakhan, Russia}", "desc" -> 
+         "Kapustin Yar\[Hyphen]1 (Astrakhan', Russia)", "input" -> 
+         "*DPClash.CityE.Kapustin+Yar-_**KapustinYar1.Astrakhan.Russia--"}, {
+        "name" -> "{KapustinYar, Astrakhan, Russia}", "desc" -> 
+         "Kapustin Yar (Astrakhan', Russia)", "input" -> 
+         "*DPClash.CityE.Kapustin+Yar-_**KapustinYar.Astrakhan.Russia--"}}}}, 
+    Typeset`assumptions$$ = {}, Typeset`open$$ = {1, 2}, 
+    Typeset`querystate$$ = {
+    "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+     0.721203`6.309602518092006, "Messages" -> {}}}, 
+    DynamicBox[ToBoxes[
+      AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+       Dynamic[Typeset`query$$], 
+       Dynamic[Typeset`boxes$$], 
+       Dynamic[Typeset`allassumptions$$], 
+       Dynamic[Typeset`assumptions$$], 
+       Dynamic[Typeset`open$$], 
+       Dynamic[Typeset`querystate$$]], StandardForm],
+     ImageSizeCache->{218., {9., 19.}},
+     TrackedSymbols:>{
+      Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+       Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+    DynamicModuleValues:>{},
+    UndoTrackedVariables:>{Typeset`open$$}],
+   BaseStyle->{"Deploy"},
+   DeleteWithContents->True,
+   Editable->False,
+   SelectWithContents->True], "]"}]], "Input",
+ CellChangeTimes->{{3.7360119320926313`*^9, 3.736011944053142*^9}},
+ CellLabel->"In[60]:=",ExpressionUUID->"854be03f-46c9-494d-aaa1-76877a3167d9"],
+
+Cell[BoxData[
+ RowBox[{"GeoGraphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"Blue", ",", 
+     RowBox[{"Point", "[", 
+      TemplateBox[{"\"WMO34579\"",RowBox[{"Entity", "[", 
+          RowBox[{"\"WeatherStation\"", ",", "\"WMO34579\""}], "]"}],
+        "\"Entity[\\\"WeatherStation\\\", \\\"WMO34579\\\"]\"",
+        "\"weather station\""},
+       "Entity"], "]"}], ",", "Red", ",", 
+     RowBox[{"Point", "[", 
+      NamespaceBox["LinguisticAssistant",
+       DynamicModuleBox[{Typeset`query$$ = "Kapustin Yar", Typeset`boxes$$ = 
+        TemplateBox[{"\"Kapustin Yar\[Hyphen]1\"", 
+          RowBox[{"Entity", "[", 
+            RowBox[{"\"City\"", ",", 
+              RowBox[{"{", 
+                
+                RowBox[{
+                 "\"KapustinYar1\"", ",", "\"Astrakhan\"", ",", 
+                  "\"Russia\""}], "}"}]}], "]"}], 
+          "\"Entity[\\\"City\\\", {\\\"KapustinYar1\\\", \\\"Astrakhan\\\", \
+\\\"Russia\\\"}]\"", "\"city\""}, "Entity"], 
+        Typeset`allassumptions$$ = {{
+         "type" -> "SubCategory", "word" -> "Kapustin Yar", "template" -> 
+          "Assuming ${desc1}. Use ${desc2} instead", "count" -> "2", 
+          "Values" -> {{
+            "name" -> "{KapustinYar1, Astrakhan, Russia}", "desc" -> 
+             "Kapustin Yar\[Hyphen]1 (Astrakhan', Russia)", "input" -> 
+             "*DPClash.CityE.Kapustin+Yar-_**KapustinYar1.Astrakhan.Russia--"}\
+, {"name" -> "{KapustinYar, Astrakhan, Russia}", "desc" -> 
+             "Kapustin Yar (Astrakhan', Russia)", "input" -> 
+             "*DPClash.CityE.Kapustin+Yar-_**KapustinYar.Astrakhan.Russia--"}}\
+}}, Typeset`assumptions$$ = {}, Typeset`open$$ = {1, 2}, 
+        Typeset`querystate$$ = {
+        "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+         0.721203`6.309602518092006, "Messages" -> {}}}, 
+        DynamicBox[ToBoxes[
+          AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+           Dynamic[Typeset`query$$], 
+           Dynamic[Typeset`boxes$$], 
+           Dynamic[Typeset`allassumptions$$], 
+           Dynamic[Typeset`assumptions$$], 
+           Dynamic[Typeset`open$$], 
+           Dynamic[Typeset`querystate$$]], StandardForm],
+         ImageSizeCache->{218., {9., 19.}},
+         TrackedSymbols:>{
+          Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+           Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+        DynamicModuleValues:>{},
+        UndoTrackedVariables:>{Typeset`open$$}],
+       BaseStyle->{"Deploy"},
+       DeleteWithContents->True,
+       Editable->False,
+       SelectWithContents->True], "]"}]}], "}"}], ",", 
+   RowBox[{"GeoRange", "\[Rule]", 
+    RowBox[{"Quantity", "[", 
+     RowBox[{"100", ",", "\"\<NauticalMiles\>\""}], "]"}]}]}], " ", 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.73601198253016*^9, 3.736012140709903*^9}},
+ CellLabel->"In[66]:=",ExpressionUUID->"1ac248af-7081-4762-8655-64e927f55264"],
+
+Cell["\<\
+Now we can request mean monthly temperature in degrees Celsius and total \
+precipitation in cm for the period from 1955-60.\
+\>", "Text",
+ CellChangeTimes->{{3.7360920140311813`*^9, 
+  3.7360920647328*^9}},ExpressionUUID->"b0f6e0cd-7d76-4de5-8b74-7c2ed6b330ce"],
+
+Cell[BoxData[
+ RowBox[{"DateListPlot", "[", 
+  RowBox[{
+   RowBox[{"WeatherData", "[", 
+    RowBox[{
+     TemplateBox[{"\"WMO34579\"",RowBox[{"Entity", "[", 
+         RowBox[{"\"WeatherStation\"", ",", "\"WMO34579\""}], "]"}],
+       "\"Entity[\\\"WeatherStation\\\", \\\"WMO34579\\\"]\"",
+       "\"weather station\""},
+      "Entity"], ",", "\"\<MeanTemperature\>\"", ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"1955", ",", " ", "1", ",", " ", "1"}], "}"}], ",", " ", 
+       RowBox[{"{", 
+        RowBox[{"1960", ",", " ", "12", ",", " ", "31"}], "}"}], ",", " ", 
+       "\"\<Month\>\""}], "}"}]}], "]"}], ",", 
+   RowBox[{"Joined", "\[Rule]", "True"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.736012250600444*^9, 3.736012335468998*^9}, 
+   3.736012389437007*^9, {3.736012511152223*^9, 3.736012549893443*^9}},
+ CellLabel->"In[74]:=",ExpressionUUID->"ae7fd64b-98cb-413c-8777-1994a83007fd"],
+
+Cell[BoxData[
+ RowBox[{"DateListPlot", "[", 
+  RowBox[{
+   RowBox[{"WeatherData", "[", 
+    RowBox[{
+     TemplateBox[{"\"WMO34579\"",RowBox[{"Entity", "[", 
+         RowBox[{"\"WeatherStation\"", ",", "\"WMO34579\""}], "]"}],
+       "\"Entity[\\\"WeatherStation\\\", \\\"WMO34579\\\"]\"",
+       "\"weather station\""},
+      "Entity"], ",", "\"\<TotalPrecipitation\>\"", ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"1955", ",", " ", "1", ",", " ", "1"}], "}"}], ",", " ", 
+       RowBox[{"{", 
+        RowBox[{"1960", ",", " ", "12", ",", " ", "31"}], "}"}], ",", " ", 
+       "\"\<Year\>\""}], "}"}]}], "]"}], ",", 
+   RowBox[{"Joined", "\[Rule]", "True"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.736012250600444*^9, 3.736012335468998*^9}, {
+  3.736012394115464*^9, 3.7360124156853533`*^9}, {3.73601248155398*^9, 
+  3.736012482603237*^9}, {3.7360125831099167`*^9, 3.736012599227538*^9}, {
+  3.736012660476595*^9, 3.736012660737533*^9}},
+ CellLabel->"In[76]:=",ExpressionUUID->"f1d5252a-1f1d-4144-8665-b605da885972"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"10140f6a-ec1c-461e-b241-1a4fe8418dff"],
+
+Cell[CellGroupData[{
+
+Cell["Missile target", "Section",
+ CellChangeTimes->{{3.649950784924818*^9, 3.649950788859275*^9}, {
+  3.7360916324051037`*^9, 3.736091633052279*^9}, {3.736092130507024*^9, 
+  3.736092132034231*^9}, {3.736092644968316*^9, 
+  3.736092645695531*^9}},ExpressionUUID->"e5f765d2-fbaa-4909-9c5f-\
+37bca666e604"],
+
+Cell["\<\
+Assuming test missiles are fired from Kapustin Yar, there are two other areas \
+that are important. The first is the place where the missile itself lands. \
+The CIA analysts propose southern Kamchatka, which as we have seen is about \
+3400 nautical miles east, \[OpenCurlyDoubleQuote]the maximum allowable range \
+within USSR territorial limits\[CloseCurlyDoubleQuote]. The path of the \
+missile would take it over areas with relatively low population density. \
+\>", "Text",
+ CellChangeTimes->{{3.736092160457189*^9, 3.736092314115584*^9}, {
+  3.736092360770018*^9, 
+  3.736092381785293*^9}},ExpressionUUID->"0b690540-e944-45e4-aea2-\
+8bea8e99956b"],
+
+Cell["\<\
+The mountainous terrain of Kamchatka provides many good observation points.\
+\>", "Text",
+ CellChangeTimes->{{3.736092391656701*^9, 
+  3.736092408704174*^9}},ExpressionUUID->"fd5eda86-e342-4ac3-95c9-\
+bd7e0466cf9c"],
+
+Cell[BoxData[
+ RowBox[{"GeoGraphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"EdgeForm", "[", "Black", "]"}], ",", "Red", ",", 
+     RowBox[{"Polygon", "[", 
+      NamespaceBox["LinguisticAssistant",
+       DynamicModuleBox[{Typeset`query$$ = "Kamchatka", Typeset`boxes$$ = 
+        TemplateBox[{"\"Kamchatka, Russia\"", 
+          RowBox[{"Entity", "[", 
+            RowBox[{"\"AdministrativeDivision\"", ",", 
+              RowBox[{"{", 
+                RowBox[{"\"Kamchatka\"", ",", "\"Russia\""}], "}"}]}], "]"}], 
+          "\"Entity[\\\"AdministrativeDivision\\\", {\\\"Kamchatka\\\", \
+\\\"Russia\\\"}]\"", "\"administrative division\""}, "Entity"], 
+        Typeset`allassumptions$$ = {{
+         "type" -> "Clash", "word" -> "Kamchatka", "template" -> 
+          "Assuming \"${word}\" is ${desc1}. Use as ${desc2} instead", 
+          "count" -> "4", 
+          "Values" -> {{
+            "name" -> "AdministrativeDivision", "desc" -> 
+             "an administrative division", "input" -> 
+             "*C.Kamchatka-_*AdministrativeDivision-"}, {
+            "name" -> "River", "desc" -> "a river", "input" -> 
+             "*C.Kamchatka-_*River-"}, {
+            "name" -> "Language", "desc" -> "a language", "input" -> 
+             "*C.Kamchatka-_*Language-"}, {
+            "name" -> "Movie", "desc" -> "a movie", "input" -> 
+             "*C.Kamchatka-_*Movie-"}}}}, Typeset`assumptions$$ = {
+        "*C.Kamchatka-_*AdministrativeDivision-"}, Typeset`open$$ = {1, 2}, 
+        Typeset`querystate$$ = {
+        "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+         1.693123`6.680233502863558, "Messages" -> {}}}, 
+        DynamicBox[ToBoxes[
+          AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+           Dynamic[Typeset`query$$], 
+           Dynamic[Typeset`boxes$$], 
+           Dynamic[Typeset`allassumptions$$], 
+           Dynamic[Typeset`assumptions$$], 
+           Dynamic[Typeset`open$$], 
+           Dynamic[Typeset`querystate$$]], StandardForm],
+         ImageSizeCache->{373., {9., 19.}},
+         TrackedSymbols:>{
+          Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+           Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+        DynamicModuleValues:>{},
+        UndoTrackedVariables:>{Typeset`open$$}],
+       BaseStyle->{"Deploy"},
+       DeleteWithContents->True,
+       Editable->False,
+       SelectWithContents->True], "]"}]}], "}"}], ",", 
+   RowBox[{"GeoBackground", "\[Rule]", "\"\<ReliefMap\>\""}], ",", 
+   RowBox[{"GeoRange", "\[Rule]", 
+    RowBox[{"Quantity", "[", 
+     RowBox[{"400", ",", "\"\<NauticalMiles\>\""}], "]"}]}]}], "]"}]], "Input",\
+
+ CellChangeTimes->{{3.7360104546007633`*^9, 3.736010530439231*^9}, {
+   3.7360114143227377`*^9, 3.7360114211913033`*^9}, {3.736011465854762*^9, 
+   3.736011534699215*^9}, 3.73601158383722*^9, {3.736012943962637*^9, 
+   3.736013006053753*^9}},
+ CellLabel->"In[79]:=",ExpressionUUID->"980ddc71-7c9c-4477-b0eb-f694e060ece0"],
+
+Cell["\<\
+Missiles sent beyond Kamchatka and over the Pacific will pass south of Attu \
+Island, shown as a green dot on the map below.\
+\>", "Text",
+ CellChangeTimes->{{3.736092425664137*^9, 
+  3.73609251746026*^9}},ExpressionUUID->"e82fbc2a-7280-411a-a2df-\
+16172b27df3b"],
+
+Cell[BoxData[
+ RowBox[{"GeoGraphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"EdgeForm", "[", "Black", "]"}], ",", "Red", ",", 
+     RowBox[{"Polygon", "[", 
+      NamespaceBox["LinguisticAssistant",
+       DynamicModuleBox[{Typeset`query$$ = "Kamchatka", Typeset`boxes$$ = 
+        TemplateBox[{"\"Kamchatka, Russia\"", 
+          RowBox[{"Entity", "[", 
+            RowBox[{"\"AdministrativeDivision\"", ",", 
+              RowBox[{"{", 
+                RowBox[{"\"Kamchatka\"", ",", "\"Russia\""}], "}"}]}], "]"}], 
+          "\"Entity[\\\"AdministrativeDivision\\\", {\\\"Kamchatka\\\", \
+\\\"Russia\\\"}]\"", "\"administrative division\""}, "Entity"], 
+        Typeset`allassumptions$$ = {{
+         "type" -> "Clash", "word" -> "Kamchatka", "template" -> 
+          "Assuming \"${word}\" is ${desc1}. Use as ${desc2} instead", 
+          "count" -> "4", 
+          "Values" -> {{
+            "name" -> "AdministrativeDivision", "desc" -> 
+             "an administrative division", "input" -> 
+             "*C.Kamchatka-_*AdministrativeDivision-"}, {
+            "name" -> "River", "desc" -> "a river", "input" -> 
+             "*C.Kamchatka-_*River-"}, {
+            "name" -> "Language", "desc" -> "a language", "input" -> 
+             "*C.Kamchatka-_*Language-"}, {
+            "name" -> "Movie", "desc" -> "a movie", "input" -> 
+             "*C.Kamchatka-_*Movie-"}}}}, Typeset`assumptions$$ = {
+        "*C.Kamchatka-_*AdministrativeDivision-"}, Typeset`open$$ = {1, 2}, 
+        Typeset`querystate$$ = {
+        "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+         1.693123`6.680233502863558, "Messages" -> {}}}, 
+        DynamicBox[ToBoxes[
+          AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+           Dynamic[Typeset`query$$], 
+           Dynamic[Typeset`boxes$$], 
+           Dynamic[Typeset`allassumptions$$], 
+           Dynamic[Typeset`assumptions$$], 
+           Dynamic[Typeset`open$$], 
+           Dynamic[Typeset`querystate$$]], StandardForm],
+         ImageSizeCache->{373., {9., 19.}},
+         TrackedSymbols:>{
+          Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+           Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+        DynamicModuleValues:>{},
+        UndoTrackedVariables:>{Typeset`open$$}],
+       BaseStyle->{"Deploy"},
+       DeleteWithContents->True,
+       Editable->False,
+       SelectWithContents->True], "]"}], ",", "Green", ",", 
+     RowBox[{"PointSize", "[", "Large", "]"}], ",", 
+     RowBox[{"Point", "[", 
+      NamespaceBox["LinguisticAssistant",
+       DynamicModuleBox[{Typeset`query$$ = "Attu Island", Typeset`boxes$$ = 
+        TemplateBox[{"\"Attu Island\"", 
+          RowBox[{"Entity", "[", 
+            RowBox[{"\"Island\"", ",", "\"AttuIsland\""}], "]"}], 
+          "\"Entity[\\\"Island\\\", \\\"AttuIsland\\\"]\"", "\"island\""}, 
+         "Entity"], Typeset`allassumptions$$ = {}, Typeset`assumptions$$ = {},
+         Typeset`open$$ = {1, 2}, Typeset`querystate$$ = {
+        "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+         1.323767`6.57335654391749, "Messages" -> {}}}, 
+        DynamicBox[ToBoxes[
+          AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+           Dynamic[Typeset`query$$], 
+           Dynamic[Typeset`boxes$$], 
+           Dynamic[Typeset`allassumptions$$], 
+           Dynamic[Typeset`assumptions$$], 
+           Dynamic[Typeset`open$$], 
+           Dynamic[Typeset`querystate$$]], StandardForm],
+         ImageSizeCache->{172., {9., 19.}},
+         TrackedSymbols:>{
+          Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+           Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+        DynamicModuleValues:>{},
+        UndoTrackedVariables:>{Typeset`open$$}],
+       BaseStyle->{"Deploy"},
+       DeleteWithContents->True,
+       Editable->False,
+       SelectWithContents->True], "]"}]}], "}"}], ",", 
+   RowBox[{"GeoBackground", "\[Rule]", "\"\<ReliefMap\>\""}], ",", 
+   RowBox[{"GeoRange", "\[Rule]", 
+    RowBox[{"Quantity", "[", 
+     RowBox[{"400", ",", "\"\<NauticalMiles\>\""}], "]"}]}]}], "]"}]], "Input",\
+
+ CellChangeTimes->{{3.7360104546007633`*^9, 3.736010530439231*^9}, {
+   3.7360114143227377`*^9, 3.7360114211913033`*^9}, {3.736011465854762*^9, 
+   3.736011534699215*^9}, 3.73601158383722*^9, {3.736012943962637*^9, 
+   3.736013006053753*^9}, {3.7360130874362288`*^9, 3.7360131706644077`*^9}},
+ CellLabel->"In[83]:=",ExpressionUUID->"5617e2cc-7862-4964-9e62-584e0bc15819"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"dfe2c6c0-b10c-47c2-867e-ab1791e279dd"],
+
+Cell[CellGroupData[{
+
+Cell["Booster impact area", "Section",
+ CellChangeTimes->{{3.649950784924818*^9, 3.649950788859275*^9}, {
+  3.7360916324051037`*^9, 3.736091633052279*^9}, {3.73609265225529*^9, 
+  3.736092657311049*^9}},ExpressionUUID->"af23cced-b0e9-47f0-8de5-\
+95903580ff82"],
+
+Cell["\<\
+Ideally the missile will reach the target area in southern Kamchatka, but the \
+booster rockets will impact much closer, 200-400 nautical miles down range, \
+in a low population density region south of Kuybyshev.\
+\>", "Text",
+ CellChangeTimes->{{3.736092660174926*^9, 
+  3.736092736660285*^9}},ExpressionUUID->"63f1e5e4-fd74-49e7-9724-\
+7508fd22c006"],
+
+Cell["\<\
+We know the distance from Kapustin Yar to Kamchatka, but not the direction, \
+so we request that.\
+\>", "Text",
+ CellChangeTimes->{{3.73609274847569*^9, 3.7360927578034477`*^9}, {
+  3.736092944453349*^9, 
+  3.736092960268121*^9}},ExpressionUUID->"c4be17e1-d7a1-4c96-b51c-\
+2545a70e0e75"],
+
+Cell[BoxData[
+ RowBox[{"GeoDirection", "[", 
+  RowBox[{
+   NamespaceBox["LinguisticAssistant",
+    DynamicModuleBox[{Typeset`query$$ = "Kapustin Yar", Typeset`boxes$$ = 
+     TemplateBox[{"\"Kapustin Yar\[Hyphen]1\"", 
+       RowBox[{"Entity", "[", 
+         RowBox[{"\"City\"", ",", 
+           RowBox[{"{", 
+             
+             RowBox[{"\"KapustinYar1\"", ",", "\"Astrakhan\"", ",", 
+               "\"Russia\""}], "}"}]}], "]"}], 
+       "\"Entity[\\\"City\\\", {\\\"KapustinYar1\\\", \\\"Astrakhan\\\", \
+\\\"Russia\\\"}]\"", "\"city\""}, "Entity"], 
+     Typeset`allassumptions$$ = {{
+      "type" -> "SubCategory", "word" -> "Kapustin Yar", "template" -> 
+       "Assuming ${desc1}. Use ${desc2} instead", "count" -> "2", 
+       "Values" -> {{
+         "name" -> "{KapustinYar1, Astrakhan, Russia}", "desc" -> 
+          "Kapustin Yar\[Hyphen]1 (Astrakhan', Russia)", "input" -> 
+          "*DPClash.CityE.Kapustin+Yar-_**KapustinYar1.Astrakhan.Russia--"}, {
+         "name" -> "{KapustinYar, Astrakhan, Russia}", "desc" -> 
+          "Kapustin Yar (Astrakhan', Russia)", "input" -> 
+          "*DPClash.CityE.Kapustin+Yar-_**KapustinYar.Astrakhan.Russia--"}}}},
+      Typeset`assumptions$$ = {}, Typeset`open$$ = {1, 2}, 
+     Typeset`querystate$$ = {
+     "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+      0.721203`6.309602518092006, "Messages" -> {}}}, 
+     DynamicBox[ToBoxes[
+       AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+        Dynamic[Typeset`query$$], 
+        Dynamic[Typeset`boxes$$], 
+        Dynamic[Typeset`allassumptions$$], 
+        Dynamic[Typeset`assumptions$$], 
+        Dynamic[Typeset`open$$], 
+        Dynamic[Typeset`querystate$$]], StandardForm],
+      ImageSizeCache->{218., {9., 19.}},
+      TrackedSymbols:>{
+       Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+        Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+     DynamicModuleValues:>{},
+     UndoTrackedVariables:>{Typeset`open$$}],
+    BaseStyle->{"Deploy"},
+    DeleteWithContents->True,
+    Editable->False,
+    SelectWithContents->True], ",", 
+   NamespaceBox["LinguisticAssistant",
+    DynamicModuleBox[{Typeset`query$$ = "Kamchatka", Typeset`boxes$$ = 
+     TemplateBox[{"\"Kamchatka, Russia\"", 
+       RowBox[{"Entity", "[", 
+         RowBox[{"\"AdministrativeDivision\"", ",", 
+           RowBox[{"{", 
+             RowBox[{"\"Kamchatka\"", ",", "\"Russia\""}], "}"}]}], "]"}], 
+       "\"Entity[\\\"AdministrativeDivision\\\", {\\\"Kamchatka\\\", \
+\\\"Russia\\\"}]\"", "\"administrative division\""}, "Entity"], 
+     Typeset`allassumptions$$ = {{
+      "type" -> "Clash", "word" -> "Kamchatka", "template" -> 
+       "Assuming \"${word}\" is ${desc1}. Use as ${desc2} instead", "count" -> 
+       "4", "Values" -> {{
+         "name" -> "AdministrativeDivision", "desc" -> 
+          "an administrative division", "input" -> 
+          "*C.Kamchatka-_*AdministrativeDivision-"}, {
+         "name" -> "River", "desc" -> "a river", "input" -> 
+          "*C.Kamchatka-_*River-"}, {
+         "name" -> "Language", "desc" -> "a language", "input" -> 
+          "*C.Kamchatka-_*Language-"}, {
+         "name" -> "Movie", "desc" -> "a movie", "input" -> 
+          "*C.Kamchatka-_*Movie-"}}}}, Typeset`assumptions$$ = {
+     "*C.Kamchatka-_*AdministrativeDivision-"}, Typeset`open$$ = {1, 2}, 
+     Typeset`querystate$$ = {
+     "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+      1.693123`6.680233502863558, "Messages" -> {}}}, 
+     DynamicBox[ToBoxes[
+       AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+        Dynamic[Typeset`query$$], 
+        Dynamic[Typeset`boxes$$], 
+        Dynamic[Typeset`allassumptions$$], 
+        Dynamic[Typeset`assumptions$$], 
+        Dynamic[Typeset`open$$], 
+        Dynamic[Typeset`querystate$$]], StandardForm],
+      ImageSizeCache->{373., {9., 19.}},
+      TrackedSymbols:>{
+       Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+        Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+     DynamicModuleValues:>{},
+     UndoTrackedVariables:>{Typeset`open$$}],
+    BaseStyle->{"Deploy"},
+    DeleteWithContents->True,
+    Editable->False,
+    SelectWithContents->True]}], "]"}]], "Input",
+ CellChangeTimes->{{3.736092880279224*^9, 3.7360929145920343`*^9}},
+ CellLabel->"In[13]:=",ExpressionUUID->"2e8e1e1c-0e0a-4584-8fb8-243a52fb8384"],
+
+Cell[TextData[{
+ "Next we use ",
+ StyleBox["GeoDestination",
+  FontWeight->"Bold"],
+ " and ",
+ StyleBox["GeoDisplacement",
+  FontWeight->"Bold"],
+ " to compute the booster and target impact areas, and then plot a map"
+}], "Text",
+ CellChangeTimes->{{3.736092967116297*^9, 3.736093031537467*^9}, {
+  3.736093302119515*^9, 
+  3.736093311695217*^9}},ExpressionUUID->"edda0d2d-0e14-4d21-840a-\
+e0c13434879c"],
+
+Cell["Booster impact area", "Text",
+ CellChangeTimes->{{3.736093175868876*^9, 
+  3.736093180571937*^9}},ExpressionUUID->"64c0f0af-3129-4248-9661-\
+35e1db79988b"],
+
+Cell[BoxData[
+ RowBox[{"N", "[", 
+  RowBox[{"UnitConvert", "[", 
+   RowBox[{
+    RowBox[{"Quantity", "[", 
+     RowBox[{"300", ",", "\"\<nautical miles\>\""}], "]"}], ",", 
+    "\"\<Kilometers\>\""}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.7360931114753103`*^9, 3.7360931714610577`*^9}},
+ CellLabel->"In[15]:=",ExpressionUUID->"31338ef7-67fb-49df-9909-e47a905afa1e"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"boosterArea", "=", 
+   RowBox[{"GeoDestination", "[", 
+    RowBox[{
+     NamespaceBox["LinguisticAssistant",
+      DynamicModuleBox[{Typeset`query$$ = "Kapustin Yar", Typeset`boxes$$ = 
+       TemplateBox[{"\"Kapustin Yar\[Hyphen]1\"", 
+         RowBox[{"Entity", "[", 
+           RowBox[{"\"City\"", ",", 
+             RowBox[{"{", 
+               
+               RowBox[{
+                "\"KapustinYar1\"", ",", "\"Astrakhan\"", ",", "\"Russia\""}],
+                "}"}]}], "]"}], 
+         "\"Entity[\\\"City\\\", {\\\"KapustinYar1\\\", \\\"Astrakhan\\\", \\\
+\"Russia\\\"}]\"", "\"city\""}, "Entity"], 
+       Typeset`allassumptions$$ = {{
+        "type" -> "SubCategory", "word" -> "Kapustin Yar", "template" -> 
+         "Assuming ${desc1}. Use ${desc2} instead", "count" -> "2", 
+         "Values" -> {{
+           "name" -> "{KapustinYar1, Astrakhan, Russia}", "desc" -> 
+            "Kapustin Yar\[Hyphen]1 (Astrakhan', Russia)", "input" -> 
+            "*DPClash.CityE.Kapustin+Yar-_**KapustinYar1.Astrakhan.Russia--"},\
+ {"name" -> "{KapustinYar, Astrakhan, Russia}", "desc" -> 
+            "Kapustin Yar (Astrakhan', Russia)", "input" -> 
+            "*DPClash.CityE.Kapustin+Yar-_**KapustinYar.Astrakhan.Russia--"}}}\
+}, Typeset`assumptions$$ = {}, Typeset`open$$ = {1, 2}, 
+       Typeset`querystate$$ = {
+       "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+        0.721203`6.309602518092006, "Messages" -> {}}}, 
+       DynamicBox[ToBoxes[
+         AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+          Dynamic[Typeset`query$$], 
+          Dynamic[Typeset`boxes$$], 
+          Dynamic[Typeset`allassumptions$$], 
+          Dynamic[Typeset`assumptions$$], 
+          Dynamic[Typeset`open$$], 
+          Dynamic[Typeset`querystate$$]], StandardForm],
+        ImageSizeCache->{218., {9., 19.}},
+        TrackedSymbols:>{
+         Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+          Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+       DynamicModuleValues:>{},
+       UndoTrackedVariables:>{Typeset`open$$}],
+      BaseStyle->{"Deploy"},
+      DeleteWithContents->True,
+      Editable->False,
+      SelectWithContents->True], ",", 
+     RowBox[{"GeoDisplacement", "[", 
+      RowBox[{"{", 
+       RowBox[{
+        TemplateBox[{"555.6`","\"km\"","kilometers","\"Kilometers\""},
+         "Quantity"], ",", 
+        TemplateBox[{
+         "31.7377",RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+          "\"AngularDegrees\""},
+         "QuantityPostfix"]}], "}"}], "]"}]}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.736093710589439*^9, 3.7360937349384813`*^9}},
+ CellLabel->"In[29]:=",ExpressionUUID->"9a93f7e8-86f8-4c24-9cc9-ebc40150943a"],
+
+Cell["Target impact area", "Text",
+ CellChangeTimes->{{3.736093188412355*^9, 
+  3.736093190875578*^9}},ExpressionUUID->"b132178d-955a-4410-84c8-\
+b1a9b83fa02b"],
+
+Cell[BoxData[
+ RowBox[{"N", "[", 
+  RowBox[{"UnitConvert", "[", 
+   RowBox[{
+    RowBox[{"Quantity", "[", 
+     RowBox[{"3417", ",", "\"\<nautical miles\>\""}], "]"}], ",", 
+    "\"\<Kilometers\>\""}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.7360931114753103`*^9, 3.7360931714610577`*^9}, {
+  3.736093233464336*^9, 3.736093261138506*^9}},
+ CellLabel->"In[17]:=",ExpressionUUID->"93882fbf-a066-4565-a194-99c97f8973e1"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"targetArea", "=", 
+   RowBox[{"GeoDestination", "[", 
+    RowBox[{
+     NamespaceBox["LinguisticAssistant",
+      DynamicModuleBox[{Typeset`query$$ = "Kapustin Yar", Typeset`boxes$$ = 
+       TemplateBox[{"\"Kapustin Yar\[Hyphen]1\"", 
+         RowBox[{"Entity", "[", 
+           RowBox[{"\"City\"", ",", 
+             RowBox[{"{", 
+               
+               RowBox[{
+                "\"KapustinYar1\"", ",", "\"Astrakhan\"", ",", "\"Russia\""}],
+                "}"}]}], "]"}], 
+         "\"Entity[\\\"City\\\", {\\\"KapustinYar1\\\", \\\"Astrakhan\\\", \\\
+\"Russia\\\"}]\"", "\"city\""}, "Entity"], 
+       Typeset`allassumptions$$ = {{
+        "type" -> "SubCategory", "word" -> "Kapustin Yar", "template" -> 
+         "Assuming ${desc1}. Use ${desc2} instead", "count" -> "2", 
+         "Values" -> {{
+           "name" -> "{KapustinYar1, Astrakhan, Russia}", "desc" -> 
+            "Kapustin Yar\[Hyphen]1 (Astrakhan', Russia)", "input" -> 
+            "*DPClash.CityE.Kapustin+Yar-_**KapustinYar1.Astrakhan.Russia--"},\
+ {"name" -> "{KapustinYar, Astrakhan, Russia}", "desc" -> 
+            "Kapustin Yar (Astrakhan', Russia)", "input" -> 
+            "*DPClash.CityE.Kapustin+Yar-_**KapustinYar.Astrakhan.Russia--"}}}\
+}, Typeset`assumptions$$ = {}, Typeset`open$$ = {1, 2}, 
+       Typeset`querystate$$ = {
+       "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+        0.721203`6.309602518092006, "Messages" -> {}}}, 
+       DynamicBox[ToBoxes[
+         AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+          Dynamic[Typeset`query$$], 
+          Dynamic[Typeset`boxes$$], 
+          Dynamic[Typeset`allassumptions$$], 
+          Dynamic[Typeset`assumptions$$], 
+          Dynamic[Typeset`open$$], 
+          Dynamic[Typeset`querystate$$]], StandardForm],
+        ImageSizeCache->{218., {9., 19.}},
+        TrackedSymbols:>{
+         Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+          Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+       DynamicModuleValues:>{},
+       UndoTrackedVariables:>{Typeset`open$$}],
+      BaseStyle->{"Deploy"},
+      DeleteWithContents->True,
+      Editable->False,
+      SelectWithContents->True], ",", 
+     RowBox[{"GeoDisplacement", "[", 
+      RowBox[{"{", 
+       RowBox[{
+        TemplateBox[{"6328.284`","\"km\"","kilometers","\"Kilometers\""},
+         "Quantity"], ",", 
+        TemplateBox[{
+         "31.7377",RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}],"degrees",
+          "\"AngularDegrees\""},
+         "QuantityPostfix"]}], "}"}], "]"}]}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.736093710589439*^9, 3.7360937349384813`*^9}, {
+  3.736093765569212*^9, 3.736093777436984*^9}},
+ CellLabel->"In[31]:=",ExpressionUUID->"cb6fdd1e-651a-4857-b071-991aa401a63b"],
+
+Cell[BoxData[
+ RowBox[{"GeoGraphics", "[", 
+  RowBox[{"{", 
+   RowBox[{"Blue", ",", 
+    RowBox[{"GeoPath", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+        NamespaceBox["LinguisticAssistant",
+         DynamicModuleBox[{Typeset`query$$ = "Kapustin Yar", Typeset`boxes$$ =
+           TemplateBox[{"\"Kapustin Yar\[Hyphen]1\"", 
+            RowBox[{"Entity", "[", 
+              RowBox[{"\"City\"", ",", 
+                RowBox[{"{", 
+                  
+                  RowBox[{
+                   "\"KapustinYar1\"", ",", "\"Astrakhan\"", ",", 
+                    "\"Russia\""}], "}"}]}], "]"}], 
+            "\"Entity[\\\"City\\\", {\\\"KapustinYar1\\\", \\\"Astrakhan\\\", \
+\\\"Russia\\\"}]\"", "\"city\""}, "Entity"], 
+          Typeset`allassumptions$$ = {{
+           "type" -> "SubCategory", "word" -> "Kapustin Yar", "template" -> 
+            "Assuming ${desc1}. Use ${desc2} instead", "count" -> "2", 
+            "Values" -> {{
+              "name" -> "{KapustinYar1, Astrakhan, Russia}", "desc" -> 
+               "Kapustin Yar\[Hyphen]1 (Astrakhan', Russia)", "input" -> 
+               "*DPClash.CityE.Kapustin+Yar-_**KapustinYar1.Astrakhan.Russia--\
+"}, {"name" -> "{KapustinYar, Astrakhan, Russia}", "desc" -> 
+               "Kapustin Yar (Astrakhan', Russia)", "input" -> 
+               "*DPClash.CityE.Kapustin+Yar-_**KapustinYar.Astrakhan.Russia--\
+"}}}}, Typeset`assumptions$$ = {}, Typeset`open$$ = {1, 2}, 
+          Typeset`querystate$$ = {
+          "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+           0.721203`6.309602518092006, "Messages" -> {}}}, 
+          DynamicBox[ToBoxes[
+            AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+             Dynamic[Typeset`query$$], 
+             Dynamic[Typeset`boxes$$], 
+             Dynamic[Typeset`allassumptions$$], 
+             Dynamic[Typeset`assumptions$$], 
+             Dynamic[Typeset`open$$], 
+             Dynamic[Typeset`querystate$$]], StandardForm],
+           ImageSizeCache->{218., {9., 19.}},
+           
+           TrackedSymbols:>{
+            Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+             Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+          DynamicModuleValues:>{},
+          UndoTrackedVariables:>{Typeset`open$$}],
+         BaseStyle->{"Deploy"},
+         DeleteWithContents->True,
+         Editable->False,
+         SelectWithContents->True], ",", "boosterArea"}], "}"}], ",", 
+      "\"\<Geodesic\>\""}], "]"}], ",", "Red", ",", 
+    RowBox[{"GeoPath", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"boosterArea", ",", "targetArea"}], "}"}], ",", 
+      "\"\<Geodesic\>\""}], "]"}]}], "}"}], "]"}]], "Input",
+ CellChangeTimes->{{3.736093562178925*^9, 3.7360936100858717`*^9}, {
+  3.736093648832129*^9, 3.736093685443697*^9}, {3.736093728460301*^9, 
+  3.7360937486483593`*^9}, {3.736093789936734*^9, 3.736093808158174*^9}, {
+  3.73609389494069*^9, 3.736093912376446*^9}, {3.7360940916698637`*^9, 
+  3.7360940949964123`*^9}},
+ CellLabel->"In[35]:=",ExpressionUUID->"f9c7d232-f3a2-4a0c-82bb-ef97a7d0f2a4"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"8a7b65cf-0d73-468f-be77-31d19b139e37"],
+
+Cell[CellGroupData[{
+
+Cell["World maps, paths and projections", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.652373992733708*^9, 3.652373996036737*^9}, {3.6523746120635223`*^9, 
+  3.652374612733809*^9}},ExpressionUUID->"0fdb3755-3188-4f02-b35d-\
+1b209260dbec"],
+
+Cell[TextData[{
+ "We can plot a map of the world with ",
+ StyleBox["GeoGraphics",
+  FontWeight->"Bold"],
+ ", using the ",
+ StyleBox["GeoProjection",
+  FontSlant->"Italic"],
+ " attribute to choose a projection"
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.652374622630548*^9, 
+  3.652374657153837*^9}},ExpressionUUID->"84840bf4-1f10-4c9d-a1ee-\
+8ad1c8d3745b"],
+
+Cell[BoxData[
+ RowBox[{"GeoGraphics", "[", 
+  RowBox[{
+   RowBox[{"GeoRange", "\[Rule]", "\"\<World\>\""}], ",", 
+   RowBox[{"GeoProjection", "\[Rule]", "\"\<Robinson\>\""}]}], "]"}]], "Input",\
+
+ CellLabel->"In[36]:=",
+ CellID->1387433762,ExpressionUUID->"59ec6970-9007-4d9f-84ac-90b143c90689"],
+
+Cell[BoxData[
+ RowBox[{"GeoGraphics", "[", 
+  RowBox[{
+   RowBox[{"GeoRange", "\[Rule]", "\"\<World\>\""}], ",", 
+   RowBox[{"GeoProjection", "\[Rule]", "\"\<Orthographic\>\""}]}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.6523746746365623`*^9, 3.652374690665525*^9}, {
+  3.6523748894290237`*^9, 3.6523749189478483`*^9}},
+ CellLabel->"In[37]:=",
+ CellID->463040148,ExpressionUUID->"00c78c26-0f7d-4b40-8689-d5751f7f5906"],
+
+Cell[TextData[{
+ "We can place a graticule with the ",
+ StyleBox["GeoGridLines",
+  FontWeight->"Bold"],
+ " command"
+}], "Text",
+ CellChangeTimes->{{3.652374994160499*^9, 
+  3.65237501534311*^9}},ExpressionUUID->"8a90c7a9-8027-4cb4-b499-\
+e6a82e31feae"],
+
+Cell[BoxData[
+ RowBox[{"GeoGraphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"EdgeForm", "[", "Black", "]"}], ",", 
+     RowBox[{"Polygon", "[", 
+      RowBox[{"Entity", "[", 
+       RowBox[{"\"\<Country\>\"", ",", "\"\<Russia\>\""}], "]"}], "]"}]}], 
+    "}"}], ",", 
+   RowBox[{"GeoProjection", "\[Rule]", "\"\<Albers\>\""}], ",", 
+   RowBox[{"GeoGridLines", "\[Rule]", 
+    RowBox[{"Quantity", "[", 
+     RowBox[{"10", ",", "\"\<AngularDegrees\>\""}], "]"}]}]}], "]"}]], "Input",\
+
+ CellChangeTimes->{{3.6523750601586*^9, 3.652375062589636*^9}, {
+  3.736094230310522*^9, 3.736094232149786*^9}},
+ CellLabel->"In[38]:=",ExpressionUUID->"8739b570-7ae7-4c58-a7dd-7af39e4c99f8"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"549e4626-b3db-4ad0-a873-007c697fc776"],
+
+Cell[CellGroupData[{
+
+Cell["Activity", "Section",
+ CellChangeTimes->{{3.647716402186221*^9, 3.647716405353856*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Bermuda Triangle", "Subsection",
+ CellChangeTimes->{{3.652380182440998*^9, 3.652380185704464*^9}}],
+
+Cell[TextData[{
+ "In December 1945, five airplanes of \[OpenCurlyDoubleQuote]Flight 19\
+\[CloseCurlyDoubleQuote] disappeared south of Florida on a routine training \
+mission. This was one of the events that led to an enduring Cold War legend, \
+the \[OpenCurlyDoubleQuote]Bermuda Triangle\[CloseCurlyDoubleQuote]. Learn \
+more in this archived ",
+ StyleBox["Telegraph",
+  FontSlant->"Italic"],
+ " article"
+}], "Text",
+ CellChangeTimes->{{3.7360944337906322`*^9, 
+  3.7360945448740587`*^9}},ExpressionUUID->"de1ada29-5716-4fb6-a594-\
+dc865dd73782"],
+
+Cell[TextData[ButtonBox["https://web.archive.org/web/20180523195859/https://\
+www.telegraph.co.uk/history/12031649/Whatever-happened-to-the-Bermuda-\
+Triangle.html",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://web.archive.org/web/20180523195859/https://www.telegraph.co.\
+uk/history/12031649/Whatever-happened-to-the-Bermuda-Triangle.html"], None},
+ ButtonNote->
+  "https://web.archive.org/web/20180523195859/https://www.telegraph.co.uk/\
+history/12031649/Whatever-happened-to-the-Bermuda-Triangle.html"]], "Text",
+ CellChangeTimes->{{3.736094555086944*^9, 
+  3.736094564568413*^9}},ExpressionUUID->"573f62c5-a7ab-47d6-898f-\
+5fb914c0fe41"],
+
+Cell[CellGroupData[{
+
+Cell["Coordinates", "Subsubsection",
+ CellChangeTimes->{{3.65238025254993*^9, 3.652380255805891*^9}, {
+  3.65238041309718*^9, 3.652380414592342*^9}}],
+
+Cell[TextData[{
+ "Find the three locations that Vincent Gaddis gave for the endpoints of the \
+Bermuda Triangle in his 1964 ",
+ StyleBox["Argosy",
+  FontSlant->"Italic"],
+ " article (Miami, Puerto Rico and Bermuda). Determine the longitude and \
+latitude of each of the three endpoints. For cities that have missing \
+location data, you can use the ",
+ StyleBox["CityData",
+  FontWeight->"Bold"],
+ " command as follows (although Montreal is not in the Bermuda Triangle by \
+anyone\[CloseCurlyQuote]s definition)"
+}], "Text",
+ CellChangeTimes->{{3.652380361866556*^9, 3.6523804405432863`*^9}, {
+  3.6523805802511053`*^9, 3.652380631568524*^9}, {3.6523809469169693`*^9, 
+  3.652380952508932*^9}, {3.736094668010161*^9, 
+  3.736094668686534*^9}},ExpressionUUID->"b6d7406c-6265-4727-902b-\
+ba282cc5fdae"],
+
+Cell[BoxData[
+ RowBox[{"CityData", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+    "\"\<Montreal\>\"", ",", " ", "\"\<Quebec\>\"", ",", " ", 
+     "\"\<Canada\>\""}], "}"}], ",", " ", "\"\<Longitude\>\""}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.652379859571703*^9, 3.652379914007121*^9}, {
+  3.652380606954022*^9, 3.652380638889976*^9}, {3.6838175818165827`*^9, 
+  3.683817581817268*^9}},
+ CellLabel->"In[39]:=",ExpressionUUID->"51574417-60e9-429e-bd78-6893d7c71daf"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["The Triangle", "Subsubsection",
+ CellChangeTimes->{{3.65238025254993*^9, 3.652380255805891*^9}}],
+
+Cell[TextData[{
+ "Plot the Bermuda Triangle with a command like the following, replacing the \
+coordinates given here with the correct ones. ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " should respond correctly if you give the ",
+ StyleBox["Polygon",
+  FontWeight->"Bold"],
+ " command a country entity instead of a list containing longitude and \
+latitude."
+}], "Text",
+ CellChangeTimes->{{3.652380677839582*^9, 3.652380717885355*^9}, {
+  3.652380750117177*^9, 3.652380754315971*^9}, {3.6523823158525057`*^9, 
+  3.6523823172035923`*^9}, {3.652455993242518*^9, 3.652455995164279*^9}}],
+
+Cell[BoxData[
+ RowBox[{"GeoGraphics", "[", 
+  RowBox[{
+   RowBox[{"Polygon", "[", 
+    RowBox[{"{", 
+     RowBox[{
+      TemplateBox[{"\"Senegal\"",RowBox[{"Entity", "[", 
+          RowBox[{"\"Country\"", ",", "\"Senegal\""}], "]"}],
+        "\"Entity[\\\"Country\\\", \\\"Senegal\\\"]\"","\"country\""},
+       "Entity"], ",", 
+      NamespaceBox["LinguisticAssistant",
+       DynamicModuleBox[{Typeset`query$$ = "Rejkavik", Typeset`boxes$$ = 
+        TemplateBox[{"\"Reykjavik\"", 
+          RowBox[{"Entity", "[", 
+            RowBox[{"\"City\"", ",", 
+              RowBox[{"{", 
+                
+                RowBox[{
+                 "\"Reykjavik\"", ",", "\"Hofudhborgarsvaedhi\"", ",", 
+                  "\"Iceland\""}], "}"}]}], "]"}], 
+          "\"Entity[\\\"City\\\", {\\\"Reykjavik\\\", \\\"Hofudhborgarsvaedhi\
+\\\", \\\"Iceland\\\"}]\"", "\"city\""}, "Entity"], 
+        Typeset`allassumptions$$ = {}, Typeset`assumptions$$ = {}, 
+        Typeset`open$$ = {1, 2}, Typeset`querystate$$ = {
+        "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+         1.749803`6.69453415028005, "Messages" -> {}}}, 
+        DynamicBox[ToBoxes[
+          AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+           Dynamic[Typeset`query$$], 
+           Dynamic[Typeset`boxes$$], 
+           Dynamic[Typeset`allassumptions$$], 
+           Dynamic[Typeset`assumptions$$], 
+           Dynamic[Typeset`open$$], 
+           Dynamic[Typeset`querystate$$]], StandardForm],
+         ImageSizeCache->{148., {9., 19.}},
+         TrackedSymbols:>{
+          Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+           Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+        DynamicModuleValues:>{},
+        UndoTrackedVariables:>{Typeset`open$$}],
+       BaseStyle->{"Deploy"},
+       DeleteWithContents->True,
+       Editable->False,
+       SelectWithContents->True], ",", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"-", "50"}], ",", "25"}], "}"}]}], "}"}], "]"}], ",", 
+   RowBox[{"GeoRange", "\[Rule]", "\"\<World\>\""}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.652379754247525*^9, 3.652379835029983*^9}, {
+  3.652379940538756*^9, 3.652379968176614*^9}, {3.652380339740443*^9, 
+  3.652380347964047*^9}, {3.6523807577246857`*^9, 3.652380809882723*^9}, {
+  3.652380841723061*^9, 3.652380881456242*^9}},
+ CellLabel->"In[40]:=",ExpressionUUID->"622e5a3c-de82-40c8-b3d7-9426f3840bdb"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Shipwrecks", "Subsubsection",
+ CellChangeTimes->{{3.652380987307901*^9, 3.6523809894435587`*^9}}],
+
+Cell[TextData[{
+ "Import some data about shipwrecks in the Atlantic Ocean from ",
+ StyleBox["Wikipedia",
+  FontSlant->"Italic"],
+ " using the following command. Note that the last entry in the \
+\[OpenCurlyQuote]Coordinates\[CloseCurlyQuote] column is Latitude and \
+Longitude in a form you can use directly in ",
+ StyleBox["GeoMarker",
+  FontWeight->"Bold"],
+ " or ",
+ StyleBox["Polygon",
+  FontWeight->"Bold"]
+}], "Text",
+ CellChangeTimes->{{3.652382038086204*^9, 3.652382115442807*^9}, {
+  3.6524560327689457`*^9, 3.652456059471427*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Style", "[", 
+  RowBox[{
+   RowBox[{"TableForm", "[", 
+    RowBox[{
+     RowBox[{"Import", "[", 
+      RowBox[{
+      "\"\<https://en.wikipedia.org/wiki/List_of_shipwrecks_in_the_Atlantic_\
+Ocean\>\"", ",", " ", "\"\<Data\>\""}], "]"}], "[", 
+     RowBox[{"[", 
+      RowBox[{"1", ",", " ", "1", ",", " ", "5"}], "]"}], "]"}], "]"}], ",", 
+   " ", "\"\<Small\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.652381454396009*^9, 3.6523815165767097`*^9}, {
+   3.6523815483593884`*^9, 3.6523816604192333`*^9}, {3.6523816921951437`*^9, 
+   3.6523816932743063`*^9}, {3.65238173261768*^9, 3.652381747992978*^9}, {
+   3.6523818351411247`*^9, 3.652381853228456*^9}, {3.652381939401492*^9, 
+   3.652382008822824*^9}, 3.6523820647847652`*^9, {3.683817599479868*^9, 
+   3.683817599480564*^9}},
+ CellLabel->"In[41]:=",ExpressionUUID->"6debb1c0-3f57-4589-bff9-36791f2625d5"],
+
+Cell[TextData[{
+ "Plot the location of the ",
+ StyleBox["SS British Consul",
+  FontSlant->"Italic"],
+ " shipwreck"
+}], "Text",
+ CellChangeTimes->{{3.652382258718233*^9, 3.652382288053093*^9}}],
+
+Cell[BoxData[
+ RowBox[{"GeoGraphics", "[", 
+  RowBox[{
+   RowBox[{"GeoMarker", "[", 
+    RowBox[{"{", 
+     RowBox[{"11.967", ",", " ", 
+      RowBox[{"-", "62.633"}]}], "}"}], "]"}], ",", " ", 
+   RowBox[{"GeoRange", " ", "->", " ", 
+    RowBox[{"Quantity", "[", 
+     RowBox[{"200", ",", " ", "\"\<Miles\>\""}], "]"}]}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6523821377383966`*^9, 3.652382175697454*^9}, {
+   3.652382216088106*^9, 3.6523822442542686`*^9}, 3.65238230489149*^9, {
+   3.683817606904921*^9, 3.683817606905616*^9}},
+ CellLabel->"In[42]:=",ExpressionUUID->"98605fff-8f57-4e97-980b-8576007219fd"],
+
+Cell["\<\
+Does it lie within the Bermuda Triangle? Plot a map to find out\
+\>", "Text",
+ CellChangeTimes->{{3.652382331059003*^9, 3.652382338850883*^9}, {
+  3.652382530979887*^9, 3.6523825425234003`*^9}, {3.6523827092942133`*^9, 
+  3.652382718317216*^9}, {3.65238328110678*^9, 3.652383283801155*^9}, {
+  3.6524560888861217`*^9, 3.652456094909885*^9}}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"4b0aa1e5-7688-41d9-a378-7a59548e9c15"],
+
+Cell[CellGroupData[{
+
+Cell["Testing membership within regions", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.652382587898717*^9, 3.652382600673465*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["By mapping", "Subsection",
+ CellChangeTimes->{{3.652382801098124*^9, 3.652382805603311*^9}}],
+
+Cell[TextData[{
+ "If we plot a map, we can see that the ",
+ StyleBox["SS British Consul",
+  FontSlant->"Italic"],
+ " shipwreck lies outside the Bermuda Triangle."
+}], "Text",
+ CellChangeTimes->{{3.6523827365491953`*^9, 3.652382770211317*^9}}],
+
+Cell[BoxData[
+ RowBox[{"GeoGraphics", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"GeoMarker", "[", 
+      RowBox[{"{", 
+       RowBox[{"11.967", ",", 
+        RowBox[{"-", "62.633"}]}], "}"}], "]"}], ",", 
+     RowBox[{"Polygon", "[", 
+      RowBox[{"{", 
+       RowBox[{
+        TemplateBox[{"\"Miami\"",RowBox[{"Entity", "[", 
+            RowBox[{"\"City\"", ",", 
+              RowBox[{"{", 
+                
+                RowBox[{
+                 "\"Miami\"", ",", "\"Florida\"", ",", "\"UnitedStates\""}], 
+                "}"}]}], "]"}],
+          "\"Entity[\\\"City\\\", {\\\"Miami\\\", \\\"Florida\\\", \
+\\\"UnitedStates\\\"}]\"","\"city\""},
+         "Entity"], ",", 
+        TemplateBox[{"\"Bermuda\"",RowBox[{"Entity", "[", 
+            RowBox[{"\"Country\"", ",", "\"Bermuda\""}], "]"}],
+          "\"Entity[\\\"Country\\\", \\\"Bermuda\\\"]\"","\"country\""},
+         "Entity"], ",", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"-", "66.13"}], ",", "18.44"}], "}"}]}], "}"}], "]"}]}], 
+    "}"}], ",", 
+   RowBox[{"GeoRange", "\[Rule]", 
+    RowBox[{"Quantity", "[", 
+     RowBox[{"1000", ",", "\"\<Miles\>\""}], "]"}]}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.652379754247525*^9, 3.652379835029983*^9}, {
+  3.652379940538756*^9, 3.652379968176614*^9}, {3.652380339740443*^9, 
+  3.652380347964047*^9}, {3.6523807577246857`*^9, 3.652380809882723*^9}, {
+  3.652380841723061*^9, 3.652380881456242*^9}, {3.652382384834969*^9, 
+  3.652382415264127*^9}, {3.652382472103861*^9, 3.652382513516829*^9}, {
+  3.6523825580874853`*^9, 3.65238256684367*^9}},
+ CellLabel->"In[43]:=",ExpressionUUID->"dc5bc493-a989-477a-a6cd-8d50558bdec2"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["GeoWithinQ", "Subsection",
+ CellChangeTimes->{{3.652382793162307*^9, 3.652382795810388*^9}}],
+
+Cell[TextData[{
+ "We can also answer the question using the ",
+ StyleBox["GeoWithinQ ",
+  FontWeight->"Bold"],
+ "command. First we have to explicitly determine the Longitude and Latitude \
+of each of our three endpoints. We will use the city of Hamilton for the \
+endpoint located in Bermuda."
+}], "Text",
+ CellChangeTimes->{{3.652382853512837*^9, 3.652382896350806*^9}, {
+  3.6523830596736307`*^9, 3.652383069728698*^9}, {3.65245611975039*^9, 
+  3.652456124628846*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Map", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"CityData", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+       "\"\<SanJuan\>\"", ",", " ", "\"\<SanJuan\>\"", ",", " ", 
+        "\"\<PuertoRico\>\""}], "}"}], ",", " ", "#"}], "]"}], "&"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\"\<Longitude\>\"", ",", "\"\<Latitude\>\""}], "}"}]}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.652382448073285*^9, 3.6523824615593224`*^9}, {
+  3.6523828994637547`*^9, 3.6523829187581778`*^9}},
+ CellLabel->"In[44]:=",ExpressionUUID->"cad67941-8d05-4cdd-aa45-8ad135abb446"],
+
+Cell[BoxData[
+ RowBox[{"Map", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"CityData", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+       "\"\<Miami\>\"", ",", " ", "\"\<Florida\>\"", ",", " ", 
+        "\"\<UnitedStates\>\""}], "}"}], ",", " ", "#"}], "]"}], "&"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\"\<Longitude\>\"", ",", "\"\<Latitude\>\""}], "}"}]}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.652382448073285*^9, 3.6523824615593224`*^9}, {
+  3.6523828994637547`*^9, 3.652382977671541*^9}},
+ CellLabel->"In[45]:=",ExpressionUUID->"af9fbbe4-f149-4e9e-9dc3-1dae615fe87e"],
+
+Cell[BoxData[
+ RowBox[{"Map", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"CityData", "[", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+       "\"\<Hamilton\>\"", ",", " ", "\"\<Hamilton\>\"", ",", " ", 
+        "\"\<Bermuda\>\""}], "}"}], ",", " ", "#"}], "]"}], "&"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"\"\<Longitude\>\"", ",", "\"\<Latitude\>\""}], "}"}]}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.652382448073285*^9, 3.6523824615593224`*^9}, {
+  3.6523828994637547`*^9, 3.652382977671541*^9}, {3.6523830994110403`*^9, 
+  3.652383114258793*^9}},
+ CellLabel->"In[46]:=",ExpressionUUID->"187366da-c844-4926-b8db-286f095b1a7b"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"bermudaTriangle", "=", 
+   RowBox[{"Polygon", "[", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"-", "66.13"}], ",", "18.44"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"-", "80.21"}], ",", "25.78"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"-", "64.79"}], ",", "32.30"}], "}"}]}], "}"}], "]"}]}], 
+  ";"}]], "Input",
+ CellChangeTimes->{{3.652382661351664*^9, 3.652382682879449*^9}, {
+  3.652383130655403*^9, 3.652383193444186*^9}},
+ CellLabel->"In[47]:=",ExpressionUUID->"5ab6c16a-aa98-47c7-9844-a83dbcd840bb"],
+
+Cell["\<\
+Now we can test the location of the shipwreck with respect to the Bermuda \
+Triangle.\
+\>", "Text",
+ CellChangeTimes->{{3.6523832509467793`*^9, 3.6523832650177402`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"GeoWithinQ", "[", 
+  RowBox[{"bermudaTriangle", ",", 
+   RowBox[{"{", 
+    RowBox[{"11.967", ",", 
+     RowBox[{"-", "62.633"}]}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.652382372370254*^9, 3.652382375002245*^9}, {
+  3.652382612761773*^9, 3.6523826299649143`*^9}, {3.65238267992819*^9, 
+  3.652382690987422*^9}},
+ CellLabel->"In[48]:=",ExpressionUUID->"6547bdcd-60f7-4b2b-a8d2-5ad8ff5596ce"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["GeoNearest", "Subsection",
+ CellChangeTimes->{{3.6524566242266083`*^9, 3.6524566260338783`*^9}}],
+
+Cell[TextData[{
+ "One way to discover entities that ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " knows about is to use the ",
+ StyleBox["GeoNearest",
+  FontWeight->"Bold"],
+ " command. These can then be mapped, or tested with ",
+ StyleBox["GeoWithinQ",
+  FontWeight->"Bold"]
+}], "Text",
+ CellChangeTimes->{{3.652456631210264*^9, 3.652456656296843*^9}, 
+   3.652457070569715*^9}],
+
+Cell[BoxData[
+ RowBox[{"GeoNearest", "[", 
+  RowBox[{"\"\<Shipwreck\>\"", ",", 
+   TemplateBox[{"\"Bermuda\"",RowBox[{"Entity", "[", 
+       RowBox[{"\"Country\"", ",", "\"Bermuda\""}], "]"}],
+     "\"Entity[\\\"Country\\\", \\\"Bermuda\\\"]\"","\"country\""},
+    "Entity"], ",", "5"}], "]"}]], "Input",
+ CellChangeTimes->{{3.65245653711586*^9, 3.6524565813243027`*^9}},
+ CellLabel->"In[49]:=",ExpressionUUID->"3f9cf2f6-cae0-4dab-81e7-c42a8d0915ad"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"46343263-4112-42b1-90ed-be8765e18ac3"],
+
+Cell[CellGroupData[{
+
+Cell["Upload your notebook", "Section",
+ CellChangeTimes->{{3.649950784924818*^9, 
+  3.649950788859275*^9}},ExpressionUUID->"dc1918a1-22f8-4811-9481-\
+0d019edd5dff"],
+
+Cell["\<\
+Don\[CloseCurlyQuote]t forget to upload a copy of your notebook for this \
+class to the OWL Site for the course\
+\>", "Text",
+ CellChangeTimes->{{3.649950792779258*^9, 
+  3.649950818634288*^9}},ExpressionUUID->"6b4370f4-c500-43a0-9445-\
+d04bb18f76b5"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1422, 1107},
+WindowMargins->{{Automatic, 155}, {Automatic, 101}},
+WindowStatusArea->None,
+TaggingRules->{"SlideShow" -> True},
+Magnification:>1.25 Inherited,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "SlideShowHeader"->{
+  Cell[580, 22, 4441, 99, 75, "SlideShowNavigationBar",ExpressionUUID->"933118c2-4d78-4025-8c7c-025091c144d8",
+   CellTags->"SlideShowHeader"],
+  Cell[5924, 150, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"257e38d0-bc4e-4a1b-ac42-1e305a52e142",
+   CellTags->"SlideShowHeader"],
+  Cell[6641, 176, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"ff57224f-7e26-40a1-a464-20b1f6c5fe8e",
+   CellTags->"SlideShowHeader"],
+  Cell[8772, 236, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"c080ada1-24de-4e43-a713-9374988e6139",
+   CellTags->"SlideShowHeader"],
+  Cell[34935, 795, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"4be3e6a7-9c08-43e6-ac9f-f26e6fe25aee",
+   CellTags->"SlideShowHeader"],
+  Cell[46220, 1051, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"99961e25-196a-4f4b-9921-e4cf1d8d4504",
+   CellTags->"SlideShowHeader"],
+  Cell[71409, 1598, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"8458af1d-b32e-4766-b63b-9c1011aa33d1",
+   CellTags->"SlideShowHeader"],
+  Cell[83293, 1868, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"10140f6a-ec1c-461e-b241-1a4fe8418dff",
+   CellTags->"SlideShowHeader"],
+  Cell[92495, 2069, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"dfe2c6c0-b10c-47c2-867e-ab1791e279dd",
+   CellTags->"SlideShowHeader"],
+  Cell[108252, 2430, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"8a7b65cf-0d73-468f-be77-31d19b139e37",
+   CellTags->"SlideShowHeader"],
+  Cell[110802, 2509, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"549e4626-b3db-4ad0-a873-007c697fc776",
+   CellTags->"SlideShowHeader"],
+  Cell[119804, 2743, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"4b0aa1e5-7688-41d9-a378-7a59548e9c15",
+   CellTags->"SlideShowHeader"],
+  Cell[126878, 2949, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"46343263-4112-42b1-90ed-be8765e18ac3",
+   CellTags->"SlideShowHeader"]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"SlideShowHeader", 127889, 2984}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 4441, 99, 75, "SlideShowNavigationBar",ExpressionUUID->"933118c2-4d78-4025-8c7c-025091c144d8",
+ CellTags->"SlideShowHeader"],
+Cell[5024, 123, 460, 10, 200, "Title",ExpressionUUID->"baae56d4-077f-401e-8495-e46bd83e5955"],
+Cell[5487, 135, 400, 10, 108, "Subtitle",ExpressionUUID->"6b9f9171-dee6-4144-af68-8b85b368e1f7"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5924, 150, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"257e38d0-bc4e-4a1b-ac42-1e305a52e142",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[6071, 156, 155, 3, 84, "Section",ExpressionUUID->"77699deb-4682-4c6b-93cb-a4bca568311a"],
+Cell[6229, 161, 363, 9, 44, "Text",ExpressionUUID->"d9a2b137-4874-40de-b5bf-17cc4ffa5d3e"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6641, 176, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"ff57224f-7e26-40a1-a464-20b1f6c5fe8e",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[6788, 182, 248, 4, 84, "Section",ExpressionUUID->"38c833fd-3f7b-4c6c-92b3-9eb7d451d16f"],
+Cell[7039, 188, 404, 8, 73, "Text",ExpressionUUID->"08501162-11c2-45bc-8980-25ff7b226b74"],
+Cell[7446, 198, 186, 4, 44, "Text",ExpressionUUID->"1c575f41-ba5e-4432-9181-35cb74dedae3"],
+Cell[7635, 204, 215, 5, 44, "Text",ExpressionUUID->"d8c54f7a-6607-4a48-95d6-abc86b9e8375"],
+Cell[7853, 211, 566, 11, 44, "Text",ExpressionUUID->"7ee6934e-5288-428a-874f-3ad792a44f26"],
+Cell[8422, 224, 301, 6, 44, "Text",ExpressionUUID->"1dbc6cf5-a4c4-47ca-a1c2-33ce496ad5c3"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[8772, 236, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"c080ada1-24de-4e43-a713-9374988e6139",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[8919, 242, 268, 4, 84, "Section",ExpressionUUID->"d51952b5-1b2e-424d-9314-7415665bf89e"],
+Cell[9190, 248, 628, 14, 73, "Text",ExpressionUUID->"e48efdf0-d68f-4126-9550-978bb9cfab9e"],
+Cell[9821, 264, 2395, 49, 75, "Input",ExpressionUUID->"bd3aca3b-b239-4bcb-b81d-5e119c904214"],
+Cell[12219, 315, 600, 12, 114, "Text",ExpressionUUID->"58e07115-f816-4774-9f42-1ed0caf69843"],
+Cell[12822, 329, 21795, 452, 243, "Input",ExpressionUUID->"5f67bf7c-7ead-4ad1-baa7-098f42a44683"],
+Cell[34620, 783, 266, 6, 68, "Text",ExpressionUUID->"0a6ba0b1-2e1d-4300-b96c-523d8ffa20de"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[34935, 795, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"4be3e6a7-9c08-43e6-ac9f-f26e6fe25aee",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[35082, 801, 349, 5, 131, "Section",ExpressionUUID->"9439f95d-e965-4b68-a707-8cd21d6e4311"],
+Cell[35434, 808, 433, 12, 114, "Text",ExpressionUUID->"ac0f8ed3-5147-426e-899c-c02c422a3782"],
+Cell[35870, 822, 296, 6, 68, "Text",ExpressionUUID->"ca5b5ba3-6c1b-4105-9629-6451918baeff"],
+Cell[36169, 830, 4492, 92, 75, "Input",ExpressionUUID->"948d9144-a627-4284-9d6f-577f5dd4da31"],
+Cell[40664, 924, 306, 7, 57, "Input",ExpressionUUID->"985ba109-ea64-47cc-a519-edb3b89f7b6e"],
+Cell[40973, 933, 314, 6, 68, "Text",ExpressionUUID->"318bc9c3-f1d6-443e-a657-bb5925a0a36d"],
+Cell[41290, 941, 253, 8, 68, "Text",ExpressionUUID->"3f23596b-51c1-4ec6-98c8-fc4c031f900f"],
+Cell[41546, 951, 4625, 94, 75, "Input",ExpressionUUID->"dc647c8a-518f-40f8-b6dc-5e6c1a29f9e0"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[46220, 1051, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"99961e25-196a-4f4b-9921-e4cf1d8d4504",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[46367, 1057, 253, 4, 131, "Section",ExpressionUUID->"c4858f08-abbc-4a6d-a88b-994e808d35ea"],
+Cell[46623, 1063, 316, 7, 68, "Text",ExpressionUUID->"bec53634-6337-4e16-b69b-e6c669befe4b"],
+Cell[46942, 1072, 486, 11, 68, "Text",ExpressionUUID->"2b0765f6-e6ec-4f61-b11d-f5a1d66f79ee"],
+Cell[47431, 1085, 2388, 49, 75, "Input",ExpressionUUID->"e6b225c1-0d17-4829-830c-a330ac88340a"],
+Cell[49822, 1136, 319, 7, 68, "Text",ExpressionUUID->"f885f20b-7b9e-4ad9-b0e5-84aa9da5f13d"],
+Cell[50144, 1145, 16168, 334, 190, "Input",ExpressionUUID->"0bae3a69-3c8c-409f-9678-826c85a8536d"],
+Cell[66315, 1481, 264, 8, 68, "Text",ExpressionUUID->"207f2195-27f1-4ce2-a359-41e62e5f9ed9"],
+Cell[66582, 1491, 4413, 91, 75, "Input",ExpressionUUID->"59ead7b2-5c78-42ff-8ad7-4e8bf424c1dd"],
+Cell[70998, 1584, 362, 8, 57, "Input",ExpressionUUID->"8159e9ed-b709-45f4-8332-1e97b79d0eec"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[71409, 1598, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"8458af1d-b32e-4766-b63b-9c1011aa33d1",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[71556, 1604, 260, 4, 131, "Section",ExpressionUUID->"78421852-5cc3-4884-a6fb-1d2dcc500739"],
+Cell[71819, 1610, 527, 10, 114, "Text",ExpressionUUID->"335f14f9-e028-4e5a-87d9-eedb709c762d"],
+Cell[72349, 1622, 197, 3, 68, "Text",ExpressionUUID->"e5490578-0cc7-47ae-9813-62f149dc5432"],
+Cell[72549, 1627, 2885, 59, 129, "Input",ExpressionUUID->"4776c1dd-9a0a-4bcf-8af0-1b864b412fff"],
+Cell[75437, 1688, 409, 10, 114, "Text",ExpressionUUID->"8b457f3b-9290-41b4-acb6-7995ea6966b7"],
+Cell[75849, 1700, 2216, 46, 75, "Input",ExpressionUUID->"854be03f-46c9-494d-aaa1-76877a3167d9"],
+Cell[78068, 1748, 2916, 61, 75, "Input",ExpressionUUID->"1ac248af-7081-4762-8655-64e927f55264"],
+Cell[80987, 1811, 271, 5, 68, "Text",ExpressionUUID->"b0f6e0cd-7d76-4de5-8b74-7c2ed6b330ce"],
+Cell[81261, 1818, 927, 20, 129, "Input",ExpressionUUID->"ae7fd64b-98cb-413c-8777-1994a83007fd"],
+Cell[82191, 1840, 1053, 22, 129, "Input",ExpressionUUID->"f1d5252a-1f1d-4144-8665-b605da885972"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[83293, 1868, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"10140f6a-ec1c-461e-b241-1a4fe8418dff",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[83440, 1874, 305, 5, 131, "Section",ExpressionUUID->"e5f765d2-fbaa-4909-9c5f-37bca666e604"],
+Cell[83748, 1881, 660, 11, 159, "Text",ExpressionUUID->"0b690540-e944-45e4-aea2-8bea8e99956b"],
+Cell[84411, 1894, 225, 5, 68, "Text",ExpressionUUID->"fd5eda86-e342-4ac3-95c9-bd7e0466cf9c"],
+Cell[84639, 1901, 2998, 61, 129, "Input",ExpressionUUID->"980ddc71-7c9c-4477-b0eb-f694e060ece0"],
+Cell[87640, 1964, 273, 6, 68, "Text",ExpressionUUID->"e82fbc2a-7280-411a-a2df-16172b27df3b"],
+Cell[87916, 1972, 4530, 91, 132, "Input",ExpressionUUID->"5617e2cc-7862-4964-9e62-584e0bc15819"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[92495, 2069, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"dfe2c6c0-b10c-47c2-867e-ab1791e279dd",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[92642, 2075, 260, 4, 131, "Section",ExpressionUUID->"af23cced-b0e9-47f0-8de5-95903580ff82"],
+Cell[92905, 2081, 362, 7, 114, "Text",ExpressionUUID->"63f1e5e4-fd74-49e7-9724-7508fd22c006"],
+Cell[93270, 2090, 297, 7, 68, "Text",ExpressionUUID->"c4be17e1-d7a1-4c96-b51c-2545a70e0e75"],
+Cell[93570, 2099, 4399, 91, 75, "Input",ExpressionUUID->"2e8e1e1c-0e0a-4584-8fb8-243a52fb8384"],
+Cell[97972, 2192, 404, 12, 68, "Text",ExpressionUUID->"edda0d2d-0e14-4d21-840a-e0c13434879c"],
+Cell[98379, 2206, 161, 3, 68, "Text",ExpressionUUID->"64c0f0af-3129-4248-9661-35e1db79988b"],
+Cell[98543, 2211, 373, 8, 57, "Input",ExpressionUUID->"31338ef7-67fb-49df-9909-e47a905afa1e"],
+Cell[98919, 2221, 2767, 59, 75, "Input",ExpressionUUID->"9a93f7e8-86f8-4c24-9cc9-ebc40150943a"],
+Cell[101689, 2282, 160, 3, 68, "Text",ExpressionUUID->"b132178d-955a-4410-84c8-b1a9b83fa02b"],
+Cell[101852, 2287, 423, 9, 57, "Input",ExpressionUUID->"93882fbf-a066-4565-a194-99c97f8973e1"],
+Cell[102278, 2298, 2818, 60, 75, "Input",ExpressionUUID->"cb6fdd1e-651a-4857-b071-991aa401a63b"],
+Cell[105099, 2360, 3104, 64, 75, "Input",ExpressionUUID->"f9c7d232-f3a2-4a0c-82bb-ef97a7d0f2a4"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[108252, 2430, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"8a7b65cf-0d73-468f-be77-31d19b139e37",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[108399, 2436, 277, 4, 131, "Section",ExpressionUUID->"0fdb3755-3188-4f02-b35d-1b209260dbec"],
+Cell[108679, 2442, 398, 12, 68, "Text",ExpressionUUID->"84840bf4-1f10-4c9d-a1ee-8ad1c8d3745b"],
+Cell[109080, 2456, 295, 7, 57, "Input",ExpressionUUID->"59ec6970-9007-4d9f-84ac-90b143c90689",
+ CellID->1387433762],
+Cell[109378, 2465, 420, 9, 57, "Input",ExpressionUUID->"00c78c26-0f7d-4b40-8689-d5751f7f5906",
+ CellID->463040148],
+Cell[109801, 2476, 252, 8, 68, "Text",ExpressionUUID->"8a90c7a9-8027-4cb4-b499-e6a82e31feae"],
+Cell[110056, 2486, 697, 17, 100, "Input",ExpressionUUID->"8739b570-7ae7-4c58-a7dd-7af39e4c99f8"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[110802, 2509, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"549e4626-b3db-4ad0-a873-007c697fc776",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[110949, 2515, 93, 1, 131, "Section",ExpressionUUID->"db258157-84f4-45d5-8957-8f4fbfb7b151"],
+Cell[CellGroupData[{
+Cell[111067, 2520, 104, 1, 104, "Subsection",ExpressionUUID->"030db399-ce83-4682-bcb5-dbf6e772c360"],
+Cell[111174, 2523, 547, 12, 114, "Text",ExpressionUUID->"de1ada29-5716-4fb6-a594-dc865dd73782"],
+Cell[111724, 2537, 652, 12, 68, "Text",ExpressionUUID->"573f62c5-a7ab-47d6-898f-5fb914c0fe41"],
+Cell[CellGroupData[{
+Cell[112401, 2553, 149, 2, 87, "Subsubsection",ExpressionUUID->"4497101d-1f57-4c72-af3c-ef609641fc25"],
+Cell[112553, 2557, 800, 17, 159, "Text",ExpressionUUID->"b6d7406c-6265-4727-902b-ba282cc5fdae"],
+Cell[113356, 2576, 474, 11, 57, "Input",ExpressionUUID->"51574417-60e9-429e-bd78-6893d7c71daf"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[113867, 2592, 102, 1, 87, "Subsubsection",ExpressionUUID->"b6402386-6e6a-4c14-b02f-dc9f644df3a1"],
+Cell[113972, 2595, 593, 13, 114, "Text",ExpressionUUID->"d3f3b6a1-6cdb-4873-b4cb-a11d1739bca6"],
+Cell[114568, 2610, 2431, 52, 75, "Input",ExpressionUUID->"622e5a3c-de82-40c8-b3d7-9426f3840bdb"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[117036, 2667, 103, 1, 87, "Subsubsection",ExpressionUUID->"4645eb31-3c51-4d1c-904c-ab8624d1edb7"],
+Cell[117142, 2670, 540, 14, 114, "Text",ExpressionUUID->"0eb7510e-e9d9-4f75-a386-f126c62c5967"],
+Cell[117685, 2686, 883, 18, 100, "Input",ExpressionUUID->"6debb1c0-3f57-4589-bff9-36791f2625d5"],
+Cell[118571, 2706, 192, 6, 68, "Text",ExpressionUUID->"c34bcbb4-6b1e-4468-be31-3aabadb6cc36"],
+Cell[118766, 2714, 611, 13, 57, "Input",ExpressionUUID->"98605fff-8f57-4e97-980b-8576007219fd"],
+Cell[119380, 2729, 351, 6, 68, "Text",ExpressionUUID->"31dc5d2e-7947-4060-a5db-19b8ba7760e7"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[119804, 2743, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"4b0aa1e5-7688-41d9-a378-7a59548e9c15",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[119951, 2749, 169, 2, 131, "Section",ExpressionUUID->"2b776bfa-0039-4161-b65a-bce0c4270b9e"],
+Cell[CellGroupData[{
+Cell[120145, 2755, 98, 1, 104, "Subsection",ExpressionUUID->"64bb6d66-2156-4d88-b573-1061fa3adcad"],
+Cell[120246, 2758, 242, 6, 68, "Text",ExpressionUUID->"04151625-16a3-4fae-a821-8869449a0bc9"],
+Cell[120491, 2766, 1675, 39, 129, "Input",ExpressionUUID->"dc5bc493-a989-477a-a6cd-8d50558bdec2"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[122203, 2810, 98, 1, 104, "Subsection",ExpressionUUID->"d539d829-75f5-4208-a6ab-50ef71c40e51"],
+Cell[122304, 2813, 470, 10, 114, "Text",ExpressionUUID->"f77ba5bd-64d7-4813-beb7-4e354cfc3345"],
+Cell[122777, 2825, 586, 15, 57, "Input",ExpressionUUID->"cad67941-8d05-4cdd-aa45-8ad135abb446"],
+Cell[123366, 2842, 584, 15, 57, "Input",ExpressionUUID->"af9fbbe4-f149-4e9e-9dc3-1dae615fe87e"],
+Cell[123953, 2859, 634, 16, 57, "Input",ExpressionUUID->"187366da-c844-4926-b8db-286f095b1a7b"],
+Cell[124590, 2877, 635, 18, 57, "Input",ExpressionUUID->"5ab6c16a-aa98-47c7-9844-a83dbcd840bb"],
+Cell[125228, 2897, 179, 4, 68, "Text",ExpressionUUID->"1523eb75-225f-4400-a9d3-34921cd24a92"],
+Cell[125410, 2903, 424, 9, 57, "Input",ExpressionUUID->"6547bdcd-60f7-4b2b-a8d2-5ad8ff5596ce"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[125871, 2917, 102, 1, 104, "Subsection",ExpressionUUID->"7a58997a-c62e-419c-b13b-02c9f5ac23f9"],
+Cell[125976, 2920, 388, 12, 68, "Text",ExpressionUUID->"823dd46a-79db-492b-99fb-7d85edd3bbc7"],
+Cell[126367, 2934, 450, 8, 75, "Input",ExpressionUUID->"3f9cf2f6-cae0-4dab-81e7-c42a8d0915ad"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[126878, 2949, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"46343263-4112-42b1-90ed-be8765e18ac3",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[127025, 2955, 165, 3, 131, "Section",ExpressionUUID->"dc1918a1-22f8-4811-9481-0d019edd5dff"],
+Cell[127193, 2960, 261, 6, 68, "Text",ExpressionUUID->"6b4370f4-c500-43a0-9445-d04bb18f76b5"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+

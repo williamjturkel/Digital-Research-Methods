@@ -1,0 +1,1724 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     72751,       1716]
+NotebookOptionsPosition[     57164,       1476]
+NotebookOutlinePosition[     59692,       1526]
+CellTagsIndexPosition[     59613,       1521]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ TogglerBox[2, {1->
+  OverlayBox[{
+   TagBox[GridBox[{
+      {
+       GraphicsBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBAkBOaF5xZnpeaopnXklqemqRRRIz
+UFAKiEGSLED8//9/gvjRo0fsN27cELp69arY+fPnpZExPn137tzhBqrRBGJ/
+ID4CxMfRMTZ9L168YL5w4YIaUD4AiC8C8Qcg/gvE/9AxFreC7PQD4gtA/BGq
+7j8ujKz3+fPnLFC9b6H24dSHTf/FixfVofYSpRdZPzSsAqBuJkovsn5oOF8k
+5F9s+h88eMBBjt0w/devXxcGso+S4m9k/ZcuXRKHpgeS3A7TD0wrkpToPw9J
+ywOmn1L3Uxp+lMYfpemH0vRLjfwDjQey8y9a+fGOWDPwlF+gsPhEKDywlZ8g
+d0D9EniexPITGd++fZv3PBnlN6764zxa3QHCAIDESDs=
+         "], {{0, 26}, {16, 
+         0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{16, 26},
+        PlotRange->{{0, 16}, {0, 26}}], 
+       GraphicsBox[RasterBox[CompressedData["
+1:eJzt2V1vVFUUBuBGTfTSSygthYYKNHyVinrrpbcYfwBEJN5gUkyMfw9KKaVw
+KCkQKCW1RNIQKg1gEE3QtdN10pMRZCaBzNQ+kzxt5nzstfeZfbPOu/vkD8e/
+e6+vr+/sR/Hn+ImfvpyYOPHz1x/Hl2/OnP3+9JlT33515sdTp09NfHHy/TjY
+H6592Nf3QfyvqmpHBwbCYNr5GoMNAw2d1AEAADa3/obtLba1aJ7rb4xR9x1D
+YVfYHYbDnjASPgn7wv4wGg6Eg+FQOByOhLEwnj4Nx8Jn6fM21dcfyzHq8cay
+xuGseTDnMJpz2pdzHMk5D+caduWa6v6p+czafU71s6p1+/cGAADYqt52/9va
+++6tXt331j3v0TTeoj5e966v6lv3Vv/uWfWr9LJm9tzMpN+UW3eaVV9s00yY
+CzfC7bAQFhvuhjt57maYD9er9c+VcDlcCtMd1AQAADafqXQhTabz6VyL+vhk
+Xl/uLX1D6UFmw9VwrVrvL0o/cqta7ztKD3Iv/BLuh1/DSngYHoXfwlp4Ep6F
+38Pz8Ed4Ef5Mf71Gff5F3vM8x3iWY65ljUdZcyXncD/ndC/neDvnfCPXcC3X
+NJtrnG48r3afU/2s6uc11QO/OwAAwFbzLvrfksWVjK30kSV3KxncUlgOD6qN
+vnc1PK42+t7iaaq/r+U1q9VG3/ogx1rKse9krfmsrV+l15R9WDLmkjWXzLl8
+yvuVsmdLJl3eu5R9XN7BNLPrhTxX3seUvT3TQc2Xbfr7LWq3JgAAwH95m33K
+u9Dt5wMAAMDmp2dlK+vGnu/2+yQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYPN42aZu
+1AQAAAAAAICtrNsZIXRTN/b8xTbNhLlwI9wOC2Gx4W64k+duhvlwvVr/XAmX
+w6Uw3UFNAAAAAAAA6EVT6UKaTOfTuRb18cm8vtxbcrOSwc2Gq9V6FlcytlvV
+eu5WMrilsBwehJXwMKyGx2EtPElPU/19La9ZzXtWcozlHHMxa9zKmnM5h9mc
+03Rjfe2uq15bvb6pHvid2NzKPiwZc8maS+ZcPiWDLnu2ZNIlmy77uGTVzex6
+Ic+VbLvs7ZkOau7owEAYTDtfY7BhoKGTOgAAAAAAANDr+hu2t9jWonmuvzFG
+nbsNhd1hOOwJI2Fv2B9Gw4FwMBwKR8JYOJrGW9THx/LaQ3nvgRxrf449krWG
+s/ZQtZH3NdfY7rrqtdW6/fvw/9LMnpuZ9Jty646y6n8AhCP7tg==
+         "], {{0, 26}, {
+         2000, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{2000, 26},
+        PlotRange->{{0, 2000}, {0, 26}}], 
+       GraphicsBox[RasterBox[CompressedData["
+1:eJy9lktLQkEUxyVdCBIELaxctYq+QduWbcKMPoCSRRsDC6JPp+Lj4vuq+EBc
+iBtFfIYrpU7nPzQiN++9vmrgp/dx5j8z55w5c099z56HPYvF8mLnH4/37TIY
+9L7fHvDNXeDl6THgv78KvPof/cELn5UfnjBHjI3J5/OudVBV9bhUKjmbzaad
+iCxmcB9lAxKMmzmv1+v7JvpfG/DJjJkic8NrOut0OlYdfdoCjPXBqMx1q9Vy
+7FhfgvX0MUa73bYZ6edyuTnrvPsZQ4Wv9PTRL5vNroTOGIiJu9FoOLT6UjuT
+yVAqlaJkMin+0+m0YPEZbHTGQDwKyKtl+ugHjdFoRIVCgeLxOCUSCQGua7Ua
+9Xo9YQNbozXI/aHVZ//RcDik2WxG5XKZwuGwANdo0JfrNIhDvFqtHi7zD+YW
+i8VoMBgIvWKxKEDrdrtiHbAxiAF8pHAf5zJ9+Bca0WiUxuMxydbv98U64CvY
+wNZgTyioI9r8QR/EEvrQUhRlrh8Kheb6sDHTZ1xG84ePMP/pdPpr/tvoL/of
+Mcb9Jv7X+mcxP2X+QCMSiYh5VyoVMQbXMbP81I2vzM/JZCLyX+a+BPmPvbFN
+fmr36pr713B/rVp7THy/tD6Y1cjF5zrahvVtB5jW5y21B/kVzpc1kecjfK53
+Pu7kfNfO+x+/T/70++ob7NUEtQ==
+         "], {{0, 26}, {24, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{24, 26},
+        PlotRange->{{0, 24}, {0, 26}}]}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {Automatic, 
+         Scaled[0.6], Automatic}},
+     GridBoxSpacings->{"Columns" -> {{0}}, "Rows" -> {{0}}}],
+    "Grid"], 
+   PaneBox[
+    StyleBox[
+     RowBox[{
+     "Background", " ", "images", " ", "and", " ", "text", " ", "colors", " ",
+       "have", " ", "been", " ", "adjusted", " ", "for", " ", "editing", " ", 
+      
+      RowBox[{"purposes", "."}]}],
+     LineBreakWithin->False,
+     FontFamily->"Helvetica",
+     FontSize->12,
+     FontColor->GrayLevel[0.4]],
+    Alignment->Center,
+    ImageSize->Scaled[0.5],
+    ScrollPosition->{0., 0.}]},
+   Alignment->{Center, Center}], 2->""}, "1"]], "SlideShowNavigationBar", \
+"FirstSlide",
+ CellMargins->{{0, 0}, {0, 0}},
+ CellFrameLabelMargins->2,
+ CellSize->{Inherited, 30},
+ CellChangeTimes->{3.647361175465108*^9},
+ TextAlignment->Center,
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"9e96ac5a-fc77-4986-af95-59bd741a2fea"],
+
+Cell["\<\
+Digital Research Methods 03A:
+Keyword in Context (KWIC)\
+\>", "Title",
+ CellChangeTimes->{
+  3.559948400406288*^9, {3.647331852839075*^9, 3.647331861295168*^9}, {
+   3.647331922221755*^9, 3.647331924532915*^9}, {3.647332658962614*^9, 
+   3.64733266480881*^9}, {3.6473611327373047`*^9, 3.647361139759391*^9}, {
+   3.647448943135475*^9, 3.6474489472294493`*^9}, {3.647531695369532*^9, 
+   3.6475317192870007`*^9}},ExpressionUUID->"aa051a0f-7949-4116-8cf8-\
+39faced7daf4"],
+
+Cell[TextData[{
+ "William J Turkel, ",
+ StyleBox["wturkel@uwo.ca",
+  FontSlant->"Italic",
+  FontColor->RGBColor[
+   0.396078431372549, 0.596078431372549, 0.796078431372549]],
+ "\nHistory 2816 / Digital Humanities 2130 / History 9877"
+}], "Subtitle",
+ CellChangeTimes->{{3.647331955723979*^9, 3.6473319708190517`*^9}, 
+   3.647332103720562*^9},ExpressionUUID->"4cca3c8e-e6d3-4bdc-9e82-\
+9af60494d782"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"e9670532-2155-4a23-bb58-a6b1e6e69e1b"],
+
+Cell[CellGroupData[{
+
+Cell["Overview", "Section",
+ CellChangeTimes->{{3.647361153919208*^9, 
+  3.6473611548467712`*^9}},ExpressionUUID->"7791fcac-78b1-44d6-9883-\
+3fb15dde8516"],
+
+Cell[TextData[{
+ "By analyzing word and n-gram frequencies, we can make many interesting \
+hypotheses about a text or corpus of texts. To investigate further, however, \
+we need to be able to find instances of keywords or key phrases in context. \
+The traditional tool for doing this is the ",
+ StyleBox["concordance",
+  FontSlant->"Italic"],
+ "."
+}], "Text",
+ CellChangeTimes->{{3.647361157582405*^9, 3.647361159086673*^9}, {
+   3.65140396902664*^9, 3.651404070556567*^9}, 
+   3.681318858365247*^9},ExpressionUUID->"694e0327-6e5f-4a9f-a66d-\
+e44770e73f83"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"2c14a28c-4480-4b54-b3c9-29f2562b9928"],
+
+Cell[CellGroupData[{
+
+Cell["Background: The Early Years of the Cold War", "Section",
+ CellChangeTimes->{{3.6473429438950644`*^9, 3.647342944950231*^9}, {
+  3.647353742456744*^9, 3.647353748014737*^9}, {3.681296708530692*^9, 
+  3.6812967094017897`*^9}, {3.734368602132975*^9, 3.734368607940011*^9}, {
+  3.7343686892010403`*^9, 
+  3.734368690832919*^9}},ExpressionUUID->"dd39b6d0-1186-454d-bfce-\
+9693dc62b89c"],
+
+Cell["\<\
+For this exercise we are going to be using digital texts about the origins of \
+the Cold War in the aftermath of WWII. Click the following link from the \
+Harry S. Truman Presidential Library and Museum to open a webpage with some \
+background information about the historical setting.\
+\>", "Text",
+ CellChangeTimes->{{3.734368612003821*^9, 3.734368675169498*^9}, {
+  3.734368718632015*^9, 3.73436873880726*^9}, {3.734369563345461*^9, 
+  3.734369566257512*^9}, {3.7346229928202667`*^9, 
+  3.7346230180175877`*^9}},ExpressionUUID->"8962dba0-b72f-4804-bb6b-\
+7d1af5cc1a37"],
+
+Cell[TextData[ButtonBox["https://www.trumanlibrary.org/whistlestop/study_\
+collections/coldwar/index.php?action=bg",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.trumanlibrary.org/whistlestop/study_collections/coldwar/\
+index.php?action=bg"], None},
+ ButtonNote->
+  "https://www.trumanlibrary.org/whistlestop/study_collections/coldwar/index.\
+php?action=bg"]], "Text",
+ CellChangeTimes->{
+  3.734368561074623*^9, {3.7343687652977667`*^9, 
+   3.734368765300255*^9}},ExpressionUUID->"7cc5ecd3-664c-4c22-968f-\
+49141af571eb"],
+
+Cell["\<\
+The document that we will be analyzing is the \[OpenCurlyDoubleQuote]long \
+telegram\[CloseCurlyDoubleQuote] sent by George Kennan in February 1946. Here \
+are the page images\
+\>", "Text",
+ CellChangeTimes->{{3.7343687845100317`*^9, 3.734368848187292*^9}, {
+  3.734368923825453*^9, 
+  3.734368954751479*^9}},ExpressionUUID->"1f7b4f9a-6063-46b1-a970-\
+1f9d2ce4c5b2"],
+
+Cell[TextData[ButtonBox["https://www.trumanlibrary.org/whistlestop/study_\
+collections/coldwar/documents/index.php?documentdate=1946-02-22&documentid=6-\
+6&pagenumber=1",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.trumanlibrary.org/whistlestop/study_collections/coldwar/\
+documents/index.php?documentdate=1946-02-22&documentid=6-6&pagenumber=1"], 
+   None},
+ ButtonNote->
+  "https://www.trumanlibrary.org/whistlestop/study_collections/coldwar/\
+documents/index.php?documentdate=1946-02-22&documentid=6-6&pagenumber=1"]], \
+"Text",
+ CellChangeTimes->{{3.734368977943815*^9, 
+  3.734368986493792*^9}},ExpressionUUID->"d58b18f3-338c-447c-8ba3-\
+33c9f68e93ae"],
+
+Cell["\<\
+In a few weeks we will learn how to work with page images. For now we will \
+extract a transcribed version of the text from another website. Click the \
+link so you have a version open in a web browser\
+\>", "Text",
+ CellChangeTimes->{{3.7343689917346888`*^9, 3.734369030764721*^9}, {
+  3.7343699257571173`*^9, 
+  3.734369939027936*^9}},ExpressionUUID->"cd6a3779-5972-4acb-8c6f-\
+53fd298b8ad7"],
+
+Cell[TextData[ButtonBox["http://teachingamericanhistory.org/library/document/\
+the-long-telegram/",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["http://teachingamericanhistory.org/library/document/the-long-telegram/\
+"], None},
+ ButtonNote->
+  "http://teachingamericanhistory.org/library/document/the-long-telegram/"]], \
+"Text",
+ CellChangeTimes->{{3.7343699419521027`*^9, 
+  3.734369958721984*^9}},ExpressionUUID->"8520d8a8-4931-48c2-b2df-\
+40f7fd5bd0c5"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"01a7644d-7ab3-44db-9a4c-6dfcc734022a"],
+
+Cell[CellGroupData[{
+
+Cell["A note about using web sources", "Section",
+ CellChangeTimes->{{3.647361153919208*^9, 3.6473611548467712`*^9}, {
+  3.734622908094352*^9, 
+  3.7346229122693167`*^9}},ExpressionUUID->"55fcb7e8-db4b-429c-be4b-\
+fb3799530c4f"],
+
+Cell["\<\
+Instead of working directly with the web sources we have identified, we are \
+going to use archived copies that I put in the Internet Archive\
+\[CloseCurlyQuote]s Wayback Machine on  6 May 2018. To create an archival \
+copy of a web page like this, simply visit \
+\>", "Text",
+ CellChangeTimes->{{3.734622928971689*^9, 3.734622966515254*^9}, {
+  3.734623030953045*^9, 3.7346231297733994`*^9}, {3.7346231870433283`*^9, 
+  3.7346231938349333`*^9}},ExpressionUUID->"84a2376c-aba6-49dc-951d-\
+2c9e882dcd00"],
+
+Cell[TextData[ButtonBox["http://archive.org/web",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["http://archive.org/web"], None},
+ ButtonNote->"http://archive.org/web"]], "Text",
+ CellChangeTimes->{{3.734623135829094*^9, 
+  3.734623173238886*^9}},ExpressionUUID->"8c813d69-e1ca-4239-bd39-\
+1b5d7f475709"],
+
+Cell["and choose \[OpenCurlyDoubleQuote]Save Page \
+Now\[CloseCurlyDoubleQuote]", "Text",
+ CellChangeTimes->{{3.7346231456276007`*^9, 
+  3.734623183699333*^9}},ExpressionUUID->"ac58bfbb-f5a4-4c69-8c13-\
+92b2d060b1de"],
+
+Cell["\<\
+In general, it is often quite easy to work with web sources in a programming \
+language, but the code that you create is said to be \[OpenCurlyQuote]brittle\
+\[CloseCurlyQuote], since the slightest change to the site can break it. By \
+creating a copy of the page that is guaranteed not to change, your code \
+continues to work even when the original site changes.\
+\>", "Text",
+ CellChangeTimes->{{3.734623208122429*^9, 
+  3.734623301159086*^9}},ExpressionUUID->"9d5bdc81-2aba-4c05-a33a-\
+04d07d3e9a78"],
+
+Cell["\<\
+Here are the links to my archived copies of the background text and the Long \
+Telegram text.\
+\>", "Text",
+ CellChangeTimes->{{3.734623326886149*^9, 
+  3.734623358652849*^9}},ExpressionUUID->"6d4ef9a6-c173-4f8d-8ce0-\
+dd14afa44771"],
+
+Cell[TextData[ButtonBox["https://web.archive.org/web/20180506192251/https://\
+www.trumanlibrary.org/whistlestop/study_collections/coldwar/index.php?action=\
+bg",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://web.archive.org/web/20180506192251/https://www.trumanlibrary.\
+org/whistlestop/study_collections/coldwar/index.php?action=bg"], None},
+ ButtonNote->
+  "https://web.archive.org/web/20180506192251/https://www.trumanlibrary.org/\
+whistlestop/study_collections/coldwar/index.php?action=bg"]], "Text",
+ CellChangeTimes->{{3.7346234073995733`*^9, 
+  3.734623423513625*^9}},ExpressionUUID->"45ebb0ec-239c-41b6-9f9b-\
+5fcdd436a7c5"],
+
+Cell[TextData[ButtonBox["https://web.archive.org/web/20180506192416/http://\
+teachingamericanhistory.org/library/document/the-long-telegram/",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://web.archive.org/web/20180506192416/http://\
+teachingamericanhistory.org/library/document/the-long-telegram/"], None},
+ ButtonNote->
+  "https://web.archive.org/web/20180506192416/http://teachingamericanhistory.\
+org/library/document/the-long-telegram/"]], "Text",
+ CellChangeTimes->{{3.7346235262041483`*^9, 
+  3.734623536173357*^9}},ExpressionUUID->"61a73cae-f176-4ccd-95fb-\
+92b8e357490e"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"6aaac673-ef15-4845-a8d8-d015f897d1f2"],
+
+Cell[CellGroupData[{
+
+Cell["7-grams", "Section",
+ CellChangeTimes->{{3.6473429438950644`*^9, 3.647342944950231*^9}, {
+  3.647353742456744*^9, 3.647353748014737*^9}, {3.681296708530692*^9, 
+  3.6812967094017897`*^9}, {3.7343697768822803`*^9, 
+  3.734369779345694*^9}},ExpressionUUID->"faeaadc7-8423-4f3f-a96f-\
+a421c07237b9"],
+
+Cell[TextData[{
+ "So far we have been focused on finding and counting linguistic elements in \
+texts, including words, n-grams and characters. With computers, this is very \
+fast even for large ",
+ StyleBox["corpora",
+  FontSlant->"Italic"],
+ " (collections of texts). Scholars of earlier generations spent entire \
+careers compiling finding aids like indexes and concordances (see below). Now \
+we tend to create these tools as we need them."
+}], "Text",
+ CellChangeTimes->{{3.647531960613924*^9, 3.6475321158887243`*^9}, {
+  3.647532479861236*^9, 3.6475324918907967`*^9}, {3.647532540051014*^9, 
+  3.647532546049264*^9}},ExpressionUUID->"33e95ab5-b877-4c6b-ba47-\
+fed871b9c3ed"],
+
+Cell["\<\
+We start by retrieving the text of the Long Telegram as a string. I have had \
+to do a little bit of pattern matching to pull the text itself out of the \
+surrounding text of the webpage.\
+\>", "Text",
+ CellChangeTimes->{{3.734369830088538*^9, 3.734369850415244*^9}, {
+  3.734369963404076*^9, 3.73436996863498*^9}, {3.734370011810121*^9, 
+  3.734370035960577*^9}},ExpressionUUID->"af279e0b-11ad-434a-ae79-\
+3a1ab1089e61"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"kennanLongTelegramText", "=", " ", 
+   RowBox[{"First", "[", 
+    RowBox[{"StringCases", "[", 
+     RowBox[{
+      RowBox[{"Import", "[", 
+       RowBox[{
+       "\"\<https://web.archive.org/web/20180506192416/http://\
+teachingamericanhistory.org/library/document/the-long-telegram/\>\"", ",", 
+        "\"\<Plaintext\>\""}], "]"}], ",", 
+      RowBox[{
+       RowBox[{"Shortest", "[", 
+        RowBox[{
+        "\"\<Related Documents\>\"", "~~", " ", "x__", " ", "~~", 
+         "\"\<Upon\>\""}], "]"}], "\[Rule]", "x"}]}], "]"}], "]"}]}], 
+  ";"}]], "Input",
+ CellChangeTimes->{{3.734369095337384*^9, 3.734369129993215*^9}, {
+  3.734369194071643*^9, 3.734369195017263*^9}, {3.7343692546543493`*^9, 
+  3.734369267340283*^9}, {3.734369303147872*^9, 3.734369382760244*^9}, {
+  3.7343694400718393`*^9, 3.734369540682692*^9}, {3.734369610805752*^9, 
+  3.7343696294162197`*^9}, {3.734623561423419*^9, 3.7346235618985653`*^9}},
+ CellLabel->"In[1]:=",ExpressionUUID->"0900df9c-cc72-4622-8ee8-fed686db4760"],
+
+Cell[BoxData[
+ RowBox[{"Head", "[", "kennanLongTelegramText", "]"}]], "Input",
+ CellChangeTimes->{{3.734369826005228*^9, 3.734369855559778*^9}},
+ CellLabel->"In[2]:=",ExpressionUUID->"22f86f0a-2a86-4abd-a5f2-95f2caffb1e0"],
+
+Cell[TextData[{
+ "Next we create a list of lowercase 7-grams using the ",
+ StyleBox["Partition",
+  FontWeight->"Bold"],
+ " command with ",
+ StyleBox["TextWords",
+  FontWeight->"Bold"],
+ " and ",
+ StyleBox["ToLowerCase",
+  FontWeight->"Bold"]
+}], "Text",
+ CellChangeTimes->{{3.681319865846924*^9, 3.6813198870067253`*^9}, {
+  3.681319958387608*^9, 
+  3.681319967387785*^9}},ExpressionUUID->"bbb9b2b8-62b3-4533-ae96-\
+9664c2bcfe6b"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"kennan7Grams", "=", 
+   RowBox[{"Partition", "[", 
+    RowBox[{
+     RowBox[{"ToLowerCase", "[", 
+      RowBox[{"TextWords", "[", "kennanLongTelegramText", "]"}], "]"}], ",", 
+     "7", ",", "1"}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.681319684475506*^9, 3.681319734558071*^9}, {
+  3.681319894816059*^9, 3.68131993961357*^9}, {3.681319977244248*^9, 
+  3.6813199850999928`*^9}, {3.7343698653675537`*^9, 3.734369869545138*^9}},
+ CellLabel->"In[3]:=",ExpressionUUID->"78121508-cc9a-4c37-aaa3-d79c00d5f50b"],
+
+Cell[BoxData[
+ RowBox[{"Short", "[", 
+  RowBox[{"kennan7Grams", ",", "6"}], "]"}]], "Input",
+ CellChangeTimes->{{3.6813199891773148`*^9, 3.6813199982913847`*^9}, {
+  3.7343698734312487`*^9, 3.734369896357531*^9}},
+ CellLabel->"In[5]:=",ExpressionUUID->"ed605c0e-a95d-4bbf-9ae1-e003afb9d80c"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"198ff727-9e6b-4b57-bfc0-0124604f3d1d"],
+
+Cell[CellGroupData[{
+
+Cell["Identifying stopwords", "Section",
+ CellChangeTimes->{{3.6475328467025023`*^9, 
+  3.647532849926154*^9}},ExpressionUUID->"1b4aaa25-d945-4851-8fe5-\
+4eb0fc1a5e33"],
+
+Cell[TextData[{
+ "We have already used the ",
+ StyleBox["DeleteStopwords",
+  FontWeight->"Bold"],
+ " command to remove stopwords from a list. It is also handy to have a way of \
+determining whether or not a word is a stopword, so we will create a ",
+ StyleBox["function",
+  FontSlant->"Italic"],
+ " for that. A function is a new command that we add to ",
+ StyleBox["Mathematica.",
+  FontSlant->"Italic"]
+}], "Text",
+ CellChangeTimes->{{3.647532860062463*^9, 3.647532924891458*^9}, {
+  3.6813200411774807`*^9, 
+  3.681320069159546*^9}},ExpressionUUID->"2e85311d-9285-4f1a-935a-\
+ee3bba4600ca"],
+
+Cell[TextData[{
+ "First we use ",
+ StyleBox["WordData",
+  FontWeight->"Bold"],
+ " to get a list of stopwords in English. If necessary, we could add words to \
+this list or remove them from it, but we won\[CloseCurlyQuote]t do that now."
+}], "Text",
+ CellChangeTimes->{{3.6475329596424017`*^9, 3.647532973673677*^9}, {
+  3.647533010480832*^9, 3.647533025631976*^9}, {3.647607642458166*^9, 
+  3.6476076472089376`*^9}},ExpressionUUID->"509fffb4-30b9-4427-a85d-\
+0930994fae3f"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"stopwords", "=", 
+   RowBox[{"WordData", "[", 
+    RowBox[{"All", ",", "\"\<Stopwords\>\""}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.639670580673246*^9, 3.639670586118531*^9}, {
+  3.63967080861541*^9, 3.639670819382111*^9}},
+ CellLabel->"In[6]:=",ExpressionUUID->"4a1dc75b-38a3-4780-8369-9e84c2bcdf13"],
+
+Cell[BoxData[
+ RowBox[{"Length", "[", "stopwords", "]"}]], "Input",
+ CellChangeTimes->{{3.647533003328186*^9, 3.647533007761243*^9}},
+ CellLabel->"In[7]:=",ExpressionUUID->"1782515f-995b-4aa3-9453-86b0f2b41bd9"],
+
+Cell[BoxData[
+ RowBox[{"Short", "[", 
+  RowBox[{"stopwords", ",", "3"}], "]"}]], "Input",
+ CellChangeTimes->{{3.647532987703827*^9, 3.6475329956089783`*^9}},
+ CellLabel->"In[8]:=",ExpressionUUID->"45546dee-8d37-40cf-b972-38092f131738"],
+
+Cell[TextData[{
+ "The ",
+ StyleBox["MemberQ",
+  FontWeight->"Bold"],
+ " function tells us whether an element is a member of a list or not. (In ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " commands that return a True or False answer have names that end in a \
+capital Q). \[OpenCurlyDoubleQuote]About\[CloseCurlyDoubleQuote] is a \
+stopword, but \[OpenCurlyDoubleQuote]propaganda\[CloseCurlyDoubleQuote] is \
+not."
+}], "Text",
+ CellChangeTimes->{{3.6475330329191713`*^9, 3.647533073870173*^9}, {
+  3.6813200887774563`*^9, 3.681320098447109*^9}, {3.734370086559675*^9, 
+  3.7343700878785753`*^9}},ExpressionUUID->"4887e0bc-03aa-4fcd-bdd4-\
+8096bb520a4d"],
+
+Cell[BoxData[
+ RowBox[{"MemberQ", "[", 
+  RowBox[{"stopwords", ",", "\"\<about\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.647533077287167*^9, 3.647533086613652*^9}},
+ CellLabel->"In[9]:=",ExpressionUUID->"71cecc07-07ca-4dbe-a6ba-8141cccdeef3"],
+
+Cell[BoxData[
+ RowBox[{"MemberQ", "[", 
+  RowBox[{"stopwords", ",", "\"\<propaganda\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.647533077287167*^9, 3.647533102584702*^9}, {
+  3.734370090990694*^9, 3.7343700928387003`*^9}},
+ CellLabel->"In[10]:=",ExpressionUUID->"c5f11537-87a0-4fc3-a5ef-04f52dd9b87d"],
+
+Cell["\<\
+Here we define our function for identifying stopwords, or more accurately, \
+identifying non-stopwords. Since it returns a True or False, we give our \
+function a name that ends in a capital Q.\
+\>", "Text",
+ CellChangeTimes->{{3.647533114076302*^9, 3.6475331217724123`*^9}, {
+  3.64753689038878*^9, 3.647536902163259*^9}, {3.6813205761974697`*^9, 
+  3.681320599260427*^9}, {3.681481459537073*^9, 
+  3.6814814614080877`*^9}},ExpressionUUID->"2fb9ee92-e04b-4396-9658-\
+e64728560c2a"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"nonStopwordQ", "[", "w_", "]"}], ":=", "\[IndentingNewLine]", 
+  RowBox[{"Not", "[", 
+   RowBox[{"MemberQ", "[", 
+    RowBox[{"stopwords", ",", "w"}], "]"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.639671303261554*^9, 3.639671324381328*^9}, {
+   3.639671426826771*^9, 3.639671434274351*^9}, 3.642345194683137*^9},
+ CellLabel->"In[11]:=",ExpressionUUID->"de9f05ac-346a-4b50-bbd9-9872bf8d0abe"],
+
+Cell[BoxData[
+ RowBox[{"nonStopwordQ", "[", "\"\<about\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.647533136290168*^9, 3.6475331407077427`*^9}},
+ CellLabel->"In[12]:=",ExpressionUUID->"9d9c0ca6-5449-491b-b3f1-2c82cadd0be5"],
+
+Cell[BoxData[
+ RowBox[{"nonStopwordQ", "[", "\"\<propaganda\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.647533142344369*^9, 3.647533148267449*^9}, {
+  3.7343700962464743`*^9, 3.734370097990465*^9}},
+ CellLabel->"In[13]:=",ExpressionUUID->"ff97d3ad-7c8d-46c8-9da6-3a3a852997f0"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"539d499a-8f7c-4895-ba2c-ef38c3a00694"],
+
+Cell[CellGroupData[{
+
+Cell["Concordances", "Section",
+ CellChangeTimes->{{3.647531725239236*^9, 
+  3.647531727214785*^9}},ExpressionUUID->"bb724be0-20e7-4f7d-9545-\
+418df6ac6de2"],
+
+Cell["\<\
+A concordance is an alphabetical listing of the important words in a text, \
+showing the contexts in which they appear. We can create a concordance for \
+the Long Telegram by beginning with the list of 7-grams we created above.\
+\>", "Text",
+ CellChangeTimes->{{3.647532496517046*^9, 3.647532502778516*^9}, {
+  3.647532560064314*^9, 3.647532690091888*^9}, {3.681320168173009*^9, 
+  3.681320189195756*^9}, {3.734370151549141*^9, 
+  3.734370160067924*^9}},ExpressionUUID->"29d02da6-1208-4a86-a704-\
+8dd63e2c6ec9"],
+
+Cell["How many 7-grams are there?", "Text",
+ CellChangeTimes->{{3.681320213314755*^9, 
+  3.681320217402622*^9}},ExpressionUUID->"cd076dc4-df78-4bac-9647-\
+7d255cb05677"],
+
+Cell[BoxData[
+ RowBox[{"Length", "[", "kennan7Grams", "]"}]], "Input",
+ CellChangeTimes->{{3.6475334204802017`*^9, 3.6475334267383223`*^9}, {
+  3.681320199524357*^9, 3.681320219795335*^9}, {3.734370167315881*^9, 
+  3.734370168003971*^9}},
+ CellLabel->"In[14]:=",ExpressionUUID->"25e7e686-7975-4b77-9f26-eee59723324a"],
+
+Cell[TextData[{
+ "Next we will use the ",
+ StyleBox["Select",
+  FontWeight->"Bold"],
+ " command to select all the 7-grams that do not have a stopword as the \
+middle word (i.e., the fourth word). We don\[CloseCurlyQuote]t need to see \
+these 7-grams just yet, but we do want to know how many of them there are, so \
+we wrap our command in ",
+ StyleBox["Length",
+  FontWeight->"Bold"],
+ ". We can see that we have eliminated almost half of the original 7-grams."
+}], "Text",
+ CellChangeTimes->{{3.647533173347664*^9, 3.6475332500956573`*^9}, {
+  3.647533292638816*^9, 3.647533293526173*^9}, {3.6475333929309587`*^9, 
+  3.64753349999069*^9}, {3.647607692718781*^9, 3.647607704422442*^9}, {
+  3.681320231186558*^9, 3.68132025178553*^9}, {3.734370195755748*^9, 
+  3.7343701964427633`*^9}},ExpressionUUID->"fa4bec3e-96e8-405f-8ff7-\
+cea39dca792f"],
+
+Cell[BoxData[
+ RowBox[{"Length", "[", 
+  RowBox[{"Select", "[", 
+   RowBox[{"kennan7Grams", ",", 
+    RowBox[{
+     RowBox[{"nonStopwordQ", "[", 
+      RowBox[{"#", "\[LeftDoubleBracket]", "4", "\[RightDoubleBracket]"}], 
+      "]"}], "&"}]}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.647533274542533*^9, 3.6475333446840467`*^9}, {
+  3.647533387467815*^9, 3.6475333880669613`*^9}, {3.681320255929542*^9, 
+  3.681320262273157*^9}, {3.734370182116242*^9, 3.7343701826195097`*^9}},
+ CellLabel->"In[15]:=",ExpressionUUID->"cd3edf58-2885-43f4-b324-94a9b98b2279"],
+
+Cell[TextData[{
+ "Next we sort the 7-grams that we are keeping for our concordance. We want \
+to sort first by the middle word and then by the words after that, so we use \
+a command called ",
+ StyleBox["SortBy",
+  FontWeight->"Bold"],
+ " with a special ordering function. This is another example of an anonymous \
+function, but don\[CloseCurlyQuote]t worry about the details too much right \
+now. We wrap the whole command in ",
+ StyleBox["Short",
+  FontWeight->"Bold"],
+ " so we can see about 12 lines of the output."
+}], "Text",
+ CellChangeTimes->{{3.6475334852868443`*^9, 3.6475335332534237`*^9}, {
+   3.6475337497974033`*^9, 3.6475337652690287`*^9}, {3.6475344841724367`*^9, 
+   3.647534506474226*^9}, 3.647534569095854*^9, 3.647607721087104*^9, {
+   3.681320353421995*^9, 3.681320385156415*^9}, {3.6813204292022343`*^9, 
+   3.6813204364505453`*^9}, {3.681320475680586*^9, 3.6813204867926817`*^9}, 
+   3.7343704371543217`*^9},ExpressionUUID->"db2ab83e-c604-4d9a-964d-\
+dea25c76e230"],
+
+Cell[BoxData[
+ RowBox[{"Short", "[", "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"SortBy", "[", 
+    RowBox[{
+     RowBox[{"Select", "[", 
+      RowBox[{"kennan7Grams", ",", 
+       RowBox[{
+        RowBox[{"nonStopwordQ", "[", 
+         RowBox[{"#", "\[LeftDoubleBracket]", "4", "\[RightDoubleBracket]"}], 
+         "]"}], "&"}]}], "]"}], ",", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"#", "\[LeftDoubleBracket]", "4", "\[RightDoubleBracket]"}], 
+        ",", 
+        RowBox[{"#", "\[LeftDoubleBracket]", "5", "\[RightDoubleBracket]"}], 
+        ",", 
+        RowBox[{"#", "\[LeftDoubleBracket]", "6", "\[RightDoubleBracket]"}], 
+        ",", 
+        RowBox[{"#", "\[LeftDoubleBracket]", "7", "\[RightDoubleBracket]"}]}],
+        "}"}], "&"}]}], "]"}], "\[IndentingNewLine]", ",", "12"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.647533535669183*^9, 3.6475335795238132`*^9}, {
+   3.647533663561799*^9, 3.64753373890187*^9}, 3.647534467935771*^9, {
+   3.64753457229592*^9, 3.647534581039804*^9}, {3.681320393532407*^9, 
+   3.681320502072351*^9}, {3.7343702092513943`*^9, 3.734370209922441*^9}, 
+   3.7343704269567013`*^9},
+ CellLabel->"In[16]:=",ExpressionUUID->"d324e2bd-b996-4701-8942-d8fda5f20403"],
+
+Cell[TextData[{
+ "Note that the 7-grams in the list are now sorted by the middle word. \
+(Numbers sort before letters and appear in what is called \
+\[OpenCurlyQuote]lexicographic order\[CloseCurlyQuote], where the comparison \
+is done on a character-by-character basis. That is, ",
+ StyleBox["15",
+  FontSlant->"Italic"],
+ " appears before ",
+ StyleBox["1927",
+  FontSlant->"Italic"],
+ " because 5 is less than 9; ",
+ StyleBox["284",
+  FontSlant->"Italic"],
+ " appears before ",
+ StyleBox["3:52",
+  FontSlant->"Italic"],
+ " because 2 is less than 3, and so on.) Letters are sorted alphabetically, \
+as can be seen from the end of the list: ",
+ StyleBox["yielding",
+  FontSlant->"Italic"],
+ ", ",
+ StyleBox["yields",
+  FontSlant->"Italic"],
+ ", ",
+ StyleBox["young",
+  FontSlant->"Italic"],
+ ",",
+ StyleBox[" youth",
+  FontSlant->"Italic"],
+ ", ",
+ StyleBox["yugoslav",
+  FontSlant->"Italic"],
+ "."
+}], "Text",
+ CellChangeTimes->{{3.6813205113429832`*^9, 3.681320553614128*^9}, {
+  3.681320651691636*^9, 3.6813206534104633`*^9}, {3.6814815504535522`*^9, 
+  3.681481551331975*^9}, {3.734370238106009*^9, 3.734370290415333*^9}, {
+  3.734370334742579*^9, 3.734370340501738*^9}, {3.734370380059963*^9, 
+  3.7343704012512217`*^9}, {3.734370444665881*^9, 3.7343705281111603`*^9}, {
+  3.7343705710936613`*^9, 
+  3.7343706281396093`*^9}},ExpressionUUID->"a27a58ff-9dde-4735-abcf-\
+7a3abde6a2a4"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"0fd84193-6eab-4878-bc14-70a7b4e0a55e"],
+
+Cell[CellGroupData[{
+
+Cell["A concordance function", "Section",
+ CellChangeTimes->{{3.647534099105336*^9, 
+  3.6475341091045933`*^9}},ExpressionUUID->"3be8541e-a98a-4916-bba9-\
+2107b8202afc"],
+
+Cell[TextData[{
+ "It is very useful to be able to generate a concordance whenever we want \
+one, so we will create a function to do this. In the function we use some \
+formatting commands (",
+ StyleBox["Framed",
+  FontWeight->"Bold"],
+ ", ",
+ StyleBox["Pane",
+  FontWeight->"Bold"],
+ ", ",
+ StyleBox["Style",
+  FontWeight->"Bold"],
+ " and ",
+ StyleBox["TableForm",
+  FontWeight->"Bold"],
+ ") to present the output in a readable form."
+}], "Text",
+ CellChangeTimes->{{3.68132067862573*^9, 
+  3.681320761678328*^9}},ExpressionUUID->"849a879a-4df7-4381-82fb-\
+c4c98ac87c3a"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"concordance", "[", "textstring_", "]"}], ":=", 
+  "\[IndentingNewLine]", 
+  RowBox[{"Framed", "[", 
+   RowBox[{"Pane", "[", 
+    RowBox[{
+     RowBox[{"Style", "[", 
+      RowBox[{
+       RowBox[{"TableForm", "[", "\[IndentingNewLine]", 
+        RowBox[{"SortBy", "[", 
+         RowBox[{
+          RowBox[{"Select", "[", 
+           RowBox[{
+            RowBox[{"Partition", "[", 
+             RowBox[{
+              RowBox[{"ToLowerCase", "[", 
+               RowBox[{"TextWords", "[", "textstring", "]"}], "]"}], ",", "7",
+               ",", "1"}], "]"}], ",", 
+            RowBox[{
+             RowBox[{"nonStopwordQ", "[", 
+              RowBox[{
+              "#", "\[LeftDoubleBracket]", "4", "\[RightDoubleBracket]"}], 
+              "]"}], "&"}]}], "]"}], ",", 
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{
+             "#", "\[LeftDoubleBracket]", "4", "\[RightDoubleBracket]"}], ",", 
+             RowBox[{
+             "#", "\[LeftDoubleBracket]", "5", "\[RightDoubleBracket]"}], ",", 
+             RowBox[{
+             "#", "\[LeftDoubleBracket]", "6", "\[RightDoubleBracket]"}], ",", 
+             RowBox[{
+             "#", "\[LeftDoubleBracket]", "7", "\[RightDoubleBracket]"}]}], 
+            "}"}], "&"}]}], "]"}], "\[IndentingNewLine]", "]"}], ",", 
+       "\"\<Small\>\""}], "]"}], ",", "\[IndentingNewLine]", 
+     RowBox[{"{", 
+      RowBox[{"Automatic", ",", "200"}], "}"}], ",", 
+     RowBox[{"Scrollbars", "\[Rule]", "True"}]}], "]"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.6813208677887897`*^9, 3.6813210259817657`*^9}},
+ CellLabel->"In[17]:=",ExpressionUUID->"e159ca81-3573-4e13-a887-2c89d840afbc"],
+
+Cell["\<\
+If we give our function a string containing text, it will return a scrollable \
+window containing a concordance.\
+\>", "Text",
+ CellChangeTimes->{{3.681320816507962*^9, 
+  3.681320843971436*^9}},ExpressionUUID->"1726bccf-fa84-4bb6-9db0-\
+64eda7e26b1d"],
+
+Cell[BoxData[
+ RowBox[{"concordance", "[", "kennanLongTelegramText", "]"}]], "Input",
+ CellChangeTimes->{{3.647533996991057*^9, 3.6475340086570177`*^9}, 
+   3.6813208554361153`*^9, {3.734370681786211*^9, 3.734370683595817*^9}},
+ CellLabel->"In[18]:=",ExpressionUUID->"32a4977a-8fad-45a4-89c0-dc39e3532054"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"40b52d17-7129-43d8-9749-e857d236c7a4"],
+
+Cell[CellGroupData[{
+
+Cell["Finding one term near another", "Section",
+ CellChangeTimes->{{3.6473429438950644`*^9, 3.647342944950231*^9}, {
+   3.647353742456744*^9, 3.647353748014737*^9}, {3.681296708530692*^9, 
+   3.6812967094017897`*^9}, 
+   3.6814816446682377`*^9},ExpressionUUID->"03015180-15ed-4779-bf2f-\
+6aba2ab2ba0d"],
+
+Cell["\<\
+If you are search for a fixed length phrase, n-grams can be very useful. Many \
+proper nouns, for example, are bigrams or trigrams: \
+\[OpenCurlyDoubleQuote]George Kennan\[CloseCurlyDoubleQuote]. Phrases can \
+often expand in an arbitrary way, however: \[OpenCurlyDoubleQuote]the dog\
+\[CloseCurlyDoubleQuote], \[OpenCurlyDoubleQuote]the brown dog\
+\[CloseCurlyDoubleQuote], \[OpenCurlyDoubleQuote]the old brown dog\
+\[CloseCurlyDoubleQuote], and \[OpenCurlyDoubleQuote]the old brown dog who \
+lives down the street\[CloseCurlyDoubleQuote] may all be used to refer to the \
+same entity. Here we search for terms that are in the same sentence.\
+\>", "Text",
+ CellChangeTimes->{{3.6476118172462883`*^9, 3.6476119015304327`*^9}, {
+  3.6476119523772173`*^9, 3.647612097987029*^9}, {3.6476122666632347`*^9, 
+  3.647612268052699*^9}, {3.6814818566742487`*^9, 3.681481897919392*^9}, {
+  3.734370860636136*^9, 3.734370863355054*^9}, {3.7343709058585377`*^9, 
+  3.734370931929282*^9}},ExpressionUUID->"ca4b5363-f328-43b1-b6ec-\
+22d827817e77"],
+
+Cell["We start by creating a list of lowercase sentences.", "Text",
+ CellChangeTimes->{{3.6814825992798033`*^9, 
+  3.681482606692095*^9}},ExpressionUUID->"48d13b7e-ae13-40c7-9a78-\
+4a495c354dc4"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"kennanSentences", "=", 
+   RowBox[{"ToLowerCase", "[", 
+    RowBox[{"TextSentences", "[", "kennanLongTelegramText", "]"}], "]"}]}], 
+  ";"}]], "Input",
+ CellChangeTimes->{{3.68148191158503*^9, 3.681481954510302*^9}, {
+  3.734370954016469*^9, 3.734370960714098*^9}},
+ CellLabel->"In[19]:=",ExpressionUUID->"8fcfdcca-2826-4ddc-9ab2-c282f1f2a54f"],
+
+Cell[TextData[{
+ "We then define a function that uses the ",
+ StyleBox["StringCases",
+  FontWeight->"Bold"],
+ " command to pull out all sentences that begin with zero or more characters, \
+followed by a word boundary, the first keyword, another word boundary, and \
+finally zero or more characters. Once we have this list, we use a second \
+StringCases command to pull out those sentences that also contain the second \
+keyword (using a similar pattern). The ",
+ StyleBox["Flatten",
+  FontWeight->"Bold"],
+ " commands get rid of nested lists. The ",
+ StyleBox["TabView",
+  FontWeight->"Bold"],
+ " command lets us tab through a set of results. "
+}], "Text",
+ CellChangeTimes->{{3.6814826097799807`*^9, 
+  3.6814827310664673`*^9}},ExpressionUUID->"6301812a-d68f-40dd-ab03-\
+564802e33f15"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"searchNear", "[", 
+   RowBox[{"sentencelist_", ",", "kw1_", ",", "kw2_"}], "]"}], ":=", 
+  "\[IndentingNewLine]", 
+  RowBox[{"TabView", "[", 
+   RowBox[{"Flatten", "[", 
+    RowBox[{"StringCases", "[", "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{"Flatten", "[", 
+       RowBox[{"StringCases", "[", 
+        RowBox[{"sentencelist", ",", 
+         RowBox[{
+         "___", "~~", "WordBoundary", "~~", "kw1", "~~", "WordBoundary", "~~",
+           "___"}]}], "]"}], "]"}], ",", 
+      RowBox[{
+      "___", "~~", "WordBoundary", "~~", "kw2", "~~", "WordBoundary", "~~", 
+       "___"}]}], "]"}], "]"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.6814819811913757`*^9, 3.6814821674540863`*^9}, {
+  3.6814822060686502`*^9, 3.6814822773900023`*^9}, {3.681482415804696*^9, 
+  3.681482508968914*^9}},
+ CellLabel->"In[20]:=",ExpressionUUID->"417f2d0a-8a5c-4136-9122-851171c5294b"],
+
+Cell["\<\
+Here is how we call our search function. All sentences that have both \
+\[OpenCurlyDoubleQuote]soviet\[CloseCurlyDoubleQuote] and \
+\[OpenCurlyDoubleQuote]policy\[CloseCurlyDoubleQuote] in them.\
+\>", "Text",
+ CellChangeTimes->{{3.681482590182221*^9, 3.681482592774424*^9}, {
+  3.681482729560937*^9, 3.681482754774499*^9}, {3.734371037725553*^9, 
+  3.73437104579641*^9}},ExpressionUUID->"aee4ddad-0b4c-4af2-aa26-\
+5343d64ba18e"],
+
+Cell[BoxData[
+ RowBox[{"searchNear", "[", 
+  RowBox[{"kennanSentences", ",", "\"\<soviet\>\"", ",", "\"\<policy\>\""}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.681482116283393*^9, 3.681482129166587*^9}, {
+  3.681482299897382*^9, 3.681482330014975*^9}, {3.734371050133271*^9, 
+  3.7343710650679502`*^9}},
+ CellLabel->"In[21]:=",ExpressionUUID->"30f977f1-2918-4441-b0b5-9b09d6f4acb2"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"c8b2e6e7-31bf-461e-8480-47d418e8ce4a"],
+
+Cell[CellGroupData[{
+
+Cell["Activity", "Section",
+ CellChangeTimes->{{3.6475341566812973`*^9, 
+  3.647534162790646*^9}},ExpressionUUID->"2d372373-6187-499a-8a63-\
+71a087843cec"],
+
+Cell["\<\
+We will recreate the steps we learned so we can analyze the background text \
+from the Truman Library website\
+\>", "Text",
+ CellChangeTimes->{{3.6475341713980827`*^9, 3.6475341798221197`*^9}, {
+  3.647534619837825*^9, 3.647534630813725*^9}, {3.647534793929118*^9, 
+  3.647534807663137*^9}, {3.647534866752314*^9, 3.64753487525303*^9}, {
+  3.681482827172615*^9, 3.6814828894813757`*^9}, {3.734371535755725*^9, 
+  3.734371548650625*^9}},ExpressionUUID->"2eda30b4-9c82-4cff-96ad-\
+090669af12d0"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"coldWarBackgroundText", "=", " ", 
+   RowBox[{"First", "[", 
+    RowBox[{"StringCases", "[", 
+     RowBox[{
+      RowBox[{"Import", "[", 
+       RowBox[{
+       "\"\<https://web.archive.org/web/20180506192251/https://www.\
+trumanlibrary.org/whistlestop/study_collections/coldwar/index.php?action=bg\>\
+\"", ",", "\"\<Plaintext\>\""}], "]"}], ",", 
+      RowBox[{
+       RowBox[{"Shortest", "[", 
+        RowBox[{
+        "\"\<Other Resources\>\"", "~~", "Whitespace", "~~", 
+         "\"\<Background\>\"", "~~", "x__", "~~", "\"\<Chronology\>\""}], 
+        "]"}], "\[Rule]", "x"}]}], "]"}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.7343713513947687`*^9, 3.734371503791689*^9}, 
+   3.734371557076334*^9, {3.734623783727376*^9, 3.7346237843142357`*^9}},
+ CellLabel->"In[22]:=",ExpressionUUID->"d46df53d-8015-41c4-80b6-67ccff934910"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"coldWarBackground7Grams", "=", 
+   RowBox[{"Partition", "[", 
+    RowBox[{
+     RowBox[{"ToLowerCase", "[", 
+      RowBox[{"TextWords", "[", "coldWarBackgroundText", "]"}], "]"}], ",", 
+     "7", ",", "1"}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.681319684475506*^9, 3.681319734558071*^9}, {
+  3.681319894816059*^9, 3.68131993961357*^9}, {3.681319977244248*^9, 
+  3.6813199850999928`*^9}, {3.681482908377823*^9, 3.681482912184772*^9}, {
+  3.734371574930578*^9, 3.73437158222836*^9}},
+ CellLabel->"In[23]:=",ExpressionUUID->"e58bd8df-f350-4c24-896c-3b418cad09c7"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"coldWarBackgroundSentences", "=", 
+   RowBox[{"ToLowerCase", "[", 
+    RowBox[{"TextSentences", "[", "coldWarBackgroundText", "]"}], "]"}]}], 
+  ";"}]], "Input",
+ CellChangeTimes->{{3.68148191158503*^9, 3.681481954510302*^9}, {
+  3.681482941672496*^9, 3.681482944807268*^9}, {3.73437158666227*^9, 
+  3.734371592523793*^9}},
+ CellLabel->"In[24]:=",ExpressionUUID->"90b35f72-7a8e-4cd3-83fe-76c513ba593f"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"coldWarBackgroundFrequencies", "=", 
+   RowBox[{"WordCounts", "[", 
+    RowBox[{"coldWarBackgroundText", ",", 
+     RowBox[{"IgnoreCase", "\[Rule]", "True"}]}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.6814831670911818`*^9, 3.681483191126843*^9}, {
+  3.7343715969656353`*^9, 3.734371602628199*^9}},
+ CellLabel->"In[25]:=",ExpressionUUID->"32f32b8c-bb67-44a1-87bf-c6299dd4a49a"],
+
+Cell[TextData[{
+ "Now that these three symbols have been defined, you can create a \
+concordance for the text and use the ",
+ StyleBox["searchNear",
+  FontSlant->"Italic"],
+ " function on it."
+}], "Text",
+ CellChangeTimes->{{3.681482949079008*^9, 3.6814829850616827`*^9}, {
+  3.734371630151602*^9, 
+  3.734371631655764*^9}},ExpressionUUID->"353e1d1d-009b-4ccd-980b-\
+adf6705520ee"],
+
+Cell[BoxData[
+ RowBox[{"concordance", "[", "coldWarBackgroundText", "]"}]], "Input",
+ CellChangeTimes->{{3.647533996991057*^9, 3.6475340086570177`*^9}, 
+   3.6813208554361153`*^9, {3.734370681786211*^9, 3.734370683595817*^9}, {
+   3.734371663460229*^9, 3.734371681078774*^9}},
+ CellLabel->"In[26]:=",ExpressionUUID->"67edde01-410e-46aa-a686-b3fc544e96bd"],
+
+Cell[CellGroupData[{
+
+Cell["Questions", "Subsubsection",
+ CellChangeTimes->{{3.6475348163995247`*^9, 
+  3.64753481729473*^9}},ExpressionUUID->"6721842f-32f3-4d66-adbf-\
+7eba9aa9f5a0"],
+
+Cell["\<\
+We already had the ability to find keywords in context by searching. What new \
+functionality does the concordance give us? What are some things you can \
+learn about the Long Telegram or the historical background text from the \
+concordance that would be difficult to discover by searching or looking at \
+word / n-gram frequencies?\
+\>", "Text",
+ CellChangeTimes->{{3.647536934138349*^9, 3.647537091508565*^9}, {
+  3.681483032493475*^9, 3.681483046059376*^9}, {3.734371751660219*^9, 
+  3.73437177023483*^9}},ExpressionUUID->"85e072da-0a9e-45ee-acc5-\
+fd033136ec1a"],
+
+Cell["\<\
+By eliminating punctuation, we are losing information about a very important \
+class of linguistic expressions. What are they? How might we modify our tools \
+to keep this information?\
+\>", "Text",
+ CellChangeTimes->{{3.647535012064481*^9, 3.6475350872773037`*^9}, {
+  3.647543104875998*^9, 
+  3.647543105362689*^9}},ExpressionUUID->"45122289-82dd-4485-96a6-\
+3f36957bfdb5"],
+
+Cell["\<\
+Use the following command to look at the most common words in the background \
+text that aren\[CloseCurlyQuote]t stop words. What might you use this \
+technique for?\
+\>", "Text",
+ CellChangeTimes->{{3.647535629425025*^9, 3.647535680007732*^9}, {
+  3.647535710062306*^9, 3.647535746773262*^9}, {3.734371951940819*^9, 
+  3.734371962019751*^9}, {3.734371997411394*^9, 
+  3.734372004114457*^9}},ExpressionUUID->"e99fce74-b06b-4886-ba5c-\
+a5bf6ce08c63"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Select", "[", 
+   RowBox[{
+    RowBox[{"Keys", "[", "coldWarBackgroundFrequencies", "]"}], ",", " ", 
+    "nonStopwordQ"}], "]"}], "[", 
+  RowBox[{"[", 
+   RowBox[{"1", " ", ";;", " ", "20"}], "]"}], "]"}]], "Code",
+ Evaluatable->False,
+ CellChangeTimes->{{3.734371907010354*^9, 3.734371934730063*^9}, 
+   3.734432655336302*^9, {3.7344326861916733`*^9, 3.734432686193294*^9}},
+ CellLabel->"In[1]:=",ExpressionUUID->"7611d878-952a-4217-ade8-700fddf22557"],
+
+Cell["\<\
+Now try finding the most common non-stopwords in the Long Telegram\
+\>", "Text",
+ CellChangeTimes->{{3.734372073376443*^9, 3.7343720847353153`*^9}, {
+  3.734372214020442*^9, 
+  3.7343722145548573`*^9}},ExpressionUUID->"b3732fe1-cbc5-4b79-811c-\
+a3080c4b1127"]
+}, Open  ]],
+
+Cell["Discussion", "Subsubsection",
+ CellChangeTimes->{{3.6475348191026917`*^9, 
+  3.6475348208948717`*^9}},ExpressionUUID->"13464170-664e-4144-9110-\
+80778e821c56"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"6ba5e8d1-675a-41a9-8923-26ba62e5f8af"],
+
+Cell[CellGroupData[{
+
+Cell["Pulling material in quotation marks", "Section",
+ CellChangeTimes->{{3.647542236426332*^9, 3.647542243849832*^9}, {
+  3.734372701162232*^9, 3.734372702257378*^9}, {3.73443290265877*^9, 
+  3.7344329033306303`*^9}},ExpressionUUID->"d47dd6b5-6271-476e-8126-\
+1744e1316510"],
+
+Cell[TextData[{
+ "If we use the ",
+ StyleBox["TextSentences",
+  FontWeight->"Bold"],
+ " command to split a string into a list of sentences, we can then use ",
+ StyleBox["StringCases",
+  FontWeight->"Bold"],
+ " to pull out those phrases that begin and end with a quotation mark. Since \
+strings in ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " usually begin and end with quotation marks, we need a way of enclosing one \
+quotation mark within a pair of quotation marks. We do this by ",
+ StyleBox["escaping",
+  FontSlant->"Italic"],
+ " the character, putting a backslash in front of it."
+}], "Text",
+ CellChangeTimes->{{3.64754232929491*^9, 3.64754233001469*^9}, {
+  3.647542588820999*^9, 3.6475426416435204`*^9}, {3.647542774607885*^9, 
+  3.6475428306607227`*^9}, {3.7343723743103523`*^9, 
+  3.734372375125469*^9}},ExpressionUUID->"4c9c8617-95b9-480e-addc-\
+05ebea636f32"],
+
+Cell[BoxData[
+ RowBox[{"Flatten", "[", 
+  RowBox[{"StringCases", "[", 
+   RowBox[{
+    RowBox[{"TextSentences", "[", "coldWarBackgroundText", "]"}], ",", 
+    RowBox[{"Shortest", "[", 
+     RowBox[{"\"\<\\\"\>\"", "~~", "__", "~~", "\"\<\\\"\>\""}], "]"}]}], 
+   "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.6475423355217943`*^9, 3.647542353933947*^9}, {
+  3.6475424290999823`*^9, 3.647542534511786*^9}, {3.647542572751259*^9, 
+  3.6475425758062067`*^9}, {3.6475428859954777`*^9, 3.6475428924584084`*^9}, {
+  3.647542949425243*^9, 3.6475429577766*^9}, {3.734372266841799*^9, 
+  3.734372280027979*^9}, {3.73437240658913*^9, 3.7343724108766537`*^9}},
+ CellLabel->"In[27]:=",ExpressionUUID->"04db90d3-aca4-49c3-8eda-979dcb57f863"],
+
+Cell[TextData[{
+ "By limiting our search context to sentences, we lose longer quotations. If \
+we want to include those, we can simply remove the ",
+ StyleBox["TextSentences",
+  FontWeight->"Bold"],
+ " command"
+}], "Text",
+ CellChangeTimes->{{3.7344328694125557`*^9, 
+  3.734432939601478*^9}},ExpressionUUID->"b57dac5d-d3c8-498f-8cc0-\
+e27364ba7eec"],
+
+Cell[BoxData[
+ RowBox[{"Flatten", "[", 
+  RowBox[{"StringCases", "[", 
+   RowBox[{"coldWarBackgroundText", ",", 
+    RowBox[{"Shortest", "[", 
+     RowBox[{"\"\<\\\"\>\"", "~~", "__", "~~", "\"\<\\\"\>\""}], "]"}]}], 
+   "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.6475423355217943`*^9, 3.647542353933947*^9}, {
+  3.6475424290999823`*^9, 3.647542534511786*^9}, {3.647542572751259*^9, 
+  3.6475425758062067`*^9}, {3.6475428859954777`*^9, 3.6475428924584084`*^9}, {
+  3.647542949425243*^9, 3.6475429577766*^9}, {3.734372266841799*^9, 
+  3.734372280027979*^9}, {3.73437240658913*^9, 3.7343724108766537`*^9}, {
+  3.734432880405349*^9, 3.7344328819645987`*^9}},
+ CellLabel->"In[28]:=",ExpressionUUID->"59b99be1-e901-4ea0-9154-c1e46ffe9b13"],
+
+Cell["\<\
+If we try to use this command on the Long Telegram, however, we don\
+\[CloseCurlyQuote]t get any hits, even though we can see there are quotations \
+in the text.\
+\>", "Text",
+ CellChangeTimes->{{3.734432961032693*^9, 
+  3.73443301843847*^9}},ExpressionUUID->"d4826125-7a34-48e5-af63-\
+699518d4ecb8"],
+
+Cell[BoxData[
+ RowBox[{"Flatten", "[", 
+  RowBox[{"StringCases", "[", 
+   RowBox[{"kennanLongTelegramText", ",", 
+    RowBox[{"Shortest", "[", 
+     RowBox[{"\"\<\\\"\>\"", "~~", "__", "~~", "\"\<\\\"\>\""}], "]"}]}], 
+   "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.734433007960054*^9, 3.734433010254973*^9}},
+ CellLabel->"In[29]:=",ExpressionUUID->"4bc76b2b-f1cf-476c-9dde-0b77393956c9"],
+
+Cell["\<\
+The problem is that the document has been formatted with so-called smart \
+quotes instead of straight quotes. So we have to match the left and right \
+quotation marks as follows. Note that we do not have to escape the characters \
+with backslashes in this case.\
+\>", "Text",
+ CellChangeTimes->{{3.734433022086437*^9, 3.734433119515856*^9}, {
+  3.734433480654622*^9, 
+  3.734433506236833*^9}},ExpressionUUID->"be59f2c4-8f73-483b-af82-\
+97a0c8cfd7bb"],
+
+Cell[BoxData[
+ RowBox[{"Flatten", "[", 
+  RowBox[{"StringCases", "[", 
+   RowBox[{"kennanLongTelegramText", ",", 
+    RowBox[{"Shortest", "[", 
+     RowBox[{
+     "\"\<\[OpenCurlyDoubleQuote]\>\"", "~~", "__", "~~", " ", 
+      "\"\<\[CloseCurlyDoubleQuote]\>\""}], "]"}]}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.734433007960054*^9, 3.734433010254973*^9}, {
+  3.734433112081356*^9, 3.7344331401384087`*^9}, {3.734433232637726*^9, 
+  3.734433269797653*^9}, {3.734433369340025*^9, 3.734433424248106*^9}},
+ CellLabel->"In[30]:=",ExpressionUUID->"dddfe621-a949-4b5f-ad5f-4b956a7cfa11"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"e464513d-fd1b-46cd-a6a7-f114e2dccdf6"],
+
+Cell[CellGroupData[{
+
+Cell["Word histories", "Section",
+ CellChangeTimes->{{3.6473429438950644`*^9, 3.647342944950231*^9}, {
+  3.647353742456744*^9, 3.647353748014737*^9}, {3.681296708530692*^9, 
+  3.6812967094017897`*^9}, {3.734372759848816*^9, 3.7343727635501204`*^9}, {
+  3.7344336060980587`*^9, 
+  3.7344336123131323`*^9}},ExpressionUUID->"da37ea98-8f30-44f9-afbf-\
+a964e2e07be6"],
+
+Cell[TextData[{
+ "Some of the words that are used in the Long Telegram reflect the political \
+situation of the period and are no longer used as frequently now. The ",
+ StyleBox["WordFrequencyData",
+  FontWeight->"Bold"],
+ " command allows us to study word frequency over time."
+}], "Text",
+ CellChangeTimes->{{3.7344336199047403`*^9, 3.73443366475914*^9}, {
+  3.7344338982714043`*^9, 
+  3.734433939981357*^9}},ExpressionUUID->"2cc25e5f-57e3-428d-a8e9-\
+fe1297393ef7"],
+
+Cell[BoxData[
+ RowBox[{"DateListPlot", "[", 
+  RowBox[{
+   RowBox[{"WordFrequencyData", "[", 
+    RowBox[{"\"\<bolshevik\>\"", ",", "\"\<TimeSeries\>\""}], "]"}], ",", 
+   RowBox[{"PlotRange", "\[Rule]", "Full"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.734433713373796*^9, 3.734433731660788*^9}, {
+  3.73443386224109*^9, 3.7344338668480883`*^9}, {3.73443449884276*^9, 
+  3.734434502296927*^9}},
+ CellLabel->"In[31]:=",ExpressionUUID->"428c1b3f-2fd4-4b28-a0fa-8547975eabbd"],
+
+Cell[BoxData[
+ RowBox[{"DateListPlot", "[", 
+  RowBox[{
+   RowBox[{"WordFrequencyData", "[", 
+    RowBox[{"\"\<ussr\>\"", ",", "\"\<TimeSeries\>\""}], "]"}], ",", 
+   RowBox[{"PlotRange", "\[Rule]", "Full"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.734433713373796*^9, 3.734433731660788*^9}, {
+   3.73443386224109*^9, 3.7344338668480883`*^9}, {3.734433987069137*^9, 
+   3.73443398752369*^9}, 3.734434513670162*^9},
+ CellLabel->"In[32]:=",ExpressionUUID->"3ae0883c-705a-43cc-8c44-693f898b6130"],
+
+Cell[BoxData[
+ RowBox[{"DateListPlot", "[", 
+  RowBox[{
+   RowBox[{"WordFrequencyData", "[", 
+    RowBox[{"\"\<comintern\>\"", ",", "\"\<TimeSeries\>\""}], "]"}], ",", 
+   RowBox[{"PlotRange", "\[Rule]", "Full"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.734433713373796*^9, 3.734433731660788*^9}, {
+   3.73443386224109*^9, 3.7344338668480883`*^9}, {3.734433987069137*^9, 
+   3.73443398752369*^9}, {3.734434037203299*^9, 3.734434038545897*^9}, 
+   3.7344345184458923`*^9},
+ CellLabel->"In[33]:=",ExpressionUUID->"9aed5571-75fb-4abe-a5c8-2d29a4c31112"],
+
+Cell[TextData[{
+ "If we need some quick information about the meaning of a term, we can query \
+",
+ StyleBox["Wikipedia",
+  FontSlant->"Italic"],
+ " from within ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"]
+}], "Text",
+ CellChangeTimes->{{3.734434247554667*^9, 
+  3.734434284472624*^9}},ExpressionUUID->"1ddb8f93-b845-41c9-a2a2-\
+cedc91302912"],
+
+Cell[BoxData[
+ RowBox[{"WikipediaSearch", "[", "\"\<comintern\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.734434126806508*^9, 3.734434170540917*^9}},
+ CellLabel->"In[34]:=",ExpressionUUID->"a5807878-c48a-4efd-bb20-f50f9f0268c6"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"TextSentences", "[", 
+   RowBox[{"WikipediaData", "[", "\"\<Comintern\>\"", "]"}], "]"}], 
+  "\[LeftDoubleBracket]", 
+  RowBox[{";;", "2"}], "\[RightDoubleBracket]"}]], "Input",
+ CellChangeTimes->{{3.7344341968763113`*^9, 3.734434242444231*^9}, 
+   3.734434336729985*^9},
+ CellLabel->"In[35]:=",ExpressionUUID->"4ce37a04-87f6-47d6-883e-7a39e7f0f848"],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.7344351152365103`*^9, 3.73443512195404*^9}},
+ CellLabel->"In[36]:=",ExpressionUUID->"235bb366-348f-4df1-953a-2a164efbbd67"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"28c73fe8-ef9e-4d0d-964c-55832de01742"],
+
+Cell[CellGroupData[{
+
+Cell["Wikipedia popularity data", "Section",
+ CellChangeTimes->{{3.6475408254613047`*^9, 3.647540829324939*^9}, {
+  3.647543187920402*^9, 
+  3.64754319190361*^9}},ExpressionUUID->"46697d04-00aa-4057-8c7c-\
+ed3f38d58592"],
+
+Cell["\<\
+We can also request data about the number of page hits an article receives \
+each day on Wikipedia. \
+\>", "Text",
+ CellChangeTimes->{{3.647543221014758*^9, 3.647543308587325*^9}, {
+   3.647543403095599*^9, 3.647543419759075*^9}, {3.6476138273663187`*^9, 
+   3.647613831500553*^9}, 3.7344344106378508`*^9, {3.7344345751114798`*^9, 
+   3.734434623500718*^9}},ExpressionUUID->"c0288bf1-abc8-40dd-aeb5-\
+5d8ae80713e3"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"cominternPageHits", "=", 
+   RowBox[{"WikipediaData", "[", 
+    RowBox[{"\"\<Comintern\>\"", ",", "\"\<DailyPageHits\>\""}], "]"}]}], 
+  ";"}]], "Input",
+ CellChangeTimes->{{3.734434676758029*^9, 3.734434688686715*^9}},
+ CellLabel->"In[37]:=",ExpressionUUID->"5e11e77d-d5a9-4e74-a2e9-04991782e896"],
+
+Cell[BoxData[
+ RowBox[{"DateListPlot", "[", 
+  RowBox[{"cominternPageHits", ",", 
+   RowBox[{"PlotRange", "\[Rule]", "Full"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.7344344407549973`*^9, 3.734434456490464*^9}, {
+  3.734434536184355*^9, 3.734434558526841*^9}, {3.734434686612257*^9, 
+  3.734434693428172*^9}},
+ CellLabel->"In[38]:=",ExpressionUUID->"bd3ed9c1-2f18-4267-a3df-38f7761a4f3a"],
+
+Cell["\<\
+The time series that we requested includes a lot of information that can be \
+extracted with further commands\
+\>", "Text",
+ CellChangeTimes->{{3.734434810870013*^9, 
+  3.734434838292521*^9}},ExpressionUUID->"ad00e326-612e-417a-bb13-\
+715c818d6c59"],
+
+Cell[BoxData[
+ RowBox[{"cominternPageHits", "[", "\"\<Properties\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.7344348404398947`*^9, 3.734434846571986*^9}},
+ CellLabel->"In[39]:=",ExpressionUUID->"22c22880-7c03-4b41-bb9e-f4a32b0b61c9"],
+
+Cell["Here we retrieve the dates (and values) of the four peaks", "Text",
+ CellChangeTimes->{{3.734434642676271*^9, 3.734434670122429*^9}, {
+  3.734434857060545*^9, 
+  3.734434866203329*^9}},ExpressionUUID->"846ea67e-228c-4cbb-8f4b-\
+6ad9f185abc9"],
+
+Cell[BoxData[
+ RowBox[{"TableForm", "[", 
+  RowBox[{"TakeLargestBy", "[", 
+   RowBox[{
+    RowBox[{"cominternPageHits", "[", "\"\<DatePath\>\"", "]"}], ",", 
+    RowBox[{
+     RowBox[{"#", "\[LeftDoubleBracket]", "2", "\[RightDoubleBracket]"}], 
+     "&"}], ",", "4"}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.734434915638074*^9, 3.734435041965858*^9}},
+ CellLabel->"In[40]:=",ExpressionUUID->"5ee43a80-dcab-46bf-80f5-826967f801ab"],
+
+Cell["\<\
+For historical topics, this kind of data can be used to make an argument \
+about historical consciousness. Why would there be a sudden interest in the \
+Communist International on 7 Nov 2017?\
+\>", "Text",
+ CellChangeTimes->{{3.734434625158643*^9, 3.734434627733817*^9}, {
+  3.7344351661291447`*^9, 
+  3.734435211678871*^9}},ExpressionUUID->"29359c5a-78d4-4a03-ae1d-\
+b48545aa1c88"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"TextSentences", "[", 
+   RowBox[{"WikipediaData", "[", "\"\<October Revolution\>\"", "]"}], "]"}], 
+  "\[LeftDoubleBracket]", 
+  RowBox[{";;", "4"}], "\[RightDoubleBracket]"}]], "Input",
+ CellChangeTimes->{{3.734435230647406*^9, 3.734435265980937*^9}, {
+  3.734435311428165*^9, 3.734435315083949*^9}, {3.734435346619729*^9, 
+  3.7344353695529623`*^9}, {3.734435422744985*^9, 3.734435454198008*^9}, {
+  3.734435489134494*^9, 3.7344355329712067`*^9}, {3.734435591554834*^9, 
+  3.7344356445039597`*^9}},
+ CellLabel->"In[41]:=",ExpressionUUID->"2794ab56-43b2-41ac-a6ee-e8b2fd0e5e22"],
+
+Cell["\<\
+So 7 Nov 2017 was the centennial, the one hundredth anniversary, of the start \
+of the October Revolution. Why the renewed interest on 2 March 2018?\
+\>", "Text",
+ CellChangeTimes->{{3.734435754235569*^9, 3.7344357662584877`*^9}, {
+  3.7346238925614157`*^9, 
+  3.734623946463518*^9}},ExpressionUUID->"da0ef86f-6413-4b6a-8767-\
+8e27a40084b2"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"76abbae7-0e8e-4310-9c3e-fd1d704cc4ce"],
+
+Cell[CellGroupData[{
+
+Cell["Upload your notebook", "Section",
+ CellChangeTimes->{{3.649950784924818*^9, 
+  3.649950788859275*^9}},ExpressionUUID->"7076f87c-cac4-436f-bec6-\
+c6ba04da3e53"],
+
+Cell["\<\
+Don\[CloseCurlyQuote]t forget to upload a copy of your notebook for this \
+class to the OWL Site for the course\
+\>", "Text",
+ CellChangeTimes->{{3.649950792779258*^9, 
+  3.649950818634288*^9}},ExpressionUUID->"0cb5ab92-5ca0-47aa-8f69-\
+ceae86bef4aa"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1208, 1107},
+WindowMargins->{{Automatic, 542}, {Automatic, 113}},
+TaggingRules->{"SlideShow" -> True},
+Magnification:>1.25 Inherited,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "SlideShowHeader"->{
+  Cell[580, 22, 4441, 99, 75, "SlideShowNavigationBar",ExpressionUUID->"9e96ac5a-fc77-4986-af95-59bd741a2fea",
+   CellTags->"SlideShowHeader"],
+  Cell[5943, 150, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"e9670532-2155-4a23-bb58-a6b1e6e69e1b",
+   CellTags->"SlideShowHeader"],
+  Cell[6854, 179, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"2c14a28c-4480-4b54-b3c9-29f2562b9928",
+   CellTags->"SlideShowHeader"],
+  Cell[10487, 272, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"01a7644d-7ab3-44db-9a4c-6dfcc734022a",
+   CellTags->"SlideShowHeader"],
+  Cell[13955, 360, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"6aaac673-ef15-4845-a8d8-d015f897d1f2",
+   CellTags->"SlideShowHeader"],
+  Cell[18112, 467, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"198ff727-9e6b-4b57-bfc0-0124604f3d1d",
+   CellTags->"SlideShowHeader"],
+  Cell[23004, 593, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"539d499a-8f7c-4895-ba2c-ef38c3a00694",
+   CellTags->"SlideShowHeader"],
+  Cell[29399, 757, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"0fd84193-6eab-4878-bc14-70a7b4e0a55e",
+   CellTags->"SlideShowHeader"],
+  Cell[32621, 850, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"40b52d17-7129-43d8-9749-e857d236c7a4",
+   CellTags->"SlideShowHeader"],
+  Cell[37278, 962, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"c8b2e6e7-31bf-461e-8480-47d418e8ce4a",
+   CellTags->"SlideShowHeader"],
+  Cell[43784, 1130, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"6ba5e8d1-675a-41a9-8923-26ba62e5f8af",
+   CellTags->"SlideShowHeader"],
+  Cell[48725, 1253, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"e464513d-fd1b-46cd-a6a7-f114e2dccdf6",
+   CellTags->"SlideShowHeader"],
+  Cell[52430, 1349, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"28c73fe8-ef9e-4d0d-964c-55832de01742",
+   CellTags->"SlideShowHeader"],
+  Cell[56560, 1455, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"76abbae7-0e8e-4310-9c3e-fd1d704cc4ce",
+   CellTags->"SlideShowHeader"]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"SlideShowHeader", 57547, 1489}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 4441, 99, 75, "SlideShowNavigationBar",ExpressionUUID->"9e96ac5a-fc77-4986-af95-59bd741a2fea",
+ CellTags->"SlideShowHeader"],
+Cell[5024, 123, 479, 10, 200, "Title",ExpressionUUID->"aa051a0f-7949-4116-8cf8-39faced7daf4"],
+Cell[5506, 135, 400, 10, 108, "Subtitle",ExpressionUUID->"4cca3c8e-e6d3-4bdc-9e82-9af60494d782"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5943, 150, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"e9670532-2155-4a23-bb58-a6b1e6e69e1b",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[6090, 156, 155, 3, 84, "Section",ExpressionUUID->"7791fcac-78b1-44d6-9883-3fb15dde8516"],
+Cell[6248, 161, 557, 12, 102, "Text",ExpressionUUID->"694e0327-6e5f-4a9f-a66d-e44770e73f83"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6854, 179, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"2c14a28c-4480-4b54-b3c9-29f2562b9928",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[7001, 185, 387, 6, 84, "Section",ExpressionUUID->"dd39b6d0-1186-454d-bfce-9693dc62b89c"],
+Cell[7391, 193, 582, 10, 102, "Text",ExpressionUUID->"8962dba0-b72f-4804-bb6b-7d1af5cc1a37"],
+Cell[7976, 205, 537, 12, 44, "Text",ExpressionUUID->"7cc5ecd3-664c-4c22-968f-49141af571eb"],
+Cell[8516, 219, 376, 8, 44, "Text",ExpressionUUID->"1f7b4f9a-6063-46b1-a970-1f9d2ce4c5b2"],
+Cell[8895, 229, 673, 14, 73, "Text",ExpressionUUID->"d58b18f3-338c-447c-8ba3-33c9f68e93ae"],
+Cell[9571, 245, 404, 8, 73, "Text",ExpressionUUID->"cd6a3779-5972-4acb-8c6f-53fd298b8ad7"],
+Cell[9978, 255, 460, 11, 44, "Text",ExpressionUUID->"8520d8a8-4931-48c2-b2df-40f7fd5bd0c5"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[10487, 272, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"01a7644d-7ab3-44db-9a4c-6dfcc734022a",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[10634, 278, 228, 4, 131, "Section",ExpressionUUID->"55fcb7e8-db4b-429c-be4b-fb3799530c4f"],
+Cell[10865, 284, 513, 9, 114, "Text",ExpressionUUID->"84a2376c-aba6-49dc-951d-2c9e882dcd00"],
+Cell[11381, 295, 305, 7, 68, "Text",ExpressionUUID->"8c813d69-e1ca-4239-bd39-1b5d7f475709"],
+Cell[11689, 304, 217, 4, 68, "Text",ExpressionUUID->"ac58bfbb-f5a4-4c69-8c13-92b2d060b1de"],
+Cell[11909, 310, 514, 9, 159, "Text",ExpressionUUID->"9d5bdc81-2aba-4c05-a33a-04d07d3e9a78"],
+Cell[12426, 321, 243, 6, 68, "Text",ExpressionUUID->"6d4ef9a6-c173-4f8d-8ce0-dd14afa44771"],
+Cell[12672, 329, 642, 12, 114, "Text",ExpressionUUID->"45ebb0ec-239c-41b6-9f9b-5fcdd436a7c5"],
+Cell[13317, 343, 589, 11, 68, "Text",ExpressionUUID->"61a73cae-f176-4ccd-95fb-92b8e357490e"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[13955, 360, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"6aaac673-ef15-4845-a8d8-d015f897d1f2",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[14102, 366, 302, 5, 131, "Section",ExpressionUUID->"faeaadc7-8423-4f3f-a96f-a421c07237b9"],
+Cell[14407, 373, 680, 13, 159, "Text",ExpressionUUID->"33e95ab5-b877-4c6b-ba47-fed871b9c3ed"],
+Cell[15090, 388, 431, 8, 114, "Text",ExpressionUUID->"af279e0b-11ad-434a-ae79-3a1ab1089e61"],
+Cell[15524, 398, 1035, 22, 168, "Input",ExpressionUUID->"0900df9c-cc72-4622-8ee8-fed686db4760"],
+Cell[16562, 422, 222, 3, 57, "Input",ExpressionUUID->"22f86f0a-2a86-4abd-a5f2-95f2caffb1e0"],
+Cell[16787, 427, 430, 14, 68, "Text",ExpressionUUID->"bbb9b2b8-62b3-4533-ae96-9664c2bcfe6b"],
+Cell[17220, 443, 549, 11, 57, "Input",ExpressionUUID->"78121508-cc9a-4c37-aaa3-d79c00d5f50b"],
+Cell[17772, 456, 291, 5, 57, "Input",ExpressionUUID->"ed605c0e-a95d-4bbf-9ae1-e003afb9d80c"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[18112, 467, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"198ff727-9e6b-4b57-bfc0-0124604f3d1d",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[18259, 473, 168, 3, 131, "Section",ExpressionUUID->"1b4aaa25-d945-4851-8fe5-4eb0fc1a5e33"],
+Cell[18430, 478, 592, 15, 114, "Text",ExpressionUUID->"2e85311d-9285-4f1a-935a-ee3bba4600ca"],
+Cell[19025, 495, 473, 10, 114, "Text",ExpressionUUID->"509fffb4-30b9-4427-a85d-0930994fae3f"],
+Cell[19501, 507, 346, 7, 57, "Input",ExpressionUUID->"4a1dc75b-38a3-4780-8369-9e84c2bcdf13"],
+Cell[19850, 516, 211, 3, 57, "Input",ExpressionUUID->"1782515f-995b-4aa3-9453-86b0f2b41bd9"],
+Cell[20064, 521, 235, 4, 57, "Input",ExpressionUUID->"45546dee-8d37-40cf-b972-38092f131738"],
+Cell[20302, 527, 662, 15, 114, "Text",ExpressionUUID->"4887e0bc-03aa-4fcd-bdd4-8096bb520a4d"],
+Cell[20967, 544, 247, 4, 57, "Input",ExpressionUUID->"71cecc07-07ca-4dbe-a6ba-8141cccdeef3"],
+Cell[21217, 550, 304, 5, 57, "Input",ExpressionUUID->"c5f11537-87a0-4fc3-a5ef-04f52dd9b87d"],
+Cell[21524, 557, 492, 9, 114, "Text",ExpressionUUID->"2fb9ee92-e04b-4396-9658-e64728560c2a"],
+Cell[22019, 568, 428, 8, 100, "Input",ExpressionUUID->"de9f05ac-346a-4b50-bbd9-9872bf8d0abe"],
+Cell[22450, 578, 224, 3, 57, "Input",ExpressionUUID->"9d9c0ca6-5449-491b-b3f1-2c82cadd0be5"],
+Cell[22677, 583, 278, 4, 57, "Input",ExpressionUUID->"ff97d3ad-7c8d-46c8-9da6-3a3a852997f0"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[23004, 593, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"539d499a-8f7c-4895-ba2c-ef38c3a00694",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[23151, 599, 157, 3, 131, "Section",ExpressionUUID->"bb724be0-20e7-4f7d-9545-418df6ac6de2"],
+Cell[23311, 604, 521, 9, 114, "Text",ExpressionUUID->"29d02da6-1208-4a86-a704-8dd63e2c6ec9"],
+Cell[23835, 615, 169, 3, 68, "Text",ExpressionUUID->"cd076dc4-df78-4bac-9647-7d255cb05677"],
+Cell[24007, 620, 317, 5, 57, "Input",ExpressionUUID->"25e7e686-7975-4b77-9f26-eee59723324a"],
+Cell[24327, 627, 842, 17, 159, "Text",ExpressionUUID->"fa4bec3e-96e8-405f-8ff7-cea39dca792f"],
+Cell[25172, 646, 562, 11, 57, "Input",ExpressionUUID->"cd3edf58-2885-43f4-b324-94a9b98b2279"],
+Cell[25737, 659, 988, 19, 159, "Text",ExpressionUUID->"db2ab83e-c604-4d9a-964d-dea25c76e230"],
+Cell[26728, 680, 1232, 28, 140, "Input",ExpressionUUID->"d324e2bd-b996-4701-8942-d8fda5f20403"],
+Cell[27963, 710, 1387, 41, 204, "Text",ExpressionUUID->"a27a58ff-9dde-4735-abcf-7a3abde6a2a4"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[29399, 757, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"0fd84193-6eab-4878-bc14-70a7b4e0a55e",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[29546, 763, 169, 3, 131, "Section",ExpressionUUID->"3be8541e-a98a-4916-bba9-2107b8202afc"],
+Cell[29718, 768, 571, 19, 114, "Text",ExpressionUUID->"849a879a-4df7-4381-82fb-c4c98ac87c3a"],
+Cell[30292, 789, 1706, 41, 262, "Input",ExpressionUUID->"e159ca81-3573-4e13-a887-2c89d840afbc"],
+Cell[32001, 832, 262, 6, 68, "Text",ExpressionUUID->"1726bccf-fa84-4bb6-9db0-64eda7e26b1d"],
+Cell[32266, 840, 306, 4, 57, "Input",ExpressionUUID->"32a4977a-8fad-45a4-89c0-dc39e3532054"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[32621, 850, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"40b52d17-7129-43d8-9749-e857d236c7a4",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[32768, 856, 303, 5, 131, "Section",ExpressionUUID->"03015180-15ed-4779-bf2f-6aba2ab2ba0d"],
+Cell[33074, 863, 1043, 16, 159, "Text",ExpressionUUID->"ca4b5363-f328-43b1-b6ec-22d827817e77"],
+Cell[34120, 881, 195, 3, 68, "Text",ExpressionUUID->"48d13b7e-ae13-40c7-9a78-4a495c354dc4"],
+Cell[34318, 886, 379, 8, 57, "Input",ExpressionUUID->"8fcfdcca-2826-4ddc-9ab2-c282f1f2a54f"],
+Cell[34700, 896, 786, 18, 204, "Text",ExpressionUUID->"6301812a-d68f-40dd-ab03-564802e33f15"],
+Cell[35489, 916, 912, 21, 181, "Input",ExpressionUUID->"417f2d0a-8a5c-4136-9122-851171c5294b"],
+Cell[36404, 939, 438, 8, 68, "Text",ExpressionUUID->"aee4ddad-0b4c-4af2-aa26-5343d64ba18e"],
+Cell[36845, 949, 384, 7, 57, "Input",ExpressionUUID->"30f977f1-2918-4441-b0b5-9b09d6f4acb2"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[37278, 962, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"c8b2e6e7-31bf-461e-8480-47d418e8ce4a",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[37425, 968, 155, 3, 131, "Section",ExpressionUUID->"2d372373-6187-499a-8a63-71a087843cec"],
+Cell[37583, 973, 503, 9, 68, "Text",ExpressionUUID->"2eda30b4-9c82-4cff-96ad-090669af12d0"],
+Cell[38089, 984, 873, 19, 303, "Input",ExpressionUUID->"d46df53d-8015-41c4-80b6-67ccff934910"],
+Cell[38965, 1005, 606, 12, 57, "Input",ExpressionUUID->"e58bd8df-f350-4c24-896c-3b418cad09c7"],
+Cell[39574, 1019, 437, 9, 57, "Input",ExpressionUUID->"90b35f72-7a8e-4cd3-83fe-76c513ba593f"],
+Cell[40014, 1030, 419, 8, 57, "Input",ExpressionUUID->"32f32b8c-bb67-44a1-87bf-c6299dd4a49a"],
+Cell[40436, 1040, 381, 10, 68, "Text",ExpressionUUID->"353e1d1d-009b-4ccd-980b-adf6705520ee"],
+Cell[40820, 1052, 355, 5, 57, "Input",ExpressionUUID->"67edde01-410e-46aa-a686-b3fc544e96bd"],
+Cell[CellGroupData[{
+Cell[41200, 1061, 161, 3, 87, "Subsubsection",ExpressionUUID->"6721842f-32f3-4d66-adbf-7eba9aa9f5a0"],
+Cell[41364, 1066, 577, 10, 159, "Text",ExpressionUUID->"85e072da-0a9e-45ee-acc5-fd033136ec1a"],
+Cell[41944, 1078, 385, 8, 114, "Text",ExpressionUUID->"45122289-82dd-4485-96a6-3f36957bfdb5"],
+Cell[42332, 1088, 459, 9, 114, "Text",ExpressionUUID->"e99fce74-b06b-4886-ba5c-a5bf6ce08c63"],
+Cell[42794, 1099, 489, 11, 70, "Code",ExpressionUUID->"7611d878-952a-4217-ade8-700fddf22557",
+ Evaluatable->False],
+Cell[43286, 1112, 269, 6, 68, "Text",ExpressionUUID->"b3732fe1-cbc5-4b79-811c-a3080c4b1127"]
+}, Open  ]],
+Cell[43570, 1121, 165, 3, 87, "Subsubsection",ExpressionUUID->"13464170-664e-4144-9110-80778e821c56"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[43784, 1130, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"6ba5e8d1-675a-41a9-8923-26ba62e5f8af",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[43931, 1136, 276, 4, 131, "Section",ExpressionUUID->"d47dd6b5-6271-476e-8126-1744e1316510"],
+Cell[44210, 1142, 881, 21, 159, "Text",ExpressionUUID->"4c9c8617-95b9-480e-addc-05ebea636f32"],
+Cell[45094, 1165, 728, 13, 57, "Input",ExpressionUUID->"04db90d3-aca4-49c3-8eda-979dcb57f863"],
+Cell[45825, 1180, 350, 9, 114, "Text",ExpressionUUID->"b57dac5d-d3c8-498f-8cc0-e27364ba7eec"],
+Cell[46178, 1191, 737, 13, 57, "Input",ExpressionUUID->"59b99be1-e901-4ea0-9154-c1e46ffe9b13"],
+Cell[46918, 1206, 310, 7, 114, "Text",ExpressionUUID->"d4826125-7a34-48e5-af63-699518d4ecb8"],
+Cell[47231, 1215, 390, 8, 57, "Input",ExpressionUUID->"4bc76b2b-f1cf-476c-9dde-0b77393956c9"],
+Cell[47624, 1225, 460, 9, 114, "Text",ExpressionUUID->"be59f2c4-8f73-483b-af82-97a0c8cfd7bb"],
+Cell[48087, 1236, 589, 11, 57, "Input",ExpressionUUID->"dddfe621-a949-4b5f-ad5f-4b956a7cfa11"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[48725, 1253, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"e464513d-fd1b-46cd-a6a7-f114e2dccdf6",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[48872, 1259, 362, 6, 131, "Section",ExpressionUUID->"da37ea98-8f30-44f9-afbf-a964e2e07be6"],
+Cell[49237, 1267, 468, 10, 114, "Text",ExpressionUUID->"2cc25e5f-57e3-428d-a8e9-fe1297393ef7"],
+Cell[49708, 1279, 475, 9, 57, "Input",ExpressionUUID->"428c1b3f-2fd4-4b28-a0fa-8547975eabbd"],
+Cell[50186, 1290, 494, 9, 57, "Input",ExpressionUUID->"3ae0883c-705a-43cc-8c44-693f898b6130"],
+Cell[50683, 1301, 551, 10, 57, "Input",ExpressionUUID->"9aed5571-75fb-4abe-a5c8-2d29a4c31112"],
+Cell[51237, 1313, 349, 11, 68, "Text",ExpressionUUID->"1ddb8f93-b845-41c9-a2a2-cedc91302912"],
+Cell[51589, 1326, 229, 3, 57, "Input",ExpressionUUID->"a5807878-c48a-4efd-bb20-f50f9f0268c6"],
+Cell[51821, 1331, 385, 8, 57, "Input",ExpressionUUID->"4ce37a04-87f6-47d6-883e-7a39e7f0f848"],
+Cell[52209, 1341, 172, 2, 57, "Input",ExpressionUUID->"235bb366-348f-4df1-953a-2a164efbbd67"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[52430, 1349, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"28c73fe8-ef9e-4d0d-964c-55832de01742",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[52577, 1355, 220, 4, 131, "Section",ExpressionUUID->"46697d04-00aa-4057-8c7c-ed3f38d58592"],
+Cell[52800, 1361, 425, 8, 68, "Text",ExpressionUUID->"c0288bf1-abc8-40dd-aeb5-5d8ae80713e3"],
+Cell[53228, 1371, 333, 7, 57, "Input",ExpressionUUID->"5e11e77d-d5a9-4e74-a2e9-04991782e896"],
+Cell[53564, 1380, 390, 7, 57, "Input",ExpressionUUID->"bd3ed9c1-2f18-4267-a3df-38f7761a4f3a"],
+Cell[53957, 1389, 259, 6, 68, "Text",ExpressionUUID->"ad00e326-612e-417a-bb13-715c818d6c59"],
+Cell[54219, 1397, 234, 3, 57, "Input",ExpressionUUID->"22c22880-7c03-4b41-bb9e-f4a32b0b61c9"],
+Cell[54456, 1402, 248, 4, 68, "Text",ExpressionUUID->"846ea67e-228c-4cbb-8f4b-6ad9f185abc9"],
+Cell[54707, 1408, 438, 9, 57, "Input",ExpressionUUID->"5ee43a80-dcab-46bf-80f5-826967f801ab"],
+Cell[55148, 1419, 392, 8, 114, "Text",ExpressionUUID->"29359c5a-78d4-4a03-ae1d-b48545aa1c88"],
+Cell[55543, 1429, 614, 11, 57, "Input",ExpressionUUID->"2794ab56-43b2-41ac-a6ee-e8b2fd0e5e22"],
+Cell[56160, 1442, 351, 7, 114, "Text",ExpressionUUID->"da0ef86f-6413-4b6a-8767-8e27a40084b2"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[56560, 1455, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"76abbae7-0e8e-4310-9c3e-fd1d704cc4ce",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[56707, 1461, 165, 3, 131, "Section",ExpressionUUID->"7076f87c-cac4-436f-bec6-c6ba04da3e53"],
+Cell[56875, 1466, 261, 6, 68, "Text",ExpressionUUID->"0cb5ab92-5ca0-47aa-8f69-ceae86bef4aa"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
