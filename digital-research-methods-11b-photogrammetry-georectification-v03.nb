@@ -1,0 +1,1076 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     44375,       1068]
+NotebookOptionsPosition[     35597,        918]
+NotebookOutlinePosition[     37557,        961]
+CellTagsIndexPosition[     37479,        956]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ TogglerBox[2, {1->
+  OverlayBox[{
+   TagBox[GridBox[{
+      {
+       GraphicsBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBAkBOaF5xZnpeaopnXklqemqRRRIz
+UFAKiEGSLED8//9/gvjRo0fsN27cELp69arY+fPnpZExPn137tzhBqrRBGJ/
+ID4CxMfRMTZ9L168YL5w4YIaUD4AiC8C8Qcg/gvE/9AxFreC7PQD4gtA/BGq
+7j8ujKz3+fPnLFC9b6H24dSHTf/FixfVofYSpRdZPzSsAqBuJkovsn5oOF8k
+5F9s+h88eMBBjt0w/devXxcGso+S4m9k/ZcuXRKHpgeS3A7TD0wrkpToPw9J
+ywOmn1L3Uxp+lMYfpemH0vRLjfwDjQey8y9a+fGOWDPwlF+gsPhEKDywlZ8g
+d0D9EniexPITGd++fZv3PBnlN6764zxa3QHCAIDESDs=
+         "], {{0, 26}, {16, 
+         0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{16, 26},
+        PlotRange->{{0, 16}, {0, 26}}], 
+       GraphicsBox[RasterBox[CompressedData["
+1:eJzt2V1vVFUUBuBGTfTSSygthYYKNHyVinrrpbcYfwBEJN5gUkyMfw9KKaVw
+KCkQKCW1RNIQKg1gEE3QtdN10pMRZCaBzNQ+kzxt5nzstfeZfbPOu/vkD8e/
+e6+vr+/sR/Hn+ImfvpyYOPHz1x/Hl2/OnP3+9JlT33515sdTp09NfHHy/TjY
+H6592Nf3QfyvqmpHBwbCYNr5GoMNAw2d1AEAADa3/obtLba1aJ7rb4xR9x1D
+YVfYHYbDnjASPgn7wv4wGg6Eg+FQOByOhLEwnj4Nx8Jn6fM21dcfyzHq8cay
+xuGseTDnMJpz2pdzHMk5D+caduWa6v6p+czafU71s6p1+/cGAADYqt52/9va
+++6tXt331j3v0TTeoj5e966v6lv3Vv/uWfWr9LJm9tzMpN+UW3eaVV9s00yY
+CzfC7bAQFhvuhjt57maYD9er9c+VcDlcCtMd1AQAADafqXQhTabz6VyL+vhk
+Xl/uLX1D6UFmw9VwrVrvL0o/cqta7ztKD3Iv/BLuh1/DSngYHoXfwlp4Ep6F
+38Pz8Ed4Ef5Mf71Gff5F3vM8x3iWY65ljUdZcyXncD/ndC/neDvnfCPXcC3X
+NJtrnG48r3afU/2s6uc11QO/OwAAwFbzLvrfksWVjK30kSV3KxncUlgOD6qN
+vnc1PK42+t7iaaq/r+U1q9VG3/ogx1rKse9krfmsrV+l15R9WDLmkjWXzLl8
+yvuVsmdLJl3eu5R9XN7BNLPrhTxX3seUvT3TQc2Xbfr7LWq3JgAAwH95m33K
+u9Dt5wMAAMDmp2dlK+vGnu/2+yQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYPN42aZu
+1AQAAAAAAICtrNsZIXRTN/b8xTbNhLlwI9wOC2Gx4W64k+duhvlwvVr/XAmX
+w6Uw3UFNAAAAAAAA6EVT6UKaTOfTuRb18cm8vtxbcrOSwc2Gq9V6FlcytlvV
+eu5WMrilsBwehJXwMKyGx2EtPElPU/19La9ZzXtWcozlHHMxa9zKmnM5h9mc
+03Rjfe2uq15bvb6pHvid2NzKPiwZc8maS+ZcPiWDLnu2ZNIlmy77uGTVzex6
+Ic+VbLvs7ZkOau7owEAYTDtfY7BhoKGTOgAAAAAAANDr+hu2t9jWonmuvzFG
+nbsNhd1hOOwJI2Fv2B9Gw4FwMBwKR8JYOJrGW9THx/LaQ3nvgRxrf449krWG
+s/ZQtZH3NdfY7rrqtdW6/fvw/9LMnpuZ9Jty646y6n8AhCP7tg==
+         "], {{0, 26}, {
+         2000, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{2000, 26},
+        PlotRange->{{0, 2000}, {0, 26}}], 
+       GraphicsBox[RasterBox[CompressedData["
+1:eJy9lktLQkEUxyVdCBIELaxctYq+QduWbcKMPoCSRRsDC6JPp+Lj4vuq+EBc
+iBtFfIYrpU7nPzQiN++9vmrgp/dx5j8z55w5c099z56HPYvF8mLnH4/37TIY
+9L7fHvDNXeDl6THgv78KvPof/cELn5UfnjBHjI3J5/OudVBV9bhUKjmbzaad
+iCxmcB9lAxKMmzmv1+v7JvpfG/DJjJkic8NrOut0OlYdfdoCjPXBqMx1q9Vy
+7FhfgvX0MUa73bYZ6edyuTnrvPsZQ4Wv9PTRL5vNroTOGIiJu9FoOLT6UjuT
+yVAqlaJkMin+0+m0YPEZbHTGQDwKyKtl+ugHjdFoRIVCgeLxOCUSCQGua7Ua
+9Xo9YQNbozXI/aHVZ//RcDik2WxG5XKZwuGwANdo0JfrNIhDvFqtHi7zD+YW
+i8VoMBgIvWKxKEDrdrtiHbAxiAF8pHAf5zJ9+Bca0WiUxuMxydbv98U64CvY
+wNZgTyioI9r8QR/EEvrQUhRlrh8Kheb6sDHTZ1xG84ePMP/pdPpr/tvoL/of
+Mcb9Jv7X+mcxP2X+QCMSiYh5VyoVMQbXMbP81I2vzM/JZCLyX+a+BPmPvbFN
+fmr36pr713B/rVp7THy/tD6Y1cjF5zrahvVtB5jW5y21B/kVzpc1kecjfK53
+Pu7kfNfO+x+/T/70++ob7NUEtQ==
+         "], {{0, 26}, {24, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{24, 26},
+        PlotRange->{{0, 24}, {0, 26}}]}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {Automatic, 
+         Scaled[0.6], Automatic}},
+     GridBoxSpacings->{"Columns" -> {{0}}, "Rows" -> {{0}}}],
+    "Grid"], 
+   PaneBox[
+    StyleBox[
+     RowBox[{
+     "Background", " ", "images", " ", "and", " ", "text", " ", "colors", " ",
+       "have", " ", "been", " ", "adjusted", " ", "for", " ", "editing", " ", 
+      
+      RowBox[{"purposes", "."}]}],
+     LineBreakWithin->False,
+     FontFamily->"Helvetica",
+     FontSize->12,
+     FontColor->GrayLevel[0.4]],
+    Alignment->Center,
+    ImageSize->Scaled[0.5],
+    ScrollPosition->{0., 0.}]},
+   Alignment->{Center, Center}], 2->""}, "1"]], "SlideShowNavigationBar", \
+"FirstSlide",
+ CellMargins->{{0, 0}, {0, 0}},
+ CellFrameLabelMargins->2,
+ CellSize->{Inherited, 30},
+ CellChangeTimes->{3.647361175465108*^9},
+ TextAlignment->Center,
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"a96ca7fc-908f-49f9-8631-24169790e3c5"],
+
+Cell["\<\
+Digital Research Methods 11B:
+Photogrammetry and Georectification\
+\>", "Title",
+ CellChangeTimes->{
+  3.559948400406288*^9, {3.647331852839075*^9, 3.647331861295168*^9}, {
+   3.647331922221755*^9, 3.647331924532915*^9}, {3.647332658962614*^9, 
+   3.64733266480881*^9}, {3.6473611327373047`*^9, 3.647361139759391*^9}, {
+   3.647448943135475*^9, 3.6474489472294493`*^9}, {3.656682486862955*^9, 
+   3.656682494708112*^9}},ExpressionUUID->"19f072a1-2a46-4594-867d-\
+c56ea6d80343"],
+
+Cell[TextData[{
+ "William J Turkel, ",
+ StyleBox["wturkel@uwo.ca",
+  FontSlant->"Italic",
+  FontColor->RGBColor[
+   0.396078431372549, 0.596078431372549, 0.796078431372549]],
+ "\nHistory 2816 / Digital Humanities 2130 / History 9877"
+}], "Subtitle",
+ CellChangeTimes->{{3.647331955723979*^9, 3.6473319708190517`*^9}, 
+   3.647332103720562*^9},ExpressionUUID->"1a6e76ef-5b07-4e12-9573-\
+d5771a651664"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"1feb3872-7c04-4046-b179-5c679df2d522"],
+
+Cell[CellGroupData[{
+
+Cell["Overview", "Section",
+ CellChangeTimes->{{3.647361153919208*^9, 
+  3.6473611548467712`*^9}},ExpressionUUID->"c4d506d0-118f-4653-83b3-\
+ec03d5d6afef"],
+
+Cell[TextData[{
+ "Photogrammetry refers to the technique of measuring objects represented in \
+photographs for use in surveying, mapping and other tasks. Georectification \
+is the process of warping one map or image so that it can be represented in \
+the same space as another. ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " makes it relatively easy to do both tasks, and a variety of others that \
+require projecting, transforming and aligning digital images. "
+}], "Text",
+ CellChangeTimes->{{3.647361157582405*^9, 3.647361159086673*^9}, {
+  3.6566824995563097`*^9, 
+  3.6566826561022778`*^9}},ExpressionUUID->"30f73811-3d00-45ca-bcde-\
+54a2a585aa24"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"f4215eb5-45c9-4c76-9411-dfcc7265e839"],
+
+Cell[CellGroupData[{
+
+Cell["Setup", "Section",
+ CellChangeTimes->{{3.647716369451888*^9, 3.647716370003084*^9}, {
+  3.647798474690284*^9, 
+  3.6477984752570744`*^9}},ExpressionUUID->"98a7c155-859d-4e80-a5d6-\
+723b4ab68d4f"],
+
+Cell["\<\
+This pair of photographs by Wolfgang Kumm/dpa shows the Berlin Wall near the \
+Brandenburg Gate in 1989 and the same location in 2014. \
+\>", "Text",
+ CellChangeTimes->{{3.736095504967822*^9, 3.736095569532832*^9}, {
+   3.7360958506914673`*^9, 3.7360958530266247`*^9}, 
+   3.736096514132588*^9},ExpressionUUID->"ae81b8e0-b47f-41bd-a9a4-\
+b5115437eac1"],
+
+Cell[BoxData[
+ RowBox[{"wallPhotos", "=", 
+  RowBox[{
+  "Import", "[", 
+   "\"\<https://web.archive.org/web/20180523201537/https://www.thelocal.de/\
+userdata/galleries/4148/berlin1.jpg\>\"", "]"}]}]], "Input",
+ CellChangeTimes->{{3.736095589058529*^9, 3.73609560832823*^9}},
+ CellLabel->"In[50]:=",ExpressionUUID->"e64ae9b0-b459-4736-91b4-367140a27e5e"],
+
+Cell[TextData[{
+ "We can use ",
+ StyleBox["ImageTake",
+  FontWeight->"Bold"],
+ " to separate the two."
+}], "Text",
+ CellChangeTimes->{{3.736095634259104*^9, 3.7360956444902287`*^9}, {
+  3.7360956894653463`*^9, 
+  3.736095690344652*^9}},ExpressionUUID->"c522a1f9-5d0f-427d-ae1a-\
+79a7d33a9ec1"],
+
+Cell[BoxData[
+ RowBox[{"ImageDimensions", "[", "wallPhotos", "]"}]], "Input",
+ CellChangeTimes->{{3.7360956491204243`*^9, 3.736095659884136*^9}},
+ CellLabel->"In[51]:=",ExpressionUUID->"fbbc902e-30e6-46cc-bb10-fe9096590ed7"],
+
+Cell[BoxData[
+ RowBox[{"wallBeforePhoto", "=", 
+  RowBox[{"ImageTake", "[", 
+   RowBox[{"wallPhotos", ",", "351"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.736095697759452*^9, 3.73609573635091*^9}},
+ CellLabel->"In[52]:=",ExpressionUUID->"e05bdaa2-6ea3-48d0-843e-32d9f9882cfb"],
+
+Cell[BoxData[
+ RowBox[{"wallAfterPhoto", "=", 
+  RowBox[{"ImageTake", "[", 
+   RowBox[{"wallPhotos", ",", 
+    RowBox[{"{", 
+     RowBox[{"352", ",", "702"}], "}"}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.736095757525709*^9, 3.7360957797094107`*^9}, 
+   3.736095830189405*^9},
+ CellLabel->"In[56]:=",ExpressionUUID->"5ad214b7-cd47-4443-b7be-c504e9e38a9f"],
+
+Cell["We make sure both images are the same size", "Text",
+ CellChangeTimes->{{3.736095795556582*^9, 
+  3.736095801260517*^9}},ExpressionUUID->"4b4c4d87-31f7-4076-83dd-\
+e606f00d5446"],
+
+Cell[BoxData[
+ RowBox[{"ImageDimensions", "[", "wallBeforePhoto", "]"}]], "Input",
+ CellChangeTimes->{{3.73609574915765*^9, 3.736095753391027*^9}},
+ CellLabel->"In[53]:=",ExpressionUUID->"f3ac6fb6-aad7-4887-adc5-e9e300950ac3"],
+
+Cell[BoxData[
+ RowBox[{"ImageDimensions", "[", "wallAfterPhoto", "]"}]], "Input",
+ CellChangeTimes->{{3.73609574915765*^9, 3.736095753391027*^9}, {
+  3.736095807725609*^9, 3.736095808412455*^9}},
+ CellLabel->"In[57]:=",ExpressionUUID->"60f335de-bfda-4d75-9ecf-fc6997819b53"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"e84828be-3deb-4de7-9199-26f188981e32"],
+
+Cell[CellGroupData[{
+
+Cell["Alignment for rephotography, Part 1: Keypoints", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.656683775766938*^9, 3.656683787052867*^9}, {3.656684336272787*^9, 
+  3.65668434088069*^9}},ExpressionUUID->"ff33c2fc-f03c-4a8f-8754-\
+73daffd5d149"],
+
+Cell["\<\
+Function for creating standardized versions of images with a maximum pixel \
+width or height of 400 pixels\
+\>", "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.656684280715604*^9, 3.656684287706626*^9}, {3.6566848865887327`*^9, 
+  3.6566848878287992`*^9}, {3.736095889899066*^9, 
+  3.736095900544985*^9}},ExpressionUUID->"4fc2eecd-0513-4830-85e1-\
+8077964f2eb3"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"standardizeImage", "[", "im_", "]"}], ":=", "\[IndentingNewLine]", 
+  
+  RowBox[{"ImageResize", "[", 
+   RowBox[{
+    RowBox[{"ColorConvert", "[", 
+     RowBox[{"im", ",", "\"\<Grayscale\>\""}], "]"}], ",", 
+    RowBox[{"{", "400", "}"}]}], "]"}]}]], "Input",
+ CellLabel->"In[58]:=",ExpressionUUID->"b4da08f6-ead8-4f3e-9c86-04f487a118e8"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"wallStandardizedImages", "=", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"standardizeImage", "[", "wallBeforePhoto", "]"}], ",", 
+     RowBox[{"ImageAdjust", "@", 
+      RowBox[{"standardizeImage", "[", "wallAfterPhoto", "]"}]}]}], "}"}]}], 
+  ";"}]], "Input",
+ CellChangeTimes->{{3.6436538548118973`*^9, 3.643653874480295*^9}, {
+  3.6566843093012466`*^9, 3.656684320610376*^9}, {3.656684495204199*^9, 
+  3.6566845230071983`*^9}, {3.6566847224270887`*^9, 3.65668473841116*^9}, {
+  3.6566847984483*^9, 3.656684812343643*^9}, {3.656684939235231*^9, 
+  3.6566849415869083`*^9}, {3.736095918257164*^9, 3.7360959621916513`*^9}},
+ CellLabel->"In[60]:=",ExpressionUUID->"c05b8598-a56c-4f5b-85a9-f033578cecc1"],
+
+Cell[TextData[{
+ "Use computer vision techniques to find matching ",
+ StyleBox["keypoints",
+  FontSlant->"Italic"],
+ " in the two images"
+}], "Text",
+ CellChangeTimes->{{3.643653886703511*^9, 3.643653893689024*^9}, 
+   3.648531827632845*^9},ExpressionUUID->"fa912060-cabe-488d-a7ba-\
+6534023d391c"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"wallMatches", "=", 
+   RowBox[{
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{"ImageCorrespondingPoints", "[", "##", "]"}], "&"}], ")"}], "@@",
+     "wallStandardizedImages"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.6436539059054203`*^9, 3.643653918984778*^9}, {
+  3.736095951487122*^9, 3.7360959719664783`*^9}},
+ CellLabel->"In[61]:=",ExpressionUUID->"325063d2-a9a1-4851-a347-584e1803615f"],
+
+Cell[BoxData[
+ RowBox[{"Length", "[", 
+  RowBox[{
+  "wallMatches", "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.6566848211579*^9, 3.656684841966539*^9}, {
+  3.73609598063881*^9, 3.736095981126151*^9}},
+ CellLabel->"In[62]:=",ExpressionUUID->"3edd6811-8c8a-44ef-a091-a506fb181c8c"],
+
+Cell["Here are the first two", "Text",
+ CellChangeTimes->{{3.656684877701002*^9, 
+  3.656684880004987*^9}},ExpressionUUID->"bff748c7-28ea-4e11-8398-\
+e247799d6ba4"],
+
+Cell[BoxData[
+ RowBox[{"MapThread", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"Show", "[", 
+     RowBox[{"#1", ",", 
+      RowBox[{"Graphics", "[", 
+       RowBox[{"{", 
+        RowBox[{"Black", ",", 
+         RowBox[{"Background", "\[Rule]", 
+          RowBox[{"Lighter", "@", "Orange"}]}], ",", 
+         RowBox[{"FontSize", "\[Rule]", "16"}], ",", 
+         RowBox[{"MapIndexed", "[", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"Inset", "[", 
+             RowBox[{
+              RowBox[{
+              "#2", "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}], 
+              ",", "#1"}], "]"}], "&"}], ",", "#2"}], "]"}]}], "}"}], "]"}]}],
+      "]"}], "&"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"wallStandardizedImages", ",", 
+     RowBox[{"Join", "[", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"wallMatches", "\[LeftDoubleBracket]", 
+         RowBox[{"1", ",", 
+          RowBox[{"1", ";;", "2"}]}], "\[RightDoubleBracket]"}], ",", 
+        RowBox[{"wallMatches", "\[LeftDoubleBracket]", 
+         RowBox[{"2", ",", 
+          RowBox[{"1", ";;", "2"}]}], "\[RightDoubleBracket]"}]}], "}"}], 
+      "]"}]}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.643653936128224*^9, 3.643653942802837*^9}, {
+  3.656684847743507*^9, 3.656684869221784*^9}, {3.6566849291965027`*^9, 
+  3.6566849307875223`*^9}, {3.656684994282102*^9, 3.656684996665112*^9}, {
+  3.73609602393355*^9, 3.736096033836405*^9}},
+ CellLabel->"In[63]:=",ExpressionUUID->"56e3d6ea-945c-4dc6-926a-605959acea08"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"9f51e22f-4b01-4b15-a79b-133cd19953d8"],
+
+Cell[CellGroupData[{
+
+Cell["Alignment for rephotography, Part 2: Dynamic image explorer", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.656685013316531*^9, 
+  3.656685039990984*^9}},ExpressionUUID->"fc3b936f-5909-40cb-b92d-\
+90d981989163"],
+
+Cell["\<\
+Transform images into the same space, overlay them and create a dynamic image \
+explorer\
+\>", "Text",
+ CellChangeTimes->{{3.643653957660939*^9, 3.6436539742200537`*^9}, 
+   3.6485318315848618`*^9},ExpressionUUID->"2ed46734-e063-405f-8793-\
+18edcf184313"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"wall3", "=", 
+   RowBox[{"ImageAlign", "[", 
+    RowBox[{"wallBeforePhoto", ",", "wallAfterPhoto", ",", 
+     RowBox[{"TransformationClass", "\[Rule]", "\"\<Rigid\>\""}], ",", 
+     RowBox[{"Method", "\[Rule]", "Automatic"}]}], "]"}]}], ";"}], "\n", 
+ RowBox[{"Manipulate", "[", 
+  RowBox[{
+   RowBox[{"ImageCompose", "[", 
+    RowBox[{"wallBeforePhoto", ",", 
+     RowBox[{"{", 
+      RowBox[{"wall3", ",", "t"}], "}"}]}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"t", ",", "0", ",", "1"}], "}"}]}], "]"}]}], "Input",
+ CellChangeTimes->{{3.643653992212736*^9, 3.643654014707471*^9}, {
+  3.656685056751752*^9, 3.6566850667868156`*^9}, {3.7360960656129227`*^9, 
+  3.736096094082069*^9}},
+ CellLabel->"In[64]:=",ExpressionUUID->"991becb2-2ce6-48ce-b315-8f50c91a2ffd"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"6fd613d8-9fcc-4fba-8247-57dc94e51228"],
+
+Cell[CellGroupData[{
+
+Cell["Georectification, Part 1: Historical and contemporary maps", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.656685675361738*^9, 3.656685682735867*^9}, {3.6566861602312098`*^9, 
+  3.656686177373871*^9}},ExpressionUUID->"ea46171b-220b-4da4-9880-\
+3df73d6d30b0"],
+
+Cell[TextData[{
+ "There is a 1967 Soviet atlas in the ",
+ ButtonBox["David Rumsey Map Collection",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["http://www.davidrumsey.com"], None},
+  ButtonNote->"http://www.davidrumsey.com"],
+ " with a map of Berlin showing the location of the Berlin Wall:  Chief \
+Administration of Geodesy and Cartography under the Council of Ministers of \
+the USSR. ",
+ StyleBox["The World Atlas",
+  FontSlant->"Italic"],
+ ". Second Edition. Moscow. 1967."
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.656685684983575*^9, 3.656685777212298*^9}, {3.656685826715294*^9, 
+  3.6566858297065163`*^9}, {3.656686185478859*^9, 3.6566861872889442`*^9}, {
+  3.736096844008642*^9, 3.736096892429297*^9}, {3.7360999216611347`*^9, 
+  3.736099937400208*^9}},ExpressionUUID->"876ac50b-7b6f-4c7e-8372-\
+9452832966ad"],
+
+Cell["We will be using a clipped portion that I archived", "Text",
+ CellChangeTimes->{{3.656685797531501*^9, 3.6566858058673058`*^9}, {
+  3.656686107512332*^9, 3.656686111784127*^9}, {3.736097115606106*^9, 
+  3.736097117381317*^9}},ExpressionUUID->"4eaa64a7-50a5-42d0-a180-\
+a6d7f9435d98"],
+
+Cell[BoxData[
+ RowBox[{"wallMap1967", "=", 
+  RowBox[{
+  "Import", "[", 
+   "\"\<https://github.com/williamjturkel/Digital-Research-Methods/raw/master/\
+soviet-atlas-berlin-wall-1967b.jpg\>\"", "]"}]}]], "Input",
+ CellChangeTimes->{{3.736097328301732*^9, 3.736097345541279*^9}, {
+  3.736100172265419*^9, 3.7361001884328938`*^9}},
+ CellLabel->
+  "In[128]:=",ExpressionUUID->"6e0c363d-024e-4082-ad55-ba5bc41f4960"],
+
+Cell[TextData[{
+ "We can retrieve a contemporary map with ",
+ StyleBox["GeoGraphics",
+  FontWeight->"Bold"]
+}], "Text",
+ CellChangeTimes->{{3.656686190165368*^9, 3.6566861955010233`*^9}, {
+  3.6566862424042377`*^9, 
+  3.65668624591531*^9}},ExpressionUUID->"8f28568b-0b66-4159-9c68-\
+1c42a0a797b7"],
+
+Cell[BoxData[
+ RowBox[{"wallMapNow", "=", 
+  RowBox[{"Rasterize", "[", 
+   RowBox[{"GeoGraphics", "[", 
+    RowBox[{
+     RowBox[{"GeoDestination", "[", 
+      RowBox[{
+       NamespaceBox["LinguisticAssistant",
+        DynamicModuleBox[{Typeset`query$$ = "Brandenburg Gate", 
+         Typeset`boxes$$ = TemplateBox[{"\"Brandenburg Gate\"", 
+           RowBox[{"Entity", "[", 
+             RowBox[{"\"Building\"", ",", "\"BrandenburgerTor::r5479\""}], 
+             "]"}], "\"Entity[\\\"Building\\\", \\\"BrandenburgerTor::r5479\\\
+\"]\"", "\"building\""}, "Entity"], 
+         Typeset`allassumptions$$ = {{
+          "type" -> "Clash", "word" -> "Brandenburg Gate", "template" -> 
+           "Assuming \"${word}\" is ${desc1}. Use as ${desc2} instead", 
+           "count" -> "3", 
+           "Values" -> {{
+             "name" -> "Building", "desc" -> "a structure", "input" -> 
+              "*C.Brandenburg+Gate-_*Building-"}, {
+             "name" -> "HistoricalSite", "desc" -> "a historic site", "input" -> 
+              "*C.Brandenburg+Gate-_*HistoricalSite-"}, {
+             "name" -> "MusicWork", "desc" -> "a music work", "input" -> 
+              "*C.Brandenburg+Gate-_*MusicWork-"}}}}, 
+         Typeset`assumptions$$ = {}, Typeset`open$$ = {1, 2}, 
+         Typeset`querystate$$ = {
+         "Online" -> True, "Allowed" -> True, "mparse.jsp" -> 
+          1.209717`6.534228777272397, "Messages" -> {}}}, 
+         DynamicBox[ToBoxes[
+           AlphaIntegration`LinguisticAssistantBoxes["", 4, Automatic, 
+            Dynamic[Typeset`query$$], 
+            Dynamic[Typeset`boxes$$], 
+            Dynamic[Typeset`allassumptions$$], 
+            Dynamic[Typeset`assumptions$$], 
+            Dynamic[Typeset`open$$], 
+            Dynamic[Typeset`querystate$$]], StandardForm],
+          ImageSizeCache->{273., {9., 19.}},
+          
+          TrackedSymbols:>{
+           Typeset`query$$, Typeset`boxes$$, Typeset`allassumptions$$, 
+            Typeset`assumptions$$, Typeset`open$$, Typeset`querystate$$}],
+         DynamicModuleValues:>{},
+         UndoTrackedVariables:>{Typeset`open$$}],
+        BaseStyle->{"Deploy"},
+        DeleteWithContents->True,
+        Editable->False,
+        SelectWithContents->True], ",", 
+       RowBox[{"GeoDisplacement", "[", 
+        RowBox[{"{", 
+         RowBox[{
+          TemplateBox[{"2600"},
+           "QuantityUnit",
+           DisplayFunction->(TooltipBox[
+             StyleBox[
+              RowBox[{#, "\[InvisibleSpace]", 
+                StyleBox[
+                 RowBox[{" ", "\"m\""}], "QuantityUnitTraditionalLabel"]}], 
+              ShowStringCharacters -> False], "Unit: meters"]& ),
+           InterpretationFunction->(RowBox[{"Quantity", "[", 
+              RowBox[{#, ",", "\"Meters\""}], "]"}]& )], ",", 
+          TemplateBox[{"90"},
+           "QuantityUnit",
+           DisplayFunction->(TooltipBox[
+             StyleBox[
+              RowBox[{#, "\[InvisibleSpace]", 
+                StyleBox[
+                 RowBox[{"\[InvisibleSpace]", "\"\[Degree]\""}], 
+                 "QuantityUnitTraditionalLabel"]}], ShowStringCharacters -> 
+              False], "Unit: degrees"]& ),
+           InterpretationFunction->(RowBox[{"Quantity", "[", 
+              RowBox[{#, ",", "\"AngularDegrees\""}], "]"}]& )]}], "}"}], 
+        "]"}]}], "]"}], ",", 
+     RowBox[{"GeoRange", "\[Rule]", 
+      TemplateBox[{"6000"},
+       "QuantityUnit",
+       DisplayFunction->(TooltipBox[
+         StyleBox[
+          RowBox[{#, "\[InvisibleSpace]", 
+            StyleBox[
+             RowBox[{" ", "\"m\""}], "QuantityUnitTraditionalLabel"]}], 
+          ShowStringCharacters -> False], "Unit: meters"]& ),
+       InterpretationFunction->(RowBox[{"Quantity", "[", 
+          RowBox[{#, ",", "\"Meters\""}], "]"}]& )]}], ",", 
+     RowBox[{"ImageSize", "\[Rule]", "Full"}]}], "]"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.736097485503257*^9, 3.736097527160522*^9}, {
+   3.736097605344843*^9, 3.7360976670595913`*^9}, {3.73609771931356*^9, 
+   3.736097730536386*^9}, {3.736097855040806*^9, 3.736097859403977*^9}, 
+   3.736098394913048*^9, {3.736098430456129*^9, 3.736098462046837*^9}, {
+   3.736098498302648*^9, 3.736098591648549*^9}, {3.7360989995029173`*^9, 
+   3.7360990130263844`*^9}, {3.736100240354895*^9, 3.736100362299354*^9}, 
+   3.7361004468115797`*^9},
+ CellLabel->
+  "In[143]:=",ExpressionUUID->"dd39b195-543d-456a-b5c5-ff8ebf20f69f"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"9c721b45-b6e6-4500-a86c-5f1c67458346"],
+
+Cell[CellGroupData[{
+
+Cell["Georectification, Part 2: Resizing", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.656686321660369*^9, 
+  3.65668633703196*^9}},ExpressionUUID->"13708b66-1763-47fb-a7cb-\
+5c4242b92db8"],
+
+Cell["We want the two maps to share at least one dimension", "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.6566863395680637`*^9, 
+  3.656686347423682*^9}},ExpressionUUID->"76e89052-fd93-4f22-be56-\
+bdca5a292fc9"],
+
+Cell[BoxData[
+ RowBox[{"ImageDimensions", "[", "wallMap1967", "]"}]], "Input",
+ CellChangeTimes->{{3.641922367102386*^9, 3.641922372309758*^9}, {
+  3.7360977667516193`*^9, 3.7360977685459423`*^9}, {3.736100398753882*^9, 
+  3.736100399911861*^9}},
+ CellLabel->
+  "In[144]:=",ExpressionUUID->"7ef275b2-d39a-4f8b-994c-659baf504819"],
+
+Cell[BoxData[
+ RowBox[{"ImageDimensions", "[", "wallMapNow", "]"}]], "Input",
+ CellChangeTimes->{{3.7360977803697643`*^9, 3.736097787949909*^9}},
+ CellLabel->
+  "In[145]:=",ExpressionUUID->"45094b11-3cc3-46d1-8c28-45a7815ccf73"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"wallMapNowResized", "=", 
+   RowBox[{"ImageResize", "[", 
+    RowBox[{"wallMapNow", ",", "890"}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.641922470962804*^9, 3.6419225011193666`*^9}, {
+  3.656686442765089*^9, 3.656686443172205*^9}, {3.656686672052236*^9, 
+  3.6566866723318663`*^9}, {3.7360977959577913`*^9, 3.73609781852416*^9}, {
+  3.736097875530888*^9, 3.736097894842208*^9}, {3.7361004648871403`*^9, 
+  3.736100476668994*^9}},
+ CellLabel->
+  "In[146]:=",ExpressionUUID->"6bd9a2f6-e954-4655-9e96-8d54b4e1df0b"],
+
+Cell[BoxData[
+ RowBox[{"ImageDimensions", "[", "wallMapNowResized", "]"}]], "Input",
+ CellChangeTimes->{{3.641922509147563*^9, 3.641922517769124*^9}, {
+  3.736097824644738*^9, 3.736097826910342*^9}, {3.736100483886566*^9, 
+  3.736100484140766*^9}},
+ CellLabel->
+  "In[147]:=",ExpressionUUID->"c90fdc9b-10ef-41df-9f75-2b33b592af66"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"777f3235-bba2-49d4-a64c-e55da62d1ed1"],
+
+Cell[CellGroupData[{
+
+Cell["Georectification, Part 3: Keypoints", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.6566864577912607`*^9, 3.656686472523031*^9}, {3.656686815126663*^9, 
+  3.6566868190383863`*^9}},ExpressionUUID->"b19673cb-979f-4ccb-8a03-\
+d15523d053e8"],
+
+Cell[TextData[{
+ "Find three keypoints by hand using an interactive interface. These are \
+points that are visible in both maps. As you move the ",
+ StyleBox["Locators",
+  FontWeight->"Bold"],
+ ", their pixel coordinates change"
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.656686750448969*^9, 3.656686756288603*^9}, {3.6566868217581882`*^9, 
+  3.656686825198061*^9}, {3.656686921787126*^9, 3.6566869393219147`*^9}, {
+  3.656687048125991*^9, 3.656687048574051*^9}, {3.6566871230048923`*^9, 
+  3.656687140594634*^9}},ExpressionUUID->"538afead-4685-4d6c-abb2-\
+7baac81b481d"],
+
+Cell[BoxData[
+ RowBox[{"DynamicModule", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"pt", "=", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"200", ",", "200"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"220", ",", "200"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"240", ",", "200"}], "}"}]}], "}"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"LocatorPane", "[", 
+      RowBox[{
+       RowBox[{"Dynamic", "[", "pt", "]"}], ",", 
+       RowBox[{"Show", "[", "wallMap1967", "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"0", ",", "0"}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"890", ",", "690"}], "}"}]}], "}"}]}], "]"}], ",", 
+     RowBox[{"Dynamic", "[", "pt", "]"}]}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.641921616149506*^9, 3.641921618237672*^9}, {
+  3.641921663085434*^9, 3.6419216942691803`*^9}, {3.64192175588056*^9, 
+  3.6419217981355133`*^9}, {3.6419218312807837`*^9, 3.6419219762180023`*^9}, {
+  3.641922047743606*^9, 3.6419220568776484`*^9}, {3.6419221680384007`*^9, 
+  3.641922190153676*^9}, {3.641922388625126*^9, 3.64192239891862*^9}, {
+  3.641922522345806*^9, 3.641922532344886*^9}, {3.656686587808339*^9, 
+  3.656686590246977*^9}, {3.656686736450597*^9, 3.656686738313675*^9}, {
+  3.6566867760483017`*^9, 3.656686776432131*^9}, {3.736097937241646*^9, 
+  3.736097953023535*^9}, {3.7361005008793087`*^9, 3.736100515523847*^9}, {
+  3.736100671912198*^9, 3.736100679085959*^9}},
+ CellLabel->
+  "In[152]:=",ExpressionUUID->"c0e4e0df-2311-4a63-b648-d6f9d130664e"],
+
+Cell["Here are the three points I chose", "Text",
+ CellChangeTimes->{{3.65668704133424*^9, 
+  3.656687044750066*^9}},ExpressionUUID->"91ec026f-1dd9-436f-964d-\
+5e7090db42e4"],
+
+Cell[BoxData[
+ RowBox[{"HighlightImage", "[", 
+  RowBox[{"wallMap1967", ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"221.4`", ",", "321.`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"662.`", ",", "569.`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"695.`", ",", "237.`"}], "}"}]}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6566870058508043`*^9, 3.656687037190446*^9}, {
+  3.656687076153068*^9, 3.6566870945592613`*^9}, {3.7360982835358477`*^9, 
+  3.736098292158105*^9}, {3.73610057644759*^9, 3.736100582290049*^9}},
+ CellLabel->
+  "In[149]:=",ExpressionUUID->"db81f34f-0642-4234-af4c-ec18a1d0fd30"],
+
+Cell["Now we find the corresponding points on the present-day map", "Text",
+ CellChangeTimes->{{3.736100596481224*^9, 
+  3.7361006090001583`*^9}},ExpressionUUID->"5464f831-cb45-4fdb-a296-\
+e7c958256211"],
+
+Cell[BoxData[
+ RowBox[{"DynamicModule", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"pt", "=", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"113.`", ",", "430.5`"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"684.`", ",", "760.`"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"730.`", ",", "314.`"}], "}"}]}], "}"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"LocatorPane", "[", 
+      RowBox[{
+       RowBox[{"Dynamic", "[", "pt", "]"}], ",", 
+       RowBox[{"Show", "[", "wallMapNowResized", "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{"0", ",", "0"}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"890", ",", "892"}], "}"}]}], "}"}]}], "]"}], ",", 
+     RowBox[{"Dynamic", "[", "pt", "]"}]}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.641921616149506*^9, 3.641921618237672*^9}, {
+  3.641921663085434*^9, 3.6419216942691803`*^9}, {3.64192175588056*^9, 
+  3.6419217981355133`*^9}, {3.6419218312807837`*^9, 3.6419219762180023`*^9}, {
+  3.641922047743606*^9, 3.6419220568776484`*^9}, {3.6419221680384007`*^9, 
+  3.641922190153676*^9}, {3.641922388625126*^9, 3.64192239891862*^9}, {
+  3.641922522345806*^9, 3.641922532344886*^9}, {3.656686587808339*^9, 
+  3.656686590246977*^9}, {3.656686736450597*^9, 3.656686738313675*^9}, {
+  3.6566867760483017`*^9, 3.656686776432131*^9}, {3.736097937241646*^9, 
+  3.736097953023535*^9}, {3.7360983398427258`*^9, 3.736098352032968*^9}, {
+  3.7360986820787697`*^9, 3.7360987167800417`*^9}, {3.736100631009555*^9, 
+  3.7361006327196913`*^9}, {3.736100692694639*^9, 3.7361006944934893`*^9}, {
+  3.736100745245965*^9, 3.736100761987062*^9}},
+ CellLabel->
+  "In[154]:=",ExpressionUUID->"31916d57-227b-4d1c-b708-0c44613d279c"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"517ab39c-2784-4b5e-a43e-ca51ce384fac"],
+
+Cell[CellGroupData[{
+
+Cell["Georectification, Part 4: Warping", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+   3.656686831921699*^9, 3.6566868430854397`*^9}, 
+   3.656686889107696*^9},ExpressionUUID->"691e745c-f82c-48d1-a6f8-\
+3edfcf9aabe7"],
+
+Cell["\<\
+Now we warp the historical map as if it were on a rubber sheet.\
+\>", "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.656686892475895*^9, 3.656686903347307*^9}, {3.736104192628227*^9, 
+  3.7361041984982653`*^9}},ExpressionUUID->"9fc25689-563d-4929-a7e0-\
+8d39bcda2b2c"],
+
+Cell[BoxData[
+ RowBox[{"FindGeometricTransform", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"113.`", ",", "430.5`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"684.`", ",", "760.`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"730.`", ",", "314.`"}], "}"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"221.4`", ",", "321.`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"662.`", ",", "569.`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"695.`", ",", "237.`"}], "}"}]}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6419225789054623`*^9, 3.641922670378971*^9}, {
+   3.736099111434183*^9, 3.736099127025794*^9}, {3.7360992844217443`*^9, 
+   3.7360993123584633`*^9}, {3.736099439589802*^9, 3.736099444674492*^9}, 
+   3.736100620820981*^9, {3.736100787786642*^9, 3.736100788165841*^9}, {
+   3.736101662062448*^9, 3.736101674163028*^9}, {3.73610227695205*^9, 
+   3.736102277709957*^9}, {3.736102361388838*^9, 3.7361023626429567`*^9}, {
+   3.736102420582274*^9, 3.736102420889719*^9}},
+ CellLabel->
+  "In[186]:=",ExpressionUUID->"3260c55b-f3cc-4396-a93b-a82d58cf00f6"],
+
+Cell["This is what it looks like after the transformation", "Text",
+ CellChangeTimes->{{3.6566869111076097`*^9, 
+  3.656686917570732*^9}},ExpressionUUID->"68784a1e-2157-479d-b82b-\
+ab2c015b3800"],
+
+Cell[BoxData[{
+ RowBox[{"Clear", "[", "warpedMap", "]"}], "\n", 
+ RowBox[{"warpedMap", "=", 
+  RowBox[{"ImagePerspectiveTransformation", "[", 
+   RowBox[{"wallMap1967", ",", 
+    RowBox[{"TransformationFunction", "[", 
+     RowBox[{"(", 
+      TagBox[GridBox[{
+         {"1.3011513421967178`", 
+          RowBox[{"-", "0.009222908757556828`"}], 
+          RowBox[{"-", "172.11435345117795`"}]},
+         {
+          RowBox[{"-", "0.00785947720878244`"}], "1.3425922808798445`", 
+          "1.2679660916026876`"},
+         {"0", "0", "1"}
+        },
+        AutoDelete->False,
+        GridBoxDividers->{
+         "Columns" -> {{False}}, "ColumnsIndexed" -> {-2 -> True}, 
+          "Rows" -> {{False}}, "RowsIndexed" -> {-2 -> True}},
+        GridBoxItemSize->{
+         "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+       #& ], ")"}], "]"}], ",", 
+    RowBox[{"PlotRange", "\[Rule]", "All"}], ",", 
+    RowBox[{"DataRange", "\[Rule]", "Full"}], ",", 
+    RowBox[{"Masking", "\[Rule]", "All"}], ",", 
+    RowBox[{"Background", "\[Rule]", "None"}]}], "]"}]}]}], "Input",
+ CellChangeTimes->{{3.736102317111949*^9, 3.7361023205162497`*^9}, 
+   3.736102574552362*^9, {3.73610263557959*^9, 3.7361026394184647`*^9}, {
+   3.7361028699641323`*^9, 3.7361028744744263`*^9}},
+ CellLabel->
+  "In[211]:=",ExpressionUUID->"a38ff563-a980-4c86-80ea-5b2eed9d95be"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"e325555d-c2ad-4511-8f32-c807c4ce22f9"],
+
+Cell[CellGroupData[{
+
+Cell["Georectification, Part 5: Image composition", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.656686831921699*^9, 3.6566868430854397`*^9}, {3.656686881181048*^9, 
+  3.656686883923914*^9}},ExpressionUUID->"24372147-3864-449f-a098-\
+b62229aa62bc"],
+
+Cell[BoxData[
+ RowBox[{"Manipulate", "[", 
+  RowBox[{
+   RowBox[{"ImageCompose", "[", 
+    RowBox[{"wallMapNowResized", ",", 
+     RowBox[{"{", 
+      RowBox[{"warpedMap", ",", "t"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"0", ",", "0"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"180", ",", "0"}], "}"}]}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"t", ",", "0.7"}], "}"}], ",", "0", ",", "1"}], "}"}]}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.656687296061863*^9, 3.656687308300688*^9}, {
+   3.656687422001947*^9, 3.65668742323704*^9}, {3.7361032536765337`*^9, 
+   3.7361032589183064`*^9}, {3.7361032929150133`*^9, 3.736103310161714*^9}, 
+   3.736103369249073*^9, {3.736103590225844*^9, 3.73610360042365*^9}, {
+   3.7361036902463617`*^9, 3.7361037748255587`*^9}, {3.7361038106813297`*^9, 
+   3.736103811208273*^9}, {3.736103851095729*^9, 3.7361041275422983`*^9}},
+ CellLabel->
+  "In[237]:=",ExpressionUUID->"35db69a5-2c9b-4afd-bd26-e95c3b8c35f9"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1411, 1107},
+WindowMargins->{{Automatic, 378}, {96, Automatic}},
+WindowStatusArea->None,
+TaggingRules->{"SlideShow" -> True},
+Magnification:>1.25 Inherited,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "SlideShowHeader"->{
+  Cell[580, 22, 4441, 99, 75, "SlideShowNavigationBar",ExpressionUUID->"a96ca7fc-908f-49f9-8631-24169790e3c5",
+   CellTags->"SlideShowHeader"],
+  Cell[5951, 150, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"1feb3872-7c04-4046-b179-5c679df2d522",
+   CellTags->"SlideShowHeader"],
+  Cell[6966, 180, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"f4215eb5-45c9-4c76-9411-dfcc7265e839",
+   CellTags->"SlideShowHeader"],
+  Cell[9943, 263, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"e84828be-3deb-4de7-9199-26f188981e32",
+   CellTags->"SlideShowHeader"],
+  Cell[14698, 391, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"9f51e22f-4b01-4b15-a79b-133cd19953d8",
+   CellTags->"SlideShowHeader"],
+  Cell[16222, 435, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"6fd613d8-9fcc-4fba-8247-57dc94e51228",
+   CellTags->"SlideShowHeader"],
+  Cell[23012, 594, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"9c721b45-b6e6-4500-a86c-5f1c67458346",
+   CellTags->"SlideShowHeader"],
+  Cell[25143, 651, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"777f3235-bba2-49d4-a64c-e55da62d1ed1",
+   CellTags->"SlideShowHeader"],
+  Cell[30654, 788, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"517ab39c-2784-4b5e-a43e-ca51ce384fac",
+   CellTags->"SlideShowHeader"],
+  Cell[34134, 879, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"e325555d-c2ad-4511-8f32-c807c4ce22f9",
+   CellTags->"SlideShowHeader"]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"SlideShowHeader", 36003, 932}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 4441, 99, 75, "SlideShowNavigationBar",ExpressionUUID->"a96ca7fc-908f-49f9-8631-24169790e3c5",
+ CellTags->"SlideShowHeader"],
+Cell[5024, 123, 487, 10, 200, "Title",ExpressionUUID->"19f072a1-2a46-4594-867d-c56ea6d80343"],
+Cell[5514, 135, 400, 10, 108, "Subtitle",ExpressionUUID->"1a6e76ef-5b07-4e12-9573-d5771a651664"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5951, 150, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"1feb3872-7c04-4046-b179-5c679df2d522",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[6098, 156, 155, 3, 84, "Section",ExpressionUUID->"c4d506d0-118f-4653-83b3-ec03d5d6afef"],
+Cell[6256, 161, 661, 13, 102, "Text",ExpressionUUID->"30f73811-3d00-45ca-bcde-54a2a585aa24"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6966, 180, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"f4215eb5-45c9-4c76-9411-dfcc7265e839",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[7113, 186, 201, 4, 84, "Section",ExpressionUUID->"98a7c155-859d-4e80-a5d6-723b4ab68d4f"],
+Cell[7317, 192, 362, 7, 44, "Text",ExpressionUUID->"ae81b8e0-b47f-41bd-a9a4-b5115437eac1"],
+Cell[7682, 201, 353, 7, 37, "Input",ExpressionUUID->"e64ae9b0-b459-4736-91b4-367140a27e5e"],
+Cell[8038, 210, 293, 9, 44, "Text",ExpressionUUID->"c522a1f9-5d0f-427d-ae1a-79a7d33a9ec1"],
+Cell[8334, 221, 224, 3, 37, "Input",ExpressionUUID->"fbbc902e-30e6-46cc-bb10-fe9096590ed7"],
+Cell[8561, 226, 278, 5, 37, "Input",ExpressionUUID->"e05bdaa2-6ea3-48d0-843e-32d9f9882cfb"],
+Cell[8842, 233, 359, 8, 37, "Input",ExpressionUUID->"5ad214b7-cd47-4443-b7be-c504e9e38a9f"],
+Cell[9204, 243, 184, 3, 44, "Text",ExpressionUUID->"4b4c4d87-31f7-4076-83dd-e606f00d5446"],
+Cell[9391, 248, 226, 3, 37, "Input",ExpressionUUID->"f3ac6fb6-aad7-4887-adc5-e9e300950ac3"],
+Cell[9620, 253, 274, 4, 37, "Input",ExpressionUUID->"60f335de-bfda-4d75-9ecf-fc6997819b53"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[9943, 263, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"e84828be-3deb-4de7-9199-26f188981e32",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[10090, 269, 287, 4, 131, "Section",ExpressionUUID->"ff33c2fc-f03c-4a8f-8754-73daffd5d149"],
+Cell[10380, 275, 406, 8, 68, "Text",ExpressionUUID->"4fc2eecd-0513-4830-85e1-8077964f2eb3"],
+Cell[10789, 285, 373, 9, 100, "Input",ExpressionUUID->"b4da08f6-ead8-4f3e-9c86-04f487a118e8"],
+Cell[11165, 296, 738, 14, 57, "Input",ExpressionUUID->"c05b8598-a56c-4f5b-85a9-f033578cecc1"],
+Cell[11906, 312, 298, 8, 68, "Text",ExpressionUUID->"fa912060-cabe-488d-a7ba-6534023d391c"],
+Cell[12207, 322, 428, 10, 57, "Input",ExpressionUUID->"325063d2-a9a1-4851-a347-584e1803615f"],
+Cell[12638, 334, 333, 7, 57, "Input",ExpressionUUID->"3edd6811-8c8a-44ef-a091-a506fb181c8c"],
+Cell[12974, 343, 164, 3, 68, "Text",ExpressionUUID->"bff748c7-28ea-4e11-8398-e247799d6ba4"],
+Cell[13141, 348, 1508, 37, 100, "Input",ExpressionUUID->"56e3d6ea-945c-4dc6-926a-605959acea08"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[14698, 391, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"9f51e22f-4b01-4b15-a79b-133cd19953d8",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[14845, 397, 255, 4, 131, "Section",ExpressionUUID->"fc3b936f-5909-40cb-b92d-90d981989163"],
+Cell[15103, 403, 265, 6, 68, "Text",ExpressionUUID->"2ed46734-e063-405f-8793-18edcf184313"],
+Cell[15371, 411, 802, 18, 100, "Input",ExpressionUUID->"991becb2-2ce6-48ce-b315-8f50c91a2ffd"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[16222, 435, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"6fd613d8-9fcc-4fba-8247-57dc94e51228",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[16369, 441, 302, 4, 131, "Section",ExpressionUUID->"ea46171b-220b-4da4-9880-3df73d6d30b0"],
+Cell[16674, 447, 869, 19, 114, "Text",ExpressionUUID->"876ac50b-7b6f-4c7e-8372-9452832966ad"],
+Cell[17546, 468, 289, 4, 68, "Text",ExpressionUUID->"4eaa64a7-50a5-42d0-a180-a6d7f9435d98"],
+Cell[17838, 474, 412, 9, 57, "Input",ExpressionUUID->"6e0c363d-024e-4082-ad55-ba5bc41f4960"],
+Cell[18253, 485, 297, 8, 68, "Text",ExpressionUUID->"8f28568b-0b66-4159-9c68-1c42a0a797b7"],
+Cell[18553, 495, 4410, 93, 129, "Input",ExpressionUUID->"dd39b195-543d-456a-b5c5-ff8ebf20f69f"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[23012, 594, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"9c721b45-b6e6-4500-a86c-5f1c67458346",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[23159, 600, 229, 4, 131, "Section",ExpressionUUID->"13708b66-1763-47fb-a7cb-5c4242b92db8"],
+Cell[23391, 606, 247, 4, 68, "Text",ExpressionUUID->"76e89052-fd93-4f22-be56-bdca5a292fc9"],
+Cell[23641, 612, 329, 6, 57, "Input",ExpressionUUID->"7ef275b2-d39a-4f8b-994c-659baf504819"],
+Cell[23973, 620, 228, 4, 57, "Input",ExpressionUUID->"45094b11-3cc3-46d1-8c28-45a7815ccf73"],
+Cell[24204, 626, 556, 11, 57, "Input",ExpressionUUID->"6bd9a2f6-e954-4655-9e96-8d54b4e1df0b"],
+Cell[24763, 639, 331, 6, 57, "Input",ExpressionUUID->"c90fdc9b-10ef-41df-9f75-2b33b592af66"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[25143, 651, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"777f3235-bba2-49d4-a64c-e55da62d1ed1",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[25290, 657, 281, 4, 131, "Section",ExpressionUUID->"b19673cb-979f-4ccb-8a03-d15523d053e8"],
+Cell[25574, 663, 613, 12, 114, "Text",ExpressionUUID->"538afead-4685-4d6c-abb2-7baac81b481d"],
+Cell[26190, 677, 1607, 37, 100, "Input",ExpressionUUID->"c0e4e0df-2311-4a63-b648-d6f9d130664e"],
+Cell[27800, 716, 174, 3, 68, "Text",ExpressionUUID->"91ec026f-1dd9-436f-964d-5e7090db42e4"],
+Cell[27977, 721, 641, 15, 57, "Input",ExpressionUUID->"db81f34f-0642-4234-af4c-ec18a1d0fd30"],
+Cell[28621, 738, 203, 3, 68, "Text",ExpressionUUID->"5464f831-cb45-4fdb-a296-e7c958256211"],
+Cell[28827, 743, 1778, 39, 100, "Input",ExpressionUUID->"31916d57-227b-4d1c-b708-0c44613d279c"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[30654, 788, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"517ab39c-2784-4b5e-a43e-ca51ce384fac",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[30801, 794, 255, 4, 131, "Section",ExpressionUUID->"691e745c-f82c-48d1-a6f8-3edfcf9aabe7"],
+Cell[31059, 800, 312, 6, 68, "Text",ExpressionUUID->"9fc25689-563d-4929-a7e0-8d39bcda2b2c"],
+Cell[31374, 808, 1154, 27, 57, "Input",ExpressionUUID->"3260c55b-f3cc-4396-a93b-a82d58cf00f6"],
+Cell[32531, 837, 195, 3, 68, "Text",ExpressionUUID->"68784a1e-2157-479d-b82b-ab2c015b3800"],
+Cell[32729, 842, 1356, 31, 287, "Input",ExpressionUUID->"a38ff563-a980-4c86-80ea-5b2eed9d95be"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[34134, 879, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"e325555d-c2ad-4511-8f32-c807c4ce22f9",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[34281, 885, 287, 4, 131, "Section",ExpressionUUID->"24372147-3864-449f-a098-b62229aa62bc"],
+Cell[34571, 891, 998, 23, 57, "Input",ExpressionUUID->"35db69a5-2c9b-4afd-bd26-e95c3b8c35f9"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+

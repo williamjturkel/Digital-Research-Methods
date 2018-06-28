@@ -1,0 +1,681 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     28159,        673]
+NotebookOptionsPosition[     22363,        568]
+NotebookOutlinePosition[     23862,        604]
+CellTagsIndexPosition[     23784,        599]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ TogglerBox[2, {1->
+  OverlayBox[{
+   TagBox[GridBox[{
+      {
+       GraphicsBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBAkBOaF5xZnpeaopnXklqemqRRRIz
+UFAKiEGSLED8//9/gvjRo0fsN27cELp69arY+fPnpZExPn137tzhBqrRBGJ/
+ID4CxMfRMTZ9L168YL5w4YIaUD4AiC8C8Qcg/gvE/9AxFreC7PQD4gtA/BGq
+7j8ujKz3+fPnLFC9b6H24dSHTf/FixfVofYSpRdZPzSsAqBuJkovsn5oOF8k
+5F9s+h88eMBBjt0w/devXxcGso+S4m9k/ZcuXRKHpgeS3A7TD0wrkpToPw9J
+ywOmn1L3Uxp+lMYfpemH0vRLjfwDjQey8y9a+fGOWDPwlF+gsPhEKDywlZ8g
+d0D9EniexPITGd++fZv3PBnlN6764zxa3QHCAIDESDs=
+         "], {{0, 26}, {16, 
+         0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{16, 26},
+        PlotRange->{{0, 16}, {0, 26}}], 
+       GraphicsBox[RasterBox[CompressedData["
+1:eJzt2V1vVFUUBuBGTfTSSygthYYKNHyVinrrpbcYfwBEJN5gUkyMfw9KKaVw
+KCkQKCW1RNIQKg1gEE3QtdN10pMRZCaBzNQ+kzxt5nzstfeZfbPOu/vkD8e/
+e6+vr+/sR/Hn+ImfvpyYOPHz1x/Hl2/OnP3+9JlT33515sdTp09NfHHy/TjY
+H6592Nf3QfyvqmpHBwbCYNr5GoMNAw2d1AEAADa3/obtLba1aJ7rb4xR9x1D
+YVfYHYbDnjASPgn7wv4wGg6Eg+FQOByOhLEwnj4Nx8Jn6fM21dcfyzHq8cay
+xuGseTDnMJpz2pdzHMk5D+caduWa6v6p+czafU71s6p1+/cGAADYqt52/9va
+++6tXt331j3v0TTeoj5e966v6lv3Vv/uWfWr9LJm9tzMpN+UW3eaVV9s00yY
+CzfC7bAQFhvuhjt57maYD9er9c+VcDlcCtMd1AQAADafqXQhTabz6VyL+vhk
+Xl/uLX1D6UFmw9VwrVrvL0o/cqta7ztKD3Iv/BLuh1/DSngYHoXfwlp4Ep6F
+38Pz8Ed4Ef5Mf71Gff5F3vM8x3iWY65ljUdZcyXncD/ndC/neDvnfCPXcC3X
+NJtrnG48r3afU/2s6uc11QO/OwAAwFbzLvrfksWVjK30kSV3KxncUlgOD6qN
+vnc1PK42+t7iaaq/r+U1q9VG3/ogx1rKse9krfmsrV+l15R9WDLmkjWXzLl8
+yvuVsmdLJl3eu5R9XN7BNLPrhTxX3seUvT3TQc2Xbfr7LWq3JgAAwH95m33K
+u9Dt5wMAAMDmp2dlK+vGnu/2+yQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYPN42aZu
+1AQAAAAAAICtrNsZIXRTN/b8xTbNhLlwI9wOC2Gx4W64k+duhvlwvVr/XAmX
+w6Uw3UFNAAAAAAAA6EVT6UKaTOfTuRb18cm8vtxbcrOSwc2Gq9V6FlcytlvV
+eu5WMrilsBwehJXwMKyGx2EtPElPU/19La9ZzXtWcozlHHMxa9zKmnM5h9mc
+03Rjfe2uq15bvb6pHvid2NzKPiwZc8maS+ZcPiWDLnu2ZNIlmy77uGTVzex6
+Ic+VbLvs7ZkOau7owEAYTDtfY7BhoKGTOgAAAAAAANDr+hu2t9jWonmuvzFG
+nbsNhd1hOOwJI2Fv2B9Gw4FwMBwKR8JYOJrGW9THx/LaQ3nvgRxrf449krWG
+s/ZQtZH3NdfY7rrqtdW6/fvw/9LMnpuZ9Jty646y6n8AhCP7tg==
+         "], {{0, 26}, {
+         2000, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{2000, 26},
+        PlotRange->{{0, 2000}, {0, 26}}], 
+       GraphicsBox[RasterBox[CompressedData["
+1:eJy9lktLQkEUxyVdCBIELaxctYq+QduWbcKMPoCSRRsDC6JPp+Lj4vuq+EBc
+iBtFfIYrpU7nPzQiN++9vmrgp/dx5j8z55w5c099z56HPYvF8mLnH4/37TIY
+9L7fHvDNXeDl6THgv78KvPof/cELn5UfnjBHjI3J5/OudVBV9bhUKjmbzaad
+iCxmcB9lAxKMmzmv1+v7JvpfG/DJjJkic8NrOut0OlYdfdoCjPXBqMx1q9Vy
+7FhfgvX0MUa73bYZ6edyuTnrvPsZQ4Wv9PTRL5vNroTOGIiJu9FoOLT6UjuT
+yVAqlaJkMin+0+m0YPEZbHTGQDwKyKtl+ugHjdFoRIVCgeLxOCUSCQGua7Ua
+9Xo9YQNbozXI/aHVZ//RcDik2WxG5XKZwuGwANdo0JfrNIhDvFqtHi7zD+YW
+i8VoMBgIvWKxKEDrdrtiHbAxiAF8pHAf5zJ9+Bca0WiUxuMxydbv98U64CvY
+wNZgTyioI9r8QR/EEvrQUhRlrh8Kheb6sDHTZ1xG84ePMP/pdPpr/tvoL/of
+Mcb9Jv7X+mcxP2X+QCMSiYh5VyoVMQbXMbP81I2vzM/JZCLyX+a+BPmPvbFN
+fmr36pr713B/rVp7THy/tD6Y1cjF5zrahvVtB5jW5y21B/kVzpc1kecjfK53
+Pu7kfNfO+x+/T/70++ob7NUEtQ==
+         "], {{0, 26}, {24, 0}}, {0, 255},
+         ColorFunction->RGBColor],
+        BaseStyle->"ImageGraphics",
+        ImageSize->Magnification[1],
+        ImageSizeRaw->{24, 26},
+        PlotRange->{{0, 24}, {0, 26}}]}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {Automatic, 
+         Scaled[0.6], Automatic}},
+     GridBoxSpacings->{"Columns" -> {{0}}, "Rows" -> {{0}}}],
+    "Grid"], 
+   PaneBox[
+    StyleBox[
+     RowBox[{
+     "Background", " ", "images", " ", "and", " ", "text", " ", "colors", " ",
+       "have", " ", "been", " ", "adjusted", " ", "for", " ", "editing", " ", 
+      
+      RowBox[{"purposes", "."}]}],
+     LineBreakWithin->False,
+     FontFamily->"Helvetica",
+     FontSize->12,
+     FontColor->GrayLevel[0.4]],
+    Alignment->Center,
+    ImageSize->Scaled[0.5],
+    ScrollPosition->{0., 0.}]},
+   Alignment->{Center, Center}], 2->""}, "1"]], "SlideShowNavigationBar", \
+"FirstSlide",
+ CellMargins->{{0, 0}, {0, 0}},
+ CellFrameLabelMargins->2,
+ CellSize->{Inherited, 30},
+ CellChangeTimes->{3.647361175465108*^9},
+ TextAlignment->Center,
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"2c65e207-0900-47a5-8b60-2d8aad7926a3"],
+
+Cell["\<\
+Digital Research Methods 12B:
+Entity Network Spidering\
+\>", "Title",
+ CellChangeTimes->{
+  3.559948400406288*^9, {3.647331852839075*^9, 3.647331861295168*^9}, {
+   3.647331922221755*^9, 3.647331924532915*^9}, {3.647332658962614*^9, 
+   3.64733266480881*^9}, {3.6473611327373047`*^9, 3.647361139759391*^9}, {
+   3.647448943135475*^9, 3.6474489472294493`*^9}, {3.657293405168085*^9, 
+   3.6572934099179487`*^9}},ExpressionUUID->"ee2894a1-2594-4741-85f4-\
+b202122e918a"],
+
+Cell[TextData[{
+ "William J Turkel, ",
+ StyleBox["wturkel@uwo.ca",
+  FontSlant->"Italic",
+  FontColor->RGBColor[
+   0.396078431372549, 0.596078431372549, 0.796078431372549]],
+ "\nHistory 2816 / Digital Humanities 2130 / History 9877"
+}], "Subtitle",
+ CellChangeTimes->{{3.647331955723979*^9, 3.6473319708190517`*^9}, 
+   3.647332103720562*^9},ExpressionUUID->"5d7f7690-8477-4c9d-afac-\
+bcd442356a3a"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"189acbba-a29e-4c8e-9d03-1caa1ed296c0"],
+
+Cell[CellGroupData[{
+
+Cell["Overview", "Section",
+ CellChangeTimes->{{3.647361153919208*^9, 
+  3.6473611548467712`*^9}},ExpressionUUID->"5bdb8d9c-fbe6-421f-a810-\
+42cdde1b9de6"],
+
+Cell[TextData[{
+ "Large databases of named entities often include links between records. The \
+OCLC WorldCat Identities database has a summary page for every name in \
+WorldCat, about 30 million entities including persons, organizations, and \
+fictional characters. Each page also has \[OpenCurlyDoubleQuote]Related \
+Identities\[CloseCurlyDoubleQuote] section which links one entity with \
+another. By starting with any entity and following links to related pages, we \
+can compile a map of the network around that entity, a process known as ",
+ StyleBox["spidering",
+  FontSlant->"Italic"],
+ "."
+}], "Text",
+ CellChangeTimes->{{3.647361157582405*^9, 3.647361159086673*^9}, {
+  3.657293920662004*^9, 3.657293951745216*^9}, {3.657294158045794*^9, 
+  3.657294158692904*^9}, {3.65729425281271*^9, 
+  3.65729438143928*^9}},ExpressionUUID->"42d5f2ed-07de-4925-b461-\
+60b096cbb0a0"],
+
+Cell[TextData[ButtonBox["https://www.worldcat.org/identities/",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.worldcat.org/identities/"], None},
+ ButtonNote->"https://www.worldcat.org/identities/"]], "Text",
+ CellChangeTimes->{{3.6572941206379337`*^9, 
+  3.6572941340350657`*^9}},ExpressionUUID->"af4c2b55-4c48-45fa-a57c-\
+5dbd1409fcf6"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"73b9453d-bb48-4d52-93e6-58767e8e5223"],
+
+Cell[CellGroupData[{
+
+Cell["Record for Walter Lippmann", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.6572988063964767`*^9, 3.657298811842081*^9}, {3.736874512786552*^9, 
+  3.7368745161124973`*^9}},ExpressionUUID->"25f2be0d-ac3a-441f-8540-\
+a51a1d3a4be1"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+  "oclcWorldCatIdentitiesBaseURL", "=", 
+   "\"\<http://worldcat.org/identities/\>\""}], ";"}]], "Input",
+ CellChangeTimes->{{3.513595107842696*^9, 3.513595131993429*^9}, {
+  3.513595162308425*^9, 3.513595166401331*^9}, {3.6438230943984547`*^9, 
+  3.6438231055010633`*^9}},
+ CellLabel->"In[29]:=",ExpressionUUID->"b5979c0a-094a-4f97-9136-ce90f58ccbfc"],
+
+Cell["This is Lippmann\[CloseCurlyQuote]s Library of Congress ID number", \
+"Text",
+ CellChangeTimes->{{3.6572988282732677`*^9, 3.657298840279483*^9}, {
+  3.736874524896448*^9, 
+  3.736874526032341*^9}},ExpressionUUID->"9336d168-d1af-4b69-b23a-\
+da10fe0b4ff5"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"lippmannLCCN", "=", "\"\<lccn-n80019504\>\""}], ";"}]], "Input",
+ CellChangeTimes->{{3.513595169217575*^9, 3.513595177864122*^9}, {
+  3.643823143566348*^9, 3.643823166893312*^9}, {3.736874537440116*^9, 
+  3.736874556207342*^9}},
+ CellLabel->"In[30]:=",ExpressionUUID->"b83c8250-8e26-422c-a9bf-1c085f489b81"],
+
+Cell["Here are the elements we can retrieve from Lippmann\[CloseCurlyQuote]s \
+page", "Text",
+ CellChangeTimes->{{3.657298844063055*^9, 3.657298875884225*^9}, {
+  3.736874563975111*^9, 
+  3.736874566798913*^9}},ExpressionUUID->"08db9fab-43a6-4012-823e-\
+513e7620662a"],
+
+Cell[BoxData[
+ RowBox[{"Import", "[", 
+  RowBox[{
+   RowBox[{"oclcWorldCatIdentitiesBaseURL", "<>", "lippmannLCCN"}], ",", 
+   "\"\<Elements\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.643824877665785*^9, 3.6438248785431633`*^9}, {
+  3.736874598990851*^9, 3.736874600901876*^9}},
+ CellLabel->"In[31]:=",ExpressionUUID->"bb625cb4-cab1-4128-b25b-a3865b06b2f4"],
+
+Cell["This is what the page looks like in a browser", "Text",
+ CellChangeTimes->{{3.65729920842986*^9, 
+  3.6572992146285343`*^9}},ExpressionUUID->"524f4f1b-a1f4-4316-98d7-\
+fd58808274c1"],
+
+Cell[TextData[ButtonBox["https://www.worldcat.org/identities/lccn-n80019504/",
+ 
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://www.worldcat.org/identities/lccn-n80019504/"], None},
+ ButtonNote->"https://www.worldcat.org/identities/lccn-n80019504/"]], "Text",
+ CellChangeTimes->{{3.73687458489956*^9, 
+  3.7368745879000998`*^9}},ExpressionUUID->"14b41228-fa21-4060-adc9-\
+b596c7c0a32b"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"9b0e1d0b-e0c0-4889-8b27-a2180872da23"],
+
+Cell[CellGroupData[{
+
+Cell["Associated names", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.657298891747499*^9, 
+  3.6572988938345337`*^9}},ExpressionUUID->"7c4f4db5-ec96-4c43-8713-\
+f1b1027f4782"],
+
+Cell["Given an ID, return names and associated IDs", "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.6572988960502977`*^9, 
+  3.6572989121288633`*^9}},ExpressionUUID->"e7fc12c0-1a08-497c-9ce7-\
+aaff40e20473"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"getWorldCatIdentitiesANamesIDs", "[", "id_", "]"}], ":=", 
+  RowBox[{"StringCases", "[", 
+   RowBox[{
+    RowBox[{"Import", "[", 
+     RowBox[{
+      RowBox[{"oclcWorldCatIdentitiesBaseURL", "<>", "id"}], ",", 
+      "\"\<Source\>\""}], "]"}], ",", 
+    RowBox[{
+     RowBox[{"Shortest", "[", 
+      RowBox[{
+      "\"\<href=\\\"http://worldcat.org/identities/\>\"", "~~", "aid__", 
+       "~~", "\"\<\\\"\>\"", "~~", "__", "~~", "\"\<>\>\"", "~~", "a__", 
+       "~~", "\"\< </a>\>\""}], "]"}], "\[Rule]", 
+     RowBox[{"{", 
+      RowBox[{"aid", ",", "a"}], "}"}]}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.6438244522486067`*^9, 3.6438244828772*^9}, {
+  3.643824515983115*^9, 3.643824537109849*^9}, {3.643824669937214*^9, 
+  3.6438246978294973`*^9}, {3.6438247613007193`*^9, 3.643824800481938*^9}, {
+  3.6438249637722282`*^9, 3.6438249874913473`*^9}, {3.643825093680436*^9, 
+  3.643825132419446*^9}, {3.6438251630537777`*^9, 3.643825281137142*^9}, {
+  3.643825331519905*^9, 3.643825333055372*^9}, {3.657299282946336*^9, 
+  3.657299358527788*^9}, {3.65729939997195*^9, 3.657299494996114*^9}},
+ CellLabel->"In[32]:=",ExpressionUUID->"93ee32a8-2742-4193-8f4c-575a71a83988"],
+
+Cell[BoxData[
+ RowBox[{"getWorldCatIdentitiesANamesIDs", "[", "lippmannLCCN", 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.643825012466621*^9, 3.6438250141140842`*^9}, {
+   3.6438251122870703`*^9, 3.64382511298308*^9}, 3.643825328044342*^9, {
+   3.7368746421412077`*^9, 3.736874643636359*^9}},
+ CellLabel->"In[33]:=",ExpressionUUID->"62b94b28-6f5e-4638-9fce-229def9bcf71"],
+
+Cell["\<\
+Let\[CloseCurlyQuote]s get the information for the Council on Foreign \
+Relations now\
+\>", "Text",
+ CellChangeTimes->{{3.657299523079863*^9, 3.657299530327132*^9}, {
+  3.736874677443605*^9, 
+  3.736874684298647*^9}},ExpressionUUID->"2ca1cb34-f290-4dd8-bf8b-\
+e7ed9d36619f"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"cfrLCCN", "=", "\"\<lccn-n81061396\>\""}], ";"}]], "Input",
+ CellChangeTimes->{{3.657299534112879*^9, 3.657299552749111*^9}, {
+  3.736874688970746*^9, 3.736874701194222*^9}},
+ CellLabel->"In[34]:=",ExpressionUUID->"ab93a1f8-3cf7-4dea-b73a-b7e9ac5855de"],
+
+Cell[BoxData[
+ RowBox[{"getWorldCatIdentitiesANamesIDs", "[", "cfrLCCN", "]"}]], "Input",
+ CellChangeTimes->{{3.643825012466621*^9, 3.6438250141140842`*^9}, {
+   3.6438251122870703`*^9, 3.64382511298308*^9}, 3.643825328044342*^9, {
+   3.657299559781578*^9, 3.65729956058053*^9}, {3.736874704746069*^9, 
+   3.736874705385994*^9}},
+ CellLabel->"In[35]:=",ExpressionUUID->"ab1ac972-5932-4e13-bcec-2f539a3aae73"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"defa3cc9-9bc3-49f4-bdca-b7e387547f24"],
+
+Cell[CellGroupData[{
+
+Cell["\[OpenCurlyQuote]Neighborhood\[CloseCurlyQuote] around an entity", \
+"Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.657299776962277*^9, 
+  3.6572997855353518`*^9}},ExpressionUUID->"1e2f8fca-8af9-4871-998d-\
+b86cd89e988b"],
+
+Cell[TextData[{
+ "This function uses ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ "\[CloseCurlyQuote]s graph features to construct a list of links from Walter \
+Lippmann to associated names, and from those names to each of their neighbors \
+in turn"
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.657299823004222*^9, 3.6572998807587957`*^9}, {3.7368747288333473`*^9, 
+  3.736874731121056*^9}},ExpressionUUID->"483a0beb-046d-4795-9e12-\
+ab3766ccc951"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"getWorldCatIdentitiesNeighborhood", "[", 
+   RowBox[{"id_", ",", "namestr_"}], "]"}], ":=", "\[IndentingNewLine]", 
+  RowBox[{"(*", " ", 
+   RowBox[{"version", " ", "1", " ", "June", " ", "2018"}], " ", "*)"}], 
+  "\[IndentingNewLine]", 
+  RowBox[{"Module", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"neighbor1", ",", "outgraph", ",", "nname", ",", "ntemp"}], 
+     "}"}], ",", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"neighbor1", "=", 
+      RowBox[{"getWorldCatIdentitiesANamesIDs", "[", "id", "]"}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"outgraph", "=", 
+      RowBox[{"Map", "[", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"namestr", "\[Rule]", 
+          RowBox[{
+          "#", "\[LeftDoubleBracket]", "2", "\[RightDoubleBracket]"}]}], 
+         "&"}], ",", "neighbor1"}], "]"}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"Do", "[", "\[IndentingNewLine]", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"nname", "=", 
+         RowBox[{
+         "n", "\[LeftDoubleBracket]", "2", "\[RightDoubleBracket]"}]}], ";", 
+        "\[IndentingNewLine]", 
+        RowBox[{"ntemp", "=", 
+         RowBox[{"getWorldCatIdentitiesANamesIDs", "[", 
+          RowBox[{"n", "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}],
+           "]"}]}], ";", "\[IndentingNewLine]", 
+        RowBox[{"outgraph", "=", 
+         RowBox[{"Join", "[", 
+          RowBox[{"outgraph", ",", 
+           RowBox[{"Map", "[", 
+            RowBox[{
+             RowBox[{
+              RowBox[{"nname", "\[Rule]", 
+               RowBox[{
+               "#", "\[LeftDoubleBracket]", "2", "\[RightDoubleBracket]"}]}], 
+              "&"}], ",", "ntemp"}], "]"}]}], "]"}]}]}], ",", 
+       "\[IndentingNewLine]", 
+       RowBox[{"{", 
+        RowBox[{"n", ",", "neighbor1"}], "}"}]}], "]"}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"Return", "[", "outgraph", "]"}]}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.513613235731237*^9, 3.513613459965186*^9}, {
+   3.513613527939415*^9, 3.5136136774501867`*^9}, 3.643823377502389*^9, {
+   3.643824730109852*^9, 3.643824730764441*^9}, {3.64382543234251*^9, 
+   3.643825434803637*^9}, {3.6438254708211813`*^9, 3.643825478755319*^9}, {
+   3.7368747457849693`*^9, 3.736874772904006*^9}},
+ CellLabel->"In[36]:=",ExpressionUUID->"e6eeec5f-d4c9-4b7e-864f-108b130d1514"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"lippmannIDNeighborhood", "=", 
+   RowBox[{"getWorldCatIdentitiesNeighborhood", "[", 
+    RowBox[{"lippmannLCCN", ",", "\"\<lippmann\>\""}], "]"}]}], 
+  ";"}]], "Input",
+ CellChangeTimes->{{3.513613469984167*^9, 3.513613476623822*^9}, {
+   3.5136141911214647`*^9, 3.513614194188944*^9}, {3.643823263746622*^9, 
+   3.643823286598886*^9}, 3.6438233812859097`*^9, 3.643825565375599*^9, {
+   3.736874778192315*^9, 3.736874795486854*^9}},
+ CellLabel->"In[37]:=",ExpressionUUID->"d9a3a1ec-29c6-4237-8904-6a4ea38f1af7"],
+
+Cell[BoxData[
+ RowBox[{"Short", "[", 
+  RowBox[{"lippmannIDNeighborhood", ",", "10"}], "]"}]], "Input",
+ CellChangeTimes->{{3.643825715374462*^9, 3.643825719378242*^9}, {
+  3.657299814911639*^9, 3.657299815236846*^9}, {3.736874800151506*^9, 
+  3.736874801182658*^9}},
+ CellLabel->"In[38]:=",ExpressionUUID->"26850a30-5351-4f95-93ca-1a3aee828144"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"d05fefe8-5c3e-467b-a0e9-129d4d215fa1"],
+
+Cell[CellGroupData[{
+
+Cell["Visualizing the network", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.6572998845985527`*^9, 
+  3.6572998876460457`*^9}},ExpressionUUID->"d74c5170-a4ec-40bd-acde-\
+592201ccf8ee"],
+
+Cell[TextData[{
+ "We can use the ",
+ StyleBox["Graph",
+  FontWeight->"Bold"],
+ " command to view the graph that we created. Because it is large, we put it \
+in a ",
+ StyleBox["Pane",
+  FontWeight->"Bold"],
+ " object"
+}], "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.6572998933814096`*^9, 
+  3.657299914667551*^9}},ExpressionUUID->"b78b9039-4a89-4c0a-972b-\
+876318b975e1"],
+
+Cell[BoxData[
+ RowBox[{"Pane", "[", 
+  RowBox[{
+   RowBox[{"Graph", "[", 
+    RowBox[{"lippmannIDNeighborhood", ",", 
+     RowBox[{"VertexLabels", "\[Rule]", 
+      RowBox[{"Placed", "[", 
+       RowBox[{"\"\<Name\>\"", ",", "Center", ",", 
+        RowBox[{
+         RowBox[{"Panel", "[", 
+          RowBox[{"#", ",", 
+           RowBox[{"FrameMargins", "\[Rule]", "0"}], ",", 
+           RowBox[{"Background", "\[Rule]", "White"}]}], "]"}], "&"}]}], 
+       "]"}]}], ",", 
+     RowBox[{"GraphStyle", "\[Rule]", "\"\<SimpleLink\>\""}], ",", 
+     RowBox[{"GraphLayout", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"\"\<SpringElectricalEmbedding\>\"", ",", 
+        RowBox[{"\"\<RepulsiveForcePower\>\"", "\[Rule]", 
+         RowBox[{"-", "2"}]}]}], "}"}]}], ",", 
+     RowBox[{"EdgeShapeFunction", "\[Rule]", 
+      RowBox[{"GraphElementData", "[", 
+       RowBox[{"\"\<ShortFilledArrow\>\"", ",", 
+        RowBox[{"\"\<ArrowSize\>\"", "\[Rule]", "0.004"}]}], "]"}]}], ",", 
+     RowBox[{"EdgeStyle", "\[Rule]", "Gray"}], ",", 
+     RowBox[{"ImageSize", "\[Rule]", 
+      RowBox[{"{", 
+       RowBox[{"2200", ",", "1600"}], "}"}]}]}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"Full", ",", "400"}], "}"}], ",", 
+   RowBox[{"Scrollbars", "\[Rule]", "True"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.643637955782336*^9, 3.6436379763885927`*^9}, 
+   3.64363802614998*^9, {3.643639128236108*^9, 3.643639142138958*^9}, {
+   3.643639188986908*^9, 3.64363921351013*^9}, 3.64363948057804*^9, {
+   3.6436428133692923`*^9, 3.64364282519167*^9}, {3.6436463708994007`*^9, 
+   3.643646377395301*^9}, {3.643647948890386*^9, 3.64364800481362*^9}, {
+   3.643648111957333*^9, 3.643648116380374*^9}, {3.6436481726767693`*^9, 
+   3.643648198348607*^9}, {3.6436482991690817`*^9, 3.6436483073015623`*^9}, {
+   3.643648343574223*^9, 3.643648347828143*^9}, {3.643648383044046*^9, 
+   3.6436483839488277`*^9}, {3.6436484454959393`*^9, 
+   3.6436484713838253`*^9}, {3.643648503566774*^9, 3.643648532053875*^9}, {
+   3.643648573556806*^9, 3.6436486126028337`*^9}, {3.643648653570159*^9, 
+   3.643648666082838*^9}, {3.6436487019358473`*^9, 3.64364874893489*^9}, 
+   3.6436487819249783`*^9, {3.64364882818817*^9, 3.6436488395470123`*^9}, {
+   3.643648947934703*^9, 3.6436490169727*^9}, {3.643649053929356*^9, 
+   3.6436490544767313`*^9}, {3.643649538404621*^9, 3.643649543402006*^9}, {
+   3.643649641844941*^9, 3.6436496550540257`*^9}, {3.64364972512976*^9, 
+   3.643649734835249*^9}, {3.643825737147325*^9, 3.64382577406975*^9}, {
+   3.64382581513211*^9, 3.6438258511560307`*^9}, {3.73687483699894*^9, 
+   3.736874838158082*^9}},
+ CellLabel->"In[39]:=",ExpressionUUID->"038f6e4b-db18-4aff-bf2e-50a2f28127fd"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"1aedde18-66c5-4273-8f60-c71fe8d6c49d"],
+
+Cell[CellGroupData[{
+
+Cell["Community graphs", "Section",
+ CellChangeTimes->{{3.647716384690867*^9, 3.6477163853144817`*^9}, {
+  3.657818480866468*^9, 3.657818485402347*^9}}],
+
+Cell["\<\
+A community graph is one where similar nodes have been grouped into \
+\[OpenCurlyQuote]communities\[CloseCurlyQuote]\
+\>", "Text",
+ CellChangeTimes->{{3.73687495665232*^9, 
+  3.736874974464164*^9}},ExpressionUUID->"ed4a0e92-0a00-495b-9f2f-\
+b1ad587f89f9"],
+
+Cell[BoxData[
+ RowBox[{"CommunityGraphPlot", "[", "lippmannIDNeighborhood", "]"}]], "Input",\
+
+ CellChangeTimes->{{3.657300105507785*^9, 3.657300110938137*^9}, {
+  3.73687492052318*^9, 3.736874921586185*^9}},
+ CellLabel->"In[40]:=",ExpressionUUID->"f41e6519-3080-4cd6-a6c8-90c8106183ee"],
+
+Cell[BoxData[
+ RowBox[{"FindGraphCommunities", "[", "lippmannIDNeighborhood", 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.736875068596303*^9, 3.7368750778788137`*^9}, {
+  3.736875153275856*^9, 3.736875166899048*^9}},
+ CellLabel->"In[43]:=",ExpressionUUID->"1630039e-09e9-49c0-a8c9-b0c585f4eb77"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1421, 1107},
+WindowMargins->{{Automatic, 339}, {Automatic, 84}},
+TaggingRules->{"SlideShow" -> True},
+Magnification:>1.25 Inherited,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "SlideShowHeader"->{
+  Cell[580, 22, 4441, 99, 75, "SlideShowNavigationBar",ExpressionUUID->"2c65e207-0900-47a5-8b60-2d8aad7926a3",
+   CellTags->"SlideShowHeader"],
+  Cell[5942, 150, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"189acbba-a29e-4c8e-9d03-1caa1ed296c0",
+   CellTags->"SlideShowHeader"],
+  Cell[7527, 192, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"73b9453d-bb48-4d52-93e6-58767e8e5223",
+   CellTags->"SlideShowHeader"],
+  Cell[10217, 264, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"9b0e1d0b-e0c0-4889-8b27-a2180872da23",
+   CellTags->"SlideShowHeader"],
+  Cell[13445, 344, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"defa3cc9-9bc3-49f4-bdca-b7e387547f24",
+   CellTags->"SlideShowHeader"],
+  Cell[17665, 451, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"d05fefe8-5c3e-467b-a0e9-129d4d215fa1",
+   CellTags->"SlideShowHeader"],
+  Cell[21182, 534, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"1aedde18-66c5-4273-8f60-c71fe8d6c49d",
+   CellTags->"SlideShowHeader"]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"SlideShowHeader", 22745, 581}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 4441, 99, 75, "SlideShowNavigationBar",ExpressionUUID->"2c65e207-0900-47a5-8b60-2d8aad7926a3",
+ CellTags->"SlideShowHeader"],
+Cell[5024, 123, 478, 10, 200, "Title",ExpressionUUID->"ee2894a1-2594-4741-85f4-b202122e918a"],
+Cell[5505, 135, 400, 10, 108, "Subtitle",ExpressionUUID->"5d7f7690-8477-4c9d-afac-bcd442356a3a"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5942, 150, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"189acbba-a29e-4c8e-9d03-1caa1ed296c0",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[6089, 156, 155, 3, 84, "Section",ExpressionUUID->"5bdb8d9c-fbe6-421f-a810-42cdde1b9de6"],
+Cell[6247, 161, 877, 16, 102, "Text",ExpressionUUID->"42d5f2ed-07de-4925-b461-60b096cbb0a0"],
+Cell[7127, 179, 351, 7, 44, "Text",ExpressionUUID->"af4c2b55-4c48-45fa-a57c-5dbd1409fcf6"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7527, 192, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"73b9453d-bb48-4d52-93e6-58767e8e5223",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[7674, 198, 272, 4, 84, "Section",ExpressionUUID->"25f2be0d-ac3a-441f-8540-a51a1d3a4be1"],
+Cell[7949, 204, 387, 8, 37, "Input",ExpressionUUID->"b5979c0a-094a-4f97-9136-ce90f58ccbfc"],
+Cell[8339, 214, 260, 5, 44, "Text",ExpressionUUID->"9336d168-d1af-4b69-b23a-da10fe0b4ff5"],
+Cell[8602, 221, 342, 6, 37, "Input",ExpressionUUID->"b83c8250-8e26-422c-a9bf-1c085f489b81"],
+Cell[8947, 229, 268, 5, 44, "Text",ExpressionUUID->"08db9fab-43a6-4012-823e-513e7620662a"],
+Cell[9218, 236, 361, 7, 37, "Input",ExpressionUUID->"bb625cb4-cab1-4128-b25b-a3865b06b2f4"],
+Cell[9582, 245, 188, 3, 44, "Text",ExpressionUUID->"524f4f1b-a1f4-4316-98d7-fd58808274c1"],
+Cell[9773, 250, 395, 8, 44, "Text",ExpressionUUID->"14b41228-fa21-4060-adc9-b596c7c0a32b"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[10217, 264, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"9b0e1d0b-e0c0-4889-8b27-a2180872da23",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[10364, 270, 214, 4, 131, "Section",ExpressionUUID->"7c4f4db5-ec96-4c43-8713-f1b1027f4782"],
+Cell[10581, 276, 241, 4, 68, "Text",ExpressionUUID->"e7fc12c0-1a08-497c-9ce7-aaff40e20473"],
+Cell[10825, 282, 1210, 24, 100, "Input",ExpressionUUID->"93ee32a8-2742-4193-8f4c-575a71a83988"],
+Cell[12038, 308, 369, 6, 57, "Input",ExpressionUUID->"62b94b28-6f5e-4638-9fce-229def9bcf71"],
+Cell[12410, 316, 284, 7, 68, "Text",ExpressionUUID->"2ca1cb34-f290-4dd8-bf8b-e7ed9d36619f"],
+Cell[12697, 325, 288, 5, 57, "Input",ExpressionUUID->"ab93a1f8-3cf7-4dea-b73a-b7e9ac5855de"],
+Cell[12988, 332, 408, 6, 57, "Input",ExpressionUUID->"ab1ac972-5932-4e13-bcec-2f539a3aae73"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[13445, 344, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"defa3cc9-9bc3-49f4-bdca-b7e387547f24",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[13592, 350, 264, 5, 131, "Section",ExpressionUUID->"1e2f8fca-8af9-4871-998d-b86cd89e988b"],
+Cell[13859, 357, 496, 11, 114, "Text",ExpressionUUID->"483a0beb-046d-4795-9e12-ab3766ccc951"],
+Cell[14358, 370, 2360, 55, 465, "Input",ExpressionUUID->"e6eeec5f-d4c9-4b7e-864f-108b130d1514"],
+Cell[16721, 427, 546, 10, 57, "Input",ExpressionUUID->"d9a3a1ec-29c6-4237-8904-6a4ea38f1af7"],
+Cell[17270, 439, 346, 6, 57, "Input",ExpressionUUID->"26850a30-5351-4f95-93ca-1a3aee828144"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[17665, 451, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"d05fefe8-5c3e-467b-a0e9-129d4d215fa1",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[17812, 457, 223, 4, 131, "Section",ExpressionUUID->"d74c5170-a4ec-40bd-acde-592201ccf8ee"],
+Cell[18038, 463, 407, 13, 68, "Text",ExpressionUUID->"b78b9039-4a89-4c0a-972b-876318b975e1"],
+Cell[18448, 478, 2685, 50, 181, "Input",ExpressionUUID->"038f6e4b-db18-4aff-bf2e-50a2f28127fd"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[21182, 534, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"1aedde18-66c5-4273-8f60-c71fe8d6c49d",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[21329, 540, 152, 2, 131, "Section",ExpressionUUID->"f475d4ca-95b4-4ba6-9282-61460ac9acca"],
+Cell[21484, 544, 265, 6, 68, "Text",ExpressionUUID->"ed4a0e92-0a00-495b-9f2f-b1ad587f89f9"],
+Cell[21752, 552, 287, 5, 57, "Input",ExpressionUUID->"f41e6519-3080-4cd6-a6c8-90c8106183ee"],
+Cell[22042, 559, 293, 5, 57, "Input",ExpressionUUID->"1630039e-09e9-49c0-a8c9-b0c585f4eb77"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
