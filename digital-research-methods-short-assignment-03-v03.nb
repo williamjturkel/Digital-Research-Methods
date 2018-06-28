@@ -1,0 +1,625 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     23864,        617]
+NotebookOptionsPosition[     19111,        532]
+NotebookOutlinePosition[     19499,        549]
+CellTagsIndexPosition[     19456,        546]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Short Assignment 3: Multiple Documents", "Title",
+ CellChangeTimes->{{3.651163249584736*^9, 3.651163254056362*^9}, {
+  3.651163523375786*^9, 3.651163526158741*^9}, {3.652459471683689*^9, 
+  3.652459476634469*^9}, {3.6547023474073143`*^9, 
+  3.654702360036978*^9}},ExpressionUUID->"57928c84-3628-4ef4-97b5-\
+10113332f69f"],
+
+Cell[CellGroupData[{
+
+Cell["History 2816A / Digital Humanities 2130A", "Chapter",
+ CellChangeTimes->{{3.6511632289941177`*^9, 
+  3.651163245097763*^9}},ExpressionUUID->"090acb6f-e3d3-4911-ae6d-\
+c10460a8d992"],
+
+Cell["\<\
+Handed out: 23 Oct 2018
+Due date: 08 Nov 2018
+Zero date: 20 Nov 2018\
+\>", "Subchapter",
+ CellChangeTimes->{{3.651163258088455*^9, 3.6511633041027813`*^9}, {
+  3.652459540065187*^9, 3.65245955820754*^9}, {3.654702402340212*^9, 
+  3.654702420842759*^9}, {3.6856333894271708`*^9, 3.6856334131203823`*^9}, {
+  3.739211426145378*^9, 
+  3.739211453414566*^9}},ExpressionUUID->"e916dc57-3132-4891-a2c8-\
+4777bebbfbc4"],
+
+Cell[CellGroupData[{
+
+Cell["Worth 10% of your final grade", "Subchapter",
+ CellChangeTimes->{{3.651165418980345*^9, 
+  3.651165425635522*^9}},ExpressionUUID->"1eb92904-7f6f-423a-87b0-\
+4b6ecb491c85"],
+
+Cell[CellGroupData[{
+
+Cell["Your information", "Section",
+ CellChangeTimes->{{3.6511634475779753`*^9, 
+  3.651163452881803*^9}},ExpressionUUID->"e2746c48-e00e-4c67-a027-\
+4caa2f6065f1"],
+
+Cell["Name:", "Text",
+ CellChangeTimes->{{3.651163456585217*^9, 
+  3.651163457633196*^9}},ExpressionUUID->"74ce989d-4e39-4724-9c1f-\
+ae3af996a239"],
+
+Cell["Email:", "Text",
+ CellChangeTimes->{{3.651163467720752*^9, 
+  3.651163468968869*^9}},ExpressionUUID->"786144af-435e-444e-8452-\
+719131e2bd79"],
+
+Cell["Student number:", "Text",
+ CellChangeTimes->{{3.651163460537118*^9, 
+  3.6511634629929047`*^9}},ExpressionUUID->"bf72542a-c6d8-43db-968f-\
+7f9c257b7325"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Setup", "Section",
+ CellChangeTimes->{{3.647716369451888*^9, 3.647716370003084*^9}, {
+  3.647798474690284*^9, 
+  3.6477984752570744`*^9}},ExpressionUUID->"f3b08ca4-e1b4-4813-85a8-\
+96127aeb707e"],
+
+Cell[CellGroupData[{
+
+Cell["Local download path", "Subsection",
+ CellChangeTimes->{{3.654703167712119*^9, 
+  3.654703170583795*^9}},ExpressionUUID->"93b6fb4f-dc5b-4885-835d-\
+ce61f1f2df13"],
+
+Cell[TextData[StyleBox["Make sure to change the following so that it is a \
+valid file path on your own computer",
+ FontSlant->"Italic"]], "Text",
+ CellChangeTimes->{{3.6528996132446327`*^9, 3.652899662803152*^9}},
+ Background->RGBColor[
+  1, 0.85, 0.85],ExpressionUUID->"e512d71c-1e86-4777-afe7-627c63293b20"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"localDownloadFilePath", "=", 
+  "\"\</Users/wjt/Downloads/\>\""}]], "Input",
+ CellChangeTimes->{{3.65289958930519*^9, 3.6528996279964657`*^9}},
+ CellLabel->"In[2]:=",ExpressionUUID->"cf49545d-adbf-4a0b-aad5-aebf34173520"],
+
+Cell[BoxData["\<\"/Users/wjt/Downloads/\"\>"], "Output",
+ CellChangeTimes->{3.739212526226152*^9},
+ CellLabel->"Out[2]=",ExpressionUUID->"ed230995-b83f-4ec8-a9ee-7b21ac99c849"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Useful Functions", "Subsection",
+ CellChangeTimes->{{3.6547031602964897`*^9, 
+  3.6547031644479513`*^9}},ExpressionUUID->"43c371f2-6eae-40e4-b120-\
+dbada0ad0550"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"viewData", "[", "x_", "]"}], ":=", "\[IndentingNewLine]", 
+  RowBox[{"Framed", "[", 
+   RowBox[{"Pane", "[", 
+    RowBox[{"x", ",", 
+     RowBox[{"{", 
+      RowBox[{"Automatic", ",", "200"}], "}"}], ",", 
+     RowBox[{"Scrollbars", "\[Rule]", "True"}]}], "]"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.511539182255096*^9, 3.51153920239167*^9}},
+ CellLabel->"In[3]:=",ExpressionUUID->"3cb93b98-5f0d-492a-b2f8-b22244bbe0a0"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"stopwords", "=", 
+   RowBox[{"WordData", "[", 
+    RowBox[{"All", ",", "\"\<Stopwords\>\""}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"nonStopwordQ", "[", "w_", "]"}], ":=", "\[IndentingNewLine]", 
+  RowBox[{"Not", "[", 
+   RowBox[{"MemberQ", "[", 
+    RowBox[{"stopwords", ",", "w"}], "]"}], "]"}]}]}], "Input",
+ CellChangeTimes->{{3.639670580673246*^9, 3.639670586118531*^9}, {
+  3.63967080861541*^9, 3.639670819382111*^9}, {3.647614148033167*^9, 
+  3.6476141549808607`*^9}},
+ CellLabel->"In[4]:=",ExpressionUUID->"ab173b63-abf7-41dc-b0b8-ba5f749ffafb"],
+
+Cell["\<\
+You will have to consult the slides from class (especially 7A and 7B) to use \
+these properly...\
+\>", "Text",
+ CellChangeTimes->{{3.654704586516776*^9, 
+  3.6547046238195257`*^9}},ExpressionUUID->"a05488d7-996f-4415-8df6-\
+1d78d0a1f6c0"],
+
+Cell["\<\
+These functions allow us to download a text file from the Internet Archive if \
+we have its identifier\
+\>", "Text",
+ CellChangeTimes->{{3.652899496665616*^9, 3.652899506448597*^9}, {
+  3.652900193640684*^9, 3.652900208535488*^9}, {3.652901103951921*^9, 
+  3.652901107711092*^9}},ExpressionUUID->"d12754ec-0ee9-430e-8ace-\
+786414eebb66"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"internetArchiveIDToURL", "[", "id_", "]"}], ":=", 
+  "\[IndentingNewLine]", 
+  RowBox[{
+  "\"\<https://archive.org/download/\>\"", "~~", "id", "~~", "\"\</\>\"", "~~", 
+   RowBox[{
+    RowBox[{"Flatten", "[", 
+     RowBox[{"StringCases", "[", 
+      RowBox[{
+       RowBox[{"Import", "[", 
+        RowBox[{
+         RowBox[{
+         "\"\<https://archive.org/download/\>\"", "~~", "id", "~~", 
+          "\"\</\>\""}], ",", "\"\<Hyperlinks\>\""}], "]"}], ",", 
+       RowBox[{
+        RowBox[{"\"\</download/\>\"", "~~", "id", "~~", "\"\</\>\"", "~~", 
+         RowBox[{"f", ":", 
+          RowBox[{"{", 
+           RowBox[{"__", "~~", "\"\<.txt\>\""}], "}"}]}]}], "\[Rule]", 
+        "f"}]}], "]"}], "]"}], "\[LeftDoubleBracket]", "1", 
+    "\[RightDoubleBracket]"}]}]}]], "Input",
+ CellChangeTimes->{{3.652898080597025*^9, 3.652898130658784*^9}, {
+  3.652898570107688*^9, 3.652898572490798*^9}},
+ CellLabel->"In[6]:=",ExpressionUUID->"55274c3e-6bc4-4bd7-b1ae-72fbcb1481ff"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"internetArchiveIDDownload", "[", "id_", "]"}], ":=", 
+  "\[IndentingNewLine]", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"Pause", "[", "2", "]"}], ";", 
+    RowBox[{"URLSave", "[", 
+     RowBox[{
+      RowBox[{"internetArchiveIDToURL", "[", "id", "]"}], ",", 
+      RowBox[{"FileNameJoin", "[", 
+       RowBox[{"{", 
+        RowBox[{"localDownloadFilePath", ",", 
+         RowBox[{
+          RowBox[{"ToString", "[", "id", "]"}], "~~", "\"\<.txt\>\""}]}], 
+        "}"}], "]"}]}], "]"}]}], "}"}]}]], "Input",
+ CellChangeTimes->{{3.652812596723868*^9, 3.652812641657048*^9}, {
+   3.652812749752721*^9, 3.652812757192513*^9}, {3.652896222345756*^9, 
+   3.652896224928454*^9}, 3.6528974074127293`*^9, {3.652898277854329*^9, 
+   3.6528982803251457`*^9}, {3.652898594226543*^9, 3.652898607335566*^9}, {
+   3.652900007208839*^9, 3.652900009060063*^9}},
+ CellLabel->"In[7]:=",ExpressionUUID->"8f31f63e-fdfa-4519-b0cf-097bd172f15f"],
+
+Cell["\<\
+The next function takes the association of texts that we just created, and \
+the name of a file, and it creates an index for that file.\
+\>", "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.6529705482097607`*^9, 3.6529705506088943`*^9}, {3.652970651431678*^9, 
+  3.652970691036968*^9}},ExpressionUUID->"25eda272-e8b5-4629-a923-\
+275bdd9f3c55"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"indexWords", "[", 
+   RowBox[{"fileassoc_", ",", "filename_"}], "]"}], ":=", 
+  "\[IndentingNewLine]", 
+  RowBox[{"ReplaceAll", "[", 
+   RowBox[{
+    RowBox[{"GroupBy", "[", 
+     RowBox[{
+      RowBox[{"Select", "[", 
+       RowBox[{
+        RowBox[{"Thread", "[", 
+         RowBox[{"List", "[", 
+          RowBox[{
+           RowBox[{"fileassoc", "[", "filename", "]"}], ",", 
+           RowBox[{"Range", "@", 
+            RowBox[{"Length", "[", 
+             RowBox[{"fileassoc", "[", "filename", "]"}], "]"}]}]}], "]"}], 
+         "]"}], ",", 
+        RowBox[{
+         RowBox[{"nonStopwordQ", "[", 
+          RowBox[{"#", "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}],
+           "]"}], "&"}]}], "]"}], ",", 
+      RowBox[{"First", "\[Rule]", "Last"}]}], "]"}], ",", 
+    RowBox[{"x_List", "\[Rule]", 
+     RowBox[{"(", 
+      RowBox[{"filename", "\[Rule]", "x"}], ")"}]}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.645440348129765*^9, 3.645440358049274*^9}, {
+  3.645440411639266*^9, 3.645440417670896*^9}, {3.6454404688568172`*^9, 
+  3.645440535995023*^9}},
+ CellLabel->"In[8]:=",ExpressionUUID->"7c0d0b10-7559-4b0a-8bd4-42d7925d14fa"],
+
+Cell["\<\
+The following functions provide us with a way of seeing corpus search terms \
+in context\
+\>", "Text",
+ CellChangeTimes->{{3.6477163758185587`*^9, 3.647716376530898*^9}, {
+  3.652973830752624*^9, 
+  3.65297384367133*^9}},ExpressionUUID->"a966f326-1bde-4d36-b453-\
+17c2c8ac856a"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"searchTermContext", "[", 
+   RowBox[{"textassoc_", ",", "wordpos_", ",", "filename_"}], "]"}], ":=", 
+  "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"textassoc", "[", "filename", "]"}], "\[LeftDoubleBracket]", 
+   RowBox[{
+    RowBox[{"wordpos", "-", "3"}], ";;", 
+    RowBox[{"wordpos", "+", "3"}]}], "\[RightDoubleBracket]"}]}]], "Input",
+ CellChangeTimes->{{3.6457191110191298`*^9, 3.645719206322517*^9}, {
+  3.645719276909635*^9, 3.6457192838370953`*^9}, {3.645719842935236*^9, 
+  3.645719846332252*^9}},
+ CellLabel->"In[9]:=",ExpressionUUID->"0ad944a9-9ed9-48cc-8870-be6e6da2c3f6"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"displaySearch", "[", 
+   RowBox[{"textassoc_", ",", "indexassoc_", ",", "term_"}], "]"}], ":=", 
+  "\[IndentingNewLine]", 
+  RowBox[{"Module", "[", 
+   RowBox[{
+    RowBox[{"{", "results", "}"}], ",", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"results", "=", "\[IndentingNewLine]", 
+      RowBox[{"Flatten", "[", 
+       RowBox[{
+        RowBox[{
+         RowBox[{
+          RowBox[{"Thread", "[", 
+           RowBox[{"List", "[", 
+            RowBox[{
+             RowBox[{"Values", "@", 
+              RowBox[{
+               RowBox[{"indexassoc", "[", "term", "]"}], 
+               "\[LeftDoubleBracket]", "#", "\[RightDoubleBracket]"}]}], ",", 
+             
+             RowBox[{"Keys", "@", 
+              RowBox[{
+               RowBox[{"indexassoc", "[", "term", "]"}], 
+               "\[LeftDoubleBracket]", "#", "\[RightDoubleBracket]"}]}]}], 
+            "]"}], "]"}], "&"}], "/@", 
+         RowBox[{"Range", "[", 
+          RowBox[{"Length", "[", 
+           RowBox[{"Keys", "@", 
+            RowBox[{"indexassoc", "[", "term", "]"}]}], "]"}], "]"}]}], ",", 
+        "1"}], "]"}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"Framed", "[", 
+      RowBox[{"Pane", "[", 
+       RowBox[{
+        RowBox[{"Style", "[", 
+         RowBox[{
+          RowBox[{"TableForm", "[", 
+           RowBox[{
+            RowBox[{
+             RowBox[{"Append", "[", 
+              RowBox[{
+               RowBox[{"searchTermContext", "[", 
+                RowBox[{"textassoc", ",", 
+                 RowBox[{
+                 "#", "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}], 
+                 ",", 
+                 RowBox[{
+                 "#", "\[LeftDoubleBracket]", "2", 
+                  "\[RightDoubleBracket]"}]}], "]"}], ",", 
+               RowBox[{"Style", "[", 
+                RowBox[{
+                 RowBox[{"{", 
+                  RowBox[{
+                   RowBox[{
+                   "#", "\[LeftDoubleBracket]", "2", 
+                    "\[RightDoubleBracket]"}], ",", 
+                   RowBox[{
+                   "#", "\[LeftDoubleBracket]", "1", 
+                    "\[RightDoubleBracket]"}]}], "}"}], ",", 
+                 RowBox[{"Darker", "@", "Green"}]}], "]"}]}], "]"}], "&"}], "/@",
+             "results"}], "]"}], ",", "Small"}], "]"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"Full", ",", "200"}], "}"}], ",", 
+        RowBox[{"Scrollbars", "\[Rule]", "True"}]}], "]"}], "]"}]}]}], 
+   "\[IndentingNewLine]", "]"}]}]], "Input",
+ CellChangeTimes->{{3.645720354655745*^9, 3.645720593118178*^9}, {
+  3.645720632461602*^9, 3.645720747368436*^9}, {3.64572082191881*^9, 
+  3.6457209073068247`*^9}, {3.645721176417759*^9, 3.64572133625972*^9}, {
+  3.645721371243526*^9, 3.6457214149626207`*^9}, {3.645721447339086*^9, 
+  3.645721574110282*^9}, {3.645721624826241*^9, 3.645721673455269*^9}, {
+  3.645721835298449*^9, 3.64572183877735*^9}, {3.64572190256328*^9, 
+  3.645721925286469*^9}, {3.6457219566993227`*^9, 3.645721957605073*^9}, {
+  3.645722050042877*^9, 3.645722092196302*^9}, {3.6457221704390087`*^9, 
+  3.6457222472279987`*^9}, {3.6529739016705837`*^9, 3.652973914605391*^9}},
+ CellLabel->"In[10]:=",ExpressionUUID->"f94cd82e-b3f6-4c6d-a08b-34cbfcf3b9cb"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Batch download a small set of texts to analyze", "Section",
+ CellChangeTimes->{{3.6511634748005457`*^9, 3.65116347628865*^9}, {
+  3.65116351468721*^9, 3.651163516279201*^9}, {3.654702448194385*^9, 
+  3.654702451833212*^9}, {3.654702495119871*^9, 
+  3.654702497143911*^9}},ExpressionUUID->"8259b68e-0100-48d7-9d47-\
+af3e4e685b08"],
+
+Cell["\<\
+Here is a list of Internet Archive identifiers for some volumes in a series \
+on women in science published by the US Women\[CloseCurlyQuote]s Bureau in \
+1948.\
+\>", "Text",
+ CellChangeTimes->{{3.7392121662862167`*^9, 3.739212196452635*^9}, {
+  3.73921234381618*^9, 
+  3.739212358230871*^9}},ExpressionUUID->"96a7e740-6b6e-45a7-a352-\
+3fa4ea5d501a"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"womenInScienceIAIdentifiers", "=", 
+   RowBox[{"{", 
+    RowBox[{
+    "\"\<outlookforwomeni01unit\>\"", ",", "\"\<outlookforwomeni03unit\>\"", 
+     ",", "\"\<outlookforwomeni04unit\>\"", ",", 
+     "\"\<outlookforwomeni05unit\>\"", ",", "\"\<outlookforwomeni07unit\>\"", 
+     ",", "\"\<outlookforwomeni08unit\>\""}], "}"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.7392122423743258`*^9, 3.7392122541625834`*^9}, {
+  3.7392123742596684`*^9, 3.739212459887665*^9}},
+ CellLabel->"In[11]:=",ExpressionUUID->"2aec7a15-0b0b-48cf-9bba-dc42f2e60c5b"],
+
+Cell[TextData[{
+ "Using the method shown in the slide set 7A, batch download them with ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " "
+}], "Text",
+ CellChangeTimes->{{3.65116349140063*^9, 3.651163512199279*^9}, {
+  3.651163551189911*^9, 3.6511635606615543`*^9}, {3.651163590668619*^9, 
+  3.651163597148263*^9}, {3.651163754279532*^9, 3.651163881945941*^9}, {
+  3.651164011389619*^9, 3.651164013733354*^9}, {3.651164069549185*^9, 
+  3.6511640752274027`*^9}, {3.6547024544973297`*^9, 3.654702564141658*^9}, {
+  3.654702804428666*^9, 3.654702832132009*^9}, {3.739212215597377*^9, 
+  3.739212227451454*^9}},ExpressionUUID->"c7a92ffe-203e-40d7-b7c5-\
+8784411bd899"],
+
+Cell[TextData[{
+ "Before I execute your notebook, I am going to change the ",
+ StyleBox["localDownloadFilePath",
+  FontSlant->"Italic"],
+ " symbol to a path on my machine. At that point I should be able to \
+replicate all of your analyses"
+}], "Text",
+ CellChangeTimes->{{3.654702553381527*^9, 3.6547025537259073`*^9}, {
+  3.654702627227684*^9, 3.6547027177041187`*^9}, {3.654703517571809*^9, 
+  3.6547035235467253`*^9}},ExpressionUUID->"c70bdbb2-028d-4fb3-9208-\
+b1707e407212"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Import and trim a local copy of one of your files", "Section",
+ CellChangeTimes->{{3.654702782957251*^9, 
+  3.654702800341126*^9}},ExpressionUUID->"604835b5-2895-4dca-9646-\
+410874b3d35a"],
+
+Cell[TextData[{
+ "Retrieve the local copy of one of the files that you batch downloaded, trim \
+off the Project Gutenberg header and footer, and make a ",
+ StyleBox["WordCloud",
+  FontWeight->"Bold"],
+ " of the trimmed text"
+}], "Text",
+ CellChangeTimes->{{3.6547028534987373`*^9, 
+  3.654702892393199*^9}},ExpressionUUID->"90946397-dff8-4897-8ea8-\
+5786c5228e25"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Create an association of texts", "Section",
+ CellChangeTimes->{{3.654702968647365*^9, 
+  3.654702972087008*^9}},ExpressionUUID->"b519bb0d-784c-4ea1-85bb-\
+fe82ac94c84b"],
+
+Cell["\<\
+Using the method shown in the slide set 7B, create an association of the \
+texts that you batch downloaded\
+\>", "Text",
+ CellChangeTimes->{{3.654702983606097*^9, 
+  3.654703004133769*^9}},ExpressionUUID->"6e4d8b90-6e17-4022-bd23-\
+2a8452865a6a"],
+
+Cell[TextData[{
+ "How many texts are there? Use ",
+ StyleBox["Length",
+  FontWeight->"Bold"],
+ " on your association"
+}], "Text",
+ CellChangeTimes->{{3.65470301807568*^9, 
+  3.6547030356446342`*^9}},ExpressionUUID->"9d255ab5-0d4f-4d14-8b81-\
+43b433bf7bca"],
+
+Cell["How many words are in each text?", "Text",
+ CellChangeTimes->{{3.654703040148077*^9, 
+  3.654703050555554*^9}},ExpressionUUID->"28a1c732-a885-4bbb-8e3d-\
+1876bd71dc52"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Indexing", "Section",
+ CellChangeTimes->{{3.654703062643255*^9, 
+  3.654703064595648*^9}},ExpressionUUID->"50535267-8c04-4166-9c3e-\
+6f173d39fe2a"],
+
+Cell[TextData[{
+ "Using the method shown in the slide set 7B, create indexes for each of the \
+files you downloaded, then ",
+ StyleBox["Merge",
+  FontWeight->"Bold"],
+ " them into one large index"
+}], "Text",
+ CellChangeTimes->{{3.6547030717066383`*^9, 
+  3.654703104666164*^9}},ExpressionUUID->"ab93f1bf-ace6-423b-8ca2-\
+6499e92f9055"],
+
+Cell["Demonstrate how you can look up a word in the combined index", "Text",
+ CellChangeTimes->{{3.654703111737586*^9, 
+  3.654703124025448*^9}},ExpressionUUID->"fc98920a-6e9c-4931-bcd3-\
+92f8db0dceef"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Search terms in context", "Section",
+ CellChangeTimes->{{3.654703128968596*^9, 
+  3.654703133881132*^9}},ExpressionUUID->"44408991-de99-4a58-b1fe-\
+11a03b7e96c4"],
+
+Cell[TextData[{
+ "Using the ",
+ StyleBox["displaySearch",
+  FontSlant->"Italic"],
+ " function, show how some terms are used in multiple texts at the same time"
+}], "Text",
+ CellChangeTimes->{{3.6547031449202127`*^9, 3.654703145840785*^9}, {
+  3.6547032569972343`*^9, 
+  3.654703276996171*^9}},ExpressionUUID->"5f72bb84-dc39-405b-977d-\
+e8d7dedbb6c1"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Optional: document vectors and TF/IDF", "Section",
+ CellChangeTimes->{{3.654703364826353*^9, 3.654703372200325*^9}, {
+  3.65470340524736*^9, 3.654703408967574*^9}, {3.65470344293358*^9, 
+  3.654703454597289*^9}},ExpressionUUID->"862ab149-8eb9-44b7-86cc-\
+9a4fc50a782d"],
+
+Cell["\<\
+For bonus points, try doing an analysis using document vectors and/or TF/IDF \
+on one or more of your texts\
+\>", "Text",
+ CellChangeTimes->{{3.654703411166696*^9, 
+  3.65470347711646*^9}},ExpressionUUID->"0d7997b1-8a9c-4db7-9fa0-\
+d9f37a6f1846"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1124, 962},
+WindowMargins->{{256, Automatic}, {Automatic, 103}},
+Magnification:>1.25 Inherited,
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 327, 5, 123, "Title",ExpressionUUID->"57928c84-3628-4ef4-97b5-10113332f69f"],
+Cell[CellGroupData[{
+Cell[932, 31, 187, 3, 86, "Chapter",ExpressionUUID->"090acb6f-e3d3-4911-ae6d-c10460a8d992"],
+Cell[1122, 36, 422, 10, 173, "Subchapter",ExpressionUUID->"e916dc57-3132-4891-a2c8-4777bebbfbc4"],
+Cell[CellGroupData[{
+Cell[1569, 50, 177, 3, 60, "Subchapter",ExpressionUUID->"1eb92904-7f6f-423a-87b0-4b6ecb491c85"],
+Cell[CellGroupData[{
+Cell[1771, 57, 163, 3, 84, "Section",ExpressionUUID->"e2746c48-e00e-4c67-a027-4caa2f6065f1"],
+Cell[1937, 62, 147, 3, 44, "Text",ExpressionUUID->"74ce989d-4e39-4724-9c1f-ae3af996a239"],
+Cell[2087, 67, 148, 3, 44, "Text",ExpressionUUID->"786144af-435e-444e-8452-719131e2bd79"],
+Cell[2238, 72, 159, 3, 44, "Text",ExpressionUUID->"bf72542a-c6d8-43db-968f-7f9c257b7325"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2434, 80, 201, 4, 84, "Section",ExpressionUUID->"f3b08ca4-e1b4-4813-85a8-96127aeb707e"],
+Cell[CellGroupData[{
+Cell[2660, 88, 167, 3, 67, "Subsection",ExpressionUUID->"93b6fb4f-dc5b-4885-835d-ce61f1f2df13"],
+Cell[2830, 93, 310, 5, 64, "Text",ExpressionUUID->"e512d71c-1e86-4777-afe7-627c63293b20"],
+Cell[CellGroupData[{
+Cell[3165, 102, 245, 4, 37, "Input",ExpressionUUID->"cf49545d-adbf-4a0b-aad5-aebf34173520"],
+Cell[3413, 108, 176, 2, 42, "Output",ExpressionUUID->"ed230995-b83f-4ec8-a9ee-7b21ac99c849"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3638, 116, 168, 3, 67, "Subsection",ExpressionUUID->"43c371f2-6eae-40e4-b120-dbada0ad0550"],
+Cell[3809, 121, 459, 10, 64, "Input",ExpressionUUID->"3cb93b98-5f0d-492a-b2f8-b22244bbe0a0"],
+Cell[4271, 133, 614, 14, 90, "Input",ExpressionUUID->"ab173b63-abf7-41dc-b0b8-ba5f749ffafb"],
+Cell[4888, 149, 248, 6, 44, "Text",ExpressionUUID->"a05488d7-996f-4415-8df6-1d78d0a1f6c0"],
+Cell[5139, 157, 347, 7, 44, "Text",ExpressionUUID->"d12754ec-0ee9-430e-8ace-786414eebb66"],
+Cell[5489, 166, 1010, 24, 116, "Input",ExpressionUUID->"55274c3e-6bc4-4bd7-b1ae-72fbcb1481ff"],
+Cell[6502, 192, 958, 21, 116, "Input",ExpressionUUID->"8f31f63e-fdfa-4519-b0cf-097bd172f15f"],
+Cell[7463, 215, 386, 7, 73, "Text",ExpressionUUID->"25eda272-e8b5-4629-a923-275bdd9f3c55"],
+Cell[7852, 224, 1187, 30, 116, "Input",ExpressionUUID->"7c0d0b10-7559-4b0a-8bd4-42d7925d14fa"],
+Cell[9042, 256, 288, 7, 44, "Text",ExpressionUUID->"a966f326-1bde-4d36-b453-17c2c8ac856a"],
+Cell[9333, 265, 622, 13, 64, "Input",ExpressionUUID->"0ad944a9-9ed9-48cc-8870-be6e6da2c3f6"],
+Cell[9958, 280, 3251, 75, 324, "Input",ExpressionUUID->"f94cd82e-b3f6-4c6d-a08b-34cbfcf3b9cb"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[13258, 361, 335, 5, 84, "Section",ExpressionUUID->"8259b68e-0100-48d7-9d47-af3e4e685b08"],
+Cell[13596, 368, 360, 8, 73, "Text",ExpressionUUID->"96a7e740-6b6e-45a7-a352-3fa4ea5d501a"],
+Cell[13959, 378, 579, 11, 90, "Input",ExpressionUUID->"2aec7a15-0b0b-48cf-9bba-dc42f2e60c5b"],
+Cell[14541, 391, 669, 13, 44, "Text",ExpressionUUID->"c7a92ffe-203e-40d7-b7c5-8784411bd899"],
+Cell[15213, 406, 478, 10, 73, "Text",ExpressionUUID->"c70bdbb2-028d-4fb3-9208-b1707e407212"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[15728, 421, 194, 3, 84, "Section",ExpressionUUID->"604835b5-2895-4dca-9646-410874b3d35a"],
+Cell[15925, 426, 364, 9, 73, "Text",ExpressionUUID->"90946397-dff8-4897-8ea8-5786c5228e25"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[16326, 440, 175, 3, 84, "Section",ExpressionUUID->"b519bb0d-784c-4ea1-85bb-fe82ac94c84b"],
+Cell[16504, 445, 256, 6, 44, "Text",ExpressionUUID->"6e4d8b90-6e17-4022-bd23-2a8452865a6a"],
+Cell[16763, 453, 256, 8, 44, "Text",ExpressionUUID->"9d255ab5-0d4f-4d14-8b81-43b433bf7bca"],
+Cell[17022, 463, 174, 3, 44, "Text",ExpressionUUID->"28a1c732-a885-4bbb-8e3d-1876bd71dc52"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[17233, 471, 153, 3, 84, "Section",ExpressionUUID->"50535267-8c04-4166-9c3e-6f173d39fe2a"],
+Cell[17389, 476, 336, 9, 73, "Text",ExpressionUUID->"ab93f1bf-ace6-423b-8ca2-6499e92f9055"],
+Cell[17728, 487, 202, 3, 44, "Text",ExpressionUUID->"fc98920a-6e9c-4931-bcd3-92f8db0dceef"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[17967, 495, 168, 3, 84, "Section",ExpressionUUID->"44408991-de99-4a58-b1fe-11a03b7e96c4"],
+Cell[18138, 500, 350, 9, 44, "Text",ExpressionUUID->"5f72bb84-dc39-405b-977d-e8d7dedbb6c1"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[18525, 514, 275, 4, 84, "Section",ExpressionUUID->"862ab149-8eb9-44b7-86cc-9a4fc50a782d"],
+Cell[18803, 520, 256, 6, 44, "Text",ExpressionUUID->"0d7997b1-8a9c-4db7-9fa0-d9f37a6f1846"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
