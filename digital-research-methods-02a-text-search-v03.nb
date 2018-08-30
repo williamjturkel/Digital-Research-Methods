@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     58446,       1397]
-NotebookOptionsPosition[     44473,       1170]
-NotebookOutlinePosition[     46706,       1216]
-CellTagsIndexPosition[     46627,       1211]
+NotebookDataLength[    167885,       3755]
+NotebookOptionsPosition[    146674,       3389]
+NotebookOutlinePosition[    149202,       3439]
+CellTagsIndexPosition[    149122,       3434]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -358,13 +358,580 @@ Cell["January 1946", "Subsection",
   3.734541924661072*^9}},ExpressionUUID->"ce75ce0d-55d7-4ce3-a342-\
 d7428b375fcc"],
 
+Cell[CellGroupData[{
+
 Cell[BoxData[
  RowBox[{"WordCloud", "[", 
   RowBox[{"DeleteStopwords", "[", "hstJan1946String", "]"}], "]"}]], "Input",
  CellChangeTimes->{{3.6813097671914663`*^9, 3.68130977852757*^9}, {
   3.6813098243106422`*^9, 3.681309860585894*^9}, {3.7345419301423492`*^9, 
   3.7345419346792088`*^9}},
- CellLabel->"In[47]:=",ExpressionUUID->"d4d070b0-1afe-4ad4-9710-9226dd3d6e02"]
+ CellLabel->"In[47]:=",ExpressionUUID->"d4d070b0-1afe-4ad4-9710-9226dd3d6e02"],
+
+Cell[BoxData[
+ GraphicsBox[{InsetBox[
+    StyleBox["\<\"dollars\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.17857142857142855`],
+     FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {0, 0}, Center, 
+    Automatic], InsetBox[
+    StyleBox["\<\"expenditures\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.10659128516271373`],
+     FontColor->RGBColor[0.772079, 0.431554, 0.102387]], {-0.5, -42.5}, 
+    Center, Automatic], InsetBox[
+    StyleBox["\<\"YEAR\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.15871483728626584`],
+     FontColor->RGBColor[0.560181, 0.691569, 0.194885]], {-0.5, 52.5}, Center,
+     Automatic], InsetBox[
+    StyleBox["\<\"Government\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.10659128516271373`],
+     FontColor->RGBColor[0.363898, 0.618501, 0.782349]], {-0.5, -78.5}, 
+    Center, Automatic], InsetBox[
+    StyleBox["\<\"million\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.11982901268615553`],
+     FontColor->RGBColor[0.922526, 0.385626, 0.209179]], {3.5, 97.5}, Center, 
+    Automatic], InsetBox[
+    StyleBox["\<\"Program\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.08673469387755102],
+     FontColor->RGBColor[1, 0.75, 0]], {-0.5, -108.5}, Center, Automatic], 
+   InsetBox[
+    StyleBox["\<\"fiscal\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.11403750689464974`],
+     FontColor->RGBColor[0.528488, 0.470624, 0.701351]], {-0.5, 134.5}, 
+    Center, Automatic], InsetBox[
+    StyleBox["\<\"war\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.16864313292884722`],
+     FontColor->RGBColor[0.880722, 0.611041, 0.142051]], {-106.5, 104.5}, 
+    Center, Automatic], InsetBox[
+    StyleBox["\<\"Congress\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.06853281853281852],
+     FontColor->RGBColor[
+      0.9728288904374106, 0.621644452187053, 0.07336199581899142]], {-0.5, -137.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"United\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.08342526199669056],
+     FontColor->RGBColor[0.647624, 0.37816, 0.614037]], {115.5, 92.5}, Center,
+     Automatic], InsetBox[
+    StyleBox["\<\"legislation\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.060259238830667396`],
+     FontColor->RGBColor[0.28026441037696703`, 0.715, 0.4292089322474965]], {101.5, 122.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"Federal\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.06936017650303364],
+     FontColor->RGBColor[0.40082222609352647`, 0.5220066643438841, 0.85]], {-118.5, 42.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"billion\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.07597904026475454],
+     FontColor->RGBColor[0.915, 0.3325, 0.2125]], {123.5, 31.5}, Center, 
+    Automatic], InsetBox[
+    StyleBox["\<\"1947\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.07928847214561499],
+     FontColor->RGBColor[0.571589, 0.586483, 0.]], {116.5, 56.5}, Center, 
+    Automatic], InsetBox[
+    StyleBox["\<\"estimated\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.05281301709873138],
+     FontColor->RGBColor[0.8996399512215667, 0.7463488834690629, 0.]], {-110.5, -104.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"States\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.0668781025923883],
+     FontColor->RGBColor[0.736782672705901, 0.358, 0.5030266573755369]], {-121.5, 66.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"recommended\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04371207942636514],
+     FontColor->RGBColor[
+      0.8613800418100862, 0.48092002787339083`, 0.02824203762907758]], {63.5, -154.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"Production\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.05033094318808604],
+     FontColor->RGBColor[0.5407932311309059, 0.715, 0.09762679674248334]], {112.5, -103.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"national\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.05694980694980694],
+     FontColor->RGBColor[
+      0.838355547812947, 0.44746667828057946`, 0.0208888695323676]], {97.5, -128.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"economic\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.05115830115830115],
+     FontColor->RGBColor[
+      0.8439466852489265, 0.3467106629502147, 0.3309221912517893]], {-95.5, 132.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"employment\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04288472145615002],
+     FontColor->RGBColor[0.7678998606330495, 0.7317110956258943, 0.]], {-56.5, -155.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"business\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.05033094318808604],
+     FontColor->RGBColor[
+      0.6753413537738198, 0.3589675436319385, 0.5991466155654507]], {-99.5, -126.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"appropriations\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.037093215664644234`],
+     FontColor->RGBColor[
+      0.9052934053395919, 0.510195603559728, 0.06776406480563275]], {97.5, 141.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"administration\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.037093215664644234`],
+     FontColor->RGBColor[
+      0.23716678280579248`, 0.645266573755366, 0.699600139366951]], {-99.5, 149.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"increase\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04288472145615002],
+     FontColor->RGBColor[
+      0.8878600487784333, 0.33792799024431336`, 0.2577332520359445]], {-130.5, 20.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"public\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.05115830115830115],
+     FontColor->RGBColor[
+      0.28240003484173815`, 0.6090799721266095, 0.7538800418100857]], {-127.5, -19.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"programs\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.037920573634859345`],
+     FontColor->RGBColor[
+      0.8168067340273636, 0.3521386531945273, 0.3761554432877274]], {-131.5, -141.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"reconversion\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03295642581356867],
+     FontColor->RGBColor[
+      0.3103557220216354, 0.5867154223826917, 0.7874268664259625]], {87.5, 155.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"international\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.034611141753998896`],
+     FontColor->RGBColor[0.2187618985811806, 0.715, 0.5074848563512248]], {-0.5, 161.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"people\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.047848869277440705`],
+     FontColor->RGBColor[
+      0.9874666782805795, 0.6948333914028977, 0.033839968642435214`]], {131.5, 8.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"development\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03130170987313844],
+     FontColor->RGBColor[
+      0.9930578157165594, 0.7227890785827968, 0.01874389756528967]], {135.5, -21.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"Nations\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04288472145615002],
+     FontColor->RGBColor[
+      0.35558897405758294`, 0.5505288207539337, 0.8417067688690995]], {-133.5, 0.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"1945\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.055295091009376726`],
+     FontColor->RGBColor[
+      0.5833680111493557, 0.4126186601628758, 0.8290799721266107]], {144.5, -41.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"world\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.05115830115830115],
+     FontColor->RGBColor[
+      0.9324333565611593, 0.5282889043741062, 0.0921900209050434]], {-144.5, -39.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"Budget\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04288472145615002],
+     FontColor->RGBColor[
+      0.6184987019729621, 0.39212575718243875`, 0.7412532450675947]], {143.5, -65.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"authorizations\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03130170987313844],
+     FontColor->RGBColor[
+      0.8745421494417032, 0.39318677583744527`, 0.11135537360425793`]], {-78.5, 163.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"POLICY\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03874793160507446],
+     FontColor->RGBColor[0.7132613816472081, 0.358, 0.5392132590042952]], {-142.5, -65.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"expected\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.035438499724214007`],
+     FontColor->RGBColor[
+      0.9038177251280404, 0.3492734123079395, 0.18454431282010084`]], {-145.5, -80.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"housing\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.037920573634859345`],
+     FontColor->RGBColor[0.5472001045252132, 0.43417993728487203`, 0.85]], {143.5, -84.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"veterans\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03626585769442912],
+     FontColor->RGBColor[0.6361597700445392, 0.7170733077827265, 0.]], {66.5, 167.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"necessary\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03130170987313844],
+     FontColor->RGBColor[
+      0.19193353076984873`, 0.681453175384121, 0.6453202369238185]], {-0.5, -167.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"1946\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.047848869277440705`],
+     FontColor->RGBColor[0.47401116530937026`, 0.47809330081437784`, 0.85]], {140.5, -148.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"receipts\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.037093215664644234`],
+     FontColor->RGBColor[
+      0.6536293927965667, 0.37163285420200276`, 0.6534265180085832]], {-131.5, -158.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"total\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.05033094318808604],
+     FontColor->RGBColor[
+      0.8857244243136628, 0.3764133635295058, 0.1393110607841571]], {146.5, 155.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"economy\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03212906784335356],
+     FontColor->RGBColor[0.6897400905885174, 0.358, 0.5753998606330502]], {55.5, -167.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"years\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04205736348593492],
+     FontColor->RGBColor[
+      0.9637822400302223, 0.5764112001511111, 0.0977879519184]], {141.5, -163.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"general\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.035438499724214007`],
+     FontColor->RGBColor[0.428777913273419, 0.5052332520359486, 0.85]], {-142.5, 163.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"continue\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.033783783783783786`],
+     FontColor->RGBColor[
+      0.8342400905885153, 0.4628267270590103, 0.0038160815296638794`]], {-0.5, 175.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"time\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04702151130722559],
+     FontColor->RGBColor[0.7748409210981391, 0.358, 0.4444755060028629]], {-51.5, -173.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"period\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.037920573634859345`],
+     FontColor->RGBColor[0.9810598048862722, 0.7553955338762525, 0.]], {-93.5, -174.5}, \
+Center, Automatic], InsetBox[
+    StyleBox["\<\"construction\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.027164920022062878`],
+     FontColor->RGBColor[
+      0.6102054708420535, 0.39696347534213544`, 0.7619863228948663]], {147.5, -7.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"control\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.037920573634859345`],
+     FontColor->RGBColor[
+      0.8564488486273256, 0.42032672705901153`, 0.06612212156831418]], {-50.5, 176.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"peacetime\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.027164920022062878`],
+     FontColor->RGBColor[
+      0.3383114092015346, 0.5643508726387724, 0.8209736910418415]], {-103.5, 177.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"FOREIGN\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.027164920022062878`],
+     FontColor->RGBColor[0.7989994773739094, 0.735166608597101, 0.]], {121.5, 170.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"security\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03295642581356867],
+     FontColor->RGBColor[
+      0.9492067688690977, 0.5394711792460651, 0.10728609198218791`]], {160.5, -117.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"PEACE\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.033783783783783786`],
+     FontColor->RGBColor[
+      0.596786740995709, 0.404791067752503, 0.7955331475107271]], {-139.5, -175.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"September\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.026337562051847764`],
+     FontColor->RGBColor[
+      0.8949268664259606, 0.5032845776173072, 0.05843417978336459]], {119.5, -178.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"adequate\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.027992277992277992`],
+     FontColor->RGBColor[
+      0.9840111653093676, 0.677555826546838, 0.04316985366470745]], {-153.5, 176.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"prices\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.035438499724214007`],
+     FontColor->RGBColor[
+      0.9784200278733908, 0.649600139366954, 0.058265924741844846`]], {-160.5, -118.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"agencies\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.027992277992277992`],
+     FontColor->RGBColor[0.7658565873730018, 0.358, 0.4582975578876895]], {52.5, 26.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"agriculture\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.02551020408163265],
+     FontColor->RGBColor[0.6672593867853922, 0.7205288207539324, 0.]], {170.5, 48.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"present\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03130170987313844],
+     FontColor->RGBColor[
+      0.6319174318193065, 0.38429816477207124`, 0.7077064204517338]], {-1.5, -180.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"percent\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.030474351902923327`],
+     FontColor->RGBColor[0.38354466123747527`, 0.5323732032575149, 0.85]], {42.5, -180.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"private\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.033783783783783786`],
+     FontColor->RGBColor[0.8493197142977551, 0.7407577460330839, 0.]], {47.5, 181.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"activities\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.027992277992277992`],
+     FontColor->RGBColor[0.4567336004533182, 0.4884598397280091, 0.85]], {91.5, 182.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"defense\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.028819635962493102`],
+     FontColor->RGBColor[
+      0.922066817647527, 0.5213778784316846, 0.08286013588277422]], {159.5, -131.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"provide\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.030474351902923327`],
+     FontColor->RGBColor[
+      0.969373377466199, 0.6043668873309952, 0.08269188084126262]], {173.5, 62.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"months\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.029646993932708216`],
+     FontColor->RGBColor[
+      0.845266573755366, 0.437100139366951, 0.03816643438841502]], {-173.5, 85.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"power\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03130170987313844],
+     FontColor->RGBColor[
+      0.8781534541180211, 0.4921023027453475, 0.04333810870621905]], {-172.5, -10.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"system\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.029646993932708216`],
+     FontColor->RGBColor[
+      0.8335801463353031, 0.3487839707329394, 0.3481997561078282]], {-175.5, -24.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"service\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.029646993932708216`],
+     FontColor->RGBColor[
+      0.5750747800184488, 0.4174563783225715, 0.8498130499538777]], {-0.5, 187.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"food\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.034611141753998896`],
+     FontColor->RGBColor[0.7513196300394465, 0.358, 0.48066210763162087`]], {175.5, 10.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"workers\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.027164920022062878`],
+     FontColor->RGBColor[0.4177882075393331, 0.715, 0.25417864494993975`]], {-43.5, 27.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"services\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.027164920022062878`],
+     FontColor->RGBColor[
+      0.9603267270590103, 0.5591336352950514, 0.10711783694067224`]], {-46.5, -187.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"great\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03295642581356867],
+     FontColor->RGBColor[
+      0.8607200975568693, 0.34335598048862614`, 0.30296650407188447`]], {177.5, 27.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"needed\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.026337562051847764`],
+     FontColor->RGBColor[
+      0.8064401951137368, 0.3542119609772526, 0.39343300814377197`]], {175.5, 74.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"income\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.027164920022062878`],
+     FontColor->RGBColor[
+      0.8774935098648088, 0.34000129802703827`, 0.2750108168919853]], {-52.5, 188.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"future\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.028819635962493102`],
+     FontColor->RGBColor[
+      0.6670481226429111, 0.3638052617916352, 0.6198796933927223]], {-176.5, 61.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"require\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.026337562051847764`],
+     FontColor->RGBColor[
+      0.2198892179497479, 0.6590886256402017, 0.6788670615396974]], {-173.5, -93.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"new\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.04453943739658025],
+     FontColor->RGBColor[
+      0.16397784358994957`, 0.7038177251280403, 0.6117734123079395]], {-175.5, 98.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"wage\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.028819635962493102`],
+     FontColor->RGBColor[
+      0.8926354502560807, 0.366046824615879, 0.15658862564020168`]], {-178.5, 1.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"price\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03130170987313844],
+     FontColor->RGBColor[0.7175796237092107, 0.7261199581899123, 0.]], {-179.5, 14.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"large\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03130170987313844],
+     FontColor->RGBColor[
+      0.7896667828057927, 0.3575666434388414, 0.4213886953236787]], {-180.5, 29.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"Nation\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.026337562051847764`],
+     FontColor->RGBColor[
+      0.9986489531525362, 0.7507447657626809, 0.0036478264881522893`]], {-156.5, 129.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"work\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.029646993932708216`],
+     FontColor->RGBColor[
+      0.26512246998569167`, 0.6229020240114467, 0.73314696398283]], {-179.5, 40.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"small\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.029646993932708216`],
+     FontColor->RGBColor[0.9307395679624266, 0.7498043964402695, 0.]], {177.5, 86.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"current\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.02551020408163265],
+     FontColor->RGBColor[
+      0.9107287510704583, 0.33890687339431275`, 0.20182187767614543`]], {80.5, -189.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"debt\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03130170987313844],
+     FontColor->RGBColor[0.5019668524892619, 0.46131988850644284`, 0.85]], {-181.5, -47.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"make\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.026337562051847764`],
+     FontColor->RGBColor[0.529922539669161, 0.44454647619850335`, 0.85]], {174.5, -99.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"labor\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.030474351902923327`],
+     FontColor->RGBColor[
+      0.9046334610863751, 0.334573307782725, 0.22977756485604156`]], {177.5, 99.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"good\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.027992277992277992`],
+     FontColor->RGBColor[0.15725938678540247`, 0.715, 0.5857607804549424]], {168.5, 116.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"level\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.029646993932708216`],
+     FontColor->RGBColor[0.31827505306025683`, 0.715, 0.3808317506505822]], {-174.5, 110.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"shall\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.030474351902923327`],
+     FontColor->RGBColor[0.7277983389807635, 0.358, 0.5168487092603637]], {-80.5, -188.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"act\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.037920573634859345`],
+     FontColor->RGBColor[0.37977756485605163`, 0.715, 0.3025558265468435]], {181.5, -33.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"June\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.026337562051847764`],
+     FontColor->RGBColor[
+      0.8633598745697435, 0.40996018814538476`, 0.08339968642435877]], {181.5, -49.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"State\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.027164920022062878`],
+     FontColor->RGBColor[0.7042770479220728, 0.358, 0.5530353108891188]], {-85.5, 188.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"high\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.028819635962493102`],
+     FontColor->RGBColor[0.5788038738141875, 0.715, 0.049249615145579635`]], {182.5, -79.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"30\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.027164920022062878`],
+     FontColor->RGBColor[
+      0.8510135028964549, 0.47400900193096995`, 0.018912152606809424`]], {13.5, 26.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"6\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.03130170987313844],
+     FontColor->RGBColor[0.47929071933511125`, 0.715, 0.1759027208462221]], {15.5, 38.5},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"1\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.02551020408163265],
+     FontColor->RGBColor[
+      0.6453361616656581, 0.37647057236169945`, 0.6741595958358548]], {-25.5, -22.5},
+     Center, Automatic]},
+  DefaultBaseStyle->{"Graphics", FontFamily -> "Helvetica"},
+  Method->{
+   "DefaultBoundaryStyle" -> Automatic, "DefaultPlotStyle" -> Automatic},
+  PlotRange->{{-196., 196.}, {-195., 195.}}]], "Output",
+ CellChangeTimes->{3.734285006036399*^9, 3.7345419387872143`*^9},
+ CellLabel->"Out[47]=",ExpressionUUID->"2c0fd332-cf01-4c36-b4e4-4e781f48e9d7"]
+}, Open  ]]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -375,13 +942,580 @@ Cell["January 1950", "Subsection",
   3.734541960395855*^9}},ExpressionUUID->"502aedeb-b217-41ad-a934-\
 fcd63c399b44"],
 
+Cell[CellGroupData[{
+
 Cell[BoxData[
  RowBox[{"WordCloud", "[", 
   RowBox[{"DeleteStopwords", "[", "hstJan1950String", "]"}], "]"}]], "Input",
  CellChangeTimes->{{3.6813097671914663`*^9, 3.68130977852757*^9}, {
   3.6813098243106422`*^9, 3.681309860585894*^9}, {3.6813099022884703`*^9, 
   3.68130990272788*^9}, {3.734541965236348*^9, 3.734541967731324*^9}},
- CellLabel->"In[48]:=",ExpressionUUID->"74faf21c-4b33-4090-8cd8-e38641c90589"]
+ CellLabel->"In[48]:=",ExpressionUUID->"74faf21c-4b33-4090-8cd8-e38641c90589"],
+
+Cell[BoxData[
+ GraphicsBox[{InsetBox[
+    StyleBox["\<\"Congress\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.1226725082146769],
+     FontColor->RGBColor[0.880722, 0.611041, 0.142051]], {0, 0}, Center, 
+    Automatic], InsetBox[
+    StyleBox["\<\"world\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.16867469879518074`],
+     FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {1., 38.}, Center, 
+    Automatic], InsetBox[
+    StyleBox["\<\"economic\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.1226725082146769],
+     FontColor->RGBColor[0.560181, 0.691569, 0.194885]], {-3., -42.}, Center, 
+    Automatic], InsetBox[
+    StyleBox["\<\"Government\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.0963855421686747],
+     FontColor->RGBColor[0.772079, 0.431554, 0.102387]], {0., -80.}, Center, 
+    Automatic], InsetBox[
+    StyleBox["\<\"Nations\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.0963855421686747],
+     FontColor->RGBColor[0.363898, 0.618501, 0.782349]], {-36., 72.}, Center, 
+    Automatic], InsetBox[
+    StyleBox["\<\"years\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.1095290251916758],
+     FontColor->RGBColor[0.922526, 0.385626, 0.209179]], {0., -107.}, Center, 
+    Automatic], InsetBox[
+    StyleBox["\<\"country\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.08981380065717416],
+     FontColor->RGBColor[1, 0.75, 0]], {28., 98.}, Center, Automatic], 
+   InsetBox[
+    StyleBox["\<\"system\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.08981380065717416],
+     FontColor->RGBColor[0.40082222609352647`, 0.5220066643438841, 0.85]], {-11., 122.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"democratic\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.0700985761226725],
+     FontColor->RGBColor[
+      0.838355547812947, 0.44746667828057946`, 0.0208888695323676]], {27., -138.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"people\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.08981380065717416],
+     FontColor->RGBColor[0.915, 0.3325, 0.2125]], {0., 153.}, Center, 
+    Automatic], InsetBox[
+    StyleBox["\<\"national\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.07667031763417306],
+     FontColor->RGBColor[
+      0.9728288904374106, 0.621644452187053, 0.07336199581899142]], {112., -110.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"great\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.08981380065717416],
+     FontColor->RGBColor[0.647624, 0.37816, 0.614037]], {126., 36.}, Center, 
+    Automatic], InsetBox[
+    StyleBox["\<\"freedom\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.0700985761226725],
+     FontColor->RGBColor[
+      0.5833680111493557, 0.4126186601628758, 0.8290799721266107]], {-109., -109.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"benefits\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.0700985761226725],
+     FontColor->RGBColor[0.28026441037696703`, 0.715, 0.4292089322474965]], {-121., 103.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"increasing\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.056955093099671415`],
+     FontColor->RGBColor[
+      0.9874666782805795, 0.6948333914028977, 0.033839968642435214`]], {102., 123.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"peace\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.07667031763417306],
+     FontColor->RGBColor[0.736782672705901, 0.358, 0.5030266573755369]], {-125., 38.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"growth\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.0700985761226725],
+     FontColor->RGBColor[0.8996399512215667, 0.7463488834690629, 0.]], {127., 64.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"power\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.0700985761226725],
+     FontColor->RGBColor[
+      0.8439466852489265, 0.3467106629502147, 0.3309221912517893]], {128., 89.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"international\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.05038335158817087],
+     FontColor->RGBColor[
+      0.9637822400302223, 0.5764112001511111, 0.0977879519184]], {-3., -160.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"program\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.056955093099671415`],
+     FontColor->RGBColor[
+      0.16397784358994957`, 0.7038177251280403, 0.6117734123079395]], {-99., -129.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"life\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.10295728368017526`],
+     FontColor->RGBColor[0.528488, 0.470624, 0.701351]], {-133., -17.}, 
+    Center, Automatic], InsetBox[
+    StyleBox["\<\"development\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.043811610076670324`],
+     FontColor->RGBColor[0.9810598048862722, 0.7553955338762525, 0.]], {-111., 141.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"greater\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.056955093099671415`],
+     FontColor->RGBColor[0.47401116530937026`, 0.47809330081437784`, 0.85]], {95., 146.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"United\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.06352683461117196],
+     FontColor->RGBColor[
+      0.9324333565611593, 0.5282889043741062, 0.0921900209050434]], {-95., 160.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"economy\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.05038335158817087],
+     FontColor->RGBColor[
+      0.6184987019729621, 0.39212575718243875`, 0.7412532450675947]], {-105., -151.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"opportunity\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.043811610076670324`],
+     FontColor->RGBColor[0.6361597700445392, 0.7170733077827265, 0.]], {101., -157.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"production\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.043811610076670324`],
+     FontColor->RGBColor[0.428777913273419, 0.5052332520359486, 0.85]], {100., 165.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"good\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.06352683461117196],
+     FontColor->RGBColor[
+      0.28240003484173815`, 0.6090799721266095, 0.7538800418100857]], {136., -21.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"expenditures\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.037239868565169774`],
+     FontColor->RGBColor[
+      0.596786740995709, 0.404791067752503, 0.7955331475107271]], {-72., -177.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"new\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.08981380065717416],
+     FontColor->RGBColor[0.571589, 0.586483, 0.]], {143., 8.}, Center, 
+    Automatic], InsetBox[
+    StyleBox["\<\"challenge\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.043811610076670324`],
+     FontColor->RGBColor[
+      0.8564488486273256, 0.42032672705901153`, 0.06612212156831418]], {-144., 59.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"programs\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.043811610076670324`],
+     FontColor->RGBColor[
+      0.9784200278733908, 0.649600139366954, 0.058265924741844846`]], {146., -44.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"better\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.056955093099671415`],
+     FontColor->RGBColor[
+      0.8857244243136628, 0.3764133635295058, 0.1393110607841571]], {-145., -42.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"history\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.05038335158817087],
+     FontColor->RGBColor[
+      0.35558897405758294`, 0.5505288207539337, 0.8417067688690995]], {-140., -64.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"year\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.06352683461117196],
+     FontColor->RGBColor[
+      0.6753413537738198, 0.3589675436319385, 0.5991466155654507]], {136., -65.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"achieved\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.043811610076670324`],
+     FontColor->RGBColor[0.37977756485605163`, 0.715, 0.3025558265468435]], {-141., 76.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"increase\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.043811610076670324`],
+     FontColor->RGBColor[
+      0.8168067340273636, 0.3521386531945273, 0.3761554432877274]], {-147., -85.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"continue\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.043811610076670324`],
+     FontColor->RGBColor[0.5472001045252132, 0.43417993728487203`, 0.85]], {-11., 172.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"strength\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.043811610076670324`],
+     FontColor->RGBColor[0.2187618985811806, 0.715, 0.5074848563512248]], {134., -132.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"work\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.056955093099671415`],
+     FontColor->RGBColor[
+      0.8613800418100862, 0.48092002787339083`, 0.02824203762907758]], {-145., -173.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"peoples\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.043811610076670324`],
+     FontColor->RGBColor[
+      0.9038177251280404, 0.3492734123079395, 0.18454431282010084`]], {153., -84.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"today\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.05038335158817087],
+     FontColor->RGBColor[0.7132613816472081, 0.358, 0.5392132590042952]], {2., -181.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"future\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.05038335158817087],
+     FontColor->RGBColor[
+      0.8878600487784333, 0.33792799024431336`, 0.2577332520359445]], {52., 180.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"resources\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.043811610076670324`],
+     FontColor->RGBColor[0.7513196300394465, 0.358, 0.48066210763162087`]], {-18., 189.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"past\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.056955093099671415`],
+     FontColor->RGBColor[0.7748409210981391, 0.358, 0.4444755060028629]], {53., -180.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"nation\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.043811610076670324`],
+     FontColor->RGBColor[
+      0.6536293927965667, 0.37163285420200276`, 0.6534265180085832]], {-135., 12.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"security\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.037239868565169774`],
+     FontColor->RGBColor[
+      0.9492067688690977, 0.5394711792460651, 0.10728609198218791`]], {-89., 180.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"citizens\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.037239868565169774`],
+     FontColor->RGBColor[
+      0.8342400905885153, 0.4628267270590103, 0.0038160815296638794`]], {-134., 119.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"productive\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.030668127053669225`],
+     FontColor->RGBColor[0.9307395679624266, 0.7498043964402695, 0.]], {108., -173.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"make\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.043811610076670324`],
+     FontColor->RGBColor[
+      0.23716678280579248`, 0.645266573755366, 0.699600139366951]], {155., 138.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"legislation\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.030668127053669225`],
+     FontColor->RGBColor[0.38354466123747527`, 0.5323732032575149, 0.85]], {110., 183.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"free\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.05038335158817087],
+     FontColor->RGBColor[0.7678998606330495, 0.7317110956258943, 0.]], {-164., -127.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"continued\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.030668127053669225`],
+     FontColor->RGBColor[
+      0.7896667828057927, 0.3575666434388414, 0.4213886953236787]], {106., -187.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"principles\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.030668127053669225`],
+     FontColor->RGBColor[
+      0.5750747800184488, 0.4174563783225715, 0.8498130499538777]], {-162., 159.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"unless\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.037239868565169774`],
+     FontColor->RGBColor[0.47929071933511125`, 0.715, 0.1759027208462221]], {-173., -145.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"meet\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.043811610076670324`],
+     FontColor->RGBColor[
+      0.9052934053395919, 0.510195603559728, 0.06776406480563275]], {169., -150.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"progress\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.030668127053669225`],
+     FontColor->RGBColor[
+      0.8335801463353031, 0.3487839707329394, 0.3481997561078282]], {-143., 180.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"essential\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.030668127053669225`],
+     FontColor->RGBColor[
+      0.19193353076984873`, 0.681453175384121, 0.6453202369238185]], {170., 154.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"organization\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.024096385542168676`],
+     FontColor->RGBColor[0.529922539669161, 0.44454647619850335`, 0.85]], {-134., -189.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"mankind\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.030668127053669225`],
+     FontColor->RGBColor[0.7277983389807635, 0.358, 0.5168487092603637]], {169., 168.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"public\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.037239868565169774`],
+     FontColor->RGBColor[
+      0.3103557220216354, 0.5867154223826917, 0.7874268664259625]], {167., -168.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"policy\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.037239868565169774`],
+     FontColor->RGBColor[
+      0.8607200975568693, 0.34335598048862614`, 0.30296650407188447`]], {157., -185.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"ideals\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.037239868565169774`],
+     FontColor->RGBColor[0.8493197142977551, 0.7407577460330839, 0.]], {161., 182.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"recommend\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.024096385542168676`],
+     FontColor->RGBColor[
+      0.6453361616656581, 0.37647057236169945`, 0.6741595958358548]], {-157., 190.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"housing\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.030668127053669225`],
+     FontColor->RGBColor[0.7175796237092107, 0.7261199581899123, 0.]], {-183., 0.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"achieve\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.030668127053669225`],
+     FontColor->RGBColor[
+      0.8745421494417032, 0.39318677583744527`, 0.11135537360425793`]], {-183., -14.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"session\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.030668127053669225`],
+     FontColor->RGBColor[
+      0.922066817647527, 0.5213778784316846, 0.08286013588277422]], {-47., -192.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"Federal\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.030668127053669225`],
+     FontColor->RGBColor[
+      0.6319174318193065, 0.38429816477207124`, 0.7077064204517338]], {46., 196.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"provide\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.030668127053669225`],
+     FontColor->RGBColor[
+      0.26512246998569167`, 0.6229020240114467, 0.73314696398283]], {0., -199.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"necessary\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.024096385542168676`],
+     FontColor->RGBColor[
+      0.8633598745697435, 0.40996018814538476`, 0.08339968642435877]], {115., 105.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"50\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.056955093099671415`],
+     FontColor->RGBColor[0.5407932311309059, 0.715, 0.09762679674248334]], {180., -16.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"proposals\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.024096385542168676`],
+     FontColor->RGBColor[
+      0.8064401951137368, 0.3542119609772526, 0.39343300814377197`]], {46., -198.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"natural\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.030668127053669225`],
+     FontColor->RGBColor[
+      0.845266573755366, 0.437100139366951, 0.03816643438841502]], {185., -59.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"prosperity\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.024096385542168676`],
+     FontColor->RGBColor[
+      0.2198892179497479, 0.6590886256402017, 0.6788670615396974]], {177., 104.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"shall\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.037239868565169774`],
+     FontColor->RGBColor[0.6897400905885174, 0.358, 0.5753998606330502]], {-186., 14.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"increased\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.024096385542168676`],
+     FontColor->RGBColor[
+      0.9603267270590103, 0.5591336352950514, 0.10711783694067224`]], {-83., 194.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"States\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.030668127053669225`],
+     FontColor->RGBColor[
+      0.6670481226429111, 0.3638052617916352, 0.6198796933927223]], {185., 79.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"affairs\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.030668127053669225`],
+     FontColor->RGBColor[0.5019668524892619, 0.46131988850644284`, 0.85]], {-188., 29.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"maintain\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.024096385542168676`],
+     FontColor->RGBColor[0.4177882075393331, 0.715, 0.25417864494993975`]], {-185., -99.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"average\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.024096385542168676`],
+     FontColor->RGBColor[
+      0.8926354502560807, 0.366046824615879, 0.15658862564020168`]], {185., -30.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"support\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.024096385542168676`],
+     FontColor->RGBColor[0.6672593867853922, 0.7205288207539324, 0.]], {188., 25.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"policies\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.024096385542168676`],
+     FontColor->RGBColor[
+      0.9986489531525362, 0.7507447657626809, 0.0036478264881522893`]], {188., 36.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"century\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.024096385542168676`],
+     FontColor->RGBColor[
+      0.9840111653093676, 0.677555826546838, 0.04316985366470745]], {-187., 42.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"labor\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.030668127053669225`],
+     FontColor->RGBColor[
+      0.9046334610863751, 0.334573307782725, 0.22977756485604156`]], {187., 49.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"groups\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.024096385542168676`],
+     FontColor->RGBColor[
+      0.6102054708420535, 0.39696347534213544`, 0.7619863228948663]], {189., 64.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"income\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.024096385542168676`],
+     FontColor->RGBColor[
+      0.3383114092015346, 0.5643508726387724, 0.8209736910418415]], {49., 77.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"control\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.024096385542168676`],
+     FontColor->RGBColor[0.7658565873730018, 0.358, 0.4582975578876895]], {-87., 123.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"believe\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.024096385542168676`],
+     FontColor->RGBColor[0.4567336004533182, 0.4884598397280091, 0.85]], {-189., 88.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"purpose\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.024096385542168676`],
+     FontColor->RGBColor[
+      0.8949268664259606, 0.5032845776173072, 0.05843417978336459]], {176., 116.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"extend\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.024096385542168676`],
+     FontColor->RGBColor[
+      0.8510135028964549, 0.47400900193096995`, 0.018912152606809424`]], {-189., -57.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"time\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.030668127053669225`],
+     FontColor->RGBColor[0.5788038738141875, 0.715, 0.049249615145579635`]], {191., 2.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"areas\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.030668127053669225`],
+     FontColor->RGBColor[
+      0.9930578157165594, 0.7227890785827968, 0.01874389756528967]], {186., -97.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"health\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.024096385542168676`],
+     FontColor->RGBColor[0.7989994773739094, 0.735166608597101, 0.]], {-192., -27.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"fair\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.030668127053669225`],
+     FontColor->RGBColor[
+      0.8781534541180211, 0.4921023027453475, 0.04333810870621905]], {-187., -40.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"effort\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.024096385542168676`],
+     FontColor->RGBColor[0.15725938678540247`, 0.715, 0.5857607804549424]], {-187., -69.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"men\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.030668127053669225`],
+     FontColor->RGBColor[0.31827505306025683`, 0.715, 0.3808317506505822]], {-33., -20.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"man\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.030668127053669225`],
+     FontColor->RGBColor[
+      0.969373377466199, 0.6043668873309952, 0.08269188084126262]], {184., -70.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"way\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.024096385542168676`],
+     FontColor->RGBColor[
+      0.9107287510704583, 0.33890687339431275`, 0.20182187767614543`]], {-189., 72.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"help\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.024096385542168676`],
+     FontColor->RGBColor[
+      0.8774935098648088, 0.34000129802703827`, 0.2750108168919853]], {-196., 53.},
+     Center, Automatic], InsetBox[
+    StyleBox["\<\"law\"\>",
+     StripOnInput->False,
+     FontSize->Scaled[0.024096385542168676`],
+     FontColor->RGBColor[0.7042770479220728, 0.358, 0.5530353108891188]], {52., 63.},
+     Center, Automatic]},
+  DefaultBaseStyle->{"Graphics", FontFamily -> "Helvetica"},
+  Method->{
+   "DefaultBoundaryStyle" -> Automatic, "DefaultPlotStyle" -> Automatic},
+  PlotRange->{{-207.5, 207.5}, {-207.5, 204.5}}]], "Output",
+ CellChangeTimes->{3.734285008588687*^9, 3.7345419718500423`*^9},
+ CellLabel->"Out[48]=",ExpressionUUID->"c74bc017-f19d-4acc-9870-37b2614ab843"]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
@@ -434,22 +1568,38 @@ Cell[BoxData[
   3.681310144468133*^9}, {3.734542075864395*^9, 3.734542087223345*^9}},
  CellLabel->"In[49]:=",ExpressionUUID->"47d94fbb-ab2e-4a07-9a38-fd4327c31f17"],
 
+Cell[CellGroupData[{
+
 Cell[BoxData[
  RowBox[{"Head", "[", "hstJan1946Sentences", "]"}]], "Input",
  CellChangeTimes->{{3.681310148300297*^9, 3.6813101544470043`*^9}, {
   3.734542096720367*^9, 3.734542098793116*^9}},
  CellLabel->"In[50]:=",ExpressionUUID->"951d8cb8-6f7b-45af-be99-e34c1fce6996"],
 
+Cell[BoxData["List"], "Output",
+ CellChangeTimes->{3.734285031423683*^9, 3.734542099672331*^9},
+ CellLabel->"Out[50]=",ExpressionUUID->"c21846f7-b299-47b9-9b51-cdebf2dbcea7"]
+}, Open  ]],
+
 Cell["Here is the first sentence of the speech", "Text",
  CellChangeTimes->{{3.681310169549242*^9, 
   3.6813101751002197`*^9}},ExpressionUUID->"6d0854a2-77b9-437a-94fe-\
 0f8819c1c130"],
+
+Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"First", "[", "hstJan1946Sentences", "]"}]], "Input",
  CellChangeTimes->{{3.681310156476007*^9, 3.681310161326543*^9}, {
   3.7345421046400948`*^9, 3.734542107616827*^9}},
  CellLabel->"In[51]:=",ExpressionUUID->"c335eacd-5678-4d82-94db-82dc7aa1a0cb"],
+
+Cell[BoxData["\<\"To the Congress of the United States:  \\nA quarter century \
+ago the Congress decided that it could no longer consider the financial \
+programs of the various departments on a piecemeal basis.\"\>"], "Output",
+ CellChangeTimes->{3.734285031462542*^9, 3.734542108077449*^9},
+ CellLabel->"Out[51]=",ExpressionUUID->"5bbdc705-27a8-41bd-ad3f-06989f78b9d6"]
+}, Open  ]],
 
 Cell[CellGroupData[{
 
@@ -473,6 +1623,8 @@ Cell["Here is the first sentence", "Text",
   3.681310323478992*^9}},ExpressionUUID->"6c0e868b-b794-4780-af35-\
 32b3317b1bc9"],
 
+Cell[CellGroupData[{
+
 Cell[BoxData[
  RowBox[{"hstJan1946Sentences", "\[LeftDoubleBracket]", "1", 
   "\[RightDoubleBracket]"}]], "Input",
@@ -480,12 +1632,21 @@ Cell[BoxData[
   3.734542129783207*^9, 3.734542139951623*^9}},
  CellLabel->"In[52]:=",ExpressionUUID->"b054dd2a-27bb-47b5-a613-978c93a77134"],
 
+Cell[BoxData["\<\"To the Congress of the United States:  \\nA quarter century \
+ago the Congress decided that it could no longer consider the financial \
+programs of the various departments on a piecemeal basis.\"\>"], "Output",
+ CellChangeTimes->{3.7342850315120573`*^9, 3.734542140619563*^9},
+ CellLabel->"Out[52]=",ExpressionUUID->"fd765f5b-e3ff-4b05-942d-b80e9717968f"]
+}, Open  ]],
+
 Cell["Does the first sentence contain the word \
 \[OpenCurlyDoubleQuote]piecemeal\[CloseCurlyDoubleQuote]?", "Text",
  CellChangeTimes->{{3.681310326919177*^9, 3.681310341718205*^9}, {
   3.7345421622923717`*^9, 
   3.734542164556281*^9}},ExpressionUUID->"7343881e-dbc3-4e3a-aa09-\
 f5e62e82abdb"],
+
+Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"StringContainsQ", "[", 
@@ -498,12 +1659,19 @@ Cell[BoxData[
   3.734542157876635*^9}},
  CellLabel->"In[53]:=",ExpressionUUID->"d2ef3132-a97d-46f2-a0fb-a2614caad4b9"],
 
+Cell[BoxData["True"], "Output",
+ CellChangeTimes->{3.7342850315487137`*^9, 3.7345421588049107`*^9},
+ CellLabel->"Out[53]=",ExpressionUUID->"181a81c1-d37a-4560-9609-b0eda7e4c170"]
+}, Open  ]],
+
 Cell["Does the first sentence contain the word \
 \[OpenCurlyDoubleQuote]peacetime\[CloseCurlyDoubleQuote]?", "Text",
  CellChangeTimes->{{3.681310326919177*^9, 3.681310366229034*^9}, {
   3.7345421994830017`*^9, 3.734542201282936*^9}, {3.734542322695097*^9, 
   3.734542323846467*^9}},ExpressionUUID->"bc8e1633-3b87-459b-a2ef-\
 e2e991008706"],
+
+Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"StringContainsQ", "[", 
@@ -514,7 +1682,14 @@ Cell[BoxData[
  CellChangeTimes->{{3.6813103086989937`*^9, 3.6813103137517357`*^9}, {
   3.6813103483751917`*^9, 3.681310374597541*^9}, {3.7345421718447866`*^9, 
   3.734542206923044*^9}, {3.7345423262236233`*^9, 3.73454232745462*^9}},
- CellLabel->"In[59]:=",ExpressionUUID->"b44abbcb-9ac9-4077-8380-f77021085940"]
+ CellLabel->"In[59]:=",ExpressionUUID->"b44abbcb-9ac9-4077-8380-f77021085940"],
+
+Cell[BoxData["False"], "Output",
+ CellChangeTimes->{
+  3.734285031596216*^9, {3.734542179020232*^9, 3.734542207342372*^9}, 
+   3.734542327855638*^9},
+ CellLabel->"Out[59]=",ExpressionUUID->"5d319a38-c9f4-42a0-846b-a77629f7b8fc"]
+}, Open  ]]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -569,6 +1744,8 @@ Cell[TextData[{
   3.681310620843377*^9}},ExpressionUUID->"e430c874-5700-4fec-bcbd-\
 607cb42e7a85"],
 
+Cell[CellGroupData[{
+
 Cell[BoxData[
  RowBox[{
   RowBox[{"(", 
@@ -580,6 +1757,14 @@ Cell[BoxData[
   3.681310630780232*^9, 3.681310638683319*^9}, {3.734542221787137*^9, 
   3.734542224042454*^9}, {3.734542341151043*^9, 3.7345423420221243`*^9}},
  CellLabel->"In[60]:=",ExpressionUUID->"027bcd16-1620-4a13-8a00-c1e3605a903e"],
+
+Cell[BoxData["False"], "Output",
+ CellChangeTimes->{3.734285031645732*^9, 3.734542226240386*^9, 
+  3.734542342366321*^9},
+ CellLabel->"Out[60]=",ExpressionUUID->"3396b3b7-77ff-409d-bade-83e3de49cc46"]
+}, Open  ]],
+
+Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{
@@ -593,6 +1778,12 @@ Cell[BoxData[
   3.7345422352338877`*^9}, {3.734542344822978*^9, 3.734542349645749*^9}},
  CellLabel->"In[61]:=",ExpressionUUID->"6c624beb-507f-4b44-9df9-604ec1b751ab"],
 
+Cell[BoxData["True"], "Output",
+ CellChangeTimes->{3.734285031695343*^9, 3.734542235731648*^9, 
+  3.734542350723325*^9},
+ CellLabel->"Out[61]=",ExpressionUUID->"8483f04c-f3b4-489b-9868-eb380bf10b45"]
+}, Open  ]],
+
 Cell[TextData[{
  "Here is how we use our anonymous function to ",
  StyleBox["Select",
@@ -605,6 +1796,8 @@ Cell[TextData[{
   3.734542354133457*^9}},ExpressionUUID->"96fd71f5-a4b8-4ff3-be93-\
 f242efb711b8"],
 
+Cell[CellGroupData[{
+
 Cell[BoxData[
  RowBox[{"Select", "[", 
   RowBox[{"hstJan1946Sentences", ",", 
@@ -615,7 +1808,88 @@ Cell[BoxData[
  CellChangeTimes->{{3.68131075987912*^9, 3.681310778798395*^9}, {
   3.7345422421223307`*^9, 3.7345422486335287`*^9}, {3.734542357366473*^9, 
   3.734542358413394*^9}},
- CellLabel->"In[62]:=",ExpressionUUID->"86e8b5b6-036c-4288-850f-691616db7772"]
+ CellLabel->"In[62]:=",ExpressionUUID->"86e8b5b6-036c-4288-850f-691616db7772"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"Since our programs for this period which combines war \
+liquidation with reconversion to a peacetime economy are inevitably large and \
+numerous it is imperative that they be planned and executed with the utmost \
+efficiency and the utmost economy.\"\>", 
+   ",", "\<\"We have held our peacetime programs to the level necessary to \
+our national well-being and the attainment of our postwar objectives.\"\>", 
+   ",", "\<\"We face a great peacetime venture; the challenging venture of a \
+free enterprise economy making full and effective use of its rich resources \
+and technical advances.\"\>", 
+   ",", "\<\"Labor also has its own new peacetime responsibilities.\"\>", 
+   ",", "\<\"Their transition to peacetime pursuits will be determined by our \
+efforts to break the bottlenecks in key items of production, to make surplus \
+property immediately available where it is needed, to maintain an effective \
+national employment service, and many other reconversion policies.\"\>", 
+   ",", "\<\"While our peacetime prosperity will be based on the private \
+enterprise the government can and must assist in many ways.\"\>", 
+   ",", "\<\"For example, the establishment of new peacetime industries in \
+the Western States and in the South would, in my judgment, add to existing \
+production and markets rather than merely bring about a shifting of \
+production.\"\>", 
+   ",", "\<\"If we manage our economy properly, the future will see us on a \
+level of production half again as high as anything we have ever accomplished \
+in peacetime.\"\>", 
+   ",", "\<\"The work of the Smaller War Plants Corporation is being carried \
+on in peacetime by the Federal Loan Agency and the Department of \
+Commerce.\"\>", 
+   ",", "\<\"In the peacetime economy the Reconstruction Finance Corporation \
+will take the leadership in assuring adequate financing for small enterprises \
+which cannot secure funds from other sources.\"\>", 
+   ",", "\<\"Agriculture is prepared to demonstrate that it can make a \
+peacetime contribution as great as its contribution toward the winning of the \
+war.\"\>", 
+   ",", "\<\"The period during which prices are supported will provide an \
+opportunity for farmers individually to strengthen their position in changing \
+over from a wartime to a peacetime basis of production.\"\>", 
+   ",", "\<\"At the same time, we are producing power at Grand Coulee and at \
+Bonneville which played a mighty part in winning the war and which will found \
+a great peacetime industry in the Northwest.\"\>", 
+   ",", "\<\"The Tennessee Valley Authority will resume its peacetime program \
+of promoting full use of the resources of the Valley.\"\>", 
+   ",", "\<\"Many civilians have been transferred from war agencies to their \
+former peacetime agencies.\"\>", 
+   ",", "\<\"This estimate is based on the assumption that a rapid \
+liquidation of the war program will be associated with rapid reconversion and \
+expansion of peacetime production.\"\>", 
+   ",", "\<\"The total of all other programs, which was drastically cut \
+during the war, is increasing again as liquidation of the war program \
+proceeds and renewed emphasis is placed on the peacetime objectives of the \
+Government.\"\>", 
+   ",", "\<\"The rapid termination of war contracts, prompt clearance of \
+unneeded Government-owned equipment from private plants, and other \
+reconversion policies have greatly speeded up the beginning of peacetime work \
+in reconverted plants.\"\>", 
+   ",", "\<\"In future years the present tax system, in conjunction with a \
+full employment level of national income, could be expected to yield more \
+than 30 billion dollars, which is substantially above the anticipated \
+peacetime level of expenditures.\"\>", 
+   ",", "\<\"These proposed reductions were designed to encourage \
+reconversion and peacetime business expansion.\"\>", 
+   ",", "\<\"During this period we shall also lay the foundation for our \
+peacetime system of national defense.\"\>", 
+   ",", "\<\"In the fiscal year 1947 the strength of our armed forces will \
+still be above the ultimate peacetime level.\"\>", 
+   ",", "\<\"The estimates for the United States Maritime Commission and War \
+Shipping Administration provide for the transition of shipping operation from \
+a war to a peace basis; the sale, chartering, or lay-up of much of the \
+war-built fleet; and for a program of ship construction of some 84 million \
+dollars in the fiscal year 1947 to round out the merchant fleet for peacetime \
+use.\"\>", 
+   ",", "\<\"Some expansion in peacetime medical research and other programs \
+of the Public Health Service is provided for in the appropriation estimates \
+for these purposes totaling approximately 87 million dollars for the fiscal \
+year 1947 which are submitted under provisions of existing law.\"\>"}], 
+  "}"}]], "Output",
+ CellChangeTimes->{3.73428503174606*^9, 3.734542257825487*^9, 
+  3.734542359012048*^9},
+ CellLabel->"Out[62]=",ExpressionUUID->"4a006b7d-39d2-4879-aad2-da660c7398d3"]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
@@ -647,6 +1921,8 @@ one item with a single search."
   3.734542710120348*^9}},ExpressionUUID->"549781ce-bddc-43f4-be28-\
 be64cbe81191"],
 
+Cell[CellGroupData[{
+
 Cell[BoxData[
  RowBox[{"Select", "[", 
   RowBox[{"hstJan1946Sentences", ",", 
@@ -659,7 +1935,102 @@ Cell[BoxData[
    3.681310912449473*^9, {3.681311024549021*^9, 3.681311030308381*^9}, {
    3.734542455819223*^9, 3.734542629667597*^9}, {3.734542665259211*^9, 
    3.7345426842495823`*^9}, {3.7345427158334723`*^9, 3.734542720408222*^9}},
- CellLabel->"In[78]:=",ExpressionUUID->"5b38825a-6718-4d43-8156-4ae9a5c72b10"]
+ CellLabel->"In[78]:=",ExpressionUUID->"5b38825a-6718-4d43-8156-4ae9a5c72b10"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"The president bears the responsibility for recommending to the \
+Congress a comprehensive set of proposals on all Government activities and \
+their financing.\"\>", 
+   ",", "\<\"They were also supported by the millions of Americans in private \
+life--men and women in industry, in commerce, on the farms, and in all manner \
+of activity on the home front--who contributed their brains and their brawn \
+in arming, equipping, and feeding them.\"\>", 
+   ",", "\<\"And for the immediate future the business prospects are \
+generally so favorable that there is danger of such feverish and \
+opportunistic activity that our grave postwar problems may be neglected.\"\>",
+    ",", "\<\"By strangling competition, monopolistic activity prevents or \
+deters investment in new or expanded production facilities.\"\>", 
+   ",", "\<\"All three of these monopolistic activities very directly lower \
+the standard of living--through higher prices and lower quality of \
+product--which free competition would improve.\"\>", 
+   ",", "\<\"To make new inventions and discoveries available more promptly \
+to all businesses, small and large, the Department proposes to expand its own \
+research activities, promote research by universities, improve Patent Office \
+procedures, and develop a greatly expanded system of field offices readily \
+accessible to the businesses they serve.  \\nMany gaps exist in the private \
+financial mechanism, especially in the provision of long-term funds for \
+small- and medium sized enterprises.\"\>", 
+   ",", "\<\"A large part of the activities outside defense and war \
+liquidation, aftermath of war, and international finance, classified as \
+\\\"other activities\\\" in a following table, is still due to repercussions \
+of the war.\"\>", 
+   ",", "\<\"These \\\"other activities\\\" include more than 2 billion \
+dollars for aids to agriculture and net outlays for the Commodity Credit \
+Corporation-almost double the expenditures for the same purposes in prewar \
+years.\"\>", 
+   ",", "\<\"Other increases in this category are due to the fact that \
+certain wartime agencies now in the process of liquidation are included in \
+this group of activities.\"\>", 
+   ",", "\<\"If all expenditures for those activities which are directly or \
+indirectly related to the war are excluded, the residual expenditures are \
+below those for corresponding activities in prewar years.\"\>", 
+   ",", "\<\"FEDERAL BUDGET EXPENDITURES AND BUDGET RECEIPTS  \\nIncluding \
+net outlays of Government corporations and credit agencies (based on existing \
+and proposed legislation)  \\nFiscal year  \\nExpenditures: 1946 1947  \
+\\nDefense, war, and war liquidation $49,000 $15,000  \\nAftermath of war: \
+Veterans, interest, refunds 10,813 10,793  \\nInternational finance \
+(including proposed legislation) 2,614 2,754  \\nOther activities 4,552 5,813 \
+ \\nActivities based on proposed legislation  \\n(excluding international \
+finance) 2501,500  \\nTotal expenditures 67, 229 35, 860  \\nReceipts (net) \
+38, 60931,513  \\nExcess of expenditures 28,620 4,347  \\nThe current fiscal \
+year, 1946, is a year of transition.\"\>", 
+   ",", "\<\"The drop in total value of production and services has been less \
+drastic because increasing private activities have absorbed in large measure \
+the manpower and materials released from war production and war \
+services.\"\>", 
+   ",", "\<\"The largest increase in private activities has occurred in \
+business investments, which include residential and other construction, \
+producers' durable equipment, accumulation of inventories, and net exports.\"\
+\>", ",", "\<\"Allowing for estimated net receipts of 1 billion dollars \
+arising from war activities of the Reconstruction finance Corporation, the \
+estimated total of war expenditures is 15 billion dollars.\"\>", 
+   ",", "\<\"At this time only a tentative break-down of the total estimate \
+for war and defense activities can be indicated.\"\>", 
+   ",", "\<\"Overseas disposal activities have been centralized in the State \
+Department to permit this program to be carried on in line with over-all \
+foreign policy.\"\>", 
+   ",", "\<\"In connection with the war activities of the United States \
+Maritime Commission and certain other agencies, however, I now make specific \
+recommendations for the fiscal year 1947.\"\>", 
+   ",", "\<\"This reduction of 86 million dollars is in large part accounted \
+for by elimination of the wartime flax production incentive project and other \
+nonrecurring items; the proposed reduction in normal activities is less than \
+33 million dollars.\"\>", 
+   ",", "\<\"7. RESEARCH AND EDUCATION  \\nThe Budget provides for \
+continuation and desirable expansion of the research activities that are \
+carried on throughout the Federal establishment and through previously \
+authorized grants to the States.\"\>", 
+   ",", "\<\"That agency will coordinate existing research activities and \
+administer funds for new research activities wherever they are needed; it \
+will not itself conduct research.\"\>", 
+   ",", "\<\"Now included in general government are certain activities \
+formerly classified under national defense.\"\>", 
+   ",", "\<\"A few wartime activities, for example, the international \
+information and foreign intelligence services and some of the wartime \
+programs for controlling disease and crime, have become part of our regular \
+government establishment.\"\>", 
+   ",", "\<\"Other increases are for civil aeronautics promotion, the \
+business and manufacturing censuses, and other expanded business services of \
+the Department of Commerce which have been referred to above; the forest and \
+Soil Conservation Services and other committees of the Department of certain \
+conservation activities of the Department of the Interior; and the collection \
+of internal revenue in the Treasury Department.\"\>"}], "}"}]], "Output",
+ CellChangeTimes->{
+  3.734285516086626*^9, {3.7345424657283907`*^9, 3.734542630083329*^9}, {
+   3.7345426702934923`*^9, 3.734542684639841*^9}, 3.734542721134631*^9},
+ CellLabel->"Out[78]=",ExpressionUUID->"78d56c2b-0cfe-47e4-88c1-610be74278db"]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]],
 
@@ -683,10 +2054,17 @@ Cell[TextData[{
  CellChangeTimes->{{3.647365633614789*^9, 3.647365683452602*^9}, {
   3.647365798865829*^9, 3.6473658250474043`*^9}}],
 
+Cell[CellGroupData[{
+
 Cell[BoxData[
  RowBox[{"WordStem", "[", "\"\<government\>\"", "]"}]], "Input",
  CellChangeTimes->{{3.6473653720568647`*^9, 3.647365384407198*^9}},
  CellLabel->"In[79]:=",ExpressionUUID->"f937abbf-8524-43fd-9f94-fa4c054b5b97"],
+
+Cell[BoxData["\<\"govern\"\>"], "Output",
+ CellChangeTimes->{3.73428553918547*^9, 3.7345427456671*^9},
+ CellLabel->"Out[79]=",ExpressionUUID->"038ef247-b115-4b0d-9bea-1fdb75b15466"]
+}, Open  ]],
 
 Cell[TextData[{
  "Now that we have found the word stem, we can use the ",
@@ -705,12 +2083,34 @@ characters preceding it, and zero or more characters following it.\
  CellChangeTimes->{{3.647365841230544*^9, 3.647365951859029*^9}, 
    3.681311566256592*^9}],
 
+Cell[CellGroupData[{
+
 Cell[BoxData[
  RowBox[{"DictionaryLookup", "[", 
   RowBox[{"___", "~~", "\"\<govern\>\"", "~~", "___"}], "]"}]], "Input",
  CellChangeTimes->{3.647365517387375*^9},
  NumberMarks->False,
  CellLabel->"In[80]:=",ExpressionUUID->"5b33dfdf-c0a8-4831-9a09-39a104414f42"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"govern\"\>", ",", "\<\"governable\"\>", 
+   ",", "\<\"governance\"\>", ",", "\<\"governed\"\>", 
+   ",", "\<\"governess\"\>", ",", "\<\"governesses\"\>", 
+   ",", "\<\"governing\"\>", ",", "\<\"government\"\>", 
+   ",", "\<\"governmental\"\>", ",", "\<\"governments\"\>", 
+   ",", "\<\"governor\"\>", ",", "\<\"governors\"\>", 
+   ",", "\<\"governorship\"\>", ",", "\<\"governorships\"\>", 
+   ",", "\<\"governs\"\>", ",", "\<\"intergovernmental\"\>", 
+   ",", "\<\"misgovern\"\>", ",", "\<\"misgoverned\"\>", 
+   ",", "\<\"misgoverning\"\>", ",", "\<\"misgovernment\"\>", 
+   ",", "\<\"misgoverns\"\>", ",", "\<\"nongovernmental\"\>", 
+   ",", "\<\"self-governing\"\>", ",", "\<\"self-government\"\>", 
+   ",", "\<\"ungovernable\"\>", ",", "\<\"ungoverned\"\>"}], "}"}]], "Output",\
+
+ CellChangeTimes->{3.734285539337122*^9, 3.734542745755055*^9},
+ CellLabel->"Out[80]=",ExpressionUUID->"44bbc246-26ba-4428-b3e0-414dafef0f18"]
+}, Open  ]],
 
 Cell[TextData[{
  "The ",
@@ -725,6 +2125,8 @@ common. Here we use it to find all of the words in Truman\[CloseCurlyQuote]s \
   3.734542759294725*^9}},ExpressionUUID->"68d82b05-4576-4dca-b9e0-\
 a1998e4b0409"],
 
+Cell[CellGroupData[{
+
 Cell[BoxData[
  RowBox[{"Intersection", "[", 
   RowBox[{"hstJan1946Terms", ",", 
@@ -734,7 +2136,17 @@ Cell[BoxData[
  CellChangeTimes->{{3.647365530764162*^9, 3.6473656138279057`*^9}, {
   3.681311188793344*^9, 3.681311192910466*^9}, {3.681313175471089*^9, 
   3.6813131820748653`*^9}, {3.7345427390258102`*^9, 3.7345427421913853`*^9}},
- CellLabel->"In[81]:=",ExpressionUUID->"6ce21669-c145-47ae-a4b6-9ba4d352596f"]
+ CellLabel->"In[81]:=",ExpressionUUID->"6ce21669-c145-47ae-a4b6-9ba4d352596f"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"governing\"\>", ",", "\<\"government\"\>", 
+   ",", "\<\"governmental\"\>", ",", "\<\"governments\"\>", 
+   ",", "\<\"nongovernmental\"\>", ",", "\<\"self-government\"\>"}], 
+  "}"}]], "Output",
+ CellChangeTimes->{3.7342855393854637`*^9, 3.734542745801902*^9},
+ CellLabel->"Out[81]=",ExpressionUUID->"566d6f60-1d94-4c5f-b8dc-28ebe3d08cd3"]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]],
 
@@ -761,6 +2173,8 @@ Cell[TextData[{
    3.734542878178295*^9}},ExpressionUUID->"d4dbd423-65ca-4155-8e72-\
 2d54154161da"],
 
+Cell[CellGroupData[{
+
 Cell[BoxData[
  RowBox[{"Select", "[", 
   RowBox[{"hstJan1946Sentences", ",", 
@@ -774,7 +2188,33 @@ Cell[BoxData[
    3.6813112787658*^9, {3.734542790127902*^9, 3.7345427902376337`*^9}, {
    3.734542822764474*^9, 3.7345428251083183`*^9}, {3.734542883652079*^9, 
    3.734542890201939*^9}},
- CellLabel->"In[83]:=",ExpressionUUID->"f4b37920-30aa-4743-99f8-08e7df0868e7"]
+ CellLabel->"In[83]:=",ExpressionUUID->"f4b37920-30aa-4743-99f8-08e7df0868e7"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"2. We believe in the eventual return of sovereign rights and \
+self-government to all peoples who have been deprived of them by force.\"\>", 
+   ",", "\<\"4. We believe that all peoples who are prepared for \
+self-government should be permitted to choose their own form of government by \
+their own freely expressed choice, without interference from any foreign \
+source.\"\>", 
+   ",", "\<\"At Moscow the United States, the Union of Soviet Socialist \
+Republics, and Great Britain agreed to further this development by supporting \
+the efforts of the national government and nongovernmental Chinese political \
+elements in bringing about cessation of civil strife and in broadening the \
+basis of representation in the Government.\"\>", 
+   ",", "\<\"It is estimated that about 6 million workers, or more than 20 \
+percent of all employees in nonagricultural and nongovernmental \
+establishments, have received wage increases since August 18, 1945.\"\>", 
+   ",", "\<\"The people of the Virgin Islands should be given an increasing \
+measure of self-government.\"\>", 
+   ",", "\<\"We should move toward a greater measure of local self-government \
+consistent with the constitutional status of the District.\"\>"}], 
+  "}"}]], "Output",
+ CellChangeTimes->{3.734285580603387*^9, 3.7345428258983793`*^9, 
+  3.734542890852401*^9},
+ CellLabel->"Out[83]=",ExpressionUUID->"b3357cee-969e-4981-86af-e4064eff9f2e"]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]],
 
@@ -823,6 +2263,8 @@ Cell[TextData[{
    3.734542940719759*^9}},ExpressionUUID->"961318c9-8aff-49ae-9ad5-\
 70be3528f8df"],
 
+Cell[CellGroupData[{
+
 Cell[BoxData[
  RowBox[{"Union", "[", 
   RowBox[{"TextCases", "[", 
@@ -833,6 +2275,20 @@ Cell[BoxData[
   3.6473701243101463`*^9}, {3.681311867691938*^9, 3.681311875604665*^9}, {
   3.734542945080544*^9, 3.7345429468023376`*^9}},
  CellLabel->"In[84]:=",ExpressionUUID->"45e17c3c-caff-4e07-852e-8869fd16a609"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"Austria\"\>", ",", "\<\"Belgium\"\>", ",", "\<\"Bulgaria\"\>", 
+   ",", "\<\"China\"\>", ",", "\<\"Finland\"\>", ",", "\<\"France\"\>", 
+   ",", "\<\"Germany\"\>", ",", "\<\"Hungary\"\>", ",", "\<\"Italy\"\>", 
+   ",", "\<\"Japan\"\>", ",", "\<\"Mexico\"\>", ",", "\<\"Netherlands\"\>", 
+   ",", "\<\"Panama\"\>", ",", "\<\"Philippines\"\>", 
+   ",", "\<\"Puerto Rico\"\>", ",", "\<\"United Kingdom\"\>", 
+   ",", "\<\"United States\"\>", ",", "\<\"world\"\>", ",", "\<\"World\"\>"}],
+   "}"}]], "Output",
+ CellChangeTimes->{3.73428560198512*^9, 3.7345429485058603`*^9},
+ CellLabel->"Out[84]=",ExpressionUUID->"2dcf7639-b28f-4ee3-a3f4-186bfe65c66b"]
+}, Open  ]],
 
 Cell["\<\
 N.B. Some geopolitical entities we may be interested in (e.g., \
@@ -864,6 +2320,8 @@ adjectives for the 1946 speech"
   3.7345432073182383`*^9}},ExpressionUUID->"ec6cd849-ca28-44f9-917b-\
 2c5630538a90"],
 
+Cell[CellGroupData[{
+
 Cell[BoxData[
  RowBox[{"Union", "[", 
   RowBox[{"TextCases", "[", 
@@ -875,7 +2333,280 @@ Cell[BoxData[
   3.64736983515256*^9, 3.647369839583625*^9}, {3.647369873175582*^9, 
   3.647369933637156*^9}, {3.681312170939774*^9, 3.681312174056464*^9}, {
   3.734543218086556*^9, 3.734543219728318*^9}},
- CellLabel->"In[85]:=",ExpressionUUID->"69939b39-1c7d-40fb-aa49-44ae310d54be"]
+ CellLabel->"In[85]:=",ExpressionUUID->"69939b39-1c7d-40fb-aa49-44ae310d54be"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"10-cent\"\>", ",", "\<\"15-billion-dollar\"\>", 
+   ",", "\<\"1930's\"\>", ",", "\<\"1935-39\"\>", ",", "\<\"1947\"\>", 
+   ",", "\<\"275-billion\"\>", ",", "\<\"3-percent\"\>", 
+   ",", "\<\"500-million\"\>", ",", "\<\"75-cent\"\>", ",", "\<\"able\"\>", 
+   ",", "\<\"above-mentioned\"\>", ",", "\<\"accelerated\"\>", 
+   ",", "\<\"accessible\"\>", ",", "\<\"accessory\"\>", 
+   ",", "\<\"accountable\"\>", ",", "\<\"accumulated\"\>", 
+   ",", "\<\"active\"\>", ",", "\<\"actuarial\"\>", ",", "\<\"additional\"\>",
+    ",", "\<\"adequate\"\>", ",", "\<\"administrative\"\>", 
+   ",", "\<\"adopt\"\>", ",", "\<\"adverse\"\>", ",", "\<\"afford\"\>", 
+   ",", "\<\"aftermath-of-war\"\>", ",", "\<\"aggressive\"\>", 
+   ",", "\<\"agree\"\>", ",", "\<\"agricultural\"\>", 
+   ",", "\<\"AGRICULTURAL\"\>", ",", "\<\"alert\"\>", ",", "\<\"alive\"\>", 
+   ",", "\<\"all-important\"\>", ",", "\<\"all-out\"\>", 
+   ",", "\<\"all-time\"\>", ",", "\<\"alluring\"\>", ",", "\<\"American\"\>", 
+   ",", "\<\"ample\"\>", ",", "\<\"annual\"\>", ",", "\<\"anticipated\"\>", 
+   ",", "\<\"anti-inflationary\"\>", ",", "\<\"antimonopoly\"\>", 
+   ",", "\<\"antitrust\"\>", ",", "\<\"anxious\"\>", ",", "\<\"appalling\"\>",
+    ",", "\<\"applicable\"\>", ",", "\<\"appreciable\"\>", 
+   ",", "\<\"appropriate\"\>", ",", "\<\"armed\"\>", 
+   ",", "\<\"artificial\"\>", ",", "\<\"assured\"\>", ",", "\<\"atomic\"\>", 
+   ",", "\<\"authorized\"\>", ",", "\<\"available\"\>", 
+   ",", "\<\"average\"\>", ",", "\<\"aware\"\>", ",", "\<\"(b)\"\>", 
+   ",", "\<\"bad\"\>", ",", "\<\"bal\"\>", ",", "\<\"balanced\"\>", 
+   ",", "\<\"barren\"\>", ",", "\<\"basic\"\>", ",", "\<\"beneficial\"\>", 
+   ",", "\<\"best\"\>", ",", "\<\"better\"\>", ",", "\<\"big\"\>", 
+   ",", "\<\"bigger\"\>", ",", "\<\"bold\"\>", ",", "\<\"boundary\"\>", 
+   ",", "\<\"brave\"\>", ",", "\<\"British\"\>", ",", "\<\"broad\"\>", 
+   ",", "\<\"budgetary\"\>", ",", "\<\"business-type\"\>", 
+   ",", "\<\"busy\"\>", ",", "\<\"candid\"\>", ",", "\<\"careful\"\>", 
+   ",", "\<\"central\"\>", ",", "\<\"certain\"\>", ",", "\<\"challenging\"\>",
+    ",", "\<\"chaotic\"\>", ",", "\<\"cheap\"\>", ",", "\<\"cheaper\"\>", 
+   ",", "\<\"chief\"\>", ",", "\<\"chiefly\"\>", ",", "\<\"Chinese\"\>", 
+   ",", "\<\"civil\"\>", ",", "\<\"civilian\"\>", ",", "\<\"Civilian\"\>", 
+   ",", "\<\"clear\"\>", ",", "\<\"collective\"\>", ",", "\<\"commercial\"\>",
+    ",", "\<\"Commercial\"\>", ",", "\<\"common\"\>", 
+   ",", "\<\"competent\"\>", ",", "\<\"competitive\"\>", 
+   ",", "\<\"complete\"\>", ",", "\<\"complex\"\>", 
+   ",", "\<\"comprehensive\"\>", ",", "\<\"concerned\"\>", 
+   ",", "\<\"confident\"\>", ",", "\<\"congressional\"\>", 
+   ",", "\<\"conscious\"\>", ",", "\<\"consequent\"\>", 
+   ",", "\<\"considerable\"\>", ",", "\<\"Considerable\"\>", 
+   ",", "\<\"consistent\"\>", ",", "\<\"constitutional\"\>", 
+   ",", "\<\"continental\"\>", ",", "\<\"continuing\"\>", 
+   ",", "\<\"contractual\"\>", ",", "\<\"contrary\"\>", 
+   ",", "\<\"convenient\"\>", ",", "\<\"cooperative\"\>", 
+   ",", "\<\"corporate\"\>", ",", "\<\"corresponding\"\>", 
+   ",", "\<\"cost-of-living\"\>", ",", "\<\"countless\"\>", 
+   ",", "\<\"creed\"\>", ",", "\<\"critical\"\>", ",", "\<\"crucial\"\>", 
+   ",", "\<\"cumulative\"\>", ",", "\<\"current\"\>", 
+   ",", "\<\"customary\"\>", ",", "\<\"(d)\"\>", ",", "\<\"dangerous\"\>", 
+   ",", "\<\"day-to-day\"\>", ",", "\<\"deaf\"\>", ",", "\<\"dear\"\>", 
+   ",", "\<\"dearest\"\>", ",", "\<\"decent\"\>", ",", "\<\"decisive\"\>", 
+   ",", "\<\"deep\"\>", ",", "\<\"deepest\"\>", ",", "\<\"def\"\>", 
+   ",", "\<\"deferred\"\>", ",", "\<\"deficient\"\>", ",", "\<\"definite\"\>",
+    ",", "\<\"deflationary\"\>", ",", "\<\"democratic\"\>", 
+   ",", "\<\"Democratic\"\>", ",", "\<\"dependent\"\>", 
+   ",", "\<\"depression\"\>", ",", "\<\"desirable\"\>", 
+   ",", "\<\"destructive\"\>", ",", "\<\"detailed\"\>", 
+   ",", "\<\"determined\"\>", ",", "\<\"detrimental\"\>", 
+   ",", "\<\"developmental\"\>", ",", "\<\"devoted\"\>", 
+   ",", "\<\"different\"\>", ",", "\<\"difficult\"\>", ",", "\<\"direct\"\>", 
+   ",", "\<\"disastrous\"\>", ",", "\<\"discriminatory\"\>", 
+   ",", "\<\"displaced\"\>", ",", "\<\"distant\"\>", 
+   ",", "\<\"diversified\"\>", ",", "\<\"domestic\"\>", 
+   ",", "\<\"domiciliary\"\>", ",", "\<\"dominant\"\>", ",", "\<\"double\"\>",
+    ",", "\<\"drastic\"\>", ",", "\<\"due\"\>", ",", "\<\"durable\"\>", 
+   ",", "\<\"earlier\"\>", ",", "\<\"earliest\"\>", ",", "\<\"early\"\>", 
+   ",", "\<\"earnest\"\>", ",", "\<\"easier\"\>", ",", "\<\"easy\"\>", 
+   ",", "\<\"economic\"\>", ",", "\<\"Economic\"\>", ",", "\<\"educated\"\>", 
+   ",", "\<\"educational\"\>", ",", "\<\"effective\"\>", 
+   ",", "\<\"efficient\"\>", ",", "\<\"elementary\"\>", 
+   ",", "\<\"eligible\"\>", ",", "\<\"employed\"\>", 
+   ",", "\<\"employment-to\"\>", ",", "\<\"enacted\"\>", 
+   ",", "\<\"encouraging\"\>", ",", "\<\"enemy\"\>", ",", "\<\"energetic\"\>",
+    ",", "\<\"enjoy\"\>", ",", "\<\"enlistment\"\>", ",", "\<\"enormous\"\>", 
+   ",", "\<\"enough\"\>", ",", "\<\"ensuing\"\>", ",", "\<\"entire\"\>", 
+   ",", "\<\"equal\"\>", ",", "\<\"equitable\"\>", ",", "\<\"equivalent\"\>", 
+   ",", "\<\"essential\"\>", ",", "\<\"establish\"\>", 
+   ",", "\<\"estimated\"\>", ",", "\<\"European\"\>", ",", "\<\"eventual\"\>",
+    ",", "\<\"ex\"\>", ",", "\<\"exact\"\>", ",", "\<\"excess\"\>", 
+   ",", "\<\"excessive\"\>", ",", "\<\"executive\"\>", 
+   ",", "\<\"exorbitant\"\>", ",", "\<\"expanded\"\>", 
+   ",", "\<\"expected\"\>", ",", "\<\"expensive\"\>", 
+   ",", "\<\"extensive\"\>", ",", "\<\"extraordinary\"\>", 
+   ",", "\<\"extreme\"\>", ",", "\<\"fact-finding\"\>", ",", "\<\"fair\"\>", 
+   ",", "\<\"false\"\>", ",", "\<\"favorable\"\>", ",", "\<\"feasible\"\>", 
+   ",", "\<\"federal\"\>", ",", "\<\"feverish\"\>", ",", "\<\"few\"\>", 
+   ",", "\<\"fifth\"\>", ",", "\<\"final\"\>", ",", "\<\"financial\"\>", 
+   ",", "\<\"fine\"\>", ",", "\<\"firm\"\>", ",", "\<\"first\"\>", 
+   ",", "\<\"fiscal\"\>", ",", "\<\"Fiscal\"\>", ",", "\<\"fish\"\>", 
+   ",", "\<\"fit\"\>", ",", "\<\"flax\"\>", ",", "\<\"following\"\>", 
+   ",", "\<\"forceful\"\>", ",", "\<\"foreign\"\>", 
+   ",", "\<\"foreseeable\"\>", ",", "\<\"foresight\"\>", 
+   ",", "\<\"former\"\>", ",", "\<\"fraught\"\>", ",", "\<\"free\"\>", 
+   ",", "\<\"frictional\"\>", ",", "\<\"friendly\"\>", 
+   ",", "\<\"fruitless\"\>", ",", "\<\"full\"\>", ",", "\<\"fullest\"\>", 
+   ",", "\<\"fundamental\"\>", ",", "\<\"further\"\>", ",", "\<\"future\"\>", 
+   ",", "\<\"gear\"\>", ",", "\<\"general\"\>", ",", "\<\"generous\"\>", 
+   ",", "\<\"genuine\"\>", ",", "\<\"geographic\"\>", ",", "\<\"German\"\>", 
+   ",", "\<\"global\"\>", ",", "\<\"good\"\>", ",", "\<\"Government\"\>", 
+   ",", "\<\"governmental\"\>", ",", "\<\"Government-owned\"\>", 
+   ",", "\<\"grants-in-aid\"\>", ",", "\<\"great\"\>", ",", "\<\"greater\"\>",
+    ",", "\<\"greatest\"\>", ",", "\<\"grim\"\>", ",", "\<\"gross\"\>", 
+   ",", "\<\"half\"\>", ",", "\<\"happy\"\>", ",", "\<\"hard\"\>", 
+   ",", "\<\"headlong\"\>", ",", "\<\"healthier\"\>", ",", "\<\"healthy\"\>", 
+   ",", "\<\"heaviest\"\>", ",", "\<\"heavy\"\>", ",", "\<\"Heavy\"\>", 
+   ",", "\<\"helpless\"\>", ",", "\<\"high\"\>", ",", "\<\"higher\"\>", 
+   ",", "\<\"Higher\"\>", ",", "\<\"historic\"\>", ",", "\<\"hopeful\"\>", 
+   ",", "\<\"hospital\"\>", ",", "\<\"hostile\"\>", ",", "\<\"housed\"\>", 
+   ",", "\<\"huge\"\>", ",", "\<\"human\"\>", ",", "\<\"icit\"\>", 
+   ",", "\<\"identical\"\>", ",", "\<\"idle\"\>", ",", "\<\"ill-advised\"\>", 
+   ",", "\<\"immeasurable\"\>", ",", "\<\"immediate\"\>", 
+   ",", "\<\"immense\"\>", ",", "\<\"impaired\"\>", ",", "\<\"imperative\"\>",
+    ",", "\<\"imperialistic\"\>", ",", "\<\"important\"\>", 
+   ",", "\<\"impossible\"\>", ",", "\<\"improved\"\>", 
+   ",", "\<\"inadequate\"\>", ",", "\<\"increased\"\>", 
+   ",", "\<\"increasing\"\>", ",", "\<\"independent\"\>", 
+   ",", "\<\"indispensable\"\>", ",", "\<\"individual\"\>", 
+   ",", "\<\"industrial\"\>", ",", "\<\"Industrial\"\>", 
+   ",", "\<\"inevitable\"\>", ",", "\<\"inflationary\"\>", 
+   ",", "\<\"informed\"\>", ",", "\<\"initial\"\>", ",", "\<\"innocent\"\>", 
+   ",", "\<\"inseparable\"\>", ",", "\<\"insular\"\>", 
+   ",", "\<\"intensive\"\>", ",", "\<\"interagency\"\>", 
+   ",", "\<\"Inter-American\"\>", ",", "\<\"interested\"\>", 
+   ",", "\<\"interim\"\>", ",", "\<\"internal\"\>", 
+   ",", "\<\"international\"\>", ",", "\<\"intra-departmental\"\>", 
+   ",", "\<\"intricate\"\>", ",", "\<\"isolated\"\>", ",", "\<\"Japanese\"\>",
+    ",", "\<\"judicial\"\>", ",", "\<\"just\"\>", ",", "\<\"(k)\"\>", 
+   ",", "\<\"key\"\>", ",", "\<\"(l)\"\>", ",", "\<\"labor-management\"\>", 
+   ",", "\<\"labor's\"\>", ",", "\<\"land-grant\"\>", ",", "\<\"large\"\>", 
+   ",", "\<\"larger\"\>", ",", "\<\"large-scale\"\>", ",", "\<\"largest\"\>", 
+   ",", "\<\"last\"\>", ",", "\<\"Last\"\>", ",", "\<\"lasting\"\>", 
+   ",", "\<\"later\"\>", ",", "\<\"latter\"\>", ",", "\<\"lay-up\"\>", 
+   ",", "\<\"lead\"\>", ",", "\<\"leading\"\>", ",", "\<\"least\"\>", 
+   ",", "\<\"ledger\"\>", ",", "\<\"legal\"\>", ",", "\<\"legislative\"\>", 
+   ",", "\<\"legitimate\"\>", ",", "\<\"lend-lease\"\>", ",", "\<\"less\"\>", 
+   ",", "\<\"lest\"\>", ",", "\<\"liberated\"\>", ",", "\<\"likely\"\>", 
+   ",", "\<\"limited\"\>", ",", "\<\"liquid\"\>", ",", "\<\"little\"\>", 
+   ",", "\<\"live\"\>", ",", "\<\"local\"\>", ",", "\<\"LOCAL\"\>", 
+   ",", "\<\"long\"\>", ",", "\<\"long-delayed\"\>", ",", "\<\"longer\"\>", 
+   ",", "\<\"long-range\"\>", ",", "\<\"long-run\"\>", 
+   ",", "\<\"long-term\"\>", ",", "\<\"long-time\"\>", ",", "\<\"low\"\>", 
+   ",", "\<\"Low\"\>", ",", "\<\"lower\"\>", ",", "\<\"lowest\"\>", 
+   ",", "\<\"low-rent\"\>", ",", "\<\"(m)\"\>", ",", "\<\"main\"\>", 
+   ",", "\<\"major\"\>", ",", "\<\"malignant\"\>", ",", "\<\"managerial\"\>", 
+   ",", "\<\"manifold\"\>", ",", "\<\"manpower\"\>", ",", "\<\"many\"\>", 
+   ",", "\<\"Many\"\>", ",", "\<\"massive\"\>", ",", "\<\"maximum\"\>", 
+   ",", "\<\"medical\"\>", ",", "\<\"mental\"\>", ",", "\<\"mighty\"\>", 
+   ",", "\<\"military\"\>", ",", "\<\"Military\"\>", ",", "\<\"minimum\"\>", 
+   ",", "\<\"miscellaneous\"\>", ",", "\<\"moderate\"\>", 
+   ",", "\<\"modern\"\>", ",", "\<\"modest\"\>", ",", "\<\"momentous\"\>", 
+   ",", "\<\"monetary\"\>", ",", "\<\"monopolistic\"\>", ",", "\<\"more\"\>", 
+   ",", "\<\"most\"\>", ",", "\<\"Most\"\>", ",", "\<\"much\"\>", 
+   ",", "\<\"multilateral\"\>", ",", "\<\"multiple-purpose\"\>", 
+   ",", "\<\"mutual\"\>", ",", "\<\"national\"\>", ",", "\<\"natural\"\>", 
+   ",", "\<\"naval\"\>", ",", "\<\"near\"\>", ",", "\<\"necessary\"\>", 
+   ",", "\<\"needless\"\>", ",", "\<\"net\"\>", ",", "\<\"Net\"\>", 
+   ",", "\<\"new\"\>", ",", "\<\"next\"\>", ",", "\<\"nonagricultural\"\>", 
+   ",", "\<\"noncash\"\>", ",", "\<\"nonexpendable\"\>", 
+   ",", "\<\"non-Federal\"\>", ",", "\<\"nonfederal\"\>", 
+   ",", "\<\"nongovernmental\"\>", ",", "\<\"non-interest-bearing\"\>", 
+   ",", "\<\"nonprofit\"\>", ",", "\<\"nonrecurring\"\>", 
+   ",", "\<\"normal\"\>", ",", "\<\"northern\"\>", ",", "\<\"numerous\"\>", 
+   ",", "\<\"objective\"\>", ",", "\<\"obtaining\"\>", ",", "\<\"obvious\"\>",
+    ",", "\<\"occasional\"\>", ",", "\<\"occupied\"\>", 
+   ",", "\<\"OCCUPIED\"\>", ",", "\<\"old\"\>", ",", "\<\"old-age\"\>", 
+   ",", "\<\"one-half\"\>", ",", "\<\"one-seventh\"\>", 
+   ",", "\<\"one-sixth\"\>", ",", "\<\"one-third\"\>", ",", "\<\"only\"\>", 
+   ",", "\<\"Only\"\>", ",", "\<\"opportunistic\"\>", ",", "\<\"orderly\"\>", 
+   ",", "\<\"organizational\"\>", ",", "\<\"organized\"\>", 
+   ",", "\<\"original\"\>", ",", "\<\"other\"\>", ",", "\<\"Other\"\>", 
+   ",", "\<\"outstanding\"\>", ",", "\<\"over-all\"\>", 
+   ",", "\<\"overhead\"\>", ",", "\<\"overseas\"\>", 
+   ",", "\<\"overwhelming\"\>", ",", "\<\"own\"\>", ",", "\<\"particular\"\>",
+    ",", "\<\"past\"\>", ",", "\<\"payable\"\>", ",", "\<\"pay-as-you-go\"\>",
+    ",", "\<\"peaceful\"\>", ",", "\<\"peace-loving\"\>", 
+   ",", "\<\"peacetime\"\>", ",", "\<\"permanent\"\>", 
+   ",", "\<\"perpetual\"\>", ",", "\<\"personal\"\>", 
+   ",", "\<\"pervasive\"\>", ",", "\<\"Philippine\"\>", 
+   ",", "\<\"physical\"\>", ",", "\<\"piecemeal\"\>", ",", "\<\"plain\"\>", 
+   ",", "\<\"political\"\>", ",", "\<\"positive\"\>", ",", "\<\"possible\"\>",
+    ",", "\<\"postal\"\>", ",", "\<\"postwar\"\>", ",", "\<\"potential\"\>", 
+   ",", "\<\"powerful\"\>", ",", "\<\"practicable\"\>", 
+   ",", "\<\"practical\"\>", ",", "\<\"prepaid\"\>", ",", "\<\"present\"\>", 
+   ",", "\<\"pressing\"\>", ",", "\<\"previous\"\>", ",", "\<\"prewar\"\>", 
+   ",", "\<\"primary\"\>", ",", "\<\"prime\"\>", ",", "\<\"prior-year\"\>", 
+   ",", "\<\"private\"\>", ",", "\<\"Private\"\>", ",", "\<\"probable\"\>", 
+   ",", "\<\"procurement\"\>", ",", "\<\"productive\"\>", 
+   ",", "\<\"professional\"\>", ",", "\<\"profound\"\>", 
+   ",", "\<\"prompt\"\>", ",", "\<\"proper\"\>", ",", "\<\"prospective\"\>", 
+   ",", "\<\"prosperous\"\>", ",", "\<\"psychological\"\>", 
+   ",", "\<\"public\"\>", ",", "\<\"Quarterly\"\>", ",", "\<\"rapid\"\>", 
+   ",", "\<\"raw\"\>", ",", "\<\"readjustment\"\>", ",", "\<\"real\"\>", 
+   ",", "\<\"realistic\"\>", ",", "\<\"reasonable\"\>", ",", "\<\"recent\"\>",
+    ",", "\<\"reciprocal\"\>", ",", "\<\"recommended\"\>", 
+   ",", "\<\"reconverted\"\>", ",", "\<\"reduced\"\>", 
+   ",", "\<\"regional\"\>", ",", "\<\"regular\"\>", ",", "\<\"regulatory\"\>",
+    ",", "\<\"related\"\>", ",", "\<\"reluctant\"\>", 
+   ",", "\<\"remarkable\"\>", ",", "\<\"rent\"\>", ",", "\<\"rental\"\>", 
+   ",", "\<\"required\"\>", ",", "\<\"residential\"\>", 
+   ",", "\<\"Residential\"\>", ",", "\<\"residual\"\>", 
+   ",", "\<\"resolute\"\>", ",", "\<\"resourceful\"\>", 
+   ",", "\<\"responsible\"\>", ",", "\<\"restricted\"\>", 
+   ",", "\<\"restrictive\"\>", ",", "\<\"Retail\"\>", ",", "\<\"rich\"\>", 
+   ",", "\<\"right\"\>", ",", "\<\"runaway\"\>", ",", "\<\"rural\"\>", 
+   ",", "\<\"salaried\"\>", ",", "\<\"salary\"\>", ",", "\<\"same\"\>", 
+   ",", "\<\"satisfactory\"\>", ",", "\<\"scarce\"\>", 
+   ",", "\<\"scientific\"\>", ",", "\<\"second\"\>", ",", "\<\"secondary\"\>",
+    ",", "\<\"secure\"\>", ",", "\<\"self-employed\"\>", 
+   ",", "\<\"selfish\"\>", ",", "\<\"sensitive\"\>", ",", "\<\"separate\"\>", 
+   ",", "\<\"serious\"\>", ",", "\<\"several\"\>", ",", "\<\"sharp\"\>", 
+   ",", "\<\"ship\"\>", ",", "\<\"short\"\>", ",", "\<\"short-term\"\>", 
+   ",", "\<\"significant\"\>", ",", "\<\"silent\"\>", ",", "\<\"similar\"\>", 
+   ",", "\<\"simple\"\>", ",", "\<\"simplified\"\>", ",", "\<\"single\"\>", 
+   ",", "\<\"sized\"\>", ",", "\<\"slow\"\>", ",", "\<\"slower\"\>", 
+   ",", "\<\"small\"\>", ",", "\<\"smaller\"\>", ",", "\<\"so-called\"\>", 
+   ",", "\<\"social\"\>", ",", "\<\"soil\"\>", ",", "\<\"sole\"\>", 
+   ",", "\<\"solid\"\>", ",", "\<\"sound\"\>", ",", "\<\"sovereign\"\>", 
+   ",", "\<\"Soviet\"\>", ",", "\<\"special\"\>", ",", "\<\"specialized\"\>", 
+   ",", "\<\"specific\"\>", ",", "\<\"spectacular\"\>", 
+   ",", "\<\"speculative\"\>", ",", "\<\"stable\"\>", 
+   ",", "\<\"statistical\"\>", ",", "\<\"statutory\"\>", 
+   ",", "\<\"steadfast\"\>", ",", "\<\"steady\"\>", ",", "\<\"strenuous\"\>", 
+   ",", "\<\"strong\"\>", ",", "\<\"stronger\"\>", ",", "\<\"strongest\"\>", 
+   ",", "\<\"subject\"\>", ",", "\<\"subsequent\"\>", 
+   ",", "\<\"substandard\"\>", ",", "\<\"substantial\"\>", 
+   ",", "\<\"successful\"\>", ",", "\<\"such\"\>", ",", "\<\"Such\"\>", 
+   ",", "\<\"sufficient\"\>", ",", "\<\"superior\"\>", 
+   ",", "\<\"supplemental\"\>", ",", "\<\"supplementary\"\>", 
+   ",", "\<\"sure\"\>", ",", "\<\"surplus\"\>", ",", "\<\"survival\"\>", 
+   ",", "\<\"sustained\"\>", ",", "\<\"table\"\>", ",", "\<\"take-home\"\>", 
+   ",", "\<\"technical\"\>", ",", "\<\"technological\"\>", 
+   ",", "\<\"temporary\"\>", ",", "\<\"tentative\"\>", ",", "\<\"tenth\"\>", 
+   ",", "\<\"territorial\"\>", ",", "\<\"thinking\"\>", ",", "\<\"third\"\>", 
+   ",", "\<\"thorough\"\>", ",", "\<\"tight\"\>", ",", "\<\"total\"\>", 
+   ",", "\<\"traditional\"\>", ",", "\<\"tremendous\"\>", 
+   ",", "\<\"Tremendous\"\>", ",", "\<\"troubled\"\>", ",", "\<\"true\"\>", 
+   ",", "\<\"two-year\"\>", ",", "\<\"ultimate\"\>", 
+   ",", "\<\"unavoidable\"\>", ",", "\<\"uncharted\"\>", 
+   ",", "\<\"underdeveloped\"\>", ",", "\<\"undue\"\>", 
+   ",", "\<\"unemployed\"\>", ",", "\<\"unexpended\"\>", 
+   ",", "\<\"unfair\"\>", ",", "\<\"unified\"\>", ",", "\<\"united\"\>", 
+   ",", "\<\"universal\"\>", ",", "\<\"unlikely\"\>", 
+   ",", "\<\"unliquidated\"\>", ",", "\<\"unnecessary\"\>", 
+   ",", "\<\"unneeded\"\>", ",", "\<\"unobligated\"\>", 
+   ",", "\<\"unqualified\"\>", ",", "\<\"unreasonable\"\>", 
+   ",", "\<\"unreasoning\"\>", ",", "\<\"unsalable\"\>", 
+   ",", "\<\"unsettled\"\>", ",", "\<\"unspent\"\>", 
+   ",", "\<\"unsurpassed\"\>", ",", "\<\"unused\"\>", ",", "\<\"unusual\"\>", 
+   ",", "\<\"upward\"\>", ",", "\<\"urban\"\>", ",", "\<\"urgent\"\>", 
+   ",", "\<\"useful\"\>", ",", "\<\"useless\"\>", ",", "\<\"utmost\"\>", 
+   ",", "\<\"valuable\"\>", ",", "\<\"varied\"\>", ",", "\<\"various\"\>", 
+   ",", "\<\"vast\"\>", ",", "\<\"vigilant\"\>", ",", "\<\"vigorous\"\>", 
+   ",", "\<\"vital\"\>", ",", "\<\"vivid\"\>", ",", "\<\"vocational\"\>", 
+   ",", "\<\"voluntary\"\>", ",", "\<\"want\"\>", ",", "\<\"war-born\"\>", 
+   ",", "\<\"war-built\"\>", ",", "\<\"war-expanded\"\>", 
+   ",", "\<\"warfare\"\>", ",", "\<\"wartime\"\>", 
+   ",", "\<\"well-balanced\"\>", ",", "\<\"well-housed\"\>", 
+   ",", "\<\"well-nourished\"\>", ",", "\<\"Western\"\>", 
+   ",", "\<\"whole\"\>", ",", "\<\"wholesale\"\>", ",", "\<\"widespread\"\>", 
+   ",", "\<\"wildlife\"\>", ",", "\<\"willing\"\>", ",", "\<\"wise\"\>", 
+   ",", "\<\"working\"\>", ",", "\<\"world's\"\>", ",", "\<\"worse\"\>", 
+   ",", "\<\"worth\"\>", ",", "\<\"year's\"\>", ",", "\<\"young\"\>", 
+   ",", "\<\"$10\"\>", ",", "\<\"$11\"\>", ",", "\<\"$134\"\>", 
+   ",", "\<\"$25\"\>", ",", "\<\"$35\"\>", ",", "\<\"$44\"\>", 
+   ",", "\<\"$48\"\>", ",", "\<\"$9\"\>"}], "}"}]], "Output",
+ CellChangeTimes->{3.734285605097239*^9, 3.7345432261914597`*^9},
+ CellLabel->"Out[85]=",ExpressionUUID->"28cb9961-e7d5-4965-9d40-9bdbfcd414c8"]
+}, Open  ]]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -897,6 +2628,8 @@ negative or neutral sentiment. Here are the first ten sentences in Truman\
   3.734543273843835*^9}},ExpressionUUID->"74aaedb0-1e78-4e02-b11a-\
 da88f062b8cb"],
 
+Cell[CellGroupData[{
+
 Cell[BoxData[
  RowBox[{
   RowBox[{"TextCases", "[", 
@@ -914,10 +2647,41 @@ Cell[BoxData[
   3.734543281934095*^9}},
  CellLabel->"In[86]:=",ExpressionUUID->"b36cc9fb-c007-4966-bc84-c666766cc447"],
 
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"It was the greatest year of achievement in human history.\"\>",
+    ",", "\<\"The country was brought through four years of peril by an \
+effort that was truly national in character.\"\>", 
+   ",", "\<\"We must move ahead.\"\>", 
+   ",", "\<\"Our Nation has always been a land of great opportunities for \
+those people of the world who sought to become part of us.\"\>", 
+   ",", "\<\"Now we have become a land of great responsibilities to all the \
+people of all the world.\"\>", 
+   ",", "\<\"The United Nations Organization, if we have the will adequately \
+to staff it and to make it work as it should, will provide a great voice to \
+speak constantly and responsibly in terms of world collaboration and world \
+well-being.\"\>", 
+   ",", "\<\"There are many new responsibilities for us as we enter into this \
+new international era.\"\>", 
+   ",", "\<\"It is intricate, continuing business.\"\>", 
+   ",", "\<\"The spectacular progress of science in recent years makes these \
+necessities more vivid and urgent.\"\>", 
+   ",", "\<\"On the domestic scene, as well as on the international scene, we \
+must lay a new and better foundation for cooperation.\"\>"}], "}"}]], "Output",\
+
+ CellChangeTimes->{
+  3.734285785072283*^9, 3.7342858358276854`*^9, {3.734285886352433*^9, 
+   3.734285933602028*^9}, 3.7342859816344957`*^9, 3.734286015417973*^9, 
+   3.7345432849317493`*^9},
+ CellLabel->"Out[86]=",ExpressionUUID->"ba1167fa-e5f3-4fb2-b6b6-912c971f31d8"]
+}, Open  ]],
+
 Cell["And the first ten coded as having negative sentiment", "Text",
  CellChangeTimes->{{3.7342860535998363`*^9, 
   3.7342860658475533`*^9}},ExpressionUUID->"708d1565-9694-4b81-8944-\
 ef94a0a50fce"],
+
+Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{
@@ -934,7 +2698,38 @@ Cell[BoxData[
   3.734285835119926*^9}, {3.7342858837995768`*^9, 3.7342859306527042`*^9}, {
   3.734285980308927*^9, 3.734286014489429*^9}, {3.734286073528945*^9, 
   3.7342860743754807`*^9}, {3.734543304372101*^9, 3.734543308778661*^9}},
- CellLabel->"In[87]:=",ExpressionUUID->"41151c69-d014-4e43-8c7c-89a4915c7112"]
+ CellLabel->"In[87]:=",ExpressionUUID->"41151c69-d014-4e43-8c7c-89a4915c7112"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"The Congress has shown its satisfaction with that method by \
+extending the budget system and tightening its controls.\"\>", 
+   ",", "\<\"At the same time, it is clear that the budgetary program and the \
+general program of the Government are actually inseparable.\"\>", 
+   ",", "\<\"All the programs I have recommended for action are included in \
+the Budget figures.\"\>", 
+   ",", "\<\"The lack of that assurance would, I believe, aggravate the \
+economic instability.\"\>", 
+   ",", "\<\"Our own part in this accomplishment was not the product of any \
+single service.\"\>", 
+   ",", "\<\"They were supported by other millions in the armed forces who \
+through no fault of their own could not go overseas and who rendered \
+indispensable service in this country.\"\>", 
+   ",", "\<\"Everlasting tribute and gratitude will be paid by all Americans \
+to those brave men who did not come back, who will never come back--the \
+330,000 who died that the Nation might live and progress.\"\>", 
+   ",", "\<\"They may be certain that their sacrifice will never be forgotten \
+or their needs neglected.\"\>", 
+   ",", "\<\"And for the immediate future the business prospects are \
+generally so favorable that there is danger of such feverish and \
+opportunistic activity that our grave postwar problems may be neglected.\"\>",
+    ",", "\<\"We should not be lulled by the immediate alluring prospects \
+into forgetting the fundamental complexity of modern affairs, the catastrophe \
+that can come in this complexity, or the values that can be wrested from \
+it.\"\>"}], "}"}]], "Output",
+ CellChangeTimes->{3.734286074840651*^9, 3.734543309934031*^9},
+ CellLabel->"Out[87]=",ExpressionUUID->"4fcc9f5a-0c4a-45dd-8115-86d12aa19f77"]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
@@ -979,6 +2774,8 @@ and the 1950 speeches:\
    3.7345433599524918`*^9}},ExpressionUUID->"b1e62e3a-2a85-49ee-ae81-\
 57d9c521d33e"],
 
+Cell[CellGroupData[{
+
 Cell[BoxData[
  RowBox[{"Intersection", "[", 
   RowBox[{"hstJan1946FrequentTerms", ",", "hstJan1950FrequentTerms"}], 
@@ -986,6 +2783,18 @@ Cell[BoxData[
  CellChangeTimes->{{3.68130305684496*^9, 3.6813030656625433`*^9}, {
   3.734543369488193*^9, 3.7345433770423822`*^9}},
  CellLabel->"In[88]:=",ExpressionUUID->"3b799964-2107-44bd-874c-039e4177fa41"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"congress\"\>", ",", "\<\"economic\"\>", 
+   ",", "\<\"government\"\>", ",", "\<\"national\"\>", ",", "\<\"nations\"\>",
+    ",", "\<\"new\"\>", ",", "\<\"people\"\>", ",", "\<\"production\"\>", 
+   ",", "\<\"program\"\>", ",", "\<\"programs\"\>", ",", "\<\"united\"\>", 
+   ",", "\<\"world\"\>", ",", "\<\"year\"\>", ",", "\<\"years\"\>"}], 
+  "}"}]], "Output",
+ CellChangeTimes->{3.734543380144908*^9},
+ CellLabel->"Out[88]=",ExpressionUUID->"05cbc2cd-8acc-40ac-adf7-456b68de36ec"]
+}, Open  ]],
 
 Cell["\<\
 What can you learn about a text by studying the contexts in which a given \
@@ -1049,6 +2858,8 @@ can also use the ",
 }], "Text",
  CellChangeTimes->{{3.6473692810771303`*^9, 3.647369311810947*^9}}],
 
+Cell[CellGroupData[{
+
 Cell[BoxData[
  RowBox[{"WordData", "[", 
   RowBox[{
@@ -1059,8 +2870,21 @@ Cell[BoxData[
   3.734543514891185*^9}, {3.73454355097966*^9, 3.734543552636364*^9}},
  CellLabel->"In[92]:=",ExpressionUUID->"65bc410b-e3a0-4ec1-8d26-1bd8e002db88"],
 
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"administration\"\>", ",", "\<\"authorities\"\>", 
+   ",", "\<\"governance\"\>", ",", "\<\"governing\"\>", 
+   ",", "\<\"government activity\"\>", ",", "\<\"political science\"\>", 
+   ",", "\<\"politics\"\>", ",", "\<\"regime\"\>"}], "}"}]], "Output",
+ CellChangeTimes->{3.7342861391774817`*^9, 3.7345434308154917`*^9, 
+  3.7345434625757093`*^9, 3.734543515818639*^9, 3.7345435532442093`*^9},
+ CellLabel->"Out[92]=",ExpressionUUID->"9854b11b-8918-45b4-a63e-6d059700bec0"]
+}, Open  ]],
+
 Cell["Here are the corresponding word stems.", "Text",
  CellChangeTimes->{{3.64736934536178*^9, 3.6473693542733192`*^9}}],
+
+Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"WordStem", "[", 
@@ -1071,12 +2895,24 @@ Cell[BoxData[
  CellChangeTimes->{{3.6473693603137827`*^9, 3.6473693647135983`*^9}},
  CellLabel->"In[93]:=",ExpressionUUID->"5d607cdf-911d-482e-b5a3-83672dc5e694"],
 
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"administr\"\>", ",", "\<\"author\"\>", ",", "\<\"govern\"\>", 
+   ",", "\<\"govern\"\>", ",", "\<\"government act\"\>", 
+   ",", "\<\"political sci\"\>", ",", "\<\"polit\"\>", ",", "\<\"regim\"\>"}],
+   "}"}]], "Output",
+ CellChangeTimes->{3.734286139235051*^9, 3.734543558552067*^9},
+ CellLabel->"Out[93]=",ExpressionUUID->"56fe2e54-3e3f-4091-8605-831b8c78edfa"]
+}, Open  ]],
+
 Cell["How many of these stems also appear in Truman\[CloseCurlyQuote]s 1946 \
 speech?", "Text",
  CellChangeTimes->{{3.647369380832024*^9, 3.647369407247581*^9}, {
   3.681312626614746*^9, 3.68131263314214*^9}, {3.7345435630258636`*^9, 
   3.734543566040889*^9}},ExpressionUUID->"7d4ff711-c76e-45c1-a457-\
 4b6891e92e84"],
+
+Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"Intersection", "[", 
@@ -1092,6 +2928,13 @@ Cell[BoxData[
    3.6813130910544567`*^9, 3.681313096634242*^9}, {3.734543570081615*^9, 
    3.734543585051145*^9}},
  CellLabel->"In[94]:=",ExpressionUUID->"08b43be4-25c5-4b17-8488-442f9bd74a28"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"administr\"\>", ",", "\<\"govern\"\>"}], "}"}]], "Output",
+ CellChangeTimes->{3.7342861392691183`*^9, 3.734543587958817*^9},
+ CellLabel->"Out[94]=",ExpressionUUID->"841e1203-4d33-4fc2-9365-adf6826a5355"]
+}, Open  ]],
 
 Cell[TextData[{
  "As before, we can use ",
@@ -1112,6 +2955,8 @@ flat one."
   3.6473695879845552`*^9, 3.647369597960701*^9}, {3.681312767521577*^9, 
   3.6813127948560143`*^9}, {3.6813133593077087`*^9, 3.681313359418377*^9}}],
 
+Cell[CellGroupData[{
+
 Cell[BoxData[
  RowBox[{"governmentSynonymStemWords", "=", 
   RowBox[{"Flatten", "[", 
@@ -1128,6 +2973,32 @@ Cell[BoxData[
   3.734543618351136*^9}},
  CellLabel->"In[95]:=",ExpressionUUID->"671f4095-24d8-4de4-899f-165c871fc2ce"],
 
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"administrate\"\>", ",", "\<\"administrated\"\>", 
+   ",", "\<\"administrates\"\>", ",", "\<\"administrating\"\>", 
+   ",", "\<\"administration\"\>", ",", "\<\"administrations\"\>", 
+   ",", "\<\"administrative\"\>", ",", "\<\"administratively\"\>", 
+   ",", "\<\"administrator\"\>", ",", "\<\"administrators\"\>", 
+   ",", "\<\"maladministration\"\>", ",", "\<\"nonadministrative\"\>", 
+   ",", "\<\"govern\"\>", ",", "\<\"governable\"\>", 
+   ",", "\<\"governance\"\>", ",", "\<\"governed\"\>", 
+   ",", "\<\"governess\"\>", ",", "\<\"governesses\"\>", 
+   ",", "\<\"governing\"\>", ",", "\<\"government\"\>", 
+   ",", "\<\"governmental\"\>", ",", "\<\"governments\"\>", 
+   ",", "\<\"governor\"\>", ",", "\<\"governors\"\>", 
+   ",", "\<\"governorship\"\>", ",", "\<\"governorships\"\>", 
+   ",", "\<\"governs\"\>", ",", "\<\"intergovernmental\"\>", 
+   ",", "\<\"misgovern\"\>", ",", "\<\"misgoverned\"\>", 
+   ",", "\<\"misgoverning\"\>", ",", "\<\"misgovernment\"\>", 
+   ",", "\<\"misgoverns\"\>", ",", "\<\"nongovernmental\"\>", 
+   ",", "\<\"self-governing\"\>", ",", "\<\"self-government\"\>", 
+   ",", "\<\"ungovernable\"\>", ",", "\<\"ungoverned\"\>"}], "}"}]], "Output",\
+
+ CellChangeTimes->{3.734286139363537*^9, 3.7345436236524754`*^9},
+ CellLabel->"Out[95]=",ExpressionUUID->"e0c49464-19dc-4b4a-a44c-7934185f2bec"]
+}, Open  ]],
+
 Cell["\<\
 Now we can check to see how many words in this wider list of \
 \[OpenCurlyQuote]government\[CloseCurlyQuote]-related words appear in Truman\
@@ -1138,6 +3009,8 @@ Now we can check to see how many words in this wider list of \
    3.734543639886443*^9}},ExpressionUUID->"f38c1d96-2c3d-484e-98dc-\
 319bfd50608a"],
 
+Cell[CellGroupData[{
+
 Cell[BoxData[
  RowBox[{"Intersection", "[", 
   RowBox[{"hstJan1946Terms", ",", "governmentSynonymStemWords"}], 
@@ -1145,7 +3018,353 @@ Cell[BoxData[
  CellChangeTimes->{{3.647369658874291*^9, 3.647369668759118*^9}, 
    3.6813128396900043`*^9, 3.681313113870566*^9, {3.734543645390822*^9, 
    3.734543648281094*^9}},
- CellLabel->"In[96]:=",ExpressionUUID->"72ccf7e9-7aa6-4b3b-91c8-6e119a512ddd"]
+ CellLabel->"In[96]:=",ExpressionUUID->"72ccf7e9-7aa6-4b3b-91c8-6e119a512ddd"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"administration\"\>", ",", "\<\"administrative\"\>", 
+   ",", "\<\"administrators\"\>", ",", "\<\"governing\"\>", 
+   ",", "\<\"government\"\>", ",", "\<\"governmental\"\>", 
+   ",", "\<\"governments\"\>", ",", "\<\"nongovernmental\"\>", 
+   ",", "\<\"self-government\"\>"}], "}"}]], "Output",
+ CellChangeTimes->{3.7342861393984203`*^9, 3.734543649273983*^9},
+ CellLabel->"Out[96]=",ExpressionUUID->"501acce7-d834-492d-b886-e2ffa9a8b13b"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"fa9d5009-b1c5-40de-8707-2a2182dfe19c"],
+
+Cell[CellGroupData[{
+
+Cell["\[OpenCurlyQuote]Fingerprint\[CloseCurlyQuote] for a text or file", \
+"Section",
+ CellChangeTimes->{{3.649950784924818*^9, 3.649950788859275*^9}, {
+  3.744616380283774*^9, 3.7446164066500473`*^9}, {3.744616666256214*^9, 
+  3.7446166673600883`*^9}},ExpressionUUID->"4583c484-f0d5-4a7e-ad41-\
+e2b03c6bfb83"],
+
+Cell["\<\
+Here are three sample texts. Are they the same or different? \
+\>", "Text",
+ CellChangeTimes->{{3.649950792779258*^9, 3.649950818634288*^9}, {
+  3.744616423705402*^9, 3.744616431113164*^9}, {3.7446164815437737`*^9, 
+  3.744616495014798*^9}},ExpressionUUID->"ba26c3f3-8b83-4ad0-bb27-\
+4ecafceff597"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+  "textA", "=", 
+   "\"\<It is estimated that about 6 million workers, or more than 20 percent \
+of all employees in nonagricultural and nongovernmental establishments, have \
+received wage increases since August 18, 1945.\>\""}], ";"}]], "Input",
+ CellChangeTimes->{{3.744616526398108*^9, 3.744616541117014*^9}},
+ CellLabel->
+  "In[222]:=",ExpressionUUID->"b9f8ae75-d543-4bbb-ac74-160d8e38578b"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+  "textB", "=", 
+   "\"\<It is estimated that about 6 million workers, or more than 2O percent \
+of all employees in nonagricultural and nongovernmental establishments, have \
+received wage increases since August 18, 1945.\>\""}], ";"}]], "Input",
+ CellChangeTimes->{{3.744616526398108*^9, 3.7446165521808863`*^9}},
+ CellLabel->
+  "In[223]:=",ExpressionUUID->"5d2f1d0c-a26e-4f2c-8608-e2063bbf2791"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+  "textC", "=", 
+   "\"\<It is estimated that about 6 million workers, or more than 2O percent \
+of all emp1oyees in nonagricultural and nongovernmental establishments, have \
+received wage increases since August 18, 1945.\>\""}], ";"}]], "Input",
+ CellChangeTimes->{{3.744616526398108*^9, 3.7446165894835377`*^9}, {
+  3.7446170152762537`*^9, 3.744617034756446*^9}},
+ CellLabel->
+  "In[231]:=",ExpressionUUID->"c5b92182-09ac-4d31-aa20-fa497316711d"],
+
+Cell[TextData[{
+ "One way to answer this question is to use a ",
+ StyleBox["hash function",
+  FontSlant->"Italic"],
+ ", which computes a unique code from a file of any kind (in this case, we \
+are using texts). Even the slightest change in the file results in a \
+completely different hash."
+}], "Text",
+ CellChangeTimes->{{3.744616605602911*^9, 
+  3.744616702015113*^9}},ExpressionUUID->"363635db-970f-471b-a078-\
+95f24ba5e21c"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Hash", "[", 
+  RowBox[{"textA", ",", "\"\<MD5\>\"", ",", "\"\<HexString\>\""}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.7446167139427958`*^9, 3.744616746584222*^9}},
+ CellLabel->
+  "In[226]:=",ExpressionUUID->"41bc3065-cd71-4263-b7a9-28308bf5109e"],
+
+Cell[BoxData["\<\"029cf31b19f1c0122f8943653ecc4ce3\"\>"], "Output",
+ CellChangeTimes->{{3.744616726067503*^9, 3.744616747319796*^9}},
+ CellLabel->
+  "Out[226]=",ExpressionUUID->"07cfdde3-337a-43c3-894f-009cd055b418"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Hash", "[", 
+  RowBox[{"textB", ",", "\"\<MD5\>\"", ",", "\"\<HexString\>\""}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.7446167139427958`*^9, 3.7446167554782333`*^9}},
+ CellLabel->
+  "In[227]:=",ExpressionUUID->"db60f46a-cc59-44e7-857e-c2229f964ab4"],
+
+Cell[BoxData["\<\"3a60fa5157b6e8188c852834085382f1\"\>"], "Output",
+ CellChangeTimes->{3.7446167562342052`*^9},
+ CellLabel->
+  "Out[227]=",ExpressionUUID->"f0a3115b-1a71-4471-bf62-ee22ec3e0db7"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Hash", "[", 
+  RowBox[{"textC", ",", "\"\<MD5\>\"", ",", "\"\<HexString\>\""}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.7446167139427958`*^9, 3.7446167637422333`*^9}},
+ CellLabel->
+  "In[232]:=",ExpressionUUID->"966025e4-293f-4715-bbe3-176b35dffc1e"],
+
+Cell[BoxData["\<\"5f08be793fb57e5b0c28299ba042be39\"\>"], "Output",
+ CellChangeTimes->{
+  3.7446167652332087`*^9, {3.7446170197067223`*^9, 3.744617038932262*^9}},
+ CellLabel->
+  "Out[232]=",ExpressionUUID->"1ab243b3-9ab4-4ea9-938a-068e9d6193a0"]
+}, Open  ]],
+
+Cell["\<\
+Since the three sample texts have different hashes, we can conclude they are \
+all different from one another. But how do they differ?\
+\>", "Text",
+ CellChangeTimes->{{3.74461677406087*^9, 3.744616863968745*^9}, {
+  3.744617044674046*^9, 
+  3.744617050481892*^9}},ExpressionUUID->"3052273b-b218-406f-8912-\
+ce55852460b5"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["", "SlideShowNavigationBar",
+ CellTags->
+  "SlideShowHeader",ExpressionUUID->"14838dc1-9a70-4721-85e5-ea603d40ba87"],
+
+Cell[CellGroupData[{
+
+Cell["How do two texts differ from one another?", "Section",
+ CellChangeTimes->{{3.649950784924818*^9, 3.649950788859275*^9}, {
+  3.744616847186161*^9, 
+  3.744616858049067*^9}},ExpressionUUID->"72070674-99f7-429c-a300-\
+9bb46baef3d2"],
+
+Cell[TextData[{
+ "Once we have determined that there are differences between two texts , we \
+can use another function, called ",
+ StyleBox["SequenceAlignment",
+  FontWeight->"Bold"],
+ " to find the differences between each pair."
+}], "Text",
+ CellChangeTimes->{{3.649950792779258*^9, 3.649950818634288*^9}, {
+  3.744616866808693*^9, 3.7446168897359877`*^9}, {3.744616980621211*^9, 
+  3.744616998803974*^9}, {3.7446171084557743`*^9, 
+  3.744617111175749*^9}},ExpressionUUID->"a8aed800-f31b-48a0-8d6c-\
+7336648eed7a"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"SequenceAlignment", "[", 
+  RowBox[{"textA", ",", "textB"}], "]"}]], "Input",
+ CellChangeTimes->{{3.744617055355319*^9, 3.744617068401265*^9}},
+ CellLabel->
+  "In[233]:=",ExpressionUUID->"b7edd48b-63df-42f5-9064-987821608fff"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"It is estimated that about 6 million workers, or more than 2\"\
+\>", ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"0\"\>", ",", "\<\"O\"\>"}], "}"}], 
+   ",", "\<\" percent of all employees in nonagricultural and nongovernmental \
+establishments, have received wage increases since August 18, 1945.\"\>"}], 
+  "}"}]], "Output",
+ CellChangeTimes->{3.744617069525481*^9},
+ CellLabel->
+  "Out[233]=",ExpressionUUID->"f15165ce-a8d4-46f4-b056-4278db382541"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"SequenceAlignment", "[", 
+  RowBox[{"textB", ",", "textC"}], "]"}]], "Input",
+ CellChangeTimes->{{3.744617055355319*^9, 3.744617088897255*^9}},
+ CellLabel->
+  "In[235]:=",ExpressionUUID->"07400058-2c59-4255-8100-bbf9d3ff5954"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"It is estimated that about 6 million workers, or more than 2O \
+percent of all emp\"\>", ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"l\"\>", ",", "\<\"1\"\>"}], "}"}], 
+   ",", "\<\"oyees in nonagricultural and nongovernmental establishments, \
+have received wage increases since August 18, 1945.\"\>"}], "}"}]], "Output",
+ CellChangeTimes->{3.7446170900711517`*^9},
+ CellLabel->
+  "Out[235]=",ExpressionUUID->"f6b6bcf9-3b3b-4bdf-9ddd-49697d1ae91e"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"SequenceAlignment", "[", 
+  RowBox[{"textA", ",", "textC"}], "]"}]], "Input",
+ CellChangeTimes->{{3.744617055355319*^9, 3.744617078066169*^9}},
+ CellLabel->
+  "In[234]:=",ExpressionUUID->"294f526f-e235-4cc4-902a-48c2d5809f1e"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"It is estimated that about 6 million workers, or more than 2\"\
+\>", ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"0\"\>", ",", "\<\"O\"\>"}], "}"}], 
+   ",", "\<\" percent of all emp\"\>", ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"l\"\>", ",", "\<\"1\"\>"}], "}"}], 
+   ",", "\<\"oyees in nonagricultural and nongovernmental establishments, \
+have received wage increases since August 18, 1945.\"\>"}], "}"}]], "Output",
+ CellChangeTimes->{3.744617078791717*^9},
+ CellLabel->
+  "Out[234]=",ExpressionUUID->"889bb629-59e9-451b-a478-9c1b3f61bdac"]
+}, Open  ]],
+
+Cell[TextData[{
+ "This allows us to see that ",
+ StyleBox["textA",
+  FontSlant->"Italic"],
+ " has a zero where ",
+ StyleBox["textB",
+  FontSlant->"Italic"],
+ " has a capital O; that ",
+ StyleBox["textB",
+  FontSlant->"Italic"],
+ " has a lowercase L where ",
+ StyleBox["textC",
+  FontSlant->"Italic"],
+ " has the numeral one; and that ",
+ StyleBox["textA",
+  FontSlant->"Italic"],
+ " and ",
+ StyleBox["textC",
+  FontSlant->"Italic"],
+ " are different in two places."
+}], "Text",
+ CellChangeTimes->{{3.744617101178255*^9, 
+  3.744617235899214*^9}},ExpressionUUID->"e9cee98f-08f8-4cdc-83eb-\
+57de29134f27"],
+
+Cell[TextData[{
+ "Note that the ",
+ StyleBox["SequenceAlignment",
+  FontWeight->"Bold"],
+ " command allows us to see insertions and deletions, too."
+}], "Text",
+ CellChangeTimes->{{3.74461726466566*^9, 
+  3.7446172834971724`*^9}},ExpressionUUID->"c13586c4-17fe-4ac4-bec7-\
+e0ab9f1f5f05"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData["textA"], "Input",
+ CellChangeTimes->{{3.744617287545958*^9, 3.744617288592969*^9}},
+ CellLabel->
+  "In[236]:=",ExpressionUUID->"61f413a8-c84a-489e-bcb5-96a988a1e69c"],
+
+Cell[BoxData["\<\"It is estimated that about 6 million workers, or more than \
+20 percent of all employees in nonagricultural and nongovernmental \
+establishments, have received wage increases since August 18, 1945.\"\>"], \
+"Output",
+ CellChangeTimes->{3.7446172891423817`*^9},
+ CellLabel->
+  "Out[236]=",ExpressionUUID->"774d6ec4-0471-4f77-bf03-b2d7cffb9b8e"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"textD", "=", 
+  "\"\<It is suggested that about 6 million workers, or more than 20 percent \
+of all employees in nongovernmental establishments, have received significant \
+wage increases since August 18, 1945.\>\""}]], "Input",
+ CellChangeTimes->{{3.7446172906991177`*^9, 3.744617343687131*^9}},
+ CellLabel->
+  "In[237]:=",ExpressionUUID->"08774dde-cb79-4179-a51d-bcda0aaf8121"],
+
+Cell[BoxData["\<\"It is suggested that about 6 million workers, or more than \
+20 percent of all employees in nongovernmental establishments, have received \
+significant wage increases since August 18, 1945.\"\>"], "Output",
+ CellChangeTimes->{3.744617348157666*^9},
+ CellLabel->
+  "Out[237]=",ExpressionUUID->"eec16316-1a21-4a12-9651-dfb54159e5a5"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"SequenceAlignment", "[", 
+  RowBox[{"textA", ",", "textD"}], "]"}]], "Input",
+ CellChangeTimes->{{3.744617351271325*^9, 3.744617360118335*^9}},
+ CellLabel->
+  "In[238]:=",ExpressionUUID->"a08a39cb-9af3-488a-9c40-5b10fb7b569c"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"It is \"\>", ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"e\"\>", ",", "\<\"\"\>"}], "}"}], ",", "\<\"s\"\>", ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"tima\"\>", ",", "\<\"ugges\"\>"}], "}"}], 
+   ",", "\<\"ted that about 6 million workers, or more than 20 percent of all \
+employees in\"\>", ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\" nonagricultural and\"\>", ",", "\<\"\"\>"}], "}"}], 
+   ",", "\<\" nongovernmental establishments, have received\"\>", ",", 
+   RowBox[{"{", 
+    RowBox[{"\<\"\"\>", ",", "\<\" significant\"\>"}], "}"}], 
+   ",", "\<\" wage increases since August 18, 1945.\"\>"}], "}"}]], "Output",
+ CellChangeTimes->{3.744617362221972*^9},
+ CellLabel->
+  "Out[238]=",ExpressionUUID->"7108c4d3-5b39-4f9d-a5a1-67118582ac2c"]
+}, Open  ]],
+
+Cell["\<\
+Note that the differences are specified in terms of characters, rather than \
+words.\
+\>", "Text",
+ CellChangeTimes->{{3.744617407318348*^9, 
+  3.74461742349984*^9}},ExpressionUUID->"9538b421-0ab8-4c68-8126-\
+0533920f348b"]
 }, Open  ]]
 }, Open  ]],
 
@@ -1169,7 +3388,7 @@ class to the OWL Site for the course\
 }, Open  ]]
 },
 WindowSize->{1422, 1107},
-WindowMargins->{{Automatic, 256}, {Automatic, 97}},
+WindowMargins->{{460, Automatic}, {Automatic, 23}},
 TaggingRules->{"SlideShow" -> True},
 Magnification:>1.25 Inherited,
 FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
@@ -1188,29 +3407,33 @@ CellTagsIndex->{
    CellTags->"SlideShowHeader"],
   Cell[6660, 175, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"f4079e51-9e53-48c9-9413-60e8c2c2c7bc",
    CellTags->"SlideShowHeader"],
-  Cell[12489, 320, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"705d0bd8-97a4-44be-a489-690e93d2945e",
+  Cell[12489, 320, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"705d0bd8-97a4-44be-a489-690e93d2945e",
    CellTags->"SlideShowHeader"],
-  Cell[14903, 390, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"dfec655a-21ac-412c-adcc-82585032bd93",
+  Cell[63018, 1524, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"dfec655a-21ac-412c-adcc-82585032bd93",
    CellTags->"SlideShowHeader"],
-  Cell[23905, 624, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"b784f0e5-fc6e-4edc-8a5e-ef8b390595c5",
+  Cell[79072, 1898, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"b784f0e5-fc6e-4edc-8a5e-ef8b390595c5",
    CellTags->"SlideShowHeader"],
-  Cell[25555, 667, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"d2e7460a-3e0f-48ad-a3b0-0cb82bef0560",
+  Cell[86945, 2038, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"d2e7460a-3e0f-48ad-a3b0-0cb82bef0560",
    CellTags->"SlideShowHeader"],
-  Cell[28447, 742, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"4c00033d-bab5-4471-8020-a8ff36201d45",
+  Cell[91483, 2154, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"4c00033d-bab5-4471-8020-a8ff36201d45",
    CellTags->"SlideShowHeader"],
-  Cell[29829, 782, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"5c71d384-5b9f-4633-8d9d-062b811e0134",
+  Cell[94353, 2222, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"5c71d384-5b9f-4633-8d9d-062b811e0134",
    CellTags->"SlideShowHeader"],
-  Cell[36376, 943, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"bc951816-7f3c-4dca-a10d-b4dd0443e88e",
+  Cell[123308, 2738, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"bc951816-7f3c-4dca-a10d-b4dd0443e88e",
    CellTags->"SlideShowHeader"],
-  Cell[39381, 1030, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"ffc90e06-ec7d-4b77-890e-b658bbae5423",
+  Cell[126876, 2839, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"ffc90e06-ec7d-4b77-890e-b658bbae5423",
    CellTags->"SlideShowHeader"],
-  Cell[43989, 1153, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"01503140-4d9e-40e1-96dd-45562fcf72d7",
+  Cell[134692, 3037, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"fa9d5009-b1c5-40de-8707-2a2182dfe19c",
+   CellTags->"SlideShowHeader"],
+  Cell[139235, 3166, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"14838dc1-9a70-4721-85e5-ea603d40ba87",
+   CellTags->"SlideShowHeader"],
+  Cell[146190, 3372, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"01503140-4d9e-40e1-96dd-45562fcf72d7",
    CellTags->"SlideShowHeader"]}
  }
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"SlideShowHeader", 44855, 1183}
+ {"SlideShowHeader", 147056, 3402}
  }
 *)
 (*NotebookFileOutline
@@ -1243,160 +3466,295 @@ Cell[9612, 248, 539, 11, 37, "Input",ExpressionUUID->"3f20c0d3-b7d7-4e6c-ae3f-b6
 Cell[10154, 261, 509, 9, 37, "Input",ExpressionUUID->"ff6dff42-adf2-405a-9ef7-d0c792bab430"],
 Cell[10666, 272, 552, 12, 37, "Input",ExpressionUUID->"d17f1337-d774-4bb1-af4b-83d7c6e7f73e"],
 Cell[11221, 286, 292, 6, 44, "Text",ExpressionUUID->"911f2aad-463c-4e7f-a413-8fef6937ba6f"],
-Cell[11516, 294, 436, 9, 57, "Input",ExpressionUUID->"34d6e29a-50ba-4c8e-ad4e-29362124215d"],
-Cell[11955, 305, 485, 9, 57, "Input",ExpressionUUID->"821999b5-d548-4631-b1c7-e5f3f79afdc4"]
+Cell[11516, 294, 436, 9, 37, "Input",ExpressionUUID->"34d6e29a-50ba-4c8e-ad4e-29362124215d"],
+Cell[11955, 305, 485, 9, 37, "Input",ExpressionUUID->"821999b5-d548-4631-b1c7-e5f3f79afdc4"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[12489, 320, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"705d0bd8-97a4-44be-a489-690e93d2945e",
+Cell[12489, 320, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"705d0bd8-97a4-44be-a489-690e93d2945e",
  CellTags->"SlideShowHeader"],
 Cell[CellGroupData[{
-Cell[12636, 326, 306, 5, 131, "Section",ExpressionUUID->"500f7f66-80a1-4aca-9ddc-2021ab56defa"],
-Cell[12945, 333, 628, 17, 114, "Text",ExpressionUUID->"c9373654-51f0-4c1f-9a5e-bc4fb489e0cb"],
+Cell[12636, 326, 306, 5, 84, "Section",ExpressionUUID->"500f7f66-80a1-4aca-9ddc-2021ab56defa"],
+Cell[12945, 333, 628, 17, 73, "Text",ExpressionUUID->"c9373654-51f0-4c1f-9a5e-bc4fb489e0cb"],
 Cell[CellGroupData[{
 Cell[13598, 354, 211, 4, 67, "Subsection",ExpressionUUID->"ce75ce0d-55d7-4ce3-a342-d7428b375fcc"],
-Cell[13812, 360, 369, 6, 57, "Input",ExpressionUUID->"d4d070b0-1afe-4ad4-9710-9226dd3d6e02"]
-}, Open  ]],
 Cell[CellGroupData[{
-Cell[14218, 371, 209, 4, 104, "Subsection",ExpressionUUID->"502aedeb-b217-41ad-a934-fcd63c399b44"],
-Cell[14430, 377, 412, 6, 57, "Input",ExpressionUUID->"74faf21c-4b33-4090-8cd8-e38641c90589"]
-}, Open  ]]
+Cell[13834, 362, 369, 6, 37, "Input",ExpressionUUID->"d4d070b0-1afe-4ad4-9710-9226dd3d6e02"],
+Cell[14206, 370, 24098, 562, 469, "Output",ExpressionUUID->"2c0fd332-cf01-4c36-b4e4-4e781f48e9d7"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[14903, 390, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"dfec655a-21ac-412c-adcc-82585032bd93",
+Cell[38353, 938, 209, 4, 67, "Subsection",ExpressionUUID->"502aedeb-b217-41ad-a934-fcd63c399b44"],
+Cell[CellGroupData[{
+Cell[38587, 946, 412, 6, 37, "Input",ExpressionUUID->"74faf21c-4b33-4090-8cd8-e38641c90589"],
+Cell[39002, 954, 23943, 562, 468, "Output",ExpressionUUID->"c74bc017-f19d-4acc-9870-37b2614ab843"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[63018, 1524, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"dfec655a-21ac-412c-adcc-82585032bd93",
  CellTags->"SlideShowHeader"],
 Cell[CellGroupData[{
-Cell[15050, 396, 359, 5, 131, "Section",ExpressionUUID->"1c8e15e5-0948-41a9-8a29-3f7b5ae65a3c"],
-Cell[15412, 403, 575, 10, 114, "Text",ExpressionUUID->"33c3a79c-566f-4c06-82b1-617ec8e4c943"],
-Cell[15990, 415, 343, 9, 68, "Text",ExpressionUUID->"b62ae475-2b37-4bce-b8a3-488d4693b11d"],
-Cell[16336, 426, 438, 8, 57, "Input",ExpressionUUID->"47d94fbb-ab2e-4a07-9a38-fd4327c31f17"],
-Cell[16777, 436, 271, 4, 57, "Input",ExpressionUUID->"951d8cb8-6f7b-45af-be99-e34c1fce6996"],
-Cell[17051, 442, 184, 3, 68, "Text",ExpressionUUID->"6d0854a2-77b9-437a-94fe-0f8819c1c130"],
-Cell[17238, 447, 272, 4, 57, "Input",ExpressionUUID->"c335eacd-5678-4d82-94db-82dc7aa1a0cb"],
+Cell[63165, 1530, 359, 5, 84, "Section",ExpressionUUID->"1c8e15e5-0948-41a9-8a29-3f7b5ae65a3c"],
+Cell[63527, 1537, 575, 10, 73, "Text",ExpressionUUID->"33c3a79c-566f-4c06-82b1-617ec8e4c943"],
+Cell[64105, 1549, 343, 9, 44, "Text",ExpressionUUID->"b62ae475-2b37-4bce-b8a3-488d4693b11d"],
+Cell[64451, 1560, 438, 8, 37, "Input",ExpressionUUID->"47d94fbb-ab2e-4a07-9a38-fd4327c31f17"],
 Cell[CellGroupData[{
-Cell[17535, 455, 165, 3, 104, "Subsection",ExpressionUUID->"0a103488-3680-4fe5-9d63-a7a266c549f9"],
-Cell[17703, 460, 283, 8, 68, "Text",ExpressionUUID->"23f92e37-399b-47ac-b89f-8e983285d277"],
-Cell[17989, 470, 167, 3, 68, "Text",ExpressionUUID->"6c0e868b-b794-4780-af35-32b3317b1bc9"],
-Cell[18159, 475, 312, 5, 57, "Input",ExpressionUUID->"b054dd2a-27bb-47b5-a613-978c93a77134"],
-Cell[18474, 482, 293, 5, 68, "Text",ExpressionUUID->"7343881e-dbc3-4e3a-aa09-f5e62e82abdb"],
-Cell[18770, 489, 451, 9, 57, "Input",ExpressionUUID->"d2ef3132-a97d-46f2-a0fb-a2614caad4b9"],
-Cell[19224, 500, 339, 5, 68, "Text",ExpressionUUID->"bc8e1633-3b87-459b-a2ef-e2e991008706"],
-Cell[19566, 507, 500, 9, 57, "Input",ExpressionUUID->"b44abbcb-9ac9-4077-8380-f77021085940"]
+Cell[64914, 1572, 271, 4, 37, "Input",ExpressionUUID->"951d8cb8-6f7b-45af-be99-e34c1fce6996"],
+Cell[65188, 1578, 174, 2, 42, "Output",ExpressionUUID->"c21846f7-b299-47b9-9b51-cdebf2dbcea7"]
+}, Open  ]],
+Cell[65377, 1583, 184, 3, 44, "Text",ExpressionUUID->"6d0854a2-77b9-437a-94fe-0f8819c1c130"],
+Cell[CellGroupData[{
+Cell[65586, 1590, 272, 4, 37, "Input",ExpressionUUID->"c335eacd-5678-4d82-94db-82dc7aa1a0cb"],
+Cell[65861, 1596, 371, 4, 95, "Output",ExpressionUUID->"5bbdc705-27a8-41bd-ad3f-06989f78b9d6"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[20103, 521, 230, 4, 104, "Subsection",ExpressionUUID->"ec1c3258-b555-461c-9e7a-a078ac67e514"],
-Cell[20336, 527, 823, 20, 159, "Text",ExpressionUUID->"69162911-8591-4865-81cc-3d6c9fac4baa"],
-Cell[21162, 549, 180, 3, 68, "Text",ExpressionUUID->"8cac55b5-9988-44f6-ab1e-cc2016609262"],
-Cell[21345, 554, 309, 5, 96, "Program",ExpressionUUID->"3073a6e2-a848-4fab-ad81-b8c2a5492208"],
-Cell[21657, 561, 248, 8, 68, "Text",ExpressionUUID->"e430c874-5700-4fec-bcbd-607cb42e7a85"],
-Cell[21908, 571, 499, 10, 57, "Input",ExpressionUUID->"027bcd16-1620-4a13-8a00-c1e3605a903e"],
-Cell[22410, 583, 528, 10, 57, "Input",ExpressionUUID->"6c624beb-507f-4b44-9df9-604ec1b751ab"],
-Cell[22941, 595, 447, 10, 68, "Text",ExpressionUUID->"96fd71f5-a4b8-4ff3-be93-f242efb711b8"],
-Cell[23391, 607, 453, 10, 57, "Input",ExpressionUUID->"86e8b5b6-036c-4288-850f-691616db7772"]
+Cell[66269, 1605, 165, 3, 67, "Subsection",ExpressionUUID->"0a103488-3680-4fe5-9d63-a7a266c549f9"],
+Cell[66437, 1610, 283, 8, 44, "Text",ExpressionUUID->"23f92e37-399b-47ac-b89f-8e983285d277"],
+Cell[66723, 1620, 167, 3, 44, "Text",ExpressionUUID->"6c0e868b-b794-4780-af35-32b3317b1bc9"],
+Cell[CellGroupData[{
+Cell[66915, 1627, 312, 5, 37, "Input",ExpressionUUID->"b054dd2a-27bb-47b5-a613-978c93a77134"],
+Cell[67230, 1634, 373, 4, 95, "Output",ExpressionUUID->"fd765f5b-e3ff-4b05-942d-b80e9717968f"]
+}, Open  ]],
+Cell[67618, 1641, 293, 5, 44, "Text",ExpressionUUID->"7343881e-dbc3-4e3a-aa09-f5e62e82abdb"],
+Cell[CellGroupData[{
+Cell[67936, 1650, 451, 9, 37, "Input",ExpressionUUID->"d2ef3132-a97d-46f2-a0fb-a2614caad4b9"],
+Cell[68390, 1661, 178, 2, 42, "Output",ExpressionUUID->"181a81c1-d37a-4560-9609-b0eda7e4c170"]
+}, Open  ]],
+Cell[68583, 1666, 339, 5, 44, "Text",ExpressionUUID->"bc8e1633-3b87-459b-a2ef-e2e991008706"],
+Cell[CellGroupData[{
+Cell[68947, 1675, 500, 9, 37, "Input",ExpressionUUID->"b44abbcb-9ac9-4077-8380-f77021085940"],
+Cell[69450, 1686, 228, 4, 42, "Output",ExpressionUUID->"5d319a38-c9f4-42a0-846b-a77629f7b8fc"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[69727, 1696, 230, 4, 67, "Subsection",ExpressionUUID->"ec1c3258-b555-461c-9e7a-a078ac67e514"],
+Cell[69960, 1702, 823, 20, 102, "Text",ExpressionUUID->"69162911-8591-4865-81cc-3d6c9fac4baa"],
+Cell[70786, 1724, 180, 3, 44, "Text",ExpressionUUID->"8cac55b5-9988-44f6-ab1e-cc2016609262"],
+Cell[70969, 1729, 309, 5, 62, "Program",ExpressionUUID->"3073a6e2-a848-4fab-ad81-b8c2a5492208"],
+Cell[71281, 1736, 248, 8, 44, "Text",ExpressionUUID->"e430c874-5700-4fec-bcbd-607cb42e7a85"],
+Cell[CellGroupData[{
+Cell[71554, 1748, 499, 10, 37, "Input",ExpressionUUID->"027bcd16-1620-4a13-8a00-c1e3605a903e"],
+Cell[72056, 1760, 200, 3, 42, "Output",ExpressionUUID->"3396b3b7-77ff-409d-bade-83e3de49cc46"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[72293, 1768, 528, 10, 37, "Input",ExpressionUUID->"6c624beb-507f-4b44-9df9-604ec1b751ab"],
+Cell[72824, 1780, 199, 3, 42, "Output",ExpressionUUID->"8483f04c-f3b4-489b-9868-eb380bf10b45"]
+}, Open  ]],
+Cell[73038, 1786, 447, 10, 44, "Text",ExpressionUUID->"96fd71f5-a4b8-4ff3-be93-f242efb711b8"],
+Cell[CellGroupData[{
+Cell[73510, 1800, 453, 10, 37, "Input",ExpressionUUID->"86e8b5b6-036c-4288-850f-691616db7772"],
+Cell[73966, 1812, 5033, 78, 1109, "Output",ExpressionUUID->"4a006b7d-39d2-4879-aad2-da660c7398d3"]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[23905, 624, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"b784f0e5-fc6e-4edc-8a5e-ef8b390595c5",
+Cell[79072, 1898, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"b784f0e5-fc6e-4edc-8a5e-ef8b390595c5",
  CellTags->"SlideShowHeader"],
 Cell[CellGroupData[{
-Cell[24052, 630, 104, 1, 131, "Section",ExpressionUUID->"77a410dd-8883-4759-b7a5-61456b65402d"],
-Cell[24159, 633, 725, 14, 114, "Text",ExpressionUUID->"549781ce-bddc-43f4-be28-be64cbe81191"],
-Cell[24887, 649, 619, 12, 59, "Input",ExpressionUUID->"5b38825a-6718-4d43-8156-4ae9a5c72b10"]
+Cell[79219, 1904, 104, 1, 84, "Section",ExpressionUUID->"77a410dd-8883-4759-b7a5-61456b65402d"],
+Cell[79326, 1907, 725, 14, 73, "Text",ExpressionUUID->"549781ce-bddc-43f4-be28-be64cbe81191"],
+Cell[CellGroupData[{
+Cell[80076, 1925, 619, 12, 38, "Input",ExpressionUUID->"5b38825a-6718-4d43-8156-4ae9a5c72b10"],
+Cell[80698, 1939, 6186, 92, 1608, "Output",ExpressionUUID->"78d56c2b-0cfe-47e4-88c1-610be74278db"]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[25555, 667, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"d2e7460a-3e0f-48ad-a3b0-0cb82bef0560",
+Cell[86945, 2038, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"d2e7460a-3e0f-48ad-a3b0-0cb82bef0560",
  CellTags->"SlideShowHeader"],
 Cell[CellGroupData[{
-Cell[25702, 673, 97, 1, 131, "Section",ExpressionUUID->"400da5fd-9fa7-4c05-a8b3-42e8dc4bc017"],
-Cell[25802, 676, 307, 7, 68, "Text",ExpressionUUID->"88102411-0cd1-4baf-aa67-fc63664868fd"],
-Cell[26112, 685, 225, 3, 57, "Input",ExpressionUUID->"f937abbf-8524-43fd-9f94-fa4c054b5b97"],
-Cell[26340, 690, 743, 15, 159, "Text",ExpressionUUID->"abed5ea0-98e8-4c91-9ca6-222aca34ae34"],
-Cell[27086, 707, 263, 5, 57, "Input",ExpressionUUID->"5b33dfdf-c0a8-4831-9a09-39a104414f42"],
-Cell[27352, 714, 543, 11, 114, "Text",ExpressionUUID->"68d82b05-4576-4dca-b9e0-a1998e4b0409"],
-Cell[27898, 727, 500, 9, 57, "Input",ExpressionUUID->"6ce21669-c145-47ae-a4b6-9ba4d352596f"]
+Cell[87092, 2044, 97, 1, 84, "Section",ExpressionUUID->"400da5fd-9fa7-4c05-a8b3-42e8dc4bc017"],
+Cell[87192, 2047, 307, 7, 44, "Text",ExpressionUUID->"88102411-0cd1-4baf-aa67-fc63664868fd"],
+Cell[CellGroupData[{
+Cell[87524, 2058, 225, 3, 37, "Input",ExpressionUUID->"f937abbf-8524-43fd-9f94-fa4c054b5b97"],
+Cell[87752, 2063, 181, 2, 42, "Output",ExpressionUUID->"038ef247-b115-4b0d-9bea-1fdb75b15466"]
+}, Open  ]],
+Cell[87948, 2068, 743, 15, 102, "Text",ExpressionUUID->"abed5ea0-98e8-4c91-9ca6-222aca34ae34"],
+Cell[CellGroupData[{
+Cell[88716, 2087, 263, 5, 37, "Input",ExpressionUUID->"5b33dfdf-c0a8-4831-9a09-39a104414f42"],
+Cell[88982, 2094, 971, 17, 95, "Output",ExpressionUUID->"44bbc246-26ba-4428-b3e0-414dafef0f18"]
+}, Open  ]],
+Cell[89968, 2114, 543, 11, 73, "Text",ExpressionUUID->"68d82b05-4576-4dca-b9e0-a1998e4b0409"],
+Cell[CellGroupData[{
+Cell[90536, 2129, 500, 9, 37, "Input",ExpressionUUID->"6ce21669-c145-47ae-a4b6-9ba4d352596f"],
+Cell[91039, 2140, 383, 7, 42, "Output",ExpressionUUID->"566d6f60-1d94-4c5f-b8dc-28ebe3d08cd3"]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[28447, 742, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"4c00033d-bab5-4471-8020-a8ff36201d45",
+Cell[91483, 2154, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"4c00033d-bab5-4471-8020-a8ff36201d45",
  CellTags->"SlideShowHeader"],
 Cell[CellGroupData[{
-Cell[28594, 748, 112, 1, 131, "Section",ExpressionUUID->"d128be81-e171-457b-9fe2-76eaa6ee873c"],
-Cell[28709, 751, 412, 10, 68, "Text",ExpressionUUID->"d4dbd423-65ca-4155-8e72-2d54154161da"],
-Cell[29124, 763, 656, 13, 59, "Input",ExpressionUUID->"f4b37920-30aa-4743-99f8-08e7df0868e7"]
+Cell[91630, 2160, 112, 1, 84, "Section",ExpressionUUID->"d128be81-e171-457b-9fe2-76eaa6ee873c"],
+Cell[91745, 2163, 412, 10, 44, "Text",ExpressionUUID->"d4dbd423-65ca-4155-8e72-2d54154161da"],
+Cell[CellGroupData[{
+Cell[92182, 2177, 656, 13, 38, "Input",ExpressionUUID->"f4b37920-30aa-4743-99f8-08e7df0868e7"],
+Cell[92841, 2192, 1451, 23, 303, "Output",ExpressionUUID->"b3357cee-969e-4981-86af-e4064eff9f2e"]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[29829, 782, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"5c71d384-5b9f-4633-8d9d-062b811e0134",
+Cell[94353, 2222, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"5c71d384-5b9f-4633-8d9d-062b811e0134",
  CellTags->"SlideShowHeader"],
 Cell[CellGroupData[{
-Cell[29976, 788, 93, 1, 131, "Section",ExpressionUUID->"0c6528d1-b812-4319-adeb-1759bf2bec45"],
-Cell[30072, 791, 551, 13, 114, "Text",ExpressionUUID->"5eb737e9-f6e5-4d33-afd9-43dfa578fc3d"],
+Cell[94500, 2228, 93, 1, 84, "Section",ExpressionUUID->"0c6528d1-b812-4319-adeb-1759bf2bec45"],
+Cell[94596, 2231, 551, 13, 73, "Text",ExpressionUUID->"5eb737e9-f6e5-4d33-afd9-43dfa578fc3d"],
 Cell[CellGroupData[{
-Cell[30648, 808, 96, 1, 104, "Subsection",ExpressionUUID->"f07b36c3-5fd9-4071-b4a8-589844a76264"],
-Cell[30747, 811, 554, 12, 68, "Text",ExpressionUUID->"961318c9-8aff-49ae-9ad5-70be3528f8df"],
-Cell[31304, 825, 494, 9, 57, "Input",ExpressionUUID->"45e17c3c-caff-4e07-852e-8869fd16a609"],
-Cell[31801, 836, 432, 9, 114, "Text",ExpressionUUID->"5470ab1d-5b20-4556-8d75-39efaf26a5b9"]
+Cell[95172, 2248, 96, 1, 67, "Subsection",ExpressionUUID->"f07b36c3-5fd9-4071-b4a8-589844a76264"],
+Cell[95271, 2251, 554, 12, 44, "Text",ExpressionUUID->"961318c9-8aff-49ae-9ad5-70be3528f8df"],
+Cell[CellGroupData[{
+Cell[95850, 2267, 494, 9, 37, "Input",ExpressionUUID->"45e17c3c-caff-4e07-852e-8869fd16a609"],
+Cell[96347, 2278, 693, 11, 69, "Output",ExpressionUUID->"2dcf7639-b28f-4ee3-a3f4-186bfe65c66b"]
+}, Open  ]],
+Cell[97055, 2292, 432, 9, 73, "Text",ExpressionUUID->"5470ab1d-5b20-4556-8d75-39efaf26a5b9"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[32270, 850, 103, 1, 104, "Subsection",ExpressionUUID->"b14a6d97-7d89-4c25-ae32-44d04e371719"],
-Cell[32376, 853, 471, 11, 68, "Text",ExpressionUUID->"ec6cd849-ca28-44f9-917b-2c5630538a90"],
-Cell[32850, 866, 635, 11, 57, "Input",ExpressionUUID->"69939b39-1c7d-40fb-aa49-44ae310d54be"]
-}, Open  ]],
+Cell[97524, 2306, 103, 1, 67, "Subsection",ExpressionUUID->"b14a6d97-7d89-4c25-ae32-44d04e371719"],
+Cell[97630, 2309, 471, 11, 44, "Text",ExpressionUUID->"ec6cd849-ca28-44f9-917b-2c5630538a90"],
 Cell[CellGroupData[{
-Cell[33522, 882, 206, 4, 104, "Subsection",ExpressionUUID->"93cfd672-23be-4454-a75b-a7d400e87983"],
-Cell[33731, 888, 529, 9, 114, "Text",ExpressionUUID->"74aaedb0-1e78-4e02-b11a-da88f062b8cb"],
-Cell[34263, 899, 900, 15, 57, "Input",ExpressionUUID->"b36cc9fb-c007-4966-bc84-c666766cc447"],
-Cell[35166, 916, 198, 3, 68, "Text",ExpressionUUID->"708d1565-9694-4b81-8944-ef94a0a50fce"],
-Cell[35367, 921, 948, 15, 57, "Input",ExpressionUUID->"41151c69-d014-4e43-8c7c-89a4915c7112"]
-}, Open  ]]
+Cell[98126, 2324, 635, 11, 37, "Input",ExpressionUUID->"69939b39-1c7d-40fb-aa49-44ae310d54be"],
+Cell[98764, 2337, 18295, 270, 1452, "Output",ExpressionUUID->"28cb9961-e7d5-4965-9d40-9bdbfcd414c8"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[36376, 943, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"bc951816-7f3c-4dca-a10d-b4dd0443e88e",
+Cell[117108, 2613, 206, 4, 67, "Subsection",ExpressionUUID->"93cfd672-23be-4454-a75b-a7d400e87983"],
+Cell[117317, 2619, 529, 9, 73, "Text",ExpressionUUID->"74aaedb0-1e78-4e02-b11a-da88f062b8cb"],
+Cell[CellGroupData[{
+Cell[117871, 2632, 900, 15, 37, "Input",ExpressionUUID->"b36cc9fb-c007-4966-bc84-c666766cc447"],
+Cell[118774, 2649, 1501, 26, 251, "Output",ExpressionUUID->"ba1167fa-e5f3-4fb2-b6b6-912c971f31d8"]
+}, Open  ]],
+Cell[120290, 2678, 198, 3, 44, "Text",ExpressionUUID->"708d1565-9694-4b81-8944-ef94a0a50fce"],
+Cell[CellGroupData[{
+Cell[120513, 2685, 948, 15, 37, "Input",ExpressionUUID->"41151c69-d014-4e43-8c7c-89a4915c7112"],
+Cell[121464, 2702, 1771, 28, 381, "Output",ExpressionUUID->"4fcc9f5a-0c4a-45dd-8115-86d12aa19f77"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[123308, 2738, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"bc951816-7f3c-4dca-a10d-b4dd0443e88e",
  CellTags->"SlideShowHeader"],
 Cell[CellGroupData[{
-Cell[36523, 949, 95, 1, 131, "Section",ExpressionUUID->"005644ca-cedd-4042-b4a7-c23142f851d5"],
+Cell[123455, 2744, 95, 1, 84, "Section",ExpressionUUID->"005644ca-cedd-4042-b4a7-c23142f851d5"],
 Cell[CellGroupData[{
-Cell[36643, 954, 102, 1, 87, "Subsubsection",ExpressionUUID->"8ae00164-365e-4a4f-a70a-45a9d496816f"],
-Cell[36748, 957, 358, 10, 68, "Text",ExpressionUUID->"d3985891-6ee6-4859-89ee-6467991df86b"],
-Cell[37109, 969, 571, 10, 68, "Text",ExpressionUUID->"b1e62e3a-2a85-49ee-ae81-57d9c521d33e"],
-Cell[37683, 981, 332, 6, 57, "Input",ExpressionUUID->"3b799964-2107-44bd-874c-039e4177fa41"],
-Cell[38018, 989, 322, 6, 114, "Text",ExpressionUUID->"8c6b9779-db7e-4206-bed7-a9be46094c2d"],
-Cell[38343, 997, 370, 6, 68, "Text",ExpressionUUID->"71159fd6-f87b-49c3-a305-9577f560ae96"],
-Cell[38716, 1005, 179, 4, 68, "Text",ExpressionUUID->"b6ab2d58-6ffe-4d60-a401-060b48a7d045"]
+Cell[123575, 2749, 102, 1, 56, "Subsubsection",ExpressionUUID->"8ae00164-365e-4a4f-a70a-45a9d496816f"],
+Cell[123680, 2752, 358, 10, 44, "Text",ExpressionUUID->"d3985891-6ee6-4859-89ee-6467991df86b"],
+Cell[124041, 2764, 571, 10, 44, "Text",ExpressionUUID->"b1e62e3a-2a85-49ee-ae81-57d9c521d33e"],
+Cell[CellGroupData[{
+Cell[124637, 2778, 332, 6, 37, "Input",ExpressionUUID->"3b799964-2107-44bd-874c-039e4177fa41"],
+Cell[124972, 2786, 526, 9, 42, "Output",ExpressionUUID->"05cbc2cd-8acc-40ac-adf7-456b68de36ec"]
+}, Open  ]],
+Cell[125513, 2798, 322, 6, 73, "Text",ExpressionUUID->"8c6b9779-db7e-4206-bed7-a9be46094c2d"],
+Cell[125838, 2806, 370, 6, 44, "Text",ExpressionUUID->"71159fd6-f87b-49c3-a305-9577f560ae96"],
+Cell[126211, 2814, 179, 4, 44, "Text",ExpressionUUID->"b6ab2d58-6ffe-4d60-a401-060b48a7d045"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[38932, 1014, 101, 1, 87, "Subsubsection",ExpressionUUID->"34e2c93a-86b4-4e3e-8925-b7c4fffcd5fb"],
-Cell[39036, 1017, 284, 6, 106, "Text",ExpressionUUID->"321fc1ad-4b3b-4957-832e-007a38f2006e"]
+Cell[126427, 2823, 101, 1, 56, "Subsubsection",ExpressionUUID->"34e2c93a-86b4-4e3e-8925-b7c4fffcd5fb"],
+Cell[126531, 2826, 284, 6, 106, "Text",ExpressionUUID->"321fc1ad-4b3b-4957-832e-007a38f2006e"]
 }, Closed]]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[39381, 1030, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"ffc90e06-ec7d-4b77-890e-b658bbae5423",
+Cell[126876, 2839, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"ffc90e06-ec7d-4b77-890e-b658bbae5423",
  CellTags->"SlideShowHeader"],
 Cell[CellGroupData[{
-Cell[39528, 1036, 107, 1, 131, "Section",ExpressionUUID->"108f69f0-2753-497a-aae7-2aa84588efe2"],
-Cell[39638, 1039, 336, 10, 68, "Text",ExpressionUUID->"b2b0334a-36eb-47db-aee7-a38f01418f0e"],
-Cell[39977, 1051, 432, 8, 57, "Input",ExpressionUUID->"65bc410b-e3a0-4ec1-8d26-1bd8e002db88"],
-Cell[40412, 1061, 121, 1, 68, "Text",ExpressionUUID->"a8aa4bca-e322-44ba-a149-fd99c958cde2"],
-Cell[40536, 1064, 330, 7, 57, "Input",ExpressionUUID->"5d607cdf-911d-482e-b5a3-83672dc5e694"],
-Cell[40869, 1073, 317, 5, 68, "Text",ExpressionUUID->"7d4ff711-c76e-45c1-a457-4b6891e92e84"],
-Cell[41189, 1080, 629, 13, 57, "Input",ExpressionUUID->"08b43be4-25c5-4b17-8488-442f9bd74a28"],
-Cell[41821, 1095, 728, 17, 159, "Text",ExpressionUUID->"354adce2-1dbd-48c4-acb4-1ebc126a95df"],
-Cell[42552, 1114, 607, 14, 57, "Input",ExpressionUUID->"671f4095-24d8-4de4-899f-165c871fc2ce"],
-Cell[43162, 1130, 400, 8, 68, "Text",ExpressionUUID->"f38c1d96-2c3d-484e-98dc-319bfd50608a"],
-Cell[43565, 1140, 375, 7, 57, "Input",ExpressionUUID->"72ccf7e9-7aa6-4b3b-91c8-6e119a512ddd"]
+Cell[127023, 2845, 107, 1, 84, "Section",ExpressionUUID->"108f69f0-2753-497a-aae7-2aa84588efe2"],
+Cell[127133, 2848, 336, 10, 44, "Text",ExpressionUUID->"b2b0334a-36eb-47db-aee7-a38f01418f0e"],
+Cell[CellGroupData[{
+Cell[127494, 2862, 432, 8, 37, "Input",ExpressionUUID->"65bc410b-e3a0-4ec1-8d26-1bd8e002db88"],
+Cell[127929, 2872, 515, 8, 42, "Output",ExpressionUUID->"9854b11b-8918-45b4-a63e-6d059700bec0"]
+}, Open  ]],
+Cell[128459, 2883, 121, 1, 44, "Text",ExpressionUUID->"a8aa4bca-e322-44ba-a149-fd99c958cde2"],
+Cell[CellGroupData[{
+Cell[128605, 2888, 330, 7, 37, "Input",ExpressionUUID->"5d607cdf-911d-482e-b5a3-83672dc5e694"],
+Cell[128938, 2897, 407, 7, 42, "Output",ExpressionUUID->"56fe2e54-3e3f-4091-8605-831b8c78edfa"]
+}, Open  ]],
+Cell[129360, 2907, 317, 5, 44, "Text",ExpressionUUID->"7d4ff711-c76e-45c1-a457-4b6891e92e84"],
+Cell[CellGroupData[{
+Cell[129702, 2916, 629, 13, 37, "Input",ExpressionUUID->"08b43be4-25c5-4b17-8488-442f9bd74a28"],
+Cell[130334, 2931, 247, 4, 42, "Output",ExpressionUUID->"841e1203-4d33-4fc2-9365-adf6826a5355"]
+}, Open  ]],
+Cell[130596, 2938, 728, 17, 102, "Text",ExpressionUUID->"354adce2-1dbd-48c4-acb4-1ebc126a95df"],
+Cell[CellGroupData[{
+Cell[131349, 2959, 607, 14, 37, "Input",ExpressionUUID->"671f4095-24d8-4de4-899f-165c871fc2ce"],
+Cell[131959, 2975, 1373, 23, 147, "Output",ExpressionUUID->"e0c49464-19dc-4b4a-a44c-7934185f2bec"]
+}, Open  ]],
+Cell[133347, 3001, 400, 8, 44, "Text",ExpressionUUID->"f38c1d96-2c3d-484e-98dc-319bfd50608a"],
+Cell[CellGroupData[{
+Cell[133772, 3013, 375, 7, 37, "Input",ExpressionUUID->"72ccf7e9-7aa6-4b3b-91c8-6e119a512ddd"],
+Cell[134150, 3022, 481, 8, 42, "Output",ExpressionUUID->"501acce7-d834-492d-b886-e2ffa9a8b13b"]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[43989, 1153, 122, 2, 115, "SlideShowNavigationBar",ExpressionUUID->"01503140-4d9e-40e1-96dd-45562fcf72d7",
+Cell[134692, 3037, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"fa9d5009-b1c5-40de-8707-2a2182dfe19c",
  CellTags->"SlideShowHeader"],
 Cell[CellGroupData[{
-Cell[44136, 1159, 105, 1, 131, "Section",ExpressionUUID->"5fef675e-f65e-43c0-a088-13036b1579bf"],
-Cell[44244, 1162, 201, 4, 68, "Text",ExpressionUUID->"6ca7cf7d-3ab6-4a63-a162-8c2d56b4b6f7"]
+Cell[134839, 3043, 311, 5, 84, "Section",ExpressionUUID->"4583c484-f0d5-4a7e-ad41-e2b03c6bfb83"],
+Cell[135153, 3050, 308, 6, 44, "Text",ExpressionUUID->"ba26c3f3-8b83-4ad0-bb27-4ecafceff597"],
+Cell[135464, 3058, 431, 9, 116, "Input",ExpressionUUID->"b9f8ae75-d543-4bbb-ac74-160d8e38578b"],
+Cell[135898, 3069, 433, 9, 116, "Input",ExpressionUUID->"5d2f1d0c-a26e-4f2c-8608-e2063bbf2791"],
+Cell[136334, 3080, 484, 10, 90, "Input",ExpressionUUID->"c5b92182-09ac-4d31-aa20-fa497316711d"],
+Cell[136821, 3092, 429, 10, 73, "Text",ExpressionUUID->"363635db-970f-471b-a078-95f24ba5e21c"],
+Cell[CellGroupData[{
+Cell[137275, 3106, 274, 6, 37, "Input",ExpressionUUID->"41bc3065-cd71-4263-b7a9-28308bf5109e"],
+Cell[137552, 3114, 216, 3, 42, "Output",ExpressionUUID->"07cfdde3-337a-43c3-894f-009cd055b418"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[137805, 3122, 276, 6, 37, "Input",ExpressionUUID->"db60f46a-cc59-44e7-857e-c2229f964ab4"],
+Cell[138084, 3130, 194, 3, 42, "Output",ExpressionUUID->"f0a3115b-1a71-4471-bf62-ee22ec3e0db7"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[138315, 3138, 276, 6, 37, "Input",ExpressionUUID->"966025e4-293f-4715-bbe3-176b35dffc1e"],
+Cell[138594, 3146, 245, 4, 42, "Output",ExpressionUUID->"1ab243b3-9ab4-4ea9-938a-068e9d6193a0"]
+}, Open  ]],
+Cell[138854, 3153, 332, 7, 44, "Text",ExpressionUUID->"3052273b-b218-406f-8912-ce55852460b5"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[139235, 3166, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"14838dc1-9a70-4721-85e5-ea603d40ba87",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[139382, 3172, 235, 4, 84, "Section",ExpressionUUID->"72070674-99f7-429c-a300-9bb46baef3d2"],
+Cell[139620, 3178, 516, 11, 73, "Text",ExpressionUUID->"a8aed800-f31b-48a0-8d6c-7336648eed7a"],
+Cell[CellGroupData[{
+Cell[140161, 3193, 250, 5, 37, "Input",ExpressionUUID->"b7edd48b-63df-42f5-9064-987821608fff"],
+Cell[140414, 3200, 490, 11, 95, "Output",ExpressionUUID->"f15165ce-a8d4-46f4-b056-4278db382541"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[140941, 3216, 250, 5, 37, "Input",ExpressionUUID->"07400058-2c59-4255-8100-bbf9d3ff5954"],
+Cell[141194, 3223, 489, 10, 69, "Output",ExpressionUUID->"f6b6bcf9-3b3b-4bdf-9ddd-49697d1ae91e"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[141720, 3238, 250, 5, 37, "Input",ExpressionUUID->"294f526f-e235-4cc4-902a-48c2d5809f1e"],
+Cell[141973, 3245, 582, 13, 69, "Output",ExpressionUUID->"889bb629-59e9-451b-a478-9c1b3f61bdac"]
+}, Open  ]],
+Cell[142570, 3261, 603, 23, 73, "Text",ExpressionUUID->"e9cee98f-08f8-4cdc-83eb-57de29134f27"],
+Cell[143176, 3286, 287, 8, 44, "Text",ExpressionUUID->"c13586c4-17fe-4ac4-bec7-e0ab9f1f5f05"],
+Cell[CellGroupData[{
+Cell[143488, 3298, 180, 3, 37, "Input",ExpressionUUID->"61f413a8-c84a-489e-bcb5-96a988a1e69c"],
+Cell[143671, 3303, 361, 6, 69, "Output",ExpressionUUID->"774d6ec4-0471-4f77-bf03-b2d7cffb9b8e"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[144069, 3314, 403, 7, 90, "Input",ExpressionUUID->"08774dde-cb79-4179-a51d-bcda0aaf8121"],
+Cell[144475, 3323, 349, 5, 69, "Output",ExpressionUUID->"eec16316-1a21-4a12-9651-dfb54159e5a5"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[144861, 3333, 250, 5, 37, "Input",ExpressionUUID->"a08a39cb-9af3-488a-9c40-5b10fb7b569c"],
+Cell[145114, 3340, 779, 17, 95, "Output",ExpressionUUID->"7108c4d3-5b39-4f9d-a5a1-67118582ac2c"]
+}, Open  ]],
+Cell[145908, 3360, 233, 6, 44, "Text",ExpressionUUID->"9538b421-0ab8-4c68-8126-0533920f348b"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[146190, 3372, 122, 2, 74, "SlideShowNavigationBar",ExpressionUUID->"01503140-4d9e-40e1-96dd-45562fcf72d7",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[146337, 3378, 105, 1, 84, "Section",ExpressionUUID->"5fef675e-f65e-43c0-a088-13036b1579bf"],
+Cell[146445, 3381, 201, 4, 44, "Text",ExpressionUUID->"6ca7cf7d-3ab6-4a63-a162-8c2d56b4b6f7"]
 }, Open  ]]
 }, Open  ]]
 }
